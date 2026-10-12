@@ -6,7 +6,7 @@ scanner (same exclusion rules as the trading framework). Writes scans/options_la
 A contract is flagged "unusual" when:
   - volume >= 500 contracts
   - volume / open interest >= 3   (new positioning, not existing OI churning)
-  - days to expiry <= 45
+  - 2 <= days to expiry <= 45  (0-1 DTE excluded: mostly same-day hedging/gamma noise)
   - premium (volume * last price * 100) >= $250k
 Per ticker it also reports call vs put premium and the call/put volume ratio.
 """
@@ -24,7 +24,7 @@ CBOE_URL = "https://cdn.cboe.com/api/global/delayed_quotes/options/{t}.json"
 UA = {"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"}
 OCC = re.compile(r"^(?P<root>[A-Z.]+)(?P<y>\d\d)(?P<m>\d\d)(?P<d>\d\d)(?P<cp>[CP])(?P<k>\d{8})$")
 
-MIN_VOL, MIN_VOL_OI, MAX_DTE, MIN_PREMIUM = 500, 3.0, 45, 250_000
+MIN_VOL, MIN_VOL_OI, MIN_DTE, MAX_DTE, MIN_PREMIUM = 500, 3.0, 2, 45, 250_000
 
 
 def universe(n: int = 120) -> list[str]:
@@ -50,7 +50,7 @@ def universe(n: int = 120) -> list[str]:
 
 
 def scan_ticker(t: str, today: date) -> dict | None:
-    req = urllib.request.Request(CBOE_URL.format(t=t.replace(".", "")), headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(CBOE_URL.format(t=t.replace(".", "/")), headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=20) as r:
         data = json.load(r)
     opts = data.get("data", {}).get("options", [])
@@ -70,7 +70,7 @@ def scan_ticker(t: str, today: date) -> dict | None:
         expiry = date(2000 + int(m["y"]), int(m["m"]), int(m["d"]))
         dte = (expiry - today).days
         ratio = vol / oi if oi else float("inf")
-        if vol >= MIN_VOL and ratio >= MIN_VOL_OI and 0 <= dte <= MAX_DTE and prem >= MIN_PREMIUM:
+        if vol >= MIN_VOL and ratio >= MIN_VOL_OI and MIN_DTE <= dte <= MAX_DTE and prem >= MIN_PREMIUM:
             flagged.append({
                 "contract": o["option"], "type": "call" if m["cp"] == "C" else "put",
                 "strike": int(m["k"]) / 1000, "expiry": expiry.isoformat(), "dte": dte,
@@ -96,7 +96,7 @@ def main() -> int:
     out = {"generated_utc": now.isoformat(timespec="seconds"),
            "generated_new_york": ny.isoformat(timespec="seconds"),
            "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
-           "criteria": {"min_volume": MIN_VOL, "min_vol_oi": MIN_VOL_OI, "max_dte": MAX_DTE, "min_premium_usd": MIN_PREMIUM},
+           "criteria": {"min_dte": MIN_DTE, "min_volume": MIN_VOL, "min_vol_oi": MIN_VOL_OI, "max_dte": MAX_DTE, "min_premium_usd": MIN_PREMIUM},
            "results": [], "errors": {}}
     try:
         tickers = universe()
