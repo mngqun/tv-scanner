@@ -32,8 +32,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install
+        run: pip install curl_cffi pymongo
       - name: Run scans
         env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
           TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
           TICKERS: ${{ github.event.inputs.tickers }}
         run: python tv_scan.py

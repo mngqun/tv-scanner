@@ -8,11 +8,15 @@ US hours (ADRs included), market cap >= $10B, price >= $20, liquid. No preferred
 """
 import json
 import os
+import random
 import sys
-import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from curl_cffi import requests
+
+import tv_auth
 
 URL = "https://scanner.tradingview.com/america/scan?label-product=screener-stock"
 
@@ -74,16 +78,11 @@ SCANS = {
 }
 
 
-def headers() -> dict:
-    h = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0",
-         "Origin": "https://www.tradingview.com", "Referer": "https://www.tradingview.com/"}
-    sid = os.environ.get("TV_SESSIONID", "").strip()
-    if sid:  # logged-in session -> real-time data where the account is entitled to it
-        h["Cookie"] = f"sessionid={sid}"
-    return h
+HEADERS = {"Content-Type": "application/json",
+           "Origin": "https://www.tradingview.com", "Referer": "https://www.tradingview.com/"}
 
 
-def run_scan(spec: dict) -> list[dict]:
+def run_scan(spec: dict, cookies: dict | None) -> list[dict]:
     payload = {
         "columns": COLUMNS,
         "filter": spec["filter"],
@@ -95,14 +94,10 @@ def run_scan(spec: dict) -> list[dict]:
         "symbols": {},
         "markets": ["america"],
     }
-    req = urllib.request.Request(
-        URL,
-        data=json.dumps(payload).encode(),
-        headers=headers(),
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.load(r)
+    r = requests.post(URL, data=json.dumps(payload), headers=HEADERS, cookies=cookies,
+                      impersonate=random.choice(["chrome", "firefox", "safari"]), timeout=30)
+    r.raise_for_status()
+    data = r.json()
     return [dict(zip(COLUMNS, item["d"]), symbol=item["s"]) for item in data.get("data", [])]
 
 
@@ -130,18 +125,41 @@ def main() -> int:
     if tickers:
         SCANS["watchlist"] = watchlist_spec(tickers)
     now_utc = datetime.now(timezone.utc)
+    auth = tv_auth.retrieve_tradingview_cookie()
+
+    def scan_all(cookies):
+        res, errs = {}, {}
+        for name, spec in SCANS.items():
+            try:
+                res[name] = run_scan(spec, cookies)
+            except Exception as e:  # keep other scans if one fails
+                errs[name] = f"{type(e).__name__}: {e}"
+        return res, errs
+
+    def is_realtime(res):
+        modes = [r.get("update_mode") for rows in res.values() for r in rows]
+        return any(m == "streaming" for m in modes)
+
+    scans, errors = scan_all(auth["cookies"])
+    # Same as stock-screener: if logged in but data is still delayed, clear the stored cookies,
+    # log in again once and re-scan.
+    if auth["cookies"] and scans and not is_realtime(scans) and auth["_id"] is not None:
+        tv_auth.invalidate(auth["_id"])
+        auth = tv_auth.retrieve_tradingview_cookie()
+        if auth["cookies"]:
+            scans, errors = scan_all(auth["cookies"])
+    realtime = bool(scans) and is_realtime(scans)
+    if auth["cookies"] and scans and not realtime and auth["_id"] is not None:
+        tv_auth.invalidate(auth["_id"])  # leave it cleared for the next run
     out = {
         "generated_utc": now_utc.isoformat(timespec="seconds"),
         "generated_new_york": now_utc.astimezone(ZoneInfo("America/New_York")).isoformat(timespec="seconds"),
-        "authenticated": bool(os.environ.get("TV_SESSIONID", "").strip()),
-        "scans": {},
-        "errors": {},
+        "authenticated": bool(auth["cookies"]),
+        "auth_source": auth["source"],
+        "realtime": realtime,
+        "scans": scans,
+        "errors": errors,
     }
-    for name, spec in SCANS.items():
-        try:
-            out["scans"][name] = run_scan(spec)
-        except Exception as e:  # keep other scans if one fails
-            out["errors"][name] = f"{type(e).__name__}: {e}"
 
     scans_dir = Path(__file__).parent / "scans"
     scans_dir.mkdir(exist_ok=True)
@@ -149,7 +167,8 @@ def main() -> int:
     text = json.dumps(out, indent=1, default=str)
     (scans_dir / "latest.json").write_text(text)
     (scans_dir / f"{stamp}.json").write_text(text)
-    print({k: len(v) for k, v in out["scans"].items()}, out["errors"])
+    print({k: len(v) for k, v in out["scans"].items()}, out["errors"],
+          f"auth={out['auth_source']} realtime={out['realtime']}")
     return 0 if out["scans"] else 1
 
 
