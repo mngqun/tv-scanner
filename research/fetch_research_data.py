@@ -36,17 +36,35 @@ def get(url: str) -> bytes:
 
 
 def membership_fja() -> pd.DataFrame:
-    listing = json.loads(get("https://api.github.com/repos/fja05680/sp500/contents"))
-    files = [f for f in listing if f["name"].startswith("S&P 500 Historical Components") and f["name"].endswith(".csv")]
-    if not files:
-        raise RuntimeError("no components file found")
-    # pick the most recent file by the date embedded in the name
-    def key(f):
-        m = re.search(r"(\d{2})-(\d{2})-(\d{4})", f["name"])
-        return (m.group(3), m.group(1), m.group(2)) if m else ("0", "0", "0")
-    f = sorted(files, key=key)[-1]
-    raw = pd.read_csv(io.BytesIO(get(f["download_url"])))
-    raw.columns = [c.lower() for c in raw.columns]
+    """Search the whole fja05680/sp500 repo tree and use the components file with the latest data."""
+    best = None
+    for branch in ["master", "main"]:
+        try:
+            tree = json.loads(get(f"https://api.github.com/repos/fja05680/sp500/git/trees/{branch}?recursive=1"))
+        except Exception:
+            continue
+        paths = [t["path"] for t in tree.get("tree", []) if t["path"].lower().endswith(".csv")
+                 and "historical components" in t["path"].lower()]
+        print("fja candidate files:", paths)
+        for pth in paths:
+            url = f"https://raw.githubusercontent.com/fja05680/sp500/{branch}/" + urllib.request.quote(pth)
+            try:
+                raw = pd.read_csv(io.BytesIO(get(url)))
+            except Exception as e:
+                print("read fail", pth, e)
+                continue
+            raw.columns = [c.lower() for c in raw.columns]
+            if "date" not in raw.columns or "tickers" not in raw.columns:
+                continue
+            mx = pd.to_datetime(raw["date"]).max()
+            print("file", pth, "max date", mx.date())
+            if best is None or mx > best[0]:
+                best = (mx, pth, raw)
+        if best:
+            break
+    if best is None:
+        raise RuntimeError("no fja components file found")
+    _, pth, raw = best
     rows = []
     for _, r in raw.iterrows():
         for t in str(r["tickers"]).split(","):
@@ -56,76 +74,36 @@ def membership_fja() -> pd.DataFrame:
             m = re.match(r"^(.+)-(\d{6})$", t)  # delisted names carry a -YYYYMM suffix in this dataset
             rows.append((pd.Timestamp(r["date"]), m.group(1) if m else t))
     m = pd.DataFrame(rows, columns=["date", "ticker"])
-    m["source"] = f["name"]
+    m["source"] = pth
     return m
 
 
-def membership_wiki() -> pd.DataFrame:
-    """Rebuild point-in-time membership backwards from today's list using Wikipedia's change log."""
+def membership_current_wiki() -> set:
     html = get("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies").decode("utf-8")
-    tables = pd.read_html(io.StringIO(html))
-    def flat(df):
-        df = df.copy()
-        df.columns = ["_".join([str(x) for x in c]).strip() if isinstance(c, tuple) else str(c) for c in df.columns]
-        return df
-    tables = [flat(t) for t in tables]
-    for i, t in enumerate(tables[:6]):
-        print("table", i, list(t.columns)[:8], len(t))
-    cur_t = next(t for t in tables if any(c.lower().startswith("symbol") for c in t.columns))
-    sym_col = next(c for c in cur_t.columns if c.lower().startswith("symbol"))
-    current = set(cur_t[sym_col].astype(str).str.strip())
-    ch = next(t for t in tables if any("added" in c.lower() for c in t.columns)
-              and any("removed" in c.lower() for c in t.columns))
-    date_col = ch.columns[0]
-    add_col = [c for c in ch.columns if "added" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
-    rem_col = [c for c in ch.columns if "removed" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
-    ch["d"] = pd.to_datetime(ch[date_col], errors="coerce")
-    ch = ch.dropna(subset=["d"]).sort_values("d", ascending=False)
-    snaps = []
-    members = set(current)
-    today = pd.Timestamp.today().normalize()
-    snaps.append((today, set(members)))
-    for d in sorted(ch.d.unique(), reverse=True):
-        grp = ch[ch.d == d]
-        snaps.append((pd.Timestamp(d), set(members)))  # set valid from d onward
-        for a in grp[add_col].dropna().astype(str):
-            members.discard(a.strip())
-        for r in grp[rem_col].dropna().astype(str):
-            if r.strip() and r.strip().lower() != "nan":
-                members.add(r.strip())
-    snaps.append((pd.Timestamp("1990-01-01"), set(members)))
-    rows = [(d, t) for d, ms in snaps for t in ms]
-    m = pd.DataFrame(rows, columns=["date", "ticker"])
-    # a snapshot dated d lists members valid from d; shift so 'latest snapshot before trade date' is correct
-    return m
+    t = pd.read_html(io.StringIO(html))[0]
+    col = next(c for c in t.columns if str(c).lower().startswith("symbol"))
+    return set(t[col].astype(str).str.strip())
 
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     meta = {"generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "start": START}
 
-    mem = membership_wiki()
-    meta["membership_source"] = "Wikipedia List_of_S&P_500_companies (current list + change log, rebuilt backwards)"
+    mem = membership_fja()
+    meta["membership_source"] = "github.com/fja05680/sp500: " + mem.source.iloc[0]
     meta["membership_snapshots"] = int(mem.date.nunique())
-    # cross-check against fja05680 snapshots (2013-2019) where available
+    fja_end = mem.date.max()
+    # extend to today with Wikipedia's current list if the dataset ends before today
     try:
-        fja = membership_fja()
-        meta["fja_file"] = fja.source.iloc[0]
-        meta["fja_range"] = [str(fja.date.min().date()), str(fja.date.max().date())]
-        snaps = sorted(mem.date.unique())
-        agree = []
-        for d in sorted(fja.date.unique())[::20]:
-            if d < pd.Timestamp("2014-01-01"):
-                continue
-            prior = [s for s in snaps if s <= d]
-            if not prior:
-                continue
-            w = set(mem[mem.date == prior[-1]].ticker)
-            f = set(fja[fja.date == d].ticker)
-            agree.append(len(w & f) / max(len(f), 1))
-        meta["wiki_vs_fja_overlap_mean"] = round(sum(agree) / len(agree), 3) if agree else None
+        cur = membership_current_wiki()
+        today = pd.Timestamp.today().normalize()
+        if today - fja_end > pd.Timedelta(days=7):
+            mem = pd.concat([mem[["date", "ticker"]], pd.DataFrame({"date": today, "ticker": sorted(cur)})])
+            meta["extended_with_wikipedia_current_list"] = str(today.date())
+        last_fja = set(mem[mem.date == fja_end].ticker)
+        meta["fja_end_vs_wiki_today_overlap"] = round(len(last_fja & cur) / max(len(cur), 1), 3)
     except Exception as e:
-        meta["fja_check_error"] = str(e)
+        meta["wiki_error"] = str(e)
     mem = mem[mem.date >= pd.Timestamp("2013-01-01")]
     mem[["date", "ticker"]].to_parquet(OUT / "membership.parquet", index=False)
     tickers = sorted(set(mem.ticker)) + ["SPY", "QQQ"]
