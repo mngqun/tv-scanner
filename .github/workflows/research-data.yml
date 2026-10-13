@@ -1,7 +1,12 @@
 name: Research data download
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full | retry"
+        required: false
+        default: "full"
 
 permissions:
   contents: write
@@ -22,7 +27,10 @@ jobs:
       - name: Install
         run: pip install yfinance pandas pyarrow lxml
       - name: Download
+        if: ${{ github.event.inputs.mode != 'retry' }}
         run: python research/fetch_research_data.py
+      - name: Retry missing tickers
+        run: python research/retry_missing.py
       - name: Commit data
         run: |
           git config user.name "tv-scanner-bot"
