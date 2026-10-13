@@ -60,17 +60,68 @@ def membership_fja() -> pd.DataFrame:
     return m
 
 
+def membership_wiki() -> pd.DataFrame:
+    """Rebuild point-in-time membership backwards from today's list using Wikipedia's change log."""
+    html = get("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies").decode("utf-8")
+    tables = pd.read_html(io.StringIO(html))
+    current = set(tables[0]["Symbol"].astype(str).str.strip())
+    ch = tables[1].copy()
+    ch.columns = ["_".join([str(x) for x in c]).strip() if isinstance(c, tuple) else str(c) for c in ch.columns]
+    date_col = [c for c in ch.columns if "date" in c.lower()][0]
+    add_col = [c for c in ch.columns if "added" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
+    rem_col = [c for c in ch.columns if "removed" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
+    ch["d"] = pd.to_datetime(ch[date_col], errors="coerce")
+    ch = ch.dropna(subset=["d"]).sort_values("d", ascending=False)
+    snaps = []
+    members = set(current)
+    today = pd.Timestamp.today().normalize()
+    snaps.append((today, set(members)))
+    for d in sorted(ch.d.unique(), reverse=True):
+        grp = ch[ch.d == d]
+        snaps.append((pd.Timestamp(d), set(members)))  # set valid from d onward
+        for a in grp[add_col].dropna().astype(str):
+            members.discard(a.strip())
+        for r in grp[rem_col].dropna().astype(str):
+            if r.strip() and r.strip().lower() != "nan":
+                members.add(r.strip())
+    snaps.append((pd.Timestamp("1990-01-01"), set(members)))
+    rows = [(d, t) for d, ms in snaps for t in ms]
+    m = pd.DataFrame(rows, columns=["date", "ticker"])
+    # a snapshot dated d lists members valid from d; shift so 'latest snapshot before trade date' is correct
+    return m
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     meta = {"generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "start": START}
 
-    mem = membership_fja()
-    mem = mem[mem.date >= pd.Timestamp("2013-06-01")]
-    meta["membership_source"] = mem.source.iloc[0]
+    mem = membership_wiki()
+    meta["membership_source"] = "Wikipedia List_of_S&P_500_companies (current list + change log, rebuilt backwards)"
     meta["membership_snapshots"] = int(mem.date.nunique())
+    # cross-check against fja05680 snapshots (2013-2019) where available
+    try:
+        fja = membership_fja()
+        meta["fja_file"] = fja.source.iloc[0]
+        meta["fja_range"] = [str(fja.date.min().date()), str(fja.date.max().date())]
+        snaps = sorted(mem.date.unique())
+        agree = []
+        for d in sorted(fja.date.unique())[::20]:
+            if d < pd.Timestamp("2014-01-01"):
+                continue
+            prior = [s for s in snaps if s <= d]
+            if not prior:
+                continue
+            w = set(mem[mem.date == prior[-1]].ticker)
+            f = set(fja[fja.date == d].ticker)
+            agree.append(len(w & f) / max(len(f), 1))
+        meta["wiki_vs_fja_overlap_mean"] = round(sum(agree) / len(agree), 3) if agree else None
+    except Exception as e:
+        meta["fja_check_error"] = str(e)
+    mem = mem[mem.date >= pd.Timestamp("2013-01-01")]
     mem[["date", "ticker"]].to_parquet(OUT / "membership.parquet", index=False)
     tickers = sorted(set(mem.ticker)) + ["SPY", "QQQ"]
     current = set(mem[mem.date == mem.date.max()].ticker)
+    meta["membership_range"] = [str(mem.date.min().date()), str(mem.date.max().date())]
     meta["tickers_ever_members"] = len(tickers) - 2
     meta["tickers_current_members"] = len(current)
     print(meta)
