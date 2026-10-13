@@ -1,0 +1,13 @@
+{
+ "data_generated_utc": "2026-10-13T13:59:04+00:00",
+ "tickers_with_data": 1370,
+ "test_start": "2023-08-30",
+ "test_end": "2026-10-13",
+ "spy_buy_hold_return_pct": 79.5,
+ "spy_years": 3.12,
+ "regime_days": {
+  "long": 525,
+  "short": 195,
+  "mixed": 63
+ }
+}
