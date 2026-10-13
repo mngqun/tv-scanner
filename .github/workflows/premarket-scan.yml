@@ -2,8 +2,7 @@ name: Pre-market TradingView scan
 
 on:
   schedule:
-    # GitHub cron is UTC. Two runs cover both US daylight and standard time:
-    # 12:20 UTC = 08:20 ET (EDT) / 07:20 ET (EST); 13:20 UTC = 09:20 ET (EDT) / 08:20 ET (EST)
+    # GitHub cron is UTC (runs between ~07:05 and 09:05 ET across EDT/EST).
     # GitHub often delays scheduled runs 10-60 min, so fire several times; latest file wins.
     - cron: "5 11 * * 1-5"
     - cron: "35 11 * * 1-5"
