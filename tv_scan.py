@@ -3,8 +3,8 @@
 Runs on GitHub Actions (which can reach scanner.tradingview.com) and commits results to
 scans/latest.json (+ a dated copy) so the Claude daily brief can read them.
 
-Universe rules (from the trading framework): US-listed common stock only (no ADRs/DRs,
-preferreds or funds), market cap >= $10B, price >= $20, liquid.
+Universe rules (from the trading framework): any stock listed on NYSE or Nasdaq and tradable in
+US hours (ADRs included), market cap >= $10B, price >= $20, liquid. No preferreds, funds or ETFs.
 """
 import json
 import os
@@ -29,13 +29,12 @@ COLUMNS = [
     "earnings_per_share_basic_ttm", "price_earnings_ttm",
 ]
 
-# US common stock only: excludes DRs (foreign ADRs), preferreds, funds, pre-IPO.
+# Any stock listed on NYSE/Nasdaq (incl. ADRs / foreign-domiciled issuers); excludes preferreds, funds/ETFs, pre-IPO.
 COMMON_ONLY = {
     "operator": "and",
     "operands": [
-        {"expression": {"left": "type", "operation": "equal", "right": "stock"}},
-        {"expression": {"left": "typespecs", "operation": "has", "right": ["common"]}},
-        {"expression": {"left": "typespecs", "operation": "has_none_of", "right": ["pre-ipo"]}},
+        {"expression": {"left": "type", "operation": "in_range", "right": ["stock", "dr"]}},  # dr = ADRs
+        {"expression": {"left": "typespecs", "operation": "has_none_of", "right": ["pre-ipo", "preferred"]}},
     ],
 }
 
@@ -44,7 +43,6 @@ BASE_FILTERS = [
     {"left": "market_cap_basic", "operation": "egreater", "right": 10_000_000_000},
     {"left": "average_volume_10d_calc", "operation": "greater", "right": 1_000_000},
     {"left": "exchange", "operation": "in_range", "right": ["NYSE", "NASDAQ", "AMEX"]},
-    {"left": "country", "operation": "equal", "right": "United States"},  # excludes foreign ADRs (AZN, DB...)
 ]
 
 SCANS = {
