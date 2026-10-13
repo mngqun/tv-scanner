@@ -28,10 +28,16 @@ jobs:
         run: pip install yfinance pandas pyarrow lxml
       - name: Download
         if: ${{ github.event.inputs.mode != 'retry' }}
-        run: python research/fetch_research_data.py
+        run: |
+          mkdir -p research/data
+          set -o pipefail
+          python research/fetch_research_data.py 2>&1 | tee research/data/run.log
       - name: Retry missing tickers
-        run: python research/retry_missing.py
+        run: |
+          set -o pipefail
+          python research/retry_missing.py 2>&1 | tee research/data/retry.log
       - name: Commit data
+        if: always()
         run: |
           git config user.name "tv-scanner-bot"
           git config user.email "tv-scanner-bot@users.noreply.github.com"
