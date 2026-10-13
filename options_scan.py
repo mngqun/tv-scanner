@@ -110,7 +110,7 @@ def main() -> int:
                 out["results"].append(res)
         except Exception as e:
             out["errors"][t] = f"{type(e).__name__}: {e}"
-        time.sleep(0.4)
+        time.sleep(1.5)
     out["results"].sort(key=lambda r: r["flagged_contracts"][0]["premium_usd"], reverse=True)
     d = Path(__file__).parent / "scans"
     d.mkdir(exist_ok=True)
