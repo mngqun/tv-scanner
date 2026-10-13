@@ -87,7 +87,7 @@ def run_scan(spec: dict) -> list[dict]:
     payload = {
         "columns": COLUMNS,
         "filter": spec["filter"],
-        "filter2": COMMON_ONLY,
+        **({"filter2": spec.get("filter2", COMMON_ONLY)} if spec.get("filter2", COMMON_ONLY) else {}),
         "ignore_unknown_fields": False,
         "options": {"lang": "en"},
         "range": [0, spec.get("limit", 50)],
@@ -106,8 +106,22 @@ def run_scan(spec: dict) -> list[dict]:
     return [dict(zip(COLUMNS, item["d"]), symbol=item["s"]) for item in data.get("data", [])]
 
 
+# Index & sector ETFs for the market-regime read (always included).
+ETFS = ["SPY", "QQQ", "IWM", "DIA", "SOXX", "SMH", "XLF", "XLK", "XLE", "XLV", "XLY", "XLP",
+        "XLI", "XLU", "XLRE", "XLB", "XLC", "TLT"]
+SCANS["market_etfs"] = {
+    "filter": [{"left": "name", "operation": "in_range", "right": ETFS},
+               {"left": "exchange", "operation": "in_range", "right": ["AMEX", "NASDAQ", "NYSE", "CBOE"]}],
+    "filter2": None,
+    "sort": {"sortBy": "name", "sortOrder": "asc"},
+    "limit": 60,
+}
+
+
 def watchlist_spec(tickers: list[str]) -> dict:
-    return {"filter": [{"left": "name", "operation": "in_range", "right": tickers}],
+    return {"filter": [{"left": "name", "operation": "in_range", "right": tickers},
+                       {"left": "exchange", "operation": "in_range", "right": ["AMEX", "NASDAQ", "NYSE", "CBOE"]}],
+            "filter2": None,
             "sort": {"sortBy": "name", "sortOrder": "asc"}, "limit": len(tickers) * 3}
 
 
