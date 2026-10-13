@@ -7,6 +7,7 @@ Universe rules (from the trading framework): US-listed common stock only (no ADR
 preferreds or funds), market cap >= $10B, price >= $20, liquid.
 """
 import json
+import os
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -16,7 +17,7 @@ from zoneinfo import ZoneInfo
 URL = "https://scanner.tradingview.com/america/scan?label-product=screener-stock"
 
 COLUMNS = [
-    "name", "description", "update_mode", "type", "typespecs", "exchange", "sector", "industry",
+    "name", "description", "update_mode", "country", "type", "typespecs", "exchange", "sector", "industry",
     "market_cap_basic", "close", "change", "high", "low", "volume",
     "premarket_open", "premarket_high", "premarket_low", "premarket_close",
     "premarket_change", "premarket_gap", "premarket_volume",
@@ -43,21 +44,22 @@ BASE_FILTERS = [
     {"left": "market_cap_basic", "operation": "egreater", "right": 10_000_000_000},
     {"left": "average_volume_10d_calc", "operation": "greater", "right": 1_000_000},
     {"left": "exchange", "operation": "in_range", "right": ["NYSE", "NASDAQ", "AMEX"]},
+    {"left": "country", "operation": "equal", "right": "United States"},  # excludes foreign ADRs (AZN, DB...)
 ]
 
 SCANS = {
-    # Pre-market gap-ups 1.5%–8% with real pre-market participation (long continuation / pullback setups)
+    # Pre-market movers up >= 1.5% vs prior close with real pre-market participation (no upper cap: earnings gaps can exceed 8%)
     "premarket_gap_up": {
         "filter": BASE_FILTERS + [
-            {"left": "premarket_gap", "operation": "in_range", "right": [1.5, 8]},
+            {"left": "premarket_change", "operation": "egreater", "right": 1.5},
             {"left": "premarket_volume", "operation": "greater", "right": 50_000},
         ],
         "sort": {"sortBy": "premarket_change", "sortOrder": "desc"},
     },
-    # Pre-market gap-downs -8% to -1.5% (short setups / failed-breakdown reversals)
+    # Pre-market movers down <= -1.5% vs prior close
     "premarket_gap_down": {
         "filter": BASE_FILTERS + [
-            {"left": "premarket_gap", "operation": "in_range", "right": [-8, -1.5]},
+            {"left": "premarket_change", "operation": "eless", "right": -1.5},
             {"left": "premarket_volume", "operation": "greater", "right": 50_000},
         ],
         "sort": {"sortBy": "premarket_change", "sortOrder": "asc"},
@@ -74,6 +76,15 @@ SCANS = {
 }
 
 
+def headers() -> dict:
+    h = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0",
+         "Origin": "https://www.tradingview.com", "Referer": "https://www.tradingview.com/"}
+    sid = os.environ.get("TV_SESSIONID", "").strip()
+    if sid:  # logged-in session -> real-time data where the account is entitled to it
+        h["Cookie"] = f"sessionid={sid}"
+    return h
+
+
 def run_scan(spec: dict) -> list[dict]:
     payload = {
         "columns": COLUMNS,
@@ -81,7 +92,7 @@ def run_scan(spec: dict) -> list[dict]:
         "filter2": COMMON_ONLY,
         "ignore_unknown_fields": False,
         "options": {"lang": "en"},
-        "range": [0, 50],
+        "range": [0, spec.get("limit", 50)],
         "sort": spec["sort"],
         "symbols": {},
         "markets": ["america"],
@@ -89,7 +100,7 @@ def run_scan(spec: dict) -> list[dict]:
     req = urllib.request.Request(
         URL,
         data=json.dumps(payload).encode(),
-        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
+        headers=headers(),
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -97,11 +108,20 @@ def run_scan(spec: dict) -> list[dict]:
     return [dict(zip(COLUMNS, item["d"]), symbol=item["s"]) for item in data.get("data", [])]
 
 
+def watchlist_spec(tickers: list[str]) -> dict:
+    return {"filter": [{"left": "name", "operation": "in_range", "right": tickers}],
+            "sort": {"sortBy": "name", "sortOrder": "asc"}, "limit": len(tickers) * 3}
+
+
 def main() -> int:
+    tickers = [t.strip().upper() for t in os.environ.get("TICKERS", "").replace(" ", ",").split(",") if t.strip()]
+    if tickers:
+        SCANS["watchlist"] = watchlist_spec(tickers)
     now_utc = datetime.now(timezone.utc)
     out = {
         "generated_utc": now_utc.isoformat(timespec="seconds"),
         "generated_new_york": now_utc.astimezone(ZoneInfo("America/New_York")).isoformat(timespec="seconds"),
+        "authenticated": bool(os.environ.get("TV_SESSIONID", "").strip()),
         "scans": {},
         "errors": {},
     }

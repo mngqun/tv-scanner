@@ -1,18 +1,28 @@
 name: Pre-market TradingView scan
 
 on:
+  # Primary trigger: the daily brief calls workflow_dispatch at brief time (GitHub's scheduler
+  # proved unreliable: scheduled runs were skipped or delayed by hours).
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Optional comma-separated tickers for a quote check (e.g. UNH,GS)"
+        required: false
+        default: ""
+  # Backup schedule only (UTC, ~07:05-09:05 ET). May be delayed or skipped by GitHub.
   schedule:
-    # GitHub cron is UTC (runs between ~07:05 and 09:05 ET across EDT/EST).
-    # GitHub often delays scheduled runs 10-60 min, so fire several times; latest file wins.
     - cron: "5 11 * * 1-5"
     - cron: "35 11 * * 1-5"
     - cron: "5 12 * * 1-5"
     - cron: "35 12 * * 1-5"
     - cron: "5 13 * * 1-5"
-  workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: scans-commit
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -23,6 +33,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run scans
+        env:
+          TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
+          TICKERS: ${{ github.event.inputs.tickers }}
         run: python tv_scan.py
       - name: Commit results
         run: |

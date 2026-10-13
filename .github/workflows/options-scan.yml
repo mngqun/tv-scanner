@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scans-commit
+  cancel-in-progress: false
+
 jobs:
   options:
     runs-on: ubuntu-latest
