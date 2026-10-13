@@ -1,0 +1,33 @@
+name: Backtest data download
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scans-commit
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install yfinance pandas
+      - name: Download history
+        run: python backtest/fetch_data.py
+      - name: Commit data
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          git add backtest/data/
+          git commit -m "backtest data $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          git pull --rebase
+          git push
