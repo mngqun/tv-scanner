@@ -64,10 +64,19 @@ def membership_wiki() -> pd.DataFrame:
     """Rebuild point-in-time membership backwards from today's list using Wikipedia's change log."""
     html = get("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies").decode("utf-8")
     tables = pd.read_html(io.StringIO(html))
-    current = set(tables[0]["Symbol"].astype(str).str.strip())
-    ch = tables[1].copy()
-    ch.columns = ["_".join([str(x) for x in c]).strip() if isinstance(c, tuple) else str(c) for c in ch.columns]
-    date_col = [c for c in ch.columns if "date" in c.lower()][0]
+    def flat(df):
+        df = df.copy()
+        df.columns = ["_".join([str(x) for x in c]).strip() if isinstance(c, tuple) else str(c) for c in df.columns]
+        return df
+    tables = [flat(t) for t in tables]
+    for i, t in enumerate(tables[:6]):
+        print("table", i, list(t.columns)[:8], len(t))
+    cur_t = next(t for t in tables if any(c.lower().startswith("symbol") for c in t.columns))
+    sym_col = next(c for c in cur_t.columns if c.lower().startswith("symbol"))
+    current = set(cur_t[sym_col].astype(str).str.strip())
+    ch = next(t for t in tables if any("added" in c.lower() for c in t.columns)
+              and any("removed" in c.lower() for c in t.columns))
+    date_col = ch.columns[0]
     add_col = [c for c in ch.columns if "added" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
     rem_col = [c for c in ch.columns if "removed" in c.lower() and ("ticker" in c.lower() or "symbol" in c.lower())][0]
     ch["d"] = pd.to_datetime(ch[date_col], errors="coerce")
