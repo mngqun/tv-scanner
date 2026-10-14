@@ -1,0 +1,78 @@
+
+### 1. Frozen hypotheses — DESIGN 2015-2020 (net of 0.10% round trip)
+                                    label      n  days  mean_%  median_%   win  t_daily
+A: gap+ 1-2.5ATR trend up, open->close d3   1252   515  -1.206    -0.872 0.407    -2.27
+Control (no gap, trend up) open->close d3  93274  1138  -0.004     0.059 0.512    -0.01
+          B: gap- <=-1.5%, open->close d0  15423  1277  -0.108    -0.084 0.484    -1.30
+  B2: gap- & regime short, open->close d0   7539   309  -0.256    -0.243 0.461    -1.38
+          Control (no gap) open->close d0 198441  1505  -0.108    -0.083 0.464    -4.58
+
+### 2. A — holding period & entry timing
+                       label    n  days  mean_%  median_%   win  t_daily
+            A open->close d0 1252   515  -0.501    -0.498 0.399    -2.94
+            A open->close d1 1252   515  -0.356    -0.485 0.424    -2.75
+            A open->close d2 1252   515  -0.781    -0.639 0.413    -1.82
+            A open->close d3 1252   515  -1.206    -0.872 0.407    -2.27
+            A open->close d4 1252   515  -1.640    -0.843 0.411    -2.29
+A close d0 (MOC) -> close d1 1252   515   0.049    -0.029 0.495    -2.11
+A close d0 (MOC) -> close d2 1252   515  -0.379    -0.127 0.474    -0.89
+A close d0 (MOC) -> close d3 1252   515  -0.809    -0.468 0.435    -1.49
+A close d0 (MOC) -> close d4 1252   515  -1.251    -0.332 0.446    -1.52
+
+### 3. A — filters
+                               label    n  days  mean_%  median_%   win  t_daily
+  gap 0.5-1 ATR, trend up, regime ok 2413   507  -1.124    -0.879 0.404    -2.17
+  gap 1-1.5 ATR, trend up, regime ok  795   392  -1.242    -0.808 0.397    -2.32
+gap 1.5-2.5 ATR, trend up, regime ok  457   271  -1.144    -0.992 0.422    -0.97
+  gap 2.5-4 ATR, trend up, regime ok  189   137  -0.510    -0.251 0.460    -0.15
+   gap 4-99 ATR, trend up, regime ok   89    81   0.122     0.272 0.528     1.04
+                    A & earnings day  386   258  -0.210    -0.127 0.482    -0.78
+                A & NOT earnings day  866   333  -1.650    -1.166 0.373    -3.05
+                     A & regime long 1161   461  -1.245    -0.937 0.399    -1.71
+                    A & regime mixed   91    54  -0.715     0.045 0.505    -2.04
+      gap 1-2.5 ATR but NOT trend up 1449   588  -0.259    -0.013 0.500    -2.52
+                     A & above SMA50 1096   483  -1.304    -0.942 0.397    -2.64
+
+### 4. B — splits
+                 label     n  days  mean_%  median_%   win  t_daily
+      B & earnings day  1421   628  -0.146    -0.143 0.471    -1.78
+  B & NOT earnings day 14002  1143  -0.104    -0.076 0.486    -0.31
+   B gap -99 to -4 ATR   195   158  -0.486    -0.100 0.492    -2.39
+  B gap -4 to -2.5 ATR   483   269  -0.039     0.095 0.522    -2.90
+B gap -2.5 to -1.5 ATR  1491   539  -0.118    -0.075 0.484     0.01
+  B gap -1.5 to -1 ATR  2585   669  -0.349    -0.196 0.460    -0.69
+     B gap -1 to 0 ATR 10669  1015  -0.045    -0.061 0.489     0.07
+       B & regime long  6628   849  -0.179    -0.092 0.480    -0.85
+      B & regime mixed  1256   119   1.151     1.091 0.644     0.48
+      B & regime short  7539   309  -0.256    -0.243 0.461    -1.38
+    B & stock trend up  5587   973  -0.212    -0.126 0.473    -1.89
+  B & stock trend down  7162   831  -0.137    -0.100 0.485    -0.43
+      B open->close d1 15423  1277  -0.008     0.112 0.513    -0.25
+      B open->close d2 15423  1277  -0.453    -0.036 0.497    -0.09
+      B open->close d3 15423  1277  -0.364     0.136 0.512     1.43
+
+### 5. A — MAE / MFE / final over 3 days (ATR units, quantiles)
+       mae   mfe   fin
+0.10 -3.07  0.14 -2.47
+0.25 -2.14  0.40 -1.45
+0.50 -1.23  0.91 -0.35
+0.75 -0.64  1.68  0.76
+0.90 -0.24  2.65  1.85
+
+### 6. A — stop distance (3-day time exit)
+                 label    n  days  mean_%  median_%   win  t_daily
+A 3-day, stop 0.75 ATR 1252   515  -0.602    -1.472 0.264    -1.62
+ A 3-day, stop 1.0 ATR 1252   515  -0.690    -1.660 0.326    -1.65
+ A 3-day, stop 1.5 ATR 1252   515  -0.880    -1.454 0.379    -1.73
+ A 3-day, stop 2.0 ATR 1252   515  -1.026    -1.071 0.394    -2.02
+ A 3-day, stop 3.0 ATR 1252   515  -1.110    -0.883 0.407    -1.90
+      A 3-day, no stop 1252   515  -1.206    -0.872 0.407    -2.27
+
+### 7. By year (design period)
+ year  A_n  A_mean_%  B_n  B_mean_%  ctrl_d3_%
+ 2015  106    -0.498 1664     0.046     -0.179
+ 2016  128    -0.118 2271     0.084      0.082
+ 2017  193    -0.124  666     0.033      0.154
+ 2018  159    -1.175 1826     0.500     -0.279
+ 2019  214    -0.119 1689    -0.053      0.158
+ 2020  452    -2.668 7307    -0.381      0.315

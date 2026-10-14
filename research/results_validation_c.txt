@@ -1,0 +1,42 @@
+
+## DESIGN 2015-2020
+                     label      n  days  mean_%  median_%   win  t_daily
+        rule C, base costs   1958   635   0.383     0.322 0.569     2.83
+          rule C, 2x costs   1958   635   0.284     0.222 0.546     1.54
+control: short no-gap days 198441  1505  -0.092    -0.117 0.449    -5.19
+stop-hit rate 0.035
+        n  mean_%
+y                
+2015  303   1.382
+2016  206  -0.061
+2017  252   0.083
+2018  272   0.278
+2019  223   0.117
+2020  702   0.316
+portfolio: trades 927 (2.98/wk), win 0.561, avg R +0.055, P&L $5,074 (+8.5%/yr on $10k), max DD $-549
+
+## VALIDATION 2021-2022
+                     label     n  days  mean_%  median_%   win  t_daily
+        rule C, base costs   818   216  -0.141    -0.029 0.491     1.40
+          rule C, 2x costs   818   216  -0.241    -0.129 0.482     0.80
+control: short no-gap days 70536   503  -0.097    -0.106 0.462    -2.55
+stop-hit rate 0.039
+        n  mean_%
+y                
+2021  299  -0.066
+2022  519  -0.183
+portfolio: trades 307 (3.04/wk), win 0.554, avg R +0.023, P&L $652 (+3.4%/yr on $10k), max DD $-852
+
+## 2023-2026 (reported only)
+                     label      n  days  mean_%  median_%   win  t_daily
+        rule C, base costs   2281   586   0.113     0.156 0.530     0.50
+          rule C, 2x costs   2281   586   0.013     0.056 0.509    -0.58
+control: short no-gap days 186424   947  -0.118    -0.134 0.452    -5.13
+stop-hit rate 0.035
+        n  mean_%
+y                
+2023  379  -0.372
+2024  650   0.159
+2025  695   0.510
+2026  557  -0.105
+portfolio: trades 908 (4.63/wk), win 0.564, avg R +0.035, P&L $3,154 (+8.4%/yr on $10k), max DD $-914

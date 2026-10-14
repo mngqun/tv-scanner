@@ -1,0 +1,39 @@
+### C exploration (design 2015-2020, net of 0.10% round trip, short side)
+                                            label    n  days  mean_%  median_%   win  t_daily
+  C short non-earn gap+ 0.5-1 ATR, cover close d0 7262   877  -0.281    -0.218 0.453     0.21
+  C short non-earn gap+ 0.5-1 ATR, cover close d1 7262   877   0.238     0.184 0.526     0.62
+  C short non-earn gap+ 0.5-1 ATR, cover close d3 7262   877   0.403     0.019 0.502     0.34
+  C short non-earn gap+ 1-1.5 ATR, cover close d0 1439   522   0.337     0.263 0.560     2.24
+  C short non-earn gap+ 1-1.5 ATR, cover close d1 1439   522   0.224     0.393 0.559     2.35
+  C short non-earn gap+ 1-1.5 ATR, cover close d3 1439   522   0.424     0.135 0.517     2.10
+C short non-earn gap+ 1.5-2.5 ATR, cover close d0  519   282   0.570     0.489 0.597     1.79
+C short non-earn gap+ 1.5-2.5 ATR, cover close d1  519   282   0.235     0.390 0.559     2.48
+C short non-earn gap+ 1.5-2.5 ATR, cover close d3  519   282   1.103     0.673 0.565     1.76
+ C short non-earn gap+ 2.5-99 ATR, cover close d0  187   114   0.054     0.112 0.529     1.17
+ C short non-earn gap+ 2.5-99 ATR, cover close d1  187   114  -0.204     0.274 0.551     1.62
+ C short non-earn gap+ 2.5-99 ATR, cover close d3  187   114   1.222     1.098 0.588     1.17
+  C short non-earn gap+ 1-2.5 ATR, cover close d0 1958   635   0.399     0.323 0.570     2.92
+  C short non-earn gap+ 1-2.5 ATR, cover close d1 1958   635   0.227     0.391 0.559     2.91
+  C short non-earn gap+ 1-2.5 ATR, cover close d3 1958   635   0.604     0.269 0.530     2.69
+                         C(1-2.5) regime long, d0 1251   420   0.261     0.305 0.567     1.99
+                        C(1-2.5) regime mixed, d0  167    60   0.398     0.366 0.635     1.70
+                        C(1-2.5) regime short, d0  540   155   0.717     0.367 0.557     1.71
+                      C(1-2.5) stock trend up, d0  934   382   0.360     0.349 0.582     1.77
+                  C(1-2.5) stock NOT trend up, d0 1024   378   0.434     0.260 0.559     2.25
+           contrast: EARNINGS gap+ 1-2.5 short d0  833   476   0.235     0.101 0.523     2.28
+
+### C(1-2.5 ATR non-earnings) by year
+        n  d0_mean_pct  d1_mean_pct  d3_mean_pct
+year                                            
+2015  303        1.382        0.208       -0.643
+2016  206       -0.090       -0.301       -0.562
+2017  252        0.104        0.120       -0.165
+2018  272        0.313        0.950        0.636
+2019  223        0.092        0.123       -0.106
+2020  702        0.354        0.181        1.972
+
+### C d0 adverse excursion (high - open, ATR)
+0.50    0.45
+0.75    0.87
+0.90    1.41
+0.95    1.78
