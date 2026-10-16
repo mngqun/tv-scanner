@@ -1,0 +1,37 @@
+name: Options chain snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Comma-separated tickers (e.g. TQQQ,QQQ)"
+        required: false
+        default: "TQQQ"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scans-commit
+  cancel-in-progress: false
+
+jobs:
+  chain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Snapshot chains
+        env:
+          TICKERS: ${{ github.event.inputs.tickers }}
+        run: python options_chain.py
+      - name: Commit results
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          git add scans/
+          git commit -m "chain $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          git pull --rebase
+          git push

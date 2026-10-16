@@ -25,6 +25,8 @@ COLUMNS = [
     "market_cap_basic", "close", "change", "high", "low", "volume",
     "premarket_open", "premarket_high", "premarket_low", "premarket_close",
     "premarket_change", "premarket_gap", "premarket_volume",
+    "postmarket_open", "postmarket_high", "postmarket_low", "postmarket_close",
+    "postmarket_change", "postmarket_volume",
     "average_volume_10d_calc", "average_volume_30d_calc", "relative_volume_10d_calc",
     "RSI", "ATR", "ADX", "MACD.macd", "MACD.signal", "VWAP",
     "EMA20", "EMA50", "EMA200", "SMA20", "SMA50",
