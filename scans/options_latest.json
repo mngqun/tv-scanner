@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-10-23T23:29:29+00:00",
- "generated_new_york": "2026-10-23T19:29:29-04:00",
+ "generated_utc": "2026-10-24T00:02:30+00:00",
+ "generated_new_york": "2026-10-23T20:02:30-04:00",
  "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
  "criteria": {
   "min_dte": 2,
@@ -12,7 +12,7 @@
  "results": [
   {
    "ticker": "MSTR",
-   "cboe_timestamp": "2026-10-23 23:30:00",
+   "cboe_timestamp": "2026-10-24 00:03:01",
    "call_premium_usd": 242950668,
    "put_premium_usd": 69509475,
    "call_put_volume_ratio": 1.8,
@@ -149,7 +149,7 @@
   },
   {
    "ticker": "MRVL",
-   "cboe_timestamp": "2026-10-23 23:29:59",
+   "cboe_timestamp": "2026-10-24 00:03:00",
    "call_premium_usd": 58963376,
    "put_premium_usd": 71861642,
    "call_put_volume_ratio": 1.19,
@@ -222,7 +222,7 @@
   },
   {
    "ticker": "NVDA",
-   "cboe_timestamp": "2026-10-23 23:29:00",
+   "cboe_timestamp": "2026-10-24 00:02:01",
    "call_premium_usd": 337510497,
    "put_premium_usd": 291649282,
    "call_put_volume_ratio": 1.67,
@@ -359,7 +359,7 @@
   },
   {
    "ticker": "NBIS",
-   "cboe_timestamp": "2026-10-23 23:29:51",
+   "cboe_timestamp": "2026-10-24 00:02:52",
    "call_premium_usd": 42072946,
    "put_premium_usd": 130555247,
    "call_put_volume_ratio": 1.53,
@@ -400,7 +400,7 @@
   },
   {
    "ticker": "MU",
-   "cboe_timestamp": "2026-10-23 23:28:57",
+   "cboe_timestamp": "2026-10-24 00:01:59",
    "call_premium_usd": 510795332,
    "put_premium_usd": 503457594,
    "call_put_volume_ratio": 1.15,
@@ -537,7 +537,7 @@
   },
   {
    "ticker": "AMZN",
-   "cboe_timestamp": "2026-10-23 23:28:55",
+   "cboe_timestamp": "2026-10-24 00:01:56",
    "call_premium_usd": 175020443,
    "put_premium_usd": 119181997,
    "call_put_volume_ratio": 1.96,
@@ -674,7 +674,7 @@
   },
   {
    "ticker": "TSLA",
-   "cboe_timestamp": "2026-10-23 23:28:56",
+   "cboe_timestamp": "2026-10-24 00:01:57",
    "call_premium_usd": 467522324,
    "put_premium_usd": 303996799,
    "call_put_volume_ratio": 1.06,
@@ -811,7 +811,7 @@
   },
   {
    "ticker": "PLTR",
-   "cboe_timestamp": "2026-10-23 23:28:51",
+   "cboe_timestamp": "2026-10-24 00:01:52",
    "call_premium_usd": 191622080,
    "put_premium_usd": 52419613,
    "call_put_volume_ratio": 1.39,
@@ -884,7 +884,7 @@
   },
   {
    "ticker": "INTC",
-   "cboe_timestamp": "2026-10-23 23:29:01",
+   "cboe_timestamp": "2026-10-24 00:02:02",
    "call_premium_usd": 92170475,
    "put_premium_usd": 75635578,
    "call_put_volume_ratio": 1.84,
@@ -1046,7 +1046,7 @@
   },
   {
    "ticker": "MRNA",
-   "cboe_timestamp": "2026-10-23 23:28:52",
+   "cboe_timestamp": "2026-10-24 00:01:53",
    "call_premium_usd": 91097372,
    "put_premium_usd": 46303977,
    "call_put_volume_ratio": 0.85,
@@ -1183,7 +1183,7 @@
   },
   {
    "ticker": "AAPL",
-   "cboe_timestamp": "2026-10-23 23:28:57",
+   "cboe_timestamp": "2026-10-24 00:01:58",
    "call_premium_usd": 321394183,
    "put_premium_usd": 123803888,
    "call_put_volume_ratio": 1.09,
@@ -1320,7 +1320,7 @@
   },
   {
    "ticker": "COIN",
-   "cboe_timestamp": "2026-10-23 23:31:01",
+   "cboe_timestamp": "2026-10-24 00:04:02",
    "call_premium_usd": 33329088,
    "put_premium_usd": 46678892,
    "call_put_volume_ratio": 1.43,
@@ -1393,7 +1393,7 @@
   },
   {
    "ticker": "BAC",
-   "cboe_timestamp": "2026-10-23 23:31:02",
+   "cboe_timestamp": "2026-10-24 00:04:03",
    "call_premium_usd": 5353102,
    "put_premium_usd": 20766161,
    "call_put_volume_ratio": 1.65,
@@ -1507,7 +1507,7 @@
   },
   {
    "ticker": "BE",
-   "cboe_timestamp": "2026-10-23 23:28:49",
+   "cboe_timestamp": "2026-10-24 00:01:51",
    "call_premium_usd": 145858469,
    "put_premium_usd": 199926836,
    "call_put_volume_ratio": 1.49,
@@ -1644,7 +1644,7 @@
   },
   {
    "ticker": "AMD",
-   "cboe_timestamp": "2026-10-23 23:29:02",
+   "cboe_timestamp": "2026-10-24 00:02:03",
    "call_premium_usd": 239752894,
    "put_premium_usd": 213480180,
    "call_put_volume_ratio": 1.22,
@@ -1781,7 +1781,7 @@
   },
   {
    "ticker": "SNDK",
-   "cboe_timestamp": "2026-10-23 23:28:53",
+   "cboe_timestamp": "2026-10-24 00:01:54",
    "call_premium_usd": 179979014,
    "put_premium_usd": 363102427,
    "call_put_volume_ratio": 1.06,
@@ -1854,7 +1854,7 @@
   },
   {
    "ticker": "GOOGL",
-   "cboe_timestamp": "2026-10-23 23:28:59",
+   "cboe_timestamp": "2026-10-24 00:02:00",
    "call_premium_usd": 107029317,
    "put_premium_usd": 72838538,
    "call_put_volume_ratio": 2.1,
@@ -2178,7 +2178,7 @@
   },
   {
    "ticker": "CRWV",
-   "cboe_timestamp": "2026-10-23 23:30:01",
+   "cboe_timestamp": "2026-10-24 00:03:02",
    "call_premium_usd": 66733124,
    "put_premium_usd": 149343449,
    "call_put_volume_ratio": 1.32,
@@ -2283,7 +2283,7 @@
   },
   {
    "ticker": "SPCX",
-   "cboe_timestamp": "2026-10-23 23:28:50",
+   "cboe_timestamp": "2026-10-24 00:01:51",
    "call_premium_usd": 236469960,
    "put_premium_usd": 130281776,
    "call_put_volume_ratio": 1.47,
@@ -2420,7 +2420,7 @@
   },
   {
    "ticker": "CBRS",
-   "cboe_timestamp": "2026-10-23 23:32:51",
+   "cboe_timestamp": "2026-10-24 00:04:52",
    "call_premium_usd": 14133270,
    "put_premium_usd": 17238169,
    "call_put_volume_ratio": 1.43,
@@ -2456,6 +2456,31 @@
      "premium_usd": 360500,
      "iv": 0.9852,
      "delta": -0.3622
+    }
+   ]
+  },
+  {
+   "ticker": "CLS",
+   "cboe_timestamp": "2026-10-23 23:57:35",
+   "call_premium_usd": 13608325,
+   "put_premium_usd": 16387368,
+   "call_put_volume_ratio": 1.55,
+   "flagged_contracts": [
+    {
+     "contract": "CLS261030P00250000",
+     "type": "put",
+     "strike": 250.0,
+     "expiry": "2026-10-30",
+     "dte": 7,
+     "volume": 2002,
+     "open_interest": 253,
+     "vol_oi": 7.9,
+     "last": 12.76,
+     "bid": 12.0,
+     "ask": 13.3,
+     "premium_usd": 2554552,
+     "iv": 1.2232,
+     "delta": -0.3764
     }
    ]
   },
@@ -2502,7 +2527,7 @@
   },
   {
    "ticker": "HOOD",
-   "cboe_timestamp": "2026-10-23 23:30:52",
+   "cboe_timestamp": "2026-10-24 00:03:53",
    "call_premium_usd": 54407767,
    "put_premium_usd": 53919755,
    "call_put_volume_ratio": 1.52,
@@ -2622,33 +2647,8 @@
    ]
   },
   {
-   "ticker": "CLS",
-   "cboe_timestamp": "2026-10-23 20:00:51",
-   "call_premium_usd": 12946168,
-   "put_premium_usd": 15922504,
-   "call_put_volume_ratio": 1.54,
-   "flagged_contracts": [
-    {
-     "contract": "CLS261030P00250000",
-     "type": "put",
-     "strike": 250.0,
-     "expiry": "2026-10-30",
-     "dte": 7,
-     "volume": 2000,
-     "open_interest": 253,
-     "vol_oi": 7.9,
-     "last": 12.45,
-     "bid": 11.8,
-     "ask": 12.9,
-     "premium_usd": 2490000,
-     "iv": 1.2448,
-     "delta": -0.3627
-    }
-   ]
-  },
-  {
    "ticker": "META",
-   "cboe_timestamp": "2026-10-23 23:29:00",
+   "cboe_timestamp": "2026-10-24 00:02:01",
    "call_premium_usd": 330945805,
    "put_premium_usd": 271762283,
    "call_put_volume_ratio": 1.34,
@@ -2785,7 +2785,7 @@
   },
   {
    "ticker": "SNOW",
-   "cboe_timestamp": "2026-10-23 20:27:08",
+   "cboe_timestamp": "2026-10-23 23:32:19",
    "call_premium_usd": 25815807,
    "put_premium_usd": 8810099,
    "call_put_volume_ratio": 1.88,
@@ -2858,7 +2858,7 @@
   },
   {
    "ticker": "SMCI",
-   "cboe_timestamp": "2026-10-23 23:31:56",
+   "cboe_timestamp": "2026-10-24 00:04:57",
    "call_premium_usd": 17949971,
    "put_premium_usd": 17840076,
    "call_put_volume_ratio": 3.82,
@@ -2915,7 +2915,7 @@
   },
   {
    "ticker": "MRK",
-   "cboe_timestamp": "2026-10-23 23:30:58",
+   "cboe_timestamp": "2026-10-24 00:04:00",
    "call_premium_usd": 7878224,
    "put_premium_usd": 2785212,
    "call_put_volume_ratio": 2.3,
@@ -3070,7 +3070,7 @@
   },
   {
    "ticker": "MSFT",
-   "cboe_timestamp": "2026-10-23 23:29:02",
+   "cboe_timestamp": "2026-10-24 00:02:03",
    "call_premium_usd": 195254766,
    "put_premium_usd": 74951331,
    "call_put_volume_ratio": 1.36,
@@ -3216,7 +3216,7 @@
   },
   {
    "ticker": "UBER",
-   "cboe_timestamp": "2026-10-23 23:31:00",
+   "cboe_timestamp": "2026-10-24 00:04:01",
    "call_premium_usd": 8102520,
    "put_premium_usd": 16415473,
    "call_put_volume_ratio": 1.05,
@@ -3257,7 +3257,7 @@
   },
   {
    "ticker": "GOOG",
-   "cboe_timestamp": "2026-10-23 23:29:55",
+   "cboe_timestamp": "2026-10-24 00:02:56",
    "call_premium_usd": 61993929,
    "put_premium_usd": 54411133,
    "call_put_volume_ratio": 1.47,
@@ -3298,7 +3298,7 @@
   },
   {
    "ticker": "PG",
-   "cboe_timestamp": "2026-10-23 23:30:01",
+   "cboe_timestamp": "2026-10-24 00:04:02",
    "call_premium_usd": 6927617,
    "put_premium_usd": 3272598,
    "call_put_volume_ratio": 1.8,
@@ -3528,7 +3528,7 @@
   },
   {
    "ticker": "COHR",
-   "cboe_timestamp": "2026-10-23 23:30:57",
+   "cboe_timestamp": "2026-10-24 00:03:58",
    "call_premium_usd": 12782062,
    "put_premium_usd": 29426861,
    "call_put_volume_ratio": 1.1,
@@ -3569,7 +3569,7 @@
   },
   {
    "ticker": "AVGO",
-   "cboe_timestamp": "2026-10-23 23:28:52",
+   "cboe_timestamp": "2026-10-24 00:01:53",
    "call_premium_usd": 67192144,
    "put_premium_usd": 125472217,
    "call_put_volume_ratio": 1.35,
@@ -3731,7 +3731,7 @@
   },
   {
    "ticker": "JNJ",
-   "cboe_timestamp": "2026-10-23 20:20:22",
+   "cboe_timestamp": "2026-10-23 23:54:54",
    "call_premium_usd": 3586999,
    "put_premium_usd": 4501152,
    "call_put_volume_ratio": 0.3,
@@ -3920,7 +3920,7 @@
   },
   {
    "ticker": "LRCX",
-   "cboe_timestamp": "2026-10-23 23:30:02",
+   "cboe_timestamp": "2026-10-24 00:03:03",
    "call_premium_usd": 45095668,
    "put_premium_usd": 74898202,
    "call_put_volume_ratio": 0.9,
@@ -3945,7 +3945,7 @@
   },
   {
    "ticker": "IBM",
-   "cboe_timestamp": "2026-10-23 23:31:01",
+   "cboe_timestamp": "2026-10-24 00:04:02",
    "call_premium_usd": 29363403,
    "put_premium_usd": 8914069,
    "call_put_volume_ratio": 1.89,
@@ -3986,7 +3986,7 @@
   },
   {
    "ticker": "IREN",
-   "cboe_timestamp": "2026-10-23 23:32:00",
+   "cboe_timestamp": "2026-10-24 00:05:01",
    "call_premium_usd": 32718851,
    "put_premium_usd": 27979416,
    "call_put_volume_ratio": 3.54,
@@ -4189,7 +4189,7 @@
   },
   {
    "ticker": "ETN",
-   "cboe_timestamp": "2026-10-23 23:33:02",
+   "cboe_timestamp": "2026-10-24 00:05:03",
    "call_premium_usd": 2950836,
    "put_premium_usd": 8750023,
    "call_put_volume_ratio": 0.53,
@@ -4264,7 +4264,7 @@
   },
   {
    "ticker": "JPM",
-   "cboe_timestamp": "2026-10-23 20:23:18",
+   "cboe_timestamp": "2026-10-23 23:55:09",
    "call_premium_usd": 15824249,
    "put_premium_usd": 7841602,
    "call_put_volume_ratio": 1.47,
@@ -4330,7 +4330,7 @@
   },
   {
    "ticker": "ORCL",
-   "cboe_timestamp": "2026-10-23 23:29:59",
+   "cboe_timestamp": "2026-10-24 00:03:00",
    "call_premium_usd": 43956267,
    "put_premium_usd": 133044823,
    "call_put_volume_ratio": 1.25,
@@ -4453,7 +4453,7 @@
   },
   {
    "ticker": "VZ",
-   "cboe_timestamp": "2026-10-23 23:29:56",
+   "cboe_timestamp": "2026-10-24 00:02:57",
    "call_premium_usd": 8745349,
    "put_premium_usd": 6215114,
    "call_put_volume_ratio": 1.17,
@@ -4503,7 +4503,7 @@
   },
   {
    "ticker": "LIN",
-   "cboe_timestamp": "2026-10-23 20:23:58",
+   "cboe_timestamp": "2026-10-24 00:05:05",
    "call_premium_usd": 925934,
    "put_premium_usd": 1003680,
    "call_put_volume_ratio": 0.31,
