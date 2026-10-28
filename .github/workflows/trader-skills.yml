@@ -1,0 +1,78 @@
+name: Trader skills (day-trader-skill tools)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "premarket | orb | tm"
+        required: true
+        default: "premarket"
+      tickers:
+        description: "extra tickers for news (premarket)"
+        required: false
+        default: ""
+      orb_at:
+        description: "orb: cut the clock at HH:MM New York (blank = now)"
+        required: false
+        default: ""
+      tm_plan:
+        description: "tm: SYMBOL,DATE,ENTRY,STOP,TARGET,ENTRY_TIME[,UNTIL]  e.g. TSLA,2026-10-19,364.18,358.32,370.04,10:15 AM"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scans-commit
+  cancel-in-progress: false
+
+env:
+  TOOLS_REPO: https://github.com/Jakeschincariol/day-trader-skill.git
+  TOOLS_SHA: 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd   # pinned; review the diff before bumping
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install curl_cffi pymongo
+          sudo apt-get install -y -q poppler-utils >/dev/null
+      - name: Fetch tools (pinned commit)
+        run: |
+          git init -q vendor/day-trader-skill
+          cd vendor/day-trader-skill
+          git fetch -q --depth 1 "$TOOLS_REPO" "$TOOLS_SHA"
+          git checkout -q FETCH_HEAD
+          git log -1 --format='%H %cd'
+      - name: Run
+        env:
+          MODE: ${{ github.event.inputs.mode }}
+          TICKERS: ${{ github.event.inputs.tickers }}
+          ORB_AT: ${{ github.event.inputs.orb_at }}
+          TM_PLAN: ${{ github.event.inputs.tm_plan }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          if [ "$MODE" = "tm" ]; then
+            IFS=',' read -r TM_SYMBOL TM_DATE TM_ENTRY TM_STOP TM_TARGET TM_ENTRY_TIME TM_UNTIL <<< "$TM_PLAN"
+            export TM_SYMBOL TM_DATE TM_ENTRY TM_STOP TM_TARGET TM_ENTRY_TIME TM_UNTIL
+          fi
+          set -o pipefail
+          mkdir -p scans/trader
+          python trader_skills.py "$MODE" 2>&1 | tee scans/trader/run.log
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          rm -f trader_state/trader/config.json
+          git add scans/trader trader_state
+          git commit -q -m "trader skills ${{ github.event.inputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          git pull -q --rebase
+          git push -q
