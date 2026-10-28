@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "BAX",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-28",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 25.47,
+  "level": 25.31,
+  "interval": "5m",
+  "opening_range": {
+    "high": 25.31,
+    "low": 24.93,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-28T14:27:03Z",
+  "reason": "the 9:45 bar closed above the range high"
+}

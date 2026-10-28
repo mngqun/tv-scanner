@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "BMY",
+  "side": "buy",
+  "date": "2026-10-28",
+  "setup": "orb",
+  "entry": 61.27,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 61.24,
+    "low": 60.33,
+    "minutes": 15
+  },
+  "stop": 60.78,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 62.25,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 0.49,
+  "reward_risk": 2.0,
+  "flat_by": "13:55",
+  "stop_detail": "($61.24 + $60.33) / 2 = $60.785, rounded down",
+  "created_at": "2026-10-28T14:27:06Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

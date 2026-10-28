@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "AMGN",
+  "side": "buy",
+  "date": "2026-10-28",
+  "setup": "orb",
+  "entry": 450.32,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 448.95,
+    "low": 439.7,
+    "minutes": 15
+  },
+  "stop": 444.32,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 462.32,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 6.0,
+  "reward_risk": 2.0,
+  "flat_by": "13:55",
+  "stop_detail": "($448.95 + $439.70) / 2 = $444.325, rounded down",
+  "created_at": "2026-10-28T14:27:00Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

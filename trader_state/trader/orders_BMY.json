@@ -1,0 +1,32 @@
+{
+  "created_by": "trader-budget",
+  "created_at": "2026-10-28T14:27:08Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
+  "source": "trader/plan.json (BMY orb 2026-10-28)",
+  "orders": [
+    {
+      "symbol": "BMY",
+      "side": "buy",
+      "qty": "81",
+      "type": "limit",
+      "time_in_force": "day",
+      "limit_price": "61.27",
+      "order_class": "bracket",
+      "take_profit_limit_price": "62.25",
+      "stop_loss_stop_price": "60.78",
+      "why": "opening-range breakout on BMY: 81 shares, bound by your position cap (81 x 0.49 = $39.69 at the stop)",
+      "plan": {
+        "entry": 61.27,
+        "stop": 60.78,
+        "target": 62.25,
+        "risk_per_share": 0.49,
+        "max_loss": 39.69,
+        "setup": "orb",
+        "entry_time": "9:50 AM",
+        "flat_by": "13:55"
+      }
+    }
+  ]
+}

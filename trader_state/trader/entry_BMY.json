@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "BMY",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-28",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 61.27,
+  "level": 61.24,
+  "interval": "5m",
+  "opening_range": {
+    "high": 61.24,
+    "low": 60.33,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-28T14:27:06Z",
+  "reason": "the 9:45 bar closed above the range high"
+}
