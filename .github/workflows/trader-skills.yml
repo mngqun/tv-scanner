@@ -65,7 +65,7 @@ jobs:
           fi
           set -o pipefail
           mkdir -p scans/trader
-          python trader_skills.py "$MODE" 2>&1 | tee scans/trader/run.log
+          python trader_skills.py "$MODE" 2>&1 | tee "scans/trader/run_${MODE}.log"
       - name: Commit
         if: always()
         run: |
@@ -74,5 +74,7 @@ jobs:
           rm -f trader_state/trader/config.json
           git add scans/trader trader_state
           git commit -q -m "trader skills ${{ github.event.inputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
-          git pull -q --rebase
-          git push -q
+          for i in 1 2 3; do
+            git pull -q --rebase -X theirs && git push -q && break
+            sleep 5
+          done
