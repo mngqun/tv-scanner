@@ -1,0 +1,44 @@
+[
+ {
+  "symbol": "MSFT",
+  "side": "buy",
+  "qty": "20",
+  "type": "limit",
+  "limit_price": "520.00",
+  "time_in_force": "day",
+  "order_class": "bracket",
+  "take_profit_limit_price": "530.00",
+  "stop_loss_stop_price": "515.00",
+  "why": "daily brief long setup (paper)",
+  "plan": {
+   "entry": 520.0,
+   "stop": 515.0,
+   "target": 530.0,
+   "risk_per_share": 5.0,
+   "max_loss": 100.0,
+   "setup": "brief",
+   "flat_by": "15:55"
+  }
+ },
+ {
+  "symbol": "GM",
+  "side": "buy",
+  "qty": "60",
+  "type": "limit",
+  "limit_price": "78.00",
+  "time_in_force": "day",
+  "order_class": "bracket",
+  "take_profit_limit_price": "80.00",
+  "stop_loss_stop_price": "76.00",
+  "why": "daily brief long setup (paper)",
+  "plan": {
+   "entry": 78.0,
+   "stop": 76.0,
+   "target": 80.0,
+   "risk_per_share": 2.0,
+   "max_loss": 120.0,
+   "setup": "brief",
+   "flat_by": "15:55"
+  }
+ }
+]

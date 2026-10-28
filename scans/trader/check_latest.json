@@ -1,0 +1,659 @@
+{
+ "mode": "check",
+ "generated_utc": "2026-10-28T00:57:01+00:00",
+ "generated_new_york": "2026-10-27T20:57:01-04:00",
+ "tools": "github.com/Jakeschincariol/day-trader-skill @ 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd",
+ "sec_user_agent_set": true,
+ "analyst": {
+  "cmd": "trader-analyst/facts.py MSFT GOOGL GM --quarters 6 --json",
+  "code": 0,
+  "stderr": "",
+  "data": [
+   {
+    "ticker": "MSFT",
+    "result": {
+     "entity": "MICROSOFT CORP",
+     "cik": "0000789019",
+     "rows": [
+      {
+       "end": "2026-06-30",
+       "start": "2026-04-01",
+       "fiscal": "Q4 2026",
+       "derived": true,
+       "revenue": 90007000000,
+       "gross_profit": 60482000000,
+       "operating_income": 40603000000,
+       "net_income": 35766000000,
+       "eps_diluted": 4.8,
+       "gross_margin": 67.2,
+       "operating_margin": 45.1,
+       "net_margin": 39.7,
+       "revenue_yoy": 17.7,
+       "net_income_yoy": 31.3,
+       "eps_yoy": 31.5,
+       "filed": "2026-07-29",
+       "form": "10-K"
+      },
+      {
+       "end": "2026-03-31",
+       "start": "2026-01-01",
+       "fiscal": "Q3 2026",
+       "derived": false,
+       "revenue": 82886000000,
+       "gross_profit": 56058000000,
+       "operating_income": 38398000000,
+       "net_income": 31778000000,
+       "eps_diluted": 4.27,
+       "gross_margin": 67.6,
+       "operating_margin": 46.3,
+       "net_margin": 38.3,
+       "revenue_yoy": 18.3,
+       "net_income_yoy": 23.1,
+       "eps_yoy": 23.4,
+       "filed": "2026-04-29",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-12-31",
+       "start": "2025-10-01",
+       "fiscal": "Q2 2026",
+       "derived": false,
+       "revenue": 81273000000,
+       "gross_profit": 55295000000,
+       "operating_income": 38275000000,
+       "net_income": 38458000000,
+       "eps_diluted": 5.16,
+       "gross_margin": 68.0,
+       "operating_margin": 47.1,
+       "net_margin": 47.3,
+       "revenue_yoy": 16.7,
+       "net_income_yoy": 59.5,
+       "eps_yoy": 59.8,
+       "filed": "2026-01-28",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-09-30",
+       "start": "2025-07-01",
+       "fiscal": "Q1 2026",
+       "derived": false,
+       "revenue": 77673000000,
+       "gross_profit": 53630000000,
+       "operating_income": 37961000000,
+       "net_income": 27747000000,
+       "eps_diluted": 3.72,
+       "gross_margin": 69.0,
+       "operating_margin": 48.9,
+       "net_margin": 35.7,
+       "revenue_yoy": 18.4,
+       "net_income_yoy": 12.5,
+       "eps_yoy": 12.7,
+       "filed": "2025-10-29",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-06-30",
+       "start": "2025-04-01",
+       "fiscal": "Q4 2025",
+       "derived": true,
+       "revenue": 76441000000,
+       "gross_profit": 52427000000,
+       "operating_income": 34323000000,
+       "net_income": 27233000000,
+       "eps_diluted": 3.65,
+       "gross_margin": 68.6,
+       "operating_margin": 44.9,
+       "net_margin": 35.6,
+       "revenue_yoy": 18.1,
+       "net_income_yoy": 23.6,
+       "eps_yoy": 24.1,
+       "filed": "2026-07-29",
+       "form": "10-K"
+      },
+      {
+       "end": "2025-03-31",
+       "start": "2025-01-01",
+       "fiscal": "Q3 2025",
+       "derived": false,
+       "revenue": 70066000000,
+       "gross_profit": 48147000000,
+       "operating_income": 32000000000,
+       "net_income": 25824000000,
+       "eps_diluted": 3.46,
+       "gross_margin": 68.7,
+       "operating_margin": 45.7,
+       "net_margin": 36.9,
+       "revenue_yoy": 13.3,
+       "net_income_yoy": 17.7,
+       "eps_yoy": 17.7,
+       "filed": "2026-04-29",
+       "form": "10-Q"
+      }
+     ],
+     "ttm": {
+      "revenue": 331839000000,
+      "net_income": 133749000000,
+      "eps_diluted": 17.95
+     },
+     "concepts": {
+      "revenue": [
+       "RevenueFromContractWithCustomerExcludingAssessedTax",
+       "Revenues",
+       "SalesRevenueNet"
+      ],
+      "cost_of_revenue": [
+       "CostOfGoodsAndServicesSold",
+       "CostOfRevenue"
+      ],
+      "gross_profit": [
+       "GrossProfit"
+      ],
+      "operating_income": [
+       "OperatingIncomeLoss"
+      ],
+      "net_income": [
+       "NetIncomeLoss"
+      ],
+      "eps_diluted": [
+       "EarningsPerShareDiluted"
+      ]
+     }
+    },
+    "filings": {
+     "report": {
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "period": "2026-06-30",
+      "accession": "0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+     },
+     "earnings_8k": {
+      "form": "8-K",
+      "filed": "2026-07-29",
+      "accession": "0001193125-26-323632",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+      "exhibit": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/0001193125-26-323632-index.htm"
+     }
+    },
+    "changes": [
+     "Quarter ending 2026-06-30 (derived from the 10-K): revenue $90.01B (+17.7% vs a year earlier), net income $35.77B (+31.3%), diluted EPS $4.80 (+31.5%).",
+     "Gross margin 67.2% (-0.4 points vs the quarter before).",
+     "Operating margin 45.1% (-1.2 points vs the quarter before).",
+     "Net margin 39.7% (+1.4 points vs the quarter before).",
+     "Revenue +8.6% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+    ],
+    "note": null
+   },
+   {
+    "ticker": "GOOGL",
+    "result": {
+     "entity": "Alphabet Inc.",
+     "cik": "0001652044",
+     "rows": [
+      {
+       "end": "2026-06-30",
+       "start": "2026-04-01",
+       "fiscal": "Q2 2026",
+       "derived": false,
+       "revenue": 119796000000,
+       "gross_profit": 73853000000,
+       "operating_income": 40770000000,
+       "net_income": 112193000000,
+       "eps_diluted": 9.11,
+       "gross_margin": 61.6,
+       "operating_margin": 34.0,
+       "net_margin": 93.7,
+       "revenue_yoy": 24.2,
+       "net_income_yoy": 297.9,
+       "eps_yoy": 294.4,
+       "filed": "2026-07-23",
+       "form": "10-Q"
+      },
+      {
+       "end": "2026-03-31",
+       "start": "2026-01-01",
+       "fiscal": "Q1 2026",
+       "derived": false,
+       "revenue": 109896000000,
+       "gross_profit": 68625000000,
+       "operating_income": 39696000000,
+       "net_income": 62578000000,
+       "eps_diluted": 5.11,
+       "gross_margin": 62.4,
+       "operating_margin": 36.1,
+       "net_margin": 56.9,
+       "revenue_yoy": 21.8,
+       "net_income_yoy": 81.2,
+       "eps_yoy": 81.9,
+       "filed": "2026-04-30",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-12-31",
+       "start": "2025-10-01",
+       "fiscal": "Q4 2025",
+       "derived": true,
+       "revenue": 113828000000,
+       "gross_profit": 68062000000,
+       "operating_income": 35934000000,
+       "net_income": 34455000000,
+       "eps_diluted": 2.82,
+       "gross_margin": 59.8,
+       "operating_margin": 31.6,
+       "net_margin": 30.3,
+       "revenue_yoy": 18.0,
+       "net_income_yoy": 29.8,
+       "eps_yoy": 31.8,
+       "filed": "2026-02-05",
+       "form": "10-K"
+      },
+      {
+       "end": "2025-09-30",
+       "start": "2025-07-01",
+       "fiscal": "Q3 2025",
+       "derived": false,
+       "revenue": 102346000000,
+       "gross_profit": 60977000000,
+       "operating_income": 31228000000,
+       "net_income": 34979000000,
+       "eps_diluted": 2.87,
+       "gross_margin": 59.6,
+       "operating_margin": 30.5,
+       "net_margin": 34.2,
+       "revenue_yoy": 15.9,
+       "net_income_yoy": 33.0,
+       "eps_yoy": 35.4,
+       "filed": "2025-10-30",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-06-30",
+       "start": "2025-04-01",
+       "fiscal": "Q2 2025",
+       "derived": false,
+       "revenue": 96428000000,
+       "gross_profit": 57389000000,
+       "operating_income": 31271000000,
+       "net_income": 28196000000,
+       "eps_diluted": 2.31,
+       "gross_margin": 59.5,
+       "operating_margin": 32.4,
+       "net_margin": 29.2,
+       "revenue_yoy": 13.8,
+       "net_income_yoy": 19.4,
+       "eps_yoy": 22.2,
+       "filed": "2026-07-23",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-03-31",
+       "start": "2025-01-01",
+       "fiscal": "Q1 2025",
+       "derived": false,
+       "revenue": 90234000000,
+       "gross_profit": 53873000000,
+       "operating_income": 30606000000,
+       "net_income": 34540000000,
+       "eps_diluted": 2.81,
+       "gross_margin": 59.7,
+       "operating_margin": 33.9,
+       "net_margin": 38.3,
+       "revenue_yoy": 12.0,
+       "net_income_yoy": 46.0,
+       "eps_yoy": 48.7,
+       "filed": "2025-04-25",
+       "form": "10-Q"
+      }
+     ],
+     "ttm": {
+      "revenue": 445866000000,
+      "net_income": 244205000000,
+      "eps_diluted": 19.91
+     },
+     "concepts": {
+      "revenue": [
+       "RevenueFromContractWithCustomerExcludingAssessedTax",
+       "Revenues"
+      ],
+      "cost_of_revenue": [
+       "CostOfRevenue"
+      ],
+      "gross_profit": [],
+      "operating_income": [
+       "OperatingIncomeLoss"
+      ],
+      "net_income": [
+       "NetIncomeLoss"
+      ],
+      "eps_diluted": [
+       "EarningsPerShareDiluted"
+      ]
+     }
+    },
+    "filings": {
+     "report": {
+      "form": "10-Q",
+      "filed": "2026-07-23",
+      "period": "2026-06-30",
+      "accession": "0001652044-26-000071",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+     },
+     "earnings_8k": {
+      "form": "8-K",
+      "filed": "2026-07-22",
+      "accession": "0001652044-26-000066",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
+      "exhibit": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/0001652044-26-000066-index.htm"
+     }
+    },
+    "changes": [
+     "Quarter ending 2026-06-30: revenue $119.80B (+24.2% vs a year earlier), net income $112.19B (+297.9%), diluted EPS $9.11 (+294.4%).",
+     "Gross margin 61.6% (-0.8 points vs the quarter before).",
+     "Operating margin 34.0% (-2.1 points vs the quarter before).",
+     "Net margin 93.7% (+36.8 points vs the quarter before).",
+     "Net income is above operating income: it includes gains outside the business (investments, tax items). Check the 10-Q before reading it as growth.",
+     "Revenue +9.0% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+    ],
+    "note": null
+   },
+   {
+    "ticker": "GM",
+    "result": {
+     "entity": "General Motors Co",
+     "cik": "0001467858",
+     "rows": [
+      {
+       "end": "2026-09-30",
+       "start": "2026-07-01",
+       "fiscal": "Q3 2026",
+       "derived": false,
+       "revenue": 45706000000,
+       "gross_profit": null,
+       "operating_income": 3598000000,
+       "net_income": 3335000000,
+       "eps_diluted": 3.73,
+       "gross_margin": null,
+       "operating_margin": 7.9,
+       "net_margin": 7.3,
+       "revenue_yoy": 3.3,
+       "net_income_yoy": 151.3,
+       "eps_yoy": 176.3,
+       "filed": "2026-10-20",
+       "form": "10-Q"
+      },
+      {
+       "end": "2026-06-30",
+       "start": "2026-04-01",
+       "fiscal": "Q2 2026",
+       "derived": false,
+       "revenue": 43762000000,
+       "gross_profit": null,
+       "operating_income": 1459000000,
+       "net_income": 1305000000,
+       "eps_diluted": 1.41,
+       "gross_margin": null,
+       "operating_margin": 3.3,
+       "net_margin": 3.0,
+       "revenue_yoy": 2.1,
+       "net_income_yoy": -31.1,
+       "eps_yoy": -26.2,
+       "filed": "2026-07-21",
+       "form": "10-Q"
+      },
+      {
+       "end": "2026-03-31",
+       "start": "2026-01-01",
+       "fiscal": "Q1 2026",
+       "derived": false,
+       "revenue": 39349000000,
+       "gross_profit": null,
+       "operating_income": 2926000000,
+       "net_income": 2627000000,
+       "eps_diluted": 2.82,
+       "gross_margin": null,
+       "operating_margin": 7.4,
+       "net_margin": 6.7,
+       "revenue_yoy": -1.3,
+       "net_income_yoy": -5.6,
+       "eps_yoy": -15.8,
+       "filed": "2026-04-28",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-12-31",
+       "start": "2025-10-01",
+       "fiscal": "Q4 2025",
+       "derived": true,
+       "revenue": 40985000000,
+       "gross_profit": null,
+       "operating_income": -3646000000,
+       "net_income": -3309000000,
+       "eps_diluted": -3.34,
+       "gross_margin": null,
+       "operating_margin": -8.9,
+       "net_margin": -8.1,
+       "revenue_yoy": -6.0,
+       "net_income_yoy": -11.8,
+       "eps_yoy": -135.2,
+       "filed": "2026-01-27",
+       "form": "10-K"
+      },
+      {
+       "end": "2025-09-30",
+       "start": "2025-07-01",
+       "fiscal": "Q3 2025",
+       "derived": false,
+       "revenue": 44256000000,
+       "gross_profit": null,
+       "operating_income": 1076000000,
+       "net_income": 1327000000,
+       "eps_diluted": 1.35,
+       "gross_margin": null,
+       "operating_margin": 2.4,
+       "net_margin": 3.0,
+       "revenue_yoy": -1.1,
+       "net_income_yoy": -56.6,
+       "eps_yoy": -49.6,
+       "filed": "2026-10-20",
+       "form": "10-Q"
+      },
+      {
+       "end": "2025-06-30",
+       "start": "2025-04-01",
+       "fiscal": "Q2 2025",
+       "derived": false,
+       "revenue": 42869000000,
+       "gross_profit": null,
+       "operating_income": 2127000000,
+       "net_income": 1895000000,
+       "eps_diluted": 1.91,
+       "gross_margin": null,
+       "operating_margin": 5.0,
+       "net_margin": 4.4,
+       "revenue_yoy": -2.7,
+       "net_income_yoy": -35.4,
+       "eps_yoy": -25.1,
+       "filed": "2026-07-21",
+       "form": "10-Q"
+      }
+     ],
+     "ttm": {
+      "revenue": 169802000000,
+      "net_income": 3958000000,
+      "eps_diluted": 4.62
+     },
+     "concepts": {
+      "revenue": [
+       "RevenueFromContractWithCustomerExcludingAssessedTax",
+       "Revenues"
+      ],
+      "cost_of_revenue": [
+       "CostOfGoodsAndServicesSold"
+      ],
+      "gross_profit": [
+       "GrossProfit"
+      ],
+      "operating_income": [
+       "OperatingIncomeLoss"
+      ],
+      "net_income": [
+       "NetIncomeLoss"
+      ],
+      "eps_diluted": [
+       "EarningsPerShareDiluted"
+      ]
+     }
+    },
+    "filings": {
+     "report": {
+      "form": "10-Q",
+      "filed": "2026-10-20",
+      "period": "2026-09-30",
+      "accession": "0001467858-26-000059",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/gm-20260930.htm"
+     },
+     "earnings_8k": {
+      "form": "8-K",
+      "filed": "2026-10-20",
+      "accession": "0001467858-26-000056",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gm-20261020.htm",
+      "exhibit": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gmq32026pressreleaseandfin.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/0001467858-26-000056-index.htm"
+     }
+    },
+    "changes": [
+     "Quarter ending 2026-09-30: revenue $45.71B (+3.3% vs a year earlier), net income $3.33B (+151.3%), diluted EPS $3.73 (+176.3%).",
+     "Operating margin 7.9% (+4.6 points vs the quarter before).",
+     "Net margin 7.3% (+4.3 points vs the quarter before).",
+     "Revenue +4.4% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+    ],
+    "note": null
+   }
+  ]
+ },
+ "risk_checked_at": "2026-10-27 09:45",
+ "orders": [
+  {
+   "symbol": "MSFT",
+   "side": "buy",
+   "qty": "20",
+   "type": "limit",
+   "limit_price": "520.00",
+   "time_in_force": "day",
+   "order_class": "bracket",
+   "take_profit_limit_price": "530.00",
+   "stop_loss_stop_price": "515.00",
+   "why": "daily brief long setup (paper)",
+   "plan": {
+    "entry": 520.0,
+    "stop": 515.0,
+    "target": 530.0,
+    "risk_per_share": 5.0,
+    "max_loss": 100.0,
+    "setup": "brief",
+    "flat_by": "15:55"
+   }
+  },
+  {
+   "symbol": "GM",
+   "side": "buy",
+   "qty": "60",
+   "type": "limit",
+   "limit_price": "78.00",
+   "time_in_force": "day",
+   "order_class": "bracket",
+   "take_profit_limit_price": "80.00",
+   "stop_loss_stop_price": "76.00",
+   "why": "daily brief long setup (paper)",
+   "plan": {
+    "entry": 78.0,
+    "stop": 76.0,
+    "target": 80.0,
+    "risk_per_share": 2.0,
+    "max_loss": 120.0,
+    "setup": "brief",
+    "flat_by": "15:55"
+   }
+  }
+ ],
+ "risk": {
+  "cmd": "trader-risk/check.py --orders trader/orders_brief.json --no-write --now 2026-10-27 09:45 --json",
+  "code": 1,
+  "stderr": "",
+  "data": {
+   "date": "2026-10-27",
+   "now_new_york": "2026-10-27 09:45",
+   "paper": true,
+   "results": [
+    {
+     "index": 1,
+     "symbol": "MSFT",
+     "side": "buy",
+     "kind": "entry",
+     "amount": "20 shares",
+     "value_usd": 10400.0,
+     "entry_ref": 520.0,
+     "entry_ref_from": "limit",
+     "stop": 515.0,
+     "target": 530.0,
+     "risk_per_share": 5.0,
+     "max_loss": 100.0,
+     "reward_risk": 2.0,
+     "fingerprint": "54109166a3ef8f47",
+     "verdict": "BLOCK",
+     "reasons": [
+      "size: $10,400 is over your $5,000 max order",
+      "cash: needs $10,400 but only $10,000 cash; that would be margin (borrowed money)",
+      "position: MSFT would be $10,400, 104.0% of the $10,000 account, over your 50% cap"
+     ],
+     "warnings": [],
+     "info": [
+      "entry 520.00 (the limit price), stop 515.00, target 530.00: risk 5.00 a share",
+      "max loss $100 (limit $100), reward:risk 2.00 (min 1.5)",
+      "today before this: 0 of 2 trades, $0 of $200 daily loss"
+     ]
+    },
+    {
+     "index": 2,
+     "symbol": "GM",
+     "side": "buy",
+     "kind": "entry",
+     "amount": "60 shares",
+     "value_usd": 4680.0,
+     "entry_ref": 78.0,
+     "entry_ref_from": "limit",
+     "stop": 76.0,
+     "target": 80.0,
+     "risk_per_share": 2.0,
+     "max_loss": 120.0,
+     "reward_risk": 1.0,
+     "fingerprint": "f2e55016ebacd32d",
+     "verdict": "BLOCK",
+     "reasons": [
+      "loss: 60 shares x 2.00 risk a share = $120 at the stop, over your $100 max loss per trade",
+      "reward:risk: 1.00 (target 80.00, entry 78.00, stop 76.00) is under your minimum 1.5"
+     ],
+     "warnings": [],
+     "info": [
+      "entry 78.00 (the limit price), stop 76.00, target 80.00: risk 2.00 a share",
+      "max loss $120 (limit $100), reward:risk 1.00 (min 1.5)",
+      "today before this: 0 of 2 trades, $0 of $200 daily loss"
+     ]
+    }
+   ],
+   "pass": 0,
+   "block": 2,
+   "warnings": [],
+   "cash_after": 10000.0,
+   "today": {
+    "orders_placed": 0,
+    "entries_placed": 0,
+    "loss_at_risk": 0.0,
+    "day_trades_5d": null
+   }
+  }
+ },
+ "risk_usd": 100.0
+}
