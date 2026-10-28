@@ -43,7 +43,7 @@ jobs:
       - name: Install
         run: |
           pip install curl_cffi pymongo
-          sudo apt-get install -y -q poppler-utils >/dev/null
+          (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils) >/dev/null 2>&1 || echo "poppler not installed (PTR PDFs saved unparsed)"
       - name: Fetch tools (pinned commit)
         run: |
           git init -q vendor/day-trader-skill
