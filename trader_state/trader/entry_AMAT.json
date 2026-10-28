@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AMAT",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-28",
+  "status": "triggered",
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 408.82,
+  "level": 406.54,
+  "interval": "5m",
+  "opening_range": {
+    "high": 406.54,
+    "low": 401.44,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-28T14:30:05Z",
+  "reason": "the 9:55 bar closed above the range high"
+}

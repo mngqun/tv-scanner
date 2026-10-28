@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "SKHY",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-28",
+  "status": "triggered",
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 161.47,
+  "level": 161.0,
+  "interval": "5m",
+  "opening_range": {
+    "high": 161.0,
+    "low": 156.5,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-28T14:30:04Z",
+  "reason": "the 9:55 bar closed above the range high"
+}

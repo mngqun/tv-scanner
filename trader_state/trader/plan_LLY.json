@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "LLY",
+  "side": "buy",
+  "date": "2026-10-28",
+  "setup": "orb",
+  "entry": 1293.28,
+  "entry_time": "10:00 AM",
+  "entry_bar": 5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1290.4,
+    "low": 1260.34,
+    "minutes": 15
+  },
+  "stop": 1275.37,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 1329.1,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 17.91,
+  "reward_risk": 2.0,
+  "flat_by": "13:55",
+  "stop_detail": "($1,290.40 + $1,260.34) / 2 = $1275.37",
+  "created_at": "2026-10-28T14:30:07Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}
