@@ -1,0 +1,5066 @@
+{
+ "mode": "premarket",
+ "generated_utc": "2026-10-28T12:47:18+00:00",
+ "generated_new_york": "2026-10-28T08:47:18-04:00",
+ "tools": "github.com/Jakeschincariol/day-trader-skill @ 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd",
+ "sec_user_agent_set": true,
+ "universe_size": 672,
+ "scan": {
+  "cmd": "trader-scanner/scan.py daily --watchlist /home/runner/work/tv-scanner/tv-scanner/trader_state/trader/largecaps.txt --json --show 200",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "created_by": "trader-scanner",
+   "created_at": "2026-10-28T12:47:18Z",
+   "mode": "daily",
+   "as_of": "2026-10-27 close",
+   "universe": 672,
+   "scanned": 618,
+   "failed": 0,
+   "source": "yahoo",
+   "filters": {
+    "min_price": 5.0,
+    "min_volume": 1000000
+   },
+   "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
+   "hits": [
+    {
+     "symbol": "TSLA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 407.46,
+     "close_date": "2026-10-27",
+     "rsi": 65.9,
+     "volume": 45019044
+    },
+    {
+     "symbol": "GOOGL",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 320.58,
+     "close_date": "2026-10-27",
+     "rsi": 34.4,
+     "volume": 28434977
+    },
+    {
+     "symbol": "BA",
+     "setups": [
+      "oversold"
+     ],
+     "price": 168.18,
+     "close_date": "2026-10-27",
+     "rsi": 25.5,
+     "volume": 46971337
+    },
+    {
+     "symbol": "GOOG",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 316.83,
+     "close_date": "2026-10-27",
+     "rsi": 32.9,
+     "volume": 17638170
+    },
+    {
+     "symbol": "NBIS",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 170.47,
+     "close_date": "2026-10-27",
+     "rsi": 39.4,
+     "volume": 20404486
+    },
+    {
+     "symbol": "CRWV",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 59.57,
+     "close_date": "2026-10-27",
+     "rsi": 35.3,
+     "volume": 53151279
+    },
+    {
+     "symbol": "TXN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 308.91,
+     "close_date": "2026-10-27",
+     "rsi": 70.1,
+     "volume": 8046658
+    },
+    {
+     "symbol": "LRCX",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 240.85,
+     "close_date": "2026-10-27",
+     "rsi": 31.6,
+     "volume": 9843496
+    },
+    {
+     "symbol": "LLY",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 1281.91,
+     "close_date": "2026-10-27",
+     "rsi": 63.2,
+     "volume": 1846530
+    },
+    {
+     "symbol": "CLS",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 276.54,
+     "close_date": "2026-10-27",
+     "rsi": 37.9,
+     "volume": 8079779
+    },
+    {
+     "symbol": "GE",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 297.66,
+     "close_date": "2026-10-27",
+     "rsi": 40.7,
+     "volume": 6886113
+    },
+    {
+     "symbol": "CAT",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 713.31,
+     "close_date": "2026-10-27",
+     "rsi": 36.5,
+     "volume": 2472211
+    },
+    {
+     "symbol": "ADI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 425.35,
+     "close_date": "2026-10-27",
+     "rsi": 63.6,
+     "volume": 4047001
+    },
+    {
+     "symbol": "CBRS",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 119.31,
+     "close_date": "2026-10-27",
+     "rsi": 32.6,
+     "volume": 14265719
+    },
+    {
+     "symbol": "CDNS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 343.08,
+     "close_date": "2026-10-27",
+     "rsi": 58.0,
+     "volume": 4627993
+    },
+    {
+     "symbol": "KLAC",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 153.66,
+     "close_date": "2026-10-27",
+     "rsi": 32.9,
+     "volume": 10281651
+    },
+    {
+     "symbol": "CSCO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 111.38,
+     "close_date": "2026-10-27",
+     "rsi": 52.7,
+     "volume": 14112082
+    },
+    {
+     "symbol": "JNJ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 268.73,
+     "close_date": "2026-10-27",
+     "rsi": 57.3,
+     "volume": 5762160
+    },
+    {
+     "symbol": "UNH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 410.39,
+     "close_date": "2026-10-27",
+     "rsi": 59.5,
+     "volume": 3743538
+    },
+    {
+     "symbol": "SPGI",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 448.93,
+     "close_date": "2026-10-27",
+     "rsi": 70.2,
+     "volume": 3411708
+    },
+    {
+     "symbol": "RCL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 295.92,
+     "close_date": "2026-10-27",
+     "rsi": 63.0,
+     "volume": 4953598
+    },
+    {
+     "symbol": "NXPI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 253.5,
+     "close_date": "2026-10-27",
+     "rsi": 64.0,
+     "volume": 5161572
+    },
+    {
+     "symbol": "IREN",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 27.44,
+     "close_date": "2026-10-27",
+     "rsi": 34.3,
+     "volume": 46794405
+    },
+    {
+     "symbol": "BAC",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 50.68,
+     "close_date": "2026-10-27",
+     "rsi": 27.8,
+     "volume": 24569295
+    },
+    {
+     "symbol": "MS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 186.91,
+     "close_date": "2026-10-27",
+     "rsi": 46.5,
+     "volume": 6513977
+    },
+    {
+     "symbol": "UPS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 106.09,
+     "close_date": "2026-10-27",
+     "rsi": 72.7,
+     "volume": 10926948
+    },
+    {
+     "symbol": "PYPL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 56.09,
+     "close_date": "2026-10-27",
+     "rsi": 52.1,
+     "volume": 19285320
+    },
+    {
+     "symbol": "GM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 80.54,
+     "close_date": "2026-10-27",
+     "rsi": 49.0,
+     "volume": 13426989
+    },
+    {
+     "symbol": "SNPS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 474.42,
+     "close_date": "2026-10-27",
+     "rsi": 57.3,
+     "volume": 2153168
+    },
+    {
+     "symbol": "FLEX",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 83.35,
+     "close_date": "2026-10-27",
+     "rsi": 33.2,
+     "volume": 11507206
+    },
+    {
+     "symbol": "MCHP",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 80.17,
+     "close_date": "2026-10-27",
+     "rsi": 60.0,
+     "volume": 11855001
+    },
+    {
+     "symbol": "XYL",
+     "setups": [
+      "oversold"
+     ],
+     "price": 92.86,
+     "close_date": "2026-10-27",
+     "rsi": 27.4,
+     "volume": 10222686
+    },
+    {
+     "symbol": "JCI",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 155.88,
+     "close_date": "2026-10-27",
+     "rsi": 58.4,
+     "volume": 6058910
+    },
+    {
+     "symbol": "EQT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 56.27,
+     "close_date": "2026-10-27",
+     "rsi": 64.2,
+     "volume": 16346577
+    },
+    {
+     "symbol": "PCAR",
+     "setups": [
+      "oversold"
+     ],
+     "price": 103.73,
+     "close_date": "2026-10-27",
+     "rsi": 27.5,
+     "volume": 8724275
+    },
+    {
+     "symbol": "RRC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 56.38,
+     "close_date": "2026-10-27",
+     "rsi": 87.1,
+     "volume": 15929197
+    },
+    {
+     "symbol": "TEL",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 225.35,
+     "close_date": "2026-10-27",
+     "rsi": 63.9,
+     "volume": 3976732
+    },
+    {
+     "symbol": "GILD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 159.08,
+     "close_date": "2026-10-27",
+     "rsi": 62.3,
+     "volume": 4931456
+    },
+    {
+     "symbol": "SNOW",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 337.42,
+     "close_date": "2026-10-27",
+     "rsi": 53.1,
+     "volume": 2310418
+    },
+    {
+     "symbol": "AMGN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 447.95,
+     "close_date": "2026-10-27",
+     "rsi": 64.5,
+     "volume": 1732393
+    },
+    {
+     "symbol": "BKR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 59.0,
+     "close_date": "2026-10-27",
+     "rsi": 58.8,
+     "volume": 13051875
+    },
+    {
+     "symbol": "COP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 147.96,
+     "close_date": "2026-10-27",
+     "rsi": 67.6,
+     "volume": 5182069
+    },
+    {
+     "symbol": "ON",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 78.67,
+     "close_date": "2026-10-27",
+     "rsi": 55.0,
+     "volume": 9436772
+    },
+    {
+     "symbol": "WM",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 235.81,
+     "close_date": "2026-10-27",
+     "rsi": 68.4,
+     "volume": 2902253
+    },
+    {
+     "symbol": "HWM",
+     "setups": [
+      "oversold"
+     ],
+     "price": 191.99,
+     "close_date": "2026-10-27",
+     "rsi": 28.5,
+     "volume": 3467448
+    },
+    {
+     "symbol": "NUE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 270.79,
+     "close_date": "2026-10-27",
+     "rsi": 65.7,
+     "volume": 2402062
+    },
+    {
+     "symbol": "CRS",
+     "setups": [
+      "oversold"
+     ],
+     "price": 288.49,
+     "close_date": "2026-10-27",
+     "rsi": 14.4,
+     "volume": 2251171
+    },
+    {
+     "symbol": "SLB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 54.08,
+     "close_date": "2026-10-27",
+     "rsi": 63.5,
+     "volume": 11711277
+    },
+    {
+     "symbol": "CCL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 27.74,
+     "close_date": "2026-10-27",
+     "rsi": 63.5,
+     "volume": 22181722
+    },
+    {
+     "symbol": "NVS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 156.86,
+     "close_date": "2026-10-27",
+     "rsi": 65.1,
+     "volume": 3734180
+    },
+    {
+     "symbol": "SBUX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 103.04,
+     "close_date": "2026-10-27",
+     "rsi": 66.0,
+     "volume": 5666054
+    },
+    {
+     "symbol": "CNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 41.97,
+     "close_date": "2026-10-27",
+     "rsi": 71.8,
+     "volume": 13557485
+    },
+    {
+     "symbol": "DLR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 179.01,
+     "close_date": "2026-10-27",
+     "rsi": 51.6,
+     "volume": 3163276
+    },
+    {
+     "symbol": "NEE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 82.42,
+     "close_date": "2026-10-27",
+     "rsi": 63.5,
+     "volume": 6843316
+    },
+    {
+     "symbol": "SE",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 74.73,
+     "close_date": "2026-10-27",
+     "rsi": 20.1,
+     "volume": 7454836
+    },
+    {
+     "symbol": "SCHW",
+     "setups": [
+      "oversold"
+     ],
+     "price": 89.3,
+     "close_date": "2026-10-27",
+     "rsi": 27.9,
+     "volume": 6206118
+    },
+    {
+     "symbol": "DAL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 81.45,
+     "close_date": "2026-10-27",
+     "rsi": 53.7,
+     "volume": 6704522
+    },
+    {
+     "symbol": "FDX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 307.1,
+     "close_date": "2026-10-27",
+     "rsi": 61.2,
+     "volume": 1700640
+    },
+    {
+     "symbol": "ABNB",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 168.82,
+     "close_date": "2026-10-27",
+     "rsi": 50.2,
+     "volume": 3083540
+    },
+    {
+     "symbol": "UNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 299.88,
+     "close_date": "2026-10-27",
+     "rsi": 68.3,
+     "volume": 1671300
+    },
+    {
+     "symbol": "UAL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 104.71,
+     "close_date": "2026-10-27",
+     "rsi": 49.8,
+     "volume": 4764437
+    },
+    {
+     "symbol": "ILMN",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 279.47,
+     "close_date": "2026-10-27",
+     "rsi": 59.6,
+     "volume": 1782676
+    },
+    {
+     "symbol": "FITB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 53.59,
+     "close_date": "2026-10-27",
+     "rsi": 62.0,
+     "volume": 9249656
+    },
+    {
+     "symbol": "CSX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 52.27,
+     "close_date": "2026-10-27",
+     "rsi": 70.9,
+     "volume": 9405180
+    },
+    {
+     "symbol": "PNC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 227.54,
+     "close_date": "2026-10-27",
+     "rsi": 55.8,
+     "volume": 2146354
+    },
+    {
+     "symbol": "AJG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 259.01,
+     "close_date": "2026-10-27",
+     "rsi": 59.0,
+     "volume": 1769033
+    },
+    {
+     "symbol": "P",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 138.73,
+     "close_date": "2026-10-27",
+     "rsi": 57.5,
+     "volume": 3184210
+    },
+    {
+     "symbol": "VEEV",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 313.46,
+     "close_date": "2026-10-27",
+     "rsi": 64.7,
+     "volume": 1356323
+    },
+    {
+     "symbol": "CRL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 358.84,
+     "close_date": "2026-10-27",
+     "rsi": 76.9,
+     "volume": 1158999
+    },
+    {
+     "symbol": "ODFL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 187.03,
+     "close_date": "2026-10-27",
+     "rsi": 53.7,
+     "volume": 2121826
+    },
+    {
+     "symbol": "MRSH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 190.67,
+     "close_date": "2026-10-27",
+     "rsi": 60.4,
+     "volume": 2064604
+    },
+    {
+     "symbol": "CCI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 87.87,
+     "close_date": "2026-10-27",
+     "rsi": 74.1,
+     "volume": 4444165
+    },
+    {
+     "symbol": "CAH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 246.45,
+     "close_date": "2026-10-27",
+     "rsi": 54.8,
+     "volume": 1583889
+    },
+    {
+     "symbol": "EMR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 166.27,
+     "close_date": "2026-10-27",
+     "rsi": 64.1,
+     "volume": 2339655
+    },
+    {
+     "symbol": "BURL",
+     "setups": [
+      "oversold"
+     ],
+     "price": 235.15,
+     "close_date": "2026-10-27",
+     "rsi": 29.7,
+     "volume": 1643217
+    },
+    {
+     "symbol": "RBLX",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 54.47,
+     "close_date": "2026-10-27",
+     "rsi": 65.3,
+     "volume": 6827015
+    },
+    {
+     "symbol": "LULU",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 104.59,
+     "close_date": "2026-10-27",
+     "rsi": 57.3,
+     "volume": 3522096
+    },
+    {
+     "symbol": "TEAM",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 219.41,
+     "close_date": "2026-10-27",
+     "rsi": 61.5,
+     "volume": 1674441
+    },
+    {
+     "symbol": "TEM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 72.15,
+     "close_date": "2026-10-27",
+     "rsi": 53.8,
+     "volume": 5066128
+    },
+    {
+     "symbol": "KDP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 34.86,
+     "close_date": "2026-10-27",
+     "rsi": 65.5,
+     "volume": 10218820
+    },
+    {
+     "symbol": "EBAY",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 117.83,
+     "close_date": "2026-10-27",
+     "rsi": 56.9,
+     "volume": 2989436
+    },
+    {
+     "symbol": "AKAM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 99.59,
+     "close_date": "2026-10-27",
+     "rsi": 49.8,
+     "volume": 3528063
+    },
+    {
+     "symbol": "HSBC",
+     "setups": [
+      "oversold"
+     ],
+     "price": 86.01,
+     "close_date": "2026-10-27",
+     "rsi": 24.3,
+     "volume": 3962883
+    },
+    {
+     "symbol": "SUNB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 81.84,
+     "close_date": "2026-10-27",
+     "rsi": 67.6,
+     "volume": 4060004
+    },
+    {
+     "symbol": "ALL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 251.71,
+     "close_date": "2026-10-27",
+     "rsi": 58.8,
+     "volume": 1305882
+    },
+    {
+     "symbol": "INSM",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 94.96,
+     "close_date": "2026-10-27",
+     "rsi": 33.5,
+     "volume": 3348161
+    },
+    {
+     "symbol": "LUV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 43.44,
+     "close_date": "2026-10-27",
+     "rsi": 61.0,
+     "volume": 7168345
+    },
+    {
+     "symbol": "RBRK",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 135.74,
+     "close_date": "2026-10-27",
+     "rsi": 70.3,
+     "volume": 2287808
+    },
+    {
+     "symbol": "BTI",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 59.83,
+     "close_date": "2026-10-27",
+     "rsi": 62.6,
+     "volume": 5103103
+    },
+    {
+     "symbol": "EXE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 94.62,
+     "close_date": "2026-10-27",
+     "rsi": 64.4,
+     "volume": 3157396
+    },
+    {
+     "symbol": "PPG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 113.44,
+     "close_date": "2026-10-27",
+     "rsi": 64.2,
+     "volume": 2550717
+    },
+    {
+     "symbol": "BNY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 147.58,
+     "close_date": "2026-10-27",
+     "rsi": 52.7,
+     "volume": 1947926
+    },
+    {
+     "symbol": "PTC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 194.62,
+     "close_date": "2026-10-27",
+     "rsi": 79.2,
+     "volume": 1469121
+    },
+    {
+     "symbol": "TWST",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 159.85,
+     "close_date": "2026-10-27",
+     "rsi": 54.3,
+     "volume": 1755504
+    },
+    {
+     "symbol": "EL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 108.35,
+     "close_date": "2026-10-27",
+     "rsi": 65.6,
+     "volume": 2589907
+    },
+    {
+     "symbol": "ENB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 48.38,
+     "close_date": "2026-10-27",
+     "rsi": 55.6,
+     "volume": 5780892
+    },
+    {
+     "symbol": "CARR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 57.83,
+     "close_date": "2026-10-27",
+     "rsi": 62.0,
+     "volume": 4829941
+    },
+    {
+     "symbol": "HAL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 35.62,
+     "close_date": "2026-10-27",
+     "rsi": 65.3,
+     "volume": 7740205
+    },
+    {
+     "symbol": "EW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 90.82,
+     "close_date": "2026-10-27",
+     "rsi": 61.4,
+     "volume": 3020202
+    },
+    {
+     "symbol": "SU",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 76.22,
+     "close_date": "2026-10-27",
+     "rsi": 58.0,
+     "volume": 3568871
+    },
+    {
+     "symbol": "INCY",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 116.6,
+     "close_date": "2026-10-27",
+     "rsi": 49.7,
+     "volume": 2230873
+    },
+    {
+     "symbol": "APA",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 50.79,
+     "close_date": "2026-10-27",
+     "rsi": 67.9,
+     "volume": 5038060
+    },
+    {
+     "symbol": "RVTY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 161.86,
+     "close_date": "2026-10-27",
+     "rsi": 69.3,
+     "volume": 1551625
+    },
+    {
+     "symbol": "LYB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 67.43,
+     "close_date": "2026-10-27",
+     "rsi": 70.7,
+     "volume": 3715274
+    },
+    {
+     "symbol": "CHRW",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 143.59,
+     "close_date": "2026-10-27",
+     "rsi": 49.6,
+     "volume": 1740785
+    },
+    {
+     "symbol": "DOV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 206.18,
+     "close_date": "2026-10-27",
+     "rsi": 70.2,
+     "volume": 1202821
+    },
+    {
+     "symbol": "FTV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 61.62,
+     "close_date": "2026-10-27",
+     "rsi": 71.1,
+     "volume": 4008325
+    },
+    {
+     "symbol": "TEVA",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 40.39,
+     "close_date": "2026-10-27",
+     "rsi": 55.3,
+     "volume": 5970832
+    },
+    {
+     "symbol": "FER",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 54.02,
+     "close_date": "2026-10-27",
+     "rsi": 59.9,
+     "volume": 4375336
+    },
+    {
+     "symbol": "PHM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 121.63,
+     "close_date": "2026-10-27",
+     "rsi": 59.1,
+     "volume": 1911744
+    },
+    {
+     "symbol": "HAS",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 118.33,
+     "close_date": "2026-10-27",
+     "rsi": 87.8,
+     "volume": 1963083
+    },
+    {
+     "symbol": "NTSK",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 26.15,
+     "close_date": "2026-10-27",
+     "rsi": 79.2,
+     "volume": 8531647
+    },
+    {
+     "symbol": "AR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 42.1,
+     "close_date": "2026-10-27",
+     "rsi": 74.9,
+     "volume": 5239420
+    },
+    {
+     "symbol": "HALO",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 128.5,
+     "close_date": "2026-10-27",
+     "rsi": 77.2,
+     "volume": 1698709
+    },
+    {
+     "symbol": "CNQ",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 54.07,
+     "close_date": "2026-10-27",
+     "rsi": 65.9,
+     "volume": 4029846
+    },
+    {
+     "symbol": "ZTS",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 78.23,
+     "close_date": "2026-10-27",
+     "rsi": 56.2,
+     "volume": 2781988
+    },
+    {
+     "symbol": "ALLE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 180.55,
+     "close_date": "2026-10-27",
+     "rsi": 79.4,
+     "volume": 1200379
+    },
+    {
+     "symbol": "AMRZ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 40.23,
+     "close_date": "2026-10-27",
+     "rsi": 62.4,
+     "volume": 5350288
+    },
+    {
+     "symbol": "HST",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 25.22,
+     "close_date": "2026-10-27",
+     "rsi": 74.0,
+     "volume": 8321764
+    },
+    {
+     "symbol": "AER",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 150.05,
+     "close_date": "2026-10-27",
+     "rsi": 60.6,
+     "volume": 1392548
+    },
+    {
+     "symbol": "ETR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 108.43,
+     "close_date": "2026-10-27",
+     "rsi": 65.2,
+     "volume": 1925382
+    },
+    {
+     "symbol": "CHKP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 159.84,
+     "close_date": "2026-10-27",
+     "rsi": 77.6,
+     "volume": 1292531
+    },
+    {
+     "symbol": "SRE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.01,
+     "close_date": "2026-10-27",
+     "rsi": 62.7,
+     "volume": 2398615
+    },
+    {
+     "symbol": "PEG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 72.82,
+     "close_date": "2026-10-27",
+     "rsi": 59.4,
+     "volume": 2739845
+    },
+    {
+     "symbol": "SGI",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 63.11,
+     "close_date": "2026-10-27",
+     "rsi": 48.2,
+     "volume": 3139686
+    },
+    {
+     "symbol": "ALB",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 98.96,
+     "close_date": "2026-10-27",
+     "rsi": 43.7,
+     "volume": 1998308
+    },
+    {
+     "symbol": "OVV",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 71.13,
+     "close_date": "2026-10-27",
+     "rsi": 67.3,
+     "volume": 2717495
+    },
+    {
+     "symbol": "CDW",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 161.41,
+     "close_date": "2026-10-27",
+     "rsi": 64.5,
+     "volume": 1170491
+    },
+    {
+     "symbol": "CP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 91.13,
+     "close_date": "2026-10-27",
+     "rsi": 64.1,
+     "volume": 2051308
+    },
+    {
+     "symbol": "MTZ",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 176.5,
+     "close_date": "2026-10-27",
+     "rsi": 29.3,
+     "volume": 1007908
+    },
+    {
+     "symbol": "RPRX",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 65.28,
+     "close_date": "2026-10-27",
+     "rsi": 73.9,
+     "volume": 2701852
+    },
+    {
+     "symbol": "RRX",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 158.21,
+     "close_date": "2026-10-27",
+     "rsi": 50.7,
+     "volume": 1073667
+    },
+    {
+     "symbol": "TXG",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 78.02,
+     "close_date": "2026-10-27",
+     "rsi": 53.9,
+     "volume": 2128508
+    },
+    {
+     "symbol": "NBIX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 146.0,
+     "close_date": "2026-10-27",
+     "rsi": 54.8,
+     "volume": 1122634
+    },
+    {
+     "symbol": "GGG",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 66.46,
+     "close_date": "2026-10-27",
+     "rsi": 24.3,
+     "volume": 2452006
+    },
+    {
+     "symbol": "TW",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 119.67,
+     "close_date": "2026-10-27",
+     "rsi": 68.2,
+     "volume": 1333451
+    },
+    {
+     "symbol": "EVRG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.3,
+     "close_date": "2026-10-27",
+     "rsi": 66.9,
+     "volume": 1869393
+    },
+    {
+     "symbol": "RIO",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 85.74,
+     "close_date": "2026-10-27",
+     "rsi": 32.3,
+     "volume": 1851687
+    },
+    {
+     "symbol": "DOCU",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 82.04,
+     "close_date": "2026-10-27",
+     "rsi": 66.4,
+     "volume": 1876656
+    },
+    {
+     "symbol": "ARMK",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 55.52,
+     "close_date": "2026-10-27",
+     "rsi": 51.7,
+     "volume": 2682358
+    },
+    {
+     "symbol": "EXR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 144.55,
+     "close_date": "2026-10-27",
+     "rsi": 66.5,
+     "volume": 1020513
+    },
+    {
+     "symbol": "BBIO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 69.37,
+     "close_date": "2026-10-27",
+     "rsi": 54.7,
+     "volume": 2041947
+    },
+    {
+     "symbol": "BIDU",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 78.27,
+     "close_date": "2026-10-27",
+     "rsi": 31.5,
+     "volume": 1743612
+    },
+    {
+     "symbol": "KIM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 23.7,
+     "close_date": "2026-10-27",
+     "rsi": 65.0,
+     "volume": 5651187
+    },
+    {
+     "symbol": "CCEP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 110.89,
+     "close_date": "2026-10-27",
+     "rsi": 57.3,
+     "volume": 1190458
+    },
+    {
+     "symbol": "FTI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 71.38,
+     "close_date": "2026-10-27",
+     "rsi": 53.2,
+     "volume": 1812922
+    },
+    {
+     "symbol": "EIX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 58.19,
+     "close_date": "2026-10-27",
+     "rsi": 57.9,
+     "volume": 2201320
+    },
+    {
+     "symbol": "MLI",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 54.88,
+     "close_date": "2026-10-27",
+     "rsi": 31.7,
+     "volume": 1830418
+    },
+    {
+     "symbol": "EXEL",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 65.35,
+     "close_date": "2026-10-27",
+     "rsi": 72.4,
+     "volume": 1430983
+    },
+    {
+     "symbol": "EMBJ",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 72.73,
+     "close_date": "2026-10-27",
+     "rsi": 49.9,
+     "volume": 1226850
+    },
+    {
+     "symbol": "BALL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 64.1,
+     "close_date": "2026-10-27",
+     "rsi": 64.5,
+     "volume": 1328823
+    },
+    {
+     "symbol": "TS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 60.32,
+     "close_date": "2026-10-27",
+     "rsi": 61.1,
+     "volume": 1299876
+    },
+    {
+     "symbol": "TRP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 62.89,
+     "close_date": "2026-10-27",
+     "rsi": 59.3,
+     "volume": 1227339
+    },
+    {
+     "symbol": "HTHT",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 46.57,
+     "close_date": "2026-10-27",
+     "rsi": 61.2,
+     "volume": 1622941
+    },
+    {
+     "symbol": "SKM",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 31.47,
+     "close_date": "2026-10-27",
+     "rsi": 37.3,
+     "volume": 2315071
+    },
+    {
+     "symbol": "YUMC",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 45.43,
+     "close_date": "2026-10-27",
+     "rsi": 65.9,
+     "volume": 1538549
+    },
+    {
+     "symbol": "SQM",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 60.3,
+     "close_date": "2026-10-27",
+     "rsi": 41.1,
+     "volume": 1157134
+    },
+    {
+     "symbol": "RELX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 38.99,
+     "close_date": "2026-10-27",
+     "rsi": 63.0,
+     "volume": 1749528
+    },
+    {
+     "symbol": "SAIL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 22.39,
+     "close_date": "2026-10-27",
+     "rsi": 66.4,
+     "volume": 2999426
+    },
+    {
+     "symbol": "VNOM",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 46.44,
+     "close_date": "2026-10-27",
+     "rsi": 64.5,
+     "volume": 1272278
+    },
+    {
+     "symbol": "RTO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 22.89,
+     "close_date": "2026-10-27",
+     "rsi": 67.0,
+     "volume": 2493770
+    },
+    {
+     "symbol": "QNT",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 40.21,
+     "close_date": "2026-10-27",
+     "rsi": 47.1,
+     "volume": 1205093
+    },
+    {
+     "symbol": "TAK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 20.27,
+     "close_date": "2026-10-27",
+     "rsi": 68.1,
+     "volume": 2147165
+    },
+    {
+     "symbol": "WMG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 30.31,
+     "close_date": "2026-10-27",
+     "rsi": 57.7,
+     "volume": 1311148
+    }
+   ],
+   "counts": {
+    "requested": 672,
+    "fetched": 672,
+    "illiquid": 53,
+    "short": 1,
+    "scanned": 618,
+    "hits": 164
+   },
+   "seconds": 13.3
+  }
+ },
+ "news_tickers": [
+  "MSFT",
+  "GOOGL",
+  "AMZN",
+  "V",
+  "INTC",
+  "GM",
+  "TSLA",
+  "BA",
+  "GOOG",
+  "NBIS",
+  "CRWV",
+  "TXN",
+  "LRCX",
+  "LLY",
+  "CLS",
+  "GE",
+  "CAT",
+  "ADI",
+  "CBRS",
+  "CDNS",
+  "KLAC",
+  "CSCO",
+  "JNJ",
+  "UNH",
+  "SPGI",
+  "RCL",
+  "NXPI",
+  "IREN",
+  "BAC",
+  "MS"
+ ],
+ "news": {
+  "cmd": "trader-news/news.py --tickers MSFT GOOGL AMZN V INTC GM TSLA BA GOOG NBIS CRWV TXN LRCX LLY CLS GE CAT ADI CBRS CDNS KLAC CSCO JNJ UNH SPGI RCL NXPI IREN BAC MS --hours 18 --dry-run --json",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "checked": "2026-10-28T12:47:32.427164+00:00",
+   "moves": [
+    {
+     "ticker": "ADI",
+     "price": 425.35,
+     "prev_close": 407.93,
+     "pct": 4.27,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "AMZN",
+     "price": 253.1,
+     "prev_close": 249.09,
+     "pct": 1.61,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "BA",
+     "price": 168.18,
+     "prev_close": 188.31,
+     "pct": -10.69,
+     "time": "2026-10-27T20:00:03+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "BAC",
+     "price": 50.68,
+     "prev_close": 50.52,
+     "pct": 0.32,
+     "time": "2026-10-27T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "CAT",
+     "price": 713.31,
+     "prev_close": 692.13,
+     "pct": 3.06,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CBRS",
+     "price": 119.31,
+     "prev_close": 108.37,
+     "pct": 10.1,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CDNS",
+     "price": 343.08,
+     "prev_close": 322.17,
+     "pct": 6.49,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CLS",
+     "price": 276.54,
+     "prev_close": 246.65,
+     "pct": 12.12,
+     "time": "2026-10-27T20:04:58+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CRWV",
+     "price": 59.57,
+     "prev_close": 55.19,
+     "pct": 7.94,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CSCO",
+     "price": 111.38,
+     "prev_close": 110.24,
+     "pct": 1.03,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "GE",
+     "price": 297.66,
+     "prev_close": 288.43,
+     "pct": 3.2,
+     "time": "2026-10-27T20:00:03+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GM",
+     "price": 80.54,
+     "prev_close": 76.31,
+     "pct": 5.54,
+     "time": "2026-10-27T20:00:03+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GOOG",
+     "price": 316.83,
+     "prev_close": 314.19,
+     "pct": 0.84,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "GOOGL",
+     "price": 320.58,
+     "prev_close": 316.8,
+     "pct": 1.19,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "INTC",
+     "price": 93.74,
+     "prev_close": 90.47,
+     "pct": 3.61,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "IREN",
+     "price": 27.44,
+     "prev_close": 25.43,
+     "pct": 7.9,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "JNJ",
+     "price": 268.73,
+     "prev_close": 266.3,
+     "pct": 0.91,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "KLAC",
+     "price": 153.66,
+     "prev_close": 149.21,
+     "pct": 2.98,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "LLY",
+     "price": 1281.91,
+     "prev_close": 1279.14,
+     "pct": 0.22,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "LRCX",
+     "price": 240.85,
+     "prev_close": 237.5,
+     "pct": 1.41,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MS",
+     "price": 186.91,
+     "prev_close": 183.49,
+     "pct": 1.86,
+     "time": "2026-10-27T20:02:37+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MSFT",
+     "price": 531.33,
+     "prev_close": 532.6,
+     "pct": -0.24,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "NBIS",
+     "price": 170.47,
+     "prev_close": 153.27,
+     "pct": 11.22,
+     "time": "2026-10-27T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "NXPI",
+     "price": 253.5,
+     "prev_close": 245.83,
+     "pct": 3.12,
+     "time": "2026-10-27T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "RCL",
+     "price": 295.92,
+     "prev_close": 280.6,
+     "pct": 5.46,
+     "time": "2026-10-27T20:02:24+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "SPGI",
+     "price": 448.93,
+     "prev_close": 450.65,
+     "pct": -0.38,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "TSLA",
+     "price": 407.46,
+     "prev_close": 391.62,
+     "pct": 4.04,
+     "time": "2026-10-27T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "TXN",
+     "price": 308.91,
+     "prev_close": 298.12,
+     "pct": 3.62,
+     "time": "2026-10-27T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "UNH",
+     "price": 410.39,
+     "prev_close": 410.7,
+     "pct": -0.08,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "V",
+     "price": 401.86,
+     "prev_close": 404.16,
+     "pct": -0.57,
+     "time": "2026-10-27T20:00:02+00:00",
+     "moving": false
+    }
+   ],
+   "items": [
+    {
+     "id": "rss:bda7d011-d872-4f26-9e04-b481ca7f36b1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row",
+     "summary": "Chip stocks rose on Wednesday, with Nvidia, AMD, and Broadcom gaining after SK Hynix results reignited the AI trade.",
+     "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-micron-stocks-lead-chip-sector-higher-for-third-day-in-a-row-124044569.html?.tsrc=rss",
+     "time": "2026-10-28T12:40:44+00:00",
+     "touches": [
+      "INTC",
+      "LRCX"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ac50db70-057a-31b4-b82a-cacfc54885ab",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Stocks Without AI Are Beating the S&P 500 by 6 Points This Month",
+     "summary": "Something unusual happened in October: the parts of the market farthest from AI surged while megacap tech stalled, and now a record-breaking gap is sitting right in the path of the biggest earnings week of the year.",
+     "link": "https://247wallst.com/investing/2026/10/28/stocks-without-ai-are-beating-the-sp-500-by-6-points-this-month/?.tsrc=rss",
+     "time": "2026-10-28T12:37:29+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:815717a7-a024-3b0b-99e9-d9a46c001eb5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Electric Vehicles Update - Indonesia's Battery Market Growth and Its Future Opportunities",
+     "summary": "The Indonesia electric vehicle (EV) battery market is experiencing substantial growth, driven by strategic investments in battery cell manufacturing and a strong foundation in nickel resources. The market, valued at USD 1.35 billion in 2025, is projected to reach USD 1.75 billion in 2026, with expectations to expand significantly by 2036. This expansion is supported by domestic EV adoption, government incentives, and increased export opportunities. Despite the promising outlook, the sector...",
+     "link": "https://finance.yahoo.com/energy/articles/electric-vehicles-indonesias-battery-market-123712453.html?.tsrc=rss",
+     "time": "2026-10-28T12:37:12+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2160dcd8-4d6f-39be-b5fc-e950e21cee38",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "LLY Vs NVO: Lilly\u2019s Retatrutide Beats Novo\u2019s Ozempic In Head-To-Head Trial \u2014 Retatrutide More Than Doubles Weight Loss",
+     "summary": "Retatrutide helped patients with type 2 diabetes lose an average of 44 to 47 pounds over 80 weeks, compared with about 21 pounds for Ozempic.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/lly-nvo-retatrutide-beats-ozempic-in-head-to-head-trial/cZU9h53R9GR?.tsrc=rss",
+     "time": "2026-10-28T12:35:59+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e8f11d6a-ce4b-3199-b74b-c6ed13dfa129",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Jeff Bezos Says Retirees Should Buy the S&P 500 Instead of AI Stocks \u2014 but That Could Be Riskier Than You Think",
+     "summary": "Artificial intelligence has become Wall Street\u2019s favorite investment theme, helping push stocks to record highs while raising concerns about how long the boom can last. For retirees, the stakes are especially high. A younger investor can spend decades recovering from a market collapse. Someone depending on investments to pay the bills doesn\u2019t necessarily have that [\u2026]",
+     "link": "https://247wallst.com/investing/2026/10/28/jeff-bezos-says-retirees-should-buy-the-sp-500-instead-of-ai-stocks-but-that-could-be-riskier-than-you-think/?.tsrc=rss",
+     "time": "2026-10-28T12:35:45+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:050f8ad3-9888-3873-8178-99e85da9a1a7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing Sinks 12% in a Week on a Slower 737 Ramp: \u201cLonger Than We Had Expected\u201d",
+     "summary": "Key TakeawaysBoeing shares fell 12% in the past week, nearly all of it on Tuesday, Oct. 27, after its third-quarter report and earnings call.",
+     "link": "https://www.tikr.com/blog/boeing-sinks-12-in-a-week-on-a-slower-737-ramp-longer-than-we-had-expected?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-28T12:31:58+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:4ffcad6b-e24d-3f96-a12e-1c0ecdea4b90",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "S&P Dow Jones Indices and Quantix Commodities Collaborate to Launch Co-Branded Commodity Indices",
+     "summary": "S&P Dow Jones Indices (\"S&P DJI\"), the world's leading index provider, today announced that it has entered into an agreement with Quantix Commodities (\"Quantix\") to publish a co-branded family of commodity indices and benchmarking solutions. As part of the agreement, the Quantix Commodity Index (\"QCI\") will be renamed the S&P Quantix Commodity Index (\"SPQCI\"). The Index is scheduled to begin calculation and publication on the S&P DJI platform on December 1, 2026.",
+     "link": "https://finance.yahoo.com/markets/commodities/articles/p-dow-jones-indices-quantix-123000664.html?.tsrc=rss",
+     "time": "2026-10-28T12:30:00+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:76df94ca-f21e-354c-b033-b22835e213f8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Verisk Brings Its Proprietary Insurance Intelligence to Amazon and Microsoft AI Platforms, Expands Offerings Within Claude",
+     "summary": "New integrations with Amazon Quick and Microsoft Copilot, along with expanded offerings within Claude by Anthropic, bring trusted underwriting, premium audit and weather intelligence into insurers' preferred AI workflowsJERSEY CITY, N.J, Oct. 28, 2026 (GLOBE NEWSWIRE) -- Verisk (Nasdaq: VRSK), a strategic data analytics and technology partner to the global insurance industry, today announced new integrations with Amazon Quick and Microsoft Copilot, along with expanded offerings within Claude by",
+     "link": "https://finance.yahoo.com/technology/ai/articles/verisk-brings-proprietary-insurance-intelligence-122500008.html?.tsrc=rss",
+     "time": "2026-10-28T12:25:00+00:00",
+     "touches": [
+      "AMZN",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:430476ad-33ac-3e55-8938-0e911c5aa6ff",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "What Is Going On With Salesforce Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/crm/articles/620978/what-is-going-on-with-salesforce-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T12:23:28+00:00",
+     "touches": [
+      "MSFT",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3465025e-307a-3205-bffe-25ea2d4b36e4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "What Is Snowflake Stock's Biggest Opportunity?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/snow/articles/620992/what-is-snowflake-stocks-biggest-opportunity/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T12:23:19+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:05cad06e-db31-36ec-b405-ae6c08b7d94f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Does The Fall In Fair Isaac Stock Change Anything?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/fico/articles/620989/does-the-fall-in-fair-isaac-stock-change-anything/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T12:23:19+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c138b1da-fb00-48dd-855c-5f55e3648560",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Vertiv stock surges as orders double amid AI build-out: 'Evolving faster than ever'",
+     "summary": "Vertiv continues to benefit from the massive capex spending from the likes of Google and Microsoft.",
+     "link": "https://finance.yahoo.com/markets/stocks/article/vertiv-stock-surges-as-orders-double-amid-ai-build-out-evolving-faster-than-ever-122018206.html?.tsrc=rss",
+     "time": "2026-10-28T12:18:56+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a119254f-b86c-3ef7-8d3c-c5007a4ccb18",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "How Much Should One Number Worry Merck Stock Holders?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/mrk/articles/621000/how-much-should-one-number-worry-merck-stock-holders/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T12:16:34+00:00",
+     "touches": [
+      "JNJ",
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e5d0b941-c478-3bf3-8b58-3f63ad4b8e52",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Big Tech Earnings Face a $600 Billion Question: Is AI Spending Paying Off?",
+     "summary": "Artificial intelligence helped lift U.S. stocks Monday, but this week\u2019s earnings from Alphabet, Microsoft and Amazon will test whether enthusiasm for the technology can survive closer scrutiny of its enormous cost. The three companies, which have nearly $1.7 trillion in combined backlog, plan to spend as much as $600 billion this year. Investors now want [\u2026]",
+     "link": "https://firstformoney.com/big-tech-earnings-face-a-600-billion-question-is-ai-spending-paying-off/?.tsrc=rss",
+     "time": "2026-10-28T12:15:14+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ac7507b1-943e-3bcf-8c1d-75e5a4008e7e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "3 Big Pharma Earnings Reports to Watch: Eli Lilly, Merck and Gilead",
+     "summary": "Eli Lilly's EPS estimate collapsed by a third in just 30 days, Merck faces a comparison it cannot repeat, and Gilead is burning through cash fast. Three pharma giants report Thursday, and the results could reshape the sector's outlook for the rest of the year.",
+     "link": "https://247wallst.com/investing/2026/10/28/3-big-pharma-earnings-reports-to-watch-eli-lilly-merck-and-gilead/?.tsrc=rss",
+     "time": "2026-10-28T12:14:59+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:12acb698-ab35-3774-9ee4-b7520166d240",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Fed Decision Watch",
+     "summary": "The Morning Bull - US Market Morning Update Wednesday, Oct, 28 2026 US stocks are set for a cautiously positive open, with futures slightly higher as everything revolves around the Federal Reserve decision tonight. Sentiment is constructive but fragile because rate expectations remain in play. The Fed is widely expected to keep the funds rate at 3.75% to 4.00% after September's 25bp move, while markets price another 25bp increase in December. Recent inflation data and elevated oil prices...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-121406952.html?.tsrc=rss",
+     "time": "2026-10-28T12:14:06+00:00",
+     "touches": [
+      "BA",
+      "CBRS"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8aa305ef-cc61-37d7-bc76-82a4a4324c5b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Stock Market Today: Dow Falls Ahead Of Rate Decision, Warsh Comments; Robinhood Plunges (Live Coverage)",
+     "summary": "The Dow Jones index drops Wednesday ahead of the Fed's rate decision and Warsh's comments. Robinhood plunges on earnings.",
+     "link": "https://finance.yahoo.com/m/8aa305ef-cc61-37d7-bc76-82a4a4324c5b/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+     "time": "2026-10-28T12:13:49+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9c37da2c-60d5-3b80-9e44-60c033947791",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Seagate Says It Can\u2019t Make Hard Drives Fast Enough for AI",
+     "summary": "Seagate locked in customers through 2030 and posted record free cash flow, yet the stock dropped after hours on results that looked strong on paper. Something underneath the numbers is making investors nervous.",
+     "link": "https://247wallst.com/investing/2026/10/28/seagate-says-it-cant-make-hard-drives-fast-enough-for-ai/?.tsrc=rss",
+     "time": "2026-10-28T12:13:28+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7066a700-b33b-3fa1-858d-f75f49b920da",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Dow Jones Futures Fall, Techs Rise As SK Hynix Crushes Views; Fed, Microsoft, Google On Deck",
+     "summary": "The S&P 500 reclaimed a key level as Tesla and growth stocks rallied. The Federal Reserve, Microsoft, Google on deck.",
+     "link": "https://finance.yahoo.com/m/7066a700-b33b-3fa1-858d-f75f49b920da/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
+     "time": "2026-10-28T12:12:27+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "TSLA",
+      "V"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:537887fc-ac14-30b6-b7c9-08f422f3b0ba",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Bharti Airtel Stock And 2 Indian Telecom Shares Riding The Jio IPO Shift",
+     "summary": "Jio Platforms\u2019 blockbuster Mumbai listing, a $3.2b float that jumped 21% on day one and briefly made it India\u2019s second-largest company, has jolted attention back to telecom and digital infrastructure. This is where data demand, global tech backing from Meta and Alphabet\u2019s Google, and fresh capital meet. In this article, you will see three stocks exposed to this same news ripple, and how that could matter for your portfolio decisions. The three stocks below are only a starting sample, since...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bharti-airtel-stock-2-indian-120944242.html?.tsrc=rss",
+     "time": "2026-10-28T12:09:44+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ca100c9c-5d3c-3266-8585-8d18b70b6889",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "2 Reasons Why GE HealthCare Stock Is Climbing After Earnings",
+     "summary": "GE HealthCare points to broad-based growth across all three of its business divisions as its raises annual guidance.",
+     "link": "https://finance.yahoo.com/m/ca100c9c-5d3c-3266-8585-8d18b70b6889/2-reasons-why-ge-healthcare.html?.tsrc=rss",
+     "time": "2026-10-28T12:08:00+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7d7e515c-e783-32bc-ad4c-f967249bd232",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CLS",
+     "title": "Canadian Stock Market Today: TSX Futures Edge Higher As Fed And BoC Decisions Loom",
+     "summary": "The Morning Bull - Canadian Market Morning Update Wednesday, 28 Oct 2026 Canadian equities are set for a cautiously positive open, with the Federal Reserve decision tonight acting as the main anchor for sentiment. A steady Fed rate path, paired with a possible December hike, is shaping the mood. The federal funds rate is widely expected to remain at 3.75% to 4.00% today, while markets are pricing in an additional 25bp increase in December. That combination keeps attention on how long...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-stock-market-today-tsx-120658066.html?.tsrc=rss",
+     "time": "2026-10-28T12:06:58+00:00",
+     "touches": [
+      "CLS"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e746142f-0036-38e8-84b3-ef67b4044820",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "US Equity Futures Mixed Pre-Bell as Traders Await Fed Rate Decision, Big Tech Earnings",
+     "summary": "US equity futures were mixed pre-bell Wednesday as traders awaited the Federal Reserve's interest-ra",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mixed-pre-120617696.html?.tsrc=rss",
+     "time": "2026-10-28T12:06:17+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:edbf0b5e-3b6f-3bd0-8467-5539553bcbcd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
+     "summary": "Vlad Tenev delivered the messaging that Robinhood Chain enthusiasts wanted to hear\u2014and the market responded.",
+     "link": "https://decrypt.co/382029/morning-minute-robinhood-misses-but-crypto-beats-and-robinhood-chain-soars?.tsrc=rss",
+     "time": "2026-10-28T12:04:56+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3e43124e-5547-31c4-9bf0-5288eb7fafd4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "Premarket movers: Vertiv, SK Hynix jump; Enphase, NXP slide",
+     "summary": "Investing.com - Nasdaq futures advanced on Wednesday after stronger-than-expected results from South Korean memory chipmaker SK Hynix sparked a global rally in artificial intelligence-linked semiconductor stocks. Investors were also looking ahead to earnings from major technology companies and a Federal Reserve interest rate decision.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-vertiv-sk-hynix-120341988.html?.tsrc=rss",
+     "time": "2026-10-28T12:03:41+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:152937e1-fbcc-30d2-8154-6c575b785415",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "Why Should Pfizer Stock Holders Watch This One Number?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/pfe/articles/621004/why-should-pfizer-stock-holders-watch-this-one-number/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T12:01:22+00:00",
+     "touches": [
+      "JNJ",
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2b47c372-177e-3051-aa01-406a8d82b220",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Lilly, Amazon Earnings Ahead",
+     "summary": "Among the best stocks in earnings performance, highly rated Eli Lilly is in a buy zone.",
+     "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html?.tsrc=rss",
+     "time": "2026-10-28T12:01:21+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e5ed3c43-7ba7-36b0-91ee-1cf78a2797a3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Funds Load Up On Marriott, Estee Lauder As Big Tech Earnings Loom",
+     "summary": "Funds played defense as they load up on Marriott, Estee Lauder and biotech and energy names in Tuesday's stock market.",
+     "link": "https://finance.yahoo.com/m/e5ed3c43-7ba7-36b0-91ee-1cf78a2797a3/funds-load-up-on-marriott%2C.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:30+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:87e72ddb-46f1-3633-bc3f-70cf4ac925d0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Google Earnings: Cloud Is Booming, But Can Search Deliver Amid AI Shift?",
+     "summary": "Google stock faces a Q3 earnings test amid renewed investor worries over the core internet search advertising business.",
+     "link": "https://finance.yahoo.com/m/87e72ddb-46f1-3633-bc3f-70cf4ac925d0/google-earnings%3A-cloud-is.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:01+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:fbcc3a7e-443b-3e1d-8808-f8b224db382d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing: Global Freighter Fleet to Exceed 4,000 Airplanes as Air Cargo Traffic Doubles by 2045",
+     "summary": "Boeing [NYSE: BA] projects in its 2026 World Air Cargo Forecast that air cargo traffic will double over the next 20 years, driving the freighter fleet to exceed 4,000 airplanes by 2045. Growth will be fueled by time-sensitive shipments for advanced manufacturing and AI hardware, diversifying supply chains and rising e-commerce volumes as carriers adapt route networks to shifting trade lanes and manage geopolitical disruptions.",
+     "link": "https://finance.yahoo.com/economy/articles/boeing-global-freighter-fleet-exceed-120000853.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:00+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:0ad2cea3-670b-4332-9781-6716ae16eebc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "How Anthropic's IPO structure could become the AI blueprint",
+     "summary": "F/m Investments CEO and CIO, Alex Morris, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to share his thoughts on what an Anthropic (ANTH.PVT) IPO could mean for the larger AI landscape.",
+     "link": "https://finance.yahoo.com/video/anthropics-ipo-structure-could-become-120000012.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:00+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bf88a957-cab7-343f-a5df-b985bdd35948",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "Catapult unveils Financial Close and Audit Module for an audit-ready Business Central close",
+     "summary": "Catapult, a Microsoft Dynamics 365 partner, today unveiled Catapult's Financial Close and Audit Module for Business Central, a native extension that manages month-end close inside Microsoft Dynamics 365 Business Central. Designed for controllers, finance managers and chief financial officers at growing organizations, the module replaces spreadsheet-based close processes with reusable checklists, reviewer sign-off and a complete audit trail. It is available now on Microsoft AppSource.",
+     "link": "https://finance.yahoo.com/technology/articles/catapult-unveils-financial-close-audit-120000960.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:00+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:caded022-95d4-3e2d-87fa-bab9aafb8a78",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "TrustScale Acquires RagMetrics AI Configuration and Evaluation Systems, Expanding Its Portfolio for Safer and Better AI",
+     "summary": "Acquisition expands 's Nuance Configurability and Rubrics alongside Argus Evaluation Automations; RagMetrics CEO Olivier Cohen and CTO Hernan Lardiez join LOS ALTOS, CA / ACCESS Newswire / October 28, 2026 / , an AI training, evaluation and assurance company, today announced it has acquired the technology assets and IP of RagMetrics, an AI configuration and evaluation platform. Hallucinations cost organizations nearly $70 billion a year and the problem must be addressed to accelerate enterprise",
+     "link": "https://finance.yahoo.com/technology/ai/articles/trustscale-acquires-ragmetrics-ai-configuration-120000104.html?.tsrc=rss",
+     "time": "2026-10-28T12:00:00+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [
+      "deal",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:774d2c74-983c-343f-89f5-ccb18c5d3d3c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Enphase Energy, F5, Marvell Technology, MSG Rangers, Pentair, Silicon Motion Technology, Spotify Technology, Texas Instruments, Whirlpool, and More",
+     "summary": "With the Fed rate decision dropping at 2:30 PM and Alphabet and Microsoft reporting before the bell, Wednesday's analyst calls on Enphase, Spotify, Whirlpool, and a newly public Rangers franchise land at a pivotal moment for markets.",
+     "link": "https://247wallst.com/investing/2026/10/28/here-are-wednesdays-top-wall-street-analyst-research-calls-enphase-energy-f5-marvell-technology-msg-rangers-pentair-silicon-motion-technology-spotify-technology-texas-instruments-whi/?.tsrc=rss",
+     "time": "2026-10-28T11:58:12+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "TXN"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:278b3db3-9698-3f08-9a96-032c4b315432",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "OpenAI Reportedly Plans to Purchase Google AI Chips as Demand for Computing Infrastructure Grows",
+     "summary": "OpenAI (NASDAQ:OAI) is planning to purchase artificial intelligence chips developed by Alphabet\u2019s Google (NASDAQ:GOOG), according to a report published Tuesday by The Information, citing a person familiar with the matter. The potential agreement would expand the commercial relationship between the two companies as demand for AI computing infrastructure continues to increase.",
+     "link": "https://investorshub.advfn.com/market-news/article/38763/openai-reportedly-plans-to-purchase-google-ai-chips-as-demand-for-computing-infrastructure-grows?.tsrc=rss",
+     "time": "2026-10-28T11:51:26+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a110766d-c91a-35dc-bfc7-b7af9d442573",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa Stock Inches Lower Despite Revenue Beat",
+     "summary": "Key Stats for Visa StockPrice change for Visa stock in the last 6 months: 30%$V Stock Price as of Oct. 27: $40252-Week High: $415$V Stock Price Target: $427__Now Live: Discover how much upside your favorite stocks could have using TIKR\u2019s new Valuation Model (It\u2019s free)__>>> What Happened?Visa (V:NYSE) shares slipped about 1.",
+     "link": "https://www.tikr.com/blog/visa-stock-slips-q4-2026-earnings-incentives-outlook?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-28T11:50:43+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f3514d3f-678c-31b8-b499-e6d96ed30fb3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla Stock Heads for Third Day of Gains. It\u2019s About More Than SpaceX.",
+     "summary": "Tesla stock is going for three gains in a row on Wednesday.",
+     "link": "https://finance.yahoo.com/m/f3514d3f-678c-31b8-b499-e6d96ed30fb3/tesla-stock-heads-for-third.html?.tsrc=rss",
+     "time": "2026-10-28T11:50:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:4e4095e2-758d-393b-8bb3-33c3b63ed415",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Megacap Earnings Could Spoil the Market\u2019s Appetite for AI",
+     "summary": "The stock market is bracing for earnings from Alphabet and Microsoft and the Federal Reserve\u2019s latest interest-rate decision today.",
+     "link": "https://finance.yahoo.com/m/4e4095e2-758d-393b-8bb3-33c3b63ed415/megacap-earnings-could-spoil.html?.tsrc=rss",
+     "time": "2026-10-28T11:37:00+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f1884d2b-9d9a-39d3-9733-be7f22e80e1a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Terex (TEX) Q3 Earnings and Revenues Top Estimates",
+     "summary": "Terex (TEX) delivered earnings and revenue surprises of +5.63% and +1.44%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/terex-tex-q3-earnings-revenues-113507226.html?.tsrc=rss",
+     "time": "2026-10-28T11:35:07+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:0ff89e84-09b3-33fb-bca1-7bd6f5792cf5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Etsy (ETSY) Q3 Earnings and Revenues Top Estimates",
+     "summary": "Etsy (ETSY) delivered earnings and revenue surprises of +15.67% and +3.51%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etsy-etsy-q3-earnings-revenues-113504109.html?.tsrc=rss",
+     "time": "2026-10-28T11:35:04+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8df68fbd-7a39-3bbe-9e3f-68953839dacc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla Could Go Beyond Robotaxis Into Underground Travel And Electric Aviation \u2014 TSLA Could \u2018Own\u2019 Transportation, ARK Says",
+     "summary": "Cathie Wood-led ARK Invest believes Tesla Inc. CFO Vaibhav Taneja\u2018s comments about the automaker wanting to develop all modes of transportation may hold some water and it has to do with CEO Elon Musk\u2018s other enterprises, including Space Exploration Technologies...",
+     "link": "https://finance.yahoo.com/technology/articles/tesla-could-beyond-robotaxis-underground-113025276.html?.tsrc=rss",
+     "time": "2026-10-28T11:30:25+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1ec8e558-42f4-3597-91c6-3bd577f0cc65",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Man repairs 2 wrecked Teslas, they pass inspection, but the carmaker cuts fast charging anyway \u2014 now he owes $15K",
+     "summary": "Vehicles that Tesla has not confirmed comply with its safety standards could damage a Supercharger or might not be safe to drive, the company says.",
+     "link": "https://finance.yahoo.com/technology/articles/man-repairs-2-wrecked-teslas-113000365.html?.tsrc=rss",
+     "time": "2026-10-28T11:30:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:315dbfaa-dba6-3b0d-83d6-554b24301c31",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "BMO Launches Canada's First Single Stock Autocallable Income ETFs",
+     "summary": "BMO Asset Management Inc., the manager of the BMO ETFs, today announced the launch of BMO Autocallable Income NVIDIA (NVDA) ETF \u2013 Series 1 (Cboe Canada: NVIA), BMO Autocallable Income Palantir (PLTR) ETF \u2013 Series 1 (Cboe Canada: PLTA), and BMO Autocallable Income Tesla (TSLA) ETF \u2013 Series 1 (Cboe Canada: TESA) (collectively, the \"BMO ETFs\"), each offering CAD Units. Collectively, the units of the BMO ETFs are referred to as the \"Units\".",
+     "link": "https://finance.yahoo.com/markets/options/articles/bmo-launches-canadas-first-single-113000761.html?.tsrc=rss",
+     "time": "2026-10-28T11:30:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:13640f89-74b2-3c7c-9232-e0664f4695f9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Amazon orders coders to rein in AI use as costs mount",
+     "summary": "Amazon has ordered its coders to rein in their AI use amid concerns that tech workers are blowing through company budgets on chatbots.",
+     "link": "https://uk.finance.yahoo.com/news/amazon-orders-coders-rein-ai-112839233.html?.tsrc=rss",
+     "time": "2026-10-28T11:28:39+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b1d90327-7e94-3933-a118-74b4a536a31b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "The Dates That Matter Most For Mastercard Stock",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ma/articles/621019/the-dates-that-matter-most-for-mastercard-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T11:26:21+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:66d0438b-a533-38f9-8741-4e8366955a6c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Micron Biomedical Appoints Anand Subramony, Ph.D., as Executive Vice President, Global Product Development and Combination Product Commercialization",
+     "summary": "Seasoned drug delivery and product development leader formerly at Lilly and AstraZeneca to advance Micron Biomedical's transition from platform technology to commercial product company Anand Subramony, Ph.D. joins Micron Biomedical Micron Biomedical appoints former Lilly and AstraZeneca leader, Anand Subramony, Ph.D., as executive vice president, global product development and combination product commercialization as the company transitions from a platform technology to a commercial products com",
+     "link": "https://finance.yahoo.com/healthcare/articles/micron-biomedical-appoints-anand-subramony-112500420.html?.tsrc=rss",
+     "time": "2026-10-28T11:25:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:80b6a789-ac23-3154-838d-6c9b804be9aa",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "GM plans Michigan hybrid investment, shifts listing to Nasdaq",
+     "summary": "The planned investment is part of a wider commitment to the Lansing region, where GM's investments will exceed $2bn over the next several years.",
+     "link": "https://www.just-auto.com/news/gm-michigan-hybrid-investment-listing-nasdaq/?.tsrc=rss",
+     "time": "2026-10-28T11:22:33+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e40f47ce-d450-3874-9b5a-373f8363b535",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "OpenAI Is Buying Google\u2019s AI Chips, a Hit to Nvidia\u2019s Biggest Customer Bond",
+     "summary": "OpenAI reportedly buying Google's custom AI chips would quietly shift leverage in one of the most lucrative vendor relationships in tech, and the fallout for NVIDIA's pricing power and Alphabet's chip ambitions is only beginning to take shape.",
+     "link": "https://247wallst.com/investing/2026/10/28/openai-is-buying-googles-ai-chips-a-hit-to-nvidias-biggest-customer-bond/?.tsrc=rss",
+     "time": "2026-10-28T11:22:22+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:9e6b5adf-3a94-3338-85b0-c61221e0200a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "\u2018Hard to Know If We\u2019re in an AI Bubble\u2019 Jeff Bezos Says, But Should a Retiree Buy AI Stocks? \u2014 \u2018I Would Usually Tell a Retiree to Buy the S&P 500\u2019",
+     "summary": "Amazon (NASDAQ:AMZN) founder Jeff Bezos won\u2019t call the top of the AI boom, but he knows exactly what he\u2019d tell someone living off their savings. Fox News host Bret Baier asked Bezos whether the industry is in a bubble. \u201cIt\u2019s hard to know,\u201d Bezos said in an interview on Oct. 7. \u201cWhat I do know is the technology is real.\u201d Good Ideas, Bad Ideas, Same Funding Round Bezos said the trouble is that in these periods \u201cevery experiment gets funded, the good ideas and the bad ideas.\u201d He added that \u201cin the",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hard-know-ai-bubble-jeff-112104250.html?.tsrc=rss",
+     "time": "2026-10-28T11:21:04+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:8fd805be-96a5-3318-bc17-0b8fc250400f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors (NXPI) Stock Looks Reasonable After Its 55% Run",
+     "summary": "NXP Semiconductors has delivered strong multi year gains, and the question now is whether its current US$253.50 share price lines up with the cash flows the business can generate. With the stock on many watchlists, the focus has shifted squarely to what its Discounted Cash Flow (DCF) based intrinsic value suggests about that price tag. Over the past 3 years, NXP Semiconductors has returned 55.0%. This puts real weight on whether the underlying cash generation can support that kind of share...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-stock-looks-112016847.html?.tsrc=rss",
+     "time": "2026-10-28T11:20:16+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c55955fb-2fe2-3d22-b550-e4153e867414",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Hidden Gems in the SpaceX Filing: Soaring Compute Rates and Deep Tesla Ties",
+     "summary": "\u201cCustomer B\u201d is spending more to rent SpaceX\u2019s AI data centers than investors thought.",
+     "link": "https://finance.yahoo.com/m/c55955fb-2fe2-3d22-b550-e4153e867414/hidden-gems-in-the-spacex.html?.tsrc=rss",
+     "time": "2026-10-28T11:20:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0ec85dca-2c15-3e2c-b1e4-0e5608fa01de",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "Seagate Technology Fell 25% in The Last Month But One Wall Street Analyst Says 140% Gains to Come",
+     "summary": "Seagate just posted record earnings and guided well above Wall Street expectations, yet the stock cratered anyway. One analyst sees a path to 140% gains from here, but the market is sending a very different signal.",
+     "link": "https://247wallst.com/investing/2026/10/28/seagate-technology-fell-25-in-the-last-month-but-one-wall-street-analyst-says-140-gains-to-come/?.tsrc=rss",
+     "time": "2026-10-28T11:15:56+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e36fc504-6a4f-323a-a606-b31c1b73bac3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla Bears Are Falling Off But Not Because Tesla\u2019s Improving",
+     "summary": "Tesla short sellers are retreating, but the reason has nothing to do with the company fixing its collapsing margins or surging profits. A single rumor reshuffled the entire bearish case overnight, and now the stock sits exactly at Wall Street's consensus target with nowhere obvious to go.",
+     "link": "https://247wallst.com/investing/2026/10/28/tesla-bears-are-falling-off-but-not-because-teslas-improving/?.tsrc=rss",
+     "time": "2026-10-28T11:15:48+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f284998e-e0cf-3a6e-8c03-192f94b4a0d1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "Microsoft Vs. Oracle: Same 2-Pronged AI Strategy, Very Different Outcomes",
+     "summary": "Microsoft and Oracle are chasing the same AI opportunity with nearly identical backlogs, yet their stocks have moved in opposite directions. The reason comes down to how each company is paying for the race.",
+     "link": "https://247wallst.com/investing/2026/10/28/microsoft-vs-oracle-same-2-pronged-ai-strategy-very-different-outcomes/?.tsrc=rss",
+     "time": "2026-10-28T11:15:45+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:43ccc443-7e6d-38b1-ab2c-7e028eadd0a4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Missed Eli Lilly's Run? What Holders Had To Believe",
+     "summary": "If you only glanced at headlines about drug pricing reform, patent risk, and lawsuits, Eli Lilly might have looked like a minefield rather than a gift. Investors who held Eli Lilly over the past year are up 57.3%, including dividends. That outcome lands against a backdrop of huge GLP-1 demand, rich valuation debates, and sharply different analyst targets. If you had been weighing those crosscurrents in October 2025, what exactly were you betting on? A Narrative on Simply Wall St is one...",
+     "link": "https://finance.yahoo.com/healthcare/articles/missed-eli-lillys-run-holders-111333172.html?.tsrc=rss",
+     "time": "2026-10-28T11:13:33+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:19663727-8135-33c5-8ae7-3ff0d78101a8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "General Motors (GM) Plans Move To Nasdaq",
+     "summary": "General Motors (NYSE:GM) plans to transfer its stock listing from the NYSE to the Nasdaq Global Select Market. The automaker says the move aligns with its technology-focused transformation and emphasis on software and electronics. Listing on Nasdaq could make GM eligible for inclusion in the Nasdaq-100 Index, which is tracked by multiple index funds. The switch to Nasdaq and possible Nasdaq-100 entry is only part of the picture for General Motors investors. Our analysis turns up 3 warning...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-plans-move-111031216.html?.tsrc=rss",
+     "time": "2026-10-28T11:10:31+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:7f2375c9-bc1d-3215-ab2b-4b2c110744c8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla's Free Cash Flow Just Turned Positive. Here's Why That's Only Half the Story.",
+     "summary": "The reason is because the company made about $3 billion less in capital expenditure than expected, not that its business improved.",
+     "link": "https://www.fool.com/investing/2026/10/28/teslas-free-cash-flow-just-turned-positive-heres-w/?.tsrc=rss",
+     "time": "2026-10-28T11:10:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:8dff2c5b-7eda-3b09-b065-b74ad7ea87a8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Nvidia Stock Faces a Test From Its Biggest AI Chip Rival",
+     "summary": "Nvidia stock has fallen back into range-bound trading and a major AI chip competitor could be to blame.",
+     "link": "https://finance.yahoo.com/m/8dff2c5b-7eda-3b09-b065-b74ad7ea87a8/nvidia-stock-faces-a-test.html?.tsrc=rss",
+     "time": "2026-10-28T11:07:00+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:39a2a2ea-5d69-34c0-83e6-390329c5b0d6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "Tech optimism lifts stocks ahead of Fed update on rates",
+     "summary": "Share prices of technology firms surged\u00a0 in Asia on Wednesday after blockbuster earnings from the South Korean chip giant SK hynix boosted optimism in the AI trade ahead of results from Wall Street titans Microsoft and Alphabet.Shares in SK hynix soared almost 11 percent Wednesday and South Korean rival Samsung, which reports its earnings Thursday, added nine percent.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tech-stocks-soar-sk-hynix-024123086.html?.tsrc=rss",
+     "time": "2026-10-28T11:05:11+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f07d294e-94c9-3ada-ba12-5acc918aac5f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla Closed Up 4% at $407. Here\u2019s What a SpaceX Merger Could Mean for Your Shares.",
+     "summary": "A possible Tesla and SpaceX combination has Elon Musk calling it a good idea, Wall Street assigning a 52% probability, and at least one prominent critic labeling it a rescue operation in disguise. Here is what each possible outcome does to your shares.",
+     "link": "https://247wallst.com/investing/2026/10/28/tesla-closed-up-4-at-407-heres-what-a-spacex-merger-could-mean-for-your-shares/?.tsrc=rss",
+     "time": "2026-10-28T11:04:26+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f01ee402-f3a8-3a02-9bac-43ffd478b612",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "Vertiv Soars 16% and Enphase Sinks 17%: 6 Stocks Moving Before the Bell",
+     "summary": "Earnings season is drawing a sharp line between AI infrastructure winners and clean energy losers, and the gap between them widened dramatically before the opening bell this morning.",
+     "link": "https://247wallst.com/investing/2026/10/28/vertiv-soars-16-and-enphase-sinks-17-6-stocks-moving-before-the-bell/?.tsrc=rss",
+     "time": "2026-10-28T11:02:49+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:070f90df-db8d-33d5-9d91-1c5399436911",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LRCX",
+     "title": "SK Hynix Stock Gains 1.9% on AI Chip Demand, Dividend Hopes",
+     "summary": "SKHY shares rose 1.9% on AI chip demand and hopes for a 16 trillion won special dividend ahead of its third-quarter earnings report.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-stock-gains-1-110200713.html?.tsrc=rss",
+     "time": "2026-10-28T11:02:00+00:00",
+     "touches": [
+      "LRCX"
+     ],
+     "tags": [
+      "earnings",
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:fee99c07-0a1e-41be-9dd2-a5c95797ddf8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Three billionaires called the AI top. Each has a reason to.",
+     "summary": "Elon Musk, Ken Griffin and Chamath Palihapitiya all called the top of the AI trade in the same week, as CoreWeave, Nebius and IREN fell more than 30% in a month. Host Ejaaz Ahamadeen breaks down what's true, who's talking their book, and what investors should actually worry about, from idle GPUs to a closing debt window.",
+     "link": "https://finance.yahoo.com/video/three-billionaires-called-ai-top-110000440.html?.tsrc=rss",
+     "time": "2026-10-28T11:00:00+00:00",
+     "touches": [
+      "AMZN",
+      "CRWV",
+      "IREN",
+      "NBIS",
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:d8af2ce5-a9f9-3535-8e6a-ace7dc7fbcb0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "KLAC",
+     "title": "Onto Innovation's Q3 Revenue Outlook: Can Sales Hit $400M?",
+     "summary": "ONTO targets Q3 2026 revenues of up to $400 million as surging advanced packaging demand, robust advanced nodes growth and record backlog fuel optimism.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/onto-innovations-q3-revenue-outlook-110000880.html?.tsrc=rss",
+     "time": "2026-10-28T11:00:00+00:00",
+     "touches": [
+      "KLAC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:22a949d8-a58b-334d-96ed-b4bab159e9f0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Studio City Announces Earnings Release Date",
+     "summary": "MACAU, Oct. 28, 2026 (GLOBE NEWSWIRE) -- Studio City International Holdings Limited (NYSE: MSC), a world-class integrated resort located in Cotai, Macau, today announces that it will release its unaudited financial results for the third quarter of 2026 on Wednesday, November 4, 2026. Safe Harbor Statement This press release contains forward-looking statements. These statements are made under the \u201csafe harbor\u201d provisions of the U.S. Private Securities Litigation Reform Act of 1995. Studio City In",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/studio-city-announces-earnings-release-105900616.html?.tsrc=rss",
+     "time": "2026-10-28T10:59:00+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:25fd63dd-162f-32fe-9b00-87370f757c28",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "FCC Approves $11.5 Billion Amazon Leo Acquisition Of Globalstar",
+     "summary": "Key Stats for Amazon StockPrice change for Amazon stock in last 6 months: -3%$AMZN Stock Price as of Oct. 27: $25352-Week High: $287$AMZN Stock Price Target: $332__Now Live: Discover how much upside your favorite stocks could have using TIKR\u2019s new Valuation Model (It\u2019s free)__>>> What Happened?Amazon (AMZN:NASDAQ) got a regulatory green light for its satellite plans as the FCC approved Amazon Leo\u2019s $11.",
+     "link": "https://www.tikr.com/blog/amazon-amzn-stock-fcc-approves-leo-globalstar-acquisition?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-28T10:58:56+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [
+      "analyst",
+      "deal",
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:991fe9f7-9e74-3bb5-80cc-84f4ef6387cb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "YieldMax\u00ae ETFs Announces Weekly Distributions for Group 2 ETFs",
+     "summary": "CHICAGO and MILWAUKEE and NEW YORK, Oct. 28, 2026 (GLOBE NEWSWIRE) -- YieldMax\u00ae ETFs today announced distributions for the YieldMax\u00ae Group 2 weekly pay ETFs. Group 2 Distribution Announcement Ex. & Record Date: October 29, 2026Payment Date: October 30, 2026 ETF Ticker1ETF NameDistribution FrequencyDistribution per ShareDistribution Rate2,4,530-DaySEC Yield3AIYYYieldMax\u00ae AI Option Income Strategy ETFWeekly$0.096165.84%2.49%AMDYYieldMax\u00ae AMD Option Income Strategy ETFWeekly$0.355941.54%2.12%AMZYYi",
+     "link": "https://finance.yahoo.com/news/yieldmax-etfs-announces-weekly-distributions-105500387.html?.tsrc=rss",
+     "time": "2026-10-28T10:55:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:9d46f877-c203-3de1-b206-9b8fbc739fab",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "GE Vernova (GEV) Q3 Earnings and Revenues Top Estimates",
+     "summary": "GE Vernova (GEV) delivered earnings and revenue surprises of +19.36% and +4.46%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-gev-q3-earnings-105003827.html?.tsrc=rss",
+     "time": "2026-10-28T10:50:03+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8befee5c-63e2-3039-b75c-c0256313447f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial",
+     "summary": "Eli Lilly and Company (NYSE: LLY), the maker of Mounjaro (tirzepatide) and Foundayo (orforglipron), today announced positive topline results from TRANSCEND-T2D-2, a head-to-head Phase 3 trial comparing retatrutide with injectable Ozempic 2 mg in adults with type 2 diabetes. At 80 weeks, retatrutide met the primary and all key secondary endpoints, delivering greater A1C reduction and substantially more weight loss than Ozempic.1,2",
+     "link": "https://finance.yahoo.com/healthcare/articles/lillys-retatrutide-delivered-greater-a1c-104500255.html?.tsrc=rss",
+     "time": "2026-10-28T10:45:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7ff2ca65-e7d8-38da-b120-8f7535206da4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "General Motors Transfers Stock Listing To Nasdaq From New York Stock Exchange",
+     "summary": "Key Stats for General Motors StockPrice change for General Motors stock in last 6 months: -2%$GM Stock Price as of Oct. 26: $7652-Week High: $92$GM Stock Price Target: $101__Now Live: Discover how much upside your favorite stocks could have using TIKR\u2019s new Valuation Model (It\u2019s free)__>>> What Happened?General Motors (GM:NYSE) said on Tuesday it will move its stock listing to Nasdaq from the New York Stock Exchange, and the stock rose about 5.",
+     "link": "https://www.tikr.com/blog/general-motors-moves-stock-listing-nasdaq-nyse?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-28T10:41:37+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:17ce5838-b914-34c2-ad67-f458fbd8906a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "How Would You Fix Take-Two?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ttwo/articles/621040/how-would-you-fix-take-two/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:23:38+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:29abf441-14e3-3a34-a365-fc4c0461cb92",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Just Happened To Western Digital Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/wdc/articles/621044/what-just-happened-to-western-digital-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:23:36+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3839daba-d56c-3ed4-a128-7bfd9b47d933",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla (TSLA) Could Be 223% Overvalued After Flat Revenue And Lower Profit",
+     "summary": "Tesla (TSLA) has just reported third quarter 2026 earnings that showed revenue broadly flat at US$28.0b while net income declined to US$787 million, sharpening investor focus on profitability and capital allocation. Tesla\u2019s recent earnings setback has played out against a sharp swing in sentiment, with the share price up 36.6% over 90 days and 9.5% over the past month, yet still down 7.0% year to date and delivering an 11.5% decline in 1-year total shareholder return. The 3-year total...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-could-223-overvalued-102009803.html?.tsrc=rss",
+     "time": "2026-10-28T10:20:09+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:98e286f0-1f8a-39fa-8a30-ff757b052bb0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In Marathon Petroleum Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/mpc/articles/621055/what-is-behind-the-move-in-marathon-petroleum-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:11:45+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a2f95643-3975-3a1c-918a-e7c0bb7dd9b2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In Johnson Controls Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/jci/articles/621057/what-is-behind-the-move-in-johnson-controls-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:11:42+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c4ea5400-5d03-3b81-a345-8bba1cf46d53",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "What Just Happened To Royal Caribbean Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/rcl/articles/621058/what-just-happened-to-royal-caribbean-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:11:39+00:00",
+     "touches": [
+      "RCL",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:09205cee-8cfb-3572-b430-7f0b6aa40eb1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In Welltower Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/well/articles/621060/what-is-behind-the-move-in-welltower-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:11:37+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2821fe01-1931-3be3-950e-4183503e129d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "What Is Behind The Move In GM Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/gm/articles/621068/what-is-behind-the-move-in-gm-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T10:11:34+00:00",
+     "touches": [
+      "GM",
+      "SPGI",
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:421590c2-6ede-33ec-a2a0-7715772adbb7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "The Pentagon Is Now the eVTOL Industry's Biggest Customer. Here's How Much Revenue That's Actually Worth to Archer and Joby.",
+     "summary": "Defense contracts provide early, reliable revenue for both companies and strengthen their investment case.",
+     "link": "https://www.fool.com/investing/2026/10/28/the-pentagon-is-now-the-evtol-industrys-biggest-cu/?.tsrc=rss",
+     "time": "2026-10-28T10:10:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b6e68fd8-3fa3-3838-8f20-94ceed42b860",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Morgan Stanley and Diligent Capital lead retail M&A advisers list",
+     "summary": "GlobalData\u2019s Deals Database analysis showed Morgan Stanley advised on deals valued at $11.8bn, ranking first by value.",
+     "link": "https://www.retail-insight-network.com/news/morgan-stanley-diligent-capital-lead-retail-ma-advisers-list/?.tsrc=rss",
+     "time": "2026-10-28T10:09:45+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:424a52fc-4011-3f7c-9b28-0926684ce295",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla Just Spent $4.73 Billion on Capex. Here's Where Every Dollar Went.",
+     "summary": "Tesla's capital spending is soaring as it expands beyond electric vehicles.",
+     "link": "https://www.fool.com/investing/2026/10/28/tesla-just-spent-473-billion-on-capex-heres-where/?.tsrc=rss",
+     "time": "2026-10-28T10:05:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:45049c75-db34-39c2-81bc-0b3bcb5905b0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CBRS",
+     "title": "Cerebras Gains 10% on Oracle Cloud Deal as \u201cAI Inference Demands Choice\u201d",
+     "summary": "Key TakeawaysCerebras shares jumped 10% and Oracle rose 4% on Tuesday, Oct. 27, after Oracle announced a set of AI deals at its AI World event.",
+     "link": "https://www.tikr.com/blog/cerebras-gains-10-on-oracle-cloud-deal-as-ai-inference-demands-choice?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-28T10:04:24+00:00",
+     "touches": [
+      "CBRS"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:12c09346-0f74-4d91-a58a-a010f2b05213",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "GM is pitching itself more as a tech company like Tesla",
+     "summary": "A legacy Detroit automaker pitches itself as a tech-forward enterprise.",
+     "link": "https://finance.yahoo.com/technology/article/gm-is-pitching-itself-more-as-a-tech-company-like-tesla-100000323.html?.tsrc=rss",
+     "time": "2026-10-28T10:00:00+00:00",
+     "touches": [
+      "GM",
+      "TSLA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0e7a9788-92f3-3a4d-9be1-faf46506af2f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Here\u2019s How Much Eli Lilly Stock Is Expected to Move After Earnings",
+     "summary": "Eli Lilly is set to report earnings Thursday morning, with traders expecting a move that could send the stock to a fresh high.",
+     "link": "https://www.investopedia.com/here-is-how-much-eli-lilly-stock-is-expected-to-move-after-earnings-lly-q3-fy2026-12186415?.tsrc=rss",
+     "time": "2026-10-28T10:00:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:89fee843-6fa3-35c3-aabc-a66483124e4b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Eli Lilly (LLY) reports earnings tomorrow: what to expect",
+     "summary": "Global pharmaceutical company Eli Lilly (NYSE:LLY) will be reporting earnings this Thursday before market hours. Here\u2019s what you need to know.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-reports-earnings-094234283.html?.tsrc=rss",
+     "time": "2026-10-28T09:42:34+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:348b5e82-901c-3abd-a1e4-6be64397e96f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa Posts Record Annual Revenue. The Focus Now Shifts to Reaching New Customers.",
+     "summary": "Visa closes out a record year for revenue and profits.",
+     "link": "https://finance.yahoo.com/m/348b5e82-901c-3abd-a1e4-6be64397e96f/visa-posts-record-annual.html?.tsrc=rss",
+     "time": "2026-10-28T09:30:00+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:8be44183-54df-3b24-9d55-dac50baaa5db",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "KLAC",
+     "title": "The Case For Lam Research Stock Rests On One Thing",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lrcx/articles/621006/the-case-for-lam-research-stock-rests-on-one-thing/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:26:26+00:00",
+     "touches": [
+      "KLAC",
+      "LRCX"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:99038e8f-fa5c-32db-92b1-a182b6a3daf5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ADI",
+     "title": "What Changed In NXP's Story?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/nxpi/articles/621013/what-changed-in-nxps-story/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:26:24+00:00",
+     "touches": [
+      "ADI",
+      "NXPI",
+      "SPGI",
+      "TXN"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a51aa0e5-efbb-361a-a1ad-57a98961c78a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Why Is Boeing Stock Falling?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ba/articles/621038/why-is-boeing-stock-falling/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:26:06+00:00",
+     "touches": [
+      "BA",
+      "GE",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:56becbbf-4a65-377c-99cd-c1ccc4a932a9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "Should You Buy Bristol Myers Squibb Stock For Its Cash?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/bmy/articles/620976/should-you-buy-bristol-myers-squibb-stock-for-its-cash/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:25:07+00:00",
+     "touches": [
+      "JNJ",
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:409f3794-6813-373d-8a6f-e3997be274b6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ADI",
+     "title": "Should You Buy The Dip In Rambus Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/rmbs/articles/620969/should-you-buy-the-dip-in-rambus-stock/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:25:05+00:00",
+     "touches": [
+      "ADI",
+      "TXN"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:784316d2-7f5d-346b-b42f-415b8cbed4b1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "If Eli Lilly Stock Looks Expensive, You Need To Read This",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lly/articles/620964/if-eli-lilly-stock-looks-expensive-you-need-to-read-this/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:25:01+00:00",
+     "touches": [
+      "JNJ",
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fb64af44-194a-3d7e-9bc1-88b84858d53e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Was The Run In Moderna Stock Hiding In Plain Sight?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/mrna/articles/620962/was-the-run-in-moderna-stock-hiding-in-plain-sight/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T09:24:53+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f8904cae-4cc6-37e7-a6d1-f159a497d55b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Why Is Morgan Stanley (MS) Becoming Central To The AI Capital Boom?",
+     "summary": "Morgan Stanley (NYSE:MS) is advising Anthropic on its planned initial public offering, underscoring the bank's role in AI capital raising. The firm is helping lead a US$63b financing initiative for AI infrastructure in partnership with large technology and data center operators. These transactions position Morgan Stanley as a key intermediary between institutional capital and fast-growing artificial intelligence platforms. The Anthropic IPO advisory mandate and US$63b AI infrastructure...",
+     "link": "https://finance.yahoo.com/technology/ai/articles/why-morgan-stanley-ms-becoming-091911851.html?.tsrc=rss",
+     "time": "2026-10-28T09:19:11+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:61996fca-3491-3b60-80d7-9c3605cc98d6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Caterpillar earnings: what to look for from CAT",
+     "summary": "Construction equipment company Caterpillar (NYSE:CAT) will be announcing earnings results this Thursday before market open. Here\u2019s what to expect.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-earnings-look-cat-091834278.html?.tsrc=rss",
+     "time": "2026-10-28T09:18:34+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bcbe3822-059e-3086-8565-bd605141a0b1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "AvAir Enters into Long-Term Aircraft Asset Management Agreement with XAero for Multi-Aircraft Teardown Program",
+     "summary": "AvAir, a leading provider of aftermarket aviation inventory solutions and component support, today announced the entry into of a long-term aircraft asset management agreement with XAero, one of China's leading aviation asset disposal and aircraft lifecycle management companies.",
+     "link": "https://finance.yahoo.com/small-business/articles/avair-enters-long-term-aircraft-090000185.html?.tsrc=rss",
+     "time": "2026-10-28T09:00:00+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3b1e9a8e-3194-3114-9a5b-18d231221c8d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Trump Faces His Second Midterm as President Next Week. If The Historical Pattern Holds It Will Kick Off The Best Market Year Of His Second Term.",
+     "summary": "History says the year after a midterm is the S&P 500's strongest of the presidential cycle, but several forces lurking in today's market could finally snap that unbeaten streak.",
+     "link": "https://247wallst.com/investing/2026/10/28/trump-faces-his-second-midterm-as-president-next-week-if-the-historical-pattern-holds-it-will-kick-off-the-best-market-year-of-his-second-term/?.tsrc=rss",
+     "time": "2026-10-28T08:26:02+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:03d301f9-ed66-32d6-accf-2b88ec32ae9e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Company News for Oct 28, 2026",
+     "summary": "Companies In The News Are: PYPL, BA, UPS, FCX.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-28-2026-082400398.html?.tsrc=rss",
+     "time": "2026-10-28T08:24:00+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:61791bbe-8550-3e35-b7a7-89b7e503a732",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Was There Any Sign Astera Labs Stock Would Run?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/alab/articles/620960/was-there-any-sign-astera-labs-stock-would-run/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T08:22:55+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:66b7b0f3-f4a4-30e5-bf04-c18ece6f3266",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "What Is Lockheed Martin Building That Investors Should Watch?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lmt/articles/620990/what-is-lockheed-martin-building-that-investors-should-watch/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T08:22:44+00:00",
+     "touches": [
+      "BA",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f2aa39c7-aaab-3683-9851-8286aea2deec",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Has The Story Under Krystal Biotech Stock Run Out?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/krys/articles/620966/has-the-story-under-krystal-biotech-stock-run-out/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T08:22:05+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:7bcf3567-1174-3969-a78a-fecbb904d276",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "How Big Could Airbnb Stock's Next Fall Be?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/abnb/articles/620967/how-big-could-airbnb-stocks-next-fall-be/2026-10-28?.tsrc=rss",
+     "time": "2026-10-28T08:22:03+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:984885b5-035d-37b2-a76b-69ebb5bcd3bb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Royal Caribbean (RCL) Stock Rallies As Q3 Earnings Lift Outlook Yet Yield Questions Linger",
+     "summary": "Royal Caribbean Cruises just posted Q3 2026 numbers that landed with a splash. The stock jumped 5.5% in the first full trading session after the release, a fast repricing that indicates investors are reacting to more than just a solid quarter. Reported revenue of US$5.6b and basic earnings per share of US$6.47 put hard numbers behind the cruise recovery story, while a 23.8% trailing net profit margin keeps the focus squarely on profitability rather than just ship occupancy. Love Royal...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-rcl-stock-rallies-081124483.html?.tsrc=rss",
+     "time": "2026-10-28T08:11:24+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f8ba12b2-bc15-3790-96a6-6ec0df71aa5b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "Why Is NXPI Stock Down Over 6% Premarket Today?",
+     "summary": "NXP Semiconductors forecast quarterly operating profit below expectations, overshadowing a strong showing in Q3.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/why-is-nxpi-stock-down-over-6-premarket-today/cZU97G7RB6l?.tsrc=rss",
+     "time": "2026-10-28T08:08:46+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6dfa76be-6d65-372a-86f1-f68e553f1e5f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LRCX",
+     "title": "Zacks Investment Ideas feature highlights: Teradyne, Lam Research and ATI",
+     "summary": "Teradyne, Lam Research and ATI offer exposure to AI infrastructure, semiconductor equipment and aerospace growth, with projected earnings gains and PEG ratios below 1.0.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-075000895.html?.tsrc=rss",
+     "time": "2026-10-28T07:50:00+00:00",
+     "touches": [
+      "LRCX"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:74ccb87b-784a-34f7-963c-485ce40987b4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Zacks Investment Ideas feature highlights: Meta, Tesla, Microsoft and Alphabet",
+     "summary": "Meta's $95 billion AI funding plan, Anthropic's IPO filing and Tesla's debt-market warning put AI financing in focus as Microsoft and Alphabet prepare to report earnings.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-074600436.html?.tsrc=rss",
+     "time": "2026-10-28T07:46:00+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6a20fee6-9805-3753-90bc-3113aa9b55c1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Three Buy-rated EU Industrial stocks to watch, according to BofA",
+     "summary": "Investing.com-- Bank of America highlighted three Buy-rated European industrial stocks that stand out in the sector, despite recent market volatility that has pushed valuations down to levels that may reflect overly pessimistic scenarios.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/three-buy-rated-eu-industrial-074433785.html?.tsrc=rss",
+     "time": "2026-10-28T07:44:33+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:486cdc05-d174-3741-9f0d-0eb3f6ee0b08",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Palantir Technologies and Yum! Brands have been highlighted as Zacks Bull and Bear of the Day",
+     "summary": "Palantir's AI growth and government demand bolster its outlook, while Yum! Brands faces food-safety fallout, consumer pressures and brand concentration risks.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-yum-brands-highlighted-074300208.html?.tsrc=rss",
+     "time": "2026-10-28T07:43:00+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bf9b78b1-8b3d-3c17-84cc-b5e9dc896ea9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "The Zacks Analyst Blog Highlights Eli Lilly, Novartis, Johnson & Johnson and AbbVie",
+     "summary": "Eli Lilly, Novartis, Johnson & Johnson and AbbVie advance arthritis treatment portfolios through strong drug sales, clinical progress and regulatory expansions.",
+     "link": "https://finance.yahoo.com/healthcare/articles/zacks-analyst-blog-highlights-eli-072900817.html?.tsrc=rss",
+     "time": "2026-10-28T07:29:00+00:00",
+     "touches": [
+      "JNJ",
+      "LLY"
+     ],
+     "tags": [
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:d8b7aa8a-aeff-3a80-b824-2203c7e272a9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "MU, SNDK, Neocloud Stocks Extend Gains On Anthropic Boost, SK Hynix Q3 Stunner; Jim Cramer Urges Caution",
+     "summary": "Anthropic\u2019s S-1 filing offered investors fresh evidence of the scale of demand for AI computing infrastructure.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-neocloud-stocks-extend-gains-on-anthropic-boost-sk-hynix-q3-stunner-jim-cramer-urges-caution/cZU93s9RB61?.tsrc=rss",
+     "time": "2026-10-28T06:46:05+00:00",
+     "touches": [
+      "CRWV",
+      "IREN",
+      "NBIS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2e407023-a3ad-3eec-89b3-dab01062c5b9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Tesla-SpaceX Merger Needs No Premium, Investor Says \u2014 But Floats $500 To Sway Angry Holders Missing Bigger Payoff",
+     "summary": "Larry Goldberg warned that angry Tesla shareholders could reject a merger he believes would benefit both investor groups.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/tesla-spacex-merger-no-premium-investor-floats-500-sway-angry-holders/cZU9dpmRB6h?.tsrc=rss",
+     "time": "2026-10-28T06:05:31+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ada63902-0fdc-3f93-8d53-d8d3955d4333",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa (V) Q4 2026 Earnings Call Transcript",
+     "summary": "Record $45.9B annual revenue driven by value-added services and cross-border growth.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/28/visa-v-q4-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-28T05:43:29+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:4dc78c2e-0db0-3699-a2a0-0040b15df5ad",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TSLA",
+     "title": "Elon Musk Says Tesla Robotaxi Expansion to Miami, Tampa Beaches Is \u2018Coming Soon\u2019 After Ron DeSantis\u2019 Call for Expansion",
+     "summary": "Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk said the automaker\u2019s Robotaxi service will soon expand to include beaches in Miami and Tampa after Florida Gov. Ron DeSantis (R-FL) called for the service to cover the areas. Ron DeSantis Wants Tesla Robotaxi to Serve Beaches In a post on X on Tuesday, DeSantis quoted Tesla investor and influencer Sawyer Merritt, who shared the Robotaxi\u2019s updated Geofences across U.S. cities in square miles. Tesla\u2019s Robotaxi in Austin and Houston cover 272 and 254 square mi",
+     "link": "https://finance.yahoo.com/technology/articles/elon-musk-says-tesla-robotaxi-053520197.html?.tsrc=rss",
+     "time": "2026-10-28T05:35:20+00:00",
+     "touches": [
+      "TSLA"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e0d5e86e-224e-315c-af6b-ec3c5977a3a8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "S&P Global (SPGI) Stock Faces Q3 Earnings Puzzle After Guidance Lift",
+     "summary": "S&P Global just reported Q3 2026 numbers that show earnings power running ahead of sentiment. The stock slipped 0.4% in Wednesday trading to about US$448.93, a mild pullback after a strong 30-day run, even as adjusted operating margin reached 53.5% and earnings per share came in at US$4.45. The focus for many investors was not the profit figures. The key development was management raising full-year revenue and EPS guidance while initiating a review of Capital IQ and Kensho. Short-term price...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-stock-faces-051504344.html?.tsrc=rss",
+     "time": "2026-10-28T05:15:04+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b6180387-5142-30fa-9693-feafa4708db8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CLS",
+     "title": "Celestica (TSX:CLS) Stock Cools Despite Q3 Earnings Power And AI Ramp",
+     "summary": "Celestica entered this Q3 2026 print with a strong reputation in electronics manufacturing and a stock that has cooled sharply, falling about 8% over the past week and roughly 25% over the past month into last night\u2019s close at CA$388.33. The headline is simple: Q3 was about sheer earnings power, with basic earnings per share at US$3.30 on revenue of US$5.83b, keeping the profit engine running hard even as sentiment softened. Love Celestica\u2019s earnings power but uneasy about holding a stock...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-stock-cools-044801576.html?.tsrc=rss",
+     "time": "2026-10-28T04:48:01+00:00",
+     "touches": [
+      "CLS"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f45bdea7-53d9-3857-8a1e-3c8c87457f01",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing shares tumble after it releases cautious growth forecast",
+     "summary": "Investors monitor Boeing shares after a slump on Tuesday weighed on sentiment following an update from the group on its outlook.View on euronews",
+     "link": "https://www.euronews.com/2026/10/28/boeing-shares-tumble-after-it-releases-cautious-growth-forecast?.tsrc=rss",
+     "time": "2026-10-28T04:30:04+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:289a4309-795a-3e98-920d-a3f5b1679a80",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone",
+     "summary": "HONG KONG (AP) \u2014 Tech stocks have surged this week ahead of Wednesday's meeting of the U. Federal Reserve with markets anticipating no change to the benchmark U.",
+     "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-rally-wall-035813504.html?.tsrc=rss",
+     "time": "2026-10-28T03:58:13+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:12ca33f1-02a0-3869-a7f8-17484f5f02b3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Factory delays on the 737 contrast with a major defense win, leaving investors to weigh near-term execution risk against long-term portfolio strength.",
+     "link": "https://www.fool.com/earnings/takeaways/2026/10/27/boeing-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "time": "2026-10-28T03:42:51+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:d945a43d-d41d-353e-8de9-148f6b0a6911",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "Ranking 4 AI Power Stocks By Balance Sheet After the Sell-off: Vertiv, GE Vernova, Bloom Energy, and Plug Power.",
+     "summary": "If the artificial intelligence investment boom flames out, which AI-tied company is best positioned to survive?",
+     "link": "https://www.fool.com/investing/2026/10/27/ranking-4-ai-power-stocks-by-balance-sheet-after-t/?.tsrc=rss",
+     "time": "2026-10-28T03:35:00+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:36ec9152-87d8-3fb8-a276-19e519f66515",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing (BA) Stock Sinks As Q3 Results Stoke Cash Flow Doubts",
+     "summary": "Boeing just reported Q3 2026 and the market swung first, asked questions later. The stock closed at US$168.18, down 10.7% on the day, as traders reacted to another quarterly loss and fresh cash flow worries. Yet behind the red screen sits a more complicated story. The company posted a basic loss per share of US$0.26 and net income excluding extra items of a US$203 million loss, but also highlighted a record US$745b backlog and detailed a multiyear free cash flow path. Short term fear is...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-stock-sinks-q3-021046757.html?.tsrc=rss",
+     "time": "2026-10-28T02:10:46+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:da30478b-0520-3f1c-83e0-198e2338ab31",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "BA Stock Heads For Weekly Loss: CEO Maps Path To $10B Cash Flow, 737 Stabilization Slips Into 2027",
+     "summary": "Boeing expects to reach the 737 production target of 47 aircraft per month in 2027, later than planned.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/ba-stock-heads-for-weekly-loss-ceo-maps-path-to-10-billion-cash-flow-737-stabilization-slips-into-2027/cZUByFWRB62?.tsrc=rss",
+     "time": "2026-10-28T01:41:44+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:61e484f9-83bd-3098-a1ae-17e897d93ff5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors N.V. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of NXP Semiconductors N.V.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-nxp-semiconductors-nv-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-28T00:49:08+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2dee6a47-22ed-32ce-ab80-b5bafe60bfcc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "The Boeing Company Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of The Boeing Company's Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-boeing-company-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-28T00:41:38+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a95baa5e-71f5-3925-8a44-b0fe9a37f13f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "RBC Says SpaceX Stock Has 50% Upside. S&P Global Just Warned About Its Hidden AI Debt. Here's Who I Think Is Right.",
+     "summary": "Take heed of recent concerns about AI spending continuing at record levels.",
+     "link": "https://www.fool.com/investing/2026/10/27/rbc-says-spacex-stock-has-50-upside-sp-global-just/?.tsrc=rss",
+     "time": "2026-10-28T00:30:00+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:6004553b-5e4d-3269-88ab-7a8aaf5ae537",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa (V) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "summary": "Although the revenue and EPS for Visa (V) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-q4-earnings-taking-000002871.html?.tsrc=rss",
+     "time": "2026-10-28T00:00:02+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:37982dc5-d5d9-3a85-b542-8a0ff65e5a28",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "America Produces Less Than 1% of the Rare Earth Magnets It Needs",
+     "summary": "China\u2019s rare earth dominance leaves a massive U.S. industrial supply gap as the race to build non-Chinese capacity accelerates.",
+     "link": "https://finance.yahoo.com/energy/articles/america-produces-less-1-rare-000000440.html?.tsrc=rss",
+     "time": "2026-10-28T00:00:00+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:601c04fb-41fb-34c7-a6f8-587358acba3c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "S&P 500, Nasdaq Jump On Chipmaker Strength As Investors Eye October Fed Decision \u2014 ORCL, HOOD, JBLU, RIVN, SMCI  In Focus",
+     "summary": "The Federal Reserve\u2019s October monetary policy meeting announcement is due on Wednesday.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-jump-on-chipmaker-strength-as-investors-eye-october-fed-decision/cZUe8u8RB6G?.tsrc=rss",
+     "time": "2026-10-27T23:45:11+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:fbb41e64-c1f2-30c2-a915-bd5f1ed9249c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CLS",
+     "title": "Why Celestica Stock Jumped Today",
+     "summary": "Demand for AI infrastructure is off the charts.",
+     "link": "https://www.fool.com/investing/2026/10/27/why-celestica-stock-jumped-today/?.tsrc=rss",
+     "time": "2026-10-27T23:43:01+00:00",
+     "touches": [
+      "CLS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:69112bb7-a74c-3871-9272-8192f36d348b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing's Backlog Grew to $745 Billion. The Question Remains How Fast It Can Fulfill It",
+     "summary": "Boeing is seeing increased demand for its aircraft models, including the 737 Max 10.",
+     "link": "https://www.fool.com/investing/2026/10/27/boeing-s-backlog-grew-to-usd745-billion-the-question-remains-how-fast-it-can-fulfill-it/?.tsrc=rss",
+     "time": "2026-10-27T23:34:01+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:6ee0016c-38a3-36be-9b0e-249f4a22ba0c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "$10,000 Invested in Eli Lilly 5 Years Ago Would Be Worth This Much Today",
+     "summary": "The company has made longtime shareholders much richer.",
+     "link": "https://www.fool.com/investing/2026/10/27/10000-invested-in-eli-lilly-5-years-ago-would-be-w/?.tsrc=rss",
+     "time": "2026-10-27T23:28:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c2207027-f4f7-3c3f-8379-a34714282ba2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know",
+     "summary": "A number of stocks jumped in the afternoon session after major artificial intelligence deals and landmark financing agreements reinforced investor confidence in sustained technological demand as reported by AP News.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intel-microchip-technology-marvell-technology-231047842.html?.tsrc=rss",
+     "time": "2026-10-27T23:10:47+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fd49a6ea-4f14-3667-bd52-071d2fe2cee5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Royal Caribbean Cruises Q3 Earnings Call Highlights",
+     "summary": "Royal Caribbean Cruises (NYSE:RCL) raised its full-year earnings outlook after reporting third-quarter results that exceeded its prior guidance, supported by stronger close-in bookings and onboard spending in Europe and the Caribbean. Adjusted earnings per share for the third quarter reached $6.57,",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-royal-caribbean-cruises-q3-earnings-call-highlights-2026-10-27/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-27T23:04:17+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f7434bc8-e03e-3908-a910-f5ce2c8e3fbc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "What NXP Semiconductors (NXPI) Said on Its Q3 Earnings Call",
+     "summary": "NXP Semiconductors (NASDAQ:NXPI) reported third-quarter 2026 revenue of $3.79 billion, up 19% from a year earlier and 8% sequentially, as automotive, industrial and data-center-related demand supported growth across its business. Revenue increased 22% year over year excluding the MEMS sensor busines",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-nxp-semiconductors-nxpi-said-on-its-q3-earnings-call-2026-10-27/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-27T23:04:15+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b65a47f5-ae4d-3478-ac08-05b4e0d774bc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP (NXPI) Q3 2026 Earnings Call Transcript",
+     "summary": "Automotive revenue topped $2B for first time as SDV adoption accelerates.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/27/nxp-nxpi-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-27T22:58:44+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8fb42d54-5d4f-3bd3-8b34-6f524b5c745b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CBRS",
+     "title": "Why Cerebras Systems Stock Jumped on Tuesday",
+     "summary": "The company announced a groundbreaking partnership.",
+     "link": "https://www.fool.com/investing/2026/10/27/why-cerebras-systems-stock-jumped-on-tuesday/?.tsrc=rss",
+     "time": "2026-10-27T22:06:54+00:00",
+     "touches": [
+      "CBRS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:499622d5-1ca7-3d76-bf8d-28b0fdf71ceb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "General Motors (GM) shares skyrocket, what you need to know",
+     "summary": "Shares of automotive manufacturer General Motors (NYSE:GM) jumped 6.1% in the afternoon session after the company announced, in a press release, that it will transfer the listing of its common stock to the Nasdaq Global Select Market from the New York Stock Exchange.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-shares-skyrocket-220647515.html?.tsrc=rss",
+     "time": "2026-10-27T22:06:47+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:452f95de-ce7c-3e33-9b24-d0ebcd98a232",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "CoreWeave Stock Surges 6%, But Investors Are Still Worried",
+     "summary": "Jim Cramer dares Nvidia's Jensen Huang to buy CoreWeave's 15% debt as the stock rises and bond yields sit near records.",
+     "link": "https://beincrypto.com/coreweave-stock-jumps-jim-cramer-nvidia-debt-challenge/?.tsrc=rss",
+     "time": "2026-10-27T22:00:00+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:679d26dc-5afc-38aa-9962-75ac62b51877",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CLS",
+     "title": "Celestica (CLS) Q3 2026 Earnings Call Transcript",
+     "summary": "Revenue surged 83% as AI infrastructure demand accelerated across networking and compute.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/27/celestica-cls-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-27T21:58:30+00:00",
+     "touches": [
+      "CLS"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:d04b845c-4822-3524-aced-5edd9fb1a2f1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing (BA) stock trades down, here is why",
+     "summary": "Shares of aerospace and defense company Boeing (NYSE:BA) fell 9.8% in the afternoon session after the company reported third-quarter adjusted earnings per share that were below Wall Street expectations.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-stock-trades-down-215047865.html?.tsrc=rss",
+     "time": "2026-10-27T21:50:47+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f312493c-fe96-300e-9daf-4582c9f46daf",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Stock Market Today, Oct. 27: Boeing Plummets 11% on Lower Production Rates and Missed Delivery Targets",
+     "summary": "On Oct. 27, 2026, the aerospace giant announced it would miss delivery targets and slashed its production targets, sending shares tumbling.",
+     "link": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-today-oct-27-boeing-plummets-11-on-lower-production-rates-and-missed-delivery-targets/?.tsrc=rss",
+     "time": "2026-10-27T21:50:09+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ed7724a4-5a81-3e03-8732-3266e338d595",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "GM is embracing hybrids now",
+     "summary": "GM eschewed hybrids in favor of battery-electric vehicles. Now it's gearing up to offer hybrid versions of its SUVs.",
+     "link": "https://finance.yahoo.com/energy/articles/gm-embracing-hybrids-now-214702237.html?.tsrc=rss",
+     "time": "2026-10-27T21:47:02+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:536b35ac-a49f-37fa-b5ba-3157a432db8a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Bank of America kindly asks that you don\u2019t share your banking password with your AI assistant",
+     "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/bank-america-kindly-asks-don-214434802.html?.tsrc=rss",
+     "time": "2026-10-27T21:44:34+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:12cfeef6-bce1-31f7-809c-bee83c1d46b4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Stock Market Today, Oct. 27: CoreWeave Surges on Denmark Data Center Launch",
+     "summary": "Today, Oct. 27, 2026, the AI infrastructure specialist switched on fresh European capacity as Wall Street expands support for AI financing.",
+     "link": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-today-oct-27-coreweave-surges-on-denmark-data-center-launch/?.tsrc=rss",
+     "time": "2026-10-27T21:23:20+00:00",
+     "touches": [
+      "CRWV",
+      "IREN",
+      "NBIS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e308cf9b-58e5-3f19-8f66-4e4045258b37",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MS",
+     "title": "Inflation Is Hot, So Why Will the Fed Hold This Week?",
+     "summary": "Inflation is running hot and the Fed raised rates just last month. Yet futures markets put the odds of another hike at this week's meeting at only about 10%. In this video, Eric Bleeker, CFA, Chief Investment Officer of 24/7 Wall St., explains why Wall Street expects the Federal Reserve to sit still now, and why December looks very different, with hike odds above 80%. With consumer prices up 3.7% and the 10-year Treasury yield near 5%, the biggest questions are how Fed Chair Kevin Warsh explains a pause, and what his move away from forward guidance means for markets. We'll also cover the political pressure on the Fed from the White House, and what Morgan Stanley (NYSE: MS) strategists say a few more hikes would mean for the bull market. Finally, we'll lay out what to watch: Wednesday's Fed statement, Warsh's press conference, and the inflation and jobs reports that could lock in a December hike.",
+     "link": "https://247wallst.com/videos/inflation-is-hot-so-why-will-the-fed-hold-this-week/?.tsrc=rss",
+     "time": "2026-10-27T21:16:34+00:00",
+     "touches": [
+      "MS"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1fff3b2b-76cb-33d5-a9fb-7208b18cd2d4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa Beats Fourth-Quarter Views as Payments Volume Increases",
+     "summary": "Visa (V) reported stronger-than-expected fiscal fourth-quarter results late Tuesday as payments volu",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-beats-fourth-quarter-views-210825684.html?.tsrc=rss",
+     "time": "2026-10-27T21:08:25+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8e980c08-9558-3f0d-9e76-9de50baf0c83",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CSCO",
+     "title": "Global Edge Infrastructure Market Report 2026: Size, Share, Trends and Forecast to 2030 | Capitalize on 5G, AI and IoT with Microsoft, AWS, Dell, NVIDIA and Cisco",
+     "summary": "Players: Microsoft, AWS, Dell, IBM, NVIDIA. Profiled: edge infrastructure offerings across computing, storage, networking, power, cooling and analytics.Dublin, Oct. 27, 2026 (GLOBE NEWSWIRE) -- \"Edge Infrastructure Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global edge infrastructure market is experiencing exponential growth as enterprises increase investments in distributed computing, low-latency data processing and advanced connectivity. The market expanded fr",
+     "link": "https://finance.yahoo.com/technology/articles/global-edge-infrastructure-market-report-210400243.html?.tsrc=rss",
+     "time": "2026-10-27T21:04:00+00:00",
+     "touches": [
+      "CSCO"
+     ],
+     "tags": [
+      "earnings",
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bf3f5489-713b-306c-879a-5fe17958c338",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP (NXPI) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "summary": "Although the revenue and EPS for NXP (NXPI) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-nxpi-reports-q3-earnings-210001072.html?.tsrc=rss",
+     "time": "2026-10-27T21:00:01+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:4e6a8f4d-a526-3d2e-91a8-60990512ff30",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Global Drone Defense System Market Report 2026 | Capture 30.6% CAGR Through 2030 as Raytheon Technologies, Lockheed Martin, BAE Systems and DroneShield Scale AI Counter-UAS",
+     "summary": "Players: RTX, Boeing, Lockheed Martin, Northrop Grumman, BAE Systems. Profile covers drone-defense offerings, innovations, deployments and competitive activity.Dublin, Oct. 27, 2026 (GLOBE NEWSWIRE) -- \"Drone Defense System Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. Drone Defense System Market Projected to Reach $18.19 Billion by 2030 as Security Threats Intensify The global drone defense system market is experiencing exponential growth as governments, milita",
+     "link": "https://finance.yahoo.com/technology/articles/global-drone-defense-system-market-210000752.html?.tsrc=rss",
+     "time": "2026-10-27T21:00:00+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:5449d80c-e495-3053-958c-1726d5bcf95c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Finning to report Q3 2026 results and hold investor call on November 10",
+     "summary": "VANCOUVER, British Columbia, Oct. 27, 2026 (GLOBE NEWSWIRE) -- Finning International Inc. (TSX: FTT) (\u201cFinning\u201d) will report Q3 2026 results on November 10, 2026 before markets open and hold the investor call on November 10, 2026 at 11:00 AM Eastern Time. To access the investor call, please dial 1-833-752-3398 (Canada and US toll free) or 1-647-846-2852 (international toll). The investor call will be webcast live and archived for three months. Please visit our website to access the webcast and a",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/finning-report-q3-2026-results-210000420.html?.tsrc=rss",
+     "time": "2026-10-27T21:00:00+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:5af57660-5336-3e5a-994a-18d02ce82200",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Royal Caribbean Cruises Ltd. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Royal Caribbean Cruises Ltd.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-royal-caribbean-cruises-ltd-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-27T20:58:18+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:777f3c97-73f8-3c32-b39c-502dfd5aef55",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors falls on weak fourth quarter guidance",
+     "summary": "Investing.com -- NXP Semiconductors NV (NASDAQ:NXPI) reported third quarter results that exceeded analyst expectations but issued disappointing fourth quarter guidance, sending shares down 7% in after-hours trading Tuesday.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-falls-weak-fourth-205424517.html?.tsrc=rss",
+     "time": "2026-10-27T20:54:24+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:206fdaa8-c6e0-361e-8906-bf8e6780af8a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "AI Reshaping Payments Industry: Finix Head of Finance Emanuel Pleitez, Live from Money 20/20 2026",
+     "summary": "Tech Edge hosted a fireside chat on at Money20/20 USA 2026 in Las Vegas, Nevada, with Emanuel Pleitez, Head of Finance and Business Development at Finix. The in-person interview was joined by Editor-in-Chief John Jannarone and they discussed the company\u2019s goal to become a leading global payments processor through scalable API infrastructure, transaction transparency and [\u2026] The post AI Reshaping Payments Industry: Finix Head of Finance Emanuel Pleitez, Live from Money 20/20 2026 appeared first o",
+     "link": "https://finance.yahoo.com/technology/ai/articles/ai-reshaping-payments-industry-finix-205027810.html?.tsrc=rss",
+     "time": "2026-10-27T20:50:27+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0265b220-5472-36a5-8517-6535c8369e17",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors (NASDAQ:NXPI) surprises with Q3 sales but stock drops",
+     "summary": "Chip manufacturer NXP Semiconductors (NASDAQ: NXPI) reported Q3 2026 results beating Wall Street\u2019s revenue expectations, with revenue up 19.3% year on year to $3.79 billion. On the other hand, next quarter\u2019s revenue guidance of $3.85 billion was less impressive, coming in 0.6% below analysts\u2019 consensus estimates. Its non-GAAP profit of $4.20 per share was 2% above analysts\u2019 consensus estimates.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nasdaq-nxpi-surprises-204724695.html?.tsrc=rss",
+     "time": "2026-10-27T20:47:24+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6d1f8144-c8f8-3c69-becd-bb35c60688a2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Royal Caribbean: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Repeat customers and loyalty programs are cutting acquisition costs while expanding the addressable market beyond cruises.",
+     "link": "https://www.fool.com/earnings/takeaways/2026/10/27/royal-caribbean-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "time": "2026-10-27T20:44:06+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1253489f-2678-3bd3-adfc-c1b6cdb58757",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa shares fall as weak 2027 outlook overshadows fourth-quarter earnings beat",
+     "summary": "Investing.com --Visa shares fell 2.3% in after-hours trading on Tuesday as a weaker-than-expected growth outlook for fiscal 2027 overshadowed a fourth-quarter earnings beat, raising concerns about a potential slowdown in the payments giant\u2019s earnings momentum.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-shares-fall-weak-2027-204231023.html?.tsrc=rss",
+     "time": "2026-10-27T20:42:31+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bd5f76cc-d94d-3af0-9721-c1dab3719c27",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa\u2019s (NYSE:V) Q3 CY2026 earnings results: revenue in line with expectations",
+     "summary": "Global payments technology company Visa (NYSE:V) met Wall Street\u2019s revenue expectations in calendar Q3 2026 (fiscal Q4 2026), with revenue rising 13.2% year on year to $12.14 billion. Its non-GAAP profit of $3.48 per share was 1.1% above analysts\u2019 consensus estimates.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-nyse-v-q3-cy2026-204018815.html?.tsrc=rss",
+     "time": "2026-10-27T20:40:18+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:cdf0db12-d57c-32a1-9e6e-b04ffbeef12c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Why Royal Caribbean Stock Climbed Today",
+     "summary": "Despite a challenging economic environment, people are still booking vacations.",
+     "link": "https://www.fool.com/investing/2026/10/27/why-royal-caribbean-stock-climbed-today/?.tsrc=rss",
+     "time": "2026-10-27T20:39:06+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3f7f7800-9ecf-30a6-a154-9f1e07021db7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RCL",
+     "title": "Royal Caribbean (RCL) stock trades up, here is why",
+     "summary": "Shares of cruise vacation company Royal Caribbean (NYSE:RCL) jumped 6.6% in the morning session after the company reported third-quarter financial results that topped company guidance and raised its full-year earnings outlook.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-rcl-stock-trades-203847599.html?.tsrc=rss",
+     "time": "2026-10-27T20:38:47+00:00",
+     "touches": [
+      "RCL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6294d29d-51d6-3bfe-87d4-877203694b78",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Stock Market Today: Dow Up Ahead Of Fed Decision; Nasdaq Jumps, Broadcom Pops On This (Live Coverage)",
+     "summary": "The Dow Jones index rose on the stock market today ahead of the Fed decision on interest rates. Boeing stock tumbles but Broadcom rallies.",
+     "link": "https://finance.yahoo.com/m/6294d29d-51d6-3bfe-87d4-877203694b78/stock-market-today%3A-dow-up.html?.tsrc=rss",
+     "time": "2026-10-27T20:34:21+00:00",
+     "touches": [
+      "CAT",
+      "CSCO"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b62984a6-3276-32c4-b46b-fc70f5b45f12",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Nebius vs. CoreWeave: Which neocloud stock has more debt?",
+     "summary": "CoreWeave carries $35.1B in debt and $5.5B in cash, while Nebius has $8.5B in debt and $8.0B in cash.",
+     "link": "https://www.thestreet.com/investing/stocks/nebius-vs-coreweave-neocloud-debt-balance-sheet?.tsrc=rss",
+     "time": "2026-10-27T20:30:40+00:00",
+     "touches": [
+      "CRWV",
+      "IREN",
+      "NBIS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c17fad36-68c4-392c-b137-ea4687619e28",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasing Funding Scrutiny Around CRWV, NBIS: \u2018The Bond Market Is Going To Regulate'",
+     "summary": "Veteran Wall Street investor and Yardeni Research President Ed Yardeni dismissed fears of an imminent artificial intelligence bubble collapse Monday, arguing that tighter credit conditions could curb excessive spending without derailing the broader AI investment boom. Bond Markets Could Restrain...",
+     "link": "https://finance.yahoo.com/technology/ai/articles/ed-yardeni-says-ai-bubble-203011064.html?.tsrc=rss",
+     "time": "2026-10-27T20:30:11+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c0e5a36e-e5eb-3f2e-b3ea-b72c89273bbc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa (V) Beats Q4 Earnings and Revenue Estimates",
+     "summary": "Visa (V) delivered earnings and revenue surprises of +1.46% and +0.49%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-beats-q4-earnings-202504380.html?.tsrc=rss",
+     "time": "2026-10-27T20:25:04+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a433a023-c66c-3f1d-977f-17abd04353bd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors (NXPI) Q3 Earnings and Revenues Top Estimates",
+     "summary": "NXP (NXPI) delivered earnings and revenue surprises of +1.45% and +0.41%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-q3-earnings-202503877.html?.tsrc=rss",
+     "time": "2026-10-27T20:25:03+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "sec:0001413447-26-000057",
+     "source": "SEC EDGAR",
+     "kind": "filing",
+     "form": "8-K",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors N.V. filed a 8-K: earnings results",
+     "summary": "Current report",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "important": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000057/0001413447-26-000057-index.htm",
+     "time": "2026-10-27T20:23:37+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:95391ad1-b4c7-3dcc-b8fa-036f5c437bc9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Nasdaq Jumps 308 Points on Broadcom's Big Anthropic Deal: Stock Market Today",
+     "summary": "A big rally in chip stocks boosted the Nasdaq and S&P 500 Tuesday, while Boeing's post-earnings drop kept the Dow Jones Industrial Average underwater.",
+     "link": "https://www.kiplinger.com/investing/stocks/nasdaq-jumps-308-points-on-broadcoms-big-gains-stock-market-today?.tsrc=rss",
+     "time": "2026-10-27T20:14:57+00:00",
+     "touches": [
+      "BAC",
+      "INTC",
+      "MS"
+     ],
+     "tags": [
+      "earnings",
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:582a9703-25c2-3f6b-ad7e-943911f4936a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "NXP Semiconductors Reports Third Quarter 2026 Results",
+     "summary": "Announces $5 Billion Increase in Share Repurchase AuthorizationEINDHOVEN, The Netherlands, Oct. 27, 2026 (GLOBE NEWSWIRE) -- NXP Semiconductors N.V. (NASDAQ: NXPI) today reported financial results for the third quarter, which ended September 27, 2026. \u201cNXP delivered third-quarter revenue of $3.8 billion, up 19 percent year-on-year and 8 percent sequentially. Our performance was driven by accelerating contributions from our company-specific growth drivers in automotive and industrial as well as c",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-reports-third-quarter-201000618.html?.tsrc=rss",
+     "time": "2026-10-27T20:10:00+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings",
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9506d537-7856-3774-b37f-420bd0a938d1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TXN",
+     "title": "Earnings Beat Might Change Texas Instruments Stock Narrative",
+     "summary": "Texas Instruments reported third quarter 2026 sales of US$6,055 million and net income of US$2,425 million, with diluted EPS from continuing operations at US$2.62, and guided fourth quarter 2026 revenue to a range of US$5.80 billion to US$6.30 billion and EPS to a range of US$2.45 to US$2.79. Results and guidance highlight how Texas Instruments is leaning on broad industrial, automotive and data center demand to support its analog and embedded portfolio while preparing to integrate Silicon...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-texas-200658265.html?.tsrc=rss",
+     "time": "2026-10-27T20:06:58+00:00",
+     "touches": [
+      "TXN"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "sec:0001403161-26-000126",
+     "source": "SEC EDGAR",
+     "kind": "filing",
+     "form": "8-K",
+     "ticker": "V",
+     "title": "VISA INC. filed a 8-K: earnings results, other events",
+     "summary": "Current report",
+     "items": [
+      "2.02",
+      "8.01",
+      "9.01"
+     ],
+     "important": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/0001403161-26-000126-index.htm",
+     "time": "2026-10-27T20:05:22+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:91c259de-bba8-3985-89d3-4e5bf472ea55",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "CoreWeave Announces Date of Third Quarter 2026 Financial Results and Conference Call",
+     "summary": "LIVINGSTON, N.J., October 27, 2026--CoreWeave, Inc. (Nasdaq: CRWV), The Essential Cloud for AI\u00ae, will hold its quarterly conference call to discuss third quarter 2026 financial results on Tuesday, November 10, 2026 at 5:00 PM Eastern Time.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-announces-date-third-quarter-200500709.html?.tsrc=rss",
+     "time": "2026-10-27T20:05:00+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c2ce277d-9072-3e07-8e7f-d225c9a514b8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Visa Fiscal Fourth Quarter and Full-Year 2026 Financial Results",
+     "summary": "SAN FRANCISCO, October 27, 2026--Visa (NYSE: V) today announced its fiscal fourth quarter and full-year 2026 financial results through an earnings release that will be furnished with the Securities and Exchange Commission on a Form 8-K and available on its Investor Relations website at investor.visa.com/financial-information/quarterly-earnings/default.aspx.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/visa-fiscal-fourth-quarter-full-200500032.html?.tsrc=rss",
+     "time": "2026-10-27T20:05:00+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings",
+      "risk"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e8a32b65-8ed1-36c3-9e11-57e894c3eb3b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Patrik Jonsson to retire after 36 years; Ilya Yuffa named president, Lilly Global Markets",
+     "summary": "Eli Lilly and Company (NYSE: LLY) today announced that Patrik Jonsson, executive vice president and president, Lilly International, has decided to retire at the end of 2026 after a 36-year career at Lilly.",
+     "link": "https://finance.yahoo.com/healthcare/articles/patrik-jonsson-retire-36-years-200300275.html?.tsrc=rss",
+     "time": "2026-10-27T20:03:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bb2d8f5b-0922-3320-99fc-2918677f5797",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "GM Stock Jumps 6% On Hybrid SUV Plans And Nasdaq Switch",
+     "summary": "According to a report from Reuters, citing people familiar with the matter, GM will develop hybrid variants of the Chevrolet Traverse, Buick Enclave and GMC Acadia.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/gm-stock-jumps-6-on-hybrid-suv-plans-and-nasdaq-switch/cZUeSrxRBCx?.tsrc=rss",
+     "time": "2026-10-27T19:58:38+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:7d9a95be-9979-3b83-8b05-37d3068b226d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Is Tech On It\u2019s Way To 500,000 Layoffs?",
+     "summary": "AI is already gutting tech payrolls at Microsoft, Amazon, and Meta, but the real wave of job losses may be building in a sector most people have barely noticed yet.",
+     "link": "https://247wallst.com/investing/2026/10/27/is-tech-on-its-way-to-500000-layoffs/?.tsrc=rss",
+     "time": "2026-10-27T19:54:18+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b19a431d-7915-303c-9f31-b44eeaf28ed7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Huntington explores stablecoins as banks block AI agents",
+     "summary": "Huntington\u2019s Vijay Konduru says humans stay in the loop as the bank studies where AI agents and stablecoins meet.",
+     "link": "https://www.thestreet.com/crypto/innovation/huntington-explores-stablecoins-as-banks-block-ai-agents?.tsrc=rss",
+     "time": "2026-10-27T19:52:49+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2ca7f110-d9bb-31ba-ba6c-e721c65ca851",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+     "summary": "Healthcare stocks were slightly lower late Tuesday afternoon, with the NYSE Healthcare Index down 0.",
+     "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195123489.html?.tsrc=rss",
+     "time": "2026-10-27T19:51:23+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2a68acae-2bf6-3964-a743-dc538f824432",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+     "summary": "Consumer stocks were mixed late Tuesday afternoon with the State Street Consumer Staples Select Sect",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194612946.html?.tsrc=rss",
+     "time": "2026-10-27T19:46:12+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:424a8868-5abe-3619-9f06-65ccfa56d154",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "RTX Has a $340 Billion Backlog and Trades at 32 Times Earnings. Is It the Best Defense Stock to Buy Right Now?",
+     "summary": "The aerospace and defense company's backlog continues to grow, strengthening the long-term value case for the stock.",
+     "link": "https://www.fool.com/investing/2026/10/27/rtx-340-billion-backlog-trades-at-32-earnings/?.tsrc=rss",
+     "time": "2026-10-27T19:42:26+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7482a8b2-0227-311e-9434-9702a84a6f1c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CDNS",
+     "title": "Why Should You Think About Synopsys Differently Now?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/snps/articles/620785/why-should-you-think-about-synopsys-differently-now/2026-10-27?.tsrc=rss",
+     "time": "2026-10-27T19:19:47+00:00",
+     "touches": [
+      "CDNS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:df2ff4d1-0bfc-4b9e-ba9c-8843de7cb5bc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Google to report Q3 results as investors focus on AI growth, weigh Meta Muse AI risk",
+     "summary": "Google will report its third-quarter earnings Wednesday.",
+     "link": "https://finance.yahoo.com/technology/article/google-to-report-q3-results-as-investors-focus-on-ai-growth-weigh-meta-muse-ai-risk-191624324.html?.tsrc=rss",
+     "time": "2026-10-27T19:16:24+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f0a16595-4bda-34a8-930e-290c03cf7cfa",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GM",
+     "title": "GM Ditches NYSE After 115 Years for the Tech Bros",
+     "summary": "GM rose 6% just for switching exchanges.",
+     "link": "https://app.moby.co/home/news/news-gm-ditches-nyse-after-115-years-for-the-tech-bros?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-27T19:11:43+00:00",
+     "touches": [
+      "GM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:020894db-01a9-30f9-80ff-1a39b13e53bb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Take-Two stock has upside as Bank of America sees GTA Online driving long-term growth",
+     "summary": "Take-Two Interactive Software Inc (NASDAQ:TTWO) could generate stronger long-term earnings growth than investors expect as monetisation of Grand Theft Auto Online builds, according to Bank of America, which maintained its 'buy' rating ahead of the launch of Grand Theft Auto 6. The bank...",
+     "link": "https://www.proactiveinvestors.com/companies/news/1100789/take-two-stock-has-upside-as-bank-of-america-sees-gta-online-driving-long-term-growth-1100789.html?.tsrc=rss",
+     "time": "2026-10-27T19:10:00+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:48167524-7780-3969-b956-7a82f658723a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CLS",
+     "title": "What Celestica (CLS) Said on Its Q3 Earnings Call",
+     "summary": "Celestica (NYSE:CLS) reported third-quarter 2026 revenue of $5.83 billion, up 83% from a year earlier and above the high end of its guidance range, as demand for AI infrastructure lifted results across its Connectivity & Cloud Solutions and Advanced Technology Solutions segments. Adjusted earni",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-celestica-cls-said-on-its-q3-earnings-call-2026-10-27/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-27T19:04:22+00:00",
+     "touches": [
+      "CLS"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c34d2294-3dae-35a9-9f5c-821f2b791ced",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CBRS",
+     "title": "Oracle Expands Cloud Infrastructure Arsenal With Google, OpenAI, And Cerebras Partnerships",
+     "summary": "Oracle has announced major multi-vendor artificial intelligence expansions at its AI World conference, integrating Google Cloud TPUs, OpenAI security tech, and Cerebras systems into Oracle Cloud Infrastructure (OCI).",
+     "link": "https://stocktwits.com/news-articles/markets/equity/oracle-expands-cloud-infrastructure-arsenal-with-google-open-ai-and-cerebras-partnerships/cZUe19jRBCw?.tsrc=rss",
+     "time": "2026-10-27T19:01:10+00:00",
+     "touches": [
+      "CBRS"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c6845d5f-66e2-333f-be78-c2951a0c6951",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "IonQ Jumped 7%, Rigetti Up 8% on Intel\u2019s $2.3 Billion Quantum Buy: \u201cFull-Stack Quantum Computing Business\u201d",
+     "summary": "Key TakeawaysIonQ shares rose 7% today, Rigetti rose 8% and D-Wave rose about 4%, after Intel agreed to buy quantum software company Classiq in a deal reportedly worth about $2. 3 billion.",
+     "link": "https://www.tikr.com/blog/ionq-jumped-7-rigetti-up-8-on-intels-2-3-billion-quantum-buy-full-stack-quantum-computing-business?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-27T18:57:07+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:d9cdb74f-dfe0-3e3e-836e-9b795eeaee66",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CRWV",
+     "title": "Crusoe CEO defends CoreWeave amid selloff",
+     "summary": "Investing.com -- The head of Crusoe defended the AI computing sector on Tuesday, describing recent market concerns about neocloud providers as excessive and expressing confidence in competitor CoreWeave\u2019s business position.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/crusoe-ceo-defends-coreweave-amid-185254030.html?.tsrc=rss",
+     "time": "2026-10-27T18:52:54+00:00",
+     "touches": [
+      "CRWV"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c9fca244-5742-361f-9199-edf974452845",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CSCO",
+     "title": "Cisco Is Up 47%, IBM Is Down 13%. Which Dividend Stock Is Better for Retirement?",
+     "summary": "Cisco and IBM have moved in opposite directions this year, and that gap reshapes which one actually puts more money in a retiree's pocket over time. The answer depends on which trade-off you can afford to make.",
+     "link": "https://247wallst.com/investing/2026/10/27/cisco-is-up-47-ibm-is-down-13-which-dividend-stock-is-better-for-retirement/?.tsrc=rss",
+     "time": "2026-10-27T18:47:57+00:00",
+     "touches": [
+      "CSCO"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    }
+   ],
+   "notes": []
+  }
+ },
+ "pelosi": {
+  "cmd": "trader-pelosi/ptr.py new --read --json",
+  "code": 1,
+  "stderr": "",
+  "data": {
+   "new": [],
+   "reports": []
+  }
+ }
+}
