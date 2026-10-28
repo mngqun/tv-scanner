@@ -31,7 +31,8 @@ TOOLS = ROOT / "vendor" / "day-trader-skill"
 WORK = ROOT / "trader_state"          # the tools' cwd; trader/ lives inside it
 OUT = ROOT / "scans" / "trader"
 NY = ZoneInfo("America/New_York")
-FLAT_BY = os.environ.get("FLAT_BY") or "15:55"   # e.g. 13:55 on an FOMC day
+FLAT_BY = os.environ.get("FLAT_BY") or "15:55"
+LIQ: dict = {}   # e.g. 13:55 on an FOMC day
 
 
 def tool(rel: str, *args: str, timeout: int = 900) -> dict:
@@ -80,6 +81,8 @@ def largecaps() -> Path:
     syms = sorted({r["name"] for r in rows if r.get("name")})
     path = WORK / "trader" / "largecaps.txt"
     path.write_text("\n".join(syms) + "\n")
+    # average $ traded per day (10d avg volume x price) to rank scanner hits by liquidity
+    LIQ.update({r["name"]: (r.get("average_volume_10d_calc") or 0) * (r.get("close") or 0) for r in rows})
     return path
 
 
@@ -99,7 +102,7 @@ def orb(at: str | None, top_n: int) -> dict:
     uni = largecaps()
     args = ["orb", "--watchlist", str(uni), "--json", "--show", "200"] + (["--at", at] if at else [])
     scan = tool("trader-scanner/scan.py", *args)
-    hits = (scan.get("data") or {}).get("hits", [])
+    hits = sorted((scan.get("data") or {}).get("hits", []), key=lambda h: -LIQ.get(h["symbol"], 0))
     plans = []
     for h in hits[:top_n]:
         s = h["symbol"]
