@@ -27,6 +27,10 @@ on:
         description: "max loss per trade for the risk check (100, or 50 in a mixed regime)"
         required: false
         default: "100"
+      flat_by:
+        description: "orb: flat-by time HH:MM NY (default 15:55; 13:55 on FOMC days)"
+        required: false
+        default: ""
       tm_plan:
         description: "tm: SYMBOL,DATE,ENTRY,STOP,TARGET,ENTRY_TIME[,UNTIL]  e.g. TSLA,2026-10-19,364.18,358.32,370.04,10:15 AM"
         required: false
@@ -72,6 +76,7 @@ jobs:
           ANALYST: ${{ github.event.inputs.analyst }}
           ORDERS: ${{ github.event.inputs.orders }}
           RISK_USD: ${{ github.event.inputs.risk_usd }}
+          FLAT_BY: ${{ github.event.inputs.flat_by }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           if [ "$MODE" = "tm" ]; then

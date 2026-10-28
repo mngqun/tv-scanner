@@ -31,6 +31,7 @@ TOOLS = ROOT / "vendor" / "day-trader-skill"
 WORK = ROOT / "trader_state"          # the tools' cwd; trader/ lives inside it
 OUT = ROOT / "scans" / "trader"
 NY = ZoneInfo("America/New_York")
+FLAT_BY = os.environ.get("FLAT_BY") or "15:55"   # e.g. 13:55 on an FOMC day
 
 
 def tool(rel: str, *args: str, timeout: int = 900) -> dict:
@@ -61,7 +62,7 @@ def write_config() -> None:
         "budget": 10000, "cash_buffer_pct": 10, "max_position_pct": 50, "max_order_usd": 5000,
         "min_order_usd": 5, "max_loss_per_trade_usd": float(os.environ.get("RISK_USD") or 100), "max_daily_loss_usd": 200,
         "max_trades_per_day": 2, "max_orders_per_day": 10, "min_reward_risk": 1.5, "require_stop": True,
-        "no_entries_before": "09:45", "no_entries_after": "15:30", "flat_by": "15:55",
+        "no_entries_before": "09:45", "no_entries_after": "15:30", "flat_by": FLAT_BY,
         "fractional": False, "broker": "alpaca", "paper": True, "blocked": [],
         "allow_options": False, "allow_margin": False, "allow_short": False, "pdt_guard": False,
         "sec_user_agent": sec_user_agent(),
@@ -107,11 +108,11 @@ def orb(at: str | None, top_n: int) -> dict:
         row = {"symbol": s, "entry": ent}
         if (ent.get("data") or {}).get("status") == "triggered":
             ex = tool("trader-exit/exit.py", "plan", "--from", ent_path, "--stop", "or-mid", "--target", "2R",
-                      "--write", plan_path, "--json")
+                      "--flat-by", FLAT_BY, "--write", plan_path, "--json")
             row["exit"] = ex
             if ex.get("code") == 0:
                 row["timemachine"] = tool("trader-timemachine/timemachine.py", "run", "--plan", plan_path,
-                                          "--until", "15:55", "--json")
+                                          "--until", FLAT_BY, "--json")
                 ord_path = f"trader/orders_{s}.json"
                 row["budget"] = tool("trader-budget/size.py", "--plan", plan_path, "--limit",
                                      "--write", ord_path, "--json")
