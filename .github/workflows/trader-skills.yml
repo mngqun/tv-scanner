@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "premarket | orb | tm"
+        description: "premarket | orb | tm | check"
         required: true
         default: "premarket"
       tickers:
@@ -15,6 +15,18 @@ on:
         description: "orb: cut the clock at HH:MM New York (blank = now)"
         required: false
         default: ""
+      analyst:
+        description: "check: tickers for the SEC earnings read, comma-separated"
+        required: false
+        default: ""
+      orders:
+        description: "check: long setups SYM:ENTRY:STOP:TARGET:QTY[:HH:MM]; separated"
+        required: false
+        default: ""
+      risk_usd:
+        description: "max loss per trade for the risk check (100, or 50 in a mixed regime)"
+        required: false
+        default: "100"
       tm_plan:
         description: "tm: SYMBOL,DATE,ENTRY,STOP,TARGET,ENTRY_TIME[,UNTIL]  e.g. TSLA,2026-10-19,364.18,358.32,370.04,10:15 AM"
         required: false
@@ -57,6 +69,9 @@ jobs:
           TICKERS: ${{ github.event.inputs.tickers }}
           ORB_AT: ${{ github.event.inputs.orb_at }}
           TM_PLAN: ${{ github.event.inputs.tm_plan }}
+          ANALYST: ${{ github.event.inputs.analyst }}
+          ORDERS: ${{ github.event.inputs.orders }}
+          RISK_USD: ${{ github.event.inputs.risk_usd }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           if [ "$MODE" = "tm" ]; then

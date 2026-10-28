@@ -9,6 +9,10 @@ Modes
   orb        scan.py orb on the large-cap universe -> for the top hits: entry.py check ->
              exit.py plan (or-mid stop, 2R target, flat 15:55) -> timemachine.py run --until 15:55
   tm         one explicit plan through the Time Machine (SYMBOL, DATE, ENTRY, STOP, TARGET, ENTRY_TIME)
+  check      after the brief's shortlist: facts.py (SEC earnings numbers) on ANALYST tickers, and
+             check.py (Risk Manager) on the brief's long setups in ORDERS, checked together as one day
+             ("SYM:ENTRY:STOP:TARGET:QTY[:HH:MM]" separated by ";", HH:MM = planned entry time, NY)
+  The orb mode also sizes each planned breakout with size.py and runs check.py on it.
 
 Tools live in vendor/day-trader-skill (cloned at a pinned commit by the workflow). They are read-only:
 nothing here can place an order. The SEC User-Agent comes from the SEC_USER_AGENT secret, else
@@ -55,7 +59,7 @@ def write_config() -> None:
     cfg = {
         # mirrors claude/screening-framework.md (10k sleeve, $100 risk, -$200 day, 2 trades)
         "budget": 10000, "cash_buffer_pct": 10, "max_position_pct": 50, "max_order_usd": 5000,
-        "min_order_usd": 5, "max_loss_per_trade_usd": 100, "max_daily_loss_usd": 200,
+        "min_order_usd": 5, "max_loss_per_trade_usd": float(os.environ.get("RISK_USD") or 100), "max_daily_loss_usd": 200,
         "max_trades_per_day": 2, "max_orders_per_day": 10, "min_reward_risk": 1.5, "require_stop": True,
         "no_entries_before": "09:45", "no_entries_after": "15:30", "flat_by": "15:55",
         "fractional": False, "broker": "alpaca", "paper": True, "blocked": [],
@@ -108,6 +112,11 @@ def orb(at: str | None, top_n: int) -> dict:
             if ex.get("code") == 0:
                 row["timemachine"] = tool("trader-timemachine/timemachine.py", "run", "--plan", plan_path,
                                           "--until", "15:55", "--json")
+                ord_path = f"trader/orders_{s}.json"
+                row["budget"] = tool("trader-budget/size.py", "--plan", plan_path, "--limit",
+                                     "--write", ord_path, "--json")
+                if row["budget"].get("code") == 0:
+                    row["risk"] = tool("trader-risk/check.py", "--orders", ord_path, "--no-write", "--json")
         plans.append(row)
     return {"universe_size": len(uni.read_text().split()), "scan": scan, "plans": plans}
 
@@ -120,6 +129,34 @@ def tm() -> dict:
     if e.get("TM_SETUP"):
         args += ["--setup", e["TM_SETUP"]]
     return {"timemachine": tool("trader-timemachine/timemachine.py", *args)}
+
+
+def check(analyst: list[str], orders_spec: str) -> dict:
+    out = {}
+    if analyst:
+        out["analyst"] = tool("trader-analyst/facts.py", *analyst, "--quarters", "6", "--json", timeout=600)
+    orders, at = [], None
+    for part in [x.strip() for x in orders_spec.split(";") if x.strip()]:
+        f = part.split(":")
+        sym, entry, stop, target, qty = f[0].upper(), float(f[1]), float(f[2]), float(f[3]), int(float(f[4]))
+        if len(f) >= 7:
+            at = at or f"{f[5]}:{f[6]}"
+        risk = round(entry - stop, 2)
+        orders.append({
+            "symbol": sym, "side": "buy", "qty": str(qty), "type": "limit", "limit_price": f"{entry:.2f}",
+            "time_in_force": "day", "order_class": "bracket",
+            "take_profit_limit_price": f"{target:.2f}", "stop_loss_stop_price": f"{stop:.2f}",
+            "why": "daily brief long setup (paper)",
+            "plan": {"entry": entry, "stop": stop, "target": target, "risk_per_share": risk,
+                     "max_loss": round(qty * risk, 2), "setup": "brief", "flat_by": "15:55"}})
+    if orders:
+        (WORK / "trader" / "orders_brief.json").write_text(json.dumps(orders, indent=1))
+        today = datetime.now(NY).strftime("%Y-%m-%d")
+        out["risk_checked_at"] = f"{today} {at or '09:45'}"
+        out["orders"] = orders
+        out["risk"] = tool("trader-risk/check.py", "--orders", "trader/orders_brief.json", "--no-write",
+                           "--now", out["risk_checked_at"], "--json")
+    return out
 
 
 def main() -> int:
@@ -139,6 +176,10 @@ def main() -> int:
         result.update(orb(os.environ.get("ORB_AT") or None, int(os.environ.get("TOP_N") or 8)))
     elif mode == "tm":
         result.update(tm())
+    elif mode == "check":
+        an = [t.strip().upper() for t in os.environ.get("ANALYST", "").replace(" ", ",").split(",") if t.strip()]
+        result.update(check(an, os.environ.get("ORDERS", "")))
+        result["risk_usd"] = float(os.environ.get("RISK_USD") or 100)
     else:
         print("unknown mode", mode)
         return 2
