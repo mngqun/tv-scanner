@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-10-29T00:23:57+00:00",
- "generated_new_york": "2026-10-28T20:23:57-04:00",
+ "generated_utc": "2026-10-29T01:14:34+00:00",
+ "generated_new_york": "2026-10-28T21:14:34-04:00",
  "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
  "criteria": {
   "min_dte": 2,
@@ -286,7 +286,7 @@
   },
   {
    "ticker": "INTC",
-   "cboe_timestamp": "2026-10-29 00:04:43",
+   "cboe_timestamp": "2026-10-29 00:59:20",
    "call_premium_usd": 176178407,
    "put_premium_usd": 55707628,
    "call_put_volume_ratio": 1.75,
@@ -304,8 +304,8 @@
      "bid": 25.05,
      "ask": 26.4,
      "premium_usd": 22080600,
-     "iv": 2.2814,
-     "delta": 0.9931
+     "iv": 0.0,
+     "delta": 0.9934
     },
     {
      "contract": "INTC261030C00069000",
@@ -321,7 +321,7 @@
      "ask": 27.4,
      "premium_usd": 15962966,
      "iv": 0.0,
-     "delta": 0.9939
+     "delta": 0.9943
     },
     {
      "contract": "INTC261030C00071000",
@@ -336,8 +336,8 @@
      "bid": 24.05,
      "ask": 25.35,
      "premium_usd": 11219676,
-     "iv": 2.1346,
-     "delta": 0.9922
+     "iv": 0.0,
+     "delta": 0.9923
     },
     {
      "contract": "INTC261030C00068000",
@@ -353,7 +353,7 @@
      "ask": 28.3,
      "premium_usd": 7036105,
      "iv": 0.0,
-     "delta": 0.9945
+     "delta": 0.9951
     },
     {
      "contract": "INTC261030C00067000",
@@ -369,7 +369,7 @@
      "ask": 29.9,
      "premium_usd": 1367500,
      "iv": 0.0,
-     "delta": 0.995
+     "delta": 0.9957
     },
     {
      "contract": "INTC261113C00096000",
@@ -384,8 +384,8 @@
      "bid": 5.65,
      "ask": 5.95,
      "premium_usd": 1354300,
-     "iv": 0.7428,
-     "delta": 0.5237
+     "iv": 0.7371,
+     "delta": 0.526
     },
     {
      "contract": "INTC261204C00104000",
@@ -400,8 +400,8 @@
      "bid": 4.5,
      "ask": 5.05,
      "premium_usd": 262350,
-     "iv": 0.6467,
-     "delta": 0.3843
+     "iv": 0.6438,
+     "delta": 0.3858
     }
    ]
   },
@@ -690,8 +690,8 @@
   },
   {
    "ticker": "TSLA",
-   "cboe_timestamp": "2026-10-29 00:04:44",
-   "call_premium_usd": 559093445,
+   "cboe_timestamp": "2026-10-29 00:32:43",
+   "call_premium_usd": 559095555,
    "put_premium_usd": 185161297,
    "call_put_volume_ratio": 1.13,
    "flagged_contracts": [
@@ -708,8 +708,8 @@
      "bid": 4.65,
      "ask": 4.9,
      "premium_usd": 12560660,
-     "iv": 0.4197,
-     "delta": 0.4889
+     "iv": 0.4186,
+     "delta": 0.4903
     },
     {
      "contract": "TSLA261030C00402500",
@@ -724,8 +724,8 @@
      "bid": 5.65,
      "ask": 6.25,
      "premium_usd": 9586150,
-     "iv": 0.41,
-     "delta": 0.568
+     "iv": 0.4087,
+     "delta": 0.5675
     },
     {
      "contract": "TSLA261030P00400000",
@@ -740,8 +740,8 @@
      "bid": 3.1,
      "ask": 3.25,
      "premium_usd": 8499117,
-     "iv": 0.4265,
-     "delta": -0.3584
+     "iv": 0.4274,
+     "delta": -0.359
     },
     {
      "contract": "TSLA261030C00410000",
@@ -756,8 +756,8 @@
      "bid": 2.67,
      "ask": 2.78,
      "premium_usd": 8158455,
-     "iv": 0.4132,
-     "delta": 0.3346
+     "iv": 0.4133,
+     "delta": 0.3367
     },
     {
      "contract": "TSLA261030P00405000",
@@ -772,8 +772,8 @@
      "bid": 5.2,
      "ask": 5.5,
      "premium_usd": 7172360,
-     "iv": 0.4213,
-     "delta": -0.5136
+     "iv": 0.4226,
+     "delta": -0.5118
     },
     {
      "contract": "TSLA261030P00410000",
@@ -788,8 +788,8 @@
      "bid": 7.95,
      "ask": 8.55,
      "premium_usd": 4889775,
-     "iv": 0.411,
-     "delta": -0.6696
+     "iv": 0.4128,
+     "delta": -0.667
     },
     {
      "contract": "TSLA261030P00402500",
@@ -804,8 +804,8 @@
      "bid": 4.05,
      "ask": 4.25,
      "premium_usd": 4138380,
-     "iv": 0.4225,
-     "delta": -0.4337
+     "iv": 0.4236,
+     "delta": -0.4339
     },
     {
      "contract": "TSLA261030C00407500",
@@ -820,8 +820,8 @@
      "bid": 3.45,
      "ask": 3.75,
      "premium_usd": 3135600,
-     "iv": 0.4127,
-     "delta": 0.4097
+     "iv": 0.4097,
+     "delta": 0.4123
     }
    ]
   },
@@ -1797,7 +1797,7 @@
   },
   {
    "ticker": "ETN",
-   "cboe_timestamp": "2026-10-28 22:29:56",
+   "cboe_timestamp": "2026-10-29 00:40:13",
    "call_premium_usd": 34279568,
    "put_premium_usd": 1576539,
    "call_put_volume_ratio": 47.19,
@@ -2201,7 +2201,7 @@
   },
   {
    "ticker": "GOOGL",
-   "cboe_timestamp": "2026-10-29 00:04:36",
+   "cboe_timestamp": "2026-10-29 01:12:15",
    "call_premium_usd": 268865512,
    "put_premium_usd": 133938827,
    "call_put_volume_ratio": 1.86,
@@ -2219,8 +2219,8 @@
      "bid": 1.57,
      "ask": 1.75,
      "premium_usd": 2860069,
-     "iv": 1.1309,
-     "delta": 0.126
+     "iv": 1.1128,
+     "delta": 0.1256
     },
     {
      "contract": "GOOGL261030C00355000",
@@ -2235,8 +2235,8 @@
      "bid": 2.1,
      "ask": 2.35,
      "premium_usd": 2347400,
-     "iv": 1.1246,
-     "delta": 0.1611
+     "iv": 1.1077,
+     "delta": 0.1605
     },
     {
      "contract": "GOOGL261030C00305000",
@@ -2251,8 +2251,8 @@
      "bid": 22.15,
      "ask": 24.9,
      "premium_usd": 2156040,
-     "iv": 1.0485,
-     "delta": 0.8227
+     "iv": 1.0295,
+     "delta": 0.8231
     },
     {
      "contract": "GOOGL261120C00385000",
@@ -2267,8 +2267,8 @@
      "bid": 1.33,
      "ask": 1.45,
      "premium_usd": 1982001,
-     "iv": 0.4575,
-     "delta": 0.0847
+     "iv": 0.4576,
+     "delta": 0.0852
     },
     {
      "contract": "GOOGL261102C00325000",
@@ -2283,8 +2283,8 @@
      "bid": 10.75,
      "ask": 11.4,
      "premium_usd": 1548612,
-     "iv": 0.6976,
-     "delta": 0.5295
+     "iv": 0.6914,
+     "delta": 0.5293
     },
     {
      "contract": "GOOGL261030C00307500",
@@ -2299,8 +2299,8 @@
      "bid": 20.3,
      "ask": 22.95,
      "premium_usd": 1033000,
-     "iv": 1.0038,
-     "delta": 0.7911
+     "iv": 0.9859,
+     "delta": 0.7915
     },
     {
      "contract": "GOOGL261104C00325000",
@@ -2315,8 +2315,8 @@
      "bid": 11.5,
      "ask": 12.0,
      "premium_usd": 817830,
-     "iv": 0.6246,
-     "delta": 0.5308
+     "iv": 0.6221,
+     "delta": 0.5307
     },
     {
      "contract": "GOOGL261106P00307500",
@@ -2331,8 +2331,49 @@
      "bid": 3.7,
      "ask": 6.25,
      "premium_usd": 656205,
-     "iv": 0.5579,
-     "delta": -0.2408
+     "iv": 0.5593,
+     "delta": -0.2405
+    }
+   ]
+  },
+  {
+   "ticker": "CLS",
+   "cboe_timestamp": "2026-10-29 00:39:38",
+   "call_premium_usd": 47473409,
+   "put_premium_usd": 5667867,
+   "call_put_volume_ratio": 3.12,
+   "flagged_contracts": [
+    {
+     "contract": "CLS261106C00305000",
+     "type": "call",
+     "strike": 305.0,
+     "expiry": "2026-11-06",
+     "dte": 9,
+     "volume": 2105,
+     "open_interest": 21,
+     "vol_oi": 100.2,
+     "last": 12.8,
+     "bid": 11.8,
+     "ask": 15.4,
+     "premium_usd": 2694400,
+     "iv": 0.8223,
+     "delta": 0.4797
+    },
+    {
+     "contract": "CLS261113C00310000",
+     "type": "call",
+     "strike": 310.0,
+     "expiry": "2026-11-13",
+     "dte": 16,
+     "volume": 623,
+     "open_interest": 24,
+     "vol_oi": 26.0,
+     "last": 14.77,
+     "bid": 12.1,
+     "ask": 16.2,
+     "premium_usd": 920171,
+     "iv": 0.7113,
+     "delta": 0.4544
     }
    ]
   },
@@ -2714,47 +2755,6 @@
      "premium_usd": 608960,
      "iv": 0.7142,
      "delta": -0.2345
-    }
-   ]
-  },
-  {
-   "ticker": "CLS",
-   "cboe_timestamp": "2026-10-28 18:55:49",
-   "call_premium_usd": 44190728,
-   "put_premium_usd": 4179746,
-   "call_put_volume_ratio": 3.34,
-   "flagged_contracts": [
-    {
-     "contract": "CLS261106C00305000",
-     "type": "call",
-     "strike": 305.0,
-     "expiry": "2026-11-06",
-     "dte": 9,
-     "volume": 1486,
-     "open_interest": 21,
-     "vol_oi": 70.8,
-     "last": 14.86,
-     "bid": 15.1,
-     "ask": 16.9,
-     "premium_usd": 2208196,
-     "iv": 0.803,
-     "delta": 0.5362
-    },
-    {
-     "contract": "CLS261113C00310000",
-     "type": "call",
-     "strike": 310.0,
-     "expiry": "2026-11-13",
-     "dte": 16,
-     "volume": 622,
-     "open_interest": 24,
-     "vol_oi": 25.9,
-     "last": 13.38,
-     "bid": 16.0,
-     "ask": 18.0,
-     "premium_usd": 832236,
-     "iv": 0.721,
-     "delta": 0.5016
     }
    ]
   },
