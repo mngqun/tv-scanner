@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "GEV",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-29",
+  "status": "triggered",
+  "time": "10:10 AM",
+  "bar_start": "10:05",
+  "bar_index": 7,
+  "price": 900.31,
+  "level": 897.76,
+  "interval": "5m",
+  "opening_range": {
+    "high": 897.76,
+    "low": 860.0,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-29T14:55:57Z",
+  "reason": "the 10:05 bar closed above the range high"
+}

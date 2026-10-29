@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "STX",
+  "side": "buy",
+  "date": "2026-10-29",
+  "setup": "orb",
+  "entry": 689.72,
+  "entry_time": "10:05 AM",
+  "entry_bar": 6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 689.34,
+    "low": 675.41,
+    "minutes": 15
+  },
+  "stop": 682.37,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 704.42,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 7.35,
+  "reward_risk": 2.0,
+  "flat_by": "15:55",
+  "stop_detail": "($689.34 + $675.41) / 2 = $682.375, rounded down",
+  "created_at": "2026-10-29T14:55:53Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

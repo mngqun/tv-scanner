@@ -1,31 +1,31 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-10-28T14:30:07Z",
+  "created_at": "2026-10-29T14:56:00Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (LRCX orb 2026-10-28)",
+  "source": "trader/plan.json (LRCX orb 2026-10-29)",
   "orders": [
     {
       "symbol": "LRCX",
       "side": "buy",
-      "qty": "13",
+      "qty": "19",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "250.28",
+      "limit_price": "255.67",
       "order_class": "bracket",
-      "take_profit_limit_price": "257.60",
-      "stop_loss_stop_price": "246.62",
-      "why": "opening-range breakout on LRCX: 13 shares, bound by your $50 max loss per trade (13 x 3.66 = $47.58 at the stop)",
+      "take_profit_limit_price": "260.81",
+      "stop_loss_stop_price": "253.10",
+      "why": "opening-range breakout on LRCX: 19 shares, bound by your position cap (19 x 2.57 = $48.83 at the stop)",
       "plan": {
-        "entry": 250.28,
-        "stop": 246.62,
-        "target": 257.6,
-        "risk_per_share": 3.66,
-        "max_loss": 47.58,
+        "entry": 255.67,
+        "stop": 253.1,
+        "target": 260.81,
+        "risk_per_share": 2.57,
+        "max_loss": 48.83,
         "setup": "orb",
-        "entry_time": "10:05 AM",
-        "flat_by": "13:55"
+        "entry_time": "10:00 AM",
+        "flat_by": "15:55"
       }
     }
   ]

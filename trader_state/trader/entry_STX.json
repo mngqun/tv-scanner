@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "STX",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-29",
+  "status": "triggered",
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 689.72,
+  "level": 689.34,
+  "interval": "5m",
+  "opening_range": {
+    "high": 689.34,
+    "low": 675.41,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-29T14:55:53Z",
+  "reason": "the 10:00 bar closed above the range high"
+}
