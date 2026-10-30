@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "ORCL",
+  "side": "buy",
+  "date": "2026-10-30",
+  "setup": "orb",
+  "entry": 134.65,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 134.58,
+    "low": 131.07,
+    "minutes": 15
+  },
+  "stop": 132.82,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 138.31,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 1.83,
+  "reward_risk": 2.0,
+  "flat_by": "15:55",
+  "stop_detail": "($134.58 + $131.07) / 2 = $132.825, rounded down",
+  "created_at": "2026-10-30T14:24:01Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

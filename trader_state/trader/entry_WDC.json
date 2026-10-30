@@ -3,20 +3,20 @@
   "symbol": "WDC",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "status": "triggered",
-  "time": "10:05 AM",
-  "bar_start": "10:00",
-  "bar_index": 6,
-  "price": 396.02,
-  "level": 394.05,
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 376.92,
+  "level": 376.0,
   "interval": "5m",
   "opening_range": {
-    "high": 394.05,
-    "low": 388.36,
+    "high": 376.0,
+    "low": 365.99,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-29T14:55:55Z",
-  "reason": "the 10:00 bar closed above the range high"
+  "checked_at": "2026-10-30T14:24:06Z",
+  "reason": "the 9:55 bar closed above the range high"
 }

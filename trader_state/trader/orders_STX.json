@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-10-29T14:55:55Z",
+  "created_at": "2026-10-30T14:24:04Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (STX orb 2026-10-29)",
+  "source": "trader/plan.json (STX orb 2026-10-30)",
   "orders": [
     {
       "symbol": "STX",
       "side": "buy",
-      "qty": "7",
+      "qty": "3",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "689.72",
+      "limit_price": "675.95",
       "order_class": "bracket",
-      "take_profit_limit_price": "704.42",
-      "stop_loss_stop_price": "682.37",
-      "why": "opening-range breakout on STX: 7 shares, bound by your position cap (7 x 7.35 = $51.45 at the stop)",
+      "take_profit_limit_price": "708.77",
+      "stop_loss_stop_price": "659.54",
+      "why": "opening-range breakout on STX: 3 shares, bound by your $50 max loss per trade (3 x 16.41 = $49.23 at the stop)",
       "plan": {
-        "entry": 689.72,
-        "stop": 682.37,
-        "target": 704.42,
-        "risk_per_share": 7.35,
-        "max_loss": 51.45,
+        "entry": 675.95,
+        "stop": 659.54,
+        "target": 708.77,
+        "risk_per_share": 16.41,
+        "max_loss": 49.23,
         "setup": "orb",
-        "entry_time": "10:05 AM",
+        "entry_time": "10:00 AM",
         "flat_by": "15:55"
       }
     }

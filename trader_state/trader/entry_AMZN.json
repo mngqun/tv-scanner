@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AMZN",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-10-30",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 239.21,
+  "level": 238.4,
+  "interval": "5m",
+  "opening_range": {
+    "high": 238.4,
+    "low": 229.36,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-10-30T14:23:59Z",
+  "reason": "the 9:45 bar closed above the range high"
+}

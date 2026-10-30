@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "AMZN",
+  "side": "buy",
+  "date": "2026-10-30",
+  "setup": "orb",
+  "entry": 239.21,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 238.4,
+    "low": 229.36,
+    "minutes": 15
+  },
+  "stop": 233.88,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 249.87,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 5.33,
+  "reward_risk": 2.0,
+  "flat_by": "15:55",
+  "stop_detail": "($238.40 + $229.36) / 2 = $233.88",
+  "created_at": "2026-10-30T14:23:59Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}
