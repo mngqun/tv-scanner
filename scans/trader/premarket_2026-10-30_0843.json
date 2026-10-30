@@ -1,0 +1,6188 @@
+{
+ "mode": "premarket",
+ "generated_utc": "2026-10-30T12:43:16+00:00",
+ "generated_new_york": "2026-10-30T08:43:16-04:00",
+ "tools": "github.com/Jakeschincariol/day-trader-skill @ 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd",
+ "sec_user_agent_set": true,
+ "universe_size": 676,
+ "scan": {
+  "cmd": "trader-scanner/scan.py daily --watchlist /home/runner/work/tv-scanner/tv-scanner/trader_state/trader/largecaps.txt --json --show 200",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "created_by": "trader-scanner",
+   "created_at": "2026-10-30T12:43:16Z",
+   "mode": "daily",
+   "as_of": "2026-10-29 close",
+   "universe": 676,
+   "scanned": 647,
+   "failed": 0,
+   "source": "yahoo",
+   "filters": {
+    "min_price": 5.0,
+    "min_volume": 1000000
+   },
+   "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
+   "hits": [
+    {
+     "symbol": "GOOGL",
+     "setups": [
+      "oversold"
+     ],
+     "price": 283.82,
+     "close_date": "2026-10-29",
+     "rsi": 22.6,
+     "volume": 138462344
+    },
+    {
+     "symbol": "GOOG",
+     "setups": [
+      "oversold"
+     ],
+     "price": 282.32,
+     "close_date": "2026-10-29",
+     "rsi": 22.4,
+     "volume": 92306922
+    },
+    {
+     "symbol": "AAPL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 348.91,
+     "close_date": "2026-10-29",
+     "rsi": 60.7,
+     "volume": 41340227
+    },
+    {
+     "symbol": "NOW",
+     "setups": [
+      "oversold"
+     ],
+     "price": 109.67,
+     "close_date": "2026-10-29",
+     "rsi": 28.5,
+     "volume": 75554545
+    },
+    {
+     "symbol": "LLY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 1373.7,
+     "close_date": "2026-10-29",
+     "rsi": 74.5,
+     "volume": 4355666
+    },
+    {
+     "symbol": "CAT",
+     "setups": [
+      "oversold"
+     ],
+     "price": 647.39,
+     "close_date": "2026-10-29",
+     "rsi": 26.4,
+     "volume": 8141539
+    },
+    {
+     "symbol": "V",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 410.54,
+     "close_date": "2026-10-29",
+     "rsi": 67.6,
+     "volume": 7689807
+    },
+    {
+     "symbol": "BA",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 172.65,
+     "close_date": "2026-10-29",
+     "rsi": 33.3,
+     "volume": 16570038
+    },
+    {
+     "symbol": "MA",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 635.7,
+     "close_date": "2026-10-29",
+     "rsi": 69.7,
+     "volume": 4438404
+    },
+    {
+     "symbol": "FTNT",
+     "setups": [
+      "oversold"
+     ],
+     "price": 139.1,
+     "close_date": "2026-10-29",
+     "rsi": 27.7,
+     "volume": 17294521
+    },
+    {
+     "symbol": "RTX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 199.4,
+     "close_date": "2026-10-29",
+     "rsi": 60.3,
+     "volume": 11705983
+    },
+    {
+     "symbol": "ALNY",
+     "setups": [
+      "oversold"
+     ],
+     "price": 174.0,
+     "close_date": "2026-10-29",
+     "rsi": 24.2,
+     "volume": 11798042
+    },
+    {
+     "symbol": "JPM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 343.58,
+     "close_date": "2026-10-29",
+     "rsi": 58.2,
+     "volume": 5792758
+    },
+    {
+     "symbol": "MRK",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 146.33,
+     "close_date": "2026-10-29",
+     "rsi": 52.5,
+     "volume": 13417871
+    },
+    {
+     "symbol": "WMT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 121.25,
+     "close_date": "2026-10-29",
+     "rsi": 69.4,
+     "volume": 15835209
+    },
+    {
+     "symbol": "GE",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 313.05,
+     "close_date": "2026-10-29",
+     "rsi": 54.4,
+     "volume": 5819094
+    },
+    {
+     "symbol": "TXN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 312.94,
+     "close_date": "2026-10-29",
+     "rsi": 71.9,
+     "volume": 5634915
+    },
+    {
+     "symbol": "BAC",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 51.14,
+     "close_date": "2026-10-29",
+     "rsi": 33.0,
+     "volume": 32405885
+    },
+    {
+     "symbol": "JNJ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 275.2,
+     "close_date": "2026-10-29",
+     "rsi": 63.1,
+     "volume": 5992340
+    },
+    {
+     "symbol": "NXPI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 266.0,
+     "close_date": "2026-10-29",
+     "rsi": 69.7,
+     "volume": 5956349
+    },
+    {
+     "symbol": "CVNA",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 68.31,
+     "close_date": "2026-10-29",
+     "rsi": 63.0,
+     "volume": 23178181
+    },
+    {
+     "symbol": "UNH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 410.91,
+     "close_date": "2026-10-29",
+     "rsi": 59.1,
+     "volume": 3777364
+    },
+    {
+     "symbol": "QCOM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 185.41,
+     "close_date": "2026-10-29",
+     "rsi": 57.6,
+     "volume": 8130156
+    },
+    {
+     "symbol": "LNG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 318.94,
+     "close_date": "2026-10-29",
+     "rsi": 75.7,
+     "volume": 4709768
+    },
+    {
+     "symbol": "GILD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 165.61,
+     "close_date": "2026-10-29",
+     "rsi": 70.1,
+     "volume": 8345119
+    },
+    {
+     "symbol": "GS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 927.73,
+     "close_date": "2026-10-29",
+     "rsi": 55.1,
+     "volume": 1483603
+    },
+    {
+     "symbol": "AMGN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 460.73,
+     "close_date": "2026-10-29",
+     "rsi": 69.6,
+     "volume": 2958470
+    },
+    {
+     "symbol": "ADI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 433.28,
+     "close_date": "2026-10-29",
+     "rsi": 66.5,
+     "volume": 3130328
+    },
+    {
+     "symbol": "CMG",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 31.28,
+     "close_date": "2026-10-29",
+     "rsi": 53.1,
+     "volume": 42425765
+    },
+    {
+     "symbol": "HD",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 328.98,
+     "close_date": "2026-10-29",
+     "rsi": 67.7,
+     "volume": 4016790
+    },
+    {
+     "symbol": "GKOS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 242.48,
+     "close_date": "2026-10-29",
+     "rsi": 87.1,
+     "volume": 5410354
+    },
+    {
+     "symbol": "APH",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 82.08,
+     "close_date": "2026-10-29",
+     "rsi": 52.8,
+     "volume": 15683223
+    },
+    {
+     "symbol": "LMT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 643.59,
+     "close_date": "2026-10-29",
+     "rsi": 79.1,
+     "volume": 1961960
+    },
+    {
+     "symbol": "INSM",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 111.59,
+     "close_date": "2026-10-29",
+     "rsi": 62.1,
+     "volume": 11217794
+    },
+    {
+     "symbol": "ABBV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 290.79,
+     "close_date": "2026-10-29",
+     "rsi": 69.2,
+     "volume": 4302025
+    },
+    {
+     "symbol": "MCD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 257.38,
+     "close_date": "2026-10-29",
+     "rsi": 67.4,
+     "volume": 4511325
+    },
+    {
+     "symbol": "SBUX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 105.51,
+     "close_date": "2026-10-29",
+     "rsi": 70.7,
+     "volume": 10936628
+    },
+    {
+     "symbol": "C",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 125.76,
+     "close_date": "2026-10-29",
+     "rsi": 49.0,
+     "volume": 9150812
+    },
+    {
+     "symbol": "RBLX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 52.46,
+     "close_date": "2026-10-29",
+     "rsi": 58.1,
+     "volume": 20544156
+    },
+    {
+     "symbol": "TMO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 709.18,
+     "close_date": "2026-10-29",
+     "rsi": 65.3,
+     "volume": 1470918
+    },
+    {
+     "symbol": "IBM",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 258.28,
+     "close_date": "2026-10-29",
+     "rsi": 72.3,
+     "volume": 3908385
+    },
+    {
+     "symbol": "CRH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 90.62,
+     "close_date": "2026-10-29",
+     "rsi": 66.1,
+     "volume": 10651803
+    },
+    {
+     "symbol": "MO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 76.75,
+     "close_date": "2026-10-29",
+     "rsi": 66.9,
+     "volume": 12489140
+    },
+    {
+     "symbol": "ICE",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 163.04,
+     "close_date": "2026-10-29",
+     "rsi": 58.8,
+     "volume": 5872905
+    },
+    {
+     "symbol": "LHX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 278.43,
+     "close_date": "2026-10-29",
+     "rsi": 78.0,
+     "volume": 3409254
+    },
+    {
+     "symbol": "SYK",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 311.75,
+     "close_date": "2026-10-29",
+     "rsi": 64.8,
+     "volume": 3039364
+    },
+    {
+     "symbol": "CVS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 90.33,
+     "close_date": "2026-10-29",
+     "rsi": 47.3,
+     "volume": 10169490
+    },
+    {
+     "symbol": "WFC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 84.81,
+     "close_date": "2026-10-29",
+     "rsi": 57.1,
+     "volume": 10337005
+    },
+    {
+     "symbol": "INTU",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 331.19,
+     "close_date": "2026-10-29",
+     "rsi": 56.4,
+     "volume": 2617116
+    },
+    {
+     "symbol": "MDT",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 97.11,
+     "close_date": "2026-10-29",
+     "rsi": 62.6,
+     "volume": 8864370
+    },
+    {
+     "symbol": "STM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 49.99,
+     "close_date": "2026-10-29",
+     "rsi": 52.5,
+     "volume": 16793183
+    },
+    {
+     "symbol": "RCL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 310.54,
+     "close_date": "2026-10-29",
+     "rsi": 69.7,
+     "volume": 2699955
+    },
+    {
+     "symbol": "PM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 208.5,
+     "close_date": "2026-10-29",
+     "rsi": 64.1,
+     "volume": 4020236
+    },
+    {
+     "symbol": "WELL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 233.17,
+     "close_date": "2026-10-29",
+     "rsi": 51.0,
+     "volume": 3587458
+    },
+    {
+     "symbol": "VRTX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 540.0,
+     "close_date": "2026-10-29",
+     "rsi": 61.6,
+     "volume": 1536463
+    },
+    {
+     "symbol": "NKE",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 38.42,
+     "close_date": "2026-10-29",
+     "rsi": 60.3,
+     "volume": 21540479
+    },
+    {
+     "symbol": "GM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.72,
+     "close_date": "2026-10-29",
+     "rsi": 59.5,
+     "volume": 9570250
+    },
+    {
+     "symbol": "VMC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 280.31,
+     "close_date": "2026-10-29",
+     "rsi": 72.7,
+     "volume": 2816276
+    },
+    {
+     "symbol": "COF",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 208.74,
+     "close_date": "2026-10-29",
+     "rsi": 60.8,
+     "volume": 3760031
+    },
+    {
+     "symbol": "LOW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 207.28,
+     "close_date": "2026-10-29",
+     "rsi": 65.1,
+     "volume": 3780463
+    },
+    {
+     "symbol": "SHW",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 330.1,
+     "close_date": "2026-10-29",
+     "rsi": 50.5,
+     "volume": 2370598
+    },
+    {
+     "symbol": "LPLA",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 279.54,
+     "close_date": "2026-10-29",
+     "rsi": 30.4,
+     "volume": 2739868
+    },
+    {
+     "symbol": "FFIV",
+     "setups": [
+      "oversold"
+     ],
+     "price": 363.46,
+     "close_date": "2026-10-29",
+     "rsi": 26.8,
+     "volume": 2096349
+    },
+    {
+     "symbol": "WEC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 114.63,
+     "close_date": "2026-10-29",
+     "rsi": 71.9,
+     "volume": 6533637
+    },
+    {
+     "symbol": "HLT",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 356.93,
+     "close_date": "2026-10-29",
+     "rsi": 65.8,
+     "volume": 2000733
+    },
+    {
+     "symbol": "CCL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 28.84,
+     "close_date": "2026-10-29",
+     "rsi": 68.7,
+     "volume": 24078760
+    },
+    {
+     "symbol": "IR",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 80.01,
+     "close_date": "2026-10-29",
+     "rsi": 60.1,
+     "volume": 8433431
+    },
+    {
+     "symbol": "FTAI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 196.01,
+     "close_date": "2026-10-29",
+     "rsi": 66.1,
+     "volume": 3430896
+    },
+    {
+     "symbol": "GD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 370.82,
+     "close_date": "2026-10-29",
+     "rsi": 72.6,
+     "volume": 1811116
+    },
+    {
+     "symbol": "AJG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 268.2,
+     "close_date": "2026-10-29",
+     "rsi": 65.3,
+     "volume": 2501667
+    },
+    {
+     "symbol": "SPGI",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 460.66,
+     "close_date": "2026-10-29",
+     "rsi": 75.4,
+     "volume": 1451097
+    },
+    {
+     "symbol": "CME",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 296.42,
+     "close_date": "2026-10-29",
+     "rsi": 60.3,
+     "volume": 2198779
+    },
+    {
+     "symbol": "CMCSA",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 22.27,
+     "close_date": "2026-10-29",
+     "rsi": 50.7,
+     "volume": 28769943
+    },
+    {
+     "symbol": "DHR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 236.98,
+     "close_date": "2026-10-29",
+     "rsi": 65.2,
+     "volume": 2698640
+    },
+    {
+     "symbol": "AON",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 321.64,
+     "close_date": "2026-10-29",
+     "rsi": 69.3,
+     "volume": 1969600
+    },
+    {
+     "symbol": "RIO",
+     "setups": [
+      "oversold"
+     ],
+     "price": 83.25,
+     "close_date": "2026-10-29",
+     "rsi": 27.4,
+     "volume": 7479927
+    },
+    {
+     "symbol": "ECL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 300.86,
+     "close_date": "2026-10-29",
+     "rsi": 71.5,
+     "volume": 2033929
+    },
+    {
+     "symbol": "FDX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 307.82,
+     "close_date": "2026-10-29",
+     "rsi": 61.0,
+     "volume": 1964083
+    },
+    {
+     "symbol": "HCA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 478.08,
+     "close_date": "2026-10-29",
+     "rsi": 63.9,
+     "volume": 1263674
+    },
+    {
+     "symbol": "UNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 301.93,
+     "close_date": "2026-10-29",
+     "rsi": 68.5,
+     "volume": 1985175
+    },
+    {
+     "symbol": "SE",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 76.55,
+     "close_date": "2026-10-29",
+     "rsi": 25.7,
+     "volume": 7779352
+    },
+    {
+     "symbol": "NOC",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 562.36,
+     "close_date": "2026-10-29",
+     "rsi": 67.0,
+     "volume": 1056516
+    },
+    {
+     "symbol": "HON",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 222.14,
+     "close_date": "2026-10-29",
+     "rsi": 65.5,
+     "volume": 2640843
+    },
+    {
+     "symbol": "AZN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 174.4,
+     "close_date": "2026-10-29",
+     "rsi": 64.2,
+     "volume": 3356660
+    },
+    {
+     "symbol": "NTRA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 436.0,
+     "close_date": "2026-10-29",
+     "rsi": 69.9,
+     "volume": 1324889
+    },
+    {
+     "symbol": "CRS",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 298.72,
+     "close_date": "2026-10-29",
+     "rsi": 25.9,
+     "volume": 1891941
+    },
+    {
+     "symbol": "VEEV",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 310.34,
+     "close_date": "2026-10-29",
+     "rsi": 59.5,
+     "volume": 1791079
+    },
+    {
+     "symbol": "MANH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 240.84,
+     "close_date": "2026-10-29",
+     "rsi": 67.9,
+     "volume": 2234857
+    },
+    {
+     "symbol": "KDP",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 35.3,
+     "close_date": "2026-10-29",
+     "rsi": 68.0,
+     "volume": 15161208
+    },
+    {
+     "symbol": "SCHW",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 89.47,
+     "close_date": "2026-10-29",
+     "rsi": 30.6,
+     "volume": 5892310
+    },
+    {
+     "symbol": "ROP",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 449.65,
+     "close_date": "2026-10-29",
+     "rsi": 78.9,
+     "volume": 1160329
+    },
+    {
+     "symbol": "WMB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 74.88,
+     "close_date": "2026-10-29",
+     "rsi": 59.7,
+     "volume": 6918457
+    },
+    {
+     "symbol": "XEL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 79.04,
+     "close_date": "2026-10-29",
+     "rsi": 66.0,
+     "volume": 6530030
+    },
+    {
+     "symbol": "NDAQ",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 105.6,
+     "close_date": "2026-10-29",
+     "rsi": 74.6,
+     "volume": 4884250
+    },
+    {
+     "symbol": "SAP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 234.07,
+     "close_date": "2026-10-29",
+     "rsi": 65.7,
+     "volume": 2151319
+    },
+    {
+     "symbol": "BX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 120.6,
+     "close_date": "2026-10-29",
+     "rsi": 57.3,
+     "volume": 4151633
+    },
+    {
+     "symbol": "SN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 209.12,
+     "close_date": "2026-10-29",
+     "rsi": 72.2,
+     "volume": 2333329
+    },
+    {
+     "symbol": "TFC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 49.32,
+     "close_date": "2026-10-29",
+     "rsi": 61.7,
+     "volume": 9851426
+    },
+    {
+     "symbol": "SUNB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 84.32,
+     "close_date": "2026-10-29",
+     "rsi": 72.6,
+     "volume": 5717614
+    },
+    {
+     "symbol": "BNY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 149.37,
+     "close_date": "2026-10-29",
+     "rsi": 57.4,
+     "volume": 3193701
+    },
+    {
+     "symbol": "UAL",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 105.21,
+     "close_date": "2026-10-29",
+     "rsi": 50.7,
+     "volume": 4528225
+    },
+    {
+     "symbol": "EXC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 45.91,
+     "close_date": "2026-10-29",
+     "rsi": 72.5,
+     "volume": 10351140
+    },
+    {
+     "symbol": "MRSH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 197.03,
+     "close_date": "2026-10-29",
+     "rsi": 67.5,
+     "volume": 2411305
+    },
+    {
+     "symbol": "UPS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 107.33,
+     "close_date": "2026-10-29",
+     "rsi": 73.5,
+     "volume": 4405875
+    },
+    {
+     "symbol": "XYL",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 90.76,
+     "close_date": "2026-10-29",
+     "rsi": 29.7,
+     "volume": 4919653
+    },
+    {
+     "symbol": "PLD",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 128.02,
+     "close_date": "2026-10-29",
+     "rsi": 46.1,
+     "volume": 3471281
+    },
+    {
+     "symbol": "CL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 93.16,
+     "close_date": "2026-10-29",
+     "rsi": 56.6,
+     "volume": 4767159
+    },
+    {
+     "symbol": "MMM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 177.36,
+     "close_date": "2026-10-29",
+     "rsi": 64.9,
+     "volume": 2500016
+    },
+    {
+     "symbol": "EW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 94.44,
+     "close_date": "2026-10-29",
+     "rsi": 69.8,
+     "volume": 4678439
+    },
+    {
+     "symbol": "ELV",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 422.02,
+     "close_date": "2026-10-29",
+     "rsi": 52.3,
+     "volume": 1036937
+    },
+    {
+     "symbol": "PNC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 231.83,
+     "close_date": "2026-10-29",
+     "rsi": 62.8,
+     "volume": 1882027
+    },
+    {
+     "symbol": "ROST",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 232.3,
+     "close_date": "2026-10-29",
+     "rsi": 50.5,
+     "volume": 1869820
+    },
+    {
+     "symbol": "CHKP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 153.5,
+     "close_date": "2026-10-29",
+     "rsi": 65.4,
+     "volume": 2794913
+    },
+    {
+     "symbol": "AMRZ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 41.61,
+     "close_date": "2026-10-29",
+     "rsi": 68.9,
+     "volume": 10295850
+    },
+    {
+     "symbol": "LULU",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 109.82,
+     "close_date": "2026-10-29",
+     "rsi": 63.5,
+     "volume": 3870182
+    },
+    {
+     "symbol": "DUK",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 125.9,
+     "close_date": "2026-10-29",
+     "rsi": 66.8,
+     "volume": 3355218
+    },
+    {
+     "symbol": "PGR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 230.18,
+     "close_date": "2026-10-29",
+     "rsi": 63.8,
+     "volume": 1834420
+    },
+    {
+     "symbol": "HUM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 417.56,
+     "close_date": "2026-10-29",
+     "rsi": 54.2,
+     "volume": 1008684
+    },
+    {
+     "symbol": "NVO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 39.14,
+     "close_date": "2026-10-29",
+     "rsi": 47.1,
+     "volume": 10337509
+    },
+    {
+     "symbol": "PCAR",
+     "setups": [
+      "oversold"
+     ],
+     "price": 102.29,
+     "close_date": "2026-10-29",
+     "rsi": 25.4,
+     "volume": 3953246
+    },
+    {
+     "symbol": "NUE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 275.29,
+     "close_date": "2026-10-29",
+     "rsi": 69.0,
+     "volume": 1467659
+    },
+    {
+     "symbol": "W",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 120.12,
+     "close_date": "2026-10-29",
+     "rsi": 70.6,
+     "volume": 3322881
+    },
+    {
+     "symbol": "APO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 118.56,
+     "close_date": "2026-10-29",
+     "rsi": 54.7,
+     "volume": 3326119
+    },
+    {
+     "symbol": "CCI",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 88.83,
+     "close_date": "2026-10-29",
+     "rsi": 75.0,
+     "volume": 4372122
+    },
+    {
+     "symbol": "OTIS",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 74.61,
+     "close_date": "2026-10-29",
+     "rsi": 65.0,
+     "volume": 5204685
+    },
+    {
+     "symbol": "SWKS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 89.43,
+     "close_date": "2026-10-29",
+     "rsi": 66.9,
+     "volume": 4330962
+    },
+    {
+     "symbol": "ICLR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 215.48,
+     "close_date": "2026-10-29",
+     "rsi": 78.9,
+     "volume": 1794931
+    },
+    {
+     "symbol": "CNC",
+     "setups": [
+      "bull_flag",
+      "reclaim_ma20"
+     ],
+     "price": 68.62,
+     "close_date": "2026-10-29",
+     "rsi": 54.3,
+     "volume": 5626940
+    },
+    {
+     "symbol": "CI",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 298.41,
+     "close_date": "2026-10-29",
+     "rsi": 55.7,
+     "volume": 1268907
+    },
+    {
+     "symbol": "TXT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 87.46,
+     "close_date": "2026-10-29",
+     "rsi": 76.4,
+     "volume": 4282196
+    },
+    {
+     "symbol": "LYV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 177.83,
+     "close_date": "2026-10-29",
+     "rsi": 62.0,
+     "volume": 2096740
+    },
+    {
+     "symbol": "CNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 42.21,
+     "close_date": "2026-10-29",
+     "rsi": 70.9,
+     "volume": 8606420
+    },
+    {
+     "symbol": "DKS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 142.0,
+     "close_date": "2026-10-29",
+     "rsi": 51.7,
+     "volume": 2541811
+    },
+    {
+     "symbol": "NVS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 161.1,
+     "close_date": "2026-10-29",
+     "rsi": 69.4,
+     "volume": 2236374
+    },
+    {
+     "symbol": "RMD",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 252.83,
+     "close_date": "2026-10-29",
+     "rsi": 73.2,
+     "volume": 1415347
+    },
+    {
+     "symbol": "GEHC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 76.42,
+     "close_date": "2026-10-29",
+     "rsi": 73.9,
+     "volume": 4638275
+    },
+    {
+     "symbol": "RSG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 236.28,
+     "close_date": "2026-10-29",
+     "rsi": 62.6,
+     "volume": 1499079
+    },
+    {
+     "symbol": "TRGP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 312.37,
+     "close_date": "2026-10-29",
+     "rsi": 67.0,
+     "volume": 1127689
+    },
+    {
+     "symbol": "USB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 60.64,
+     "close_date": "2026-10-29",
+     "rsi": 60.5,
+     "volume": 5792503
+    },
+    {
+     "symbol": "AWK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 142.21,
+     "close_date": "2026-10-29",
+     "rsi": 65.1,
+     "volume": 2434113
+    },
+    {
+     "symbol": "KKR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 95.82,
+     "close_date": "2026-10-29",
+     "rsi": 58.4,
+     "volume": 3552161
+    },
+    {
+     "symbol": "O",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 57.2,
+     "close_date": "2026-10-29",
+     "rsi": 55.5,
+     "volume": 5930667
+    },
+    {
+     "symbol": "EXPE",
+     "setups": [
+      "bull_flag",
+      "reclaim_ma20"
+     ],
+     "price": 282.73,
+     "close_date": "2026-10-29",
+     "rsi": 50.8,
+     "volume": 1199624
+    },
+    {
+     "symbol": "EFX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 179.39,
+     "close_date": "2026-10-29",
+     "rsi": 64.1,
+     "volume": 1888176
+    },
+    {
+     "symbol": "FOXA",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 64.51,
+     "close_date": "2026-10-29",
+     "rsi": 50.3,
+     "volume": 5247904
+    },
+    {
+     "symbol": "NI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 44.75,
+     "close_date": "2026-10-29",
+     "rsi": 73.8,
+     "volume": 7558701
+    },
+    {
+     "symbol": "COR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 330.53,
+     "close_date": "2026-10-29",
+     "rsi": 53.8,
+     "volume": 1015487
+    },
+    {
+     "symbol": "XYZ",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 76.95,
+     "close_date": "2026-10-29",
+     "rsi": 50.1,
+     "volume": 4330521
+    },
+    {
+     "symbol": "KMB",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 110.02,
+     "close_date": "2026-10-29",
+     "rsi": 64.6,
+     "volume": 2986749
+    },
+    {
+     "symbol": "DOV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 210.37,
+     "close_date": "2026-10-29",
+     "rsi": 74.4,
+     "volume": 1556655
+    },
+    {
+     "symbol": "TXRH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 182.96,
+     "close_date": "2026-10-29",
+     "rsi": 65.8,
+     "volume": 1785085
+    },
+    {
+     "symbol": "CLX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 88.67,
+     "close_date": "2026-10-29",
+     "rsi": 56.2,
+     "volume": 3666453
+    },
+    {
+     "symbol": "TPR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 117.84,
+     "close_date": "2026-10-29",
+     "rsi": 53.3,
+     "volume": 2747626
+    },
+    {
+     "symbol": "BWA",
+     "setups": [
+      "oversold"
+     ],
+     "price": 53.3,
+     "close_date": "2026-10-29",
+     "rsi": 28.1,
+     "volume": 5972547
+    },
+    {
+     "symbol": "TSCO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 33.65,
+     "close_date": "2026-10-29",
+     "rsi": 54.4,
+     "volume": 9422394
+    },
+    {
+     "symbol": "KR",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 65.93,
+     "close_date": "2026-10-29",
+     "rsi": 61.8,
+     "volume": 4803474
+    },
+    {
+     "symbol": "GEN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 28.2,
+     "close_date": "2026-10-29",
+     "rsi": 68.3,
+     "volume": 11215191
+    },
+    {
+     "symbol": "ALL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 255.92,
+     "close_date": "2026-10-29",
+     "rsi": 62.1,
+     "volume": 1216153
+    },
+    {
+     "symbol": "HIG",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 132.06,
+     "close_date": "2026-10-29",
+     "rsi": 48.4,
+     "volume": 2339326
+    },
+    {
+     "symbol": "ALGN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 153.71,
+     "close_date": "2026-10-29",
+     "rsi": 57.8,
+     "volume": 2007447
+    },
+    {
+     "symbol": "AKAM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 99.38,
+     "close_date": "2026-10-29",
+     "rsi": 49.7,
+     "volume": 3102184
+    },
+    {
+     "symbol": "ARES",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 127.47,
+     "close_date": "2026-10-29",
+     "rsi": 63.1,
+     "volume": 2391706
+    },
+    {
+     "symbol": "VIK",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 89.53,
+     "close_date": "2026-10-29",
+     "rsi": 63.6,
+     "volume": 3395592
+    },
+    {
+     "symbol": "RF",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 28.88,
+     "close_date": "2026-10-29",
+     "rsi": 62.3,
+     "volume": 10485278
+    },
+    {
+     "symbol": "EL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 108.81,
+     "close_date": "2026-10-29",
+     "rsi": 65.5,
+     "volume": 2779096
+    },
+    {
+     "symbol": "PEG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 73.63,
+     "close_date": "2026-10-29",
+     "rsi": 62.4,
+     "volume": 4080618
+    },
+    {
+     "symbol": "VICI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 24.52,
+     "close_date": "2026-10-29",
+     "rsi": 60.4,
+     "volume": 12229798
+    },
+    {
+     "symbol": "ITW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 281.4,
+     "close_date": "2026-10-29",
+     "rsi": 64.2,
+     "volume": 1063194
+    },
+    {
+     "symbol": "FLS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 80.35,
+     "close_date": "2026-10-29",
+     "rsi": 68.2,
+     "volume": 3722022
+    },
+    {
+     "symbol": "PPL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 35.63,
+     "close_date": "2026-10-29",
+     "rsi": 64.5,
+     "volume": 8392047
+    },
+    {
+     "symbol": "BBY",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 100.39,
+     "close_date": "2026-10-29",
+     "rsi": 65.6,
+     "volume": 2958055
+    },
+    {
+     "symbol": "RJF",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 161.29,
+     "close_date": "2026-10-29",
+     "rsi": 53.8,
+     "volume": 1840695
+    },
+    {
+     "symbol": "WCN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 181.97,
+     "close_date": "2026-10-29",
+     "rsi": 69.1,
+     "volume": 1622707
+    },
+    {
+     "symbol": "PNR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 65.84,
+     "close_date": "2026-10-29",
+     "rsi": 82.2,
+     "volume": 4411248
+    },
+    {
+     "symbol": "CPRT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 29.55,
+     "close_date": "2026-10-29",
+     "rsi": 59.8,
+     "volume": 9791557
+    },
+    {
+     "symbol": "BIIB",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 249.65,
+     "close_date": "2026-10-29",
+     "rsi": 64.0,
+     "volume": 1157727
+    },
+    {
+     "symbol": "EHC",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 131.49,
+     "close_date": "2026-10-29",
+     "rsi": 64.5,
+     "volume": 2197528
+    },
+    {
+     "symbol": "KEY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 21.49,
+     "close_date": "2026-10-29",
+     "rsi": 65.0,
+     "volume": 13378638
+    },
+    {
+     "symbol": "BN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 39.5,
+     "close_date": "2026-10-29",
+     "rsi": 66.5,
+     "volume": 7073465
+    },
+    {
+     "symbol": "IP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 36.03,
+     "close_date": "2026-10-29",
+     "rsi": 65.6,
+     "volume": 7751104
+    },
+    {
+     "symbol": "ALLE",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 187.06,
+     "close_date": "2026-10-29",
+     "rsi": 83.1,
+     "volume": 1487756
+    },
+    {
+     "symbol": "KHC",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 23.9,
+     "close_date": "2026-10-29",
+     "rsi": 51.6,
+     "volume": 11609844
+    },
+    {
+     "symbol": "TPG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 47.94,
+     "close_date": "2026-10-29",
+     "rsi": 62.1,
+     "volume": 5749977
+    },
+    {
+     "symbol": "EMR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 170.74,
+     "close_date": "2026-10-29",
+     "rsi": 70.4,
+     "volume": 1609256
+    },
+    {
+     "symbol": "IFF",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 90.81,
+     "close_date": "2026-10-29",
+     "rsi": 59.0,
+     "volume": 2995139
+    },
+    {
+     "symbol": "ETR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 109.97,
+     "close_date": "2026-10-29",
+     "rsi": 68.4,
+     "volume": 2452808
+    },
+    {
+     "symbol": "EPD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 39.05,
+     "close_date": "2026-10-29",
+     "rsi": 68.0,
+     "volume": 6860146
+    },
+    {
+     "symbol": "CHD",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 106.0,
+     "close_date": "2026-10-29",
+     "rsi": 64.6,
+     "volume": 2506426
+    },
+    {
+     "symbol": "VRSK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 190.71,
+     "close_date": "2026-10-29",
+     "rsi": 56.6,
+     "volume": 1370208
+    },
+    {
+     "symbol": "PPG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 120.0,
+     "close_date": "2026-10-29",
+     "rsi": 74.3,
+     "volume": 2161955
+    },
+    {
+     "symbol": "BURL",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 242.36,
+     "close_date": "2026-10-29",
+     "rsi": 37.7,
+     "volume": 1058578
+    },
+    {
+     "symbol": "DG",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 130.09,
+     "close_date": "2026-10-29",
+     "rsi": 52.8,
+     "volume": 1954822
+    },
+    {
+     "symbol": "HAL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 35.9,
+     "close_date": "2026-10-29",
+     "rsi": 66.8,
+     "volume": 7067664
+    },
+    {
+     "symbol": "RVTY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 165.78,
+     "close_date": "2026-10-29",
+     "rsi": 73.1,
+     "volume": 1528722
+    },
+    {
+     "symbol": "GSK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 48.68,
+     "close_date": "2026-10-29",
+     "rsi": 46.4,
+     "volume": 5200174
+    },
+    {
+     "symbol": "LVS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 37.04,
+     "close_date": "2026-10-29",
+     "rsi": 43.8,
+     "volume": 6758208
+    },
+    {
+     "symbol": "ES",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 67.9,
+     "close_date": "2026-10-29",
+     "rsi": 56.3,
+     "volume": 3679998
+    },
+    {
+     "symbol": "JHX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 26.94,
+     "close_date": "2026-10-29",
+     "rsi": 57.0,
+     "volume": 9237815
+    },
+    {
+     "symbol": "HAS",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 119.57,
+     "close_date": "2026-10-29",
+     "rsi": 88.6,
+     "volume": 2077182
+    },
+    {
+     "symbol": "YUM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 154.55,
+     "close_date": "2026-10-29",
+     "rsi": 65.2,
+     "volume": 1606635
+    },
+    {
+     "symbol": "PHM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 124.36,
+     "close_date": "2026-10-29",
+     "rsi": 62.2,
+     "volume": 1996536
+    },
+    {
+     "symbol": "FTV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 65.84,
+     "close_date": "2026-10-29",
+     "rsi": 82.1,
+     "volume": 3765355
+    },
+    {
+     "symbol": "DOW",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 33.62,
+     "close_date": "2026-10-29",
+     "rsi": 71.7,
+     "volume": 7359107
+    },
+    {
+     "symbol": "HALO",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 131.18,
+     "close_date": "2026-10-29",
+     "rsi": 79.9,
+     "volume": 1874508
+    },
+    {
+     "symbol": "DLTR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 132.03,
+     "close_date": "2026-10-29",
+     "rsi": 65.5,
+     "volume": 1845950
+    },
+    {
+     "symbol": "BTI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 61.07,
+     "close_date": "2026-10-29",
+     "rsi": 67.1,
+     "volume": 3940611
+    },
+    {
+     "symbol": "TROW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 106.63,
+     "close_date": "2026-10-29",
+     "rsi": 59.1,
+     "volume": 2233608
+    },
+    {
+     "symbol": "FE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 46.83,
+     "close_date": "2026-10-29",
+     "rsi": 63.9,
+     "volume": 5073674
+    },
+    {
+     "symbol": "CNQ",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 55.09,
+     "close_date": "2026-10-29",
+     "rsi": 69.4,
+     "volume": 4312307
+    },
+    {
+     "symbol": "MAS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 80.18,
+     "close_date": "2026-10-29",
+     "rsi": 72.9,
+     "volume": 2960111
+    },
+    {
+     "symbol": "SW",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 42.53,
+     "close_date": "2026-10-29",
+     "rsi": 50.2,
+     "volume": 5530715
+    },
+    {
+     "symbol": "SPG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 215.72,
+     "close_date": "2026-10-29",
+     "rsi": 65.8,
+     "volume": 1084717
+    },
+    {
+     "symbol": "SYF",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 76.97,
+     "close_date": "2026-10-29",
+     "rsi": 61.5,
+     "volume": 3008597
+    },
+    {
+     "symbol": "ZTS",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 78.8,
+     "close_date": "2026-10-29",
+     "rsi": 57.7,
+     "volume": 2934749
+    },
+    {
+     "symbol": "FITB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 54.44,
+     "close_date": "2026-10-29",
+     "rsi": 66.6,
+     "volume": 4243238
+    },
+    {
+     "symbol": "OMC",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 80.97,
+     "close_date": "2026-10-29",
+     "rsi": 55.9,
+     "volume": 2807807
+    },
+    {
+     "symbol": "VMRK",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 61.75,
+     "close_date": "2026-10-29",
+     "rsi": 48.3,
+     "volume": 3668412
+    },
+    {
+     "symbol": "DOCU",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 81.54,
+     "close_date": "2026-10-29",
+     "rsi": 62.8,
+     "volume": 2770698
+    },
+    {
+     "symbol": "TW",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 118.88,
+     "close_date": "2026-10-29",
+     "rsi": 65.8,
+     "volume": 1888092
+    },
+    {
+     "symbol": "AER",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 159.71,
+     "close_date": "2026-10-29",
+     "rsi": 74.0,
+     "volume": 1405120
+    },
+    {
+     "symbol": "EVRG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.41,
+     "close_date": "2026-10-29",
+     "rsi": 64.7,
+     "volume": 2568405
+    },
+    {
+     "symbol": "FWONK",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 92.61,
+     "close_date": "2026-10-29",
+     "rsi": 50.5,
+     "volume": 2342423
+    },
+    {
+     "symbol": "CFG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 65.76,
+     "close_date": "2026-10-29",
+     "rsi": 54.9,
+     "volume": 3288574
+    },
+    {
+     "symbol": "LNT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 70.68,
+     "close_date": "2026-10-29",
+     "rsi": 65.6,
+     "volume": 3053547
+    },
+    {
+     "symbol": "TEVA",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 41.47,
+     "close_date": "2026-10-29",
+     "rsi": 60.6,
+     "volume": 5180587
+    },
+    {
+     "symbol": "APG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 45.02,
+     "close_date": "2026-10-29",
+     "rsi": 75.7,
+     "volume": 4739809
+    },
+    {
+     "symbol": "SRE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.89,
+     "close_date": "2026-10-29",
+     "rsi": 65.1,
+     "volume": 2475261
+    },
+    {
+     "symbol": "TECH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 72.71,
+     "close_date": "2026-10-29",
+     "rsi": 59.0,
+     "volume": 2888022
+    },
+    {
+     "symbol": "CCEP",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 110.94,
+     "close_date": "2026-10-29",
+     "rsi": 57.2,
+     "volume": 1890511
+    },
+    {
+     "symbol": "PNW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 106.64,
+     "close_date": "2026-10-29",
+     "rsi": 67.7,
+     "volume": 1942812
+    },
+    {
+     "symbol": "LUV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 43.68,
+     "close_date": "2026-10-29",
+     "rsi": 62.1,
+     "volume": 4704939
+    },
+    {
+     "symbol": "AHR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 52.94,
+     "close_date": "2026-10-29",
+     "rsi": 52.0,
+     "volume": 3846934
+    },
+    {
+     "symbol": "BG",
+     "setups": [
+      "oversold"
+     ],
+     "price": 96.02,
+     "close_date": "2026-10-29",
+     "rsi": 27.3,
+     "volume": 2113174
+    },
+    {
+     "symbol": "ACGL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 103.94,
+     "close_date": "2026-10-29",
+     "rsi": 65.2,
+     "volume": 1932422
+    },
+    {
+     "symbol": "ZBH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 97.47,
+     "close_date": "2026-10-29",
+     "rsi": 59.1,
+     "volume": 2038391
+    },
+    {
+     "symbol": "PODD",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 152.5,
+     "close_date": "2026-10-29",
+     "rsi": 68.4,
+     "volume": 1296749
+    },
+    {
+     "symbol": "CHTR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 109.0,
+     "close_date": "2026-10-29",
+     "rsi": 45.8,
+     "volume": 1807546
+    },
+    {
+     "symbol": "LEN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.46,
+     "close_date": "2026-10-29",
+     "rsi": 60.6,
+     "volume": 2284198
+    },
+    {
+     "symbol": "ET",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 20.88,
+     "close_date": "2026-10-29",
+     "rsi": 57.0,
+     "volume": 9304954
+    },
+    {
+     "symbol": "AMCR",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 47.13,
+     "close_date": "2026-10-29",
+     "rsi": 72.7,
+     "volume": 4111786
+    },
+    {
+     "symbol": "EXR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 149.9,
+     "close_date": "2026-10-29",
+     "rsi": 74.9,
+     "volume": 1292722
+    },
+    {
+     "symbol": "LTH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 45.35,
+     "close_date": "2026-10-29",
+     "rsi": 70.1,
+     "volume": 4262532
+    },
+    {
+     "symbol": "BRO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 67.84,
+     "close_date": "2026-10-29",
+     "rsi": 51.6,
+     "volume": 2849225
+    },
+    {
+     "symbol": "EXEL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 66.2,
+     "close_date": "2026-10-29",
+     "rsi": 74.2,
+     "volume": 2836974
+    },
+    {
+     "symbol": "AFL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 123.54,
+     "close_date": "2026-10-29",
+     "rsi": 66.3,
+     "volume": 1518631
+    },
+    {
+     "symbol": "FER",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 56.92,
+     "close_date": "2026-10-29",
+     "rsi": 69.2,
+     "volume": 3257565
+    },
+    {
+     "symbol": "ALLY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 39.64,
+     "close_date": "2026-10-29",
+     "rsi": 58.4,
+     "volume": 4663384
+    },
+    {
+     "symbol": "AFRM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 74.84,
+     "close_date": "2026-10-29",
+     "rsi": 53.5,
+     "volume": 2458787
+    },
+    {
+     "symbol": "SNY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 43.13,
+     "close_date": "2026-10-29",
+     "rsi": 63.0,
+     "volume": 4264887
+    },
+    {
+     "symbol": "SWK",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 103.61,
+     "close_date": "2026-10-29",
+     "rsi": 76.2,
+     "volume": 1767297
+    },
+    {
+     "symbol": "QGEN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 50.34,
+     "close_date": "2026-10-29",
+     "rsi": 73.2,
+     "volume": 3549414
+    },
+    {
+     "symbol": "NTRS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 172.92,
+     "close_date": "2026-10-29",
+     "rsi": 56.1,
+     "volume": 1006595
+    },
+    {
+     "symbol": "HSBC",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 86.6,
+     "close_date": "2026-10-29",
+     "rsi": 26.5,
+     "volume": 1968769
+    },
+    {
+     "symbol": "FHN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 23.66,
+     "close_date": "2026-10-29",
+     "rsi": 55.7,
+     "volume": 7191835
+    },
+    {
+     "symbol": "KIM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 24.42,
+     "close_date": "2026-10-29",
+     "rsi": 70.1,
+     "volume": 6958287
+    },
+    {
+     "symbol": "SGI",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 64.44,
+     "close_date": "2026-10-29",
+     "rsi": 52.7,
+     "volume": 2601652
+    },
+    {
+     "symbol": "RPRX",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 65.93,
+     "close_date": "2026-10-29",
+     "rsi": 73.7,
+     "volume": 2450398
+    },
+    {
+     "symbol": "WRB",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 73.1,
+     "close_date": "2026-10-29",
+     "rsi": 54.0,
+     "volume": 2190356
+    },
+    {
+     "symbol": "GGG",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 68.75,
+     "close_date": "2026-10-29",
+     "rsi": 33.0,
+     "volume": 2321660
+    },
+    {
+     "symbol": "HST",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 25.7,
+     "close_date": "2026-10-29",
+     "rsi": 77.6,
+     "volume": 6137016
+    },
+    {
+     "symbol": "J",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 152.76,
+     "close_date": "2026-10-29",
+     "rsi": 70.4,
+     "volume": 1024202
+    },
+    {
+     "symbol": "PFG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 113.65,
+     "close_date": "2026-10-29",
+     "rsi": 59.6,
+     "volume": 1348948
+    },
+    {
+     "symbol": "JEF",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 49.15,
+     "close_date": "2026-10-29",
+     "rsi": 63.1,
+     "volume": 3066199
+    },
+    {
+     "symbol": "ROIV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 37.52,
+     "close_date": "2026-10-29",
+     "rsi": 58.1,
+     "volume": 3728780
+    },
+    {
+     "symbol": "WPC",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 64.89,
+     "close_date": "2026-10-29",
+     "rsi": 50.3,
+     "volume": 2128879
+    },
+    {
+     "symbol": "FNF",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 40.28,
+     "close_date": "2026-10-29",
+     "rsi": 46.8,
+     "volume": 3417633
+    },
+    {
+     "symbol": "EWBC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 132.95,
+     "close_date": "2026-10-29",
+     "rsi": 64.4,
+     "volume": 1034707
+    },
+    {
+     "symbol": "CAI",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 36.14,
+     "close_date": "2026-10-29",
+     "rsi": 72.9,
+     "volume": 3784313
+    },
+    {
+     "symbol": "DTE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 134.52,
+     "close_date": "2026-10-29",
+     "rsi": 64.3,
+     "volume": 1003704
+    },
+    {
+     "symbol": "EIX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 59.38,
+     "close_date": "2026-10-29",
+     "rsi": 63.4,
+     "volume": 2258622
+    },
+    {
+     "symbol": "AS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 29.24,
+     "close_date": "2026-10-29",
+     "rsi": 53.7,
+     "volume": 4508025
+    },
+    {
+     "symbol": "ENB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 49.27,
+     "close_date": "2026-10-29",
+     "rsi": 62.6,
+     "volume": 2675282
+    },
+    {
+     "symbol": "RBA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 88.3,
+     "close_date": "2026-10-29",
+     "rsi": 59.9,
+     "volume": 1482518
+    },
+    {
+     "symbol": "AM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 21.52,
+     "close_date": "2026-10-29",
+     "rsi": 57.3,
+     "volume": 6032382
+    },
+    {
+     "symbol": "BXP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 63.02,
+     "close_date": "2026-10-29",
+     "rsi": 56.6,
+     "volume": 2036468
+    },
+    {
+     "symbol": "EMBJ",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 75.91,
+     "close_date": "2026-10-29",
+     "rsi": 59.5,
+     "volume": 1589241
+    },
+    {
+     "symbol": "AEE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 110.21,
+     "close_date": "2026-10-29",
+     "rsi": 68.4,
+     "volume": 1081958
+    },
+    {
+     "symbol": "OGE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 49.37,
+     "close_date": "2026-10-29",
+     "rsi": 68.8,
+     "volume": 2310342
+    },
+    {
+     "symbol": "PNFP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 101.71,
+     "close_date": "2026-10-29",
+     "rsi": 65.8,
+     "volume": 1109149
+    },
+    {
+     "symbol": "SSNC",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 80.6,
+     "close_date": "2026-10-29",
+     "rsi": 45.8,
+     "volume": 1372281
+    },
+    {
+     "symbol": "CG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 40.57,
+     "close_date": "2026-10-29",
+     "rsi": 57.9,
+     "volume": 2720088
+    },
+    {
+     "symbol": "COO",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 60.34,
+     "close_date": "2026-10-29",
+     "rsi": 56.3,
+     "volume": 1758460
+    },
+    {
+     "symbol": "UBS",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 48.13,
+     "close_date": "2026-10-29",
+     "rsi": 49.8,
+     "volume": 2165631
+    },
+    {
+     "symbol": "BAM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 48.6,
+     "close_date": "2026-10-29",
+     "rsi": 64.1,
+     "volume": 2098269
+    },
+    {
+     "symbol": "TRP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 64.33,
+     "close_date": "2026-10-29",
+     "rsi": 65.3,
+     "volume": 1576913
+    },
+    {
+     "symbol": "TRMB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 65.34,
+     "close_date": "2026-10-29",
+     "rsi": 69.6,
+     "volume": 1541297
+    },
+    {
+     "symbol": "TTE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 94.03,
+     "close_date": "2026-10-29",
+     "rsi": 64.6,
+     "volume": 1041820
+    },
+    {
+     "symbol": "BALL",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 64.5,
+     "close_date": "2026-10-29",
+     "rsi": 64.0,
+     "volume": 1501023
+    },
+    {
+     "symbol": "DRS",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 39.64,
+     "close_date": "2026-10-29",
+     "rsi": 69.0,
+     "volume": 2301776
+    },
+    {
+     "symbol": "ALC",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 71.13,
+     "close_date": "2026-10-29",
+     "rsi": 66.9,
+     "volume": 1255356
+    },
+    {
+     "symbol": "WTRG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 42.78,
+     "close_date": "2026-10-29",
+     "rsi": 64.7,
+     "volume": 2050496
+    },
+    {
+     "symbol": "RYAN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 43.28,
+     "close_date": "2026-10-29",
+     "rsi": 60.2,
+     "volume": 1990006
+    },
+    {
+     "symbol": "GLPI",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 39.49,
+     "close_date": "2026-10-29",
+     "rsi": 52.3,
+     "volume": 2134456
+    },
+    {
+     "symbol": "ELAN",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 23.24,
+     "close_date": "2026-10-29",
+     "rsi": 54.2,
+     "volume": 3486080
+    },
+    {
+     "symbol": "REG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 74.98,
+     "close_date": "2026-10-29",
+     "rsi": 58.8,
+     "volume": 1066077
+    },
+    {
+     "symbol": "PAA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 26.92,
+     "close_date": "2026-10-29",
+     "rsi": 72.7,
+     "volume": 2910100
+    },
+    {
+     "symbol": "TS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 61.31,
+     "close_date": "2026-10-29",
+     "rsi": 64.0,
+     "volume": 1224115
+    },
+    {
+     "symbol": "BSY",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 39.66,
+     "close_date": "2026-10-29",
+     "rsi": 70.7,
+     "volume": 1855326
+    },
+    {
+     "symbol": "RELX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 39.14,
+     "close_date": "2026-10-29",
+     "rsi": 63.1,
+     "volume": 1811960
+    },
+    {
+     "symbol": "MPLX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 59.89,
+     "close_date": "2026-10-29",
+     "rsi": 62.3,
+     "volume": 1070698
+    },
+    {
+     "symbol": "WES",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 45.82,
+     "close_date": "2026-10-29",
+     "rsi": 54.0,
+     "volume": 1326597
+    },
+    {
+     "symbol": "SNN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 30.41,
+     "close_date": "2026-10-29",
+     "rsi": 67.1,
+     "volume": 1565580
+    },
+    {
+     "symbol": "AMX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 24.13,
+     "close_date": "2026-10-29",
+     "rsi": 61.3,
+     "volume": 1646059
+    },
+    {
+     "symbol": "RCI",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 31.47,
+     "close_date": "2026-10-29",
+     "rsi": 44.9,
+     "volume": 1261363
+    },
+    {
+     "symbol": "FMS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 23.13,
+     "close_date": "2026-10-29",
+     "rsi": 60.3,
+     "volume": 1347609
+    },
+    {
+     "symbol": "RTO",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 23.26,
+     "close_date": "2026-10-29",
+     "rsi": 70.9,
+     "volume": 1291646
+    }
+   ],
+   "counts": {
+    "requested": 676,
+    "fetched": 676,
+    "illiquid": 28,
+    "short": 1,
+    "scanned": 647,
+    "hits": 306
+   },
+   "seconds": 13.7
+  }
+ },
+ "news_tickers": [
+  "AMZN",
+  "INTC",
+  "AAPL",
+  "MSFT",
+  "GOOGL",
+  "GOOG",
+  "NOW",
+  "LLY",
+  "CAT",
+  "V",
+  "BA",
+  "MA",
+  "FTNT",
+  "RTX",
+  "ALNY",
+  "JPM",
+  "MRK",
+  "WMT",
+  "GE",
+  "TXN",
+  "BAC",
+  "JNJ",
+  "NXPI",
+  "CVNA",
+  "UNH",
+  "QCOM",
+  "LNG",
+  "GILD"
+ ],
+ "news": {
+  "cmd": "trader-news/news.py --tickers AMZN INTC AAPL MSFT GOOGL GOOG NOW LLY CAT V BA MA FTNT RTX ALNY JPM MRK WMT GE TXN BAC JNJ NXPI CVNA UNH QCOM LNG GILD --hours 18 --dry-run --json",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "checked": "2026-10-30T12:43:30.618123+00:00",
+   "moves": [
+    {
+     "ticker": "AAPL",
+     "price": 348.91,
+     "prev_close": 343.83,
+     "pct": 1.48,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "ALNY",
+     "price": 174.0,
+     "prev_close": 232.4,
+     "pct": -25.13,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "AMZN",
+     "price": 243.79,
+     "prev_close": 254.6,
+     "pct": -4.25,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "BA",
+     "price": 172.65,
+     "prev_close": 167.14,
+     "pct": 3.3,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "BAC",
+     "price": 51.14,
+     "prev_close": 50.85,
+     "pct": 0.57,
+     "time": "2026-10-29T20:00:41+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "CAT",
+     "price": 647.39,
+     "prev_close": 713.38,
+     "pct": -9.25,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "CVNA",
+     "price": 68.31,
+     "prev_close": 59.05,
+     "pct": 15.68,
+     "time": "2026-10-29T20:03:52+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "FTNT",
+     "price": 139.1,
+     "prev_close": 174.08,
+     "pct": -20.09,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GE",
+     "price": 313.05,
+     "prev_close": 301.13,
+     "pct": 3.96,
+     "time": "2026-10-29T20:00:03+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GILD",
+     "price": 165.61,
+     "prev_close": 159.2,
+     "pct": 4.03,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GOOG",
+     "price": 282.32,
+     "prev_close": 321.89,
+     "pct": -12.29,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "GOOGL",
+     "price": 283.82,
+     "prev_close": 324.89,
+     "pct": -12.64,
+     "time": "2026-10-29T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "INTC",
+     "price": 92.07,
+     "prev_close": 95.53,
+     "pct": -3.62,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "JNJ",
+     "price": 275.2,
+     "prev_close": 271.04,
+     "pct": 1.53,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "JPM",
+     "price": 343.58,
+     "prev_close": 339.3,
+     "pct": 1.26,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "LLY",
+     "price": 1373.7,
+     "prev_close": 1288.3,
+     "pct": 6.63,
+     "time": "2026-10-29T20:03:18+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "LNG",
+     "price": 318.94,
+     "prev_close": 297.77,
+     "pct": 7.11,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "MA",
+     "price": 635.7,
+     "prev_close": 610.31,
+     "pct": 4.16,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "MRK",
+     "price": 146.33,
+     "prev_close": 140.93,
+     "pct": 3.83,
+     "time": "2026-10-29T20:02:37+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "MSFT",
+     "price": 530.14,
+     "prev_close": 531.01,
+     "pct": -0.16,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "NOW",
+     "price": 109.67,
+     "prev_close": 150.13,
+     "pct": -26.95,
+     "time": "2026-10-29T20:01:07+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "NXPI",
+     "price": 266.0,
+     "prev_close": 251.69,
+     "pct": 5.69,
+     "time": "2026-10-29T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "QCOM",
+     "price": 185.41,
+     "prev_close": 182.97,
+     "pct": 1.33,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "RTX",
+     "price": 199.4,
+     "prev_close": 195.84,
+     "pct": 1.82,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "TXN",
+     "price": 312.94,
+     "prev_close": 309.83,
+     "pct": 1.0,
+     "time": "2026-10-29T20:00:00+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "UNH",
+     "price": 410.91,
+     "prev_close": 407.1,
+     "pct": 0.94,
+     "time": "2026-10-29T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "V",
+     "price": 410.54,
+     "prev_close": 400.6,
+     "pct": 2.48,
+     "time": "2026-10-29T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "WMT",
+     "price": 121.25,
+     "prev_close": 118.77,
+     "pct": 2.09,
+     "time": "2026-10-29T20:00:01+00:00",
+     "moving": false
+    }
+   ],
+   "items": [
+    {
+     "id": "rss:1b3b0d91-73e6-3658-9d13-84dcefbbd6e3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "AMZN Analysts Split After Earnings: TD Cowen Says Amazon Selloff Is \u2018Overdone,\u2019 Mizuho Raises Target",
+     "summary": "TD Cowen maintained its \u2018Buy\u2019 rating despite trimming its price target, while Mizuho flagged softer AWS performance, higher investment and negative free cash flow, even as it remained positive on the cloud unit's two-year outlook.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1?.tsrc=rss",
+     "time": "2026-10-30T12:30:55+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [
+      "earnings",
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c32cf756-3f2b-32ad-800b-5c17afc7b923",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Why Goldman Sachs Still Calls Alphabet a Top AI Pick Despite the Earnings Miss",
+     "summary": "Alphabet (NASDAQ: GOOGL) just ended a run of 12 straight quarterly earnings beats, and investors sold hard. Shares traded at $285.31 this morning, down 12.18% in the session. Business Insider reported that the drop erased a huge amount of market value. The miss looks worse than the business, though, and Goldman Sachs (NYSE: GS) still [\u2026]",
+     "link": "https://247wallst.com/investing/2026/10/30/why-goldman-sachs-still-calls-alphabet-a-top-ai-pick-despite-the-earnings-miss/?.tsrc=rss",
+     "time": "2026-10-30T12:29:29+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2e8ea9cb-64c5-3972-b85a-2c601bbf6c34",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "5 insightful analyst questions from Visa\u2019s Q3 earnings call",
+     "summary": "Visa\u2019s third quarter results reflected solid execution across its core payments network, with management attributing growth to continued expansion in digital credentials, rising cross-border volumes, and the outperformance of value-added services. CEO Ryan McInerney highlighted strong adoption of tokenization and a surge in commercial and e-commerce transaction volumes, noting that over 60% of e-commerce transactions are now tokenized. Chief Financial Officer Chris Suh pointed to resilient U.S.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-visa-122729940.html?.tsrc=rss",
+     "time": "2026-10-30T12:27:29+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [
+      "earnings",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1d891b2c-5ffc-46ed-8560-10b4c4725ab0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Intel plunges as much as 26%, briefly on pace for its worst day since 1974",
+     "summary": "A weak outlook has Intel on pace for one of its worst days in half a century.",
+     "link": "https://finance.yahoo.com/markets/article/intel-plunges-as-much-as-26-briefly-on-pace-for-its-worst-day-since-1974-122551272.html?.tsrc=rss",
+     "time": "2026-10-30T12:25:51+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:77bca6f3-9e57-31bc-afd4-e9f4d3a1feaa",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Buy, Sell, or Hold? Today\u2019s Top Upgrades and Downgrades: Boston Scientific, DoorDash, GE Vernova, Honeywell Aerospace, Incyte. Intel, Reddit, Rivian Automotive, and More",
+     "summary": "Tech giants are rattling pre-market futures on Halloween Eve, and Wall Street analysts are scrambling to reprice everything from chipmakers to delivery apps. Find out which stocks just got upgraded despite the chaos and which ones analysts quietly cut loose.",
+     "link": "https://247wallst.com/investing/2026/10/30/buy-sell-or-hold-todays-top-upgrades-and-downgrades-boston-scientific-doordash-ge-vernova-honeywell-aerospace-incyte-intel-reddit-rivian-automotive-and-more/?.tsrc=rss",
+     "time": "2026-10-30T12:14:41+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "INTC",
+      "MSFT"
+     ],
+     "tags": [
+      "analyst",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:df5f9473-ca93-35f0-bf3f-fe200cdbf637",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MRK",
+     "title": "Merck & Co., Inc. Q3 Earnings Call Highlights",
+     "summary": "Merck & Co., Inc. (NYSE:MRK) reported third-quarter 2026 revenue of $18.1 billion, up 5% from a year earlier, as growth in oncology, vaccines, cardiometabolic products and animal health helped offset product-specific and market headwinds. Non-GAAP earnings per share were $2.49 for the quarter,",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-merck-co-inc-q3-earnings-call-highlights-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T12:14:32+00:00",
+     "touches": [
+      "MRK"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b44600aa-cfd7-30f6-a269-34f1e29fb5a6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Microsoft Is Borrowing $25 Billion for AI, Its First Bond Sale Since 2017",
+     "summary": "Microsoft holds more cash than most countries, yet it just lined up to borrow from bond markets for the first time in nearly a decade. The reason reveals something uncomfortable about what AI is actually costing the world's most creditworthy company.",
+     "link": "https://247wallst.com/investing/2026/10/30/microsoft-is-borrowing-25-billion-for-ai-its-first-bond-sale-since-2017/?.tsrc=rss",
+     "time": "2026-10-30T12:12:25+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e8b41fd7-1f04-340c-83b7-7f99e7032bbe",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "US Stock Market Today: S&P 500 Futures Drop On Energy Inflation And Wage Risks",
+     "summary": "The Morning Bull - US Market Morning Update Friday, Oct, 30 2026 US stocks head into Friday under pressure, with S&P 500 and Nasdaq futures pointing lower as investors refocus on global inflation rather than growth worries. The dominant driver is a fresh wave of energy led price pressures out of Europe. Germany\u2019s import prices rose 10.4% YoY in September, mainly on electricity, oil products and natural gas. France\u2019s October inflation hit 3.4%, above the previous 3.1%. Together, these data...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-121018878.html?.tsrc=rss",
+     "time": "2026-10-30T12:10:18+00:00",
+     "touches": [
+      "CVNA",
+      "FTNT",
+      "NOW"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:cabc11a9-71d7-3deb-9797-70d0eaaeefed",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Amazon, Intel Earnings Drag Down US Equity Futures Pre-Bell",
+     "summary": "US equity futures were mostly lower pre-bell Friday as traders assessed lower-than-expected financia",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-intel-earnings-drag-down-120829941.html?.tsrc=rss",
+     "time": "2026-10-30T12:08:29+00:00",
+     "touches": [
+      "AMZN",
+      "INTC"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3cdf61c3-8737-3183-b5ff-f3bf8fc03ece",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Stock Market Today: Nasdaq Futures Dive As Amazon, Intel Plunge On Earnings (Live Coverage)",
+     "summary": "Tech futures dive Friday as Amazon stock and Intel both plunge on disappointing earnings reports.",
+     "link": "https://finance.yahoo.com/m/3cdf61c3-8737-3183-b5ff-f3bf8fc03ece/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+     "time": "2026-10-30T12:06:40+00:00",
+     "touches": [
+      "AMZN",
+      "INTC"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2c43adc7-b2d3-3f68-8ac8-479817f0f50f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "AbbVie Is Up 10% in a Month to a 52-Week High: Is There \u201cMore Room for Multiple Expansion\u201d?",
+     "summary": "Key TakeawaysAbbVie stock is up in the past month to a new 52-week high, mostly because investors moved out of AI stocks and into big drugmakers led by Eli Lilly. AbbVie\u2019s own news was steady, but a higher valuation did most of the work, and its forward P/E is now well above its five-year average.",
+     "link": "https://www.tikr.com/blog/abbvie-is-up-10-in-a-month-to-a-52-week-high-is-there-more-room-for-multiple-expansion?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T12:06:35+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0a5ce393-a6df-312b-af64-1893a264d0df",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Dow Jones Futures: Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive",
+     "summary": "Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.",
+     "link": "https://finance.yahoo.com/m/0a5ce393-a6df-312b-af64-1893a264d0df/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
+     "time": "2026-10-30T12:05:46+00:00",
+     "touches": [
+      "AMZN",
+      "FTNT",
+      "GOOG",
+      "GOOGL",
+      "INTC",
+      "LLY",
+      "NOW"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c968e7f3-30a6-3470-a5ae-ca638f543121",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Jim Cramer Says Sell Fortinet and Buy Palo Alto and CrowdStrike Instead",
+     "summary": "Fortinet beat earnings and still watched its stock crater nearly 20% in a week, sending shockwaves through the entire cybersecurity sector. Now one high-profile voice says the panic created a rare opportunity in two of Fortinet's biggest rivals.",
+     "link": "https://247wallst.com/investing/2026/10/30/jim-cramer-says-sell-fortinet-and-buy-palo-alto-and-crowdstrike-instead/?.tsrc=rss",
+     "time": "2026-10-30T12:05:09+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:33ca6607-db74-30bd-b6f9-c892b146d180",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Global chip stocks slide after Intel\u2019s weak outlook",
+     "summary": "Investing.com -- Chip stocks fell across Asia, Europe and U.S. premarket trading on Friday after Intel\u2019s weak fourth-quarter forecast and Amazon\u2019s results renewed concerns about AI spending.",
+     "link": "https://finance.yahoo.com/technology/articles/global-chip-stocks-slide-intel-120459760.html?.tsrc=rss",
+     "time": "2026-10-30T12:04:59+00:00",
+     "touches": [
+      "AMZN",
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:303f7a6d-ccba-3d74-8645-88481b76befe",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Tech sell-off deepens as earnings fan AI fears",
+     "summary": "Technology firms retreated further Friday after more poorly-received earnings from US titans fanned deepening concerns about the AI investment boom.\"The end of the week is dominated by a continuation of the recent AI sell-off on disappointing earnings, and concerns about the safety of crypto,\" said Kathleen Brooks, research director at XTB trading group.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/tech-firms-fresh-hit-earnings-024928854.html?.tsrc=rss",
+     "time": "2026-10-30T12:03:27+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:493101dd-e1c0-3689-bf3d-0325d4a35e73",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "CFOs On the Move: Week ending Oct. 30",
+     "summary": "Goodyear hires a new finance chief, Norwegian Cruise Line names an insider as chief financial officer and Etsy starts its search for a new CFO.",
+     "link": "https://www.cfo.com/news/cfos-on-the-move-oct-30-Jerome-Rouquet-Goodyear-Meghan-Montana-Norwegian-Lanny-Baker-Etsy/873255/?.tsrc=rss",
+     "time": "2026-10-30T12:01:38+00:00",
+     "touches": [
+      "JNJ"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e813910a-0d75-3d4e-a023-820aa6bf6755",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "University Village Agrees To Be Acquired by Simon",
+     "summary": "Simon\u00ae, a real estate investment trust engaged in the ownership of premier shopping, dining, entertainment and mixed-use destinations, today announced that a Simon subsidiary has entered into an agreement to acquire University Village, an open-air retail center in Seattle, Washington.",
+     "link": "https://finance.yahoo.com/real-estate/articles/university-village-agrees-acquired-simon-120000205.html?.tsrc=rss",
+     "time": "2026-10-30T12:00:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c56b75ec-55fc-33ee-a237-46d91cab0d16",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "Arizona Athletics and Carvana Announce Landmark Jersey Patch Partnership",
+     "summary": "TUCSON, Ariz., October 30, 2026--Arizona Athletics and Carvana today announced a landmark partnership, which designates Carvana as the exclusive auto partner of Arizona Athletics, the official jersey patch partner for Wildcats men\u2019s and women\u2019s basketball, and an official University of Arizona partner.",
+     "link": "https://finance.yahoo.com/media-advertising/articles/arizona-athletics-carvana-announce-landmark-120000446.html?.tsrc=rss",
+     "time": "2026-10-30T12:00:00+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:59ec2813-e17d-3715-8669-21ee39e952e7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Harris Teeter Launches New Harris Teeter Rewards World Elite Mastercard\u00ae to Earn More Points and Save More Every Day",
+     "summary": "Harris Teeter announced the launch of the Harris Teeter Rewards World Elite Mastercard\u00ae, giving customers more ways to earn points on everyday purchases and redeem them for dollars off groceries and fuel discounts.",
+     "link": "https://finance.yahoo.com/small-business/articles/harris-teeter-launches-harris-teeter-120000543.html?.tsrc=rss",
+     "time": "2026-10-30T12:00:00+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:466dec47-6900-3d5a-a37e-d0285ee3f6cf",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Premarket movers: Intel, Amazon drop; Crypto stocks slide after Binance theft",
+     "summary": "Investing.com - U.S. stock index futures fell sharply on Friday, with Nasdaq 100 futures dropping more than 2% as concerns over the rising cost of artificial intelligence infrastructure weighed on technology shares.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-intel-amazon-drop-115802823.html?.tsrc=rss",
+     "time": "2026-10-30T11:58:02+00:00",
+     "touches": [
+      "AMZN",
+      "INTC"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f2715a2a-9755-3a65-8d45-4e977658cf08",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Earnings roundup: Lilly\u2019s unwavering momentum, Novartis\u2019 rebound and GSK\u2019s waiting game",
+     "summary": "Lilly\u2019s better-than-expected results allayed concerns\u00a0\u2014 for now\u00a0\u2014 over GLP-1 pricing pressure. Elsewhere, Novartis withstood a tumultuous quarter and GSK battled investor angst.",
+     "link": "https://www.biopharmadive.com/news/biopharma-earnings-q3-2026-lilly-novartis-gsk/873167/?.tsrc=rss",
+     "time": "2026-10-30T11:50:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:028b8187-0e64-3062-bbcc-7e3ab7230f35",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "AI Anxiety, French Tensions Pressure European Bourses Midday",
+     "summary": "European bourses tracked modestly lower midday Friday after US tech giants Amazon.com (AMZN) and Int",
+     "link": "https://finance.yahoo.com/markets/world-indices/articles/ai-anxiety-french-tensions-pressure-114858061.html?.tsrc=rss",
+     "time": "2026-10-30T11:48:58+00:00",
+     "touches": [
+      "AMZN",
+      "INTC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a510d248-c930-3b50-aa7b-617cf0c445d3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Nasdaq-100 On Track For First Monthly Loss Since July \u2014 Here's What's Weighing On Tech Stocks",
+     "summary": "Disappointing Big Tech earnings, rising AI financing costs and semiconductor weakness have weighed on the index despite continued optimism about AI demand.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-on-track-for-first-monthly-loss-since-july-here-s-what-s-weighing-on-tech-stocks/cZUhrdSR9TL?.tsrc=rss",
+     "time": "2026-10-30T11:48:35+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b04978fb-3b0f-3c74-b0a7-6a0d04e86d80",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "A Big Tech Selloff and Crypto Heist to Start the Day. Next Week Brings Apple Earnings and Midterms.",
+     "summary": "Amazon and Intel spark another big tech selloff, a huge crypto heist, and more things to know about the stock market today.",
+     "link": "https://finance.yahoo.com/m/b04978fb-3b0f-3c74-b0a7-6a0d04e86d80/a-big-tech-selloff-and-crypto.html?.tsrc=rss",
+     "time": "2026-10-30T11:48:00+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:70401cff-32ff-3999-b9cf-4b21095c0bdb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Stocks Mostly Down Pre-Bell as Traders Parse Amazon, Intel Earnings",
+     "summary": "The benchmark US stock measures were mostly tracking in the red before the open Friday as traders di",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-pre-bell-114759595.html?.tsrc=rss",
+     "time": "2026-10-30T11:47:59+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "INTC",
+      "MSFT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3b61a736-4e2a-3089-a179-6601b50b449b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JPM",
+     "title": "Palantir Trades at 150 Times, Josh Brown Says. Monday\u2019s Guidance Has to Do More Than Beat",
+     "summary": "Key TakeawaysPalantir Technologies (PLTR:NASDAQ) reports third-quarter results on Monday, Nov. 2.",
+     "link": "https://www.tikr.com/blog/palantir-trades-at-150-times-josh-brown-says-mondays-guidance-has-to-do-more-than-beat?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T11:47:21+00:00",
+     "touches": [
+      "JPM"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:709e0716-aef9-3f4c-b3ba-87c838aa603a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "Satya Nadella Just Took a Shot at Oracle and CoreWeave",
+     "summary": "Satya Nadella described a business model he called no business at all, named no company, and watched a handful of AI cloud stocks drop after hours. The comment may have been positioning, but the numbers behind it are hard to dismiss.",
+     "link": "https://247wallst.com/investing/2026/10/30/satya-nadella-just-took-a-shot-at-oracle-and-coreweave/?.tsrc=rss",
+     "time": "2026-10-30T11:47:06+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2f8a56c1-ef52-403b-b156-e949bb1e5b79",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "INTC",
+     "title": "Intel and Sandisk have very different views about what's going on in memory chips",
+     "summary": "Two must-listen earnings calls from two big names in tech. Two very different views on what's going on in memory chips. One outcome for both stocks: Big declines.",
+     "link": "https://finance.yahoo.com/technology/article/intel-and-sandisk-have-very-different-views-about-whats-going-on-in-memory-chips-114638641.html?.tsrc=rss",
+     "time": "2026-10-30T11:46:38+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6fa63ea7-4dda-36ab-92fc-9135d98e250e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Intel, Amazon, Reddit, Chevron, Exxon, and More Stocks That Explain Today\u2019s Market",
+     "summary": "Intel stock was plunging and Amazon was contributing to a technology selloff after underwhelming earnings reports.",
+     "link": "https://finance.yahoo.com/m/6fa63ea7-4dda-36ab-92fc-9135d98e250e/intel%2C-amazon%2C-reddit%2C.html?.tsrc=rss",
+     "time": "2026-10-30T11:40:00+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:16ef5279-a243-3312-b81b-9e7b678b6ba3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Apple Is Priced for Its Cash. Its November 2 Report Must Show Memory Costs Aren\u2019t Eating It",
+     "summary": "Key TakeawaysApple (AAPL:NASDAQ) reports its September-quarter results after the close on Monday, Nov. 2.",
+     "link": "https://www.tikr.com/blog/apple-is-priced-for-its-cash-its-november-2-report-must-show-memory-costs-arent-eating-it?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T11:36:08+00:00",
+     "touches": [
+      "AAPL",
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7d589717-0dae-3483-bc6c-bdd8bd8a4a4b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MSFT",
+     "title": "If a Stock Market Crash Is Coming, History Suggests These Are 2 Crucial Moves to Make.",
+     "summary": "A crash doesn\u2019t have to spell disaster for your portfolio.",
+     "link": "https://www.fool.com/investing/2026/10/30/if-a-stock-market-crash-is-coming-history-suggests-these-are-2-crucial-moves-to-make/?.tsrc=rss",
+     "time": "2026-10-30T11:35:01+00:00",
+     "touches": [
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:4803cfe4-0b76-366f-bff9-7b074c222cdf",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "BofA cuts Intel to Neutral, says turnaround pushed out by PC weakness",
+     "summary": "Investing.com -- Bank of America downgraded Intel to Neutral from Buy and cut its price target to $100 from $145 in a note Friday, telling investors that a sharp drop in PC shipments and supply constraints have pushed out the chipmaker\u2019s turnaround.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-intel-neutral-says-113347791.html?.tsrc=rss",
+     "time": "2026-10-30T11:33:47+00:00",
+     "touches": [
+      "BAC",
+      "INTC"
+     ],
+     "tags": [
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bd8e53c6-6748-356d-880c-8ca6374b6e57",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Google Just Burned $9 Billion in a Quarter. Is the AI Spending Party Getting Dangerous?",
+     "summary": "Alphabet just reported a quarter where it spent more cash than it earned, while simultaneously revealing nearly a trillion dollars in future purchase commitments. The math behind its AI ambitions is starting to raise questions that demand answers.",
+     "link": "https://247wallst.com/investing/2026/10/30/google-just-burned-9-billion-in-a-quarter-is-the-ai-spending-party-getting-dangerous/?.tsrc=rss",
+     "time": "2026-10-30T11:32:09+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:9b50a2d5-5f09-3175-977d-235eff8da4cd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "5 Things to Know Before the Stock Market Opens on Friday",
+     "summary": "Here\u2019s what you need to know today, from high-level market stats to signals of a rought day ahead for tech shares and a pullback in crypto and bitcoin.",
+     "link": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-friday-october-30-2026-12201287?.tsrc=rss",
+     "time": "2026-10-30T11:31:10+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3616cc4f-eb96-33e0-ab09-914a0b8756d1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "What Could Lift IBM Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ibm/articles/621534/what-could-lift-ibm-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:16:04+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0215a141-4e6a-3d85-a2bc-22a22fca6726",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "QCOM",
+     "title": "Management Set A Higher Bar For Micron Stock; Does The Chart Agree?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/mu/articles/621535/management-set-a-higher-bar-for-micron-stock-does-the-chart-agree/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:16:02+00:00",
+     "touches": [
+      "QCOM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:43de87e2-0aaa-38aa-81e9-8e519b1f193d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Why Did Caterpillar Stock Fall?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/cat/articles/621581/why-did-caterpillar-stock-fall/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:15:56+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:88bcc24c-266e-3d62-b01d-6432217e02cc",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Why Did Insmed Stock Jump?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/insm/articles/621576/why-did-insmed-stock-jump/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:15:53+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:50dd1fcb-8768-37f2-864f-bcc8c204ae5b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "What Sent Eli Lilly Stock Higher?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lly/articles/621588/what-sent-eli-lilly-stock-higher/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:15:51+00:00",
+     "touches": [
+      "JNJ",
+      "LLY",
+      "MRK"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fc6cea23-64ef-32e1-a998-67a101e54da2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "What Is Behind The Move In Fortinet Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ftnt/articles/621575/what-is-behind-the-move-in-fortinet-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T11:15:48+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3a2c2223-04cf-3e7d-ba1d-3f95d646d63d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Caterpillar Fell Nearly 25% Over 3 Months But These Two Wall Street Firms Say It\u2019s Going to Appreciate by Nearly 80%",
+     "summary": "Caterpillar has shed nearly 40% from its 52-week high while sitting on a backlog that stretches into 2029, and two major Wall Street firms now see a historic opportunity forming in the rubble.",
+     "link": "https://247wallst.com/investing/2026/10/30/caterpillar-fell-nearly-25-over-3-months-but-these-two-wall-street-firms-say-its-going-to-appreciate-by-nearly-80/?.tsrc=rss",
+     "time": "2026-10-30T11:15:46+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:48a79413-046c-3a34-b7c5-3b7407165e9c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GOOG",
+     "title": "Why Meta and Alphabet Don\u2019t Care That Q3 Earnings Paints Them as Laggards",
+     "summary": "Both Meta and Alphabet missed earnings estimates this quarter, yet their management teams are betting billions that the headline numbers completely misrepresent where the real growth is coming from.",
+     "link": "https://247wallst.com/investing/2026/10/30/why-meta-and-alphabet-dont-care-that-q3-earnings-paints-them-as-laggards/?.tsrc=rss",
+     "time": "2026-10-30T11:15:34+00:00",
+     "touches": [
+      "GOOG",
+      "GOOGL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:098e3767-df2e-308b-bbb9-4da269870966",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMZN",
+     "title": "Microsoft Showed Me What I Needed to Know to Do What I Was Going to Do Anyway",
+     "summary": "Before Microsoft reported a single number this quarter, the decision was already made. Here is the thesis that keeps the buy button active even as capital spending doubles and cash reserves shrink.",
+     "link": "https://247wallst.com/investing/2026/10/30/microsoft-showed-me-what-i-needed-to-know-to-do-what-i-was-going-to-do-anyway/?.tsrc=rss",
+     "time": "2026-10-30T11:15:19+00:00",
+     "touches": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:5324250e-8116-3ae7-9621-3abd1039b58e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "CVNA Q3 Earnings Miss on Higher Costs Despite Record Sales",
+     "summary": "Carvana's Q3 2026 revenues surge 42.4% on record retail sales, but earnings miss estimates as higher logistics costs and interest rates pressure unit economics.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/cvna-q3-earnings-miss-higher-110800806.html?.tsrc=rss",
+     "time": "2026-10-30T11:08:00+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:10492364-eb84-3077-8a74-e9dffc6243ed",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Just 15 Stocks Make Up 71% of the Dow. Here's My Top Pick to Buy Now.",
+     "summary": "American Express has one of the best business models in the world, yet trades at a compelling valuation.",
+     "link": "https://www.fool.com/investing/2026/10/30/just-15-stocks-make-up-71-of-the-dow-heres-my-top/?.tsrc=rss",
+     "time": "2026-10-30T11:05:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ed5739a5-5a17-4578-a21e-f8731b77850e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Google's AI is winning. Search is paying for it.",
+     "summary": "Gemini 4 Carbon now tops the Artificial Analysis Intelligence Index and Google Cloud revenue more than doubled, yet Alphabet stock opened down nearly 12% as search fell below half of revenue. Host Ejaaz Ahamadeen breaks down why AI is eating search, Google's ad auction change, its TPU customers and why the market may be wrong.",
+     "link": "https://finance.yahoo.com/video/googles-ai-winning-search-paying-110000726.html?.tsrc=rss",
+     "time": "2026-10-30T11:00:00+00:00",
+     "touches": [
+      "AAPL",
+      "QCOM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:72fdf993-42b9-337e-9999-56df7597c4e6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Is Garmin Stock's Winning Streak Skill Or Luck?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/grmn/articles/621563/is-garmin-stocks-winning-streak-skill-or-luck/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:50:11+00:00",
+     "touches": [
+      "AAPL",
+      "RTX"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:18e4a214-d7fb-3fc2-9b7d-bf5653855d84",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "What Just Happened To Carvana Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/cvna/articles/621566/what-just-happened-to-carvana-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:50:09+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:945074b5-dbe7-3373-8d82-20082c246af6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "What Is Behind The Move In ServiceNow Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/now/articles/621573/what-is-behind-the-move-in-servicenow-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:50:06+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:8a030bd3-a87c-3216-826e-1e8eac3df98a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "Has The Story Under Johnson & Johnson Stock Run Out?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/jnj/articles/621541/has-the-story-under-johnson-johnson-stock-run-out/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:49:42+00:00",
+     "touches": [
+      "JNJ",
+      "LLY",
+      "MRK"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:33c5c870-070a-32c6-9a9e-a8230c47956e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "Should You Buy Texas Instruments Stock Now Or Wait?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/txn/articles/621550/should-you-buy-texas-instruments-stock-now-or-wait/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:49:32+00:00",
+     "touches": [
+      "NXPI",
+      "TXN"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:69c6c1b1-2541-37c4-8bda-cc3c0b303c55",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "QCOM",
+     "title": "Arm Is Up 99% in 2026: Take Profits, or Buy More?",
+     "summary": "Key TakeawaysArm Holdings (ARM:NASDAQ) stock is up 99% in 2026 on its push into data center chips, though it sits about half below its June high and slid another 8% after hours on Thursday. Arm\u2019s own AGI CPU has more than $2 billion of customer demand, but supply secured for only about $1 billion over fiscal 2027 and 2028.",
+     "link": "https://www.tikr.com/blog/arm-is-up-99-in-2026-take-profits-or-buy-more?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T10:48:06+00:00",
+     "touches": [
+      "QCOM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:6ec24872-f37f-32ef-9840-5d1b376307eb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Why Is Gilead Sciences Stock Surging 4.5% Today?",
+     "summary": "Gilead Sciences (NASDAQ:GILD) shares surged 4. 5% to $172.",
+     "link": "https://investorshub.advfn.com/market-news/article/38959/why-is-gilead-sciences-stock-surging-4-5-today?.tsrc=rss",
+     "time": "2026-10-30T10:47:48+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fff055d2-5b68-3bf8-b01a-1d98b553980e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Intel, Reddit to Fall",
+     "summary": "The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly lower hours before Fr",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-104401870.html?.tsrc=rss",
+     "time": "2026-10-30T10:44:01+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e459daa8-c45d-3a37-8aba-178f86e2c8f6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RTX",
+     "title": "Look Who's Upgrading America's Nuclear Forces Now",
+     "summary": "RTX just won an $8 billion nuclear contract. How big a deal is that for RTX stock?",
+     "link": "https://www.fool.com/investing/2026/10/30/look-whos-upgrading-americas-nuclear-forces-now/?.tsrc=rss",
+     "time": "2026-10-30T10:26:00+00:00",
+     "touches": [
+      "RTX"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8e22aa71-efab-3e8c-b5f8-71685c248f05",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Should You Buy And Hold Microsoft Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/msft/articles/621532/should-you-buy-and-hold-microsoft-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:14:40+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:30779e5b-291d-31b7-b05d-927446727df6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "What Sent Alphabet Stock Lower?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/googl/articles/621527/what-sent-alphabet-stock-lower/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T10:14:40+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:d4b31408-4c31-3769-9a25-54cccbd1ed91",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Joby Is Buying a Defense Company. Archer Plans to Buy 3 From Boeing. Here's Which Pivot Makes More Sense.",
+     "summary": "What do recent pivots to the defense sector mean for Joby Aviation and Archer Aviation?",
+     "link": "https://www.fool.com/investing/2026/10/30/joby-is-buying-a-defense-company-archer-bought-3-f/?.tsrc=rss",
+     "time": "2026-10-30T10:05:00+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f70cc875-394a-3846-9117-2ac75ba119c0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Walmart and Target face FTC inquiry over dynamic pricing and worker pay",
+     "summary": "The regulator is seeking information on whether prices for goods, tickets, ride shares, and deliveries differ between individuals.",
+     "link": "https://www.retail-insight-network.com/news/walmart-target-face-ftc-inquiry/?.tsrc=rss",
+     "time": "2026-10-30T10:01:38+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:efa24aad-5942-3019-a6e0-547864318988",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "ON Semiconductor Reports Soon: How Has The Stock Reacted To Past Earnings?",
+     "summary": "ON Semiconductor (NASDAQ:ON) is scheduled to report its earnings on Monday, November 2, 2026. The company has a market value of about $29.4 billion. Over the last twelve months it generated $6.2 billion in revenue and $1.1 billion in operating profit, with net income of $630 million.",
+     "link": "https://www.trefis.com/stock/on/articles/621486/on-semiconductor-reports-soon-how-has-the-stock-reacted-to-past-earnings/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T09:57:09+00:00",
+     "touches": [
+      "NXPI",
+      "TXN"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:29edd366-dca6-3cec-ac94-34602bbcc593",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Apple Earnings Ahead: What Past Reactions Say About The Stock",
+     "summary": "Apple (NASDAQ:AAPL) is scheduled to report its earnings on Monday, November 2, 2026. The company has a market value of about $5.11 trillion. Over the last twelve months it generated $466.8 billion in revenue and $154.9 billion in operating profit, with net income of $128.9 billion.",
+     "link": "https://www.trefis.com/stock/aapl/articles/621479/apple-earnings-ahead-what-past-reactions-say-about-the-stock/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T09:56:53+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:035e1f81-410c-3185-889a-05d72e27e1d7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "How Low Can Snap Stock Go?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/snap/articles/621494/how-low-can-snap-stock-go/2026-10-30?.tsrc=rss",
+     "time": "2026-10-30T09:56:28+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e4375601-ccc1-337c-8a3e-df41e2d62862",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike",
+     "summary": "Fortinet shares plunged 20% despite beating Q3 estimates and raising guidance. Does its lower valuation offer a buying opportunity?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-094900578.html?.tsrc=rss",
+     "time": "2026-10-30T09:49:00+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:57b30aa8-9fb9-34ec-af99-3d8ca039ced3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Bank of America vs. Goldman Sachs: Two Wall Street Giants, Two Very Different Revenue Stories",
+     "summary": "Bank of America and Goldman Sachs are two of Wall Street's biggest names, but their quarterly revenue trends reveal an important difference in how these financial giants generate income.",
+     "link": "https://www.fool.com/coverage/charts/2026/10/30/bank-of-america-vs-goldman-sachs-two-wall-street-giants-two-very-different-revenue-stories/?.tsrc=rss",
+     "time": "2026-10-30T09:25:02+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:6b230cff-4561-37d4-bc84-3c09d1ec2a8a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JPM",
+     "title": "JPMorgan Chase (JPM), What Is Behind The Latest Attention?",
+     "summary": "JPMorgan Chase (JPM) has been active in the debt markets this month, completing several fixed income offerings that include new 6.00% senior unsecured notes due 2038, which are callable at the issuer\u2019s discretion. Recent moves in the bond market sit alongside a share price that has climbed 5.56% year to date, with a 1-month share price return of 2.57% and a 1-year total shareholder return of 13.17%, suggesting moderate positive momentum after a 90 day share price decline of 2.33%. Scan how...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-behind-latest-091411986.html?.tsrc=rss",
+     "time": "2026-10-30T09:14:11+00:00",
+     "touches": [
+      "JPM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3de122ea-a2ed-3576-8cd2-cdb388a2ea3e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Walmart (WMT) Expands Automation Deal, Is The Stock Already Pricey?",
+     "summary": "Walmart (WMT) extended its automation push with a new commercial agreement with Symbotic that carries an initial commitment of about US$6b. The rollout targets 25 U.S. regional distribution centers and broader supply chain projects. These automation headlines are landing against a strong backdrop for Walmart, with the share price at US$121.25 and a roughly 13.5% 1 month share price return that has pushed year to date gains to about 7.5%. Momentum has been building rather than fading,...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-expands-automation-deal-091237302.html?.tsrc=rss",
+     "time": "2026-10-30T09:12:37+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:60ce9eba-7a89-3cbe-9a96-fe4aa6ed6ffe",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NXPI",
+     "title": "The 5 most interesting analyst questions from NXP Semiconductors\u2019s Q3 earnings call",
+     "summary": "NXP Semiconductors delivered third quarter results that met Wall Street\u2019s expectations, with broad-based growth across key segments. Management highlighted that double-digit revenue increases were driven by strong momentum in automotive and industrial end markets, as well as growth in the emerging data center segment. CEO Rafael Sotomayor noted, \u201cEvery region grew double digits year on year,\u201d pointing to the company\u2019s expanding exposure to high-growth technologies like software-defined vehicles",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-085129950.html?.tsrc=rss",
+     "time": "2026-10-30T08:51:29+00:00",
+     "touches": [
+      "NXPI"
+     ],
+     "tags": [
+      "earnings",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3c87443a-4a0a-3520-b398-0c68d11222d3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Company News for Oct 30, 2026",
+     "summary": "Companies In The News Are: MA, BMY, MRK, LLY.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-30-2026-083900659.html?.tsrc=rss",
+     "time": "2026-10-30T08:39:00+00:00",
+     "touches": [
+      "LLY",
+      "MA",
+      "MRK"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:be5a15f6-63ce-3508-a26b-ec8a05b232de",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "What Albany International (AIN) Said on Its Q3 Earnings Call",
+     "summary": "Albany International (NYSE:AIN) reported record third-quarter revenue as growth in its Engineered Composites segment and a renegotiated CH-53K helicopter contract helped lift results above the company\u2019s revised outlook range. Third-quarter revenue rose 34% year over year to $349.5 million, while ad",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-albany-international-ain-said-on-its-q3-earnings-call-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T07:14:09+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:775ca5d2-5d68-36a5-8549-fc1a7066ffb7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "V",
+     "title": "Tencent and Visa partner on cross-border payments and AI",
+     "summary": "The companies also plan to extend their cross-border remittance work through Visa Direct.",
+     "link": "https://www.electronicpaymentsinternational.com/news/tencent-visa-cross-border-payments-ai/?.tsrc=rss",
+     "time": "2026-10-30T07:12:36+00:00",
+     "touches": [
+      "V"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:855d5c32-769f-32dc-ac64-daf0f5f70a3b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "UNH",
+     "title": "As the Nasdaq wobbles on capex, this Buffett strategy went 15-for-15",
+     "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-wobbles-capex-buffett-strategy-070916451.html?.tsrc=rss",
+     "time": "2026-10-30T07:09:16+00:00",
+     "touches": [
+      "UNH"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:926dd1f2-5530-3f16-8254-bf6fca0b2e78",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "The Case Against a SpaceX and Tesla Merger",
+     "summary": "The market is getting excited about a potential merger, but now may not be the right time for Tesla shareholders to get the best deal.",
+     "link": "https://www.fool.com/investing/2026/10/30/the-case-against-a-spacex-and-tesla-merger/?.tsrc=rss",
+     "time": "2026-10-30T06:50:00+00:00",
+     "touches": [
+      "GE"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3f06c91d-403f-33b2-bb19-795ddbf7e756",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "What Avery Dennison (AVY) Said on Its Q3 Earnings Call",
+     "summary": "Avery Dennison (NYSE:AVY) reported third-quarter 2026 results that exceeded its expectations, supported by a slower-than-anticipated pace of customer inventory destocking in its Materials Group and operational execution across the business. Adjusted earnings per share rose 2% year over year to $2.4",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-avery-dennison-avy-said-on-its-q3-earnings-call-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T06:14:12+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bd4100ac-906a-34dc-91b7-70c88bea6b63",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Caterpillar Q3 Earnings Call Highlights",
+     "summary": "Caterpillar (NYSE:CAT) reported record third-quarter sales and a sharply higher backlog as demand remained strong across power generation, construction and resource industries, with the company maintaining its full-year outlook for mid- to high-teens revenue growth. Sales and revenue rose 17% year",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-caterpillar-q3-earnings-call-highlights-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T06:14:11+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8ffe13dd-0d88-3b02-970d-a66c5ff6bf0e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ALNY",
+     "title": "What Investors Got Wrong About Alnylam Pharmaceuticals Before A 61% Slide",
+     "summary": "Alnylam Pharmaceuticals has spent the past year in the headlines, from positive HELIOS-B data to a new AI drug discovery deal with Inceptive Nucleics worth up to US$2b. Investors who held Alnylam Pharmaceuticals over the past year are down 61.3%, including dividends. If you had bought on 29 October 2025 after reading upbeat RNAi and ATTR-CM coverage, how do you now weigh those promises against today\u2019s guidance reset, legal probes and heavy TTR reliance? This theme extends beyond Alnylam...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-got-wrong-alnylam-pharmaceuticals-043135206.html?.tsrc=rss",
+     "time": "2026-10-30T04:31:35+00:00",
+     "touches": [
+      "ALNY"
+     ],
+     "tags": [
+      "earnings",
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2947149f-e491-3dd5-8471-610ccbee733d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LNG",
+     "title": "Why Did MA, LNG, VTRS Stocks Surge To 52-Week Highs?",
+     "summary": "Mastercard, Cheniere Energy and Viatris shares climbed to annual highs on Thursday amid strong quarterly results and positive company catalysts.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/why-did-ma-lng-vtrs-stocks-surge-to-52-week-highs/cZUh0aNR9R8?.tsrc=rss",
+     "time": "2026-10-30T04:24:25+00:00",
+     "touches": [
+      "LNG",
+      "MA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:38b02913-3073-3b60-a37d-067ade401cf9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Mastercard: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Building AI-ready payment infrastructure and bridging digital assets to fiat currencies positions Mastercard for structural competitive advantages.",
+     "link": "https://www.fool.com/earnings/takeaways/2026/10/29/mastercard-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "time": "2026-10-30T03:46:53+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f1c310f2-6105-340d-a0bf-ca2cd8f445c0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "NEC Corporation Achieves Fortinet's Engage Preferred Services Partner Designation",
+     "summary": "NEC Corporation (NEC; TSE: 6701), a leading global IT and network transformation services provider, today announced that it has been named an Engage Preferred Services Partner (EPSP) within Fortinet's Engage Partner Program. This designation demonstrates NEC's ability to expertly deploy, operate, and maintain end-to-end security solutions helping organizations achieve digital acceleration.",
+     "link": "https://finance.yahoo.com/technology/articles/nec-corporation-achieves-fortinets-engage-020000744.html?.tsrc=rss",
+     "time": "2026-10-30T02:00:00+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:45020594-fca1-3420-bd14-f663592f59ee",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "MA Stock Clocks Best Day In 9 Months: Goldman Sees Bull Case Intact",
+     "summary": "Mastercard posted $9.81 billion in quarterly revenue, up 14% year-over-year and ahead of analyst estimates of $9.66 billion.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/ma-stock-clocks-best-day-in-9-months-goldman-sees-bull-case-intact/cZUhQRLR9Rj?.tsrc=rss",
+     "time": "2026-10-30T01:45:14+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:15d5a00e-fe9c-3f94-a62d-01df7c94a9d4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LNG",
+     "title": "Cheniere Energy, Inc. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Cheniere Energy, Inc.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-cheniere-energy-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-30T01:44:09+00:00",
+     "touches": [
+      "LNG"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:5b82a71c-36e1-336c-a926-ce477c03684d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "ServiceNow Stock Just Plunged More Than 20% in a Single Day. Here's What It Did After Its Other Biggest Drops.",
+     "summary": "Most of its past one-day plunges were followed by gains. Does a slower contract forecast change that?",
+     "link": "https://www.fool.com/investing/2026/10/29/servicenow-stock-just-plunged-more-than-20-in-a-single-day-here-s-what-it-did-after-its-other-biggest-drops/?.tsrc=rss",
+     "time": "2026-10-30T01:12:01+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:913b72f7-1ae4-3fb1-b61f-2478ac48248c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Do Walmart, Delta, Instacart charge you more than your neighbor? FTC probes",
+     "summary": "Federal regulators are questioning 9 major companies about consumer pricing and what shoppers are paid.",
+     "link": "https://www.thestreet.com/retail/ftc-investigation-personalized-pricing-discrepancies-nine-companies?.tsrc=rss",
+     "time": "2026-10-30T01:03:00+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c7a36373-868f-3d29-a7f6-09e2b59ed83b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "What Gilead Sciences (GILD) Said on Its Q3 Earnings Call",
+     "summary": "Gilead Sciences (NASDAQ:GILD) reported third-quarter 2026 base business sales growth of 16% year over year, its strongest growth rate in more than a decade, as HIV products, TRODELVY and Livdelzi drove performance. The company also raised its full-year base business revenue outlook while outlining t",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-gilead-sciences-gild-said-on-its-q3-earnings-call-2026-10-29/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-30T00:14:18+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3339e30e-f9b8-308a-8b1d-7e9850bea1af",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Want to Be Like Larry Ellison? Then Borrow Like a Billionaire.",
+     "summary": "It\u2019s an increasingly popular approach with investors. Just don\u2019t get carried away.",
+     "link": "https://finance.yahoo.com/m/3339e30e-f9b8-308a-8b1d-7e9850bea1af/want-to-be-like-larry.html?.tsrc=rss",
+     "time": "2026-10-30T00:14:00+00:00",
+     "touches": [
+      "BAC",
+      "JPM"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a432f03b-0530-3f5d-a659-53d5ab5ff68c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BAC",
+     "title": "Alphabet just had its worst day as a public company. BofA now values Google search at a lower multiple than fossil fuel stocks",
+     "summary": "Search revenue missed forecasts and free cash flow went negative. Bank of America now values Google\u2019s core search business at about 10 times earnings, against 18.7 for the S&P 500.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-just-had-worst-day-001015980.html?.tsrc=rss",
+     "time": "2026-10-30T00:10:15+00:00",
+     "touches": [
+      "BAC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e95a0bef-0959-3cd2-acd2-e0018ddb54df",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "Review & Preview: Don\u2019t Call It a Tech Wreck",
+     "summary": "Alphabet\u2019s huge drop pulled down the Dow, S&P 500 and Nasdaq. But under the surface, most stocks had a solid day.",
+     "link": "https://finance.yahoo.com/m/e95a0bef-0959-3cd2-acd2-e0018ddb54df/review-%26-preview%3A-don%E2%80%99t-call.html?.tsrc=rss",
+     "time": "2026-10-29T23:55:00+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:6f76e8e7-8e01-3d03-aded-a6d8f07eeb79",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "What Does Mastercard (MA) Face In This New \u00a35 Billion UK Lawsuit?",
+     "summary": "Mastercard (NYSE:MA) faces a proposed \u00a35b collective lawsuit in the UK over alleged anti competitive card payment fees affecting businesses. Law firms have filed for collective action on behalf of about one million UK merchants seeking to recover multilateral interchange fees. The claim focuses on Mastercard's multilateral interchange fees, a recurring flashpoint in regulatory and legal challenges to card networks. This alleged \u00a35b UK interchange fee claim against Mastercard deserves...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/does-mastercard-ma-face-5-231918833.html?.tsrc=rss",
+     "time": "2026-10-29T23:19:18+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "legal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:5f9750f9-b04e-3830-9f5a-d06f079281de",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short",
+     "summary": "Wall Street analysts are raising questions about why greater AI adoption hasn\u2019t boosted growth for the software maker.",
+     "link": "https://finance.yahoo.com/m/5f9750f9-b04e-3830-9f5a-d06f079281de/servicenow-stock-is-worst-in.html?.tsrc=rss",
+     "time": "2026-10-29T23:07:00+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bae06882-ddbd-3392-834d-45660374b60e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead (GILD) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "summary": "The headline numbers for Gilead (GILD) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-gild-q3-earnings-taking-230002350.html?.tsrc=rss",
+     "time": "2026-10-29T23:00:02+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:28f9cb70-0f07-3dce-9dc2-b5dcb995dae6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GE",
+     "title": "Should You Pick Honeywell Stock Over Its Competitors?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/hon/articles/621269/should-you-pick-honeywell-stock-over-its-competitors/2026-10-29?.tsrc=rss",
+     "time": "2026-10-29T22:47:25+00:00",
+     "touches": [
+      "GE",
+      "RTX"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3b010eaf-185c-3470-812e-cb06c6388d5a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Mastercard Incorporated Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Mastercard Incorporated's Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-mastercard-incorporated-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T22:45:11+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f768f8f0-e57b-3207-956f-577195923e60",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JPM",
+     "title": "JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand",
+     "summary": "JPMorgan has initiated coverage on Palantir Technologies with an \u2018overweight rating and a $262 price target.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/jp-morgan-is-bullish-on-palantir-predicts-over-30-rally-on-strong-ai-demand/cZUXbW6R9RW?.tsrc=rss",
+     "time": "2026-10-29T22:40:49+00:00",
+     "touches": [
+      "JPM"
+     ],
+     "tags": [
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f94a5d38-2f77-38b1-8cb4-71b7a66dff3f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Fortinet (FTNT) Stock Plunges After Q3 Earnings: Time to Buy the Dip?",
+     "summary": "Fortinet (FTNT) stock plunged 20% after Q3 earnings, following a YTD rally of over 100%. Is the sharp selloff a buying opportunity?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-stock-plunges-q3-222200015.html?.tsrc=rss",
+     "time": "2026-10-29T22:22:00+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8ca6e313-9f42-33cd-958f-b933c34ffde1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Eli Lilly and Company Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Eli Lilly and Company's Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-eli-lilly-and-company-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T22:15:36+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6ff05ce1-233d-3888-af08-6b6b7188c766",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MRK",
+     "title": "Merck & Co., Inc. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Merck & Co., Inc.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-merck-co-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T22:15:24+00:00",
+     "touches": [
+      "MRK"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:66244b30-5be6-3b07-86b4-c67cb0d679f8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "What Stagwell (STGW) Said on Its Q3 Earnings Call",
+     "summary": "Stagwell (NASDAQ:STGW) reported record third-quarter revenue, net revenue, adjusted EBITDA and adjusted earnings per share, as the marketing company emphasized its expansion into AI-based marketing transformation software and services. Chairman and Chief Executive Officer Mark Penn said the company",
+     "link": "https://www.marketbeat.com/instant-alerts/transcript-what-stagwell-stgw-said-on-its-q3-earnings-call-2026-10-29/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-10-29T22:15:12+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:4ec8852b-6948-3333-b44e-53df49e44adb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "The Dealmaking 3: Texas Bevo Lab AI, Elastic & Audi F1, JOOLA in Pickleball Ratings",
+     "summary": "This week of The Dealmaking 3 with \u201cThe Sports Professor\u201d Rick Horrow features the University of Texas launching a sports AI hub called Bevo Lab supported by Dell, Google Cloud, and SHI International, Elastic partnering with the Audi Revolut F1 Team and becoming the Official Race Partner at the US Grand Prix in Austin, and JOOLA [\u2026] The post The Dealmaking 3: Texas Bevo Lab AI, Elastic & Audi F1, JOOLA in Pickleball Ratings appeared first on CorpGov.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/dealmaking-3-texas-bevo-lab-221200371.html?.tsrc=rss",
+     "time": "2026-10-29T22:12:00+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:606e52e1-c5eb-3d1d-9678-02b87eb80d98",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Does The Move In CrowdStrike Stock Change Anything?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/crwd/articles/621280/does-the-move-in-crowdstrike-stock-change-anything/2026-10-29?.tsrc=rss",
+     "time": "2026-10-29T21:43:56+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c55c8ff9-e178-3fbc-ab82-e3b6cbd1647c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Caterpillar Inc. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Caterpillar Inc.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-caterpillar-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T21:41:36+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:08395f4a-75cb-3ebd-a312-7385b765b680",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Alphabet, Marvell, ServiceNow, Fortinet, Caterpillar, Lilly, and More Stocks That Explain Today\u2019s Market",
+     "summary": "Alphabet set a new single-day loss record after the company\u2019s earnings missed estimates.",
+     "link": "https://finance.yahoo.com/m/08395f4a-75cb-3ebd-a312-7385b765b680/alphabet%2C-marvell%2C.html?.tsrc=rss",
+     "time": "2026-10-29T21:21:00+00:00",
+     "touches": [
+      "CAT",
+      "FTNT",
+      "LLY",
+      "NOW"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1e0e5461-b2b9-3e65-b36a-4a981dc9b9c9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Stock Market Today, Oct. 29: Amazon Falls on Q3 Earnings Report and Capex Concerns",
+     "summary": "On Oct. 29, 2026, investors weighed AWS growth against $220 billion in infrastructure spending and fourth-quarter guidance.",
+     "link": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/?.tsrc=rss",
+     "time": "2026-10-29T21:16:02+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:93d77ff6-d512-3379-a706-6d94e519ec30",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "Carvana (CVNA) Q3 Results Reignite The Valuation Debate",
+     "summary": "Carvana (CVNA) is back in focus after reporting third quarter 2026 results that paired record US$8.04b revenue and higher net income with an earnings per share figure that did not meet analyst expectations. Carvana\u2019s latest report landed after a choppy stretch for the shares, with the 1-year total shareholder return down 16.6% despite a very large 3-year total shareholder return above 10x. The year-to-date share price return has fallen 26.2%, suggesting long-term momentum remains strong even...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/carvana-cvna-q3-results-reignite-211515096.html?.tsrc=rss",
+     "time": "2026-10-29T21:15:15+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:d5c9a442-ef03-3c17-bc59-2338871cb4ba",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "Why ServiceNow (NOW) stock is nosediving",
+     "summary": "Shares of enterprise workflow automation company ServiceNow (NYSE:NOW) fell 26.3% in the afternoon session after the company forecast fourth-quarter current remaining performance obligations growth to decelerate to 18.5%, reigniting concerns regarding artificial intelligence disruption.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-servicenow-now-stock-nosediving-211234146.html?.tsrc=rss",
+     "time": "2026-10-29T21:12:34+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f0bfa2d3-9ebe-306b-91c4-93ccb890c460",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MRK",
+     "title": "Merck (MRK) Turns Heads With Phase 3 Endometrial Cancer Data And FDA Review",
+     "summary": "Merck (NYSE:MRK) reported new Phase 3 data at ESMO 2026 showing KEYTRUDA monotherapy benefits in advanced endometrial cancer. Sacituzumab tirumotecan delivered positive outcomes in a separate late stage trial for recurrent endometrial cancer presented at the same congress. The Lancet published the full trial results and the FDA granted priority review to the sacituzumab tirumotecan Biologics License Application. These KEYTRUDA and sacituzumab tirumotecan advances in endometrial cancer...",
+     "link": "https://finance.yahoo.com/healthcare/articles/merck-mrk-turns-heads-phase-211105624.html?.tsrc=rss",
+     "time": "2026-10-29T21:11:05+00:00",
+     "touches": [
+      "MRK"
+     ],
+     "tags": [
+      "earnings",
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:172ce255-c8d4-3226-9b4c-8e251351c8b0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ALNY",
+     "title": "Alnylam Pharmaceuticals, Inc. Q3 2026 Earnings Call Summary",
+     "summary": "Moby summary of Alnylam Pharmaceuticals, Inc.'s Q3 2026 earnings call",
+     "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-alnylam-pharmaceuticals-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T21:09:17+00:00",
+     "touches": [
+      "ALNY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a66553f2-4bc9-35fb-872a-6c3957fb1322",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LNG",
+     "title": "Cheniere (LNG) Q3 2026 Earnings Call Transcript",
+     "summary": "Record production and raised guidance highlight strong LNG demand.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/29/cheniere-lng-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-29T20:58:55+00:00",
+     "touches": [
+      "LNG"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:85bfd238-4775-3b5d-9f1b-5eca0d823606",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Stocks Close Lower as Alphabet Disappoints and Chip Stocks Fall",
+     "summary": "The S&P 500 Index ($SPX ) (SPY ) fell -0.30%, the Dow Jones Industrial Average ($DOWI ) (DIA ) fell -0.25%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) fell -1.38%. December E-mini S&P futures (ESZ26 ) fell -0.87%, and December E-mini Nasdaq futures (NQZ26 ) fell -2.67%. US...",
+     "link": "https://www.barchart.com/story/news/8539407/stocks-close-lower-as-alphabet-disappoints-and-chip-stocks-fall?.tsrc=rss",
+     "time": "2026-10-29T20:45:21+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:244889ad-7e9a-3490-9ef3-a7f9400f0d25",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Walmart (WMT) Gains As Market Dips: What You Should Know",
+     "summary": "In the closing of the recent trading day, Walmart (WMT) stood at $121.25, denoting a +2.09% move from the preceding trading day.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-gains-market-dips-204503845.html?.tsrc=rss",
+     "time": "2026-10-29T20:45:03+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3b4e1cfb-4ec3-3009-8d24-86df9898e399",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "Carvana Soars: A Key Metric Jumped Around 40% For The Eighth Quarter In A Row",
+     "summary": "Carvana earnings growth accelerated as the online-only retailer's used car sales surged 39%.",
+     "link": "https://finance.yahoo.com/m/3b4e1cfb-4ec3-3009-8d24-86df9898e399/carvana-soars%3A-a-key-metric.html?.tsrc=rss",
+     "time": "2026-10-29T20:36:28+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a8d0f132-ca1c-39b3-b3bf-f4765a2b74dd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead Sciences (GILD) Q3 Earnings and Revenues Top Estimates",
+     "summary": "Gilead (GILD) delivered earnings and revenue surprises of +17.51% and +6.21%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-gild-q3-earnings-203504085.html?.tsrc=rss",
+     "time": "2026-10-29T20:35:04+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:5f9df60e-f5d9-3caf-8588-1946893e804c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Walmart\u2019s Robots Are Struggling With Jobs Humans Do Easily. For Workers in Their 50s, Staying on the Payroll Could Be Worth More Than Another 401(k) Catch-Up",
+     "summary": "Walmart's robots keep fumbling frozen turkeys while warehouse workers in their 50s face a countdown clock on their careers. Before Ray makes any move, he needs to understand what one more year on the payroll is actually worth compared to maxing out his 401(k).",
+     "link": "https://247wallst.com/personal-finance/2026/10/29/walmarts-robots-are-struggling-with-jobs-humans-do-easily-for-workers-in-their-50s-staying-on-the-payroll-could-be-worth-more-than-another-401k-catch-up/?.tsrc=rss",
+     "time": "2026-10-29T20:33:07+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ea7e8759-c4d2-388b-adbc-040c632ad89a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Earnings Calendar and Analysis for This Week",
+     "summary": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports.",
+     "link": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks?.tsrc=rss",
+     "time": "2026-10-29T20:28:41+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6ff5c14a-7ba1-4110-8069-601382253c69",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Alphabet drops 12% in deepening tech and semiconductor rout",
+     "summary": "A steep 12.6% sell-off in Alphabet (GOOGL) dragged down the broader market, pulling semiconductor and software names like Micron (MU), Intel (INTC), and Marvell (MRVL) deep into negative territory. Bucking the tech retreat, healthcare stocks offered a pocket of green as Eli Lilly (LLY), Merck (MRK), and Gilead (GILD) notched solid gains.",
+     "link": "https://finance.yahoo.com/video/alphabet-drops-12-in-deepening-tech-and-semiconductor-rout-202605913.html?.tsrc=rss",
+     "time": "2026-10-29T20:26:05+00:00",
+     "touches": [
+      "GILD",
+      "GOOGL",
+      "INTC",
+      "LLY",
+      "MRK"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:cd1e043d-f4e7-35bc-8696-13dbc0c9babd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead Sciences (NASDAQ:GILD) surprises with Q3 2026 sales, full-year outlook slightly exceeds expectations",
+     "summary": "Biopharmaceutical company Gilead Sciences (NASDAQ:GILD) beat Wall Street\u2019s revenue expectations in Q3 2026, with revenue up 6.8% year on year to $8.3 billion. The company\u2019s full-year revenue guidance of $31.15 billion at the midpoint came in 1.3% above analysts\u2019 consensus estimates. Its non-GAAP profit of $2.55 per share was 16.2% above analysts\u2019 consensus estimates.",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-nasdaq-gild-surprises-202049941.html?.tsrc=rss",
+     "time": "2026-10-29T20:20:49+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c52ecce9-bcfe-4cc2-a9ef-53f62462edc4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "ServiceNow's AI boom faces a big test: Can it reassure Wall Street?",
+     "summary": "ServiceNow President & CFO Gina Mastantuono joins Market Domination to discuss the company's growing AI revenue opportunity and its strategy for maintaining investor confidence. Mastantuono addresses concerns surrounding AI governance and potential reductions in software seats as businesses increasingly adopt AI.",
+     "link": "https://finance.yahoo.com/video/servicenows-ai-boom-faces-a-big-test-can-it-reassure-wall-street-201935436.html?.tsrc=rss",
+     "time": "2026-10-29T20:19:35+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b6598e10-e732-35d9-a365-64e8bc446715",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "How Gilead, Which Just Hit A Record, Notched Its Best Sales Growth In A Decade",
+     "summary": "Gilead Sciences crushed Wall Street's sales expectations on the back of its HIV treatments and cancer drug Trodelvy.",
+     "link": "https://finance.yahoo.com/m/b6598e10-e732-35d9-a365-64e8bc446715/how-gilead%2C-which-just-hit-a.html?.tsrc=rss",
+     "time": "2026-10-29T20:18:50+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:915a4025-4fcb-3813-b35e-9a5cb0c1658a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing (BA) Sees Air Cargo Traffic Doubling By 2045 In New Forecast",
+     "summary": "Boeing (NYSE:BA) released its 2026 World Air Cargo Forecast, projecting that global air cargo traffic will double by 2045. The company expects the worldwide freighter fleet to exceed 4,000 aircraft over the forecast horizon. Boeing projects demand for nearly 3,000 new and converted freighters over the next 20 years, tied to e-commerce and high value goods. Boeing's projection that global air cargo traffic could double by 2045 is one factor to weigh against our broader Boeing view. Check out...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-sees-air-cargo-201603850.html?.tsrc=rss",
+     "time": "2026-10-29T20:16:03+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:72a8ce8e-d426-3ca0-91cc-7e098d3dc225",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "US Equity Markets End Lower After Unexpected Drop in Alphabet's Earnings Leads Decline in Major Tech Stocks",
+     "summary": "US equity indexes ended lower Thursday after a sharp sell-off in Alphabet's (GOOG, GOOGL) shares wei",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201509517.html?.tsrc=rss",
+     "time": "2026-10-29T20:15:09+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a6d3b91f-5815-35ba-a986-43dc4a26574b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JPM",
+     "title": "MetLife CEO and CFO to Speak at the J.P. Morgan Financials Conference",
+     "summary": "NEW YORK, October 29, 2026--MetLife, Inc. (NYSE: MET) today announced that Michel Khalaf, president and chief executive officer, and John McCallion, executive vice president and chief financial officer, and head of MetLife Investment Management, will participate in a fireside chat at the J.P. Morgan Financials Conference in London on Thursday, Nov. 19, 2026, from 10:00 to 10:40 am ET / 3:00 to 3:40 pm GMT.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/metlife-ceo-cfo-speak-j-201500235.html?.tsrc=rss",
+     "time": "2026-10-29T20:15:00+00:00",
+     "touches": [
+      "JPM"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f04b3ec4-6f47-3cec-b49b-7faa795ed209",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "RTX",
+     "title": "RTX Board of Directors Declares Quarterly Cash Dividend",
+     "summary": "RTX (NYSE: RTX) announced today that its board of directors declared a dividend of 73 cents per outstanding share of RTX common stock. The dividend will be payable on Dec. 10, 2026 to shareowners of record at the close of business on Nov. 20, 2026.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rtx-board-directors-declares-quarterly-201500457.html?.tsrc=rss",
+     "time": "2026-10-29T20:15:00+00:00",
+     "touches": [
+      "RTX"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:dd1266ca-af9a-325f-bddc-448c8d2414d4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead: Q3 Earnings Snapshot",
+     "summary": "(GILD) on Thursday reported third-quarter net income of $2.On a per-share basis, the Foster City, California-based company said it had net income of $1.",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-q3-earnings-snapshot-201427268.html?.tsrc=rss",
+     "time": "2026-10-29T20:14:27+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:848d6edc-579f-3464-afe0-dc319a429610",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Eli Lilly (LLY) Q3 2026 Earnings Call Transcript",
+     "summary": "Revenue surged 39% on blockbuster obesity drug demand and strong international growth.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/29/eli-lilly-lly-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-29T20:14:24+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:93362762-63fe-31d7-8fb8-ab14b58b8838",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing\u2019s Earnings Were Great\u2014for GE Aerospace",
+     "summary": "Problems for Boeing can benefit GE Aerospace stock. Shares aren\u2019t trading that way.",
+     "link": "https://finance.yahoo.com/m/93362762-63fe-31d7-8fb8-ab14b58b8838/boeing%E2%80%99s-earnings-were.html?.tsrc=rss",
+     "time": "2026-10-29T20:13:00+00:00",
+     "touches": [
+      "BA",
+      "GE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:23161029-c68c-32f5-97e4-1602aa4b9e5c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Why Fortinet Stock Plunged More Than 20% Today",
+     "summary": "Fortinet\u2019s 120% rally just hit a wall. Here\u2019s what has to change for the stock to climb again.",
+     "link": "https://www.fool.com/investing/2026/10/29/why-fortinet-stock-plunged-more-than-20-today/?.tsrc=rss",
+     "time": "2026-10-29T20:09:23+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "sec:0000050863-26-000188",
+     "source": "SEC EDGAR",
+     "kind": "filing",
+     "form": "8-K",
+     "ticker": "INTC",
+     "title": "INTEL CORP filed a 8-K: earnings results",
+     "summary": "Current report",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "important": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/0000050863-26-000188-index.htm",
+     "time": "2026-10-29T20:08:53+00:00",
+     "touches": [
+      "INTC"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:cb6a42e9-dcd2-360f-bf4d-2926fc059e65",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Nasdaq Drops 365 Points on Alphabet's Rare Double Miss: Stock Market Today",
+     "summary": "Economic data and earnings reports drove Thursday's price action, with sharp drops for a pair of blue chips dragging the broader stock market lower.",
+     "link": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-365-points-on-big-alphabet-miss-stock-market-today?.tsrc=rss",
+     "time": "2026-10-29T20:08:22+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:675d2e1e-72e0-3302-82c3-100dacee2e38",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "Does Johnson & Johnson (JNJ) Have A New Edge In Plaque Psoriasis?",
+     "summary": "Johnson & Johnson (NYSE: JNJ) is seeing quick uptake of its oral plaque psoriasis therapy Icotyde in U.S. dermatology practices. New independent physician research reports Icotyde prescriptions are building momentum and gaining share within the oral advanced therapy segment. Surveyed dermatologists indicate Icotyde is being used earlier in the treatment path, which may delay initiation of higher-cost biologic drugs. Rapid Icotyde adoption in plaque psoriasis is important, but investors need...",
+     "link": "https://finance.yahoo.com/healthcare/articles/does-johnson-johnson-jnj-edge-200756024.html?.tsrc=rss",
+     "time": "2026-10-29T20:07:56+00:00",
+     "touches": [
+      "JNJ"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "sec:0001018724-26-000038",
+     "source": "SEC EDGAR",
+     "kind": "filing",
+     "form": "8-K",
+     "ticker": "AMZN",
+     "title": "AMAZON COM INC filed a 8-K: earnings results",
+     "summary": "Current report",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "important": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+     "time": "2026-10-29T20:05:27+00:00",
+     "touches": [
+      "AMZN"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9f88b1ef-ebdf-30c4-9c4f-596565da0a88",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "JNJ",
+     "title": "Contineum Therapeutics to Present at the Stifel 2026 Healthcare Conference",
+     "summary": "SAN DIEGO, October 29, 2026--Contineum Therapeutics, Inc. (NASDAQ: CTNM) (Contineum or the Company), a clinical-stage biopharmaceutical company pioneering differentiated small molecule therapies for inflammatory and fibrotic diseases with significant unmet need, today announced that management is scheduled to present at the Stifel 2026 Healthcare Conference on Thursday, November 12th at 8:40 a.m. ET.",
+     "link": "https://finance.yahoo.com/healthcare/articles/contineum-therapeutics-present-stifel-2026-200500488.html?.tsrc=rss",
+     "time": "2026-10-29T20:05:00+00:00",
+     "touches": [
+      "JNJ"
+     ],
+     "tags": [
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9cd385c2-7eff-33a1-92c3-e2feb9c3e7d2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Target Trades at a Fraction of Walmart's Valuation. Is the Discount Deserved?",
+     "summary": "For years, Target and Walmart moved in different directions, but that pattern has now reversed.",
+     "link": "https://www.fool.com/investing/2026/10/29/target-trades-at-a-fraction-of-walmarts-valuation/?.tsrc=rss",
+     "time": "2026-10-29T20:05:00+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "sec:0000882095-26-000037",
+     "source": "SEC EDGAR",
+     "kind": "filing",
+     "form": "8-K",
+     "ticker": "GILD",
+     "title": "GILEAD SCIENCES, INC. filed a 8-K: earnings results",
+     "summary": "Current report",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "important": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000037/0000882095-26-000037-index.htm",
+     "time": "2026-10-29T20:03:48+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:224a2c02-2010-349a-9d6a-a34c78ccdc77",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead\u2019s HIV Franchise Powers Earnings Beat. The Rest Is a Work in Progress.",
+     "summary": "Gilead Sciences posts higher-than-expected sales as blockbuster HIV drug Biktarvy continues to drive its top line.",
+     "link": "https://finance.yahoo.com/m/224a2c02-2010-349a-9d6a-a34c78ccdc77/gilead%E2%80%99s-hiv-franchise-powers.html?.tsrc=rss",
+     "time": "2026-10-29T20:03:00+00:00",
+     "touches": [
+      "GILD",
+      "MRK"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2eec872c-bbe2-355e-abf1-5fbbeff41ee1",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead Sciences Announces Third Quarter 2026 Financial Results",
+     "summary": "FOSTER CITY, Calif., October 29, 2026--Gilead Sciences, Inc. (Nasdaq: GILD) announced today its results of operations for the third quarter 2026.",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-announces-third-quarter-200200673.html?.tsrc=rss",
+     "time": "2026-10-29T20:02:00+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a9b64a97-2370-323f-80de-30af1f8e15dd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation",
+     "summary": "Building on more than a decade of collaboration, the companies will expand Symbotic automation across 25 U.S. regional distribution centers, while supporting opportunities across Walmart's global supply chainWILMINGTON, Mass., Oct. 29, 2026 (GLOBE NEWSWIRE) -- Symbotic Inc. (Nasdaq: SYM), a leader in A.I.-enabled robotics technology for the supply chain, and Walmart Inc. (Nasdaq: WMT) today announced an expanded commercial agreement to bring further automation capabilities to 25 U.S. regional di",
+     "link": "https://finance.yahoo.com/technology/ai/articles/walmart-symbotic-expand-commercial-agreement-200200909.html?.tsrc=rss",
+     "time": "2026-10-29T20:02:00+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:eecb8021-547f-3fb0-b154-0a9903eaddfa",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Why Mastercard (MA) stock is trading up today",
+     "summary": "Shares of global payments technology company Mastercard (NYSE:MA) jumped 4.2% in the afternoon session after the company reported third-quarter adjusted earnings per share and revenue above analyst expectations. According to a company press release, Mastercard reported adjusted diluted earnings per share of $5.31, up 21% from $4.38 a year earlier and above the analyst estimate of $5.17. Net revenue rose 14% to $9.8 billion, above the estimate of $9.67 billion. GAAP diluted earnings per share was",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-mastercard-ma-stock-trading-200034754.html?.tsrc=rss",
+     "time": "2026-10-29T20:00:34+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b116c021-2018-328e-9b0c-614537b3b2cf",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MRK",
+     "title": "Merck (MRK) Q3 2026 Earnings Call Transcript",
+     "summary": "Generic headwinds ahead in 2027, but new launches and WINREVAIR growth signal momentum.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/29/merck-mrk-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-29T19:58:55+00:00",
+     "touches": [
+      "MRK"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9a180c1d-fec4-3325-883e-f8062a344b32",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Mastercard Services Revenue Jumps 19%: Rapid Earnings Reaction",
+     "summary": "Mastercard\u2019s services business is growing much faster than its payment network, but the rebates it pays to keep volume are growing faster than the network too.",
+     "link": "https://www.fool.com/investing/2026/10/29/mastercard-services-revenue-jumps-19-rapid-earnings-reaction/?.tsrc=rss",
+     "time": "2026-10-29T19:57:32+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:bfbf919d-7c51-33ea-a60d-6a9b0c1892dd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Nasdaq Poised to Plunge as AI Stock Wipeout Follows Hot Inflation Data",
+     "summary": "Third quarter GDP beat at 3.4% while inflation stuck at 3.6%, and traders now see an 80% chance of a December Fed hike. Eric Bleeker covers the market's risk-off turn and the morning's biggest earnings movers, from Alphabet and ServiceNow to Caterpillar and Eli Lilly.",
+     "link": "https://247wallst.com/videos/nasdaq-poised-to-plunge-as-ai-stock-wipeout-follows-hot-inflation-data/?.tsrc=rss",
+     "time": "2026-10-29T19:51:04+00:00",
+     "touches": [
+      "CAT",
+      "LLY",
+      "NOW"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1c54c832-f3c1-3dbe-aaa9-5e44207b7efe",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Why Eli Lilly\u2019s CFO Sees Cancer Drugs as the Next Growth Drivers",
+     "summary": "Eli Lilly posts earnings that handily top estimates, fueled by strong performance in its metabolic portfolio.",
+     "link": "https://finance.yahoo.com/m/1c54c832-f3c1-3dbe-aaa9-5e44207b7efe/why-eli-lilly%E2%80%99s-cfo-sees.html?.tsrc=rss",
+     "time": "2026-10-29T19:48:00+00:00",
+     "touches": [
+      "LLY",
+      "MRK"
+     ],
+     "tags": [
+      "earnings",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:41cf858d-d4a9-306d-b74e-d82a27a93575",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Eli Lilly Sells 53% More at Lower Prices: Rapid Earnings Reaction",
+     "summary": "Eli Lilly\u2019s realized prices fell 15%, but a 53% jump in volume pushed revenue up 39% and lifted full-year guidance by $5.5 billion. Here\u2019s why the math works, and what could break it.",
+     "link": "https://www.fool.com/investing/2026/10/29/eli-lilly-sells-53-more-at-lower-prices-rapid-earnings-reaction/?.tsrc=rss",
+     "time": "2026-10-29T19:42:20+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1ed832db-5b82-3a40-ab2e-4f55cac13121",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LLY",
+     "title": "Weight-Loss Drugs Are Fueling a Beauty Boom. Two Stocks That Stand to Benefit.",
+     "summary": "Almost half of women taking GLP-1s say they are more interested in beauty than they were a year ago, according to analyst Sydney Wagner.",
+     "link": "https://finance.yahoo.com/m/1ed832db-5b82-3a40-ab2e-4f55cac13121/weight-loss-drugs-are-fueling.html?.tsrc=rss",
+     "time": "2026-10-29T19:41:00+00:00",
+     "touches": [
+      "LLY"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:7c4c1068-02e3-3ed8-a097-20d9a64cbb70",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CAT",
+     "title": "Why Caterpillar (CAT) shares are falling today",
+     "summary": "Shares of construction equipment company Caterpillar (NYSE:CAT) fell 8.3% in the afternoon session after the company reported its third-quarter 2026 financial results.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-caterpillar-cat-shares-falling-193634648.html?.tsrc=rss",
+     "time": "2026-10-29T19:36:34+00:00",
+     "touches": [
+      "CAT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:b4c6484d-0e8f-3944-9914-eed4fd1736d0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "This Cybersecurity Stock Just Had Its Worst Day in Years. Is It a Buying Opportunity?",
+     "summary": "A cut to the services forecast overshadowed a quarter that beat on revenue, billings, and earnings.",
+     "link": "https://www.fool.com/investing/2026/10/29/this-cybersecurity-stock-just-had-its-worst-day-in-years-is-it-a-buying-opportunity/?.tsrc=rss",
+     "time": "2026-10-29T19:32:01+00:00",
+     "touches": [
+      "FTNT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:72c3eee9-cc69-39b0-8c1b-f3a530fa6317",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Mastercard (MA) Q3 2026 Earnings Call Transcript",
+     "summary": "CEO Michael Miebach discusses 14% revenue growth and new AI partnerships.",
+     "link": "https://www.fool.com/earnings/call-transcripts/2026/10/29/mastercard-ma-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "time": "2026-10-29T19:13:18+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "earnings",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2726738f-bdf3-3a5e-a2cc-601fd5b40cfd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "WMT",
+     "title": "iHerb Appoints eBay Chief Commercial Officer Jordan Sweetnam to Board of Directors",
+     "summary": "Digital marketplace and eCommerce veteran brings two decades of global growth, product, and customer experience leadership to iHerb's BoardIRVINE, Calif., Oct. 29, 2026 (GLOBE NEWSWIRE) -- iHerb Holdings, LLC, a leading global eCommerce retailer of vitamins, minerals, supplements and other health and wellness products, today announced the appointment of Jordan Sweetnam, Senior Vice President and Chief Commercial Officer of eBay Inc., as an independent director to its board of directors. Sweetnam",
+     "link": "https://finance.yahoo.com/small-business/articles/iherb-appoints-ebay-chief-commercial-190000565.html?.tsrc=rss",
+     "time": "2026-10-29T19:00:00+00:00",
+     "touches": [
+      "WMT"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:7df5c12b-d53b-30a8-9433-f626777ff3c7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MRK",
+     "title": "Merck Lifts Outlook on a Lower Tax Rate: Rapid Earnings Reaction",
+     "summary": "Merck\u2019s new drugs are growing fast enough to cover generic losses, but part of this quarter\u2019s sales gain won\u2019t last. Here\u2019s what to watch.",
+     "link": "https://www.fool.com/investing/2026/10/29/merck-lifts-outlook-on-a-lower-tax-rate-rapid-earnings-reaction/?.tsrc=rss",
+     "time": "2026-10-29T18:59:59+00:00",
+     "touches": [
+      "MRK"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ff9ee9b8-832d-32ca-ba2d-50d6d82cd9b4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CVNA",
+     "title": "Carvana Soars 9% on Record 217,000-Unit Quarter, Top-End EBITDA Outlook: \u201cThe Moat Is Widening\u201d",
+     "summary": "Key TakeawaysCarvana shares jumped 9% today after record third-quarter retail sales of 217,385 cars, up 39%. Total gross profit per car fell $365, mainly on lower loan rates for buyers, a trade worth making at this growth.",
+     "link": "https://www.tikr.com/blog/carvana-soars-9-on-record-217000-unit-quarter-top-end-ebitda-outlook-the-moat-is-widening?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-29T18:56:50+00:00",
+     "touches": [
+      "CVNA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:61c05f9b-c53d-331c-ac04-2308b5fe1bc3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "FTNT",
+     "title": "Wall Street Is Done Giving AI Software a Pass",
+     "summary": "Fortinet and ServiceNow plunged 22% and 27%, respectively, as investors punished soft guidance and questioned whether AI hype can deliver real growth.",
+     "link": "https://app.moby.co/home/news/news-wall-street-is-done-giving-ai-software-a-pass?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "time": "2026-10-29T18:54:15+00:00",
+     "touches": [
+      "FTNT",
+      "NOW"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:fcb3f5b8-dd33-316a-b8d0-d8e80b79ec40",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BA",
+     "title": "Boeing Keeps Sliding: Why Citi Sees 56% Upside",
+     "summary": "Key TakeawaysBoeing stock is down 28% in six months. It fell nearly 11% on Tuesday after third-quarter results pushed its $10 billion free cash flow target out to 2029.",
+     "link": "https://www.tikr.com/blog/boeing-keeps-sliding-why-citi-sees-56-upside?ref=yahoofinance&.tsrc=rss",
+     "time": "2026-10-29T18:48:14+00:00",
+     "touches": [
+      "BA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6b0c10a2-454d-3cc0-9795-ac663d0fccf6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TXN",
+     "title": "Texas Instruments Pays $1.52 a Quarter, Analog Devices $1.10. Which Dividend Is Stronger?",
+     "summary": "Texas Instruments just raised its dividend again and throws off billions in free cash flow, yet one number buried in its payout math raises a real question about which analog chip giant actually has the safer income stream.",
+     "link": "https://247wallst.com/investing/2026/10/29/texas-instruments-pays-1-52-a-quarter-analog-devices-1-10-which-dividend-is-stronger/?.tsrc=rss",
+     "time": "2026-10-29T18:47:31+00:00",
+     "touches": [
+      "TXN"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:179ff348-41bb-3fb5-8b9a-9da455b97a62",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "ServiceNow's AI Momentum Still Too Small to Inflect Overall Growth, Truist Says",
+     "summary": "ServiceNow's (NOW) accelerating momentum in artificial intelligence is still too small to inflect th",
+     "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-apos-ai-momentum-still-184514842.html?.tsrc=rss",
+     "time": "2026-10-29T18:45:14+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:79ce89f0-5b10-3693-b1aa-61d6314bb1ad",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "NOW",
+     "title": "ServiceNow: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Deployment teams are now bundled into major deals, accelerating how fast clients move from testing to production.",
+     "link": "https://www.fool.com/earnings/takeaways/2026/10/29/servicenow-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "time": "2026-10-29T18:45:01+00:00",
+     "touches": [
+      "NOW"
+     ],
+     "tags": [],
+     "new": true
+    }
+   ],
+   "notes": []
+  }
+ },
+ "pelosi": {
+  "cmd": "trader-pelosi/ptr.py new --read --json",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "new": [
+    {
+     "doc_id": "20035710",
+     "type": "P",
+     "type_name": "Periodic Transaction Report",
+     "last": "Hern",
+     "first": "Kevin",
+     "name": "Hon. Kevin Hern",
+     "district": "OK01",
+     "year": 2026,
+     "filed": "2026-10-28",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+    },
+    {
+     "doc_id": "9116391",
+     "type": "P",
+     "type_name": "Periodic Transaction Report",
+     "last": "Harshbarger",
+     "first": "Diana",
+     "name": "Hon. Diana Harshbarger",
+     "district": "TN01",
+     "year": 2026,
+     "filed": "2026-10-27",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116391.pdf"
+    },
+    {
+     "doc_id": "9116390",
+     "type": "P",
+     "type_name": "Periodic Transaction Report",
+     "last": "Harshbarger",
+     "first": "Diana",
+     "name": "Hon. Diana Harshbarger",
+     "district": "TN01",
+     "year": 2026,
+     "filed": "2026-10-27",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116390.pdf"
+    },
+    {
+     "doc_id": "9116389",
+     "type": "P",
+     "type_name": "Periodic Transaction Report",
+     "last": "Harshbarger",
+     "first": "Diana",
+     "name": "Hon. Diana Harshbarger",
+     "district": "TN01",
+     "year": 2026,
+     "filed": "2026-10-27",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116389.pdf"
+    }
+   ],
+   "reports": [
+    {
+     "filing": {
+      "doc_id": "20035710",
+      "type": "P",
+      "type_name": "Periodic Transaction Report",
+      "last": "Hern",
+      "first": "Kevin",
+      "name": "Hon. Kevin Hern",
+      "district": "OK01",
+      "year": 2026,
+      "filed": "2026-10-28",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+     },
+     "pdf": "trader/state/ptr-pdfs/20035710.pdf",
+     "report": {
+      "name": "Hon. Kevin Hern",
+      "status": "Member",
+      "district": "OK01",
+      "doc_id": "20035710",
+      "filed": "2026-10-28",
+      "rows": [
+       {
+        "owner": "JT",
+        "owner_name": "joint",
+        "type": "S (partial)",
+        "type_name": "partial sale",
+        "date": "2026-10-23",
+        "notified": "2026-10-27",
+        "amount": "$15,001 - $50,000",
+        "status": "New",
+        "account": "Hern Family Foundation",
+        "ticker": "ASML",
+        "asset_type": "ST",
+        "asset": "ASML Holding N.V. - New York Registry Shares",
+        "amount_low": 15001,
+        "amount_high": 50000,
+        "description": null,
+        "days_to_disclose": 5,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "S (partial)",
+        "type_name": "partial sale",
+        "date": "2026-10-23",
+        "notified": "2026-10-27",
+        "amount": "$15,001 - $50,000",
+        "status": "New",
+        "account": "Kevin Hern Traditional IRA",
+        "ticker": "STX",
+        "asset_type": "ST",
+        "asset": "Seagate Technology Holdings PLC - Ordinary Shares",
+        "amount_low": 15001,
+        "amount_high": 50000,
+        "description": null,
+        "days_to_disclose": 5,
+        "late": false
+       },
+       {
+        "owner": "JT",
+        "owner_name": "joint",
+        "type": "S (partial)",
+        "type_name": "partial sale",
+        "date": "2026-10-14",
+        "notified": "2026-10-27",
+        "amount": "$15,001 - $50,000",
+        "status": "New",
+        "account": "Hern Family Foundation",
+        "ticker": "TXN",
+        "asset_type": "ST",
+        "asset": "Texas Instruments Incorporated - Common Stock",
+        "amount_low": 15001,
+        "amount_high": 50000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       }
+      ],
+      "pdf": "trader/state/ptr-pdfs/20035710.pdf",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+     }
+    },
+    {
+     "filing": {
+      "doc_id": "9116391",
+      "type": "P",
+      "type_name": "Periodic Transaction Report",
+      "last": "Harshbarger",
+      "first": "Diana",
+      "name": "Hon. Diana Harshbarger",
+      "district": "TN01",
+      "year": 2026,
+      "filed": "2026-10-27",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116391.pdf"
+     },
+     "pdf": "trader/state/ptr-pdfs/9116391.pdf",
+     "report": {
+      "name": null,
+      "status": null,
+      "district": null,
+      "doc_id": null,
+      "filed": "2026-10-27",
+      "rows": [],
+      "pdf": "trader/state/ptr-pdfs/9116391.pdf",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116391.pdf"
+     }
+    },
+    {
+     "filing": {
+      "doc_id": "9116390",
+      "type": "P",
+      "type_name": "Periodic Transaction Report",
+      "last": "Harshbarger",
+      "first": "Diana",
+      "name": "Hon. Diana Harshbarger",
+      "district": "TN01",
+      "year": 2026,
+      "filed": "2026-10-27",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116390.pdf"
+     },
+     "pdf": "trader/state/ptr-pdfs/9116390.pdf",
+     "report": {
+      "name": null,
+      "status": null,
+      "district": null,
+      "doc_id": null,
+      "filed": "2026-10-27",
+      "rows": [],
+      "pdf": "trader/state/ptr-pdfs/9116390.pdf",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116390.pdf"
+     }
+    },
+    {
+     "filing": {
+      "doc_id": "9116389",
+      "type": "P",
+      "type_name": "Periodic Transaction Report",
+      "last": "Harshbarger",
+      "first": "Diana",
+      "name": "Hon. Diana Harshbarger",
+      "district": "TN01",
+      "year": 2026,
+      "filed": "2026-10-27",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116389.pdf"
+     },
+     "pdf": "trader/state/ptr-pdfs/9116389.pdf",
+     "report": {
+      "name": null,
+      "status": null,
+      "district": null,
+      "doc_id": null,
+      "filed": "2026-10-27",
+      "rows": [],
+      "pdf": "trader/state/ptr-pdfs/9116389.pdf",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116389.pdf"
+     }
+    }
+   ]
+  }
+ }
+}
