@@ -1,0 +1,2 @@
+A {"limit": {"http": 200, "status": "accepted", "order_class": "bracket", "legs": 2, "message": null, "cancel_http": 204}, "stop_limit": {"http": 200, "status": "accepted", "order_class": "bracket", "legs": 2, "message": null, "cancel_http": 204}}
+B {"limit": {"http": 200, "status": "accepted", "order_class": "bracket", "legs": 2, "message": null, "cancel_http": 204}, "stop_limit": {"http": 200, "status": "accepted", "order_class": "bracket", "legs": 2, "message": null, "cancel_http": 204}}
