@@ -13,14 +13,16 @@ Actions
               - place queued orders from paper/queue/<date>.json whose not_before has passed
               - ORB at >= 10:15 ET (once): A = qualifiers, B = all triggered plans
               - cancel unfilled entries past cancel_at (default 11:30 ET)
-              - close positions past their flat_by; flatten everything from 15:45 ET
-              - ledger from 16:05 ET
+              - close positions past their flat_by; flatten everything 15 min before the close
+                (15:45 ET; 12:45 ET on 13:00 early-close days, from the Alpaca calendar)
+              - ledger 5 min after the close (fills, R, slippage_R, MFE/MAE in R)
+            each step is isolated: one failure is logged in state["errors"] and the state is always saved
   flatten   cancel all orders and close all positions on A and B now
 
 Safety: refuses any base URL other than https://paper-api.alpaca.markets. Sleeve limits from
 claude/screening-framework.md are enforced on A regardless of the paper balance:
 risk <= $100/trade ($50 mixed regime), <= $5,000 notional, <= 2 entries/day, <= 2 open positions,
-no new entries once the day's P/L <= -$200.
+no new entries once the day's P/L <= -$200 or the week's <= -$400.
 """
 import json
 import math
@@ -43,6 +45,8 @@ MAX_NOTIONAL = 5000.0
 MAX_ENTRIES_A = 2
 MAX_OPEN_A = 2
 DAY_STOP = -200.0
+WEEK_STOP = -400.0
+CLOSE_MIN = 16 * 60   # today's NYSE close in minutes (13:00 on early-close days); set by tick()
 ORB_N = int(os.environ.get("ORB_N") or 8)
 LOG: list = []
 
@@ -138,6 +142,32 @@ def state_path(day: str) -> Path:
     return STATE / f"{day}.json"
 
 
+def flat_cutoff() -> str:
+    """15 min before today's close: 15:45 normally, 12:45 on a 13:00 early close."""
+    m = CLOSE_MIN - 15
+    return f"{m // 60:02d}:{m % 60:02d}"
+
+
+def eff_flat(flat_by: str | None) -> str:
+    fb = flat_by or "15:45"
+    return fb if hm(fb) <= hm(flat_cutoff()) else flat_cutoff()
+
+
+def week_pnl_a(day: str) -> float:
+    """Account A realised P/L from earlier days of this ISO week (scans/paper/ledger.json)."""
+    d = datetime.strptime(day, "%Y-%m-%d").date()
+    wk = d.isocalendar()[:2]
+    tot = 0.0
+    for r in load_json(LEDGER / "ledger.json", []):
+        try:
+            rd = datetime.strptime(r["date"], "%Y-%m-%d").date()
+        except Exception:
+            continue
+        if r.get("account") == "A" and rd < d and rd.isocalendar()[:2] == wk and r.get("pnl") is not None:
+            tot += float(r["pnl"])
+    return tot
+
+
 # ---------------------------------------------------------------- guards (account A only)
 def guard_a(day: str, st: dict) -> str | None:
     s, acct = A.get("/v2/account")
@@ -146,6 +176,9 @@ def guard_a(day: str, st: dict) -> str | None:
     pnl = float(acct["equity"]) - float(acct["last_equity"])
     if pnl <= DAY_STOP:
         return f"day P/L {pnl:.2f} <= {DAY_STOP}"
+    week = week_pnl_a(day) + pnl
+    if week <= WEEK_STOP:
+        return f"week P/L {week:.2f} <= {WEEK_STOP} (weekly pause)"
     s, pos = A.get("/v2/positions")
     if s == 200 and len(pos) >= MAX_OPEN_A:
         return f"{len(pos)} open positions"
@@ -192,7 +225,7 @@ def place(acct: Alpaca, o: dict, day: str, st: dict) -> dict:
         rec = {"account": acct.name, "id": leg["id"], "symbol": leg["symbol"], "qty": int(leg["qty"]),
                "entry": leg.get("plan_entry") or leg.get("limit_price") or leg.get("stop_price"),
                "stop": leg["stop_loss"], "target": leg["take_profit"], "source": leg.get("source"),
-               "cancel_at": leg.get("cancel_at") or "11:30", "flat_by": leg.get("flat_by") or "15:45",
+               "cancel_at": leg.get("cancel_at") or "11:30", "flat_by": eff_flat(leg.get("flat_by")),
                "planned_risk": round(int(leg["qty"]) * ((leg.get("plan_entry") or leg.get("limit_price")
                                                         or leg.get("stop_price")) - leg["stop_loss"]), 2),
                "http": s, "status": "placed" if s in (200, 201) else "rejected",
@@ -271,14 +304,54 @@ def regime() -> str:
     return "mixed"
 
 
+def yahoo_5m(sym: str) -> list:
+    """Today's completed 5-minute bars [(datetime NY, high, low, close)] from Yahoo chart JSON."""
+    url = f"https://query2.finance.yahoo.com/v8/finance/chart/{sym}?range=1d&interval=5m"
+    req = urllib.request.Request(url, headers={"User-Agent": "tv-scanner-paper/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        d = json.loads(r.read())["chart"]["result"][0]
+    q = d["indicators"]["quote"][0]
+    out = []
+    for ts, h, l, c in zip(d.get("timestamp") or [], q["high"], q["low"], q["close"]):
+        if None not in (h, l, c):
+            out.append((datetime.fromtimestamp(ts, NY), float(h), float(l), float(c)))
+    return out
+
+
+def spy_or_state(t: datetime) -> dict:
+    """Logged feature (not a rule): SPY vs its own 15-minute opening range at ORB time."""
+    bars = [b for b in yahoo_5m("SPY") if b[0].date() == t.date()]
+    orb = [b for b in bars if hm("09:30") <= minutes(b[0]) < hm("09:45")]
+    done = [b for b in bars if minutes(b[0]) + 5 <= minutes(t)]
+    if len(orb) < 3 or not done:
+        return {"state": None}
+    hi, lo, last = max(b[1] for b in orb), min(b[2] for b in orb), done[-1][3]
+    return {"or_high": hi, "or_low": lo, "last": last,
+            "state": "above" if last > hi else "below" if last < lo else "inside"}
+
+
 def run_orb(day: str, st: dict, t: datetime):
     import trader_skills as TS
     reg = regime()
     risk = 100.0 if reg == "long" else 50.0
     st["regime"] = reg
+    ev = load_json(ROOT / "paper" / "events.json", {}).get(day, {})
+    flat_by = eff_flat(os.environ.get("FLAT_BY") or ev.get("flat_by") or "15:45")
+    if ev.get("risk_usd"):
+        risk = min(risk, float(ev["risk_usd"]))
+    if ev.get("no_orb"):
+        st["orb"] = {"skipped": f"events.json: {ev.get('note', 'no ORB today')}"}
+        log(st["orb"]["skipped"])
+        return
+    # the exit plan, Time Machine and risk check see the same flat-by and risk the paper order uses
     os.environ["RISK_USD"] = str(risk)
+    TS.FLAT_BY = flat_by
     TS.WORK.mkdir(exist_ok=True)
     TS.write_config()
+    try:
+        spy = spy_or_state(t)
+    except Exception as e:  # noqa: BLE001
+        spy = {"state": None, "error": str(e)[:200]}
     res = TS.orb(None, ORB_N)
     earn_today = set()
     try:
@@ -291,14 +364,6 @@ def run_orb(day: str, st: dict, t: datetime):
                 earn_today.add(r["name"])
     except Exception as e:  # noqa: BLE001
         log("earnings lookup failed", e)
-    ev = load_json(ROOT / "paper" / "events.json", {}).get(day, {})
-    flat_by = os.environ.get("FLAT_BY") or ev.get("flat_by") or "15:45"
-    if ev.get("risk_usd"):
-        risk = min(risk, float(ev["risk_usd"]))
-    if ev.get("no_orb"):
-        st["orb"] = {"skipped": f"events.json: {ev.get('note', 'no ORB today')}"}
-        log(st["orb"]["skipped"])
-        return
     summary = []
     for p in res.get("plans", []):
         sym = p["symbol"]
@@ -348,7 +413,7 @@ def run_orb(day: str, st: dict, t: datetime):
             else:
                 o.update(entry_type="stop_limit", stop_price=entry, limit_price=entry + 0.1 * R)
             place(acct, o, day, st)
-    st["orb"] = {"at": t.strftime("%H:%M"), "regime": reg, "risk_usd": risk,
+    st["orb"] = {"at": t.strftime("%H:%M"), "regime": reg, "risk_usd": risk, "flat_by": flat_by, "spy_or": spy,
                  "counts": ((res.get("scan") or {}).get("data") or {}).get("counts"), "plans": summary}
 
 
@@ -381,7 +446,7 @@ def flat_due(st: dict, t: datetime):
     for rec in st.get("placed", []):
         if rec.get("status") != "placed" or rec.get("flat_done"):
             continue
-        if minutes(t) >= hm(rec.get("flat_by") or "15:45"):
+        if minutes(t) >= hm(eff_flat(rec.get("flat_by"))):
             close_symbol(ACCTS[rec["account"]], rec["symbol"])
             rec["flat_done"] = True
 
@@ -407,24 +472,47 @@ def ledger(day: str, st: dict):
             for x in [o] + (o.get("legs") or []):
                 q = float(x.get("filled_qty") or 0)
                 if q:
-                    f = fills.setdefault(x["symbol"], {"buy": 0.0, "sell": 0.0, "bq": 0.0, "sq": 0.0})
+                    f = fills.setdefault(x["symbol"], {"buy": 0.0, "sell": 0.0, "bq": 0.0, "sq": 0.0,
+                                                       "t_in": None, "t_out": None})
                     px = float(x["filled_avg_price"])
+                    ft = x.get("filled_at")
                     if x["side"] == "buy":
                         f["buy"] += q * px; f["bq"] += q
+                        f["t_in"] = min(filter(None, [f["t_in"], ft]), default=None)
                     else:
                         f["sell"] += q * px; f["sq"] += q
+                        f["t_out"] = max(filter(None, [f["t_out"], ft]), default=None)
         s, acc = acct.get("/v2/account")
         for sym, f in fills.items():
             plan = [r for r in st.get("placed", []) if r["account"] == acct.name and r["symbol"] == sym]
             risk = sum(r.get("planned_risk") or 0 for r in plan) or None
             pnl = round(f["sell"] - f["buy"], 2) if f["sq"] == f["bq"] else None
-            rows.append({"date": day, "account": acct.name, "symbol": sym,
-                         "source": plan[0].get("source") if plan else "manual?",
-                         "qty": f["bq"], "avg_entry": round(f["buy"] / f["bq"], 4) if f["bq"] else None,
-                         "avg_exit": round(f["sell"] / f["sq"], 4) if f["sq"] else None,
-                         "pnl": pnl, "planned_risk": risk,
-                         "R": round(pnl / risk, 3) if (pnl is not None and risk) else None,
-                         "open": f["sq"] != f["bq"]})
+            avg_in = round(f["buy"] / f["bq"], 4) if f["bq"] else None
+            row = {"date": day, "account": acct.name, "symbol": sym,
+                   "source": plan[0].get("source") if plan else "manual?",
+                   "qty": f["bq"], "avg_entry": avg_in,
+                   "avg_exit": round(f["sell"] / f["sq"], 4) if f["sq"] else None,
+                   "pnl": pnl, "planned_risk": risk,
+                   "R": round(pnl / risk, 3) if (pnl is not None and risk) else None,
+                   "open": f["sq"] != f["bq"], "filled_at": f["t_in"], "exited_at": f["t_out"]}
+            # execution quality and excursions, in R of the plan (for stop/target tuning and the slippage test)
+            try:
+                p0 = plan[0]
+                rps = float(p0["entry"]) - float(p0["stop"])
+                if rps > 0 and avg_in:
+                    row["slippage_R"] = round((avg_in - float(p0["entry"])) / rps, 3)
+                    if f["t_in"] and f["t_out"]:
+                        t_in = datetime.fromisoformat(f["t_in"].replace("Z", "+00:00")).astimezone(NY)
+                        t_out = datetime.fromisoformat(f["t_out"].replace("Z", "+00:00")).astimezone(NY)
+                        # bars that overlap the holding period (a 5-minute bar is stamped at its start)
+                        held = [b for b in yahoo_5m(sym)
+                                if b[0].timestamp() + 300 > t_in.timestamp() and b[0] <= t_out]
+                        if held:
+                            row["mfe_R"] = round((max(b[1] for b in held) - avg_in) / rps, 2)
+                            row["mae_R"] = round((avg_in - min(b[2] for b in held)) / rps, 2)
+            except Exception as e:  # noqa: BLE001
+                row["excursion_error"] = str(e)[:120]
+            rows.append(row)
         st.setdefault("equity", {})[acct.name] = {"equity": acc.get("equity"), "last_equity": acc.get("last_equity")} \
             if s == 200 else None
     st["ledger"] = rows
@@ -436,39 +524,69 @@ def ledger(day: str, st: dict):
 
 
 # ---------------------------------------------------------------- actions
-def is_trading_day(t: datetime) -> bool:
+def trading_close(t: datetime) -> int | None:
+    """Today's NYSE close in minutes NY (960, or 780 on an early close); None if not a trading day."""
     acct = A if A.ok else B
     s, cal = acct.get("/v2/calendar", start=t.date().isoformat(), end=t.date().isoformat())
-    return s == 200 and bool(cal) and cal[0]["date"] == t.date().isoformat()
+    if s == 200 and cal and cal[0]["date"] == t.date().isoformat():
+        return hm(cal[0].get("close") or "16:00")
+    return None
 
 
 def tick():
+    global CLOSE_MIN
     t = now_ny()
     day = t.date().isoformat()
-    if not is_trading_day(t):
+    close = trading_close(t)
+    if close is None:
         log(f"{day}: not a trading day")
         return
+    CLOSE_MIN = close
     sp = state_path(day)
     st = load_json(sp, {"date": day})
+    st["close"] = f"{close // 60:02d}:{close % 60:02d}"
     st.setdefault("ticks", []).append(t.strftime("%H:%M"))
     m = minutes(t)
-    if m < hm("15:45"):
-        run_queue(day, st, t)
-    if hm("10:15") <= m < hm("11:30") and not st.get("orb"):
-        run_orb(day, st, t)
-    elif m >= hm("11:30") and not st.get("orb"):
-        st["orb"] = {"skipped": f"tick at {t:%H:%M} is past 11:30; ORB stale"}
-        log(st["orb"]["skipped"])
-    cancel_due(st, t)
-    flat_due(st, t)
-    if m >= hm("15:45") and not st.get("flattened"):
-        flatten_all()
-        st["flattened"] = t.strftime("%H:%M")
-    if m >= hm("16:05"):
-        ledger(day, st)
-    STATE.mkdir(parents=True, exist_ok=True)
-    st.setdefault("log", []).extend(LOG)
-    sp.write_text(json.dumps(st, indent=1, default=str))
+    cut = hm(flat_cutoff())
+
+    def phase(name, fn, *a):
+        # one failing step (e.g. Yahoo down during the ORB) must not stop the others or lose the state
+        try:
+            fn(*a)
+        except Exception as e:  # noqa: BLE001
+            log(f"ERROR in {name}: {type(e).__name__}: {str(e)[:300]}")
+            st.setdefault("errors", []).append({"at": t.strftime("%H:%M"), "phase": name, "error": str(e)[:300]})
+
+    try:
+        if m < cut:
+            phase("queue", run_queue, day, st, t)
+        if hm("10:15") <= m < hm("11:30") and not st.get("orb"):
+            phase("orb", run_orb, day, st, t)
+            if not st.get("orb"):
+                st["orb_attempts"] = st.get("orb_attempts", 0) + 1
+                if st["orb_attempts"] >= 2:
+                    st["orb"] = {"skipped": "ORB failed twice; see errors"}
+        elif m >= hm("11:30") and not st.get("orb"):
+            st["orb"] = {"skipped": f"tick at {t:%H:%M} is past 11:30; ORB stale"}
+            log(st["orb"]["skipped"])
+        phase("cancel", cancel_due, st, t)
+        phase("flat_by", flat_due, st, t)
+        if m >= cut and m < close:
+            # every tick in the last 15 minutes re-checks: the backup tick closes anything the first one missed
+            try:
+                left = {n: len(a.get("/v2/positions")[1] or []) for n, a in ACCTS.items() if a.ok}
+            except Exception:  # noqa: BLE001
+                left = {"unknown": 1}
+            if not st.get("flattened") or any(left.values()):
+                phase("flatten", flatten_all)
+                st["flattened"] = t.strftime("%H:%M")
+                st.setdefault("flatten_checks", []).append({"at": t.strftime("%H:%M"), "open_before": left})
+        if m >= close + 5:
+            phase("ledger", ledger, day, st)
+    finally:
+        STATE.mkdir(parents=True, exist_ok=True)
+        st.setdefault("log", []).extend(LOG)
+        sp.write_text(json.dumps(st, indent=1, default=str))
 
 
 def check():
