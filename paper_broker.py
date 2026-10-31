@@ -291,7 +291,14 @@ def run_orb(day: str, st: dict, t: datetime):
                 earn_today.add(r["name"])
     except Exception as e:  # noqa: BLE001
         log("earnings lookup failed", e)
-    flat_by = os.environ.get("FLAT_BY") or "15:45"
+    ev = load_json(ROOT / "paper" / "events.json", {}).get(day, {})
+    flat_by = os.environ.get("FLAT_BY") or ev.get("flat_by") or "15:45"
+    if ev.get("risk_usd"):
+        risk = min(risk, float(ev["risk_usd"]))
+    if ev.get("no_orb"):
+        st["orb"] = {"skipped": f"events.json: {ev.get('note', 'no ORB today')}"}
+        log(st["orb"]["skipped"])
+        return
     summary = []
     for p in res.get("plans", []):
         sym = p["symbol"]
