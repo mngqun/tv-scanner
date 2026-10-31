@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T09:47:55.199705-04:00",
+ "at": "2026-10-31T10:16:15.125880-04:00",
  "accounts": {
   "A": {
    "http": 200,
@@ -8,15 +8,40 @@
    "cash": "100000",
    "buying_power": "400000",
    "shorting_enabled": true,
+   "options_approved_level": 3,
+   "options_trading_level": 3,
+   "options_buying_power": "100000",
    "account_tail": "F5NA",
    "clock": {
     "is_open": false,
     "next_close": "2026-11-02T16:00:00-05:00",
     "next_open": "2026-11-02T09:30:00-05:00",
-    "timestamp": "2026-10-31T09:47:54.463851615-04:00"
+    "timestamp": "2026-10-31T10:16:13.622663189-04:00"
    },
    "spy_last_iex": 756.0,
-   "endpoint": "https://paper-api.alpaca.markets"
+   "endpoint": "https://paper-api.alpaca.markets",
+   "options_contracts_http": 200,
+   "options_sample": {
+    "id": "68736859-f27b-4482-a096-f61363c20924",
+    "symbol": "TQQQ261102C00035000",
+    "name": "TQQQ Nov 02 2026 35 Call",
+    "status": "active",
+    "tradable": true,
+    "expiration_date": "2026-11-02",
+    "root_symbol": "TQQQ",
+    "underlying_symbol": "TQQQ",
+    "underlying_asset_id": "dce2ac30-c928-4416-be25-2213d057f30a",
+    "type": "call",
+    "style": "american",
+    "strike_price": "35",
+    "multiplier": "100",
+    "size": "100",
+    "open_interest": null,
+    "open_interest_date": null,
+    "close_price": "25.8",
+    "close_price_date": "2026-10-30",
+    "ppind": true
+   }
   },
   "B": {
    "http": 200,
@@ -25,15 +50,40 @@
    "cash": "100000",
    "buying_power": "400000",
    "shorting_enabled": true,
+   "options_approved_level": 3,
+   "options_trading_level": 3,
+   "options_buying_power": "100000",
    "account_tail": "48HZ",
    "clock": {
     "is_open": false,
     "next_close": "2026-11-02T16:00:00-05:00",
     "next_open": "2026-11-02T09:30:00-05:00",
-    "timestamp": "2026-10-31T09:47:54.992420219-04:00"
+    "timestamp": "2026-10-31T10:16:14.651998273-04:00"
    },
    "spy_last_iex": 756.0,
-   "endpoint": "https://paper-api.alpaca.markets"
+   "endpoint": "https://paper-api.alpaca.markets",
+   "options_contracts_http": 200,
+   "options_sample": {
+    "id": "68736859-f27b-4482-a096-f61363c20924",
+    "symbol": "TQQQ261102C00035000",
+    "name": "TQQQ Nov 02 2026 35 Call",
+    "status": "active",
+    "tradable": true,
+    "expiration_date": "2026-11-02",
+    "root_symbol": "TQQQ",
+    "underlying_symbol": "TQQQ",
+    "underlying_asset_id": "dce2ac30-c928-4416-be25-2213d057f30a",
+    "type": "call",
+    "style": "american",
+    "strike_price": "35",
+    "multiplier": "100",
+    "size": "100",
+    "open_interest": null,
+    "open_interest_date": null,
+    "close_price": "25.8",
+    "close_price_date": "2026-10-30",
+    "ppind": true
+   }
   }
  }
 }
