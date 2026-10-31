@@ -1,21 +1,17 @@
 name: Paper broker (Alpaca PAPER)
 
 # Ticks are idempotent: each one does whatever is due at the current New York time.
+# ~29 runs a weekday (~1 min each); check Actions minutes after week 1.
 # Cron is UTC and set for US Eastern STANDARD time (UTC-5, 1 Nov 2026 - 14 Mar 2027).
 # Move every hour back by one when DST starts (14 Mar 2027).
 on:
   schedule:
-    - cron: "37 14 * * 1-5"   # 09:37 ET  queue (open-time entries)
-    - cron: "01 15 * * 1-5"   # 10:01 ET  queue (10:00 entries)
-    - cron: "17 15 * * 1-5"   # 10:17 ET  ORB + queue
-    - cron: "33 15 * * 1-5"   # 10:33 ET  ORB backup
-    - cron: "32 16 * * 1-5"   # 11:32 ET  cancel unfilled entries
-    - cron: "46 17 * * 1-5"   # 12:46 ET  flatten on 13:00 early-close days (27 Nov, 24 Dec)
-    - cron: "53 17 * * 1-5"   # 12:53 ET  flatten backup on early-close days
-    - cron: "52 18 * * 1-5"   # 13:52 ET  early flat-by (event days); ledger on early-close days
-    - cron: "46 20 * * 1-5"   # 15:46 ET  flatten
-    - cron: "53 20 * * 1-5"   # 15:53 ET  flatten backup
-    - cron: "10 21 * * 1-5"   # 16:10 ET  ledger
+    - cron: "37,52 14 * * 1-5"        # 09:37 / 09:52 ET  Rule C (B) + queue
+    - cron: "7,22,37,52 15-20 * * 1-5" # 10:07 ... 15:52 ET every 15 min: scan prep 10:07, ORB 10:22 (backup 10:37),
+                                       #   cancels at 11:37, breakeven moves, time exits, reconcile 15:52
+    - cron: "41,47 20 * * 1-5"        # 15:41 / 15:47 ET  flatten intraday (flat cutoff 15:40) + reconcile
+    - cron: "41,47 17 * * 1-5"        # 12:41 / 12:47 ET  same on 13:00 early-close days (27 Nov, 24 Dec)
+    - cron: "10 21 * * 1-5"           # 16:10 ET  ledger + stats (early-close days: the 13:07 tick)
   workflow_dispatch:
     inputs:
       action:
@@ -23,7 +19,7 @@ on:
         required: true
         default: "tick"
       flat_by:
-        description: "ORB flat-by HH:MM NY for today (default 15:45)"
+        description: "ORB flat-by HH:MM NY for today (default 15:40)"
         required: false
         default: ""
 

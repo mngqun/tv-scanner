@@ -84,9 +84,10 @@ HEADERS = {"Content-Type": "application/json",
            "Origin": "https://www.tradingview.com", "Referer": "https://www.tradingview.com/"}
 
 
-def run_scan(spec: dict, cookies: dict | None) -> list[dict]:
+def run_scan(spec: dict, cookies: dict | None, columns: list[str] | None = None) -> list[dict]:
+    cols = columns or COLUMNS
     payload = {
-        "columns": COLUMNS,
+        "columns": cols,
         "filter": spec["filter"],
         **({"filter2": spec.get("filter2", COMMON_ONLY)} if spec.get("filter2", COMMON_ONLY) else {}),
         "ignore_unknown_fields": False,
@@ -100,7 +101,7 @@ def run_scan(spec: dict, cookies: dict | None) -> list[dict]:
                       impersonate=random.choice(["chrome", "firefox", "safari"]), timeout=30)
     r.raise_for_status()
     data = r.json()
-    return [dict(zip(COLUMNS, item["d"]), symbol=item["s"]) for item in data.get("data", [])]
+    return [dict(zip(cols, item["d"]), symbol=item["s"]) for item in data.get("data", [])]
 
 
 # Index & sector ETFs for the market-regime read (always included).

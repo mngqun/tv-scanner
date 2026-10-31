@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "premarket | orb | tm | check"
+        description: "premarket | orb | tm | check | copycat"
         required: true
         default: "premarket"
       tickers:
@@ -46,6 +46,8 @@ concurrency:
 env:
   TOOLS_REPO: https://github.com/Jakeschincariol/day-trader-skill.git
   TOOLS_SHA: 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd   # pinned; review the diff before bumping
+  TOOLS2_REPO: https://github.com/Jakeschincariol/trader-skill.git
+  TOOLS2_SHA: 5189e79b9a480755a3733ac9713f5353981dbe18  # pinned (copycat)
 
 jobs:
   run:
@@ -67,6 +69,11 @@ jobs:
           git fetch -q --depth 1 "$TOOLS_REPO" "$TOOLS_SHA"
           git checkout -q FETCH_HEAD
           git log -1 --format='%H %cd'
+          cd ../..
+          git init -q vendor/trader-skill
+          cd vendor/trader-skill
+          git fetch -q --depth 1 "$TOOLS2_REPO" "$TOOLS2_SHA"
+          git checkout -q FETCH_HEAD
       - name: Run
         env:
           MODE: ${{ github.event.inputs.mode }}

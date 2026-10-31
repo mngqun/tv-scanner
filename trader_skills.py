@@ -12,6 +12,7 @@ Modes
   check      after the brief's shortlist: facts.py (SEC earnings numbers) on ANALYST tickers, and
              check.py (Risk Manager) on the brief's long setups in ORDERS, checked together as one day
              ("SYM:ENTRY:STOP:TARGET:QTY[:HH:MM]" separated by ";", HH:MM = planned entry time, NY)
+  copycat    trader-copycat 13F diff for the CIKs in TICKERS (default: the pack's bundled filers)
   The orb mode also sizes each planned breakout with size.py and runs check.py on it.
 
 Tools live in vendor/day-trader-skill (cloned at a pinned commit by the workflow). They are read-only:
@@ -163,6 +164,29 @@ def check(analyst: list[str], orders_spec: str) -> dict:
     return out
 
 
+COPYCAT_TOOL = ROOT / "vendor" / "trader-skill" / "trader-copycat" / "edgar13f.py"
+
+
+def copycat(ciks: list[str]) -> dict:
+    """trader-copycat (trader-skill pack): latest 13F diff (new / sold out / added / trimmed) per filer.
+    Default filers: every CIK in the pack's bundled filers.json. Context only: 13F data is up to 45 days old."""
+    if not ciks:
+        filers = json.loads((COPYCAT_TOOL.parent / "filers.json").read_text())["filers"]
+        ciks = [f["cik"] for f in filers]
+    out = {}
+    for cik in ciks:
+        cmd = [sys.executable, "-I", str(COPYCAT_TOOL), "diff", cik, "--combine", "--json", "--user-agent", sec_user_agent()]
+        try:
+            p = subprocess.run(cmd, cwd=WORK, capture_output=True, text=True, timeout=600)
+            try:
+                out[cik] = {"code": p.returncode, "data": json.loads(p.stdout)}
+            except json.JSONDecodeError:
+                out[cik] = {"code": p.returncode, "stdout": p.stdout[-3000:], "stderr": p.stderr[-1500:]}
+        except subprocess.TimeoutExpired:
+            out[cik] = {"code": "timeout"}
+    return {"copycat": out}
+
+
 def main() -> int:
     mode = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("MODE", "premarket")).strip()
     extra = [t.strip().upper() for t in os.environ.get("TICKERS", "").replace(" ", ",").split(",") if t.strip()]
@@ -180,6 +204,8 @@ def main() -> int:
         result.update(orb(os.environ.get("ORB_AT") or None, int(os.environ.get("TOP_N") or 8)))
     elif mode == "tm":
         result.update(tm())
+    elif mode == "copycat":
+        result.update(copycat(extra))
     elif mode == "check":
         an = [t.strip().upper() for t in os.environ.get("ANALYST", "").replace(" ", ",").split(",") if t.strip()]
         result.update(check(an, os.environ.get("ORDERS", "")))
