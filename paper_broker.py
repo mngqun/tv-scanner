@@ -149,9 +149,10 @@ def guard_a(day: str, st: dict) -> str | None:
     s, pos = A.get("/v2/positions")
     if s == 200 and len(pos) >= MAX_OPEN_A:
         return f"{len(pos)} open positions"
-    placed = [o for o in st.get("placed", []) if o["account"] == "A" and o.get("status") == "placed"]
-    if len(placed) >= MAX_ENTRIES_A:
-        return f"{len(placed)} entries already today"
+    base = {o["id"].removesuffix("-t1").removesuffix("-t2") for o in st.get("placed", [])
+            if o["account"] == "A" and o.get("status") == "placed" and not o.get("cancelled_unfilled")}
+    if len(base) >= MAX_ENTRIES_A:
+        return f"{len(base)} entries already today"
     return None
 
 
@@ -196,7 +197,7 @@ def place(acct: Alpaca, o: dict, day: str, st: dict) -> dict:
                                                         or leg.get("stop_price")) - leg["stop_loss"]), 2),
                "http": s, "status": "placed" if s in (200, 201) else "rejected",
                "broker_id": (d or {}).get("id"), "message": None if s in (200, 201) else (d or {}).get("message"),
-               "at": now_ny().strftime("%H:%M")}
+               "at": now_ny().strftime("%H:%M"), "last_at_placement": leg.get("last_px")}
         log(f"[{acct.name}] {rec['status']} {leg['symbol']} x{leg['qty']} {leg['entry_type']} "
             f"stop {leg['stop_loss']} tgt {leg['take_profit']} -> {s} {rec['message'] or ''}")
         st.setdefault("placed", []).append(rec)
@@ -227,14 +228,21 @@ def run_queue(day: str, st: dict, t: datetime):
             continue
         px = acct.last_price(item["symbol"])
         item = dict(item)
-        void_above = item.get("void_above")
-        if px and void_above and px > void_above:
-            log(f"queue {qid}: void, last {px} > {void_above}")
-            st.setdefault("skipped", []).append({"id": qid, "why": f"void: last {px} > {void_above}"})
+        va, vb = item.get("void_above"), item.get("void_below")
+        if px is None:
+            log(f"queue {qid}: no live price; not placed")
+            st.setdefault("skipped", []).append({"id": qid, "why": "no live price"})
+            done.add(qid)
+            continue
+        if (va is not None and px > va) or (vb is not None and px < vb):
+            why = f"void: last {px} outside [{vb}, {va}]"
+            log(f"queue {qid}: {why}")
+            st.setdefault("skipped", []).append({"id": qid, "why": why})
             done.add(qid)
             continue
         if item.get("qty") in (None, "", 0):
             item["qty"] = size(item.get("plan_entry") or item["limit_price"], item["stop_loss"], item["risk_usd"])
+        item["last_px"] = px
         place(acct, item, day, st)
         done.add(qid)
     st["queue_done"] = sorted(done)
