@@ -1,0 +1,194 @@
+{
+ "date": "2026-11-02",
+ "close": "16:00",
+ "ticks": [
+  "09:36"
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-02-BABA",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "BABA",
+   "side": "short",
+   "qty": 19,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:36"
+  },
+  {
+   "id": "rulec-B-2026-11-02-FER",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "FER",
+   "side": "short",
+   "qty": 33,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:36"
+  }
+ ],
+ "rulec": {
+  "at": "09:36",
+  "candidates": [
+   {
+    "symbol": "BABA",
+    "open": 102.0,
+    "prev_close": 98.04000091552734,
+    "atr": 2.5701,
+    "gap_pct": 4.04,
+    "gap_atr": 1.541,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "FER",
+    "open": 57.44,
+    "prev_close": 55.290000915527344,
+    "atr": 1.4861,
+    "gap_pct": 3.89,
+    "gap_atr": 1.447,
+    "sector": "Industrial Services"
+   },
+   {
+    "symbol": "PDD",
+    "open": 80.94,
+    "prev_close": 78.61000061035156,
+    "atr": 2.0807,
+    "gap_pct": 2.96,
+    "gap_atr": 1.12,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "SKM",
+    "open": 31.38,
+    "prev_close": 30.280000686645508,
+    "atr": 1.0579,
+    "gap_pct": 3.63,
+    "gap_atr": 1.04,
+    "sector": "Communications"
+   },
+   {
+    "symbol": "CCL",
+    "open": 29.81,
+    "prev_close": 28.829999923706055,
+    "atr": 0.9571,
+    "gap_pct": 3.4,
+    "gap_atr": 1.024,
+    "sector": "Consumer Services"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "MAR",
+    "why": "earnings"
+   },
+   {
+    "symbol": "NXT",
+    "why": "gap 5.14% / 0.87 ATR"
+   },
+   {
+    "symbol": "FOXA",
+    "why": "earnings"
+   },
+   {
+    "symbol": "GFI",
+    "why": "gap 4.19% / 0.99 ATR"
+   },
+   {
+    "symbol": "SMTC",
+    "why": "gap 1.06% / 0.11 ATR"
+   },
+   {
+    "symbol": "W",
+    "why": "gap 4.20% / 0.95 ATR"
+   },
+   {
+    "symbol": "UAL",
+    "why": "gap 4.53% / 0.96 ATR"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 3.57% / 0.50 ATR"
+   },
+   {
+    "symbol": "ODFL",
+    "why": "gap 0.99% / 0.27 ATR"
+   },
+   {
+    "symbol": "RYAAY",
+    "why": "earnings"
+   },
+   {
+    "symbol": "ECHO",
+    "why": "gap 3.86% / 0.81 ATR"
+   },
+   {
+    "symbol": "SKHY",
+    "why": "gap 3.28% / 0.50 ATR"
+   },
+   {
+    "symbol": "DAL",
+    "why": "gap 3.61% / 0.92 ATR"
+   },
+   {
+    "symbol": "LUV",
+    "why": "gap 3.56% / 0.89 ATR"
+   },
+   {
+    "symbol": "LTM",
+    "why": "gap 2.64% / 0.61 ATR"
+   },
+   {
+    "symbol": "STM",
+    "why": "gap 2.97% / 0.59 ATR"
+   },
+   {
+    "symbol": "ENTG",
+    "why": "gap 1.25% / 0.19 ATR"
+   },
+   {
+    "symbol": "AU",
+    "why": "gap 3.12% / 0.73 ATR"
+   },
+   {
+    "symbol": "SGI",
+    "why": "gap 1.04% / 0.27 ATR"
+   },
+   {
+    "symbol": "TPG",
+    "why": "gap 1.11% / 0.27 ATR"
+   },
+   {
+    "symbol": "U",
+    "why": "gap 2.10% / 0.37 ATR"
+   },
+   {
+    "symbol": "Q",
+    "why": "gap 1.48% / 0.31 ATR"
+   },
+   {
+    "symbol": "TECK",
+    "why": "gap 1.34% / 0.34 ATR"
+   },
+   {
+    "symbol": "MAS",
+    "why": "gap 2.30% / 0.71 ATR"
+   },
+   {
+    "symbol": "DOCN",
+    "why": "gap -0.12% / -0.01 ATR"
+   }
+  ],
+  "placed": [
+   "BABA",
+   "FER"
+  ]
+ },
+ "queue_done": [],
+ "log": [
+  "[B] placed rulec short BABA x19 market stop 107.14 tgt None -> 200 ",
+  "[B] placed rulec short FER x33 market stop 60.41 tgt None -> 200 "
+ ]
+}

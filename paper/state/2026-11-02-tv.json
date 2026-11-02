@@ -1,0 +1,6552 @@
+{
+ "NVDA": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-17",
+  "earn_last": "2026-08-26",
+  "premarket_change": 1.4268960125097812,
+  "change": 1.6858874120406653,
+  "atr": 6.047545713367301,
+  "close": 208.09,
+  "mode": "streaming"
+ },
+ "AAPL": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-07-30",
+  "premarket_change": -0.6151524823724007,
+  "change": -0.4178394219887989,
+  "atr": 6.56627283267274,
+  "close": 343.19,
+  "mode": "streaming"
+ },
+ "MSFT": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.4100323810618663,
+  "change": -0.18393975972867405,
+  "atr": 11.387757081780041,
+  "close": 520.95,
+  "mode": "streaming"
+ },
+ "GOOGL": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.9076615208690754,
+  "change": 1.6741709548313333,
+  "atr": 10.06663144370365,
+  "close": 284.525,
+  "mode": "streaming"
+ },
+ "GOOG": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.8230896412910514,
+  "change": 1.6264107540794972,
+  "atr": 9.885424542790947,
+  "close": 282.745,
+  "mode": "streaming"
+ },
+ "AMZN": {
+  "sector": "Retail Trade",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.198252548366963,
+  "change": 2.933222384023304,
+  "atr": 7.246888773425091,
+  "close": 247.4,
+  "mode": "streaming"
+ },
+ "TSM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-21",
+  "earn_last": "2026-10-15",
+  "premarket_change": 1.6915765887769936,
+  "change": 1.0710856129810709,
+  "atr": 13.14235282890821,
+  "close": 410.48,
+  "mode": "streaming"
+ },
+ "SPCX": {
+  "sector": "Communications",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-20",
+  "premarket_change": 1.6775534441805156,
+  "change": 1.9447743467933525,
+  "atr": 7.26891430397253,
+  "close": 137.34,
+  "mode": "streaming"
+ },
+ "TSLA": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-21",
+  "premarket_change": 1.2280833395863098,
+  "change": 2.5211975688451975,
+  "atr": 13.219450279732479,
+  "close": 409.89,
+  "mode": "streaming"
+ },
+ "META": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-21",
+  "premarket_change": -0.11382298899169832,
+  "change": -0.20325533748516236,
+  "atr": 22.290777347643587,
+  "close": 613.74,
+  "mode": "streaming"
+ },
+ "AVGO": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-10",
+  "earn_last": "2026-09-02",
+  "premarket_change": 0.7298822374877317,
+  "change": -0.2637389597644617,
+  "atr": 11.973002476696626,
+  "close": 325.22,
+  "mode": "streaming"
+ },
+ "LLY": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.2373548541840065,
+  "change": -1.904425977397454,
+  "atr": 43.81516069421296,
+  "close": 1390.544,
+  "mode": "streaming"
+ },
+ "BRK.B": {
+  "sector": "Finance",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-08",
+  "premarket_change": 0.43503106048038004,
+  "change": 0.8156832384006993,
+  "atr": 6.510721926269727,
+  "close": 546.915,
+  "mode": "streaming"
+ },
+ "MU": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-23",
+  "earn_last": "2026-09-30",
+  "premarket_change": 0.6872075411985489,
+  "change": -0.19346926780749873,
+  "atr": 47.020975590974935,
+  "close": 883.0283,
+  "mode": "streaming"
+ },
+ "WMT": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-19",
+  "earn_last": "2026-08-20",
+  "premarket_change": 0.49388713464496753,
+  "change": 1.3237794510565872,
+  "atr": 2.3852689621918026,
+  "close": 125.145,
+  "mode": "streaming"
+ },
+ "JPM": {
+  "sector": "Finance",
+  "earn_next": "2027-01-14",
+  "earn_last": "2026-10-13",
+  "premarket_change": 1.166033705198198,
+  "change": 1.1549074293852313,
+  "atr": 6.207599350943399,
+  "close": 340.9325,
+  "mode": "streaming"
+ },
+ "AMD": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 1.1133122028526157,
+  "change": 0.5091125198098243,
+  "atr": 27.9095250388366,
+  "close": 507.37,
+  "mode": "streaming"
+ },
+ "V": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.6310597451582518,
+  "change": 1.0880340433762907,
+  "atr": 7.0595811718979045,
+  "close": 418.09,
+  "mode": "streaming"
+ },
+ "SKHY": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-27",
+  "premarket_change": 3.411299510756654,
+  "change": 2.58360699685007,
+  "atr": 9.15807121818961,
+  "close": 153.065,
+  "mode": "streaming"
+ },
+ "XOM": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-30",
+  "premarket_change": -2.0026702269692924,
+  "change": -2.59546061415221,
+  "atr": 4.0517252976615525,
+  "close": 182.39,
+  "mode": "streaming"
+ },
+ "JNJ": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-13",
+  "premarket_change": -0.6149341142020524,
+  "change": -1.1054172767203447,
+  "atr": 6.466803784073076,
+  "close": 270.18,
+  "mode": "streaming"
+ },
+ "ASML": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-14",
+  "premarket_change": 0.6692636822274741,
+  "change": 1.228686378440514,
+  "atr": 55.93923103119001,
+  "close": 1585.14,
+  "mode": "streaming"
+ },
+ "MA": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.4686446920894671,
+  "change": 1.376153978777758,
+  "atr": 11.458715456815387,
+  "close": 646.79,
+  "mode": "streaming"
+ },
+ "ABBV": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-30",
+  "premarket_change": -1.3191359489979269,
+  "change": -2.234731594831963,
+  "atr": 6.423668382006206,
+  "close": 288.3,
+  "mode": "streaming"
+ },
+ "CVX": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-30",
+  "premarket_change": -1.430876358695654,
+  "change": -2.0125679347826124,
+  "atr": 4.609357488327196,
+  "close": 230.78,
+  "mode": "streaming"
+ },
+ "COST": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-12-10",
+  "earn_last": "2026-09-24",
+  "premarket_change": 0.44157742916979764,
+  "change": 0.7833800924645418,
+  "atr": 15.886767611524096,
+  "close": 1020.21,
+  "mode": "streaming"
+ },
+ "PLTR": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": 1.309000054315353,
+  "change": -0.49970126554777894,
+  "atr": 7.965487922386379,
+  "close": 183.19,
+  "mode": "streaming"
+ },
+ "CSCO": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-08-12",
+  "premarket_change": 0.6219500526265348,
+  "change": -1.0620993206391727,
+  "atr": 3.0449233272136453,
+  "close": 103.4,
+  "mode": "streaming"
+ },
+ "KO": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.4251700680272169,
+  "change": 0.48894557823130097,
+  "atr": 1.5559361856525444,
+  "close": 94.54,
+  "mode": "streaming"
+ },
+ "PG": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.2661385158135835,
+  "change": 0.7674692083926529,
+  "atr": 2.9825052537370147,
+  "close": 162.81,
+  "mode": "streaming"
+ },
+ "ORCL": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-14",
+  "earn_last": "2026-09-10",
+  "premarket_change": -3.489706895232256,
+  "change": -5.0049743628989,
+  "atr": 7.580063431921142,
+  "close": 124.13,
+  "mode": "streaming"
+ },
+ "MRK": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.34777956126271414,
+  "change": -0.3979400749063663,
+  "atr": 4.40258406952375,
+  "close": 148.925,
+  "mode": "streaming"
+ },
+ "UNH": {
+  "sector": "Health Services",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-13",
+  "premarket_change": -0.16463129960439735,
+  "change": -0.7518981743126034,
+  "atr": 10.589706035033938,
+  "close": 403.91,
+  "mode": "streaming"
+ },
+ "BAC": {
+  "sector": "Finance",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-14",
+  "premarket_change": 0.3799240151969703,
+  "change": 0.4599080183963288,
+  "atr": 1.1097402422182194,
+  "close": 50.24,
+  "mode": "streaming"
+ },
+ "INTC": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.5626520681265276,
+  "change": -2.843673965936746,
+  "atr": 6.615742314366092,
+  "close": 63.89,
+  "mode": "streaming"
+ },
+ "HD": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-17",
+  "earn_last": "2026-08-18",
+  "premarket_change": 1.5704738760631882,
+  "change": 1.9501822600243062,
+  "atr": 7.158643785515513,
+  "close": 335.62,
+  "mode": "streaming"
+ },
+ "PM": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.10057952967096506,
+  "change": -0.2215144403467626,
+  "atr": 4.968247456005053,
+  "close": 208.3275,
+  "mode": "streaming"
+ },
+ "GE": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-21",
+  "earn_last": "2026-10-20",
+  "premarket_change": 2.4950298210735493,
+  "change": 2.8081510934393523,
+  "atr": 9.570041667574912,
+  "close": 310.275,
+  "mode": "streaming"
+ },
+ "AMAT": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-13",
+  "premarket_change": 1.0048963059806753,
+  "change": 0.9856699735958439,
+  "atr": 19.721023487639307,
+  "close": 393.935,
+  "mode": "streaming"
+ },
+ "SHEL": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.6928880301775724,
+  "change": -2.5485325236912284,
+  "atr": 1.9819929346802054,
+  "close": 105.92,
+  "mode": "streaming"
+ },
+ "LRCX": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 1.4553970975701516,
+  "change": 1.2546526703190999,
+  "atr": 13.814133953817022,
+  "close": 242.11,
+  "mode": "streaming"
+ },
+ "NVS": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.13060513713538127,
+  "change": -0.07463150693451369,
+  "atr": 3.0872084660266474,
+  "close": 160.67,
+  "mode": "streaming"
+ },
+ "PANW": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-09-01",
+  "premarket_change": 0.47831196873206333,
+  "change": -2.0164265996118833,
+  "atr": 18.954681039204125,
+  "close": 358.4925,
+  "mode": "streaming"
+ },
+ "HSBC": {
+  "sector": "Finance",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.020487005385153703,
+  "change": 0.01170686022009496,
+  "atr": 1.8267260474113312,
+  "close": 85.43,
+  "mode": "streaming"
+ },
+ "MS": {
+  "sector": "Finance",
+  "earn_next": "2027-01-14",
+  "earn_last": "2026-10-14",
+  "premarket_change": 1.215409658166023,
+  "change": 1.2099837221920726,
+  "atr": 5.001944417258066,
+  "close": 186.53,
+  "mode": "streaming"
+ },
+ "AZN": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-30",
+  "premarket_change": -1.162603803911072,
+  "change": -0.6857755156710427,
+  "atr": 4.268663266623743,
+  "close": 185.37,
+  "mode": "streaming"
+ },
+ "CAT": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.5496908871938903,
+  "change": -0.10758731433158718,
+  "atr": 28.905897798911745,
+  "close": 622.08,
+  "mode": "streaming"
+ },
+ "RY": {
+  "sector": "Finance",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-08-27",
+  "premarket_change": 0.5025125628140754,
+  "change": 0.33500837520938365,
+  "atr": 2.9329727172394087,
+  "close": 203.66,
+  "mode": "streaming"
+ },
+ "TXN": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.7877941763063439,
+  "change": 1.7866640074458187,
+  "atr": 9.539742903706408,
+  "close": 306.215,
+  "mode": "streaming"
+ },
+ "SAP": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-21",
+  "premarket_change": -0.1914730661220394,
+  "change": -0.17019828099736434,
+  "atr": 4.98971365729613,
+  "close": 234.62,
+  "mode": "streaming"
+ },
+ "RTX": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.12512512512512514,
+  "change": 0.3440940940940941,
+  "atr": 4.579976595230453,
+  "close": 200.4875,
+  "mode": "streaming"
+ },
+ "GS": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-13",
+  "premarket_change": 1.3928791012240833,
+  "change": 1.4616287518864286,
+  "atr": 24.270218383611443,
+  "close": 907.625,
+  "mode": "streaming"
+ },
+ "DELL": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-09-01",
+  "premarket_change": -0.304030167334438,
+  "change": -2.1541362243695463,
+  "atr": 30.495147238926133,
+  "close": 415.16,
+  "mode": "streaming"
+ },
+ "NFLX": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.3704896907216559,
+  "change": 0.9745489690721714,
+  "atr": 1.8580271058476008,
+  "close": 62.685,
+  "mode": "streaming"
+ },
+ "TMO": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-21",
+  "premarket_change": -0.8048780487804897,
+  "change": -0.9426111908177977,
+  "atr": 19.320029789946123,
+  "close": 690.43,
+  "mode": "streaming"
+ },
+ "WFC": {
+  "sector": "Finance",
+  "earn_next": "2027-01-14",
+  "earn_last": "2026-10-13",
+  "premarket_change": 1.0671462829736216,
+  "change": 1.2769784172661842,
+  "atr": 1.8337824595984118,
+  "close": 84.465,
+  "mode": "streaming"
+ },
+ "AMGN": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.006437630093768957,
+  "change": -0.03218815046886918,
+  "atr": 11.081839061388745,
+  "close": 465.86,
+  "mode": "streaming"
+ },
+ "CRWD": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-08-26",
+  "premarket_change": 0.4432376312742024,
+  "change": -2.962903805454624,
+  "atr": 13.056976692560427,
+  "close": 243.01,
+  "mode": "streaming"
+ },
+ "MUFG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-13",
+  "earn_last": "2026-08-03",
+  "premarket_change": 0,
+  "change": 0,
+  "atr": 0.4193749976684094,
+  "close": 21.56,
+  "mode": "streaming"
+ },
+ "BABA": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-08-20",
+  "premarket_change": 3.9371685026519785,
+  "change": 4.8704610363117,
+  "atr": 2.8745893737766854,
+  "close": 102.815,
+  "mode": "streaming"
+ },
+ "IBM": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.37236724719754066,
+  "change": -0.42279197858887363,
+  "atr": 6.781968699035955,
+  "close": 256.72,
+  "mode": "streaming"
+ },
+ "LIN": {
+  "sector": "Process Industries",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.9936994399502205,
+  "change": 0.8760500933416295,
+  "atr": 8.167989976743797,
+  "close": 518.745,
+  "mode": "streaming"
+ },
+ "GEV": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.296233695082006,
+  "change": 2.6804760628067195,
+  "atr": 46.448472051787,
+  "close": 880.865,
+  "mode": "streaming"
+ },
+ "ARM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-29",
+  "premarket_change": 0.5292032820313655,
+  "change": -1.660435985823172,
+  "atr": 14.65249746172609,
+  "close": 202.55,
+  "mode": "streaming"
+ },
+ "AXP": {
+  "sector": "Finance",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-23",
+  "premarket_change": 1.4697126382752022,
+  "change": 2.0353483124941256,
+  "atr": 6.633005322677211,
+  "close": 325.605,
+  "mode": "streaming"
+ },
+ "TD": {
+  "sector": "Finance",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-08-27",
+  "premarket_change": 0.3373493975903628,
+  "change": 0.5100401606425744,
+  "atr": 1.9750816063823355,
+  "close": 125.135,
+  "mode": "streaming"
+ },
+ "GILD": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.5858917272088118,
+  "change": -0.27829857042418227,
+  "atr": 4.399445948775215,
+  "close": 170.205,
+  "mode": "streaming"
+ },
+ "KLAC": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": 2.3177759483249933,
+  "change": 2.3988347793046745,
+  "atr": 7.948468780820894,
+  "close": 161.698,
+  "mode": "streaming"
+ },
+ "ANET": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 1.069821153618382,
+  "change": -1.4035295511074288,
+  "atr": 8.631661688367817,
+  "close": 166.49,
+  "mode": "streaming"
+ },
+ "TTE": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.8147487674394251,
+  "change": -2.307772999055914,
+  "atr": 1.8246955089535946,
+  "close": 93.13,
+  "mode": "streaming"
+ },
+ "C": {
+  "sector": "Finance",
+  "earn_next": "2027-01-14",
+  "earn_last": "2026-10-13",
+  "premarket_change": 0.5381604696673161,
+  "change": 0.5014677103718158,
+  "atr": 3.059973311334293,
+  "close": 123.255,
+  "mode": "streaming"
+ },
+ "ADI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-08-19",
+  "premarket_change": 1.73575315863921,
+  "change": 1.8004842847210545,
+  "atr": 13.886610504002343,
+  "close": 424.62,
+  "mode": "streaming"
+ },
+ "BHP": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-15",
+  "earn_last": "2026-08-17",
+  "premarket_change": 1.515917129863571,
+  "change": 1.2822132390096017,
+  "atr": 2.1241081398552493,
+  "close": 80.175,
+  "mode": "streaming"
+ },
+ "SHOP": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.7683027493809,
+  "change": 1.1111816623277668,
+  "atr": 7.081160880075425,
+  "close": 159.24,
+  "mode": "streaming"
+ },
+ "APH": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": 2.4590163934426266,
+  "change": 2.4842370744010074,
+  "atr": 3.187771372388051,
+  "close": 81.27,
+  "mode": "streaming"
+ },
+ "DIS": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-17",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.5047773571299822,
+  "change": 1.5594014782765495,
+  "atr": 1.9247345601927839,
+  "close": 112.67,
+  "mode": "streaming"
+ },
+ "CRM": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-08",
+  "earn_last": "2026-08-26",
+  "premarket_change": -0.030545010254393323,
+  "change": 0.8290788497621878,
+  "atr": 8.570808404006437,
+  "close": 231.07,
+  "mode": "streaming"
+ },
+ "PEP": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-08",
+  "premarket_change": 0.6043395951652717,
+  "change": 1.2887723896898284,
+  "atr": 2.824605112559482,
+  "close": 139.11,
+  "mode": "streaming"
+ },
+ "MCD": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.7283434061676722,
+  "change": 1.6891368355803553,
+  "atr": 4.702492526961793,
+  "close": 262.48,
+  "mode": "streaming"
+ },
+ "ABT": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.4708097928436911,
+  "change": 0.7438794726930245,
+  "atr": 2.6073201566535125,
+  "close": 106.99,
+  "mode": "streaming"
+ },
+ "VZ": {
+  "sector": "Communications",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-26",
+  "premarket_change": -1.2072434607645857,
+  "change": -0.4024144869215286,
+  "atr": 1.2578167099922926,
+  "close": 44.55,
+  "mode": "streaming"
+ },
+ "UNP": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.4934210526315789,
+  "change": 0.4868421052631639,
+  "atr": 5.457190606825624,
+  "close": 305.48,
+  "mode": "streaming"
+ },
+ "COP": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -0.8245147049276181,
+  "change": -2.064532883204575,
+  "atr": 3.47751107475276,
+  "close": 150.85,
+  "mode": "streaming"
+ },
+ "QCOM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-29",
+  "premarket_change": 0.6675162327811119,
+  "change": 2.069300321621456,
+  "atr": 7.315914284842074,
+  "close": 168.2,
+  "mode": "streaming"
+ },
+ "NVO": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.19175000000000608,
+  "change": 0.5512500000000031,
+  "atr": 0.7881170442221042,
+  "close": 40.2205,
+  "mode": "streaming"
+ },
+ "NEE": {
+  "sector": "Utilities",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-21",
+  "premarket_change": -0.8242742802532526,
+  "change": 0.023892008123294985,
+  "atr": 1.4677784371853166,
+  "close": 83.73,
+  "mode": "streaming"
+ },
+ "PFE": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.16382699868938636,
+  "change": -0.09829619921363413,
+  "atr": 0.5471499303464014,
+  "close": 30.49,
+  "mode": "streaming"
+ },
+ "WELL": {
+  "sector": "Finance",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-26",
+  "premarket_change": null,
+  "change": 0.360187553282182,
+  "atr": 5.886302576540678,
+  "close": 235.445,
+  "mode": "streaming"
+ },
+ "SNDK": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.61778275942965,
+  "change": -1.0978460148233098,
+  "atr": 95.00627515078652,
+  "close": 1138.255,
+  "mode": "streaming"
+ },
+ "TMUS": {
+  "sector": "Communications",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": -1.502173357197644,
+  "change": -0.7542827921247807,
+  "atr": 5.6896834895220385,
+  "close": 155.26,
+  "mode": "streaming"
+ },
+ "MRVL": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-26",
+  "earn_last": "2026-08-27",
+  "premarket_change": -2.4949083503055016,
+  "change": -5.137474541751529,
+  "atr": 17.153269330083944,
+  "close": 186.31,
+  "mode": "streaming"
+ },
+ "DHR": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.6157688498471372,
+  "change": -0.4036946130990828,
+  "atr": 6.4710704238284515,
+  "close": 231.2925,
+  "mode": "streaming"
+ },
+ "BUD": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": null,
+  "earn_last": null,
+  "premarket_change": 1.9905449116695801,
+  "change": 2.8116446877332733,
+  "atr": 1.7127871878713936,
+  "close": 82.64,
+  "mode": "streaming"
+ },
+ "SMFG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-13",
+  "earn_last": "2026-07-31",
+  "premarket_change": -0.041322314049578555,
+  "change": -0.06198347107438251,
+  "atr": 0.4777185486527468,
+  "close": 24.185,
+  "mode": "streaming"
+ },
+ "TJX": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-08-19",
+  "premarket_change": 0,
+  "change": -0.3171548713562776,
+  "atr": 2.78583336333854,
+  "close": 139.865,
+  "mode": "streaming"
+ },
+ "SCHW": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-15",
+  "premarket_change": 0.8631459398069338,
+  "change": 0.9880749574105674,
+  "atr": 1.876723668138697,
+  "close": 88.92,
+  "mode": "streaming"
+ },
+ "SCCO": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-21",
+  "premarket_change": 2.022193432095986,
+  "change": 2.0897876415253807,
+  "atr": 8.012400455954989,
+  "close": 181.24,
+  "mode": "streaming"
+ },
+ "ISRG": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": 1.8217170898821795,
+  "change": 2.0323603620286637,
+  "atr": 12.748508325927306,
+  "close": 440.79,
+  "mode": "streaming"
+ },
+ "ACN": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-17",
+  "earn_last": "2026-10-01",
+  "premarket_change": -1.1074969021065728,
+  "change": -0.8635377942998832,
+  "atr": 10.151595576012198,
+  "close": 256.01,
+  "mode": "streaming"
+ },
+ "SONY": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-07-30",
+  "premarket_change": -0.19762845849802652,
+  "change": 0.039525691699596875,
+  "atr": 0.4550713673981411,
+  "close": 25.31,
+  "mode": "streaming"
+ },
+ "BX": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.16876212977806818,
+  "change": 0.5948865074677229,
+  "atr": 3.7389165972152307,
+  "close": 119.215,
+  "mode": "streaming"
+ },
+ "UBS": {
+  "sector": "Finance",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.8806877752149334,
+  "change": 1.0274690710840888,
+  "atr": 0.9387289537955449,
+  "close": 48.18,
+  "mode": "streaming"
+ },
+ "LMT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-22",
+  "premarket_change": -0.156998194520763,
+  "change": -0.19781772509615994,
+  "atr": 16.85533383819111,
+  "close": 635.69,
+  "mode": "streaming"
+ },
+ "ETN": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-31",
+  "premarket_change": 0.24326296726761015,
+  "change": 0.7000567613590223,
+  "atr": 15.380898139154422,
+  "close": 372.56,
+  "mode": "streaming"
+ },
+ "STX": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.19857891960656124,
+  "change": -2.7258059511620045,
+  "atr": 49.515315833660374,
+  "close": 627.01,
+  "mode": "streaming"
+ },
+ "T": {
+  "sector": "Communications",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": -1.354507239607656,
+  "change": -0.5137786081270408,
+  "atr": 0.7046223267112975,
+  "close": 21.3,
+  "mode": "streaming"
+ },
+ "VRTX": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": 0.18787575150299787,
+  "change": 0.8570712854279924,
+  "atr": 14.759692910920043,
+  "close": 563.67,
+  "mode": "streaming"
+ },
+ "RIO": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-07-28",
+  "premarket_change": 1.4531688850897517,
+  "change": 1.2089388203687812,
+  "atr": 2.031629463915619,
+  "close": 82.88,
+  "mode": "streaming"
+ },
+ "UL": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-07-28",
+  "premarket_change": 1.118602513024808,
+  "change": 1.1032791909285915,
+  "atr": 1.1700538382288177,
+  "close": 65.98,
+  "mode": "streaming"
+ },
+ "CB": {
+  "sector": "Finance",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.24167856750521682,
+  "change": 0.5355377348126961,
+  "atr": 5.862618299730825,
+  "close": 366.07,
+  "mode": "streaming"
+ },
+ "BA": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.0084523462547301,
+  "change": 1.9586126493733518,
+  "atr": 5.7973637799863855,
+  "close": 174.91,
+  "mode": "streaming"
+ },
+ "SPGI": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.3722644946951059,
+  "change": 0.8568213481941919,
+  "atr": 10.212844170442423,
+  "close": 470.5475,
+  "mode": "streaming"
+ },
+ "UBER": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.302681992337156,
+  "change": 1.7777777777777726,
+  "atr": 1.651689635675574,
+  "close": 66.41,
+  "mode": "streaming"
+ },
+ "PGR": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-14",
+  "premarket_change": null,
+  "change": 0.4323763403666551,
+  "atr": 4.804023200893142,
+  "close": 232.28,
+  "mode": "streaming"
+ },
+ "WDC": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.2567534347600442,
+  "change": -1.515937832891757,
+  "atr": 23.703319099518133,
+  "close": 360.56,
+  "mode": "streaming"
+ },
+ "PBR": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-07",
+  "premarket_change": -2.040816326530609,
+  "change": -3.129251700680278,
+  "atr": 0.9121786244334134,
+  "close": 21.36,
+  "mode": "streaming"
+ },
+ "IBKR": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-15",
+  "premarket_change": 1.8205461638491436,
+  "change": 1.589726918075418,
+  "atr": 2.9578586848110935,
+  "close": 78.1225,
+  "mode": "streaming"
+ },
+ "BTI": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.32509752925877067,
+  "change": 0.2275682704811337,
+  "atr": 1.04452875364937,
+  "close": 61.66,
+  "mode": "streaming"
+ },
+ "BP": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-30",
+  "premarket_change": -2.024211153006555,
+  "change": -3.165310577495532,
+  "atr": 1.2122591476485007,
+  "close": 48.795,
+  "mode": "streaming"
+ },
+ "MO": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.24349609124695337,
+  "change": -0.3396129693707556,
+  "atr": 1.6510167637046715,
+  "close": 77.765,
+  "mode": "streaming"
+ },
+ "BBVA": {
+  "sector": "Finance",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.7491467576791813,
+  "change": 1.9197952218430003,
+  "atr": 0.6102453870630227,
+  "close": 23.89,
+  "mode": "streaming"
+ },
+ "BMY": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.4001280409731114,
+  "change": -0.1592509603072968,
+  "atr": 1.6390564986215317,
+  "close": 62.3805,
+  "mode": "streaming"
+ },
+ "COF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.8054674151818433,
+  "change": 2.0502806931901474,
+  "atr": 4.996365646103036,
+  "close": 209.05,
+  "mode": "streaming"
+ },
+ "PLD": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-15",
+  "premarket_change": 0.015627441787776232,
+  "change": 0.47663697452726944,
+  "atr": 2.325561211858006,
+  "close": 128.59,
+  "mode": "streaming"
+ },
+ "MDT": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-09-01",
+  "premarket_change": 0.19680961259581284,
+  "change": 0.5800704371244956,
+  "atr": 2.138824134872092,
+  "close": 97.1,
+  "mode": "streaming"
+ },
+ "MPC": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -1.7381332493872728,
+  "change": -2.456546668765321,
+  "atr": 17.74605345411479,
+  "close": 433.805,
+  "mode": "streaming"
+ },
+ "SPOT": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-22",
+  "premarket_change": -0.4954165543273211,
+  "change": -1.0059989215421992,
+  "atr": 21.38411973013861,
+  "close": 587.47,
+  "mode": "streaming"
+ },
+ "LOW": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-08-19",
+  "premarket_change": 0.7748600947051248,
+  "change": 2.2624001530587927,
+  "atr": 4.968877668894516,
+  "close": 213.8,
+  "mode": "streaming"
+ },
+ "SBUX": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.6752194463200568,
+  "change": 0.057875952541721114,
+  "atr": 2.369313761242355,
+  "close": 103.73,
+  "mode": "streaming"
+ },
+ "ADP": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.15995099373807872,
+  "change": 0.5070786822760717,
+  "atr": 6.82606844170122,
+  "close": 295.33,
+  "mode": "streaming"
+ },
+ "EQNR": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": -5.087179487179481,
+  "change": -5.579282051282056,
+  "atr": 1.3857042019480066,
+  "close": 46.0301,
+  "mode": "streaming"
+ },
+ "BNS": {
+  "sector": "Finance",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-08-25",
+  "premarket_change": 0,
+  "change": 0.42662116040954723,
+  "atr": 1.4296669998611236,
+  "close": 94.16,
+  "mode": "streaming"
+ },
+ "NEM": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-22",
+  "premarket_change": 1.4257574336366157,
+  "change": 3.0203545633617845,
+  "atr": 3.9902078166077564,
+  "close": 109.83,
+  "mode": "streaming"
+ },
+ "CVS": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.3878116343490242,
+  "change": -1.1855955678670285,
+  "atr": 2.119166980374412,
+  "close": 89.18,
+  "mode": "streaming"
+ },
+ "BKNG": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 1.5324377236211506,
+  "change": 2.4437993654222674,
+  "atr": 5.102961168801632,
+  "close": 151.75,
+  "mode": "streaming"
+ },
+ "SYK": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.39059823202905036,
+  "change": 1.2334681011443727,
+  "atr": 9.292980671744406,
+  "close": 295.46,
+  "mode": "streaming"
+ },
+ "HDB": {
+  "sector": "Finance",
+  "earn_next": "2027-01-18",
+  "earn_last": "2026-10-17",
+  "premarket_change": 1.577998196573496,
+  "change": 2.2768259693417447,
+  "atr": 0.5168570833501805,
+  "close": 22.685,
+  "mode": "streaming"
+ },
+ "PDD": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-19",
+  "earn_last": "2026-08-24",
+  "premarket_change": 3.1548149090446556,
+  "change": 4.019844803460115,
+  "atr": 2.0821076900190136,
+  "close": 81.77,
+  "mode": "streaming"
+ },
+ "CNQ": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -2.9228301550525764,
+  "change": -3.80502584209588,
+  "atr": 1.3528516108461293,
+  "close": 53.975,
+  "mode": "streaming"
+ },
+ "ENB": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-07-31",
+  "premarket_change": -0.2830570157703206,
+  "change": -0.8087343307723384,
+  "atr": 0.6904585242761726,
+  "close": 49.06,
+  "mode": "streaming"
+ },
+ "NOW": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.11415525114155683,
+  "change": 1.7979452054794527,
+  "atr": 8.006480726579715,
+  "close": 107.01,
+  "mode": "streaming"
+ },
+ "MAR": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-11-02",
+  "premarket_change": 6.438767843726516,
+  "change": 5.484598046581512,
+  "atr": 9.826773479066064,
+  "close": 421.2,
+  "mode": "streaming"
+ },
+ "CME": {
+  "sector": "Finance",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-21",
+  "premarket_change": -0.07257372831034191,
+  "change": 0.029689252490608907,
+  "atr": 6.527684213710401,
+  "close": 303.23,
+  "mode": "streaming"
+ },
+ "SO": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.30946537189201395,
+  "change": 0.005335609860217334,
+  "atr": 1.4624415374455535,
+  "close": 93.715,
+  "mode": "streaming"
+ },
+ "GLW": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.1272402887032686,
+  "change": 1.3583650960992597,
+  "atr": 7.205809296742645,
+  "close": 124.985,
+  "mode": "streaming"
+ },
+ "VLO": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": -2.166841815543218,
+  "change": -3.4279137266676787,
+  "atr": 17.903476806036064,
+  "close": 385.96,
+  "mode": "streaming"
+ },
+ "PSX": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": -1.7077396315808027,
+  "change": -2.451295831418164,
+  "atr": 9.71899136296618,
+  "close": 275.897,
+  "mode": "streaming"
+ },
+ "SNY": {
+  "sector": "Health Technology",
+  "earn_next": null,
+  "earn_last": null,
+  "premarket_change": 0.40595399188091946,
+  "change": 1.1163734776725247,
+  "atr": 0.8717094362841761,
+  "close": 44.835,
+  "mode": "streaming"
+ },
+ "SNOW": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-09-02",
+  "premarket_change": -0.00980135912178931,
+  "change": -2.1007579717720883,
+  "atr": 16.177926186397382,
+  "close": 299.65,
+  "mode": "streaming"
+ },
+ "IBN": {
+  "sector": "Finance",
+  "earn_next": "2027-01-18",
+  "earn_last": "2026-10-17",
+  "premarket_change": -0.03395585738539223,
+  "change": 1.290322580645158,
+  "atr": 0.5417289923273889,
+  "close": 29.83,
+  "mode": "streaming"
+ },
+ "GD": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-30",
+  "premarket_change": 0.06709788239083175,
+  "change": 0.5998550685740395,
+  "atr": 7.138165800503588,
+  "close": 374.825,
+  "mode": "streaming"
+ },
+ "BNY": {
+  "sector": "Finance",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-15",
+  "premarket_change": 0.34667935558425045,
+  "change": 0.978859356943782,
+  "atr": 2.851064494764869,
+  "close": 148.55,
+  "mode": "streaming"
+ },
+ "ABNB": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.8127623334752836,
+  "change": 2.3359085102500172,
+  "atr": 4.271992916834495,
+  "close": 168.23,
+  "mode": "streaming"
+ },
+ "GSK": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.6463340739244603,
+  "change": -0.6261361341143106,
+  "atr": 1.1341550943153775,
+  "close": 49.2,
+  "mode": "streaming"
+ },
+ "DUK": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.007849909726042166,
+  "change": 0.15307323965773859,
+  "atr": 1.8863370006317375,
+  "close": 127.585,
+  "mode": "streaming"
+ },
+ "HCA": {
+  "sector": "Health Services",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.2768443965426155,
+  "change": -0.28529766055918826,
+  "atr": 14.280380632283137,
+  "close": 471.84,
+  "mode": "streaming"
+ },
+ "ADBE": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-09",
+  "earn_last": "2026-09-10",
+  "premarket_change": -0.6833712984054588,
+  "change": 1.0630220197418363,
+  "atr": 8.68197531883691,
+  "close": 252.89,
+  "mode": "streaming"
+ },
+ "BN": {
+  "sector": "Finance",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-13",
+  "premarket_change": 0.6364562118126272,
+  "change": 1.4002036659877728,
+  "atr": 0.7867243773650159,
+  "close": 39.83,
+  "mode": "streaming"
+ },
+ "FTNT": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.34538506760728893,
+  "change": -3.3766901822457367,
+  "atr": 9.249074295756234,
+  "close": 131.485,
+  "mode": "streaming"
+ },
+ "CSX": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.5000961723408309,
+  "change": 0.4520100019234457,
+  "atr": 1.0149711211948813,
+  "close": 52.225,
+  "mode": "streaming"
+ },
+ "MRSH": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-15",
+  "premarket_change": null,
+  "change": 0.7028212541122504,
+  "atr": 4.316730199612757,
+  "close": 202.03,
+  "mode": "streaming"
+ },
+ "NET": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.1756323477021773,
+  "change": -4.6241539009618675,
+  "atr": 19.221880079707734,
+  "close": 267.72,
+  "mode": "streaming"
+ },
+ "EMR": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 1.8006547835576567,
+  "change": 2.594882987753123,
+  "atr": 4.451871606279623,
+  "close": 169.22,
+  "mode": "streaming"
+ },
+ "MNST": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.8660752006759538,
+  "change": 1.7321504013519076,
+  "atr": 1.013213740806974,
+  "close": 48.16,
+  "mode": "streaming"
+ },
+ "ICE": {
+  "sector": "Finance",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.5034053893988714,
+  "change": -0.1036422860526994,
+  "atr": 3.969946539996819,
+  "close": 168.675,
+  "mode": "streaming"
+ },
+ "PWR": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.7185088524801502,
+  "change": 0.48732943469785206,
+  "atr": 27.661161772697746,
+  "close": 623.755,
+  "mode": "streaming"
+ },
+ "USB": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-15",
+  "premarket_change": 1.0765349032800682,
+  "change": 1.135407905803191,
+  "atr": 1.1482076416944647,
+  "close": 60.125,
+  "mode": "streaming"
+ },
+ "CEG": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.8918362680082444,
+  "change": 0.6250476408262773,
+  "atr": 11.357234162218223,
+  "close": 264.02,
+  "mode": "streaming"
+ },
+ "UPS": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.6928406466512702,
+  "change": 1.1547344110854503,
+  "atr": 2.313381663226831,
+  "close": 109.5,
+  "mode": "streaming"
+ },
+ "WM": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.22702934247162185,
+  "change": 0.06853715999144357,
+  "atr": 4.955194993890219,
+  "close": 233.61,
+  "mode": "streaming"
+ },
+ "PNC": {
+  "sector": "Finance",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-15",
+  "premarket_change": null,
+  "change": 1.3868164662512052,
+  "atr": 4.361230544991072,
+  "close": 231.02,
+  "mode": "streaming"
+ },
+ "INTU": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-19",
+  "earn_last": "2026-08-25",
+  "premarket_change": -0.5335835116831316,
+  "change": 0.4720161834120067,
+  "atr": 12.3738511130736,
+  "close": 342.7,
+  "mode": "streaming"
+ },
+ "VRT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.4881720430107561,
+  "change": 2.1892473118279585,
+  "atr": 13.652417020825917,
+  "close": 237.59,
+  "mode": "streaming"
+ },
+ "MMM": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": 1.0152575427325974,
+  "change": 1.5486979465412347,
+  "atr": 3.949052428552979,
+  "close": 177.04,
+  "mode": "streaming"
+ },
+ "TT": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.6707317073170732,
+  "change": 1.6792682926829245,
+  "atr": 15.454480713351671,
+  "close": 416.885,
+  "mode": "streaming"
+ },
+ "FCX": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.680806787257891,
+  "change": 1.6968144709460578,
+  "atr": 2.55647026338609,
+  "close": 63.53,
+  "mode": "streaming"
+ },
+ "JCI": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.0400590485137295,
+  "change": 0.9796685231161565,
+  "atr": 4.952486374240347,
+  "close": 150.49,
+  "mode": "streaming"
+ },
+ "MRNA": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-07-31",
+  "premarket_change": 0.9471405376150074,
+  "change": 2.1739130434782576,
+  "atr": 19.170326164240787,
+  "close": 226.54,
+  "mode": "streaming"
+ },
+ "ELV": {
+  "sector": "Health Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.22615278405979686,
+  "change": -0.3856500107125014,
+  "atr": 11.182120630051248,
+  "close": 418.45,
+  "mode": "streaming"
+ },
+ "ASX": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 4.354430379746833,
+  "change": 3.050632911392401,
+  "atr": 2.3796551517552764,
+  "close": 40.705,
+  "mode": "streaming"
+ },
+ "SU": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -2.102744900528836,
+  "change": -3.4122387307982978,
+  "atr": 2.1253091898719947,
+  "close": 76.71,
+  "mode": "streaming"
+ },
+ "WMB": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": -0.3765971755211851,
+  "change": -1.526563550773357,
+  "atr": 1.9919610773502998,
+  "close": 73.215,
+  "mode": "streaming"
+ },
+ "SNPS": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-08-26",
+  "premarket_change": 0.5153867539188571,
+  "change": -0.3410962126558515,
+  "atr": 18.621391703408296,
+  "close": 466.015,
+  "mode": "streaming"
+ },
+ "CDNS": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-26",
+  "premarket_change": 1.5553996767208584,
+  "change": -0.9576382323340102,
+  "atr": 12.899840477870457,
+  "close": 324.75,
+  "mode": "streaming"
+ },
+ "CTAS": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-12-17",
+  "earn_last": "2026-09-23",
+  "premarket_change": 0.15012282776817965,
+  "change": 0.7005731962514878,
+  "atr": 4.667737943341037,
+  "close": 221.36,
+  "mode": "streaming"
+ },
+ "ING": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.2225047679593143,
+  "change": -0.3496503496503478,
+  "atr": 0.6666603402856357,
+  "close": 31.35,
+  "mode": "streaming"
+ },
+ "AEM": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.4935300520014505,
+  "change": 3.1170637320111263,
+  "atr": 7.2205317810927365,
+  "close": 170.535,
+  "mode": "streaming"
+ },
+ "AMT": {
+  "sector": "Finance",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.9372670145915385,
+  "change": -0.5205559697518329,
+  "atr": 5.506801744795104,
+  "close": 186.8025,
+  "mode": "streaming"
+ },
+ "KKR": {
+  "sector": "Finance",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.9958682063777918,
+  "change": 1.9228731857188235,
+  "atr": 2.7489878020539638,
+  "close": 96.205,
+  "mode": "streaming"
+ },
+ "ECL": {
+  "sector": "Process Industries",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 1.2278038154333522,
+  "atr": 5.888138349939473,
+  "close": 306.7,
+  "mode": "streaming"
+ },
+ "MCO": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-05",
+  "earn_last": "2026-10-21",
+  "premarket_change": 1.0265028041546016,
+  "change": 0.9900589176165671,
+  "atr": 12.028070235386409,
+  "close": 498.8,
+  "mode": "streaming"
+ },
+ "EOG": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-04",
+  "premarket_change": -2.2894768635979172,
+  "change": -2.204905158873992,
+  "atr": 3.686424384159423,
+  "close": 161.89,
+  "mode": "streaming"
+ },
+ "RCL": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-27",
+  "premarket_change": 2.5457386548603402,
+  "change": 3.1545022462399888,
+  "atr": 10.786116970621377,
+  "close": 316.87,
+  "mode": "streaming"
+ },
+ "CMCSA": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": -0.25839793281653195,
+  "change": 1.3350559862187867,
+  "atr": 0.6766050258983043,
+  "close": 23.53,
+  "mode": "streaming"
+ },
+ "MDLZ": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.5543578688019702,
+  "change": 0.6427471512165086,
+  "atr": 1.3453123396265512,
+  "close": 65.3574,
+  "mode": "streaming"
+ },
+ "SHW": {
+  "sector": "Process Industries",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-27",
+  "premarket_change": 2.5405129130212525,
+  "change": 2.946393674273176,
+  "atr": 8.812199004698137,
+  "close": 342.41,
+  "mode": "streaming"
+ },
+ "DDOG": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.2688400561057473,
+  "change": -2.707527521570963,
+  "atr": 15.291958496633084,
+  "close": 228.9,
+  "mode": "streaming"
+ },
+ "EPD": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.1795543905635537,
+  "change": -0.3800786369593605,
+  "atr": 0.6936825168253183,
+  "close": 38.005,
+  "mode": "streaming"
+ },
+ "TRV": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-16",
+  "premarket_change": 0.7571551158447326,
+  "change": 0.3703750441673748,
+  "atr": 7.583246008249149,
+  "close": 397.6875,
+  "mode": "streaming"
+ },
+ "HWM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.8985041662483647,
+  "change": 2.70053207509286,
+  "atr": 8.041876899629175,
+  "close": 204.6,
+  "mode": "streaming"
+ },
+ "HLT": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.423288131794235,
+  "change": 1.9500168104897397,
+  "atr": 8.389855561184492,
+  "close": 363.88,
+  "mode": "streaming"
+ },
+ "BAM": {
+  "sector": "Finance",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-05",
+  "premarket_change": null,
+  "change": 1.782014090343969,
+  "atr": 1.1467686723580768,
+  "close": 49.12,
+  "mode": "streaming"
+ },
+ "ITW": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.2333512834320507,
+  "change": 1.527553401543707,
+  "atr": 6.004906425563397,
+  "close": 282.805,
+  "mode": "streaming"
+ },
+ "CI": {
+  "sector": "Health Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.9992287831539286,
+  "change": 0.2749555712034313,
+  "atr": 7.004255842467081,
+  "close": 299.05,
+  "mode": "streaming"
+ },
+ "DASH": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.2347058494887868,
+  "change": 1.8074194089055189,
+  "atr": 8.513497203815321,
+  "close": 182.2251,
+  "mode": "streaming"
+ },
+ "CVNA": {
+  "sector": "Retail Trade",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.7572118904671086,
+  "change": 4.524820617952832,
+  "atr": 3.422250158599972,
+  "close": 71.38,
+  "mode": "streaming"
+ },
+ "CP": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 0.03902765388046007,
+  "atr": 1.8077577165677448,
+  "close": 89.715,
+  "mode": "streaming"
+ },
+ "APP": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 2.4288840262582108,
+  "change": 1.9299781181619242,
+  "atr": 12.06819326771601,
+  "close": 232.91,
+  "mode": "streaming"
+ },
+ "SLB": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-23",
+  "premarket_change": -2.5679196129512514,
+  "change": -1.8049869743208016,
+  "atr": 1.5707188938547796,
+  "close": 52.77,
+  "mode": "streaming"
+ },
+ "HOOD": {
+  "sector": "Finance",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.6471349570537844,
+  "change": 1.2942699141075522,
+  "atr": 5.243246661533446,
+  "close": 86.09,
+  "mode": "streaming"
+ },
+ "CL": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-30",
+  "premarket_change": 0.9549795361527931,
+  "change": 1.4482107251547858,
+  "atr": 2.0312910112710685,
+  "close": 96.67,
+  "mode": "streaming"
+ },
+ "CNI": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-30",
+  "premarket_change": 1.181663837011888,
+  "change": 0.38806694154742016,
+  "atr": 2.3097573236066213,
+  "close": 124.17,
+  "mode": "streaming"
+ },
+ "GM": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-20",
+  "premarket_change": 1.1441647597254003,
+  "change": 1.8135011441647524,
+  "atr": 2.7109401286868784,
+  "close": 88.985,
+  "mode": "streaming"
+ },
+ "AMX": {
+  "sector": "Communications",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-20",
+  "premarket_change": null,
+  "change": 0.3472222222222257,
+  "atr": 0.5728813971059312,
+  "close": 24.565,
+  "mode": "streaming"
+ },
+ "RSG": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0,
+  "change": 0.06966071135880017,
+  "atr": 5.162676088915875,
+  "close": 244.21,
+  "mode": "streaming"
+ },
+ "FDX": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.7820480081716182,
+  "change": 1.6726251276813104,
+  "atr": 7.193002915740477,
+  "close": 318.52,
+  "mode": "streaming"
+ },
+ "MFC": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.2688774367017644,
+  "change": 0.2617073717230513,
+  "atr": 0.7403724026771474,
+  "close": 44.7468,
+  "mode": "streaming"
+ },
+ "BCS": {
+  "sector": "Finance",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.9865470852017886,
+  "change": 1.1659192825112017,
+  "atr": 0.5348405855076445,
+  "close": 22.56,
+  "mode": "streaming"
+ },
+ "KMI": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-21",
+  "premarket_change": -2.066725715972825,
+  "change": -2.1848243283141273,
+  "atr": 0.8106685437891301,
+  "close": 33.13,
+  "mode": "streaming"
+ },
+ "ROST": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-20",
+  "premarket_change": -0.11389521640090716,
+  "change": 0.0678990713159283,
+  "atr": 5.474775616302831,
+  "close": 228.435,
+  "mode": "streaming"
+ },
+ "ORLY": {
+  "sector": "Retail Trade",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.7262823422605544,
+  "change": 2.212891511575112,
+  "atr": 2.118058402911788,
+  "close": 90.07,
+  "mode": "streaming"
+ },
+ "HPE": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-09-02",
+  "premarket_change": 0,
+  "change": -1.8515157015792396,
+  "atr": 3.4203969053751497,
+  "close": 54.07,
+  "mode": "streaming"
+ },
+ "AJG": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.7498098308400019,
+  "change": 1.3873293005397125,
+  "atr": 7.309686920357872,
+  "close": 279.9,
+  "mode": "streaming"
+ },
+ "SPG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-10",
+  "premarket_change": null,
+  "change": 1.4029850746268688,
+  "atr": 3.425378049001586,
+  "close": 220.805,
+  "mode": "streaming"
+ },
+ "ET": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -1.4825442372070718,
+  "change": -1.4825442372070718,
+  "atr": 0.40959200964310816,
+  "close": 20.6,
+  "mode": "streaming"
+ },
+ "AEP": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.1535980339451786,
+  "change": 0.023039705091775695,
+  "atr": 2.2394545238679986,
+  "close": 130.24,
+  "mode": "streaming"
+ },
+ "TGT": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-08-19",
+  "premarket_change": 0.23966835082264837,
+  "change": 0.9781059722761958,
+  "atr": 4.0378958248880625,
+  "close": 155.89,
+  "mode": "streaming"
+ },
+ "HON": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-22",
+  "premarket_change": 1.7267439197544916,
+  "change": 2.0814821600329774,
+  "atr": 5.202800367254147,
+  "close": 222.8745,
+  "mode": "streaming"
+ },
+ "APO": {
+  "sector": "Finance",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.01726519337017458,
+  "change": 2.002762430939221,
+  "atr": 3.6071366311298667,
+  "close": 118.16,
+  "mode": "streaming"
+ },
+ "RELX": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-07-23",
+  "premarket_change": -0.5986530306809728,
+  "change": -0.37415814417561905,
+  "atr": 0.8352871440506922,
+  "close": 39.94,
+  "mode": "streaming"
+ },
+ "AON": {
+  "sector": "Finance",
+  "earn_next": "2027-01-29",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.20828799701557993,
+  "change": 1.116050610874491,
+  "atr": 7.625870183818793,
+  "close": 325.26,
+  "mode": "streaming"
+ },
+ "LITE": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-11-05",
+  "premarket_change": -4.61401213274653,
+  "change": -10.4960152254074,
+  "atr": 74.12501873790423,
+  "close": 752.46,
+  "mode": "streaming"
+ },
+ "TAK": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.0478240076518487,
+  "change": 0.07173601147776455,
+  "atr": 0.42607540251855297,
+  "close": 20.925,
+  "mode": "streaming"
+ },
+ "NXPI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-01",
+  "earn_last": "2026-10-27",
+  "premarket_change": 2.0222641654789877,
+  "change": 2.3342706367243182,
+  "atr": 10.184210036229327,
+  "close": 265.67,
+  "mode": "streaming"
+ },
+ "TRP": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": -0.465116279069763,
+  "change": -0.9767441860465156,
+  "atr": 1.1741218058999612,
+  "close": 63.87,
+  "mode": "streaming"
+ },
+ "TRGP": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -2.1556239880631196,
+  "change": -1.7365630654941515,
+  "atr": 7.580482593941265,
+  "close": 309.52,
+  "mode": "streaming"
+ },
+ "DLR": {
+  "sector": "Finance",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.22136137244049658,
+  "change": -1.4941892639734304,
+  "atr": 4.983620202666449,
+  "close": 178,
+  "mode": "streaming"
+ },
+ "ALL": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.007696155770185789,
+  "change": 0.29630199715241534,
+  "atr": 5.481639760577886,
+  "close": 260.64,
+  "mode": "streaming"
+ },
+ "LNG": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": -4.050617582949865,
+  "change": -3.9628239283119324,
+  "atr": 9.532932795995949,
+  "close": 317.23,
+  "mode": "streaming"
+ },
+ "MET": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.7798440311937624,
+  "change": 0.6498700259948068,
+  "atr": 2.0227936710899543,
+  "close": 100.67,
+  "mode": "streaming"
+ },
+ "DB": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.0701545778834702,
+  "change": 1.1890606420927425,
+  "atr": 0.8940768945479514,
+  "close": 34.04,
+  "mode": "streaming"
+ },
+ "NUE": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-01",
+  "earn_last": "2026-10-26",
+  "premarket_change": 1.1611348449994547,
+  "change": 2.0812794391499576,
+  "atr": 8.191152336777263,
+  "close": 279.57,
+  "mode": "streaming"
+ },
+ "COR": {
+  "sector": "Distribution Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.10276870995042164,
+  "change": -0.018135654697135253,
+  "atr": 6.928281109579493,
+  "close": 330.78,
+  "mode": "streaming"
+ },
+ "B": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-10",
+  "premarket_change": 1.729262361523914,
+  "change": 2.9991894082680344,
+  "atr": 1.3258093740380885,
+  "close": 38.12,
+  "mode": "streaming"
+ },
+ "AFL": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.008071676487210522,
+  "change": 0.3390104124626699,
+  "atr": 1.9866497226136044,
+  "close": 124.31,
+  "mode": "streaming"
+ },
+ "CRH": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-03-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.8610285210879836,
+  "change": 2.9195022574606355,
+  "atr": 2.5720708416183244,
+  "close": 93.4612,
+  "mode": "streaming"
+ },
+ "TEL": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.2064028540581107,
+  "change": 0.7651504482936654,
+  "atr": 7.15720248888446,
+  "close": 214.66,
+  "mode": "streaming"
+ },
+ "OXY": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-05",
+  "premarket_change": -2.124999999999999,
+  "change": -3.3906250000000027,
+  "atr": 1.5610378671330452,
+  "close": 61.83,
+  "mode": "streaming"
+ },
+ "BSX": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.5002382086707977,
+  "change": 0.4168651738923399,
+  "atr": 1.4175769850941153,
+  "close": 42.155,
+  "mode": "streaming"
+ },
+ "BE": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-22",
+  "premarket_change": 1.4224541024757664,
+  "change": 1.2994044396318427,
+  "atr": 18.629839792099997,
+  "close": 205.81,
+  "mode": "streaming"
+ },
+ "FAST": {
+  "sector": "Distribution Services",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-14",
+  "premarket_change": 1.7530340974764087,
+  "change": 1.9071469851666385,
+  "atr": 1.2607330779706005,
+  "close": 52.9,
+  "mode": "streaming"
+ },
+ "MPLX": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.33244680851063124,
+  "change": -0.5152925531914814,
+  "atr": 0.9832259987477819,
+  "close": 59.85,
+  "mode": "streaming"
+ },
+ "NTRA": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.8930726526671466,
+  "change": 0.16051170649287078,
+  "atr": 16.897415690872258,
+  "close": 414.965,
+  "mode": "streaming"
+ },
+ "OKE": {
+  "sector": "Utilities",
+  "earn_next": "2027-03-01",
+  "earn_last": "2026-10-27",
+  "premarket_change": -2.596064695580505,
+  "change": -2.8742144843926987,
+  "atr": 2.331044803910074,
+  "close": 94.28,
+  "mode": "streaming"
+ },
+ "NDAQ": {
+  "sector": "Finance",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.5083309799491594,
+  "change": 0.7342558599265755,
+  "atr": 2.1827539249927255,
+  "close": 107.01,
+  "mode": "streaming"
+ },
+ "TFC": {
+  "sector": "Finance",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-16",
+  "premarket_change": 0.061488009838083904,
+  "change": 1.0043041606886698,
+  "atr": 0.9321268120853121,
+  "close": 49.28,
+  "mode": "streaming"
+ },
+ "D": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-05",
+  "earn_last": "2026-10-30",
+  "premarket_change": -0.31522065445813263,
+  "change": 0.015010507355134952,
+  "atr": 1.1856738690955808,
+  "close": 66.63,
+  "mode": "streaming"
+ },
+ "NKE": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-12-17",
+  "earn_last": "2026-10-01",
+  "premarket_change": 1.1119731057667435,
+  "change": 1.6030514610809443,
+  "atr": 1.0303501045087349,
+  "close": 39.2899,
+  "mode": "streaming"
+ },
+ "CAH": {
+  "sector": "Distribution Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-11",
+  "premarket_change": 0.20360907058448552,
+  "change": 0.20760140530182458,
+  "atr": 5.4789437178431,
+  "close": 251,
+  "mode": "streaming"
+ },
+ "FANG": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": -1.9238023387401038,
+  "change": -2.6782346284421004,
+  "atr": 5.52603783432519,
+  "close": 206.4,
+  "mode": "streaming"
+ },
+ "CVE": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-29",
+  "premarket_change": -2.74977085242896,
+  "change": -4.262144821264883,
+  "atr": 1.0660756504216822,
+  "close": 31.335,
+  "mode": "streaming"
+ },
+ "MSTR": {
+  "sector": "Finance",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.3638801624396608,
+  "change": 2.78905830970808,
+  "atr": 9.129802897460928,
+  "close": 134.15,
+  "mode": "streaming"
+ },
+ "AME": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.24054412740543468,
+  "change": 1.6050099535501012,
+  "atr": 5.85766487885355,
+  "close": 244.99,
+  "mode": "streaming"
+ },
+ "DVN": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-04",
+  "premarket_change": -2.262703739213806,
+  "change": -3.1255992329817746,
+  "atr": 1.393875111135239,
+  "close": 50.52,
+  "mode": "streaming"
+ },
+ "SRE": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.04647920055774116,
+  "change": -1.3362770160353308,
+  "atr": 1.35239447683282,
+  "close": 84.91,
+  "mode": "streaming"
+ },
+ "WPM": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.7069823297306528,
+  "change": 3.279035855206723,
+  "atr": 5.0674743760490015,
+  "close": 120.4027,
+  "mode": "streaming"
+ },
+ "DAL": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-08",
+  "earn_last": "2026-10-09",
+  "premarket_change": 3.4061135371178906,
+  "change": 3.4435433562071003,
+  "atr": 2.882686033130732,
+  "close": 82.91,
+  "mode": "streaming"
+ },
+ "BKR": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.7966684772768382,
+  "change": -1.0411008509867747,
+  "atr": 1.792696684541469,
+  "close": 54.655,
+  "mode": "streaming"
+ },
+ "PCAR": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.15700127563536118,
+  "change": 1.0695711902659242,
+  "atr": 2.6592569219329403,
+  "close": 103,
+  "mode": "streaming"
+ },
+ "EW": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-23",
+  "premarket_change": 0.9455493968046846,
+  "change": 1.8910987936093846,
+  "atr": 2.224300139336479,
+  "close": 93.75,
+  "mode": "streaming"
+ },
+ "O": {
+  "sector": "Finance",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.20340769365887953,
+  "change": 0.24591603723871522,
+  "atr": 0.8764884036343237,
+  "close": 57.07,
+  "mode": "streaming"
+ },
+ "BDX": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": null,
+  "change": 0.0656963816454394,
+  "atr": 3.7083655093399273,
+  "close": 198.01,
+  "mode": "streaming"
+ },
+ "EBAY": {
+  "sector": "Retail Trade",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.06576783952647015,
+  "change": 0.6576783952647133,
+  "atr": 3.3903949965755906,
+  "close": 122.44,
+  "mode": "streaming"
+ },
+ "ETR": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-11-02",
+  "premarket_change": 0.19980019980019875,
+  "change": 0.5630732903460217,
+  "atr": 1.7239785369606366,
+  "close": 110.73,
+  "mode": "streaming"
+ },
+ "KEYS": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-19",
+  "earn_last": "2026-08-18",
+  "premarket_change": 0.911458333333337,
+  "change": 0.6087239583333348,
+  "atr": 13.446449038325756,
+  "close": 309.07,
+  "mode": "streaming"
+ },
+ "ADSK": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-08-27",
+  "premarket_change": 0.35655622771523027,
+  "change": 0.7571812026761693,
+  "atr": 7.516413765333556,
+  "close": 251.5,
+  "mode": "streaming"
+ },
+ "LHX": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.02161305428478883,
+  "change": 0.4989013364071866,
+  "atr": 6.10666147279192,
+  "close": 278.995,
+  "mode": "streaming"
+ },
+ "TRI": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.9048625792811781,
+  "change": 0.6004228329809672,
+  "atr": 3.8814586274590757,
+  "close": 118.96,
+  "mode": "streaming"
+ },
+ "CCEP": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-08-04",
+  "premarket_change": 1.2100335629747434,
+  "change": 1.3557675322381175,
+  "atr": 2.285435012042956,
+  "close": 114.755,
+  "mode": "streaming"
+ },
+ "XEL": {
+  "sector": "Utilities",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.854171886745164,
+  "change": -0.8205963417689638,
+  "atr": 1.4353028840350013,
+  "close": 79.165,
+  "mode": "streaming"
+ },
+ "VEEV": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-09",
+  "earn_last": "2026-08-26",
+  "premarket_change": -0.28757668711655715,
+  "change": -0.42816973415132126,
+  "atr": 9.019905188240227,
+  "close": 311.62,
+  "mode": "streaming"
+ },
+ "HONA": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.8488485241647707,
+  "change": 2.925786571521242,
+  "atr": 7.735139432317564,
+  "close": 158.6601,
+  "mode": "streaming"
+ },
+ "HUM": {
+  "sector": "Health Services",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-07-29",
+  "premarket_change": -0.11821471652593706,
+  "change": 0.12665862484921045,
+  "atr": 14.080337039146851,
+  "close": 415.025,
+  "mode": "streaming"
+ },
+ "FITB": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-19",
+  "premarket_change": -0.06014479302022562,
+  "change": 1.2622981251160195,
+  "atr": 1.078426343380801,
+  "close": 54.55,
+  "mode": "streaming"
+ },
+ "A": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-23",
+  "earn_last": "2026-08-26",
+  "premarket_change": 0,
+  "change": -0.42317149882770577,
+  "atr": 5.042093680129629,
+  "close": 174.13,
+  "mode": "streaming"
+ },
+ "KDP": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.44642857142856185,
+  "change": -0.30691964285716106,
+  "atr": 0.7438605901192344,
+  "close": 35.73,
+  "mode": "streaming"
+ },
+ "VYLR": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-11",
+  "earn_last": "2026-09-21",
+  "premarket_change": 0.8011049723756882,
+  "change": 0.5870165745856314,
+  "atr": 3.244428618658926,
+  "close": 72.825,
+  "mode": "streaming"
+ },
+ "TEVA": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-29",
+  "premarket_change": -2.304585412211941,
+  "change": -1.2114516512235727,
+  "atr": 1.1647749944732861,
+  "close": 41.5801,
+  "mode": "streaming"
+ },
+ "VMRK": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-22",
+  "premarket_change": null,
+  "change": 0.40387722132471726,
+  "atr": 1.134003494608798,
+  "close": 62.15,
+  "mode": "streaming"
+ },
+ "PYPL": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.9121206805823595,
+  "change": 1.105069286090164,
+  "atr": 1.3480690317663289,
+  "close": 57.64,
+  "mode": "streaming"
+ },
+ "WDAY": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-08-27",
+  "premarket_change": 0.1870387220705715,
+  "change": 0.374077444141143,
+  "atr": 6.9066193427980185,
+  "close": 198.56,
+  "mode": "streaming"
+ },
+ "TEAM": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.14604631754642244,
+  "change": -0.9336532443146214,
+  "atr": 9.554264728163009,
+  "close": 189.93,
+  "mode": "streaming"
+ },
+ "WAB": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 1.7650214592274684,
+  "atr": 7.108029171306484,
+  "close": 284.535,
+  "mode": "streaming"
+ },
+ "EXC": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-30",
+  "premarket_change": -0.8015597920277241,
+  "change": 0.0021663778163015057,
+  "atr": 0.7946760256112604,
+  "close": 46.161,
+  "mode": "streaming"
+ },
+ "FERG": {
+  "sector": "Distribution Services",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-10",
+  "premarket_change": 0,
+  "change": 2.2624434389140293,
+  "atr": 5.989044677389221,
+  "close": 244.08,
+  "mode": "streaming"
+ },
+ "XYZ": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.876147992652856,
+  "change": 2.197585935450009,
+  "atr": 2.2317443425721932,
+  "close": 77.895,
+  "mode": "streaming"
+ },
+ "STT": {
+  "sector": "Finance",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-14",
+  "premarket_change": null,
+  "change": 1.198680567827058,
+  "atr": 4.057358537324238,
+  "close": 171.805,
+  "mode": "streaming"
+ },
+ "VST": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-07",
+  "premarket_change": 0.8311050083110542,
+  "change": 0.49143600491436495,
+  "atr": 6.661577666316708,
+  "close": 139.05,
+  "mode": "streaming"
+ },
+ "ROP": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-22",
+  "premarket_change": -0.23789112730390347,
+  "change": 0.2957565366480916,
+  "atr": 11.989381940523051,
+  "close": 467.98,
+  "mode": "streaming"
+ },
+ "WCN": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 0.41286397218600107,
+  "atr": 4.255755492222031,
+  "close": 184.84,
+  "mode": "streaming"
+ },
+ "VTR": {
+  "sector": "Finance",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.533018867924525,
+  "change": 0.4363207547169865,
+  "atr": 2.1906412861904667,
+  "close": 85.17,
+  "mode": "streaming"
+ },
+ "SE": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-11",
+  "premarket_change": 1.6837284482758623,
+  "change": 1.7376077586206982,
+  "atr": 3.2214624243848005,
+  "close": 75.53,
+  "mode": "streaming"
+ },
+ "MT": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": null,
+  "earn_last": null,
+  "premarket_change": 2.5246614278548702,
+  "change": 2.808894833639859,
+  "atr": 1.9048458694471802,
+  "close": 61.49,
+  "mode": "streaming"
+ },
+ "CARR": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.4102181614767832,
+  "change": 1.1280999440611539,
+  "atr": 1.6165655051127306,
+  "close": 54.235,
+  "mode": "streaming"
+ },
+ "ALAB": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.5799381522999543,
+  "change": -2.027444916892144,
+  "atr": 22.50890089428788,
+  "close": 253.455,
+  "mode": "streaming"
+ },
+ "IQV": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.20199753114129373,
+  "change": -0.3684584595817742,
+  "atr": 8.85396900749817,
+  "close": 266.345,
+  "mode": "streaming"
+ },
+ "CIEN": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-10",
+  "earn_last": "2026-09-03",
+  "premarket_change": 0.12783736592665507,
+  "change": -4.050261910700925,
+  "atr": 24.877918791884337,
+  "close": 307.73,
+  "mode": "streaming"
+ },
+ "ED": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": null,
+  "change": 0.12860082304527237,
+  "atr": 1.9535384316141324,
+  "close": 116.79,
+  "mode": "streaming"
+ },
+ "YUM": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.611325611325604,
+  "change": 1.4446589446589475,
+  "atr": 3.3399473764148957,
+  "close": 157.645,
+  "mode": "streaming"
+ },
+ "MCHP": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 2.3403154900439644,
+  "change": 2.062322213602274,
+  "atr": 3.1011821847198555,
+  "close": 78.935,
+  "mode": "streaming"
+ },
+ "AIG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-06",
+  "premarket_change": null,
+  "change": 0.012210012210001104,
+  "atr": 1.3291976704054063,
+  "close": 81.91,
+  "mode": "streaming"
+ },
+ "TER": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.0496774428691167,
+  "change": -0.7690345154353659,
+  "atr": 21.162947093673605,
+  "close": 272.26,
+  "mode": "streaming"
+ },
+ "MDLN": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.21793275217932845,
+  "change": 0.71606475716066,
+  "atr": 1.086771491449481,
+  "close": 32.35,
+  "mode": "streaming"
+ },
+ "LYV": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": null,
+  "change": 0.7870032042273347,
+  "atr": 3.7953352707332733,
+  "close": 179.29,
+  "mode": "streaming"
+ },
+ "AU": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-31",
+  "premarket_change": 2.895099636545918,
+  "change": 4.211054016794083,
+  "atr": 3.4280807167294207,
+  "close": 83.15,
+  "mode": "streaming"
+ },
+ "STM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.9525032092426087,
+  "change": 3.5515618314077804,
+  "atr": 2.25828277046711,
+  "close": 48.4,
+  "mode": "streaming"
+ },
+ "DHI": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.2456164383561668,
+  "change": 2.0684931506849384,
+  "atr": 4.439877477478892,
+  "close": 149.02,
+  "mode": "streaming"
+ },
+ "P": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-08-26",
+  "premarket_change": 1.7137344463695112,
+  "change": -1.9503858875413487,
+  "atr": 7.940733987627735,
+  "close": 124.5034,
+  "mode": "streaming"
+ },
+ "CMG": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.06271558482282713,
+  "change": 2.759485732204461,
+  "atr": 1.191226905014039,
+  "close": 32.77,
+  "mode": "streaming"
+ },
+ "COHR": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-12",
+  "premarket_change": 2.001711677443899,
+  "change": -0.6908520349942959,
+  "atr": 19.587507066759237,
+  "close": 208.867,
+  "mode": "streaming"
+ },
+ "FER": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-03-04",
+  "earn_last": "2026-07-28",
+  "premarket_change": 3.9428468077410015,
+  "change": 3.9247603544944867,
+  "atr": 1.4579531174981093,
+  "close": 57.46,
+  "mode": "streaming"
+ },
+ "RVMD": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.35544404369871246,
+  "change": -0.2561287961946626,
+  "atr": 7.734311978793391,
+  "close": 190.82,
+  "mode": "streaming"
+ },
+ "SYY": {
+  "sector": "Distribution Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.8685162846803364,
+  "change": 0.13268998793727313,
+  "atr": 1.51853189579128,
+  "close": 83.01,
+  "mode": "streaming"
+ },
+ "PRU": {
+  "sector": "Finance",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": null,
+  "change": 1.1936453413482186,
+  "atr": 2.3134509033032526,
+  "close": 117.84,
+  "mode": "streaming"
+ },
+ "NBIS": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-12",
+  "premarket_change": 0.19462826002336278,
+  "change": -3.8114700921240434,
+  "atr": 15.583662298202674,
+  "close": 148.265,
+  "mode": "streaming"
+ },
+ "CCL": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-12-18",
+  "earn_last": "2026-09-29",
+  "premarket_change": 3.0870620881026727,
+  "change": 3.1574748525841247,
+  "atr": 0.9327700908243426,
+  "close": 29.7403,
+  "mode": "streaming"
+ },
+ "PAYX": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-17",
+  "earn_last": "2026-09-23",
+  "premarket_change": 0.6243310738494369,
+  "change": 0.09364966107740792,
+  "atr": 2.977264818660246,
+  "close": 112.225,
+  "mode": "streaming"
+ },
+ "KR": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-26",
+  "earn_last": "2026-03-05",
+  "premarket_change": -0.6141402037148154,
+  "change": 0.09736369083283061,
+  "atr": 1.6750130822795193,
+  "close": 66.825,
+  "mode": "streaming"
+ },
+ "VIK": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-25",
+  "earn_last": "2026-08-19",
+  "premarket_change": 1.1661140962615708,
+  "change": 0.9889104835943694,
+  "atr": 2.5741673810265233,
+  "close": 88.335,
+  "mode": "streaming"
+ },
+ "EL": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-11-02",
+  "premarket_change": 2.5359333516433176,
+  "change": -0.7873294882358322,
+  "atr": 3.618580919002832,
+  "close": 108.37,
+  "mode": "streaming"
+ },
+ "NTAP": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-09-02",
+  "premarket_change": 1.3756401245104832,
+  "change": -1.1647755798774944,
+  "atr": 9.59535581804046,
+  "close": 196.86,
+  "mode": "streaming"
+ },
+ "RPRX": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.02977076510865737,
+  "change": -0.7591545102709215,
+  "atr": 1.364098427995963,
+  "close": 66.67,
+  "mode": "streaming"
+ },
+ "CBRE": {
+  "sector": "Finance",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.34924330616997834,
+  "change": 2.995421032207994,
+  "atr": 4.29287350976158,
+  "close": 132.7096,
+  "mode": "streaming"
+ },
+ "WEC": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": -0.09046265184801393,
+  "atr": 1.9339771572920605,
+  "close": 115.965,
+  "mode": "streaming"
+ },
+ "ZS": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-09-03",
+  "premarket_change": 0.07568431232391977,
+  "change": -3.2123785897489863,
+  "atr": 12.43707463902496,
+  "close": 230.19,
+  "mode": "streaming"
+ },
+ "BIIB": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.8398391294061964,
+  "change": 0.025628893620376042,
+  "atr": 7.335253680626167,
+  "close": 253.685,
+  "mode": "streaming"
+ },
+ "COIN": {
+  "sector": "Finance",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": -2.3199108262505113,
+  "change": -1.7068412985927188,
+  "atr": 9.990528787527618,
+  "close": 141.09,
+  "mode": "streaming"
+ },
+ "CCI": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": -1.1726237456308402,
+  "change": -1.7927613034163978,
+  "atr": 3.158085617711799,
+  "close": 87.1,
+  "mode": "streaming"
+ },
+ "VMC": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 1.8791111111111198,
+  "atr": 7.308235075552678,
+  "close": 286.535,
+  "mode": "streaming"
+ },
+ "ADM": {
+  "sector": "Process Industries",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.29905083864255594,
+  "change": -0.8256403588609946,
+  "atr": 1.89900686155594,
+  "close": 76.275,
+  "mode": "streaming"
+ },
+ "KMB": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-11-05",
+  "premarket_change": 1.2136372058551068,
+  "change": 1.8158236057068815,
+  "atr": 2.571534266772917,
+  "close": 109.9,
+  "mode": "streaming"
+ },
+ "STLD": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-19",
+  "premarket_change": 1.5629984051036634,
+  "change": 2.135167464114817,
+  "atr": 8.394179605995609,
+  "close": 256.155,
+  "mode": "streaming"
+ },
+ "ACGL": {
+  "sector": "Finance",
+  "earn_next": "2027-02-15",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 0.3102670176758164,
+  "atr": 2.0891866172867735,
+  "close": 106.69,
+  "mode": "streaming"
+ },
+ "ODFL": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": 4.288363467779326,
+  "change": 1.5646731571627195,
+  "atr": 5.996221466581465,
+  "close": 175.26,
+  "mode": "streaming"
+ },
+ "PEG": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-11-02",
+  "premarket_change": -3.4190335172970867,
+  "change": -2.106609234082665,
+  "atr": 1.2909902402332638,
+  "close": 72.725,
+  "mode": "streaming"
+ },
+ "ALC": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-10",
+  "premarket_change": 0.6438068579426084,
+  "change": 1.3505948215535386,
+  "atr": 1.2971631127067895,
+  "close": 72.415,
+  "mode": "streaming"
+ },
+ "TTWO": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-07",
+  "premarket_change": 0.7046326970605267,
+  "change": 0.39964242519851684,
+  "atr": 5.945475779054427,
+  "close": 190.93,
+  "mode": "streaming"
+ },
+ "UAL": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-20",
+  "premarket_change": 4.364927091327717,
+  "change": 5.264293937068315,
+  "atr": 4.585625718432019,
+  "close": 109.7275,
+  "mode": "streaming"
+ },
+ "HIG": {
+  "sector": "Finance",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-26",
+  "premarket_change": null,
+  "change": 0.2187193604344159,
+  "atr": 2.6208344280852205,
+  "close": 132.88,
+  "mode": "streaming"
+ },
+ "GEHC": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.2537547342301267,
+  "change": 1.867572156196953,
+  "atr": 2.0220657605801273,
+  "close": 78,
+  "mode": "streaming"
+ },
+ "EXPE": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.6437589619836983,
+  "change": 2.4446542860140625,
+  "atr": 11.141745072893375,
+  "close": 292.92,
+  "mode": "streaming"
+ },
+ "ILMN": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.4279842366201919,
+  "change": -2.0839866096021042,
+  "atr": 16.336406720803062,
+  "close": 231.072,
+  "mode": "streaming"
+ },
+ "GMAB": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -1.5597616543988793,
+  "change": -1.3144058885383807,
+  "atr": 2.3432851406091024,
+  "close": 56.31,
+  "mode": "streaming"
+ },
+ "IRM": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.8151008151008176,
+  "change": 0.16302016302016106,
+  "atr": 3.3360824322049885,
+  "close": 116.74,
+  "mode": "streaming"
+ },
+ "EQT": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-27",
+  "premarket_change": -1.9682195738533828,
+  "change": -0.8306247742867476,
+  "atr": 1.5666633338533593,
+  "close": 54.92,
+  "mode": "streaming"
+ },
+ "SUNB": {
+  "sector": "Finance",
+  "earn_next": "2026-12-30",
+  "earn_last": "2026-09-09",
+  "premarket_change": -0.09565945234963326,
+  "change": 0.04782972617482513,
+  "atr": 2.55507238714573,
+  "close": 83.67,
+  "mode": "streaming"
+ },
+ "CNC": {
+  "sector": "Health Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.42366691015338503,
+  "change": -0.0803506208911714,
+  "atr": 2.5261968661507326,
+  "close": 68.395,
+  "mode": "streaming"
+ },
+ "OKTA": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-08",
+  "earn_last": "2026-08-26",
+  "premarket_change": -1.080484056857472,
+  "change": -7.1071840184402655,
+  "atr": 12.483329047848184,
+  "close": 193.44,
+  "mode": "streaming"
+ },
+ "HSY": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.44683292071733627,
+  "change": 1.1351971499305569,
+  "atr": 4.031234757813413,
+  "close": 167.49,
+  "mode": "streaming"
+ },
+ "CCJ": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-12",
+  "earn_last": "2026-10-30",
+  "premarket_change": 0.7541282017943028,
+  "change": 0.18203094526069505,
+  "atr": 3.3035671764590133,
+  "close": 77.05,
+  "mode": "streaming"
+ },
+ "ZTS": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.10035122930255683,
+  "change": 1.7812343201204235,
+  "atr": 1.8256927632269522,
+  "close": 81.14,
+  "mode": "streaming"
+ },
+ "CLS": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-26",
+  "premarket_change": 1.5516137536248278,
+  "change": -0.20788611456331266,
+  "atr": 22.184655066054123,
+  "close": 264.978,
+  "mode": "streaming"
+ },
+ "QSR": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 0.6490816185609707,
+  "atr": 1.6736356735498064,
+  "close": 72.88,
+  "mode": "streaming"
+ },
+ "NTR": {
+  "sector": "Process Industries",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.4753673292999111,
+  "change": -0.6266205704407984,
+  "atr": 1.7062407078850235,
+  "close": 68.985,
+  "mode": "streaming"
+ },
+ "RMD": {
+  "sector": "Health Technology",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 1.3046881795250935,
+  "atr": 6.665154907036412,
+  "close": 232.94,
+  "mode": "streaming"
+ },
+ "RKLB": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-10",
+  "premarket_change": 0.5298739265485224,
+  "change": -1.0506120957427292,
+  "atr": 3.8148125789311096,
+  "close": 54.155,
+  "mode": "streaming"
+ },
+ "EXR": {
+  "sector": "Finance",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 0.9714512291831873,
+  "atr": 2.9921463442031637,
+  "close": 152.79,
+  "mode": "streaming"
+ },
+ "FLEX": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.7576318223866743,
+  "change": -0.005781683626283144,
+  "atr": 6.396819668492023,
+  "close": 86.475,
+  "mode": "streaming"
+ },
+ "IR": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.43597751405372,
+  "change": 2.567145534041233,
+  "atr": 2.396514538538468,
+  "close": 82.105,
+  "mode": "streaming"
+ },
+ "TWLO": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.4731014973418519,
+  "change": 0.014632005072428981,
+  "atr": 17.590571565647195,
+  "close": 205.06,
+  "mode": "streaming"
+ },
+ "DXCM": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.8628022846032248,
+  "change": 1.816745655608203,
+  "atr": 2.5302156382682637,
+  "close": 83.785,
+  "mode": "streaming"
+ },
+ "NTRS": {
+  "sector": "Finance",
+  "earn_next": "2027-01-21",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 1.3892173090565112,
+  "atr": 3.954862945724573,
+  "close": 171.51,
+  "mode": "streaming"
+ },
+ "RBLX": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.2791346824843092,
+  "change": 0.8490346592230632,
+  "atr": 3.0810452943446482,
+  "close": 43.355,
+  "mode": "streaming"
+ },
+ "JD": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-13",
+  "premarket_change": 1.6744548286604348,
+  "change": 1.8691588785046744,
+  "atr": 0.5093619511826446,
+  "close": 26.16,
+  "mode": "streaming"
+ },
+ "RJF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0,
+  "change": 1.6282915659585309,
+  "atr": 3.537808462013962,
+  "close": 159.78,
+  "mode": "streaming"
+ },
+ "AEE": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": null,
+  "change": 0.12665098606839204,
+  "atr": 1.616616252537716,
+  "close": 110.68,
+  "mode": "streaming"
+ },
+ "TECK": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.7388219765715287,
+  "change": 2.227355221910578,
+  "atr": 2.258320000487788,
+  "close": 61.96,
+  "mode": "streaming"
+ },
+ "PUK": {
+  "sector": "Finance",
+  "earn_next": "2027-03-24",
+  "earn_last": "2026-08-26",
+  "premarket_change": 1.578947368421055,
+  "change": 1.5384615384615346,
+  "atr": 0.40332380386826017,
+  "close": 25.08,
+  "mode": "streaming"
+ },
+ "SN": {
+  "sector": "Consumer Durables",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.2932692307692295,
+  "change": 1.8894230769230802,
+  "atr": 6.570573537967458,
+  "close": 211.93,
+  "mode": "streaming"
+ },
+ "DG": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-08-27",
+  "premarket_change": null,
+  "change": 0.982615268329541,
+  "atr": 4.135795373355015,
+  "close": 133.6,
+  "mode": "streaming"
+ },
+ "CRWV": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-11",
+  "premarket_change": 1.2392928740659737,
+  "change": -2.8977583378895506,
+  "atr": 5.649566091479132,
+  "close": 53.28,
+  "mode": "streaming"
+ },
+ "HAL": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-20",
+  "premarket_change": -1.5758916228919,
+  "change": -1.8523638374343427,
+  "atr": 0.9456252254790203,
+  "close": 35.5,
+  "mode": "streaming"
+ },
+ "KHC": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.3286770747740275,
+  "change": 1.56121610517666,
+  "atr": 0.6100555514024623,
+  "close": 24.72,
+  "mode": "streaming"
+ },
+ "GFI": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-08-25",
+  "premarket_change": 4.708383961117852,
+  "change": 5.3159173754556495,
+  "atr": 1.4947607006749821,
+  "close": 34.67,
+  "mode": "streaming"
+ },
+ "ARES": {
+  "sector": "Finance",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.0534529847834524,
+  "change": 1.4865392118611012,
+  "atr": 3.8084072224612084,
+  "close": 130.055,
+  "mode": "streaming"
+ },
+ "OTIS": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 0.6468646864686401,
+  "atr": 1.5437510415134252,
+  "close": 76.24,
+  "mode": "streaming"
+ },
+ "TW": {
+  "sector": "Finance",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 0.7997388607801451,
+  "atr": 3.0344973814936274,
+  "close": 123.52,
+  "mode": "streaming"
+ },
+ "ECHO": {
+  "sector": "Communications",
+  "earn_next": "2026-11-11",
+  "earn_last": "2026-08-03",
+  "premarket_change": 3.7342686197648076,
+  "change": 2.27976067670725,
+  "atr": 4.221914132627212,
+  "close": 99.15,
+  "mode": "streaming"
+ },
+ "AWK": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 0.2458959617649025,
+  "atr": 2.9090570525652764,
+  "close": 144.725,
+  "mode": "streaming"
+ },
+ "CTSH": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.3225311012133217,
+  "change": -1.0904622945783962,
+  "atr": 2.743155151132156,
+  "close": 64.4,
+  "mode": "streaming"
+ },
+ "BSP": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-13",
+  "premarket_change": 1.4499121265377781,
+  "change": -0.8677504393673178,
+  "atr": 3.970821991364889,
+  "close": 45.125,
+  "mode": "streaming"
+ },
+ "CPRT": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-18",
+  "earn_last": "2026-09-10",
+  "premarket_change": -0.06637902422834242,
+  "change": 2.489213408562894,
+  "atr": 0.8211996170017832,
+  "close": 30.88,
+  "mode": "streaming"
+ },
+ "JBL": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-12-10",
+  "earn_last": "2026-09-30",
+  "premarket_change": 0.9973599295981116,
+  "change": 0.8910237606335984,
+  "atr": 12.466916401253117,
+  "close": 275.15,
+  "mode": "streaming"
+ },
+ "DOV": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-22",
+  "premarket_change": null,
+  "change": 2.1421007028015735,
+  "atr": 4.248440334927027,
+  "close": 212.19,
+  "mode": "streaming"
+ },
+ "ON": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": 1.2976140644621077,
+  "change": 0.7255476489465551,
+  "atr": 3.4436387712302725,
+  "close": 72.19,
+  "mode": "streaming"
+ },
+ "CNP": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": -0.4948162111215854,
+  "atr": 0.6598398995271489,
+  "close": 42.23,
+  "mode": "streaming"
+ },
+ "CRDO": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-09-01",
+  "premarket_change": 0.3443936684548525,
+  "change": -1.8146897145506384,
+  "atr": 14.652279501687417,
+  "close": 148.25,
+  "mode": "streaming"
+ },
+ "ZM": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-23",
+  "earn_last": "2026-08-25",
+  "premarket_change": 0.20942408376963648,
+  "change": -0.3926701570680628,
+  "atr": 3.397008554174755,
+  "close": 95.125,
+  "mode": "streaming"
+ },
+ "MDB": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-07",
+  "earn_last": "2026-09-01",
+  "premarket_change": 0.2946509519492352,
+  "change": -2.753881459655486,
+  "atr": 23.31115776373352,
+  "close": 343.2399,
+  "mode": "streaming"
+ },
+ "VLTO": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.8631863186318698,
+  "change": 1.269126912691279,
+  "atr": 2.442522103259408,
+  "close": 112.51,
+  "mode": "streaming"
+ },
+ "WRB": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-19",
+  "premarket_change": null,
+  "change": -0.13539128080150867,
+  "atr": 1.4489088871197493,
+  "close": 73.76,
+  "mode": "streaming"
+ },
+ "FE": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.7397143466211923,
+  "change": 0.19185674696227548,
+  "atr": 0.6782749709468737,
+  "close": 47,
+  "mode": "streaming"
+ },
+ "FISV": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.0995601759296223,
+  "change": 2.139144342263095,
+  "atr": 1.430873554116598,
+  "close": 51.09,
+  "mode": "streaming"
+ },
+ "PPG": {
+  "sector": "Process Industries",
+  "earn_next": "2027-01-21",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.4725568942436456,
+  "change": 2.3761713520749694,
+  "atr": 3.0055109768106605,
+  "close": 122.36,
+  "mode": "streaming"
+ },
+ "VICI": {
+  "sector": "Finance",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.24529844644318183,
+  "change": 0.3475061324611646,
+  "atr": 0.461507235820328,
+  "close": 24.545,
+  "mode": "streaming"
+ },
+ "CFG": {
+  "sector": "Finance",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-16",
+  "premarket_change": null,
+  "change": 0.7365616674502411,
+  "atr": 1.353487844460029,
+  "close": 64.28,
+  "mode": "streaming"
+ },
+ "PPL": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-07",
+  "premarket_change": 0,
+  "change": 0.15427769985974676,
+  "atr": 0.5226906998926439,
+  "close": 35.705,
+  "mode": "streaming"
+ },
+ "ROIV": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.5147656461663638,
+  "change": 0.4063939311839764,
+  "atr": 1.2489549061894494,
+  "close": 37.06,
+  "mode": "streaming"
+ },
+ "RYAAY": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-07-20",
+  "premarket_change": 4.0208488458674685,
+  "change": 4.932985852568874,
+  "atr": 1.4565419569237399,
+  "close": 56.37,
+  "mode": "streaming"
+ },
+ "FTI": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.119674276574082,
+  "change": -1.4395812127381054,
+  "atr": 2.375026685998467,
+  "close": 67.78,
+  "mode": "streaming"
+ },
+ "PHG": {
+  "sector": "Health Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-27",
+  "premarket_change": 1.6344725111441223,
+  "change": 1.0029717682020787,
+  "atr": 0.44864918419520655,
+  "close": 27.19,
+  "mode": "streaming"
+ },
+ "HPQ": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-01",
+  "earn_last": "2026-08-26",
+  "premarket_change": 0.9728978457261903,
+  "change": 1.1813759555246695,
+  "atr": 1.4757287990440158,
+  "close": 29.12,
+  "mode": "streaming"
+ },
+ "EXPD": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": null,
+  "change": 0.6235856172994766,
+  "atr": 3.787752370037506,
+  "close": 200.09,
+  "mode": "streaming"
+ },
+ "GPN": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.6815365551424996,
+  "change": 1.1926889714993816,
+  "atr": 3.3939843387949686,
+  "close": 97.995,
+  "mode": "streaming"
+ },
+ "ES": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-30",
+  "premarket_change": -2.9467541940189586,
+  "change": -0.14587892049598006,
+  "atr": 1.1397007205913454,
+  "close": 68.45,
+  "mode": "streaming"
+ },
+ "FOXA": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-11-02",
+  "premarket_change": 4.870335230866526,
+  "change": 2.3007590132827183,
+  "atr": 1.9557180463254873,
+  "close": 64.695,
+  "mode": "streaming"
+ },
+ "AFRM": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-27",
+  "premarket_change": 1.401932761671432,
+  "change": 3.0012249897917496,
+  "atr": 3.5392295438756216,
+  "close": 75.675,
+  "mode": "streaming"
+ },
+ "TCOM": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-23",
+  "earn_last": "2026-09-15",
+  "premarket_change": 1.919676686031821,
+  "change": 2.248042434958306,
+  "atr": 0.8858685454849179,
+  "close": 40.48,
+  "mode": "streaming"
+ },
+ "VRSK": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-29",
+  "premarket_change": null,
+  "change": 0.19867549668873474,
+  "atr": 6.0059458237179895,
+  "close": 196.69,
+  "mode": "streaming"
+ },
+ "DLTR": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-08-27",
+  "premarket_change": -0.06722940165832779,
+  "change": 1.7927840442220104,
+  "atr": 4.114711839623442,
+  "close": 136.27,
+  "mode": "streaming"
+ },
+ "BIDU": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-16",
+  "earn_last": "2026-08-18",
+  "premarket_change": 1.7539267015706663,
+  "change": 2.0811518324607188,
+  "atr": 2.1139062086591744,
+  "close": 77.99,
+  "mode": "streaming"
+ },
+ "CHD": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-29",
+  "earn_last": "2026-10-30",
+  "premarket_change": null,
+  "change": 0.2611209549566363,
+  "atr": 2.082678978424799,
+  "close": 107.51,
+  "mode": "streaming"
+ },
+ "AER": {
+  "sector": "Finance",
+  "earn_next": "2027-03-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 1.8735806207418615,
+  "atr": 3.6219896423262106,
+  "close": 161.49,
+  "mode": "streaming"
+ },
+ "KGC": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": 2.086438152011931,
+  "change": 3.303527074018891,
+  "atr": 1.003352814638023,
+  "close": 20.795,
+  "mode": "streaming"
+ },
+ "INSM": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.32865517853970916,
+  "change": -0.26647717178894753,
+  "atr": 4.51332066307048,
+  "close": 112.28,
+  "mode": "streaming"
+ },
+ "RF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-16",
+  "premarket_change": null,
+  "change": 1.085054252712631,
+  "atr": 0.5381995469886008,
+  "close": 28.88,
+  "mode": "streaming"
+ },
+ "RBRK": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-08-27",
+  "premarket_change": -0.0483286347160711,
+  "change": -4.510672573499805,
+  "atr": 7.30790983684919,
+  "close": 118.55,
+  "mode": "streaming"
+ },
+ "Q": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 2.8456329819147967,
+  "change": 0.6042684494728707,
+  "atr": 5.144139429414239,
+  "close": 117.375,
+  "mode": "streaming"
+ },
+ "DOW": {
+  "sector": "Process Industries",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": -1.873198847262264,
+  "change": -2.2622478386167253,
+  "atr": 0.9884282056684012,
+  "close": 33.915,
+  "mode": "streaming"
+ },
+ "INCY": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0,
+  "change": -0.8223274358335367,
+  "atr": 3.6699069764121517,
+  "close": 119.4,
+  "mode": "streaming"
+ },
+ "IOT": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-26",
+  "earn_last": "2026-09-03",
+  "premarket_change": 0.3090087948657061,
+  "change": -1.818397908248159,
+  "atr": 1.9117118897937573,
+  "close": 41.305,
+  "mode": "streaming"
+ },
+ "ENTG": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.9211736511432216,
+  "change": 2.4936848241466567,
+  "atr": 8.645019139600487,
+  "close": 158.24,
+  "mode": "streaming"
+ },
+ "IFF": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.29026015910557973,
+  "change": 1.440550419264678,
+  "atr": 1.9050603521545735,
+  "close": 94.36,
+  "mode": "streaming"
+ },
+ "PFG": {
+  "sector": "Finance",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-26",
+  "premarket_change": null,
+  "change": 0.9809191077667284,
+  "atr": 2.4923220164117845,
+  "close": 112.725,
+  "mode": "streaming"
+ },
+ "GH": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.671140939597309,
+  "change": -0.47259507829977565,
+  "atr": 8.122666623606525,
+  "close": 177.955,
+  "mode": "streaming"
+ },
+ "SYF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-20",
+  "premarket_change": null,
+  "change": 1.758460517584609,
+  "atr": 1.9144791750663648,
+  "close": 76.675,
+  "mode": "streaming"
+ },
+ "LVS": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 1.027860427373553,
+  "change": 1.4741682445225905,
+  "atr": 0.941420785059689,
+  "close": 37.515,
+  "mode": "streaming"
+ },
+ "STZ": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-07",
+  "earn_last": "2026-10-06",
+  "premarket_change": 1.1896844749870576,
+  "change": 2.264834109214511,
+  "atr": 3.361868509730257,
+  "close": 138.395,
+  "mode": "streaming"
+ },
+ "PHM": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.5371172037838718,
+  "change": 1.940035273368608,
+  "atr": 3.730571899416884,
+  "close": 127.16,
+  "mode": "streaming"
+ },
+ "ROKU": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.3086642599277987,
+  "change": 1.3344507478081442,
+  "atr": 2.1137689966629383,
+  "close": 157.19,
+  "mode": "streaming"
+ },
+ "TPR": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-13",
+  "premarket_change": 0.6105426089947491,
+  "change": 1.1565912804196394,
+  "atr": 3.256761389271778,
+  "close": 117.635,
+  "mode": "streaming"
+ },
+ "BRO": {
+  "sector": "Finance",
+  "earn_next": "2027-01-25",
+  "earn_last": "2026-10-26",
+  "premarket_change": -0.15768348623853126,
+  "change": 0.7024082568807265,
+  "atr": 2.181690739354346,
+  "close": 70.25,
+  "mode": "streaming"
+ },
+ "ATI": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.4614409082673998,
+  "change": 3.550939066368739,
+  "atr": 9.960404719702865,
+  "close": 171.47,
+  "mode": "streaming"
+ },
+ "AMRZ": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-28",
+  "premarket_change": 2.078298695021748,
+  "change": 2.7670372160463894,
+  "atr": 1.103150441593121,
+  "close": 42.525,
+  "mode": "streaming"
+ },
+ "SYM": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-23",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.9227524387028775,
+  "change": 1.2280516741365715,
+  "atr": 1.8731657605455652,
+  "close": 38.3958,
+  "mode": "streaming"
+ },
+ "GFS": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.4081145584725618,
+  "change": 0.2863961813842591,
+  "atr": 2.39522339198867,
+  "close": 42.02,
+  "mode": "streaming"
+ },
+ "FWONK": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.1138747701957405,
+  "change": 0.03244295447172179,
+  "atr": 2.237805285852194,
+  "close": 92.5,
+  "mode": "streaming"
+ },
+ "KEY": {
+  "sector": "Finance",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.8522727272727258,
+  "change": 1.1126893939393911,
+  "atr": 0.4057967972366459,
+  "close": 21.355,
+  "mode": "streaming"
+ },
+ "SW": {
+  "sector": "Process Industries",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.5780923648178224,
+  "change": 0.9863077280111328,
+  "atr": 1.4184149342902737,
+  "close": 43.515,
+  "mode": "streaming"
+ },
+ "USFD": {
+  "sector": "Distribution Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0,
+  "change": 0.7093909854261166,
+  "atr": 2.466980699222201,
+  "close": 104.345,
+  "mode": "streaming"
+ },
+ "EIX": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.18710665079094987,
+  "change": -0.37421330158189975,
+  "atr": 1.441303399278686,
+  "close": 58.57,
+  "mode": "streaming"
+ },
+ "CBRS": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-12",
+  "earn_last": "2026-08-12",
+  "premarket_change": -2.3630701593698595,
+  "change": -7.803627037919042,
+  "atr": 11.112639253739953,
+  "close": 100.66,
+  "mode": "streaming"
+ },
+ "TROW": {
+  "sector": "Finance",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 1.3907603464870002,
+  "atr": 2.3478442893390405,
+  "close": 105.345,
+  "mode": "streaming"
+ },
+ "XPO": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.543334915862215,
+  "change": 1.5456032072585362,
+  "atr": 7.1741707626662095,
+  "close": 192.5,
+  "mode": "streaming"
+ },
+ "LPLA": {
+  "sector": "Finance",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.10220624515400141,
+  "change": 1.4696553182491068,
+  "atr": 11.955617772642404,
+  "close": 287.91,
+  "mode": "streaming"
+ },
+ "OMC": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-22",
+  "premarket_change": null,
+  "change": 0.6460743293133048,
+  "atr": 2.378045978195306,
+  "close": 81.785,
+  "mode": "streaming"
+ },
+ "AMCR": {
+  "sector": "Process Industries",
+  "earn_next": null,
+  "earn_last": "2026-08-12",
+  "premarket_change": 0.44313146233382744,
+  "change": 1.1816838995568733,
+  "atr": 0.9170169310689303,
+  "close": 47.95,
+  "mode": "streaming"
+ },
+ "CMS": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": -0.09985734664763649,
+  "atr": 1.145950803094524,
+  "close": 70.03,
+  "mode": "streaming"
+ },
+ "EFX": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-20",
+  "premarket_change": -0.3250270855904628,
+  "change": 1.161971830985921,
+  "atr": 6.00709111858546,
+  "close": 186.745,
+  "mode": "streaming"
+ },
+ "SMCI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-11",
+  "premarket_change": 1.4264036418816353,
+  "change": -0.24279210925646552,
+  "atr": 2.2741805502055032,
+  "close": 32.87,
+  "mode": "streaming"
+ },
+ "LUV": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 3.1581428234739652,
+  "change": 3.3820410087202504,
+  "atr": 1.522359584596232,
+  "close": 43.865,
+  "mode": "streaming"
+ },
+ "XYL": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.29220779220778786,
+  "change": 1.0768398268398163,
+  "atr": 3.3686811962004657,
+  "close": 93.395,
+  "mode": "streaming"
+ },
+ "LYB": {
+  "sector": "Process Industries",
+  "earn_next": "2027-01-29",
+  "earn_last": "2026-10-30",
+  "premarket_change": -3.0157342657342765,
+  "change": -3.4294871794871784,
+  "atr": 2.104108206999061,
+  "close": 66.286,
+  "mode": "streaming"
+ },
+ "ALNY": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.6121212121212066,
+  "change": -3.163636363636363,
+  "atr": 12.360856149909042,
+  "close": 159.78,
+  "mode": "streaming"
+ },
+ "NI": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.044873233116453054,
+  "change": -0.05609154139555436,
+  "atr": 0.7319061304807494,
+  "close": 44.545,
+  "mode": "streaming"
+ },
+ "PR": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -1.9600307455803152,
+  "change": -2.6133743274404297,
+  "atr": 0.6873411418186708,
+  "close": 25.34,
+  "mode": "streaming"
+ },
+ "PTC": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-29",
+  "premarket_change": -0.020456172650093096,
+  "change": -0.2812723739388273,
+  "atr": 2.640732845491488,
+  "close": 194.99,
+  "mode": "streaming"
+ },
+ "LEN": {
+  "sector": "Consumer Durables",
+  "earn_next": "2026-12-16",
+  "earn_last": "2026-09-16",
+  "premarket_change": 0.31055900621117555,
+  "change": 1.5182884748102226,
+  "atr": 2.9076505230335234,
+  "close": 88.26,
+  "mode": "streaming"
+ },
+ "EXE": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-03-03",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.6184428492545581,
+  "change": -0.3920485919381601,
+  "atr": 2.3504503379856696,
+  "close": 90.195,
+  "mode": "streaming"
+ },
+ "SWKS": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-28",
+  "premarket_change": 1.2331582553094296,
+  "change": 0.9990865494405116,
+  "atr": 3.3667543708765626,
+  "close": 88.455,
+  "mode": "streaming"
+ },
+ "NVT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-30",
+  "premarket_change": 1.6113668836323123,
+  "change": 0.6905858072709877,
+  "atr": 7.884267428900034,
+  "close": 126.85,
+  "mode": "streaming"
+ },
+ "BBY": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-08-27",
+  "premarket_change": 0.575013068478826,
+  "change": 1.0454783063251438,
+  "atr": 3.3112633379433745,
+  "close": 96.65,
+  "mode": "streaming"
+ },
+ "FIS": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0,
+  "change": 0.9727626459143969,
+  "atr": 1.1869630691607986,
+  "close": 38.925,
+  "mode": "streaming"
+ },
+ "NRG": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0,
+  "change": -0.9160941078492562,
+  "atr": 3.9249125563098097,
+  "close": 95.18,
+  "mode": "streaming"
+ },
+ "YPF": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-03-04",
+  "earn_last": "2026-10-29",
+  "premarket_change": -2.744680851063828,
+  "change": -2.851063829787241,
+  "atr": 1.8446729521653606,
+  "close": 45.66,
+  "mode": "streaming"
+ },
+ "CHTR": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-07-24",
+  "premarket_change": -0.2601130146201382,
+  "change": 1.807336980895148,
+  "atr": 4.751622519113257,
+  "close": 113.505,
+  "mode": "streaming"
+ },
+ "TSN": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-16",
+  "earn_last": "2026-08-03",
+  "premarket_change": 0.8064516129032273,
+  "change": 1.192145862552594,
+  "atr": 1.0034808983902006,
+  "close": 57.72,
+  "mode": "streaming"
+ },
+ "FTAI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.38981150210924853,
+  "change": 3.3561168366529586,
+  "atr": 10.464805458215201,
+  "close": 193.555,
+  "mode": "streaming"
+ },
+ "FTV": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 2.1539169093975183,
+  "atr": 1.6043509860044378,
+  "close": 66.635,
+  "mode": "streaming"
+ },
+ "EVRG": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -0.2909344815547538,
+  "change": -0.058186896310964006,
+  "atr": 1.2329667364549075,
+  "close": 85.88,
+  "mode": "streaming"
+ },
+ "GFL": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.06635700066357252,
+  "change": -0.15483300154833063,
+  "atr": 1.3172380126214664,
+  "close": 45.14,
+  "mode": "streaming"
+ },
+ "SBAC": {
+  "sector": "Finance",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": -0.13358268768367618,
+  "change": -1.5602457921453463,
+  "atr": 6.213511827640255,
+  "close": 184.23,
+  "mode": "streaming"
+ },
+ "IP": {
+  "sector": "Process Industries",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.5773989551828453,
+  "change": 1.0723123453395673,
+  "atr": 1.15621140454808,
+  "close": 36.76,
+  "mode": "streaming"
+ },
+ "OVV": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-23",
+  "premarket_change": -2.506196640044075,
+  "change": -2.7816028642247455,
+  "atr": 1.9958135676576216,
+  "close": 70.6,
+  "mode": "streaming"
+ },
+ "APG": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-03-03",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.8119079837618389,
+  "change": 1.4997744700045086,
+  "atr": 1.2212181000314408,
+  "close": 45.005,
+  "mode": "streaming"
+ },
+ "DINO": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": -1.7391304347826086,
+  "change": -2.1217391304347806,
+  "atr": 5.177134986707304,
+  "close": 112.56,
+  "mode": "streaming"
+ },
+ "FSLR": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-03-02",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.545871559633026,
+  "change": 2.8612385321100806,
+  "atr": 7.163303704804821,
+  "close": 179.39,
+  "mode": "streaming"
+ },
+ "FDXF": {
+  "sector": "Transportation",
+  "earn_next": "2027-03-03",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.777213582989523,
+  "change": 2.2651539193906727,
+  "atr": 5.157699682846186,
+  "close": 128.895,
+  "mode": "streaming"
+ },
+ "CDW": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.5917159763313588,
+  "change": 0.04876780024710128,
+  "atr": 5.977088291996493,
+  "close": 153.865,
+  "mode": "streaming"
+ },
+ "TOST": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.8207070707070756,
+  "change": 3.9138257575757534,
+  "atr": 1.1386046149569384,
+  "close": 32.9199,
+  "mode": "streaming"
+ },
+ "BCE": {
+  "sector": "Communications",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -0.3434739941118758,
+  "change": 0.04906771344456116,
+  "atr": 0.4452364260564483,
+  "close": 20.39,
+  "mode": "streaming"
+ },
+ "SSNC": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-22",
+  "premarket_change": null,
+  "change": 0.7838039557158835,
+  "atr": 1.8281045915711733,
+  "close": 81.0201,
+  "mode": "streaming"
+ },
+ "LNT": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 0.6001395673412317,
+  "atr": 1.1701547522467624,
+  "close": 72.08,
+  "mode": "streaming"
+ },
+ "GIS": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-12-23",
+  "earn_last": "2026-09-23",
+  "premarket_change": 0.6124234470691189,
+  "change": 1.8372703412073568,
+  "atr": 1.0263766555566698,
+  "close": 34.92,
+  "mode": "streaming"
+ },
+ "WES": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -2.996335417115759,
+  "change": -2.888553567579227,
+  "atr": 0.8479112114029627,
+  "close": 45.05,
+  "mode": "streaming"
+ },
+ "FFIV": {
+  "sector": "Technology Services",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.5408760418514043,
+  "change": -2.999940887864272,
+  "atr": 20.427475184546662,
+  "close": 328.19,
+  "mode": "streaming"
+ },
+ "CRCL": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.45795423214778086,
+  "change": 0.11028398125172083,
+  "atr": 5.228659722640017,
+  "close": 72.62,
+  "mode": "streaming"
+ },
+ "TPG": {
+  "sector": "Finance",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 2.8813196229648645,
+  "atr": 1.7185906096642587,
+  "close": 48.025,
+  "mode": "streaming"
+ },
+ "PAA": {
+  "sector": "Industrial Services",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-07",
+  "premarket_change": -0.5658242172765074,
+  "change": -1.5277253866465528,
+  "atr": 0.4859961047142535,
+  "close": 26.105,
+  "mode": "streaming"
+ },
+ "BG": {
+  "sector": "Process Industries",
+  "earn_next": "2027-02-10",
+  "earn_last": "2026-10-29",
+  "premarket_change": -1.303807947019873,
+  "change": -1.365894039735107,
+  "atr": 3.148395863602745,
+  "close": 95.32,
+  "mode": "streaming"
+ },
+ "CF": {
+  "sector": "Process Industries",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -1.2246553122465458,
+  "change": -2.7575020275750135,
+  "atr": 4.060302168950375,
+  "close": 119.9,
+  "mode": "streaming"
+ },
+ "ZBH": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.23275497249259294,
+  "change": 0.6347862886161749,
+  "atr": 2.290422940148946,
+  "close": 95.12,
+  "mode": "streaming"
+ },
+ "RDDT": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.5777826229150781,
+  "change": 2.163959446200806,
+  "atr": 9.477793379433717,
+  "close": 93.715,
+  "mode": "streaming"
+ },
+ "NTNX": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-08-26",
+  "premarket_change": 0.5058771016217876,
+  "change": -1.9639934533551455,
+  "atr": 2.3257300474334053,
+  "close": 65.89,
+  "mode": "streaming"
+ },
+ "BALL": {
+  "sector": "Process Industries",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.15044380923724135,
+  "change": 1.203550473897995,
+  "atr": 1.4443570260811736,
+  "close": 67.27,
+  "mode": "streaming"
+ },
+ "APA": {
+  "sector": "Energy Minerals",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -2.328663385081403,
+  "change": -3.7864445285876562,
+  "atr": 1.5826769940712768,
+  "close": 50.82,
+  "mode": "streaming"
+ },
+ "TSCO": {
+  "sector": "Retail Trade",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-22",
+  "premarket_change": 1.0017678255745535,
+  "change": 0.5008839127872767,
+  "atr": 1.2560046648633783,
+  "close": 34.11,
+  "mode": "streaming"
+ },
+ "HST": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.9881422924901186,
+  "change": 2.1525691699604708,
+  "atr": 0.5349986256303353,
+  "close": 25.8446,
+  "mode": "streaming"
+ },
+ "RCI": {
+  "sector": "Communications",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-23",
+  "premarket_change": null,
+  "change": -0.045998160073598804,
+  "atr": 0.8810338589644005,
+  "close": 32.595,
+  "mode": "streaming"
+ },
+ "MTSI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.5828320320832836,
+  "change": -1.4420410427065984,
+  "atr": 17.41865096974077,
+  "close": 231.01,
+  "mode": "streaming"
+ },
+ "TSEM": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-11-02",
+  "premarket_change": -3.2856799615569434,
+  "change": -6.817695819317635,
+  "atr": 15.021877821912323,
+  "close": 155.1299,
+  "mode": "streaming"
+ },
+ "RVTY": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.4203821656050934,
+  "change": -0.17515923566879343,
+  "atr": 5.989468814277653,
+  "close": 156.725,
+  "mode": "streaming"
+ },
+ "AS": {
+  "sector": "Consumer Durables",
+  "earn_next": "2026-11-17",
+  "earn_last": "2026-08-18",
+  "premarket_change": 0,
+  "change": 1.8518518518518576,
+  "atr": 0.8695939043792841,
+  "close": 29.975,
+  "mode": "streaming"
+ },
+ "GEN": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.03432887058016328,
+  "change": 0.6865774116031559,
+  "atr": 1.021704083837465,
+  "close": 29.33,
+  "mode": "streaming"
+ },
+ "EXEL": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.44675025219772624,
+  "change": 2.5796224239804095,
+  "atr": 1.9073136840520937,
+  "close": 71.18,
+  "mode": "streaming"
+ },
+ "CRL": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 2.52914498761859,
+  "change": -0.09181714476504296,
+  "atr": 14.091724200436772,
+  "close": 359.08,
+  "mode": "streaming"
+ },
+ "MGA": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-12",
+  "earn_last": "2026-10-30",
+  "premarket_change": null,
+  "change": 0.8696333437793792,
+  "atr": 1.7645857444788704,
+  "close": 64.375,
+  "mode": "streaming"
+ },
+ "U": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 2.864721485411136,
+  "change": 2.7320954907161643,
+  "atr": 1.9687238816067552,
+  "close": 38.73,
+  "mode": "streaming"
+ },
+ "GPC": {
+  "sector": "Distribution Services",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.09098428453267116,
+  "change": 1.2903225806451515,
+  "atr": 3.4714079235796342,
+  "close": 122.46,
+  "mode": "streaming"
+ },
+ "RBA": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.34563496487903034,
+  "change": 1.566506856951724,
+  "atr": 2.4890040647153873,
+  "close": 91.095,
+  "mode": "streaming"
+ },
+ "VNOM": {
+  "sector": "Miscellaneous",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": -1.8666107382550348,
+  "change": -1.9609899328859106,
+  "atr": 1.054695449217383,
+  "close": 46.745,
+  "mode": "streaming"
+ },
+ "ROL": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0.9809578765147243,
+  "change": 1.3271783035199103,
+  "atr": 1.024997933232584,
+  "close": 35.12,
+  "mode": "streaming"
+ },
+ "HAS": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.5122176505164157,
+  "change": 0.3316819212360366,
+  "atr": 2.9660073943574288,
+  "close": 119.485,
+  "mode": "streaming"
+ },
+ "KIM": {
+  "sector": "Finance",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.53017944535073,
+  "change": 0.7952691680261023,
+  "atr": 0.391549842791473,
+  "close": 24.715,
+  "mode": "streaming"
+ },
+ "NWSA": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": null,
+  "change": 1.7513736263736195,
+  "atr": 0.6509899046401658,
+  "close": 29.63,
+  "mode": "streaming"
+ },
+ "DT": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.710695094470452,
+  "change": -1.5513953891488925,
+  "atr": 2.141717015413265,
+  "close": 56.795,
+  "mode": "streaming"
+ },
+ "PAAS": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-12",
+  "premarket_change": 2.1590310689836767,
+  "change": 4.0416008425487195,
+  "atr": 1.7819910800170713,
+  "close": 39.515,
+  "mode": "streaming"
+ },
+ "BEN": {
+  "sector": "Finance",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-07-31",
+  "premarket_change": 0,
+  "change": 1.6333754740834272,
+  "atr": 0.7720415915522658,
+  "close": 32.1568,
+  "mode": "streaming"
+ },
+ "JHX": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.9544787077826784,
+  "change": 2.477973568281941,
+  "atr": 0.8302030540434625,
+  "close": 27.915,
+  "mode": "streaming"
+ },
+ "W": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 4.391338107152104,
+  "change": 1.6392028297817323,
+  "atr": 5.026932487062618,
+  "close": 117.81,
+  "mode": "streaming"
+ },
+ "YUMC": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-30",
+  "premarket_change": 1.660113586719087,
+  "change": 2.7741371778068937,
+  "atr": 0.9433088785674514,
+  "close": 47.05,
+  "mode": "streaming"
+ },
+ "WMG": {
+  "sector": "Commercial Services",
+  "earn_next": "2026-11-19",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.22860875244938042,
+  "change": 0.13063357282821406,
+  "atr": 0.8247032333264667,
+  "close": 30.66,
+  "mode": "streaming"
+ },
+ "MAS": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 2.734374999999998,
+  "atr": 2.441406468244658,
+  "close": 82.845,
+  "mode": "streaming"
+ },
+ "SWK": {
+  "sector": "Consumer Durables",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-29",
+  "premarket_change": 1.5081206496519743,
+  "change": 2.2041763341067298,
+  "atr": 2.782833902292688,
+  "close": 105.72,
+  "mode": "streaming"
+ },
+ "ALLE": {
+  "sector": "Consumer Durables",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-22",
+  "premarket_change": null,
+  "change": 1.5018236429950715,
+  "atr": 4.374463641815655,
+  "close": 189.24,
+  "mode": "streaming"
+ },
+ "ICLR": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.4920514761544247,
+  "change": -2.204769114307355,
+  "atr": 9.258768512631548,
+  "close": 206.7,
+  "mode": "streaming"
+ },
+ "PFGC": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-12",
+  "premarket_change": 0,
+  "change": 1.5446744068652207,
+  "atr": 2.233780827827923,
+  "close": 100.58,
+  "mode": "streaming"
+ },
+ "CRBG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0,
+  "change": 1.6087331226658865,
+  "atr": 0.9641702872806238,
+  "close": 35.37,
+  "mode": "streaming"
+ },
+ "PNFP": {
+  "sector": "Finance",
+  "earn_next": "2027-01-19",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 1.6574857367696265,
+  "atr": 2.241549418039113,
+  "close": 103.345,
+  "mode": "streaming"
+ },
+ "ASTS": {
+  "sector": "Communications",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-10",
+  "premarket_change": 0.024408103490353945,
+  "change": -2.7959482548205967,
+  "atr": 3.6932048297769255,
+  "close": 39.8245,
+  "mode": "streaming"
+ },
+ "MTZ": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": 1.6983768676770916,
+  "change": 3.0742771149091688,
+  "atr": 10.801133309629536,
+  "close": 191.78,
+  "mode": "streaming"
+ },
+ "TRMB": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-12",
+  "premarket_change": null,
+  "change": 1.3165999384046874,
+  "atr": 1.601972157448175,
+  "close": 65.795,
+  "mode": "streaming"
+ },
+ "INVH": {
+  "sector": "Finance",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.9789156626506084,
+  "change": 0.1506024096385644,
+  "atr": 0.47460752320648103,
+  "close": 26.6,
+  "mode": "streaming"
+ },
+ "DOCU": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-09-03",
+  "premarket_change": -0.7910429597176654,
+  "change": -0.6936838262139556,
+  "atr": 2.738773455884716,
+  "close": 81.6,
+  "mode": "streaming"
+ },
+ "SGI": {
+  "sector": "Consumer Durables",
+  "earn_next": "2026-11-09",
+  "earn_last": "2026-08-06",
+  "premarket_change": null,
+  "change": 2.8870358716173596,
+  "atr": 2.2814798774727665,
+  "close": 65.395,
+  "mode": "streaming"
+ },
+ "GDDY": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.07676560900716771,
+  "change": 1.2836915728420417,
+  "atr": 4.7720281287515265,
+  "close": 118.745,
+  "mode": "streaming"
+ },
+ "BURL": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-08-27",
+  "premarket_change": null,
+  "change": 0.953224513897672,
+  "atr": 9.057431514778006,
+  "close": 239.35,
+  "mode": "streaming"
+ },
+ "EMA": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-07",
+  "premarket_change": -1.3593020896733652,
+  "change": -0.7072428484479562,
+  "atr": 0.783496435992801,
+  "close": 48.9414,
+  "mode": "streaming"
+ },
+ "WY": {
+  "sector": "Finance",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.6388206388206339,
+  "change": 2.38329238329238,
+  "atr": 0.5562242020280551,
+  "close": 20.835,
+  "mode": "streaming"
+ },
+ "ZTO": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-17",
+  "earn_last": "2026-08-18",
+  "premarket_change": 0.24813895781638073,
+  "change": 1.0669975186104212,
+  "atr": 0.33202629948251283,
+  "close": 20.365,
+  "mode": "streaming"
+ },
+ "EQH": {
+  "sector": "Finance",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-04",
+  "premarket_change": -5.2924791086351,
+  "change": 1.615598885793867,
+  "atr": 1.5078285928921729,
+  "close": 54.72,
+  "mode": "streaming"
+ },
+ "NBIX": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-07-30",
+  "premarket_change": null,
+  "change": 0.547570157426428,
+  "atr": 3.35653284271585,
+  "close": 146.9,
+  "mode": "streaming"
+ },
+ "CHKP": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-11-02",
+  "premarket_change": -4.477023206889752,
+  "change": -4.217342712510696,
+  "atr": 5.346514139065752,
+  "close": 145.695,
+  "mode": "streaming"
+ },
+ "TRU": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-16",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 1.1850501367365496,
+  "atr": 3.253809247957946,
+  "close": 77.7,
+  "mode": "streaming"
+ },
+ "WPC": {
+  "sector": "Finance",
+  "earn_next": "2027-02-05",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.3276131045241934,
+  "change": 0.23400936037442388,
+  "atr": 1.2658508051425648,
+  "close": 64.25,
+  "mode": "streaming"
+ },
+ "HALO": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -0.3131922694981259,
+  "change": -0.7638835841417768,
+  "atr": 3.1916146104774135,
+  "close": 129.91,
+  "mode": "streaming"
+ },
+ "TXT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.7117852975495909,
+  "change": 1.0443407234539044,
+  "atr": 2.34909619855602,
+  "close": 86.595,
+  "mode": "streaming"
+ },
+ "CG": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": null,
+  "change": 2.2648083623693473,
+  "atr": 1.2092009486727402,
+  "close": 41.09,
+  "mode": "streaming"
+ },
+ "FLUT": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.7264802034144672,
+  "change": 1.5619324373410728,
+  "atr": 3.5474244808740605,
+  "close": 83.88,
+  "mode": "streaming"
+ },
+ "UNM": {
+  "sector": "Finance",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-28",
+  "premarket_change": 0,
+  "change": 0.6029185867895488,
+  "atr": 2.089121530027858,
+  "close": 91.6895,
+  "mode": "streaming"
+ },
+ "CHRW": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-03",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0.3611267153519002,
+  "change": 0.8265789262499006,
+  "atr": 5.509330154507197,
+  "close": 125.64,
+  "mode": "streaming"
+ },
+ "HTHT": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-25",
+  "earn_last": "2026-08-17",
+  "premarket_change": -1.4054961191525104,
+  "change": 1.6152716593245144,
+  "atr": 1.3022403725442266,
+  "close": 48.44,
+  "mode": "streaming"
+ },
+ "IT": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.004370820402985666,
+  "change": 0.31906988941825176,
+  "atr": 7.809999435834216,
+  "close": 229.52,
+  "mode": "streaming"
+ },
+ "BBIO": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.2668445630420318,
+  "change": -0.7338225483655733,
+  "atr": 2.2732597970190955,
+  "close": 74.4,
+  "mode": "streaming"
+ },
+ "MANH": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 0.004025926969692551,
+  "atr": 7.824026576697508,
+  "close": 248.4,
+  "mode": "streaming"
+ },
+ "ARMK": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-16",
+  "earn_last": "2026-08-11",
+  "premarket_change": 0,
+  "change": 1.2323943661971815,
+  "atr": 1.402782777898547,
+  "close": 54.625,
+  "mode": "streaming"
+ },
+ "CRS": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.10950967924261774,
+  "change": 2.077151335311571,
+  "atr": 18.569328904696118,
+  "close": 288.96,
+  "mode": "streaming"
+ },
+ "OHI": {
+  "sector": "Finance",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-07-29",
+  "premarket_change": 0.015325670498093948,
+  "change": 0.12771392081737393,
+  "atr": 0.9402947647871416,
+  "close": 47.04,
+  "mode": "streaming"
+ },
+ "SOLV": {
+  "sector": "Health Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.036886757654003614,
+  "change": 1.5246526496987518,
+  "atr": 2.1377040999310886,
+  "close": 82.57,
+  "mode": "streaming"
+ },
+ "GKOS": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.7365319865319866,
+  "change": -1.496212121212124,
+  "atr": 10.88667136579745,
+  "close": 234.045,
+  "mode": "streaming"
+ },
+ "MKSI": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.2324292219362547,
+  "change": 0.9899029895070284,
+  "atr": 11.640229340793391,
+  "close": 204.04,
+  "mode": "streaming"
+ },
+ "BF.B": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-12-09",
+  "earn_last": "2026-09-02",
+  "premarket_change": -0.17415534656914214,
+  "change": 2.4033437826541193,
+  "atr": 0.77396683129209,
+  "close": 29.4,
+  "mode": "streaming"
+ },
+ "SUI": {
+  "sector": "Finance",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-26",
+  "premarket_change": null,
+  "change": 0.6224615927953366,
+  "atr": 2.6016359165118628,
+  "close": 113.965,
+  "mode": "streaming"
+ },
+ "BJ": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-20",
+  "earn_last": "2026-08-21",
+  "premarket_change": null,
+  "change": -0.06522549385016137,
+  "atr": 2.531997474947744,
+  "close": 107.25,
+  "mode": "streaming"
+ },
+ "EHC": {
+  "sector": "Health Services",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.3980868285504089,
+  "change": 0.5371596762325164,
+  "atr": 3.7909568221881242,
+  "close": 136.63,
+  "mode": "streaming"
+ },
+ "LSCC": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-04",
+  "premarket_change": 2.1835000537807905,
+  "change": 1.4305690007529293,
+  "atr": 5.813596162001282,
+  "close": 94.3,
+  "mode": "streaming"
+ },
+ "TEM": {
+  "sector": "Technology Services",
+  "earn_next": "2027-03-02",
+  "earn_last": "2026-11-02",
+  "premarket_change": 2.5754638604264737,
+  "change": 1.7308224868457491,
+  "atr": 5.451755332547076,
+  "close": 73.47,
+  "mode": "streaming"
+ },
+ "GWRE": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-09-03",
+  "premarket_change": null,
+  "change": -0.6150439756442585,
+  "atr": 7.55241227922013,
+  "close": 161.59,
+  "mode": "streaming"
+ },
+ "LOGI": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-01-25",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.7376740291008024,
+  "change": 1.643462786559189,
+  "atr": 3.5915536062297164,
+  "close": 97.1,
+  "mode": "streaming"
+ },
+ "EMBJ": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-10",
+  "premarket_change": 1.4986376021798287,
+  "change": 3.3855585831062656,
+  "atr": 2.6231946837202824,
+  "close": 75.885,
+  "mode": "streaming"
+ },
+ "BTSG": {
+  "sector": "Health Services",
+  "earn_next": "2027-02-26",
+  "earn_last": "2026-10-30",
+  "premarket_change": 1.2707430109134314,
+  "change": -0.2018238899686128,
+  "atr": 2.45807515496966,
+  "close": 66.755,
+  "mode": "streaming"
+ },
+ "CART": {
+  "sector": "Transportation",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.01771479185119222,
+  "change": 0.6643046944198405,
+  "atr": 2.1864684231167586,
+  "close": 56.825,
+  "mode": "streaming"
+ },
+ "AKAM": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.28041415012942744,
+  "change": -1.6711604831751454,
+  "atr": 5.093432812290216,
+  "close": 91.1705,
+  "mode": "streaming"
+ },
+ "NXT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-28",
+  "premarket_change": 5.508634816588938,
+  "change": 8.50876087230556,
+  "atr": 4.587851213791494,
+  "close": 86.08,
+  "mode": "streaming"
+ },
+ "MKC": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-01-28",
+  "earn_last": "2026-10-01",
+  "premarket_change": 0.02114611968703322,
+  "change": 1.1524635229435434,
+  "atr": 1.2937646016844233,
+  "close": 47.835,
+  "mode": "streaming"
+ },
+ "IONQ": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.4327563249001417,
+  "change": -0.7822902796271619,
+  "atr": 2.2425574877709407,
+  "close": 29.805,
+  "mode": "streaming"
+ },
+ "DKS": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-11-24",
+  "earn_last": "2026-08-25",
+  "premarket_change": 0.8064516129032233,
+  "change": 0.04171301446051326,
+  "atr": 4.787055172526052,
+  "close": 143.9,
+  "mode": "streaming"
+ },
+ "PNW": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.19759126834776813,
+  "change": -0.6774557771923211,
+  "atr": 1.754617291739848,
+  "close": 105.56,
+  "mode": "streaming"
+ },
+ "AR": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": -2.018298479087451,
+  "change": -1.5565589353612195,
+  "atr": 1.290057975612617,
+  "close": 41.425,
+  "mode": "streaming"
+ },
+ "LULU": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-09-03",
+  "premarket_change": 0.5221932114882528,
+  "change": 2.359194330473705,
+  "atr": 4.07536681662018,
+  "close": 109.77,
+  "mode": "streaming"
+ },
+ "RRC": {
+  "sector": "Energy Minerals",
+  "earn_next": "2027-03-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": -1.6108365367014508,
+  "change": -0.677283543840389,
+  "atr": 1.7756023622378305,
+  "close": 54.26,
+  "mode": "streaming"
+ },
+ "IVZ": {
+  "sector": "Finance",
+  "earn_next": "2027-01-26",
+  "earn_last": "2026-10-27",
+  "premarket_change": 0.9726224783861654,
+  "change": 2.12536023054755,
+  "atr": 0.9256553792198867,
+  "close": 28.35,
+  "mode": "streaming"
+ },
+ "BSY": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0,
+  "change": 1.1491442542787258,
+  "atr": 1.1746660169250307,
+  "close": 41.37,
+  "mode": "streaming"
+ },
+ "CSGP": {
+  "sector": "Technology Services",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.4110043089161388,
+  "change": 2.303612860457397,
+  "atr": 1.547322236229201,
+  "close": 30.865,
+  "mode": "streaming"
+ },
+ "SNN": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-08-04",
+  "premarket_change": -0.20202020202019771,
+  "change": 0,
+  "atr": 0.5262788867718169,
+  "close": 29.7,
+  "mode": "streaming"
+ },
+ "WTRG": {
+  "sector": "Utilities",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0,
+  "change": 0.39062499999998757,
+  "atr": 0.873980426782052,
+  "close": 43.69,
+  "mode": "streaming"
+ },
+ "BMNR": {
+  "sector": "Finance",
+  "earn_next": "2026-11-20",
+  "earn_last": "2026-07-14",
+  "premarket_change": 0.5946481665014915,
+  "change": 1.4866204162537202,
+  "atr": 1.4062873503328803,
+  "close": 20.48,
+  "mode": "streaming"
+ },
+ "GME": {
+  "sector": "Retail Trade",
+  "earn_next": "2026-12-09",
+  "earn_last": "2026-09-08",
+  "premarket_change": 0.12381345439538233,
+  "change": 0.5158893933140735,
+  "atr": 0.9990149800663819,
+  "close": 24.355,
+  "mode": "streaming"
+ },
+ "BAX": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-18",
+  "earn_last": "2026-10-29",
+  "premarket_change": 0.7391304347826161,
+  "change": 2.6304347826086976,
+  "atr": 0.8877402266211708,
+  "close": 23.605,
+  "mode": "streaming"
+ },
+ "TXRH": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": null,
+  "change": 1.4738110891957032,
+  "atr": 5.165345752360245,
+  "close": 185.21,
+  "mode": "streaming"
+ },
+ "FRO": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-30",
+  "earn_last": "2026-08-28",
+  "premarket_change": -3.866432337434088,
+  "change": -4.516695957820739,
+  "atr": 2.3652251868442855,
+  "close": 54.33,
+  "mode": "streaming"
+ },
+ "MLI": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.8064516129032216,
+  "change": 0.8247800586510186,
+  "atr": 1.6203476832735009,
+  "close": 55.01,
+  "mode": "streaming"
+ },
+ "FMS": {
+  "sector": "Health Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-03",
+  "premarket_change": 0.9790832220738871,
+  "change": 0.8900756564308092,
+  "atr": 0.4771819614475833,
+  "close": 22.67,
+  "mode": "streaming"
+ },
+ "MAIR": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-07-30",
+  "premarket_change": 0.3022452504317802,
+  "change": 2.8929188255613045,
+  "atr": 1.0182444182619703,
+  "close": 23.83,
+  "mode": "streaming"
+ },
+ "LTM": {
+  "sector": "Transportation",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 3.020292590844724,
+  "change": 3.492213308164221,
+  "atr": 1.7688224878457102,
+  "close": 43.86,
+  "mode": "streaming"
+ },
+ "GNRC": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.9552366998433812,
+  "change": 1.8036679634214081,
+  "atr": 10.310935214292112,
+  "close": 201.5,
+  "mode": "streaming"
+ },
+ "HRL": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-08-27",
+  "premarket_change": -0.18796992481204275,
+  "change": 1.409774436090212,
+  "atr": 0.4383508697107739,
+  "close": 21.58,
+  "mode": "streaming"
+ },
+ "SKM": {
+  "sector": "Communications",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-04",
+  "premarket_change": 4.161162483487444,
+  "change": 3.6657859973579896,
+  "atr": 1.0681907062482405,
+  "close": 31.39,
+  "mode": "streaming"
+ },
+ "AGI": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": 1.4936247723132976,
+  "change": 2.987249544626595,
+  "atr": 1.297237838512938,
+  "close": 28.27,
+  "mode": "streaming"
+ },
+ "SMTC": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-12-02",
+  "earn_last": "2026-08-25",
+  "premarket_change": 4.569006123410263,
+  "change": -0.8517820693986449,
+  "atr": 11.382838218987706,
+  "close": 126.295,
+  "mode": "streaming"
+ },
+ "RTO": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-07-30",
+  "premarket_change": 1.8010291595197176,
+  "change": 1.8224699828473443,
+  "atr": 0.46375172277925936,
+  "close": 23.745,
+  "mode": "streaming"
+ },
+ "ELAN": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-06",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.8647007805724185,
+  "change": 1.7346053772766787,
+  "atr": 0.6657686237980435,
+  "close": 23.46,
+  "mode": "streaming"
+ },
+ "AHR": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.05605381165918167,
+  "change": -0.4297458893871524,
+  "atr": 1.3438058839278209,
+  "close": 53.29,
+  "mode": "streaming"
+ },
+ "ALLY": {
+  "sector": "Finance",
+  "earn_next": "2027-01-15",
+  "earn_last": "2026-10-20",
+  "premarket_change": 0.34058160859312403,
+  "change": 0.7335603877390651,
+  "atr": 0.9301258083926632,
+  "close": 38.45,
+  "mode": "streaming"
+ },
+ "DVA": {
+  "sector": "Health Services",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": -0.8640000000000024,
+  "atr": 6.95832568179336,
+  "close": 185.88,
+  "mode": "streaming"
+ },
+ "SAIL": {
+  "sector": "Technology Services",
+  "earn_next": "2026-12-15",
+  "earn_last": "2026-09-09",
+  "premarket_change": -0.18993352326685256,
+  "change": -2.7777777777777652,
+  "atr": 1.1029703398543458,
+  "close": 20.475,
+  "mode": "streaming"
+ },
+ "ELS": {
+  "sector": "Finance",
+  "earn_next": "2027-02-01",
+  "earn_last": "2026-10-20",
+  "premarket_change": null,
+  "change": 0.21175673386413688,
+  "atr": 1.3034998179814778,
+  "close": 59.155,
+  "mode": "streaming"
+ },
+ "UDR": {
+  "sector": "Finance",
+  "earn_next": "2027-02-09",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 0.4786036036035884,
+  "atr": 0.637558607837793,
+  "close": 35.69,
+  "mode": "streaming"
+ },
+ "COO": {
+  "sector": "Health Technology",
+  "earn_next": "2026-12-03",
+  "earn_last": "2026-09-09",
+  "premarket_change": 0.7724601175482803,
+  "change": 1.1083123425692758,
+  "atr": 1.5445574633835395,
+  "close": 60.21,
+  "mode": "streaming"
+ },
+ "BMRN": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-06",
+  "premarket_change": 1.093830114510341,
+  "change": 0.9058280635788775,
+  "atr": 1.5542925371267284,
+  "close": 59.04,
+  "mode": "streaming"
+ },
+ "AMH": {
+  "sector": "Finance",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-07-30",
+  "premarket_change": null,
+  "change": 0.4430379746835349,
+  "atr": 0.5169532545000041,
+  "close": 31.74,
+  "mode": "streaming"
+ },
+ "TECH": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-12",
+  "premarket_change": 0.08257638315442097,
+  "change": 0.04128819157721048,
+  "atr": 0.131571706480408,
+  "close": 72.69,
+  "mode": "streaming"
+ },
+ "NYT": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": null,
+  "change": 0.5130397605814442,
+  "atr": 1.6473886213144873,
+  "close": 70.53,
+  "mode": "streaming"
+ },
+ "FIG": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": -0.6004618937644296,
+  "change": -1.4780600461893778,
+  "atr": 1.131842254690141,
+  "close": 21.33,
+  "mode": "streaming"
+ },
+ "ONON": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-10",
+  "earn_last": "2026-08-11",
+  "premarket_change": 1.4505624629958613,
+  "change": 2.161042036708102,
+  "atr": 1.1807280607950792,
+  "close": 34.51,
+  "mode": "streaming"
+ },
+ "GLPI": {
+  "sector": "Finance",
+  "earn_next": "2027-02-25",
+  "earn_last": "2026-10-29",
+  "premarket_change": -0.17957927142124241,
+  "change": -0.17957927142124241,
+  "atr": 0.803510585839944,
+  "close": 38.91,
+  "mode": "streaming"
+ },
+ "RYAN": {
+  "sector": "Finance",
+  "earn_next": "2027-03-02",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 0.9352189781021819,
+  "atr": 1.5042195077466096,
+  "close": 44.25,
+  "mode": "streaming"
+ },
+ "FROG": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": 0.1271321114524892,
+  "change": -3.7398029452272494,
+  "atr": 5.862334748603131,
+  "close": 90.86,
+  "mode": "streaming"
+ },
+ "RGEN": {
+  "sector": "Health Technology",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-27",
+  "premarket_change": -0.24867186616932163,
+  "change": -0.42669831581326745,
+  "atr": 8.930183233859488,
+  "close": 176.185,
+  "mode": "streaming"
+ },
+ "FHN": {
+  "sector": "Finance",
+  "earn_next": "2027-01-21",
+  "earn_last": "2026-10-15",
+  "premarket_change": 0.04297378599055249,
+  "change": 1.0313708637731072,
+  "atr": 0.44105925181969724,
+  "close": 23.51,
+  "mode": "streaming"
+ },
+ "DECK": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2027-02-04",
+  "earn_last": "2026-10-22",
+  "premarket_change": 0.024393218685217995,
+  "change": 1.6709354799365834,
+  "atr": 2.660213665849939,
+  "close": 83.36,
+  "mode": "streaming"
+ },
+ "JEF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-13",
+  "earn_last": "2026-09-28",
+  "premarket_change": -1.3436686903729285,
+  "change": 4.011274934952302,
+  "atr": 1.7173638308713488,
+  "close": 47.97,
+  "mode": "streaming"
+ },
+ "FNF": {
+  "sector": "Finance",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0,
+  "change": 1.345346827943722,
+  "atr": 1.0615462595273748,
+  "close": 41.055,
+  "mode": "streaming"
+ },
+ "GGG": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-01",
+  "earn_last": "2026-10-21",
+  "premarket_change": null,
+  "change": 1.32710557532621,
+  "atr": 2.0259394569133256,
+  "close": 68.335,
+  "mode": "streaming"
+ },
+ "CLX": {
+  "sector": "Consumer Non-Durables",
+  "earn_next": "2026-11-02",
+  "earn_last": "2026-08-03",
+  "premarket_change": 2.011363636363632,
+  "change": 2.477272727272735,
+  "atr": 2.3732091518392733,
+  "close": 90.18,
+  "mode": "streaming"
+ },
+ "ALB": {
+  "sector": "Process Industries",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 1.1208791208791167,
+  "change": 0.9780219780219787,
+  "atr": 3.5871983799124316,
+  "close": 91.89,
+  "mode": "streaming"
+ },
+ "PNR": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": 1.99562330214307,
+  "change": 2.346815575007535,
+  "atr": 1.8930491323578367,
+  "close": 67.815,
+  "mode": "streaming"
+ },
+ "CHYM": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.21466905187836233,
+  "change": 2.0483005366726355,
+  "atr": 1.0890413281545497,
+  "close": 28.5225,
+  "mode": "streaming"
+ },
+ "VSAT": {
+  "sector": "Electronic Technology",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-04",
+  "premarket_change": 0.16878732796677443,
+  "change": 1.3697740846533457,
+  "atr": 4.6978624225704095,
+  "close": 78.075,
+  "mode": "streaming"
+ },
+ "PODD": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": null,
+  "change": 1.984233030464991,
+  "atr": 4.39071843270181,
+  "close": 152.65,
+  "mode": "streaming"
+ },
+ "DKNG": {
+  "sector": "Consumer Services",
+  "earn_next": "2026-11-05",
+  "earn_last": "2026-08-06",
+  "premarket_change": -0.1434720229555291,
+  "change": 1.6738402678144495,
+  "atr": 0.9200243605871099,
+  "close": 21.26,
+  "mode": "streaming"
+ },
+ "SCI": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-02-15",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 0.8904019903103216,
+  "atr": 2.3805514810106283,
+  "close": 77.05,
+  "mode": "streaming"
+ },
+ "AA": {
+  "sector": "Non-Energy Minerals",
+  "earn_next": "2027-01-20",
+  "earn_last": "2026-10-15",
+  "premarket_change": 0.9441183975504073,
+  "change": 1.1992855320234725,
+  "atr": 1.4105264487757008,
+  "close": 39.66,
+  "mode": "streaming"
+ },
+ "QGEN": {
+  "sector": "Health Technology",
+  "earn_next": "2026-11-04",
+  "earn_last": "2026-08-05",
+  "premarket_change": 0.5376344086021567,
+  "change": 0.3584229390680998,
+  "atr": 0.9989029339652596,
+  "close": 50.4,
+  "mode": "streaming"
+ },
+ "BWA": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-11",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 0.1936858415649706,
+  "atr": 1.8973283558040162,
+  "close": 51.73,
+  "mode": "streaming"
+ },
+ "LTH": {
+  "sector": "Consumer Services",
+  "earn_next": "2027-03-03",
+  "earn_last": "2026-10-29",
+  "premarket_change": null,
+  "change": 2.4611973392461186,
+  "atr": 1.577918595169956,
+  "close": 46.21,
+  "mode": "streaming"
+ },
+ "DOCN": {
+  "sector": "Technology Services",
+  "earn_next": "2026-11-03",
+  "earn_last": "2026-08-04",
+  "premarket_change": 2.621305075292799,
+  "change": -1.5504740658114897,
+  "atr": 8.803742811958431,
+  "close": 88.26,
+  "mode": "streaming"
+ },
+ "BAH": {
+  "sector": "Commercial Services",
+  "earn_next": "2027-01-22",
+  "earn_last": "2026-10-23",
+  "premarket_change": -1.5481975364447853,
+  "change": -1.231777601988913,
+  "atr": 2.9310147602390364,
+  "close": 87.4,
+  "mode": "streaming"
+ },
+ "OGE": {
+  "sector": "Utilities",
+  "earn_next": "2027-02-24",
+  "earn_last": "2026-10-28",
+  "premarket_change": null,
+  "change": 0.11117849201536228,
+  "atr": 0.7982839724711238,
+  "close": 49.525,
+  "mode": "streaming"
+ },
+ "FLS": {
+  "sector": "Producer Manufacturing",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-28",
+  "premarket_change": 0,
+  "change": 1.6580179724085407,
+  "atr": 2.8049612165934152,
+  "close": 80.32,
+  "mode": "streaming"
+ },
+ "BXP": {
+  "sector": "Finance",
+  "earn_next": "2027-02-02",
+  "earn_last": "2026-10-27",
+  "premarket_change": null,
+  "change": 1.2420382165605113,
+  "atr": 1.5052239424267133,
+  "close": 63.58,
+  "mode": "streaming"
+ },
+ "DRS": {
+  "sector": "Electronic Technology",
+  "earn_next": "2027-02-23",
+  "earn_last": "2026-10-29",
+  "premarket_change": 2.1762208067940563,
+  "change": 0.583864118895963,
+  "atr": 1.370322928326756,
+  "close": 37.9,
+  "mode": "streaming"
+ },
+ "SF": {
+  "sector": "Finance",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 0,
+  "change": 0.9446693657219905,
+  "atr": 1.7248554408808925,
+  "close": 67.32,
+  "mode": "streaming"
+ },
+ "AM": {
+  "sector": "Industrial Services",
+  "earn_next": "2027-02-17",
+  "earn_last": "2026-10-28",
+  "premarket_change": -0.6520726595249212,
+  "change": -0.5123428039124334,
+  "atr": 0.5467970703556336,
+  "close": 21.36,
+  "mode": "streaming"
+ },
+ "KNX": {
+  "sector": "Transportation",
+  "earn_next": "2027-01-27",
+  "earn_last": "2026-10-21",
+  "premarket_change": 1.036695738028625,
+  "change": 1.694915254237278,
+  "atr": 2.09692208934031,
+  "close": 61.8,
+  "mode": "streaming"
+ }
+}
