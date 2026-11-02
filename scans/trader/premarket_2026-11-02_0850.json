@@ -1,0 +1,3241 @@
+{
+ "mode": "premarket",
+ "generated_utc": "2026-11-02T13:50:08+00:00",
+ "generated_new_york": "2026-11-02T08:50:08-05:00",
+ "tools": "github.com/Jakeschincariol/day-trader-skill @ 3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd",
+ "sec_user_agent_set": true,
+ "universe_size": 671,
+ "scan": {
+  "cmd": "trader-scanner/scan.py daily --watchlist /home/runner/work/tv-scanner/tv-scanner/trader_state/trader/largecaps.txt --json --show 200",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "created_by": "trader-scanner",
+   "created_at": "2026-11-02T13:50:09Z",
+   "mode": "daily",
+   "as_of": "2026-10-30 close",
+   "universe": 671,
+   "scanned": 350,
+   "failed": 0,
+   "source": "yahoo",
+   "filters": {
+    "min_price": 5.0,
+    "min_volume": 1000000
+   },
+   "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
+   "hits": [
+    {
+     "symbol": "MA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 638.01,
+     "close_date": "2026-10-30",
+     "rsi": 70.5,
+     "volume": 4516903
+    },
+    {
+     "symbol": "GILD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 170.68,
+     "close_date": "2026-10-30",
+     "rsi": 74.4,
+     "volume": 11427256
+    },
+    {
+     "symbol": "CMCSA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 23.22,
+     "close_date": "2026-10-30",
+     "rsi": 59.3,
+     "volume": 48921948
+    },
+    {
+     "symbol": "PM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 208.79,
+     "close_date": "2026-10-30",
+     "rsi": 64.5,
+     "volume": 4561561
+    },
+    {
+     "symbol": "GD",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 372.59,
+     "close_date": "2026-10-30",
+     "rsi": 73.5,
+     "volume": 2503891
+    },
+    {
+     "symbol": "ROP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 466.6,
+     "close_date": "2026-10-30",
+     "rsi": 82.3,
+     "volume": 1950425
+    },
+    {
+     "symbol": "LOW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 209.07,
+     "close_date": "2026-10-30",
+     "rsi": 66.8,
+     "volume": 4248954
+    },
+    {
+     "symbol": "AJG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 276.07,
+     "close_date": "2026-10-30",
+     "rsi": 69.6,
+     "volume": 3190829
+    },
+    {
+     "symbol": "SPGI",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 466.55,
+     "close_date": "2026-10-30",
+     "rsi": 77.5,
+     "volume": 1883459
+    },
+    {
+     "symbol": "ICE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 168.85,
+     "close_date": "2026-10-30",
+     "rsi": 65.5,
+     "volume": 5125997
+    },
+    {
+     "symbol": "UNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 304.0,
+     "close_date": "2026-10-30",
+     "rsi": 70.1,
+     "volume": 2773903
+    },
+    {
+     "symbol": "FDX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 313.28,
+     "close_date": "2026-10-30",
+     "rsi": 65.7,
+     "volume": 2654515
+    },
+    {
+     "symbol": "MCO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 493.91,
+     "close_date": "2026-10-30",
+     "rsi": 60.8,
+     "volume": 1630415
+    },
+    {
+     "symbol": "TGT",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 154.38,
+     "close_date": "2026-10-30",
+     "rsi": 51.3,
+     "volume": 5164432
+    },
+    {
+     "symbol": "MNST",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 47.34,
+     "close_date": "2026-10-30",
+     "rsi": 62.7,
+     "volume": 13315616
+    },
+    {
+     "symbol": "DUK",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 127.39,
+     "close_date": "2026-10-30",
+     "rsi": 69.7,
+     "volume": 4907212
+    },
+    {
+     "symbol": "CB",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 364.12,
+     "close_date": "2026-10-30",
+     "rsi": 65.7,
+     "volume": 1630039
+    },
+    {
+     "symbol": "RSG",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 244.04,
+     "close_date": "2026-10-30",
+     "rsi": 69.2,
+     "volume": 2403867
+    },
+    {
+     "symbol": "AON",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 321.67,
+     "close_date": "2026-10-30",
+     "rsi": 69.5,
+     "volume": 1821069
+    },
+    {
+     "symbol": "MRSH",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 200.62,
+     "close_date": "2026-10-30",
+     "rsi": 70.8,
+     "volume": 2916624
+    },
+    {
+     "symbol": "ECL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 302.98,
+     "close_date": "2026-10-30",
+     "rsi": 73.2,
+     "volume": 1728619
+    },
+    {
+     "symbol": "NDAQ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 106.23,
+     "close_date": "2026-10-30",
+     "rsi": 75.6,
+     "volume": 4922141
+    },
+    {
+     "symbol": "OTIS",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 75.75,
+     "close_date": "2026-10-30",
+     "rsi": 67.8,
+     "volume": 6755466
+    },
+    {
+     "symbol": "COO",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 59.55,
+     "close_date": "2026-10-30",
+     "rsi": 52.7,
+     "volume": 7892175
+    },
+    {
+     "symbol": "TRGP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 314.99,
+     "close_date": "2026-10-30",
+     "rsi": 68.4,
+     "volume": 1479625
+    },
+    {
+     "symbol": "VLTO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 111.1,
+     "close_date": "2026-10-30",
+     "rsi": 80.7,
+     "volume": 4161289
+    },
+    {
+     "symbol": "PCAR",
+     "setups": [
+      "oversold"
+     ],
+     "price": 101.91,
+     "close_date": "2026-10-30",
+     "rsi": 24.8,
+     "volume": 4500917
+    },
+    {
+     "symbol": "INTC",
+     "setups": [
+      "oversold"
+     ],
+     "price": 65.76,
+     "close_date": "2026-10-30",
+     "rsi": 25.2,
+     "volume": 6964883
+    },
+    {
+     "symbol": "PGR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 231.28,
+     "close_date": "2026-10-30",
+     "rsi": 65.0,
+     "volume": 1938388
+    },
+    {
+     "symbol": "VTR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 84.8,
+     "close_date": "2026-10-30",
+     "rsi": 48.8,
+     "volume": 5218431
+    },
+    {
+     "symbol": "BBIO",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 74.95,
+     "close_date": "2026-10-30",
+     "rsi": 70.4,
+     "volume": 5771100
+    },
+    {
+     "symbol": "ES",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 68.55,
+     "close_date": "2026-10-30",
+     "rsi": 59.5,
+     "volume": 6263684
+    },
+    {
+     "symbol": "VMC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 281.25,
+     "close_date": "2026-10-30",
+     "rsi": 73.3,
+     "volume": 1502004
+    },
+    {
+     "symbol": "WEC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 116.07,
+     "close_date": "2026-10-30",
+     "rsi": 74.2,
+     "volume": 3614441
+    },
+    {
+     "symbol": "GDDY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 117.24,
+     "close_date": "2026-10-30",
+     "rsi": 66.4,
+     "volume": 3574679
+    },
+    {
+     "symbol": "LNT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 71.65,
+     "close_date": "2026-10-30",
+     "rsi": 68.8,
+     "volume": 5837311
+    },
+    {
+     "symbol": "ARES",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 128.15,
+     "close_date": "2026-10-30",
+     "rsi": 63.9,
+     "volume": 3191805
+    },
+    {
+     "symbol": "CPRT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 30.13,
+     "close_date": "2026-10-30",
+     "rsi": 63.7,
+     "volume": 13447655
+    },
+    {
+     "symbol": "BTSG",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 66.89,
+     "close_date": "2026-10-30",
+     "rsi": 67.6,
+     "volume": 5936213
+    },
+    {
+     "symbol": "ALL",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 259.87,
+     "close_date": "2026-10-30",
+     "rsi": 65.2,
+     "volume": 1515078
+    },
+    {
+     "symbol": "XPO",
+     "setups": [
+      "breakout_20d",
+      "reclaim_ma20"
+     ],
+     "price": 189.57,
+     "close_date": "2026-10-30",
+     "rsi": 56.5,
+     "volume": 2058090
+    },
+    {
+     "symbol": "BBY",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 95.65,
+     "close_date": "2026-10-30",
+     "rsi": 54.5,
+     "volume": 4055758
+    },
+    {
+     "symbol": "SPG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 217.75,
+     "close_date": "2026-10-30",
+     "rsi": 68.3,
+     "volume": 1685499
+    },
+    {
+     "symbol": "ED",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 116.64,
+     "close_date": "2026-10-30",
+     "rsi": 70.5,
+     "volume": 3132643
+    },
+    {
+     "symbol": "ETR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 110.11,
+     "close_date": "2026-10-30",
+     "rsi": 68.8,
+     "volume": 3272748
+    },
+    {
+     "symbol": "CRS",
+     "setups": [
+      "oversold"
+     ],
+     "price": 283.08,
+     "close_date": "2026-10-30",
+     "rsi": 22.9,
+     "volume": 1261575
+    },
+    {
+     "symbol": "LYV",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 177.89,
+     "close_date": "2026-10-30",
+     "rsi": 62.8,
+     "volume": 1955363
+    },
+    {
+     "symbol": "D",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 66.62,
+     "close_date": "2026-10-30",
+     "rsi": 65.2,
+     "volume": 5179961
+    },
+    {
+     "symbol": "INCY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 120.39,
+     "close_date": "2026-10-30",
+     "rsi": 57.6,
+     "volume": 2840381
+    },
+    {
+     "symbol": "ZBH",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 94.52,
+     "close_date": "2026-10-30",
+     "rsi": 49.9,
+     "volume": 3605957
+    },
+    {
+     "symbol": "TW",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 122.54,
+     "close_date": "2026-10-30",
+     "rsi": 71.4,
+     "volume": 2776823
+    },
+    {
+     "symbol": "WCN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 184.08,
+     "close_date": "2026-10-30",
+     "rsi": 70.8,
+     "volume": 1840596
+    },
+    {
+     "symbol": "YUM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 155.4,
+     "close_date": "2026-10-30",
+     "rsi": 66.6,
+     "volume": 2169806
+    },
+    {
+     "symbol": "BIIB",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 253.62,
+     "close_date": "2026-10-30",
+     "rsi": 66.8,
+     "volume": 1303306
+    },
+    {
+     "symbol": "BAH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 88.49,
+     "close_date": "2026-10-30",
+     "rsi": 79.8,
+     "volume": 3727292
+    },
+    {
+     "symbol": "RPRX",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 67.18,
+     "close_date": "2026-10-30",
+     "rsi": 76.7,
+     "volume": 4662170
+    },
+    {
+     "symbol": "RBA",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 89.69,
+     "close_date": "2026-10-30",
+     "rsi": 62.6,
+     "volume": 3488991
+    },
+    {
+     "symbol": "PEG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 74.29,
+     "close_date": "2026-10-30",
+     "rsi": 65.1,
+     "volume": 4126879
+    },
+    {
+     "symbol": "GEHC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 76.57,
+     "close_date": "2026-10-30",
+     "rsi": 74.4,
+     "volume": 3967519
+    },
+    {
+     "symbol": "DLTR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 133.87,
+     "close_date": "2026-10-30",
+     "rsi": 67.6,
+     "volume": 2254290
+    },
+    {
+     "symbol": "AWK",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 144.37,
+     "close_date": "2026-10-30",
+     "rsi": 68.6,
+     "volume": 2084878
+    },
+    {
+     "symbol": "XYL",
+     "setups": [
+      "oversold_bounce"
+     ],
+     "price": 92.4,
+     "close_date": "2026-10-30",
+     "rsi": 33.5,
+     "volume": 3251822
+    },
+    {
+     "symbol": "GOOGL",
+     "setups": [
+      "oversold"
+     ],
+     "price": 279.84,
+     "close_date": "2026-10-30",
+     "rsi": 21.3,
+     "volume": 1026707
+    },
+    {
+     "symbol": "BALL",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 66.47,
+     "close_date": "2026-10-30",
+     "rsi": 70.5,
+     "volume": 4257401
+    },
+    {
+     "symbol": "CNP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 42.44,
+     "close_date": "2026-10-30",
+     "rsi": 72.0,
+     "volume": 6513317
+    },
+    {
+     "symbol": "VRSK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 196.3,
+     "close_date": "2026-10-30",
+     "rsi": 61.6,
+     "volume": 1367172
+    },
+    {
+     "symbol": "AFL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 123.89,
+     "close_date": "2026-10-30",
+     "rsi": 67.0,
+     "volume": 2158541
+    },
+    {
+     "symbol": "MANH",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 248.39,
+     "close_date": "2026-10-30",
+     "rsi": 72.2,
+     "volume": 1074865
+    },
+    {
+     "symbol": "ACGL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 106.36,
+     "close_date": "2026-10-30",
+     "rsi": 70.0,
+     "volume": 2479843
+    },
+    {
+     "symbol": "WY",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 20.35,
+     "close_date": "2026-10-30",
+     "rsi": 56.3,
+     "volume": 12797690
+    },
+    {
+     "symbol": "IP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 36.37,
+     "close_date": "2026-10-30",
+     "rsi": 67.8,
+     "volume": 7106540
+    },
+    {
+     "symbol": "EXR",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 151.32,
+     "close_date": "2026-10-30",
+     "rsi": 76.5,
+     "volume": 1705574
+    },
+    {
+     "symbol": "IFF",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 93.02,
+     "close_date": "2026-10-30",
+     "rsi": 65.9,
+     "volume": 2717373
+    },
+    {
+     "symbol": "EHC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 135.9,
+     "close_date": "2026-10-30",
+     "rsi": 69.4,
+     "volume": 1788483
+    },
+    {
+     "symbol": "PHM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 124.74,
+     "close_date": "2026-10-30",
+     "rsi": 62.8,
+     "volume": 1946181
+    },
+    {
+     "symbol": "FE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 46.91,
+     "close_date": "2026-10-30",
+     "rsi": 64.6,
+     "volume": 5015589
+    },
+    {
+     "symbol": "ALLE",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 186.44,
+     "close_date": "2026-10-30",
+     "rsi": 81.6,
+     "volume": 1244843
+    },
+    {
+     "symbol": "SRE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 86.06,
+     "close_date": "2026-10-30",
+     "rsi": 65.7,
+     "volume": 2684591
+    },
+    {
+     "symbol": "HAS",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 119.09,
+     "close_date": "2026-10-30",
+     "rsi": 86.6,
+     "volume": 1921808
+    },
+    {
+     "symbol": "BWA",
+     "setups": [
+      "oversold"
+     ],
+     "price": 51.63,
+     "close_date": "2026-10-30",
+     "rsi": 24.8,
+     "volume": 4399953
+    },
+    {
+     "symbol": "SW",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 43.09,
+     "close_date": "2026-10-30",
+     "rsi": 53.1,
+     "volume": 5248249
+    },
+    {
+     "symbol": "RVMD",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 191.31,
+     "close_date": "2026-10-30",
+     "rsi": 48.9,
+     "volume": 1100530
+    },
+    {
+     "symbol": "PPL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 35.65,
+     "close_date": "2026-10-30",
+     "rsi": 64.7,
+     "volume": 5835606
+    },
+    {
+     "symbol": "SWK",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 103.44,
+     "close_date": "2026-10-30",
+     "rsi": 75.5,
+     "volume": 1971917
+    },
+    {
+     "symbol": "EVRG",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 85.93,
+     "close_date": "2026-10-30",
+     "rsi": 66.5,
+     "volume": 2331477
+    },
+    {
+     "symbol": "JHX",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 27.24,
+     "close_date": "2026-10-30",
+     "rsi": 59.3,
+     "volume": 7340482
+    },
+    {
+     "symbol": "TOL",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 145.95,
+     "close_date": "2026-10-30",
+     "rsi": 64.6,
+     "volume": 1355872
+    },
+    {
+     "symbol": "FLUT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 82.59,
+     "close_date": "2026-10-30",
+     "rsi": 53.1,
+     "volume": 2362855
+    },
+    {
+     "symbol": "BG",
+     "setups": [
+      "oversold",
+      "oversold_bounce"
+     ],
+     "price": 96.64,
+     "close_date": "2026-10-30",
+     "rsi": 29.4,
+     "volume": 1951118
+    },
+    {
+     "symbol": "HALO",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 130.91,
+     "close_date": "2026-10-30",
+     "rsi": 79.0,
+     "volume": 1402422
+    },
+    {
+     "symbol": "OVV",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 72.62,
+     "close_date": "2026-10-30",
+     "rsi": 70.7,
+     "volume": 2526509
+    },
+    {
+     "symbol": "BJ",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 107.32,
+     "close_date": "2026-10-30",
+     "rsi": 67.2,
+     "volume": 1685713
+    },
+    {
+     "symbol": "AEE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 110.54,
+     "close_date": "2026-10-30",
+     "rsi": 69.1,
+     "volume": 1610068
+    },
+    {
+     "symbol": "BSY",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 40.9,
+     "close_date": "2026-10-30",
+     "rsi": 74.8,
+     "volume": 4306100
+    },
+    {
+     "symbol": "PODD",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 149.68,
+     "close_date": "2026-10-30",
+     "rsi": 61.6,
+     "volume": 1090208
+    },
+    {
+     "symbol": "PR",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 26.02,
+     "close_date": "2026-10-30",
+     "rsi": 70.0,
+     "volume": 6071940
+    },
+    {
+     "symbol": "MAS",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 80.64,
+     "close_date": "2026-10-30",
+     "rsi": 73.7,
+     "volume": 1859408
+    },
+    {
+     "symbol": "TCOM",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 39.59,
+     "close_date": "2026-10-30",
+     "rsi": 49.6,
+     "volume": 3714973
+    },
+    {
+     "symbol": "DTE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 135.49,
+     "close_date": "2026-10-30",
+     "rsi": 66.3,
+     "volume": 1058827
+    },
+    {
+     "symbol": "RYAN",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 43.84,
+     "close_date": "2026-10-30",
+     "rsi": 62.0,
+     "volume": 3157195
+    },
+    {
+     "symbol": "BMRN",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 58.51,
+     "close_date": "2026-10-30",
+     "rsi": 54.9,
+     "volume": 2273742
+    },
+    {
+     "symbol": "PFGC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 99.05,
+     "close_date": "2026-10-30",
+     "rsi": 60.0,
+     "volume": 1309737
+    },
+    {
+     "symbol": "ALC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 71.45,
+     "close_date": "2026-10-30",
+     "rsi": 67.9,
+     "volume": 1606437
+    },
+    {
+     "symbol": "OGE",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 49.47,
+     "close_date": "2026-10-30",
+     "rsi": 69.3,
+     "volume": 2161354
+    },
+    {
+     "symbol": "TRP",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 64.5,
+     "close_date": "2026-10-30",
+     "rsi": 66.0,
+     "volume": 1628182
+    },
+    {
+     "symbol": "WTRG",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 43.52,
+     "close_date": "2026-10-30",
+     "rsi": 68.7,
+     "volume": 2301119
+    },
+    {
+     "symbol": "NTR",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 69.42,
+     "close_date": "2026-10-30",
+     "rsi": 46.5,
+     "volume": 1408684
+    },
+    {
+     "symbol": "BF.B",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 28.71,
+     "close_date": "2026-10-30",
+     "rsi": 56.9,
+     "volume": 3336990
+    },
+    {
+     "symbol": "WES",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 46.39,
+     "close_date": "2026-10-30",
+     "rsi": 59.2,
+     "volume": 1949301
+    },
+    {
+     "symbol": "HTHT",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 47.67,
+     "close_date": "2026-10-30",
+     "rsi": 63.0,
+     "volume": 1675502
+    },
+    {
+     "symbol": "VNOM",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 47.68,
+     "close_date": "2026-10-30",
+     "rsi": 69.5,
+     "volume": 1656425
+    },
+    {
+     "symbol": "YUMC",
+     "setups": [
+      "breakout_20d"
+     ],
+     "price": 45.78,
+     "close_date": "2026-10-30",
+     "rsi": 64.0,
+     "volume": 1647410
+    },
+    {
+     "symbol": "AMX",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 24.48,
+     "close_date": "2026-10-30",
+     "rsi": 64.1,
+     "volume": 2700418
+    },
+    {
+     "symbol": "RTO",
+     "setups": [
+      "breakout_20d",
+      "bull_flag"
+     ],
+     "price": 23.32,
+     "close_date": "2026-10-30",
+     "rsi": 71.7,
+     "volume": 1861269
+    },
+    {
+     "symbol": "PHG",
+     "setups": [
+      "bull_flag"
+     ],
+     "price": 26.92,
+     "close_date": "2026-10-30",
+     "rsi": 65.3,
+     "volume": 1273375
+    },
+    {
+     "symbol": "ZTO",
+     "setups": [
+      "reclaim_ma20"
+     ],
+     "price": 20.15,
+     "close_date": "2026-10-30",
+     "rsi": 50.3,
+     "volume": 1405154
+    }
+   ],
+   "counts": {
+    "requested": 671,
+    "fetched": 671,
+    "illiquid": 319,
+    "short": 2,
+    "scanned": 350,
+    "hits": 116
+   },
+   "seconds": 17.8
+  }
+ },
+ "news_tickers": [
+  "PLTR",
+  "AMD",
+  "AAPL",
+  "BP",
+  "KO",
+  "PFE",
+  "MA",
+  "GILD",
+  "CMCSA",
+  "PM",
+  "GD",
+  "ROP",
+  "LOW",
+  "AJG",
+  "SPGI",
+  "ICE",
+  "UNP",
+  "FDX",
+  "MCO",
+  "TGT",
+  "MNST",
+  "DUK",
+  "CB",
+  "RSG",
+  "AON",
+  "MRSH",
+  "ECL",
+  "NDAQ",
+  "OTIS",
+  "COO",
+  "TRGP"
+ ],
+ "news": {
+  "cmd": "trader-news/news.py --tickers PLTR AMD AAPL BP KO PFE MA GILD CMCSA PM GD ROP LOW AJG SPGI ICE UNP FDX MCO TGT MNST DUK CB RSG AON MRSH ECL NDAQ OTIS COO TRGP --hours 18 --dry-run --json",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "checked": "2026-11-02T13:50:27.295587+00:00",
+   "moves": [
+    {
+     "ticker": "AAPL",
+     "price": 344.63,
+     "prev_close": 348.91,
+     "pct": -1.23,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "AJG",
+     "price": 276.07,
+     "prev_close": 268.2,
+     "pct": 2.93,
+     "time": "2026-10-30T20:01:11+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "AMD",
+     "price": 504.8,
+     "prev_close": 566.42,
+     "pct": -10.88,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "AON",
+     "price": 321.67,
+     "prev_close": 321.64,
+     "pct": 0.01,
+     "time": "2026-10-30T20:01:34+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "BP",
+     "price": 50.39,
+     "prev_close": 50.35,
+     "pct": 0.08,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "CB",
+     "price": 364.12,
+     "prev_close": 362.28,
+     "pct": 0.51,
+     "time": "2026-10-30T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "CMCSA",
+     "price": 23.22,
+     "prev_close": 22.27,
+     "pct": 4.27,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "COO",
+     "price": 59.55,
+     "prev_close": 60.34,
+     "pct": -1.31,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "DUK",
+     "price": 127.39,
+     "prev_close": 125.9,
+     "pct": 1.18,
+     "time": "2026-10-30T20:01:26+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "ECL",
+     "price": 302.98,
+     "prev_close": 300.86,
+     "pct": 0.7,
+     "time": "2026-10-30T20:02:04+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "FDX",
+     "price": 313.28,
+     "prev_close": 307.82,
+     "pct": 1.77,
+     "time": "2026-10-30T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "GD",
+     "price": 372.59,
+     "prev_close": 370.82,
+     "pct": 0.48,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "GILD",
+     "price": 170.68,
+     "prev_close": 165.61,
+     "pct": 3.06,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "ICE",
+     "price": 168.85,
+     "prev_close": 163.04,
+     "pct": 3.56,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "KO",
+     "price": 94.08,
+     "prev_close": 92.82,
+     "pct": 1.36,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "LOW",
+     "price": 209.07,
+     "prev_close": 207.28,
+     "pct": 0.86,
+     "time": "2026-10-30T20:02:46+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MA",
+     "price": 638.01,
+     "prev_close": 635.7,
+     "pct": 0.36,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MCO",
+     "price": 493.91,
+     "prev_close": 488.83,
+     "pct": 1.04,
+     "time": "2026-10-30T20:03:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MNST",
+     "price": 47.34,
+     "prev_close": 46.35,
+     "pct": 2.14,
+     "time": "2026-10-30T20:00:01+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "MRSH",
+     "price": 200.62,
+     "prev_close": 197.03,
+     "pct": 1.82,
+     "time": "2026-10-30T20:00:55+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "NDAQ",
+     "price": 106.23,
+     "prev_close": 105.6,
+     "pct": 0.6,
+     "time": "2026-10-30T20:00:00+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "OTIS",
+     "price": 75.75,
+     "prev_close": 74.61,
+     "pct": 1.53,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "PFE",
+     "price": 30.52,
+     "prev_close": 29.95,
+     "pct": 1.9,
+     "time": "2026-10-30T20:00:31+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "PLTR",
+     "price": 184.11,
+     "prev_close": 196.42,
+     "pct": -6.27,
+     "time": "2026-10-30T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "PM",
+     "price": 208.79,
+     "prev_close": 208.5,
+     "pct": 0.14,
+     "time": "2026-10-30T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "ROP",
+     "price": 466.6,
+     "prev_close": 449.65,
+     "pct": 3.77,
+     "time": "2026-10-30T20:00:00+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "RSG",
+     "price": 244.04,
+     "prev_close": 236.28,
+     "pct": 3.28,
+     "time": "2026-10-30T20:00:03+00:00",
+     "moving": true
+    },
+    {
+     "ticker": "SPGI",
+     "price": 466.55,
+     "prev_close": 460.66,
+     "pct": 1.28,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "TGT",
+     "price": 154.38,
+     "prev_close": 151.82,
+     "pct": 1.69,
+     "time": "2026-10-30T20:03:10+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "TRGP",
+     "price": 314.99,
+     "prev_close": 311.12,
+     "pct": 1.24,
+     "time": "2026-10-30T20:00:03+00:00",
+     "moving": false
+    },
+    {
+     "ticker": "UNP",
+     "price": 304.0,
+     "prev_close": 301.93,
+     "pct": 0.69,
+     "time": "2026-10-30T20:00:02+00:00",
+     "moving": false
+    }
+   ],
+   "items": [
+    {
+     "id": "rss:bbc905a7-8db3-302e-97d5-1e128fe186e8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Broadcom\u2019s Supply Bottlenecks \u2013 Not Demand \u2013 Continue to Offer Investors a Discount I Keep Buying",
+     "summary": "Broadcom's stock is down while its revenue has surged dramatically, and the reason behind that gap points to something most investors misread as a red flag but one shareholder treats as a buying opportunity.",
+     "link": "https://247wallst.com/investing/2026/11/02/broadcoms-supply-bottlenecks-not-demand-continue-to-offer-investors-a-discount-i-keep-buying/?.tsrc=rss",
+     "time": "2026-11-02T13:45:19+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:95051c8a-b6ed-3096-b782-1f45ea58f9c7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Apple\u2019s New MacBook Changes Nothing But You Should Still Buy Apple",
+     "summary": "Apple's newest MacBook grabs headlines, but the real debate is happening somewhere else entirely. With the stock trading above its consensus target, a leadership transition underway, and memory costs threatening margins, the ecosystem behind that shiny hardware faces its first serious stress test in years.",
+     "link": "https://247wallst.com/investing/2026/11/02/apples-new-macbook-changes-nothing-but-you-should-still-buy-apple/?.tsrc=rss",
+     "time": "2026-11-02T13:45:03+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bb04e0bb-f0d9-39ec-8e3a-25d3afe576e7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "Palantir Earnings On Tap. Can Software Maker Buck AI Sell-Off?",
+     "summary": "Palantir earnings are due late Monday amid a sell-off in AI stocks. Palantir stock, which rallied on Q2 results, broke key support Friday.",
+     "link": "https://finance.yahoo.com/m/bb04e0bb-f0d9-39ec-8e3a-25d3afe576e7/palantir-earnings-on-tap.-can.html?.tsrc=rss",
+     "time": "2026-11-02T13:34:56+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:d2c3bbee-4bc3-3931-9b35-8ffcd691e60c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Stock Market Today: Dow Rises As Oil Prices Dive; Apple Falls Ahead Of Earnings (Live Coverage)",
+     "summary": "The Dow Jones index rises Monday as oil prices dived below $100 a barrel. Apple stock falls ahead of earnings.",
+     "link": "https://finance.yahoo.com/m/d2c3bbee-4bc3-3931-9b35-8ffcd691e60c/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+     "time": "2026-11-02T13:34:02+00:00",
+     "touches": [
+      "AAPL",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:58237dd7-73d4-3938-8180-847e2b89f625",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "The Top Five News Show Launches on Apple Podcasts and Spotify",
+     "summary": "The Top Five News Show, hosted by Joe Pelayo of Joseph Michaels International, is now on Apple Podcasts and Spotify. Apple approved the show on Oct. 28, 2026, so listeners can now follow and stream every episode on the two biggest podcast platforms.",
+     "link": "https://finance.yahoo.com/media-advertising/articles/top-five-news-show-launches-133100381.html?.tsrc=rss",
+     "time": "2026-11-02T13:31:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:60fc8f50-8182-35f8-a1ea-9622ce733f06",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AJG",
+     "title": "Birchtech Files Brief in Federal Circuit Supporting the $78 Million Patent Infringement Judgment Against CERT Defendants",
+     "summary": "Brief Details the Evidence and Law Supporting the Jury\u2019s Findings on Inducement, Contributory Infringement and Damages; Post-Judgment Interest Continues to Accrue During the Appeal CORSICANA, Texas, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Birchtech Corp. (NYSE American: BCHT) TSX: BCHT) (\u201cBirchtech\u201d or the \u201cCompany\u201d), a leader in specialty activated carbon technologies for sustainable air and water treatment, today announced that it has filed its appellee brief with the U.S. Court of Appeals for the F",
+     "link": "https://finance.yahoo.com/technology/articles/birchtech-files-brief-federal-circuit-133100350.html?.tsrc=rss",
+     "time": "2026-11-02T13:31:00+00:00",
+     "touches": [
+      "AJG"
+     ],
+     "tags": [
+      "legal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e4bf0f15-0608-3976-a18d-c6ed8afcab05",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Gilead to Present Late-Breaking Clinical Data and Real-World Evidence at HIV Glasgow",
+     "summary": "FOSTER CITY, Calif., November 02, 2026--Gilead Sciences, Inc. (Nasdaq: GILD) today announced its upcoming participation in the International Congress on Drug Therapy in HIV Infection (HIV Glasgow 2026), taking place from November 8-11. As a leader in HIV innovation, Gilead will share new clinical data and real-world evidence from its HIV research and development programs and provide updates on its strategic initiatives and key collaborations. Results from more than 50 studies, including late-bre",
+     "link": "https://finance.yahoo.com/healthcare/articles/gilead-present-breaking-clinical-data-133000717.html?.tsrc=rss",
+     "time": "2026-11-02T13:30:00+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "earnings",
+      "regulatory"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:dd8a0dac-191d-3a34-a73e-daea9e150651",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ICE",
+     "title": "Treasury Polled Its Dealers on Auction Sizes and Bigger Long-End Buybacks Ahead of Wednesday's Refunding",
+     "summary": "The U.S. Treasury Department is scheduled to publish updated borrowing estimates today and its quarterly refunding statement on Wednesday, November 4, and this time the agenda reaches beyond the usual auction calendar. In the run-up, Treasury asked its primary dealers how investor demand for its debt is shifting, what changes to auction sizes it should consider, how its enlarged buybacks of longer-dated bonds have worked, and whether it should begin avoiding auctions of bills and floating rate n",
+     "link": "https://finance.yahoo.com/economy/policy/articles/treasury-polled-dealers-auction-sizes-132000865.html?.tsrc=rss",
+     "time": "2026-11-02T13:20:00+00:00",
+     "touches": [
+      "ICE"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:173e9fd1-3e1e-321b-bb0e-f4bf572bf24d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Google Stock To $1,000?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/googl/articles/622007/google-stock-to-1-000/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T13:16:55+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:251ccef6-9cd4-4581-8c9f-bf3eb04a6f10",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Apple has turned into Wall Street's hedge against the AI trade: Chart of the Day",
+     "summary": "Apple has become Wall Street's go-to hiding spot during AI selloffs, but memory costs could test its margins when it reports Monday.",
+     "link": "https://finance.yahoo.com/markets/article/apple-has-turned-into-wall-streets-hedge-against-the-ai-trade-chart-of-the-day-131527512.html?.tsrc=rss",
+     "time": "2026-11-02T13:15:27+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:55e268a7-027c-3115-a0b6-63052507bb8c",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED)",
+     "summary": "Editor\u2019s Note: The ETFs tracking benchmark indices and the headline were updated in the story. U.S. stocks rose on Monday, as the Dow Jones, S&P 500, and Nasdaq 100 index futures advanced, following Friday\u2019s lower close. President Donald Trump said...",
+     "link": "https://www.benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "time": "2026-11-02T13:15:14+00:00",
+     "touches": [
+      "AAPL",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:0cbb5349-a030-3eb3-a70f-22cad8944b5d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Inuvo\u2019s IntentKey Puts Custom Audiences Live on Safari and iPhone Within 24 Hours",
+     "summary": "IntentKey maintains iOS reach and campaign performance as Apple\u2019s latest privacy changes take holdLITTLE ROCK, Ark., Nov. 02, 2026 (GLOBE NEWSWIRE) -- Inuvo, Inc. (NYSE American: INUV), a leader in artificial intelligence-driven advertising technology, today announced that advertisers can have custom audiences live on Safari and iPhone within 24 hours through IntentKey\u00ae's managed service. Since Apple's iOS 27 update, IntentKey has kept the same share of impressions on iPhone, with no change in c",
+     "link": "https://finance.yahoo.com/media-advertising/articles/inuvo-intentkey-puts-custom-audiences-131500149.html?.tsrc=rss",
+     "time": "2026-11-02T13:15:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:35b4f41c-1308-3848-9ad7-440b640ebd41",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Buy, Sell, or Hold? Today\u2019s Top Upgrades and Downgrades: Amazon.com, Coinbase Global, CrowdStrike, FormFactor, GameStop, L3Harris Technologies, Oracle, Reddit, Rivian Automotive, and More",
+     "summary": "Wall Street analysts are making bold moves this week, with dramatic target price cuts on some high-flying names and surprise upgrades on stocks that took a beating in October. Which calls deserve your attention before the market opens?",
+     "link": "https://247wallst.com/investing/2026/11/02/buy-sell-or-hold-todays-top-upgrades-and-downgrades-amazon-com-coinbase-global-crowdstrike-formfactor-gamestop-l3harris-technologies-oracle-reddit-rivian-automotive-and-more/?.tsrc=rss",
+     "time": "2026-11-02T13:13:21+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "analyst"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6f733583-99ed-378b-9a09-e4dc35fa7693",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "US Equity Futures Rise as Traders Focus on Midterm Elections, Earnings Amid Oil Prices Declining",
+     "summary": "US equity futures were edging higher pre-bell Monday as traders focused on the midterm elections and",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-traders-131107923.html?.tsrc=rss",
+     "time": "2026-11-02T13:11:07+00:00",
+     "touches": [
+      "AAPL",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2eab8780-59c4-321a-a2d9-f3625c0d979f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Astera Labs Stock Fell After Its Last 3 Revenue Beats. Here\u2019s What Could Change on Nov. 3",
+     "summary": "Key Stats for Astera Labs StockCurrent Price: $258. 70Target Price (Mid): ~$740Street Target: ~$383Potential Total Return: ~187%Annualized IRR: ~29% / yearWhat Happened?Astera Labs (ALAB:NASDAQ) has beaten Wall Street\u2019s revenue estimates in each of its last five reports, and the stock fell the session after each of the last three: 21.",
+     "link": "https://www.tikr.com/blog/astera-labs-stock-fell-after-its-last-3-revenue-beats-heres-what-could-change-on-nov-3?ref=yahoofinance&tlnk=yf-261102-4j4fpmh4&.tsrc=rss",
+     "time": "2026-11-02T13:08:49+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:1a890bc1-e204-37d8-87d0-2417c50fc0f6",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "Palantir Earnings Prediction Market Preview: What Will Alex Karp Say?",
+     "summary": "Palantir Technologies Inc. (NASDAQ:PLTR) fell sharply Friday, as investors weigh whether its AI growth can justify its valuation ahead of Monday\u2019s third-quarter earnings. Analysts expect earnings of 41 cents per share on $2.18 billion in revenue, up 84% year over...",
+     "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62776238/palantir-earnings-preview?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "time": "2026-11-02T13:08:09+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ff9a9a99-1f66-3cf6-825d-396e2d876dc4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Mastercard (MA) Links Overseas Wallets To China QR Payments",
+     "summary": "Mastercard (NYSE: MA) and Tencent's TenPay Global announced a new cross-border payment partnership focused on China based QR merchants. The arrangement is designed to let international visitors in China pay at TenPay Global QR-enabled merchants using familiar overseas digital wallets and apps. The collaboration targets greater interoperability for cross-border and agentic payments, expanding Mastercard's reach in global consumer payments. The Mastercard and TenPay Global cross-border...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-links-overseas-wallets-130413180.html?.tsrc=rss",
+     "time": "2026-11-02T13:04:13+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:5de4951b-fcef-3d80-a0ba-e0e0616494ab",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Stock Futures Higher, Oil Lower as Investors Return to Risk",
+     "summary": "Stock futures rose and Treasury yields eased, as falling oil prices encouraged investors to make a cautious return to risk after last week\u2019s tech selloff.",
+     "link": "https://www.wsj.com/finance/stocks/stock-futures-higher-oil-lower-as-investors-return-to-risk-17e79294?.tsrc=rss",
+     "time": "2026-11-02T13:03:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:24a92409-3daa-4e0a-9fb9-13658f4989fa",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Earnings from Apple, Palantir, and jobs report data: What to Watch",
+     "summary": "Yahoo Finance Breaking Business News Reporter Jake Conley takes a closer look at the top stories for investors to watch for the week of Nov. 2, including earnings calls from Apple (AAPL) and Palantir (PLTR), with data from the latest jobs reports being released.",
+     "link": "https://finance.yahoo.com/video/earnings-apple-palantir-jobs-report-130000506.html?.tsrc=rss",
+     "time": "2026-11-02T13:00:00+00:00",
+     "touches": [
+      "AAPL",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:f016f6e1-86c8-366a-9c5f-8329de04c899",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "BCUS, Inc. Appoints Jesal Meswani as CEO",
+     "summary": "STAMFORD, Conn., November 02, 2026--BCUS, Inc., the U.S. banking affiliate of Banking Circle Group, has appointed Jesal Meswani as its new CEO.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bcus-inc-appoints-jesal-meswani-130000049.html?.tsrc=rss",
+     "time": "2026-11-02T13:00:00+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a38c5dfc-82da-3fb9-9edb-60d8022b7c62",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Can Q3 Earnings Get Back on Track After Being Rattled by Big Tech's AI Prints?",
+     "summary": "As heavy AI spending rattles Big Tech, 2,465 companies gear up to report in a pivotal second week of Q3 earnings.",
+     "link": "https://www.wallstreethorizon.com/blog/Can-Q3-Earnings-Get-Back-on-Track?.tsrc=rss",
+     "time": "2026-11-02T12:56:09+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a0e5a068-a2a6-33cf-bc82-a5892d990f40",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "AI Stocks Face Possible Ballot-Box Backlash As Financing Fears Mount",
+     "summary": "AI stocks face an election reckoning as data center opposition, mounting debt and cash burn unsettle investorsamid big investments.",
+     "link": "https://finance.yahoo.com/m/a0e5a068-a2a6-33cf-bc82-a5892d990f40/ai-stocks-face-possible.html?.tsrc=rss",
+     "time": "2026-11-02T12:55:18+00:00",
+     "touches": [
+      "AMD",
+      "PLTR"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:acf8bed9-40ef-378b-bbf9-f19b33e65572",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Premarket movers: Estee Lauder, Rivian rise premarket; Check Point falls",
+     "summary": "Investing.com - U.S. stock index futures pointed to a higher open on Monday, as investors looked to Apple for shelter from concerns over mounting artificial intelligence spending, helping offset lingering weakness in semiconductor stocks ahead of Tuesday\u2019s pivotal midterm elections.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-estee-lauder-rivian-125059826.html?.tsrc=rss",
+     "time": "2026-11-02T12:50:59+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:be773e40-cf5b-37d3-bd4b-4427291fe425",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GD",
+     "title": "General Dynamics\u2019s Q3 earnings call: our top 5 analyst questions",
+     "summary": "General Dynamics delivered a quarter that exceeded Wall Street\u2019s expectations on both revenue and profit, driven by broad-based growth across its Aerospace, Marine Systems, Combat Systems, and Technologies segments. Management credited robust order activity and steady productivity improvements\u2014particularly in Marine Systems and Aerospace\u2014with fueling double-digit gains in both revenue and operating earnings. CEO Phebe Novakovic highlighted that \u201ceach of our shipyards has steadily improved its th",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-q3-earnings-call-124536517.html?.tsrc=rss",
+     "time": "2026-11-02T12:45:36+00:00",
+     "touches": [
+      "GD"
+     ],
+     "tags": [
+      "earnings",
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:e3ded5b5-090e-373d-87bf-016b3e9f680a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Qnity Electronics to Report Q3 Earnings: Is a Beat in Store?",
+     "summary": "Q is poised for Q3 earnings growth, fueled by AI-led semiconductor demand, advanced packaging strength and an encouraging earnings beat outlook.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/qnity-electronics-report-q3-earnings-123700466.html?.tsrc=rss",
+     "time": "2026-11-02T12:37:00+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1f73f591-2f65-3ea5-bdc4-292a3b296c30",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Meet the Spectacular Vanguard ETF With 44.6% of Its Portfolio Parked in Nvidia, Alphabet, Apple, and Microsoft",
+     "summary": "The Vanguard Morningstar Mega Cap Growth ETF has crushed the S&P 500 since its inception in 2007.",
+     "link": "https://www.fool.com/investing/2026/11/02/meet-vanguard-etf-446-portfolio-nvidia-alphabet/?.tsrc=rss",
+     "time": "2026-11-02T12:31:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c482fff9-d79f-3000-b501-b8898cd56b82",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Cloud Numbers Are In; This Week the Spotlight Moves to Phones, Laptops and Chips",
+     "summary": "Market Updates News Commentary - Microsoft, Alphabet and Amazon reported third-quarter results last week, and the next-session moves in their shares ranged from a fractional dip to a double-digit drop. Attention now turns to consumer hardware: Apple holds its fiscal fourth-quarter results call this afternoon, and Qualcomm, whose largest revenue stream comes from handsets, reports on Wednesday. Active Companies from around the markets with current developments this week include: Apple Inc. (NASDA",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/cloud-numbers-week-spotlight-moves-123000890.html?.tsrc=rss",
+     "time": "2026-11-02T12:30:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:8423c646-80d6-386a-9657-a3cf2ee5ac9b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "AMD's $2 Trillion AI Opportunity Comes With a Supply Risk",
+     "summary": "AMD sees its high-performance and AI computing market reaching about $2 trillion by 2030.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/amds-2-trillion-ai-opportunity-122441283.html?.tsrc=rss",
+     "time": "2026-11-02T12:24:41+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b4dd6490-14f4-3cc3-8966-d5cfa8616c95",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Paycom Software Gears Up to Report Q3 Earnings: What's in Store?",
+     "summary": "PAYC's Q3 earnings are expected to surge 42.3%, fueled by AI innovation and recurring revenues, despite macroeconomic pressures and hiring slowdowns.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/paycom-software-gears-report-q3-122400605.html?.tsrc=rss",
+     "time": "2026-11-02T12:24:00+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:80ddca7a-467f-31ec-8708-e409ada0e92e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation",
+     "summary": "Wall Street expects Q3 EPS of $0.41 on revenue of $2.18 billion.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-faces-q3-earnings-test-122243942.html?.tsrc=rss",
+     "time": "2026-11-02T12:22:43+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:1bdb5933-ebdb-3c00-9f76-3a2b74a5daa8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "5 Things Investors Need to Know About Monday\u2019s Markets",
+     "summary": "News of the Day for Nov. 2, 2026",
+     "link": "https://www.investopedia.com/5-things-to-know-stock-market-november-2-2026-12206140?.tsrc=rss",
+     "time": "2026-11-02T12:22:04+00:00",
+     "touches": [
+      "AAPL",
+      "PLTR"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a8ae973c-1167-3d24-8984-954b7d3d47e0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "AMD, Arista, Supermicro Earnings Previews: Can AI Infrastructure Shake Off Friday\u2019s Rout?",
+     "summary": "AMD, Arista, and Supermicro all report Tuesday after a brutal month that erased billions in market value, and what their executives say about AI demand and memory costs could either revive the trade or confirm the selloff was a signal.",
+     "link": "https://247wallst.com/investing/2026/11/02/amd-arista-supermicro-earnings-previews-can-ai-infrastructure-shake-off-fridays-rout/?.tsrc=rss",
+     "time": "2026-11-02T12:20:21+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:fd9bf15a-f326-38ea-9510-bff6af8d80bd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "PTC Heads Into Q4 Earnings as Schneider Buyout Looms: What's in Store?",
+     "summary": "PTC's fiscal Q4 results hinge on ARR growth, AI adoption and cash flow momentum, while its pending $22.6 billion acquisition by Schneider Electric adds a key dimension.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ptc-heads-q4-earnings-schneider-121200445.html?.tsrc=rss",
+     "time": "2026-11-02T12:12:00+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings",
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:2460782e-a65c-398d-9810-cdcb30973714",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "CDW Ahead of Q3 Earnings: Key Factors Investors Should Watch",
+     "summary": "CDW expects Q3 earnings growth at the high end of its target range, but margin woes, cautious spending and buyout-led AI expansion are key factors to watch.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/cdw-ahead-q3-earnings-key-121100684.html?.tsrc=rss",
+     "time": "2026-11-02T12:11:00+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings",
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:80905f36-f546-3600-bb52-4460798c05b8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BP",
+     "title": "Stonepeak Completes Acquisition of Majority Controlling Interest in Castrol From bp",
+     "summary": "LONDON & NEW YORK, November 02, 2026--Stonepeak, a leading alternative investment firm specialising in infrastructure, today announced it has completed the acquisition of a 65% stake in Castrol, a global leader in lubricants, from BP p.l.c. (\"bp\") (NYSE: BP) (LON: BP). bp will retain a 35% minority interest in Castrol.",
+     "link": "https://finance.yahoo.com/energy/articles/stonepeak-completes-acquisition-majority-controlling-120000488.html?.tsrc=rss",
+     "time": "2026-11-02T12:00:00+00:00",
+     "touches": [
+      "BP"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:42039470-94dd-3228-8f26-84f52d3315d7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "KO",
+     "title": "Consumer Staples ETF (VDC) Hits a New 52-Week High",
+     "summary": "VDC hits a 52-week high amid defensive-sector rotation. Can this consumer staples ETF extend its rally?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/consumer-staples-etf-vdc-hits-120000303.html?.tsrc=rss",
+     "time": "2026-11-02T12:00:00+00:00",
+     "touches": [
+      "KO"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:52b7b695-0e17-307a-8554-bcad49450736",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "AMD (AMD) Q3 earnings: what to expect",
+     "summary": "Computer processor maker AMD (NASDAQ:AMD) will be reporting earnings this Tuesday after the bell. Here\u2019s what investors should know.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/amd-amd-q3-earnings-expect-115736454.html?.tsrc=rss",
+     "time": "2026-11-02T11:57:36+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:78192e17-f312-3fa9-aa0b-d8fe731b5dd5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "LOW",
+     "title": "Lowe's Pro Momentum Adds Strength to Its Total Home Strategy",
+     "summary": "LOW is strengthening its Pro business through targeted investments, digital tools and acquisitions, supporting growth despite weak DIY and remodeling demand.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/lowes-pro-momentum-adds-strength-115600181.html?.tsrc=rss",
+     "time": "2026-11-02T11:56:00+00:00",
+     "touches": [
+      "LOW"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2b56d52c-5232-33be-a7b5-08712e6a91b0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Micron Stock Bounces Back From AI Selloff. Beware Buying the Dip.",
+     "summary": "There wasn\u2019t an obvious catalyst driving shares higher, but they were probably just benefiting from a broader market rebound.",
+     "link": "https://finance.yahoo.com/m/2b56d52c-5232-33be-a7b5-08712e6a91b0/micron-stock-bounces-back.html?.tsrc=rss",
+     "time": "2026-11-02T11:45:00+00:00",
+     "touches": [
+      "AAPL"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ee64f186-48ae-3320-abac-60317fd4d98e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TGT",
+     "title": "Target Hospitality Announces Third Quarter 2026 Earnings Release and Conference Call Schedule",
+     "summary": "Target Hospitality Corp. (\"Target Hospitality,\" \"Target\" or the \"Company\") (NASDAQ: TH), one of North America's largest providers of vertically integrated modular accommodations and value-added hospitality services, today announced that it will release its third quarter 2026 financial results before the market opens on Monday, November 9, 2026. The Company has also scheduled a conference call for Monday, November 9, 2026, at 9:00 am Eastern Time (8:00 am Central Time) to discuss the results.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/target-hospitality-announces-third-quarter-114500078.html?.tsrc=rss",
+     "time": "2026-11-02T11:45:00+00:00",
+     "touches": [
+      "TGT"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:65bb68bb-b272-3ac9-ae6c-14470c2d24c7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AAPL",
+     "title": "Markets Rebound. Elections and Earnings Threaten to Reignite Fears.",
+     "summary": "Good morning and welcome to a massive week for markets and the wider economy, as midterm elections loom and traders brace for another heavy slate of corporate earnings.",
+     "link": "https://finance.yahoo.com/m/65bb68bb-b272-3ac9-ae6c-14470c2d24c7/markets-rebound.-elections.html?.tsrc=rss",
+     "time": "2026-11-02T11:40:09+00:00",
+     "touches": [
+      "AAPL",
+      "AMD",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:ec64ed62-81a3-38ed-9bb5-ead424115e97",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TRGP",
+     "title": "Enbridge Prepares to Report Q3 Earnings: What's in the Cards?",
+     "summary": "ENB heads into Q3 2026 earnings with EPS estimates up 9.1% year over year, while higher financing costs may dampen profitability.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-prepares-report-q3-earnings-113800391.html?.tsrc=rss",
+     "time": "2026-11-02T11:38:00+00:00",
+     "touches": [
+      "TRGP"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:adafc6df-7372-3c9f-bf94-e0f98e00d79a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Tech Rebound, Crude Slide Lift Wall Street Pre-Bell; Asia Mixed, Europe Up",
+     "summary": "Wall Street futures pointed moderately higher pre-bell Monday as traders waded back into tech shares",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tech-rebound-crude-slide-lift-113558010.html?.tsrc=rss",
+     "time": "2026-11-02T11:35:58+00:00",
+     "touches": [
+      "AMD",
+      "PLTR"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3dca0f60-f380-3057-bae3-e517ebf67126",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ICE",
+     "title": "Beat the Market Like Zacks: Marathon Petroleum, Amgen, Chevron in Focus",
+     "summary": "Zacks highlights MPC, AMGN and CVX as standout performers, with strong returns across its stock recommendations and model portfolios despite market volatility.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/beat-market-zacks-marathon-petroleum-113400262.html?.tsrc=rss",
+     "time": "2026-11-02T11:34:00+00:00",
+     "touches": [
+      "ICE"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:2a665b00-0155-367f-b3f6-174590393fb9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "3 Stocks That Will Move the Market This Week",
+     "summary": "Three critical earnings reports will dictate the market's direction in the first week of November.",
+     "link": "https://www.fool.com/investing/2026/11/02/3-stocks-that-will-move-the-market-this-week/?.tsrc=rss",
+     "time": "2026-11-02T11:27:00+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9e7a7710-9e1a-35b4-ba03-c1bc8203ddcb",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "Apple, SpaceX, Intel, Palantir, and More Stocks That Explain Today\u2019s Market",
+     "summary": "Intel shares slide despite a broader tech rebound, while Palantir edges higher ahead of its third-quarter earnings.",
+     "link": "https://finance.yahoo.com/m/9e7a7710-9e1a-35b4-ba03-c1bc8203ddcb/apple%2C-spacex%2C-intel%2C.html?.tsrc=rss",
+     "time": "2026-11-02T11:15:00+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:23103c51-9117-32e2-8dc7-0a1c12ec56e8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and Micron on Oct. 29",
+     "summary": "The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 million in Micron.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110526256.html?.tsrc=rss",
+     "time": "2026-11-02T11:05:26+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:3c73174d-57be-359a-ac49-3345d3915a97",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TGT",
+     "title": "What Invesco S&P Ultra Dividend Revenue ETF (RDIV) Bought: Chevron Leads on Oct. 29",
+     "summary": "The fund bought $239.2 million of stock, adding to all 60 positions and selling nothing, with Chevron and Target the largest purchases.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-ultra-dividend-revenue-110516271.html?.tsrc=rss",
+     "time": "2026-11-02T11:05:16+00:00",
+     "touches": [
+      "TGT"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c309f0d2-8412-3a72-83f1-d4059bd35292",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "What iShares Tech-Software ETF (IGV) Sold: Palantir Leads on Oct. 29",
+     "summary": "The fund sold $286.1 million of stock on Thursday, trimming all 106 positions and buying nothing.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-tech-software-etf-igv-110508154.html?.tsrc=rss",
+     "time": "2026-11-02T11:05:08+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a8a40fdf-b2e8-3fc2-862e-d04f12129f7a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "What State Street Fin Select Sector SPDR (XLF) Bought: Berkshire Leads on Oct. 29",
+     "summary": "The fund added $885.1 million in new buying across all 76 holdings, led by a $111.6 million purchase of Berkshire Hathaway.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110425586.html?.tsrc=rss",
+     "time": "2026-11-02T11:04:25+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f1bea46f-f977-3722-9251-dece1e6de5f0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Direxion Daily Tech Bull 3X (TECL) Sells $146.3 Million More NVIDIA on Thursday",
+     "summary": "The 3x leveraged tech ETF sold $950.0 million of stock and bought nothing, cutting 74 positions.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-tech-bull-3x-110419896.html?.tsrc=rss",
+     "time": "2026-11-02T11:04:19+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:48afda75-caa2-36f6-be96-4f13a1a3ca40",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "ETFs Are Net Sellers of Palantir (PLTR) on Thursday",
+     "summary": "Palantir (PLTR) drew $112.1 million in net ETF selling last Thursday.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-palantir-pltr-110304104.html?.tsrc=rss",
+     "time": "2026-11-02T11:03:04+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b85cef1e-fd9b-3e83-844d-e1c008d9c621",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "ETFs Are Net Sellers of Advanced Micro Devices (AMD) on Oct. 29",
+     "summary": "ETFs sold a net $181.8 million of Advanced Micro Devices (AMD) on Thursday.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-advanced-micro-110236273.html?.tsrc=rss",
+     "time": "2026-11-02T11:02:36+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bbc56feb-beb3-3bcd-9228-e5119c5e9ccd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "ETFs Are Buying Mastercard (MA) on Thursday",
+     "summary": "ETFs bought $41.9 million of Mastercard on Thursday.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-mastercard-ma-thursday-110115701.html?.tsrc=rss",
+     "time": "2026-11-02T11:01:15+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:cc27bf70-ed52-3490-b78c-23fd44b1c518",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "US Equity Investors to Monitor State of Big-Tech Trade, Health of Labor Market, Midterm Elections This Week",
+     "summary": "US equity market investors will focus on earnings while watching for any further deterioration in th",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-investors-monitor-state-103216728.html?.tsrc=rss",
+     "time": "2026-11-02T10:32:16+00:00",
+     "touches": [
+      "AMD",
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:c0bf3b05-56d0-38b3-bdbc-1f9b8789728b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Dollar Sinks to One-Month Low as Oil Slump Eases Haven Demand",
+     "summary": "The dollar fell to a one-month low against a basket of currencies as oil prices dropped sharply.",
+     "link": "https://finance.yahoo.com/m/c0bf3b05-56d0-38b3-bdbc-1f9b8789728b/dollar-sinks-to-one-month-low.html?.tsrc=rss",
+     "time": "2026-11-02T10:27:43+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:0a94f479-5bd8-3a88-bd42-2a8ded5db8fd",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "S&P 500, Nasdaq Futures Rise Premarket After Wall Street\u2019s Worst Week In Months: AAPL, PLTR, GOOGL, INTC, TGTX In Focus",
+     "summary": "U.S. stock futures edged higher after a bruising week for Wall Street, as investors looked ahead to major earnings, economic data, and the Nov. 3 midterm elections. Oil prices fell on hopes of progress in US-Iran negotiations.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-after-wall-street-s-worst-week-in-months-aapl-pltr-googl-intc-tgtx-in-focus/cNG9MJPR92w?.tsrc=rss",
+     "time": "2026-11-02T10:18:32+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings",
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:6f66905c-671f-315a-bd7b-d07718c490cf",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "UK manufacturing PMI rises to 52.8 in October",
+     "summary": "Investing.com -- UK manufacturing production grew at its fastest pace in 25 months during October, according to data released today by S&P Global. The seasonally adjusted UK Manufacturing Purchasing Managers\u2019 Index climbed to 52.8, up from 51.9 in September and reaching a five-month high.",
+     "link": "https://finance.yahoo.com/economy/articles/uk-manufacturing-pmi-rises-52-101609247.html?.tsrc=rss",
+     "time": "2026-11-02T10:16:09+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b9c6f724-e967-3a99-baec-cbafc5fe2fd9",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "AMD",
+     "title": "Fermi Advances Project Matador, Pivots to Powered-Land Strategy as Director Vote Fails",
+     "summary": "Fermi (NASDAQ:FRMI) said at its annual shareholder meeting that it is advancing development at its Project Matador site while shifting its commercial strategy toward a powered-land model for prospective tenants. Chief Executive Officer Lee McIntire, who said he assumed the CEO role in August, chara",
+     "link": "https://www.marketbeat.com/instant-alerts/event-fermi-advances-project-matador-pivots-to-powered-land-strategy-as-director-vote-fails-2026-11-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "time": "2026-11-02T10:12:20+00:00",
+     "touches": [
+      "AMD"
+     ],
+     "tags": [
+      "people"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:3dcc0779-0da6-36d6-b849-4512aa2119af",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "Palantir Has to Top Itself Again for the Stock to Keep Going",
+     "summary": "Analysts expect Palantir\u2019s U.S. commercial sales to grow by 133% in the third quarter, down from 150% last quarter.",
+     "link": "https://finance.yahoo.com/m/3dcc0779-0da6-36d6-b849-4512aa2119af/palantir-has-to-top-itself.html?.tsrc=rss",
+     "time": "2026-11-02T10:00:00+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:dddd8029-6121-3a0b-8496-83a58515193a",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PLTR",
+     "title": "The Zacks Analyst Blog Highlights Palantir, Microsoft and Oracle",
+     "summary": "PLTR heads into Q3 earnings with strong AI-driven demand, rapid revenue growth and a 60% stock rally, but its premium valuation raises concerns.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-palantir-092700610.html?.tsrc=rss",
+     "time": "2026-11-02T09:27:00+00:00",
+     "touches": [
+      "PLTR"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:a8b5dca9-9368-3727-8564-68931a687f3e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Zacks Industry Outlook Highlights Visa, Mastercard, PayPal, Global Payments and WEX",
+     "summary": "V, MA, PYPL, GPN and WEX face rising technology costs and inflation pressures but remain positioned to benefit from digital payments, cross-border transactions and strategic acquisitions.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-visa-091300526.html?.tsrc=rss",
+     "time": "2026-11-02T09:13:00+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "macro"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:47d9e73c-da89-3b8e-a76c-74b639e20637",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Sunrate Launches Agentic Card to Enable AI-Driven Business Payments",
+     "summary": "Sunrate, the global payment and treasury management platform, today announced the launch of Sunrate Agentic Card during Hong Kong FinTech Week 2026, a programmable, multi-currency virtual commercial card designed for AI agents to execute payments on behalf of businesses within predefined rules and authorisation frameworks.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/sunrate-launches-agentic-card-enable-090000527.html?.tsrc=rss",
+     "time": "2026-11-02T09:00:00+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:42b9aeec-2605-330a-8787-1c05f36f4e91",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BP",
+     "title": "FTSE 100 today: Stocks fall as crude slide drags oil majors lower",
+     "summary": "Investing.com -- British stocks fell on Monday as a slide in crude on hopes of progress in indirect U.S.-Iran talks dragged down oil majors, weighing on the index.",
+     "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-fall-085408745.html?.tsrc=rss",
+     "time": "2026-11-02T08:54:08+00:00",
+     "touches": [
+      "BP"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a2a6d3c8-dc51-3523-b100-b67891d16bb7",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BP",
+     "title": "Zacks.com featured highlights include BP, ExxonMobil, ConocoPhillips and Eni",
+     "summary": "BP, XOM, COP and E offer investors potential opportunities to navigate market volatility, supported by low-beta profiles and strong upstream portfolios.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-bp-084100191.html?.tsrc=rss",
+     "time": "2026-11-02T08:41:00+00:00",
+     "touches": [
+      "BP"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:595de902-abc9-336c-b612-531ce5f92673",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Could Surprise Microsoft Stock Investors On The Upside?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/msft/articles/621784/what-could-surprise-microsoft-stock-investors-on-the-upside/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T08:35:20+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:742d16b6-cff4-397a-b52a-4765f8806115",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CMCSA",
+     "title": "What Are AT&T Stock Bulls Not Worried About?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/t/articles/621786/what-are-att-stock-bulls-not-worried-about/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T08:35:18+00:00",
+     "touches": [
+      "CMCSA",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fe75a4b1-e5be-3461-a4bf-e7f1b4aefba2",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CMCSA",
+     "title": "Which Dates Could Move Disney Stock Most?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/dis/articles/621802/which-dates-could-move-disney-stock-most/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T08:35:14+00:00",
+     "touches": [
+      "CMCSA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ed27b6a0-bc32-331c-9c23-c8ada49de025",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PFE",
+     "title": "When Eli Lilly's Forecast and Chart Say the Same Thing, Pay Attention",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lly/articles/621814/when-eli-lillys-forecast-and-chart-say-the-same-thing-pay-attention/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T08:35:10+00:00",
+     "touches": [
+      "PFE",
+      "SPGI"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:eb348929-9c2e-3836-96dd-8cc7158e6b7f",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Has Mastercard Stock Become A Different Bet?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ma/articles/621835/has-mastercard-stock-become-a-different-bet/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T07:27:20+00:00",
+     "touches": [
+      "MA",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:881edfe8-a115-3712-929f-468b1ac5d4d3",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PFE",
+     "title": "What to expect from Pfizer\u2019s (PFE) Q3 earnings",
+     "summary": "Global pharmaceutical company Pfizer (NYSE:PFE) will be reporting results this Tuesday before market open. Here\u2019s what to expect.",
+     "link": "https://finance.yahoo.com/healthcare/articles/expect-pfizer-pfe-q3-earnings-071736931.html?.tsrc=rss",
+     "time": "2026-11-02T07:17:36+00:00",
+     "touches": [
+      "PFE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:9c111f5b-c005-3e30-8d9e-48b3185fb5e0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PFE",
+     "title": "What Has Changed About Owning Eli Lilly Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/lly/articles/621845/what-has-changed-about-owning-eli-lilly-stock/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T07:04:12+00:00",
+     "touches": [
+      "PFE",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:f22c8808-296b-3c84-b536-ac98b4c5270e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is The Case For Waiting On Rigetti Computing Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/rgti/articles/621850/what-is-the-case-for-waiting-on-rigetti-computing-stock/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T07:04:09+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:13a15e31-c855-3654-b362-3d0bbc1eaf75",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Why Is Intel Stock Falling?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/intc/articles/621871/why-is-intel-stock-falling/2026-11-02?.tsrc=rss",
+     "time": "2026-11-02T07:04:06+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:ff90b83e-e009-3a15-8a81-6d1c588664af",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "How Much Downside Is Left In Applied Materials Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/amat/articles/621755/how-much-downside-is-left-in-applied-materials-stock/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T07:03:56+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c8f2a1ba-5384-3b4c-b7f3-fecf38643787",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Can Meta Stock Fall 30%?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/meta/articles/621753/can-meta-stock-fall-30/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T07:03:53+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fb295979-849c-3a89-bbd2-7fd0efb49621",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "BP",
+     "title": "BP Gets $6 Billion to Pay Down Debt as Castrol Deal Closes",
+     "summary": "BP Plc completed a deal to offload its Castrol lubricants business, giving the oil and gas major $6 billion to pay down debt as it works to repair the balance sheet.",
+     "link": "https://finance.yahoo.com/energy/articles/bp-gets-6-billion-pay-070337649.html?.tsrc=rss",
+     "time": "2026-11-02T07:03:37+00:00",
+     "touches": [
+      "BP"
+     ],
+     "tags": [
+      "deal"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:89096106-d9c6-377e-8f2c-53b9430c7448",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "Tencent and Mastercard Sign MOU on Cross-Border Payment Interoperability and Agentic Payments",
+     "summary": "TenPay Global, Tencent's cross-border payment platform, and Mastercard have signed a memorandum of understanding (MOU) to explore greater cross-border payment interoperability and new opportunities in agentic payments, the companies announced during Hong Kong FinTech Week 2026.",
+     "link": "https://finance.yahoo.com/markets/currencies/articles/tencent-mastercard-sign-mou-cross-065700792.html?.tsrc=rss",
+     "time": "2026-11-02T06:57:00+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:e5aa8f24-7a80-3912-bac6-e68c8206dc48",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "D-Wave Quantum vs. Rigetti Computing: Which Quantum Computing Stock Is a Better Buy for 2027?",
+     "summary": "D-Wave grew revenue 178% in 2025 while Rigetti's fell 34%, yet both burn cash at similar rates, a stark contrast that reshapes the investment calculus.",
+     "link": "https://www.fool.com/coverage/better-buy/2026/11/02/d-wave-quantum-vs-rigetti-computing-which-quantum-computing-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+     "time": "2026-11-02T06:37:20+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:dbe930e2-19f9-3f11-8c06-a446493fe9af",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CMCSA",
+     "title": "Comcast vs. Walt Disney: Which Entertainment Stock Is a Better Buy for 2027?",
+     "summary": "Comcast trades at a fraction of Disney's valuation while generating stronger free cash flow, but faces steeper structural headwinds in legacy television.",
+     "link": "https://www.fool.com/coverage/better-buy/2026/11/01/comcast-vs-walt-disney-which-entertainment-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+     "time": "2026-11-02T05:05:04+00:00",
+     "touches": [
+      "CMCSA"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:d7c6c057-f5a1-3cc1-b173-f9b8fc9facc0",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "PFE",
+     "title": "Stocktwits Pharma Pulse: Biotech Beats The Broader Market \u2014 Novo, Pfizer And Moderna Earnings Up Next",
+     "summary": "Moderna will report on Friday, while the SITC meeting will bring fresh cancer-treatment findings from Immunocore and Candel.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W?.tsrc=rss",
+     "time": "2026-11-02T03:52:37+00:00",
+     "touches": [
+      "PFE"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:0ae4a98c-5840-3e10-ac50-b52e6df4a30b",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "ICE",
+     "title": "Intercontinental Exchange: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Proprietary data and regulated clearing networks create durable competitive advantages as global markets diversify.",
+     "link": "https://www.fool.com/earnings/takeaways/2026/11/01/intercontinental-exchange-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "time": "2026-11-02T03:04:19+00:00",
+     "touches": [
+      "ICE"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:9f8af4c4-91b6-3f59-830c-5d266a074291",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "Why Did MO, GILD, XOM Stocks Surge To 52-Week Highs Last Week?",
+     "summary": "Strong tobacco pricing, growing HIV drug sales and improved refining margins supported gains across the three companies.",
+     "link": "https://stocktwits.com/news-articles/markets/equity/why-did-mo-gild-xom-stocks-surge-to-52-week-highs-last-week/cNG91e0R92X?.tsrc=rss",
+     "time": "2026-11-02T02:48:50+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:57658fd2-2d21-3635-9e74-430957f51d88",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "TGT",
+     "title": "DoorDash makes a promise to Instacart members",
+     "summary": "The combined company would be a strong rival for Uber Eats.",
+     "link": "https://www.thestreet.com/retail/what-doordash-and-instacart-members-get-if-the-companies-merge?.tsrc=rss",
+     "time": "2026-11-02T02:03:00+00:00",
+     "touches": [
+      "TGT"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fa9411fc-71c9-3408-bce3-1e5d6df9760d",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "CMCSA",
+     "title": "Why Did T-Mobile Stock Jump?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/tmus/articles/621886/why-did-t-mobile-stock-jump/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:43+00:00",
+     "touches": [
+      "CMCSA",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:bae25b3a-035e-35b6-aea4-e01537515773",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In Cameco Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ccj/articles/621881/what-is-behind-the-move-in-cameco-stock/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:41+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:839c82b4-b80e-3ab4-8895-8e984780e265",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In Robinhood Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/hood/articles/621887/what-is-behind-the-move-in-robinhood-stock/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:38+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:04ddbc8a-1b3a-323b-91e6-b3f34fcee2c5",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Sent ResMed Stock Lower?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/rmd/articles/621888/what-sent-resmed-stock-lower/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:30+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:26be91d0-76ef-3331-afc1-57ed9213c1d8",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Sent Illumina Stock Lower?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/ilmn/articles/621870/what-sent-illumina-stock-lower/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:28+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:b15f8e2f-e0fa-311e-abaf-bdf1b1e72ad4",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "What Is Behind The Move In nVent Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/nvt/articles/621879/what-is-behind-the-move-in-nvent-stock/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:26+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:fdf6e38f-3a75-3a6e-a554-bf31e514530e",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Why Is Twilio Stock Falling?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/twlo/articles/621874/why-is-twilio-stock-falling/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:18+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:363f19b9-975d-3cd6-843e-d5c4e1694b61",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "SPGI",
+     "title": "Why Is Coinbase Stock Falling?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/coin/articles/621867/why-is-coinbase-stock-falling/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:12+00:00",
+     "touches": [
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:c91207f5-2b72-3c52-a764-d1be3c7c1403",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "What Is Behind The Move In Global Payments Stock?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "link": "https://www.trefis.com/stock/gpn/articles/621869/what-is-behind-the-move-in-global-payments-stock/2026-11-01?.tsrc=rss",
+     "time": "2026-11-02T01:23:08+00:00",
+     "touches": [
+      "MA",
+      "SPGI"
+     ],
+     "tags": [],
+     "new": true
+    },
+    {
+     "id": "rss:a6f88216-4002-3780-a5d7-9e0c12e90fbe",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "MA",
+     "title": "How Earnings Beat At SoFi Stock Has Changed Its Investment Story",
+     "summary": "SoFi Technologies reported third quarter 2026 revenue of US$1,343.16 million and net income of US$240.99 million, issued nine month results showing higher revenue and earnings per share than a year earlier, and guided fourth quarter 2026 revenue to about US$1.375 billion with management indicating 36% year over year growth. Recent product moves, including the launch of SoFi Earn tokenized deposits, Mastercard blockchain settlement using SoFiUSD, and embedded Prudential life insurance inside...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-sofi-stock-changed-232051406.html?.tsrc=rss",
+     "time": "2026-11-01T23:20:51+00:00",
+     "touches": [
+      "MA"
+     ],
+     "tags": [
+      "earnings"
+     ],
+     "new": true
+    },
+    {
+     "id": "rss:96d59193-7ff2-39c2-9cdc-a562e05ad301",
+     "source": "Yahoo Finance",
+     "kind": "headline",
+     "ticker": "GILD",
+     "title": "1 Dividend-Paying Biotech Stock to Buy Hand Over Fist in November",
+     "summary": "The company is having a great year.",
+     "link": "https://www.fool.com/investing/2026/11/01/1-dividend-paying-biotech-stock-to-buy-hand-over-f/?.tsrc=rss",
+     "time": "2026-11-01T21:02:00+00:00",
+     "touches": [
+      "GILD"
+     ],
+     "tags": [
+      "capital"
+     ],
+     "new": true
+    }
+   ],
+   "notes": []
+  }
+ },
+ "pelosi": {
+  "cmd": "trader-pelosi/ptr.py new --read --json",
+  "code": 0,
+  "stderr": "",
+  "data": {
+   "new": [
+    {
+     "doc_id": "20035727",
+     "type": "P",
+     "type_name": "Periodic Transaction Report",
+     "last": "Taylor",
+     "first": "David J.",
+     "name": "Hon. David J. Taylor",
+     "district": "OH02",
+     "year": 2026,
+     "filed": "2026-10-29",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+    }
+   ],
+   "reports": [
+    {
+     "filing": {
+      "doc_id": "20035727",
+      "type": "P",
+      "type_name": "Periodic Transaction Report",
+      "last": "Taylor",
+      "first": "David J.",
+      "name": "Hon. David J. Taylor",
+      "district": "OH02",
+      "year": 2026,
+      "filed": "2026-10-29",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+     },
+     "pdf": "trader/state/ptr-pdfs/20035727.pdf",
+     "report": {
+      "name": "Hon. David J. Taylor",
+      "status": "Member",
+      "district": "OH02",
+      "doc_id": "20035727",
+      "filed": "2026-10-29",
+      "rows": [
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "P",
+        "type_name": "purchase",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "T",
+        "asset_type": "ST",
+        "asset": "AT&T Inc.",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "P",
+        "type_name": "purchase",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "LRCX",
+        "asset_type": "ST",
+        "asset": "Lam Research Corporation - Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "S",
+        "type_name": "sale",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+        "ticker": "MPC",
+        "asset_type": "ST",
+        "asset": "Marathon Petroleum Corporation Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "S",
+        "type_name": "sale",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "MPC",
+        "asset_type": "ST",
+        "asset": "Marathon Petroleum Corporation Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "P",
+        "type_name": "purchase",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+        "ticker": "PLD",
+        "asset_type": "ST",
+        "asset": "Prologis, Inc. Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "P",
+        "type_name": "purchase",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "PLD",
+        "asset_type": "ST",
+        "asset": "Prologis, Inc. Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "P",
+        "type_name": "purchase",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "RPM",
+        "asset_type": "ST",
+        "asset": "RPM International Inc. Common Stock",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       },
+       {
+        "owner": "",
+        "owner_name": "self",
+        "type": "S",
+        "type_name": "sale",
+        "date": "2026-10-15",
+        "notified": "2026-10-29",
+        "amount": "$1,001 - $15,000",
+        "status": "New",
+        "account": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+        "ticker": "V",
+        "asset_type": "ST",
+        "asset": "Visa Inc.",
+        "amount_low": 1001,
+        "amount_high": 15000,
+        "description": null,
+        "days_to_disclose": 14,
+        "late": false
+       }
+      ],
+      "pdf": "trader/state/ptr-pdfs/20035727.pdf",
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+     }
+    }
+   ]
+  }
+ }
+}
