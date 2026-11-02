@@ -368,7 +368,8 @@
   "scan-B-2026-11-02-WMT: already in the book, not placed again",
   "[A] cancel unfilled entry tqqq-2026-11-02-t1 (filled 0.0)",
   "[A] cancel unfilled entry tqqq-2026-11-02-t2 (filled 0.0)",
-  "[B] cancel unfilled entry orb-B-2026-11-02-GOOGL (filled 0.0)"
+  "[B] cancel unfilled entry orb-B-2026-11-02-GOOGL (filled 0.0)",
+  "13:55 manual: intraday flat_by -> 14:50 and Rule C MOC -> 14:50 market (GitHub cron down since 31 Oct; Claude reminders run late)"
  ],
  "scan": {
   "at": "10:12",

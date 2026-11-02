@@ -16,10 +16,10 @@
   "placed_day": "2026-11-02",
   "placed_at": "09:36",
   "cancel_at": "10:00",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
-  "exit_mode": "moc",
+  "exit_mode": "flat",
   "sector": "Retail Trade",
   "planned_risk": 97.66,
   "features": {
@@ -60,7 +60,13 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 19.0
+  "remaining": 19.0,
+  "events": [
+   {
+    "at": "2026-11-02 13:55",
+    "what": "exit moved from MOC to 14:50 market (GitHub scheduler outage)"
+   }
+  ]
  },
  {
   "id": "rulec-B-2026-11-02-FER",
@@ -79,10 +85,10 @@
   "placed_day": "2026-11-02",
   "placed_at": "09:36",
   "cancel_at": "10:00",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
-  "exit_mode": "moc",
+  "exit_mode": "flat",
   "sector": "Industrial Services",
   "planned_risk": 98.01,
   "features": {
@@ -123,7 +129,13 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 33.0
+  "remaining": 33.0,
+  "events": [
+   {
+    "at": "2026-11-02 13:55",
+    "what": "exit moved from MOC to 14:50 market (GitHub scheduler outage)"
+   }
+  ]
  },
  {
   "id": "tqqq-2026-11-02-t1",
@@ -367,7 +379,7 @@
   "placed_day": "2026-11-02",
   "placed_at": "10:17",
   "cancel_at": "11:30",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
   "exit_mode": "flat",
@@ -451,7 +463,7 @@
   "placed_day": "2026-11-02",
   "placed_at": "10:17",
   "cancel_at": "11:30",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
   "exit_mode": "flat",
@@ -537,7 +549,7 @@
   "placed_day": "2026-11-02",
   "placed_at": "10:17",
   "cancel_at": "11:30",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
   "exit_mode": "flat",
@@ -788,7 +800,7 @@
   "placed_day": "2026-11-02",
   "placed_at": "10:21",
   "cancel_at": "11:30",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
   "exit_mode": "flat",
@@ -1038,7 +1050,7 @@
   "placed_day": "2026-11-02",
   "placed_at": "10:21",
   "cancel_at": "11:30",
-  "flat_by": "15:40",
+  "flat_by": "14:50",
   "hold_days": 0,
   "time_stop_days": 2,
   "exit_mode": "flat",
