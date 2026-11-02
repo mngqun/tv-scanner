@@ -1,0 +1,195 @@
+{
+ "legs": 11,
+ "trades": 11,
+ "arms": {
+  "B:orb": {
+   "trades": 6,
+   "win_rate": 0.167,
+   "avg_R": -0.627,
+   "total_R": -3.76,
+   "pess_trades": 6,
+   "pess_avg_R": -0.627,
+   "pess_ci95": [
+    -1.158,
+    0.36
+   ],
+   "max_dd_R": 5.58,
+   "worst_day_usd": -183.26,
+   "avg_slippage_R": 0.148,
+   "median_mfe_R": 0.55,
+   "median_mae_R": 1.13,
+   "exit_mix": {
+    "target": 1,
+    "stop": 4,
+    "flat-by": 1
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": false,
+    "ci_low>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": false
+   },
+   "go_live": false
+  },
+  "B:orb:spy_above": {
+   "trades": 6,
+   "win_rate": 0.167,
+   "avg_R": -0.627,
+   "total_R": -3.76,
+   "pess_trades": 6,
+   "pess_avg_R": -0.627,
+   "pess_ci95": [
+    -1.158,
+    0.36
+   ],
+   "max_dd_R": 5.58,
+   "worst_day_usd": -183.26,
+   "avg_slippage_R": 0.148,
+   "median_mfe_R": 0.55,
+   "median_mae_R": 1.13,
+   "exit_mix": {
+    "target": 1,
+    "stop": 4,
+    "flat-by": 1
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": false,
+    "ci_low>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": false
+   },
+   "go_live": false
+  },
+  "B:rulec": {
+   "trades": 2,
+   "win_rate": 1.0,
+   "avg_R": 0.064,
+   "total_R": 0.13,
+   "pess_trades": 2,
+   "pess_avg_R": 0.064,
+   "pess_ci95": [
+    0.03,
+    0.097
+   ],
+   "max_dd_R": 0.0,
+   "worst_day_usd": 12.46,
+   "avg_slippage_R": -0.056,
+   "median_mfe_R": 0.08,
+   "median_mae_R": 0.21,
+   "exit_mix": {
+    "flat-by": 2
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "rule_avg_R": 0.008,
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": false,
+    "ci_low>0": true,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": true
+   },
+   "go_live": false
+  },
+  "B:scan": {
+   "trades": 3,
+   "win_rate": 0.333,
+   "avg_R": -0.439,
+   "total_R": -1.32,
+   "pess_trades": 3,
+   "pess_avg_R": -0.439,
+   "pess_ci95": [
+    -1.201,
+    1.026
+   ],
+   "max_dd_R": 2.34,
+   "worst_day_usd": -46.6,
+   "avg_slippage_R": 0.117,
+   "median_mfe_R": 0.02,
+   "median_mae_R": 1.14,
+   "exit_mix": {
+    "stop": 2,
+    "flat-by": 1
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": false,
+    "ci_low>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": false
+   },
+   "go_live": false
+  },
+  "B:scan:level:breakout_20d": {
+   "trades": 1,
+   "win_rate": 1.0,
+   "avg_R": 1.026,
+   "total_R": 1.03,
+   "pess_trades": 1,
+   "pess_avg_R": 1.026,
+   "pess_ci95": [
+    null,
+    null
+   ],
+   "max_dd_R": 0.0,
+   "worst_day_usd": 48.74,
+   "avg_slippage_R": 0.03,
+   "median_mfe_R": 1.15,
+   "median_mae_R": 0.05,
+   "exit_mix": {
+    "flat-by": 1
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": true,
+    "ci_low>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": true
+   },
+   "go_live": false
+  },
+  "B:scan:level:oversold": {
+   "trades": 2,
+   "win_rate": 0.0,
+   "avg_R": -1.171,
+   "total_R": -2.34,
+   "pess_trades": 2,
+   "pess_avg_R": -1.171,
+   "pess_ci95": [
+    -1.201,
+    -1.141
+   ],
+   "max_dd_R": 2.34,
+   "worst_day_usd": -95.34,
+   "avg_slippage_R": 0.16,
+   "median_mfe_R": 0.01,
+   "median_mae_R": 1.17,
+   "exit_mix": {
+    "stop": 2
+   },
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": false,
+    "ci_low>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": false
+   },
+   "go_live": false
+  },
+  "A:sleeve(user overlay)": {
+   "trades": 0
+  }
+ }
+}
