@@ -4,7 +4,8 @@
  "ticks": [
   "09:36",
   "10:12",
-  "10:16"
+  "10:16",
+  "10:19"
  ],
  "placed": [
   {
@@ -102,6 +103,78 @@
    "http": 200,
    "message": null,
    "placed_at": "10:17"
+  },
+  {
+   "id": "orb-B-2026-11-02-META",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "META",
+   "side": "long",
+   "qty": 8,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
+  },
+  {
+   "id": "orb-B-2026-11-02-GOOGL",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOGL",
+   "side": "long",
+   "qty": 17,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
+  },
+  {
+   "id": "orb-B-2026-11-02-AMZN",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AMZN",
+   "side": "long",
+   "qty": 8,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
+  },
+  {
+   "id": "orb-B-2026-11-02-GOOG",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 17,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
+  },
+  {
+   "id": "orb-B-2026-11-02-AMAT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AMAT",
+   "side": "long",
+   "qty": 12,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
+  },
+  {
+   "id": "orb-B-2026-11-02-TXN",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "TXN",
+   "side": "long",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:21"
   }
  ],
  "rulec": {
@@ -272,7 +345,16 @@
   "[B] placed scan long GOOGL x10 limit stop 282.0 tgt 294.18 -> 200 ",
   "[B] placed scan long GOOG x10 limit stop 280.14 tgt 292.38 -> 200 ",
   "[B] placed scan long WMT x24 limit stop 123.2 tgt 129.14 -> 200 ",
-  "10:3x manual: ORB re-armed after the cut-off fix (650/658 unusable at 10:16)"
+  "10:3x manual: ORB re-armed after the cut-off fix (650/658 unusable at 10:16)",
+  "[B] placed orb long META x8 stop_limit stop 614.66 tgt 629.6 -> 200 ",
+  "[B] placed orb long GOOGL x17 stop_limit stop 284.39 tgt 291.08 -> 200 ",
+  "[B] placed orb long AMZN x8 limit stop 246.33 tgt 258.87 -> 200 ",
+  "[B] placed orb long GOOG x17 stop_limit stop 282.49 tgt 289.03 -> 200 ",
+  "[B] placed orb long AMAT x12 stop_limit stop 392.51 tgt 403.4 -> 200 ",
+  "[B] placed orb long TXN x14 limit stop 305.16 tgt 314.43 -> 200 ",
+  "scan-B-2026-11-02-GOOGL: already in the book, not placed again",
+  "scan-B-2026-11-02-GOOG: already in the book, not placed again",
+  "scan-B-2026-11-02-WMT: already in the book, not placed again"
  ],
  "scan": {
   "at": "10:12",
@@ -384,6 +466,360 @@
     "earnings_today": false,
     "news": [],
     "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "GOOGL",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": "9:45 AM",
+    "entry": 286.06,
+    "stop": 282.0,
+    "target": 294.18,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.5 % vs stop first 23.7 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": "9:45 AM",
+    "entry": 284.22,
+    "stop": 280.14,
+    "target": 292.38,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.4 % vs stop first 22.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase"
+    ],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "NOW",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "WMT",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:45 AM",
+    "entry": 125.18,
+    "stop": 123.2,
+    "target": 129.14,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 1 % (target first 0.1 % vs stop first 7.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "XOM",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Energy Minerals"
+   }
+  ],
+  "news_status": 0
+ },
+ "orb": {
+  "at": "10:19",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 760.0133056640625,
+   "or_low": 758.719970703125,
+   "last": 761.4400024414062,
+   "state": "above"
+  },
+  "counts": {
+   "requested": 657,
+   "fetched": 657,
+   "unusable": 21,
+   "illiquid": 0,
+   "scanned": 636,
+   "candidates": 453,
+   "confirmed": 200,
+   "unconfirmed": 253,
+   "hits": 138
+  },
+  "plans": [
+   {
+    "symbol": "META",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 619.64,
+    "stop": 614.66,
+    "target": 629.6,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 31 % (target first 25.2 % vs stop first 55.0 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 3,
+     "stop": 13,
+     "avg_R": -0.164
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "GOOGL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:15 AM",
+    "entry": 286.62,
+    "stop": 284.39,
+    "target": 291.08,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 14 % (target first 7.3 % vs stop first 43.4 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 5,
+     "stop": 15,
+     "avg_R": -0.083
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "AMZN",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 250.51,
+    "stop": 246.33,
+    "target": 258.87,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 3 % (target first 0.3 % vs stop first 9.7 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 6,
+     "stop": 15,
+     "avg_R": -0.025
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 284.67,
+    "stop": 282.49,
+    "target": 289.03,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 16 % (target first 9.6 % vs stop first 51.7 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 2,
+     "stop": 16,
+     "avg_R": -0.25
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase"
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase"
+    ]
+   },
+   {
+    "symbol": "AVGO",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 328.64,
+    "stop": 326.43,
+    "target": 333.06,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 29 % (target first 24.1 % vs stop first 59.6 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 3,
+     "stop": 12,
+     "avg_R": -0.143
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 331.44 outside entry window (326.43..329.75)"
+   },
+   {
+    "symbol": "AMAT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:15 AM",
+    "entry": 396.14,
+    "stop": 392.51,
+    "target": 403.4,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 31 % (target first 24.6 % vs stop first 55.9 %).",
+    "hist": {
+     "triggered": 28,
+     "target": 4,
+     "stop": 10,
+     "avg_R": 0.033
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Producer Manufacturing",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "V",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 421.21,
+    "stop": 417.54,
+    "target": 428.55,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 15 % (target first 4.2 % vs stop first 24.3 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 4,
+     "stop": 8,
+     "avg_R": 0.12
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Latest News In Digital Payment - Transuite Expands AI Via Key Acquisition and Ch"
+    ],
+    "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Latest News In Digital Payment - Transuite Expands AI Via Key Acquisition and Ch"
+    ],
+    "B_skip": "last 423.78 outside entry window (417.54..423.04)"
+   },
+   {
+    "symbol": "TXN",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:15 AM",
+    "entry": 308.25,
+    "stop": 305.16,
+    "target": 314.43,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 30 % (target first 16.6 % vs stop first 38.3 %).",
+    "hist": {
+     "triggered": 35,
+     "target": 3,
+     "stop": 11,
+     "avg_R": -0.113
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
     "A_skip": [
      "tm verdict",
      "history",

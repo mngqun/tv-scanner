@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "GOOG",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 284.67,
+  "level": 284.55,
+  "interval": "5m",
+  "opening_range": {
+    "high": 284.55,
+    "low": 280.44,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T15:20:53Z",
+  "reason": "the 9:45 bar closed above the range high"
+}

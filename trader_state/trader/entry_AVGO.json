@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AVGO",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "triggered",
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 328.64,
+  "level": 328.55,
+  "interval": "5m",
+  "opening_range": {
+    "high": 328.55,
+    "low": 324.31,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T15:20:55Z",
+  "reason": "the 9:55 bar closed above the range high"
+}

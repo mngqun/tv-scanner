@@ -1,4 +1,9 @@
-[B] placed orb long BBVA x208 limit stop 23.87 tgt 24.17 -> 200 
-[B] placed scan long GOOGL x10 limit stop 282.0 tgt 294.18 -> 200 
-[B] placed scan long GOOG x10 limit stop 280.14 tgt 292.38 -> 200 
-[B] placed scan long WMT x24 limit stop 123.2 tgt 129.14 -> 200 
+[B] placed orb long META x8 stop_limit stop 614.66 tgt 629.6 -> 200 
+[B] placed orb long GOOGL x17 stop_limit stop 284.39 tgt 291.08 -> 200 
+[B] placed orb long AMZN x8 limit stop 246.33 tgt 258.87 -> 200 
+[B] placed orb long GOOG x17 stop_limit stop 282.49 tgt 289.03 -> 200 
+[B] placed orb long AMAT x12 stop_limit stop 392.51 tgt 403.4 -> 200 
+[B] placed orb long TXN x14 limit stop 305.16 tgt 314.43 -> 200 
+scan-B-2026-11-02-GOOGL: already in the book, not placed again
+scan-B-2026-11-02-GOOG: already in the book, not placed again
+scan-B-2026-11-02-WMT: already in the book, not placed again

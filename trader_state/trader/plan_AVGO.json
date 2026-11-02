@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "AVGO",
+  "side": "buy",
+  "date": "2026-11-02",
+  "setup": "orb",
+  "entry": 328.64,
+  "entry_time": "10:00 AM",
+  "entry_bar": 5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 328.55,
+    "low": 324.31,
+    "minutes": 15
+  },
+  "stop": 326.43,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 333.06,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 2.21,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($328.55 + $324.31) / 2 = $326.43",
+  "created_at": "2026-11-02T15:20:55Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

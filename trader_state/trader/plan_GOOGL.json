@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "GOOGL",
+  "side": "buy",
+  "date": "2026-11-02",
+  "setup": "orb",
+  "entry": 286.62,
+  "entry_time": "10:15 AM",
+  "entry_bar": 8,
+  "interval": "5m",
+  "opening_range": {
+    "high": 286.42,
+    "low": 282.36,
+    "minutes": 15
+  },
+  "stop": 284.39,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 291.08,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 2.23,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($286.42 + $282.36) / 2 = $284.39",
+  "created_at": "2026-11-02T15:20:50Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

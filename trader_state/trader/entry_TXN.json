@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "TXN",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "triggered",
+  "time": "10:15 AM",
+  "bar_start": "10:10",
+  "bar_index": 8,
+  "price": 308.25,
+  "level": 307.12,
+  "interval": "5m",
+  "opening_range": {
+    "high": 307.12,
+    "low": 303.21,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T15:21:00Z",
+  "reason": "the 10:10 bar closed above the range high"
+}
