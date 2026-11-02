@@ -1,0 +1,30 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "WMT",
+  "side": "buy",
+  "date": "2026-11-02",
+  "setup": "level",
+  "entry": 125.18,
+  "entry_time": "9:45 AM",
+  "entry_bar": 2,
+  "interval": "5m",
+  "opening_range": {
+    "high": 125.84,
+    "low": 124.14,
+    "minutes": 15
+  },
+  "stop": 123.2,
+  "stop_rule": "atr",
+  "stop_label": "2 x ATR(3) under the entry",
+  "target": 129.14,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 1.98,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "ATR $0.9867 over the 3 bars to the entry (fewer than 14 so far), rounded down",
+  "created_at": "2026-11-02T15:17:18Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it.",
+  "atr": 0.9867,
+  "atr_bars": 3
+}

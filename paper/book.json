@@ -261,5 +261,341 @@
   "exits": [],
   "exit_filled": 0.0,
   "remaining": 0.0
+ },
+ {
+  "id": "orb-B-2026-11-02-BBVA",
+  "base": "orb-B-2026-11-02-BBVA",
+  "account": "B",
+  "arm": "orb",
+  "setup": "orb",
+  "symbol": "BBVA",
+  "side": "long",
+  "qty": 208,
+  "entry_type": "limit",
+  "plan_entry": 23.97,
+  "limit_price": 24.018994999999997,
+  "stop": 23.87,
+  "target": 24.17,
+  "placed_day": "2026-11-02",
+  "placed_at": "10:17",
+  "cancel_at": "11:30",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "flat",
+  "sector": "Finance",
+  "planned_risk": 20.8,
+  "features": {
+   "regime": "short",
+   "spy_or": "above",
+   "tm_verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 23 % (target first 19.6 % vs stop first 65.7 %).",
+   "tm_hist": {
+    "triggered": 36,
+    "target": 8,
+    "stop": 24,
+    "avg_R": -0.203
+   },
+   "risk": "PASS",
+   "news": [],
+   "trigger": "9:50 AM",
+   "setups": null
+  },
+  "last_at_placement": 23.995,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "67a426ef-4b1a-479b-8fb8-879bd6810788",
+  "message": null,
+  "sessions": [
+   "2026-11-02"
+  ],
+  "entry_status": "filled",
+  "entry_filled": 208.0,
+  "entry_avg": 23.99,
+  "filled_at": "2026-11-02T15:17:25.471716551Z",
+  "legs": [
+   {
+    "id": "40b29f33-0651-42d3-89bc-52beaa4ab038",
+    "type": "limit",
+    "side": "sell",
+    "status": "new",
+    "qty": 208.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": "24.17",
+    "tif": "day"
+   },
+   {
+    "id": "db41a75d-b7ad-4453-8738-07ee4dc30d90",
+    "type": "stop",
+    "side": "sell",
+    "status": "held",
+    "qty": 208.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "23.87",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 208.0
+ },
+ {
+  "id": "scan-B-2026-11-02-GOOGL",
+  "base": "scan-B-2026-11-02-GOOGL",
+  "account": "B",
+  "arm": "scan",
+  "setup": "level:oversold",
+  "symbol": "GOOGL",
+  "side": "long",
+  "qty": 10,
+  "entry_type": "limit",
+  "plan_entry": 286.06,
+  "limit_price": 286.84655999999995,
+  "stop": 282.0,
+  "target": 294.18,
+  "placed_day": "2026-11-02",
+  "placed_at": "10:17",
+  "cancel_at": "11:30",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "flat",
+  "sector": "Technology Services",
+  "planned_risk": 40.6,
+  "features": {
+   "regime": "short",
+   "spy_or": "above",
+   "tm_verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.5 % vs stop first 23.7 %).",
+   "tm_hist": {
+    "triggered": 0,
+    "target": null,
+    "stop": null,
+    "avg_R": null
+   },
+   "risk": null,
+   "news": [],
+   "trigger": "9:45 AM",
+   "setups": [
+    "oversold"
+   ]
+  },
+  "last_at_placement": 286.56,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "94c17c6b-03bb-48c6-87e1-1cdda0886edd",
+  "message": null,
+  "sessions": [
+   "2026-11-02"
+  ],
+  "entry_status": "partially_filled",
+  "entry_filled": 4.0,
+  "entry_avg": 286.655,
+  "filled_at": "2026-11-02T15:17:25.721154888Z",
+  "legs": [
+   {
+    "id": "2293469b-bf0e-40ec-a929-060b56be3a13",
+    "type": "limit",
+    "side": "sell",
+    "status": "held",
+    "qty": 10.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": "294.18",
+    "tif": "day"
+   },
+   {
+    "id": "f5cd58b8-cea7-42a8-9eb6-1fe8a4a755ab",
+    "type": "stop",
+    "side": "sell",
+    "status": "held",
+    "qty": 10.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "282",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 4.0
+ },
+ {
+  "id": "scan-B-2026-11-02-GOOG",
+  "base": "scan-B-2026-11-02-GOOG",
+  "account": "B",
+  "arm": "scan",
+  "setup": "level:oversold",
+  "symbol": "GOOG",
+  "side": "long",
+  "qty": 10,
+  "entry_type": "limit",
+  "plan_entry": 284.22,
+  "limit_price": 285.17488999999995,
+  "stop": 280.14,
+  "target": 292.38,
+  "placed_day": "2026-11-02",
+  "placed_at": "10:17",
+  "cancel_at": "11:30",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "flat",
+  "sector": "Technology Services",
+  "planned_risk": 40.8,
+  "features": {
+   "regime": "short",
+   "spy_or": "above",
+   "tm_verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.4 % vs stop first 22.8 %).",
+   "tm_hist": {
+    "triggered": 0,
+    "target": null,
+    "stop": null,
+    "avg_R": null
+   },
+   "risk": null,
+   "news": [
+    "deal: Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase"
+   ],
+   "trigger": "9:45 AM",
+   "setups": [
+    "oversold"
+   ]
+  },
+  "last_at_placement": 284.89,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "cf6d94a8-f166-4b85-a4da-44a0acb6f9ff",
+  "message": null,
+  "sessions": [
+   "2026-11-02"
+  ],
+  "entry_status": "filled",
+  "entry_filled": 10.0,
+  "entry_avg": 284.98,
+  "filled_at": "2026-11-02T15:17:25.275930039Z",
+  "legs": [
+   {
+    "id": "9d134f7f-08c3-433c-9fb1-5c7f77a609ce",
+    "type": "limit",
+    "side": "sell",
+    "status": "new",
+    "qty": 10.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": "292.38",
+    "tif": "day"
+   },
+   {
+    "id": "f6858872-2bef-429f-b8ba-39b45475c6fc",
+    "type": "stop",
+    "side": "sell",
+    "status": "held",
+    "qty": 10.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "280.14",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 10.0
+ },
+ {
+  "id": "scan-B-2026-11-02-WMT",
+  "base": "scan-B-2026-11-02-WMT",
+  "account": "B",
+  "arm": "scan",
+  "setup": "level:breakout_20d",
+  "symbol": "WMT",
+  "side": "long",
+  "qty": 24,
+  "entry_type": "limit",
+  "plan_entry": 125.18,
+  "limit_price": 125.34521999999998,
+  "stop": 123.2,
+  "target": 129.14,
+  "placed_day": "2026-11-02",
+  "placed_at": "10:17",
+  "cancel_at": "11:30",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "flat",
+  "sector": "Retail Trade",
+  "planned_risk": 47.52,
+  "features": {
+   "regime": "short",
+   "spy_or": "above",
+   "tm_verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 1 % (target first 0.1 % vs stop first 7.8 %).",
+   "tm_hist": {
+    "triggered": 0,
+    "target": null,
+    "stop": null,
+    "avg_R": null
+   },
+   "risk": null,
+   "news": [],
+   "trigger": "9:45 AM",
+   "setups": [
+    "breakout_20d"
+   ]
+  },
+  "last_at_placement": 125.22,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "313fbed9-aeed-4dee-884b-77f09d0da2a3",
+  "message": null,
+  "sessions": [
+   "2026-11-02"
+  ],
+  "entry_status": "partially_filled",
+  "entry_filled": 11.0,
+  "entry_avg": 125.23,
+  "filled_at": "2026-11-02T15:17:26.601108757Z",
+  "legs": [
+   {
+    "id": "21aa245e-2a42-490f-ae0a-ea1252b1e3e8",
+    "type": "limit",
+    "side": "sell",
+    "status": "held",
+    "qty": 24.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": "129.14",
+    "tif": "day"
+   },
+   {
+    "id": "d1cf34b7-9be6-4d1a-93ca-7e99e84d5bb0",
+    "type": "stop",
+    "side": "sell",
+    "status": "held",
+    "qty": 24.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "123.2",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 11.0
  }
 ]

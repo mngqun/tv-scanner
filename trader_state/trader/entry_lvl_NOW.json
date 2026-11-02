@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "NOW",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 109.9,
+  "interval": "5m",
+  "opening_range": {
+    "high": 107.75,
+    "low": 104.38,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T15:17:18Z",
+  "reason": "last close $108.32 (10:05 bar), $1.58 under the level $109.90 (-1.44%)"
+}

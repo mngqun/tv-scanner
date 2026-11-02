@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "BBVA",
+  "side": "buy",
+  "date": "2026-11-02",
+  "setup": "orb",
+  "entry": 23.97,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 23.94,
+    "low": 23.81,
+    "minutes": 15
+  },
+  "stop": 23.87,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 24.17,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 0.1,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($23.94 + $23.81) / 2 = $23.875, rounded down",
+  "created_at": "2026-11-02T15:17:11Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

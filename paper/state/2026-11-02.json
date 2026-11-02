@@ -3,7 +3,8 @@
  "close": "16:00",
  "ticks": [
   "09:36",
-  "10:12"
+  "10:12",
+  "10:16"
  ],
  "placed": [
   {
@@ -53,6 +54,54 @@
    "http": 200,
    "message": null,
    "placed_at": "10:12"
+  },
+  {
+   "id": "orb-B-2026-11-02-BBVA",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "BBVA",
+   "side": "long",
+   "qty": 208,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:17"
+  },
+  {
+   "id": "scan-B-2026-11-02-GOOGL",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "GOOGL",
+   "side": "long",
+   "qty": 10,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:17"
+  },
+  {
+   "id": "scan-B-2026-11-02-GOOG",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 10,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:17"
+  },
+  {
+   "id": "scan-B-2026-11-02-WMT",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "WMT",
+   "side": "long",
+   "qty": 24,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:17"
   }
  ],
  "rulec": {
@@ -218,7 +267,11 @@
   "[B] placed rulec short BABA x19 market stop 107.14 tgt None -> 200 ",
   "[B] placed rulec short FER x33 market stop 60.41 tgt None -> 200 ",
   "[A] placed tqqq long SQQQ x38 limit stop 38.52 tgt 41.83 -> 200 ",
-  "[A] placed tqqq long SQQQ x39 limit stop 38.52 tgt 42.83 -> 200 "
+  "[A] placed tqqq long SQQQ x39 limit stop 38.52 tgt 42.83 -> 200 ",
+  "[B] placed orb long BBVA x208 limit stop 23.87 tgt 24.17 -> 200 ",
+  "[B] placed scan long GOOGL x10 limit stop 282.0 tgt 294.18 -> 200 ",
+  "[B] placed scan long GOOG x10 limit stop 280.14 tgt 292.38 -> 200 ",
+  "[B] placed scan long WMT x24 limit stop 123.2 tgt 129.14 -> 200 "
  ],
  "scan": {
   "at": "10:12",
@@ -287,5 +340,178 @@
     "sector": "Energy Minerals"
    }
   ]
+ },
+ "orb": {
+  "at": "10:16",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 760.0133056640625,
+   "or_low": 758.719970703125,
+   "last": 760.6669921875,
+   "state": "above"
+  },
+  "counts": {
+   "requested": 658,
+   "fetched": 658,
+   "unusable": 650,
+   "illiquid": 0,
+   "scanned": 8,
+   "candidates": 5,
+   "confirmed": 1,
+   "unconfirmed": 0,
+   "hits": 1
+  },
+  "plans": [
+   {
+    "symbol": "BBVA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 23.97,
+    "stop": 23.87,
+    "target": 24.17,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 23 % (target first 19.6 % vs stop first 65.7 %).",
+    "hist": {
+     "triggered": 36,
+     "target": 8,
+     "stop": 24,
+     "avg_R": -0.203
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "GOOGL",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": "9:45 AM",
+    "entry": 286.06,
+    "stop": 282.0,
+    "target": 294.18,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.5 % vs stop first 23.7 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": "9:45 AM",
+    "entry": 284.22,
+    "stop": 280.14,
+    "target": 292.38,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.4 % vs stop first 22.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase"
+    ],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "NOW",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "WMT",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:45 AM",
+    "entry": 125.18,
+    "stop": 123.2,
+    "target": 129.14,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 1 % (target first 0.1 % vs stop first 7.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "XOM",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Energy Minerals"
+   }
+  ],
+  "news_status": 0
  }
 }

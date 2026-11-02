@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "BBVA",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 23.97,
+  "level": 23.94,
+  "interval": "5m",
+  "opening_range": {
+    "high": 23.94,
+    "low": 23.81,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T15:17:11Z",
+  "reason": "the 9:45 bar closed above the range high"
+}
