@@ -2,7 +2,8 @@
  "date": "2026-11-02",
  "close": "16:00",
  "ticks": [
-  "09:36"
+  "09:36",
+  "10:12"
  ],
  "placed": [
   {
@@ -28,6 +29,30 @@
    "http": 200,
    "message": null,
    "placed_at": "09:36"
+  },
+  {
+   "id": "tqqq-2026-11-02-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 38,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:12"
+  },
+  {
+   "id": "tqqq-2026-11-02-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 39,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:12"
   }
  ],
  "rulec": {
@@ -186,9 +211,81 @@
    "FER"
   ]
  },
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-02"
+ ],
  "log": [
   "[B] placed rulec short BABA x19 market stop 107.14 tgt None -> 200 ",
-  "[B] placed rulec short FER x33 market stop 60.41 tgt None -> 200 "
- ]
+  "[B] placed rulec short FER x33 market stop 60.41 tgt None -> 200 ",
+  "[A] placed tqqq long SQQQ x38 limit stop 38.52 tgt 41.83 -> 200 ",
+  "[A] placed tqqq long SQQQ x39 limit stop 38.52 tgt 42.83 -> 200 "
+ ],
+ "scan": {
+  "at": "10:12",
+  "counts": {
+   "requested": 658,
+   "fetched": 658,
+   "illiquid": 528,
+   "short": 0,
+   "scanned": 130,
+   "hits": 38
+  },
+  "hits": 38,
+  "picks": [
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold"
+    ],
+    "level": 283.14,
+    "prev_close": 279.8399963378906,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 68.77,
+    "prev_close": 65.76000213623047,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOG",
+    "setups": [
+     "oversold"
+    ],
+    "level": 281.86,
+    "prev_close": 278.2200012207031,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "NOW",
+    "setups": [
+     "oversold"
+    ],
+    "level": 109.9,
+    "prev_close": 105.12000274658203,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "WMT",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 124.51,
+    "prev_close": 123.51000213623047,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "XOM",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 188.5,
+    "prev_close": 187.25,
+    "sector": "Energy Minerals"
+   }
+  ]
+ }
 }
