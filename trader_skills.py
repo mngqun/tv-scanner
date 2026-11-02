@@ -90,7 +90,7 @@ def largecaps() -> Path:
 def premarket(extra: list[str]) -> dict:
     uni = largecaps()
     n = len(uni.read_text().split())
-    scan = tool("trader-scanner/scan.py", "daily", "--watchlist", str(uni), "--json", "--show", "200")
+    scan = tool("trader-scanner/scan.py", "daily", "--watchlist", str(uni), "--min-volume", "0", "--json", "--show", "200")
     hits = (scan.get("data") or {}).get("hits", [])
     top = [h["symbol"] for h in hits[:25]]
     names = list(dict.fromkeys(extra + top))

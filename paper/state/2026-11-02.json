@@ -271,7 +271,8 @@
   "[B] placed orb long BBVA x208 limit stop 23.87 tgt 24.17 -> 200 ",
   "[B] placed scan long GOOGL x10 limit stop 282.0 tgt 294.18 -> 200 ",
   "[B] placed scan long GOOG x10 limit stop 280.14 tgt 292.38 -> 200 ",
-  "[B] placed scan long WMT x24 limit stop 123.2 tgt 129.14 -> 200 "
+  "[B] placed scan long WMT x24 limit stop 123.2 tgt 129.14 -> 200 ",
+  "10:3x manual: ORB re-armed after the cut-off fix (650/658 unusable at 10:16)"
  ],
  "scan": {
   "at": "10:12",
@@ -341,7 +342,7 @@
    }
   ]
  },
- "orb": {
+ "orb_first_run": {
   "at": "10:16",
   "regime": "short",
   "risk_usd": 50.0,

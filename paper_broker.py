@@ -260,6 +260,14 @@ def tv_map(day: str, refresh: bool = False) -> dict:
 
 
 # ---------------------------------------------------------------- book
+SHARE_CLASS = {"GOOG": "GOOGL", "BRK.A": "BRK.B", "FOX": "FOXA", "NWS": "NWSA", "LEN.B": "LEN",
+               "HEI.A": "HEI", "BF.A": "BF.B", "UHAL.B": "UHAL", "ZG": "Z", "LBRDA": "LBRDK", "FWONA": "FWONK"}
+
+
+def family(sym: str) -> str:
+    return SHARE_CLASS.get(sym, sym)
+
+
 def load_book() -> list:
     return load_json(BOOK, [])
 
@@ -372,6 +380,9 @@ def size(entry: float, stop: float, risk_usd: float) -> int:
 def place(o: dict, day: str, st: dict, book: list) -> list:
     """Place one order (or a T1/T2 pair when take_profit_2 is set) and add the records to the book."""
     acct = ACCTS[o["account"]]
+    if any(r["base"] == o["id"] for r in book):
+        log(f"{o['id']}: already in the book, not placed again")
+        return []
     legs = [o]
     if o.get("take_profit_2"):
         q1 = int(o["qty"]) // 2
@@ -651,16 +662,18 @@ def prepare_scan(day: str, st: dict, t: datetime):
     TS.WORK.mkdir(exist_ok=True)
     TS.write_config()
     uni = TS.largecaps()
-    res = TS.tool("trader-scanner/scan.py", "daily", "--watchlist", str(uni), "--json", "--show", "200")
+    res = TS.tool("trader-scanner/scan.py", "daily", "--watchlist", str(uni), "--min-volume", "0",
+                  "--json", "--show", "200")
     hits = sorted((res.get("data") or {}).get("hits", []), key=lambda h: -TS.LIQ.get(h["symbol"], 0))
     tv = tv_map(day)
-    picks = []
+    picks, fams = [], set()
     for h in hits:
         if len(picks) >= SCAN_N:
             break
         sym = h["symbol"]
-        if (tv.get(sym) or {}).get("earn_next") == day:
+        if (tv.get(sym) or {}).get("earn_next") == day or family(sym) in fams:
             continue
+        fams.add(family(sym))
         try:
             prev = daily_before(sym, t.date())[-1]
         except Exception:  # noqa: BLE001
@@ -702,7 +715,10 @@ def run_orb(day: str, st: dict, t: datetime, book: list):
         spy = spy_or_state(t)
     except Exception as e:  # noqa: BLE001
         spy = {"state": None, "error": str(e)[:200]}
-    res = TS.orb(None, ORB_N)
+    # cut the clock at the last 5-minute boundary at least 3 minutes old: Yahoo publishes a bar a minute or
+    # two after it closes, and the scanner drops a symbol when any slot is missing ("unusable")
+    cut_m = ((minutes(t) - 3) // 5) * 5
+    res = TS.orb(f"{cut_m // 60:02d}:{cut_m % 60:02d}", ORB_N)
     try:
         tv = tv_map(day)
     except Exception as e:  # noqa: BLE001
