@@ -7,7 +7,8 @@
   "10:16",
   "10:19",
   "10:43",
-  "10:57"
+  "10:57",
+  "11:53"
  ],
  "placed": [
   {
@@ -356,7 +357,10 @@
   "[B] placed orb long TXN x14 limit stop 305.16 tgt 314.43 -> 200 ",
   "scan-B-2026-11-02-GOOGL: already in the book, not placed again",
   "scan-B-2026-11-02-GOOG: already in the book, not placed again",
-  "scan-B-2026-11-02-WMT: already in the book, not placed again"
+  "scan-B-2026-11-02-WMT: already in the book, not placed again",
+  "[A] cancel unfilled entry tqqq-2026-11-02-t1 (filled 0.0)",
+  "[A] cancel unfilled entry tqqq-2026-11-02-t2 (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-02-GOOGL (filled 0.0)"
  ],
  "scan": {
   "at": "10:12",
