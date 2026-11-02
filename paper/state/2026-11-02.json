@@ -16,7 +16,8 @@
   "13:07",
   "13:22",
   "13:37",
-  "13:52"
+  "13:52",
+  "14:54"
  ],
  "placed": [
   {
@@ -369,7 +370,11 @@
   "[A] cancel unfilled entry tqqq-2026-11-02-t1 (filled 0.0)",
   "[A] cancel unfilled entry tqqq-2026-11-02-t2 (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-02-GOOGL (filled 0.0)",
-  "13:55 manual: intraday flat_by -> 14:50 and Rule C MOC -> 14:50 market (GitHub cron down since 31 Oct; Claude reminders run late)"
+  "13:55 manual: intraday flat_by -> 14:50 and Rule C MOC -> 14:50 market (GitHub cron down since 31 Oct; Claude reminders run late)",
+  "[B] close rulec-B-2026-11-02-BABA 19 (flat-by, day) -> 200",
+  "[B] close rulec-B-2026-11-02-FER 33 (flat-by, day) -> 200",
+  "[B] close scan-B-2026-11-02-WMT 24 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-02-AMZN 8 (flat-by, day) -> 200"
  ],
  "scan": {
   "at": "10:12",
