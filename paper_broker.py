@@ -822,6 +822,12 @@ def run_orb_short(day: str, st: dict, t: datetime, book: list, tv: dict, reg: st
                      "entry": r2(entry), "stop": r2(stop), "target": r2(entry - 2 * (stop - entry)),
                      "dollar_vol": tv.get(sym, {}).get("dollar_vol"), "earnings_today": tv.get(sym, {}).get("earn_next") == day})
     hits.sort(key=lambda h: -(h["dollar_vol"] or 0))
+    seen, uniq = set(), []
+    for h in hits:                      # one share class per company (GOOG/GOOGL)
+        if family(h["symbol"]) not in seen:
+            seen.add(family(h["symbol"]))
+            uniq.append(h)
+    hits = uniq
     for h in hits[:B_CAPS["orb_short"]]:
         sym = h["symbol"]
         why = guard("B", "orb_short", day, book, sym, None) or B.shortable(sym)
