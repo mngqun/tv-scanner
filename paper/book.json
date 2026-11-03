@@ -48,7 +48,7 @@
     "id": "e9250834-1e2b-4251-8c4e-b49860a29a0f",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 92.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -58,9 +58,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "b27e5857-5f5b-4267-affa-af993a106561",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 92.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 92.0
+  "remaining": 92.0,
+  "exit_order_ids": [
+   "b27e5857-5f5b-4267-affa-af993a106561"
+  ],
+  "exit_reason": "event flat_by (instead of MOC)",
+  "events": [
+   {
+    "at": "2026-11-03 14:54",
+    "what": "close (event flat_by (instead of MOC)) day",
+    "qty": 92,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "tqqq-2026-11-03-t1",
@@ -104,7 +131,7 @@
     "id": "ef537e99-5aa3-426d-a07a-cd38f7829fa2",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 33.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -117,7 +144,7 @@
     "id": "d515016e-aa56-4dfa-913a-866efbae9ad4",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 33.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -127,9 +154,37 @@
     "tif": "day"
    }
   ],
-  "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 33.0
+  "exits": [
+   {
+    "id": "226dd512-a7e1-4309-ba64-cef60d91f3ab",
+    "type": "market",
+    "side": "sell",
+    "status": "filled",
+    "qty": 33.0,
+    "filled_qty": 33.0,
+    "avg": 42.92,
+    "filled_at": "2026-11-03T19:54:20.769749421Z",
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exit_filled": 33.0,
+  "remaining": 0.0,
+  "exit_order_ids": [
+   "226dd512-a7e1-4309-ba64-cef60d91f3ab"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-03 14:54",
+    "what": "close (flat-by) day",
+    "qty": 33,
+    "http": 200,
+    "msg": null
+   }
+  ],
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-03-t2",
@@ -172,7 +227,7 @@
     "id": "95fcbd20-e4fa-4b51-a123-1da905224ce3",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 34.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -185,7 +240,7 @@
     "id": "3b7d9c1d-545d-4eb5-ad90-44d8bc45e027",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 34.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -195,9 +250,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "1d5d59a5-acea-45a5-8ec9-5c0a488af773",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 34.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 34.0
+  "remaining": 34.0,
+  "exit_order_ids": [
+   "1d5d59a5-acea-45a5-8ec9-5c0a488af773"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-03 14:54",
+    "what": "close (flat-by) day",
+    "qty": 34,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orb-B-2026-11-03-AAPL",
@@ -582,7 +664,7 @@
     "id": "2d748823-63d4-4291-aa84-9de627a58db9",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 17.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -595,19 +677,20 @@
     "id": "78b1d624-c0e1-446e-a4fc-ddddbadfd3dd",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "filled",
     "qty": 17.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 17.0,
+    "avg": 279.75,
+    "filled_at": "2026-11-03T17:14:35.299283072Z",
     "stop_price": "279.71",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 17.0
+  "exit_filled": 17.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-03-AMZN",
@@ -729,7 +812,7 @@
     "id": "93ad8ee7-6606-41ee-ad17-a8edc797b287",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 18.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -742,19 +825,20 @@
     "id": "66d450ac-1bf6-45c1-8f1c-dc66d4b87fc0",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "filled",
     "qty": 18.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 18.0,
+    "avg": 278.7,
+    "filled_at": "2026-11-03T17:17:31.786064863Z",
     "stop_price": "278.69",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 18.0
+  "exit_filled": 18.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-03-NFLX",
@@ -951,7 +1035,7 @@
     "id": "81a4e5fb-ca8c-4499-9e25-84bd896779d8",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -964,7 +1048,7 @@
     "id": "8701b9a9-82ab-4d75-83d9-5ea90fe516ff",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -974,8 +1058,35 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "898228ca-894a-4b95-918a-b95fe44dd900",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 28.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 28.0
+  "remaining": 28.0,
+  "exit_order_ids": [
+   "898228ca-894a-4b95-918a-b95fe44dd900"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-03 14:54",
+    "what": "close (flat-by) day",
+    "qty": 28,
+    "http": 200,
+    "msg": null
+   }
+  ]
  }
 ]
