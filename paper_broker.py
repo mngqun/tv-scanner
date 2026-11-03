@@ -1043,7 +1043,11 @@ def manage(day: str, st: dict, t: datetime, book: list):
                 # an intraday position left over from an earlier session (missed close-out): close it now
                 close_record(rec, "stale intraday (missed close-out)")
             elif (rec.get("remaining") or 0) > 0 and m < CLOSE_MIN:
-                if rec["exit_mode"] == "moc":
+                if rec["exit_mode"] == "moc" and ev.get("flat_by") and m >= hm(ev["flat_by"]) and m < cut \
+                        and not any(x["type"] == "market" and x["status"] in OPEN_ST for x in rec["exits"]):
+                    # scheduler-outage day: events.json flat_by also moves the Rule C cover earlier (market)
+                    close_record(rec, "event flat_by (instead of MOC)")
+                elif rec["exit_mode"] == "moc":
                     if m >= cut and not rec.get("moc_sent"):
                         ok = close_record(rec, "moc", tif="cls")
                         rec["moc_sent"] = True

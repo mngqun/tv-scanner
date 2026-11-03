@@ -2,8 +2,9 @@
  "_doc": "Per-day overrides for the paper ORB arm. Keys: YYYY-MM-DD -> {flat_by: 'HH:MM', risk_usd: 50, no_orb: true, note: '...'}. Written by the daily brief.",
  "2026-11-03": {
   "risk_usd": 50,
-  "note": "US midterm elections (HIGH); results overnight: no swing holds into Wed",
-  "flat_swing": true
+  "note": "US midterm elections (HIGH); results overnight: no swing holds into Wed; GitHub scheduler unreliable -> exits 14:50",
+  "flat_swing": true,
+  "flat_by": "14:50"
  },
  "2026-11-05": {
   "flat_swing": true,
