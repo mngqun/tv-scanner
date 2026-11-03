@@ -23,7 +23,8 @@
   "16:12",
   "17:52",
   "18:04",
-  "19:02"
+  "19:02",
+  "21:37"
  ],
  "placed": [
   {
@@ -382,6 +383,7 @@
   "[B] close scan-B-2026-11-02-WMT 24 (flat-by, day) -> 200",
   "[B] close orb-B-2026-11-02-AMZN 8 (flat-by, day) -> 200",
   "ledger 2026-11-02: 11 legs closed, 3 unfilled, 0 still open",
+  "ledger 2026-11-02: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-02: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-02: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-02: 0 legs closed, 0 unfilled, 0 still open"
