@@ -597,6 +597,9 @@ def run_queue(day: str, st: dict, t: datetime, book: list):
             skip("size 0")
             continue
         item["last_px"] = px
+        evfb = load_json(ROOT / "paper" / "events.json", {}).get(day, {}).get("flat_by")
+        if evfb and (item.get("hold_days") or 0) <= 0 and hm(evfb) < hm(item.get("flat_by") or flat_cutoff()):
+            item["flat_by"] = evfb          # the day's event / outage flat-by applies to queued intraday tickets too
         place(item, day, st, book)
         done.add(qid)
     st["queue_done"] = sorted(done)
