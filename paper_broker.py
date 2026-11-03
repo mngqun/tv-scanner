@@ -193,8 +193,7 @@ def sgn(side: str) -> int:
 
 
 # ---------------------------------------------------------------- outside data (Yahoo, TradingView)
-def yahoo_chart(sym: str, rng: str, interval: str) -> list:
-    """[(datetime NY, open, high, low, close)] from Yahoo chart JSON."""
+def _yahoo(sym: str, rng: str, interval: str) -> list:
     url = f"https://query2.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval={interval}"
     req = urllib.request.Request(url, headers={"User-Agent": "tv-scanner-paper/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -205,6 +204,57 @@ def yahoo_chart(sym: str, rng: str, interval: str) -> list:
         if None not in (o, h, l, c):
             out.append((datetime.fromtimestamp(ts, NY), float(o), float(h), float(l), float(c)))
     return out
+
+
+ALPACA_TF = {"1d": "1Day", "5m": "5Min", "1m": "1Min"}
+RANGE_DAYS = {"1d": 1, "5d": 7, "3mo": 95}
+
+
+def _alpaca_bars(sym: str, rng: str, interval: str) -> list:
+    """Same shape from Alpaca market data: SIP (consolidated) for anything older than 16 minutes, which the free
+    plan allows; the last 16 minutes come from IEX (real time, one exchange)."""
+    acct = A if A.ok else B
+    now = datetime.now(timezone.utc)
+    start = (now.astimezone(NY) - timedelta(days=RANGE_DAYS.get(rng, 5))).replace(hour=0, minute=0)
+    out = {}
+    for feed, end in (("sip", now - timedelta(minutes=16)), ("iex", now)):
+        tok = None
+        while True:
+            q = {"timeframe": ALPACA_TF[interval], "start": start.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                 "end": end.strftime("%Y-%m-%dT%H:%M:%SZ"), "feed": feed, "limit": "10000", "adjustment": "raw"}
+            if tok:
+                q["page_token"] = tok
+            st, d = acct._req("GET", f"{DATA_BASE}/v2/stocks/{sym}/bars?" + "&".join(f"{k}={v}" for k, v in q.items()))
+            if st != 200 or not d:
+                break
+            for b in d.get("bars") or []:
+                t = datetime.fromisoformat(b["t"].replace("Z", "+00:00")).astimezone(NY)
+                if interval == "1d":
+                    t = t.replace(hour=16, minute=0)
+                if feed == "sip" or t not in out:
+                    out[t] = (t, float(b["o"]), float(b["h"]), float(b["l"]), float(b["c"]))
+            tok = d.get("next_page_token")
+            if not tok:
+                break
+        start = now - timedelta(minutes=16)
+    bars = [out[k] for k in sorted(out)]
+    if rng == "1d" and interval != "1d":
+        bars = [b for b in bars if b[0].date() == now.astimezone(NY).date()]
+    # regular session only, like Yahoo
+    return [b for b in bars if interval == "1d" or hm("09:30") <= minutes(b[0]) < 16 * 60]
+
+
+def yahoo_chart(sym: str, rng: str, interval: str) -> list:
+    """[(datetime NY, open, high, low, close)]: Yahoo chart JSON, retried once; Alpaca bars if Yahoo fails
+    (Yahoo answered 429 to GitHub runners on 3 Nov)."""
+    for attempt in range(2):
+        try:
+            return _yahoo(sym, rng, interval)
+        except Exception as e:  # noqa: BLE001
+            err = e
+            time.sleep(2)
+    log(f"Yahoo {sym} {rng}/{interval} failed ({str(err)[:60]}); using Alpaca bars")
+    return _alpaca_bars(sym, rng, interval)
 
 
 def yahoo_5m(sym: str) -> list:
@@ -881,7 +931,11 @@ def manage(day: str, st: dict, t: datetime, book: list):
                     else:
                         rec["be_done"] = True
             # 3. time exits
-            if (rec.get("remaining") or 0) > 0 and m < CLOSE_MIN:
+            if (rec.get("remaining") or 0) > 0 and m < CLOSE_MIN and rec["hold_days"] <= 0 \
+                    and rec["placed_day"] < day and m >= hm("09:30"):
+                # an intraday position left over from an earlier session (missed close-out): close it now
+                close_record(rec, "stale intraday (missed close-out)")
+            elif (rec.get("remaining") or 0) > 0 and m < CLOSE_MIN:
                 if rec["exit_mode"] == "moc":
                     if m >= cut and not rec.get("moc_sent"):
                         ok = close_record(rec, "moc", tif="cls")
@@ -1162,7 +1216,20 @@ def check():
         out[acct.name]["options_contracts_http"] = s3
         out[acct.name]["options_sample"] = ((oc or {}).get("option_contracts") or [None])[0] if s3 == 200 else None
         log(acct.name, json.dumps(out[acct.name], default=str))
-    save_json(LEDGER / "check.json", {"at": now_ny().isoformat(), "accounts": out})
+    # data fallbacks (Alpaca bars) and Yahoo reachability, so an outage is known before it matters
+    data = {}
+    for rng, iv in (("3mo", "1d"), ("5d", "5m")):
+        try:
+            bars = _alpaca_bars("SPY", rng, iv)
+            data[f"alpaca_{iv}"] = {"bars": len(bars), "last": str(bars[-1]) if bars else None}
+        except Exception as e:  # noqa: BLE001
+            data[f"alpaca_{iv}"] = {"error": str(e)[:120]}
+    try:
+        data["yahoo_1d"] = len(_yahoo("SPY", "3mo", "1d"))
+    except Exception as e:  # noqa: BLE001
+        data["yahoo_1d"] = str(e)[:120]
+    log("data", json.dumps(data))
+    save_json(LEDGER / "check.json", {"at": now_ny().isoformat(), "accounts": out, "data": data})
 
 
 def test():
