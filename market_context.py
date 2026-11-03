@@ -11,6 +11,8 @@ Sections
              (TradingView economic calendar; fallback ForexFactory weekly JSON)
   earnings   US earnings for today and the next session with time (before open / after close) and EPS estimate
              (Nasdaq calendar API), filtered to our universe when the TradingView universe list is available
+  history    ~80 completed daily sessions (OHLCV) + ATR14/SMA20/SMA50/20-day range for SPY, QQQ, TQQQ, SQQQ and
+             the tickers (Alpaca SIP daily bars; replaces StockAnalysis WebFetch)
   news       latest market headlines + headlines for TICKERS (Alpaca news API = Benzinga; free with the paper
              account keys), with source, author, publish time, symbols and URL
 """
@@ -224,6 +226,62 @@ def news(tickers: list, hours: int = 18):
     return out
 
 
+def history(tickers: list, days: int = 120):
+    """Daily OHLCV (about 80 sessions) from Alpaca market data, SIP feed (consolidated, the free plan allows
+    data older than 15 minutes). Replaces StockAnalysis WebFetch, which needs a permission prompt in
+    scheduled sessions. Also ATR14 (Wilder), SMA20/50, 20-day high/low, prior session H/L/C."""
+    key, sec = os.environ.get("ALPACA_PAPER_KEY_ID", ""), os.environ.get("ALPACA_PAPER_SECRET_KEY", "")
+    out = {"source": "Alpaca market data, SIP daily bars (split-adjusted)", "fetched": stamp(), "symbols": {},
+           "errors": {}}
+    if not (key and sec):
+        out["errors"]["auth"] = "Alpaca keys missing"
+        return out
+    hdr = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": sec}
+    now = datetime.now(timezone.utc)
+    start = (now - timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")
+    end = (now - timedelta(minutes=16)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    today = now.astimezone(NY).date().isoformat()
+    for i in range(0, len(tickers), 50):
+        chunk = tickers[i:i + 50]
+        tok = None
+        while True:
+            q = {"symbols": ",".join(chunk), "timeframe": "1Day", "start": start, "end": end, "feed": "sip",
+                 "adjustment": "split", "limit": 10000}
+            if tok:
+                q["page_token"] = tok
+            try:
+                d = json.loads(get("https://data.alpaca.markets/v2/stocks/bars?" + urllib.parse.urlencode(q), hdr))
+            except Exception as e:  # noqa: BLE001
+                out["errors"][",".join(chunk)] = str(e)[:160]
+                break
+            for sym, bars in (d.get("bars") or {}).items():
+                for b in bars:
+                    day = datetime.fromisoformat(b["t"].replace("Z", "+00:00")).astimezone(NY).date().isoformat()
+                    if day < today:  # completed sessions only (no look-ahead)
+                        out["symbols"].setdefault(sym, []).append(
+                            {"date": day, "o": b["o"], "h": b["h"], "l": b["l"], "c": b["c"], "v": b["v"]})
+            tok = d.get("next_page_token")
+            if not tok:
+                break
+    stats = {}
+    for sym, bars in out["symbols"].items():
+        if len(bars) < 21:
+            continue
+        trs = [max(b["h"] - b["l"], abs(b["h"] - p["c"]), abs(b["l"] - p["c"])) for p, b in zip(bars, bars[1:])]
+        atr = sum(trs[:14]) / 14
+        for tr in trs[14:]:
+            atr = (atr * 13 + tr) / 14
+        cl = [b["c"] for b in bars]
+        last = bars[-1]
+        stats[sym] = {"last_date": last["date"], "prior_h": last["h"], "prior_l": last["l"], "prior_c": last["c"],
+                      "atr14_wilder": round(atr, 4), "sma20": round(sum(cl[-20:]) / 20, 4),
+                      "sma50": round(sum(cl[-50:]) / 50, 4) if len(cl) >= 50 else None,
+                      "high20": max(b["h"] for b in bars[-20:]), "low20": min(b["l"] for b in bars[-20:]),
+                      "avg_vol20": round(sum(b["v"] for b in bars[-20:]) / 20)}
+    out["stats"] = stats
+    return out
+
+
 def main() -> int:
     tickers = [t.strip().upper() for t in os.environ.get("TICKERS", "").replace(" ", ",").split(",") if t.strip()]
     try:  # plus today's top pre-market gappers from the TradingView scan that just ran
@@ -233,8 +291,9 @@ def main() -> int:
         pass
     tickers = list(dict.fromkeys(tickers))[:40]
     doc = {"generated_new_york": stamp(), "tickers": tickers}
+    hist_syms = list(dict.fromkeys(["SPY", "QQQ", "TQQQ", "SQQQ"] + tickers))
     for name, fn, args in (("snapshot", snapshot, ()), ("economic", economic, ()), ("earnings", earnings, ()),
-                           ("news", news, (tickers,))):
+                           ("news", news, (tickers,)), ("history", history, (hist_syms,))):
         try:
             doc[name] = fn(*args)
         except Exception as e:  # noqa: BLE001
