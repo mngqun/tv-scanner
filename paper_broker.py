@@ -53,7 +53,7 @@ ARM_MAX_OPEN = 2
 ARM_DAY_STOP = -200.0
 ARM_WEEK_STOP = -400.0
 ACCOUNT_A_DAY_STOP = -600.0
-B_CAPS = {"orb": 8, "rulec": 2, "scan": 6}     # entries per day per arm on the control account
+B_CAPS = {"orb": 8, "rulec": 2, "scan": 6, "orb_short": 8}     # entries per day per arm on the control account
 ORB_N = int(os.environ.get("ORB_N") or 8)
 SCAN_N = int(os.environ.get("SCAN_N") or 6)
 NEWS_BLOCK_TAGS = {"deal", "halt"}
@@ -304,7 +304,8 @@ def tv_map(day: str, refresh: bool = False) -> dict:
         out[r["name"]] = {"sector": r.get("sector"), "earn_next": dt(r.get("earnings_release_next_date")),
                           "earn_last": dt(r.get("earnings_release_date")),
                           "premarket_change": r.get("premarket_change"), "change": r.get("change"),
-                          "atr": r.get("ATR"), "close": r.get("close"), "mode": r.get("update_mode")}
+                          "atr": r.get("ATR"), "close": r.get("close"), "mode": r.get("update_mode"),
+                          "dollar_vol": (r.get("average_volume_10d_calc") or 0) * (r.get("close") or 0)}
     save_json(path, out)
     return out
 
@@ -432,6 +433,13 @@ def place(o: dict, day: str, st: dict, book: list) -> list:
     acct = ACCTS[o["account"]]
     if any(r["base"] == o["id"] for r in book):
         log(f"{o['id']}: already in the book, not placed again")
+        return []
+    side = o.get("side", "long")
+    if any(r["account"] == o["account"] and r["symbol"] == o["symbol"] and r["side"] != side and is_open(r)
+           for r in book):
+        # Alpaca nets long and short in one symbol into one position: never hold both sides in one account
+        log(f"{o['id']}: opposite side already open in {o['symbol']} on {o['account']}; not placed")
+        st.setdefault("skipped", []).append({"id": o["id"], "why": "opposite side open in the same account"})
         return []
     legs = [o]
     if o.get("take_profit_2"):
@@ -734,14 +742,108 @@ def prepare_scan(day: str, st: dict, t: datetime):
                   "hits": len(hits), "picks": picks}
 
 
+CHASE_R = 0.2   # S3 (3 Nov): never enter more than 0.2R past the trigger (was 0.5R; 2 Nov slippage 0.15R avg)
+
+
 def entry_window_order(px: float, entry: float, stop: float, side: str = "long") -> dict | None:
-    """Last price must sit between the stop and entry + 0.5R; above the trigger -> marketable limit, else stop-limit."""
-    R = entry - stop
-    if px > entry + 0.5 * R or px <= stop:
+    """Last price must sit between the stop and entry + 0.2R (mirrored for shorts).
+    Past the trigger: a limit at trigger + 0.1R (no chasing; it may not fill). Back behind the trigger: a
+    stop-limit at the trigger, limit trigger + 0.1R."""
+    s = 1 if side == "long" else -1
+    R = abs(entry - stop)
+    past = s * (px - entry)                      # > 0: price beyond the trigger in the trade's direction
+    if past > CHASE_R * R or s * (px - stop) <= 0:
         return None
-    if px >= entry:
-        return {"entry_type": "limit", "limit_price": min(px * 1.001, entry + 0.5 * R)}
-    return {"entry_type": "stop_limit", "stop_price": entry, "limit_price": entry + 0.1 * R}
+    if past >= 0:
+        return {"entry_type": "limit", "limit_price": entry + s * 0.1 * R}
+    return {"entry_type": "stop_limit", "stop_price": entry, "limit_price": entry + s * 0.1 * R}
+
+
+def alpaca_multi_5m(syms: list, day, end_utc) -> dict:
+    """{SYM: [(dt NY, o, h, l, c)]} 5-minute SIP bars from 09:30 to end_utc (the free plan allows SIP data
+    older than 15 minutes)."""
+    acct = B if B.ok else A
+    start = datetime.combine(day, datetime.min.time()).replace(hour=9, minute=30, tzinfo=NY).astimezone(timezone.utc)
+    out = {}
+    for i in range(0, len(syms), 50):
+        tok = None
+        while True:
+            q = {"symbols": ",".join(syms[i:i + 50]), "timeframe": "5Min", "feed": "sip", "limit": "10000",
+                 "start": start.strftime("%Y-%m-%dT%H:%M:%SZ"), "end": end_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                 "adjustment": "raw"}
+            if tok:
+                q["page_token"] = tok
+            s_, d = acct._req("GET", f"{DATA_BASE}/v2/stocks/bars?" + "&".join(f"{k}={v}" for k, v in q.items()))
+            if s_ != 200 or not d:
+                break
+            for sym, bars in (d.get("bars") or {}).items():
+                for b in bars:
+                    tt = datetime.fromisoformat(b["t"].replace("Z", "+00:00")).astimezone(NY)
+                    out.setdefault(sym, []).append((tt, float(b["o"]), float(b["h"]), float(b["l"]), float(b["c"])))
+            tok = d.get("next_page_token")
+            if not tok:
+                break
+    return out
+
+
+def run_orb_short(day: str, st: dict, t: datetime, book: list, tv: dict, reg: str, flat_by: str, spy: dict):
+    """S2 (3 Nov, B only): opening-range BREAKDOWN shorts, the mirror of the ORB longs.
+    15-min range 09:30-09:45; trigger = first 5-min bar from 09:45 that closes below the range low; entry = that
+    close; stop = range midpoint; target 2R; flat by the cutoff. Top 8 triggered names by $ volume (top 120
+    liquid names scanned). Risk $100 in a short regime, else $50. Logged with regime and SPY's range state."""
+    if not B.ok:
+        return
+    risk = 100.0 if reg == "short" else 50.0
+    ev = load_json(ROOT / "paper" / "events.json", {}).get(day, {})
+    if ev.get("risk_usd"):
+        risk = min(risk, float(ev["risk_usd"]))
+    uni = [k for k, v in sorted(tv.items(), key=lambda kv: -(kv[1].get("dollar_vol") or 0))[:120]]
+    end = datetime.now(timezone.utc) - timedelta(minutes=16)
+    if os.environ.get("NOW_NY"):
+        end = t.astimezone(timezone.utc) - timedelta(minutes=16)
+    bars = alpaca_multi_5m(uni, t.date(), end)
+    hits = []
+    for sym, bs in bars.items():
+        bs = [b for b in bs if b[0].date() == t.date()]
+        rng = [b for b in bs if hm("09:30") <= minutes(b[0]) < hm("09:45")]
+        if len(rng) < 3:
+            continue
+        hi, lo = max(b[2] for b in rng), min(b[3] for b in rng)
+        trig = next((b for b in bs if minutes(b[0]) >= hm("09:45") and b[4] < lo), None)
+        if not trig:
+            continue
+        entry, stop = trig[4], (hi + lo) / 2
+        if stop - entry < 0.01:
+            continue
+        hits.append({"symbol": sym, "trigger": trig[0].strftime("%H:%M"), "or_high": hi, "or_low": lo,
+                     "entry": r2(entry), "stop": r2(stop), "target": r2(entry - 2 * (stop - entry)),
+                     "dollar_vol": tv.get(sym, {}).get("dollar_vol"), "earnings_today": tv.get(sym, {}).get("earn_next") == day})
+    hits.sort(key=lambda h: -(h["dollar_vol"] or 0))
+    for h in hits[:B_CAPS["orb_short"]]:
+        sym = h["symbol"]
+        why = guard("B", "orb_short", day, book, sym, None) or B.shortable(sym)
+        if why:
+            h["skip"] = why
+            continue
+        px = B.last_price(sym)
+        if px is None:
+            h["skip"] = "no price"
+            continue
+        eo = entry_window_order(px, h["entry"], h["stop"], side="short")
+        if eo is None:
+            h["skip"] = f"last {px} outside entry window ({h['entry'] - CHASE_R * (h['stop'] - h['entry']):.2f}..{h['stop']})"
+            continue
+        qty = size(min(px, h["entry"]), h["stop"], risk)
+        if qty < 1:
+            continue
+        o = dict(eo, id=f"orbs-B-{day}-{sym}", account="B", arm="orb_short", setup="orb_breakdown", symbol=sym,
+                 side="short", qty=qty, stop_loss=h["stop"], take_profit=h["target"], plan_entry=h["entry"],
+                 flat_by=flat_by, cancel_at="11:30", sector=tv.get(sym, {}).get("sector"), last_px=px,
+                 features={"regime": reg, "spy_or": spy.get("state"), "trigger": h["trigger"],
+                           "earnings_today": h["earnings_today"]})
+        place(o, day, st, book)
+    st["orb_short"] = {"at": t.strftime("%H:%M"), "scanned": len(bars), "hits": len(hits), "risk_usd": risk,
+                       "plans": hits[:B_CAPS["orb_short"] + 4]}
 
 
 def run_orb(day: str, st: dict, t: datetime, book: list):
@@ -861,7 +963,7 @@ def run_orb(day: str, st: dict, t: datetime, book: list):
                 continue
             eo = entry_window_order(px, entry, stop)
             if eo is None:
-                row[f"{an}_skip"] = f"last {px} outside entry window ({stop}..{entry + 0.5 * (entry - stop):.2f})"
+                row[f"{an}_skip"] = f"last {px} outside entry window ({stop}..{entry + CHASE_R * (entry - stop):.2f})"
                 continue
             qty = size(max(px, entry), stop, risk)
             if qty < 1:
@@ -875,6 +977,11 @@ def run_orb(day: str, st: dict, t: datetime, book: list):
         handle(p, "orb", "orb")
     for p in scan_plans:
         handle(p, "scan", "level:" + "+".join((p.get("pick") or {}).get("setups") or []))
+    try:
+        run_orb_short(day, st, t, book, tv, reg, flat_by, spy)
+    except Exception as e:  # noqa: BLE001
+        log(f"ERROR in orb_short: {type(e).__name__}: {str(e)[:200]}")
+        st.setdefault("errors", []).append({"at": t.strftime("%H:%M"), "phase": "orb_short", "error": str(e)[:200]})
     st["orb"] = {"at": t.strftime("%H:%M"), "regime": reg, "risk_usd": risk, "flat_by": flat_by, "spy_or": spy,
                  "counts": ((res.get("scan") or {}).get("data") or {}).get("counts"), "plans": summary,
                  "news_status": news.get("_status", news.get("_error"))}
@@ -1224,6 +1331,13 @@ def check():
             data[f"alpaca_{iv}"] = {"bars": len(bars), "last": str(bars[-1]) if bars else None}
         except Exception as e:  # noqa: BLE001
             data[f"alpaca_{iv}"] = {"error": str(e)[:120]}
+    try:
+        prev = daily_before("SPY", now_ny().date())[-1][0].date()
+        mb = alpaca_multi_5m(["SPY", "AAPL", "XOM"], prev,
+                             datetime.combine(prev, datetime.min.time()).replace(hour=16, tzinfo=NY).astimezone(timezone.utc))
+        data["alpaca_multi_5m"] = {k: len(v) for k, v in mb.items()}
+    except Exception as e:  # noqa: BLE001
+        data["alpaca_multi_5m"] = str(e)[:120]
     try:
         data["yahoo_1d"] = len(_yahoo("SPY", "3mo", "1d"))
     except Exception as e:  # noqa: BLE001
