@@ -48,10 +48,50 @@ YAHOO = {"VIX": "^VIX", "US10Y_yahoo": "^TNX", "US5Y_yahoo": "^FVX", "US13W": "^
          "YM_fut": "YM=F", "RTY_fut": "RTY=F", "BTC": "BTC-USD"}
 
 
+TV_SNAP = {"VIX": "CBOE:VIX", "US10Y": "TVC:US10Y", "US02Y": "TVC:US02Y", "US30Y": "TVC:US30Y", "DXY": "TVC:DXY",
+           "WTI": "NYMEX:CL1!", "Brent": "ICEEUR:BRN1!", "Gold": "COMEX:GC1!", "NatGas": "NYMEX:NG1!",
+           "ES_fut": "CME_MINI:ES1!", "NQ_fut": "CME_MINI:NQ1!", "YM_fut": "CBOT_MINI:YM1!", "RTY_fut": "CME_MINI:RTY1!",
+           "BTC": "BITSTAMP:BTCUSD"}
+
+
+def tv_snapshot(out):
+    """TradingView scanner (logged in = real time where entitled; update_mode says which)."""
+    import tv_scan
+    import tv_auth
+    from curl_cffi import requests
+    cookies = None
+    try:
+        cookies = (tv_auth.retrieve_tradingview_cookie() or {}).get("cookies")
+    except Exception as e:  # noqa: BLE001
+        out["errors"]["tv_auth"] = str(e)[:120]
+    cols = ["name", "description", "close", "change", "change_abs", "update_mode", "high", "low"]
+    payload = {"columns": cols, "symbols": {"tickers": list(TV_SNAP.values())}, "range": [0, 50]}
+    r = requests.post("https://scanner.tradingview.com/global/scan", data=json.dumps(payload),
+                      headers=tv_scan.HEADERS, cookies=cookies, impersonate="chrome", timeout=30)
+    r.raise_for_status()
+    rows = {it["s"]: dict(zip(cols, it["d"])) for it in r.json().get("data", [])}
+    for name, sym in TV_SNAP.items():
+        row = rows.get(sym)
+        if not row:
+            out["errors"][name] = "not returned by TradingView"
+            continue
+        out["items"][name] = {"symbol": sym, "last": row["close"], "chg_pct": round(row["change"], 2)
+                              if row.get("change") is not None else None, "chg": row.get("change_abs"),
+                              "high": row.get("high"), "low": row.get("low"), "tier": row.get("update_mode")}
+
+
 def snapshot():
-    out = {"source": "Yahoo Finance chart JSON (free, unofficial, may lag); FRED (official, end of day)",
+    out = {"source": "TradingView scanner (tier per row: streaming = real-time); fallbacks Yahoo chart JSON, FRED",
            "fetched": stamp(), "items": {}, "errors": {}}
+    try:
+        tv_snapshot(out)
+    except Exception as e:  # noqa: BLE001
+        out["errors"]["tradingview"] = str(e)[:160]
+    if len(out["items"]) >= 10:
+        return out
     for name, sym in YAHOO.items():
+        if name in out["items"] or name.replace("_yahoo", "") in out["items"]:
+            continue
         try:
             d = json.loads(get(f"https://query2.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}"
                                f"?range=5d&interval=1d"))["chart"]["result"][0]
@@ -65,7 +105,8 @@ def snapshot():
             out["errors"][name] = str(e)[:120]
     for sid in ("DGS2", "DGS10"):
         try:
-            rows = [r for r in csv.reader(io.StringIO(get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}")))
+            rows = [r for r in csv.reader(io.StringIO(get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}",
+                                                                          timeout=60)))
                     if r and r[-1] not in (".", "")]
             last, prev = rows[-1], rows[-2]
             out["items"][f"FRED_{sid}"] = {"date": last[0], "value": float(last[1]), "prev_date": prev[0],
