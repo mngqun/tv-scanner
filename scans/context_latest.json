@@ -1,0 +1,3437 @@
+{
+ "generated_new_york": "2026-11-02T19:59:09-05:00",
+ "tickers": [
+  "AAPL",
+  "PLTR",
+  "AMD",
+  "TQQQ",
+  "GFI",
+  "UAL",
+  "ASX",
+  "BABA",
+  "ECHO",
+  "SKHY",
+  "DAL",
+  "PDD",
+  "CCL",
+  "STM",
+  "AU",
+  "TEM",
+  "EQNR",
+  "LITE",
+  "CHKP",
+  "FRO",
+  "ORCL",
+  "TSEM",
+  "CNQ",
+  "MRVL",
+  "CBRS",
+  "COIN",
+  "TEVA",
+  "OXY"
+ ],
+ "snapshot": {
+  "source": "Yahoo Finance chart JSON (free, unofficial, may lag); FRED (official, end of day)",
+  "fetched": "2026-11-02T19:59:09-05:00",
+  "items": {},
+  "errors": {
+   "VIX": "HTTP Error 429: Too Many Requests",
+   "US10Y_yahoo": "HTTP Error 429: Too Many Requests",
+   "US5Y_yahoo": "HTTP Error 429: Too Many Requests",
+   "US13W": "HTTP Error 429: Too Many Requests",
+   "DXY": "HTTP Error 429: Too Many Requests",
+   "WTI": "HTTP Error 429: Too Many Requests",
+   "Brent": "HTTP Error 429: Too Many Requests",
+   "Gold": "HTTP Error 429: Too Many Requests",
+   "NatGas": "HTTP Error 429: Too Many Requests",
+   "ES_fut": "HTTP Error 429: Too Many Requests",
+   "NQ_fut": "HTTP Error 429: Too Many Requests",
+   "YM_fut": "HTTP Error 429: Too Many Requests",
+   "RTY_fut": "HTTP Error 429: Too Many Requests",
+   "BTC": "HTTP Error 429: Too Many Requests",
+   "FRED_DGS2": "The read operation timed out",
+   "FRED_DGS10": "The read operation timed out"
+  }
+ },
+ "economic": {
+  "fetched": "2026-11-02T20:00:10-05:00",
+  "events": [
+   {
+    "time_utc": "2026-11-03T00:00:00.000Z",
+    "time_ny": "Mon 02 Nov 19:00",
+    "title": "Midterm Elections",
+    "impact": "HIGH",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-03T11:00:00.000Z",
+    "time_ny": "Tue 03 Nov 06:00",
+    "title": "LMI Logistics Managers Index",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 70.2,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-03T13:55:00.000Z",
+    "time_ny": "Tue 03 Nov 08:55",
+    "title": "Redbook YoY",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 9.3,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct/31"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "Durable Goods Orders ex Defense MoM Final",
+    "impact": "LOW",
+    "forecast": 2.2,
+    "previous": 0.3,
+    "actual": null,
+    "unit": "%",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "Durable Goods Orders Ex Transp MoM Final",
+    "impact": "LOW",
+    "forecast": 0.5,
+    "previous": 0.3,
+    "actual": null,
+    "unit": "%",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "JOLTs Job Quits",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.066,
+    "actual": null,
+    "unit": null,
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "Factory Orders ex Transportation",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 0.3,
+    "actual": null,
+    "unit": "%",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "RCM/TIPP Economic Optimism Index",
+    "impact": "LOW",
+    "forecast": 46.2,
+    "previous": 46.8,
+    "actual": null,
+    "unit": null,
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "Factory Orders MoM",
+    "impact": "MEDIUM",
+    "forecast": 1.2,
+    "previous": 0.1,
+    "actual": null,
+    "unit": "%",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T15:00:00.000Z",
+    "time_ny": "Tue 03 Nov 10:00",
+    "title": "JOLTs Job Openings",
+    "impact": "HIGH",
+    "forecast": 7.13,
+    "previous": 7.079,
+    "actual": null,
+    "unit": null,
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-03T16:30:00.000Z",
+    "time_ny": "Tue 03 Nov 11:30",
+    "title": "6-Week Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.95,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-03T19:00:00.000Z",
+    "time_ny": "Tue 03 Nov 14:00",
+    "title": "Total Vehicle Sales",
+    "impact": "LOW",
+    "forecast": 15.9,
+    "previous": 16,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-03T21:30:00.000Z",
+    "time_ny": "Tue 03 Nov 16:30",
+    "title": "API Crude Oil Stock Change",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": -2.031,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T12:00:00.000Z",
+    "time_ny": "Wed 04 Nov 07:00",
+    "title": "MBA Mortgage Market Index",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 195,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T12:00:00.000Z",
+    "time_ny": "Wed 04 Nov 07:00",
+    "title": "MBA Purchase Index",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 134.1,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T12:00:00.000Z",
+    "time_ny": "Wed 04 Nov 07:00",
+    "title": "MBA Mortgage Refinance Index",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 516.8,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T12:00:00.000Z",
+    "time_ny": "Wed 04 Nov 07:00",
+    "title": "MBA Mortgage Applications",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.4,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T12:00:00.000Z",
+    "time_ny": "Wed 04 Nov 07:00",
+    "title": "MBA 30-Year Mortgage Rate",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": 7.37,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T13:15:00.000Z",
+    "time_ny": "Wed 04 Nov 08:15",
+    "title": "ADP Employment Change",
+    "impact": "MEDIUM",
+    "forecast": 65,
+    "previous": 90,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T13:30:00.000Z",
+    "time_ny": "Wed 04 Nov 08:30",
+    "title": "Treasury Refunding Announcement",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-04T13:30:00.000Z",
+    "time_ny": "Wed 04 Nov 08:30",
+    "title": "Imports",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": 420.8,
+    "actual": null,
+    "unit": "$",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-04T13:30:00.000Z",
+    "time_ny": "Wed 04 Nov 08:30",
+    "title": "Exports",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": 315.2,
+    "actual": null,
+    "unit": "$",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-04T13:30:00.000Z",
+    "time_ny": "Wed 04 Nov 08:30",
+    "title": "Balance of Trade",
+    "impact": "MEDIUM",
+    "forecast": -108,
+    "previous": -105.6,
+    "actual": null,
+    "unit": "$",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-04T14:45:00.000Z",
+    "time_ny": "Wed 04 Nov 09:45",
+    "title": "S&P Global Composite PMI Final",
+    "impact": "LOW",
+    "forecast": 57.6,
+    "previous": 58.4,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T14:45:00.000Z",
+    "time_ny": "Wed 04 Nov 09:45",
+    "title": "S&P Global Services PMI Final",
+    "impact": "LOW",
+    "forecast": 57.9,
+    "previous": 58.8,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:00:00.000Z",
+    "time_ny": "Wed 04 Nov 10:00",
+    "title": "ISM Services Prices",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 74,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:00:00.000Z",
+    "time_ny": "Wed 04 Nov 10:00",
+    "title": "ISM Services Business Activity",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 56.5,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:00:00.000Z",
+    "time_ny": "Wed 04 Nov 10:00",
+    "title": "ISM Services New Orders",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 59.8,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:00:00.000Z",
+    "time_ny": "Wed 04 Nov 10:00",
+    "title": "ISM Services Employment",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 50.1,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:00:00.000Z",
+    "time_ny": "Wed 04 Nov 10:00",
+    "title": "ISM Services PMI",
+    "impact": "HIGH",
+    "forecast": 54.8,
+    "previous": 54.9,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Distillate Stocks Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -1.462,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Gasoline Production Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.509,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Crude Oil Imports Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.796,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Refinery Crude Runs Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.123,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Cushing Crude Oil Stocks Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.624,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Heating Oil Stocks Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 0.164,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Distillate Fuel Production Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.071,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Gasoline Stocks Change",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": 3.87,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T15:30:00.000Z",
+    "time_ny": "Wed 04 Nov 10:30",
+    "title": "EIA Crude Oil Stocks Change",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": -1.892,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-04T16:00:00.000Z",
+    "time_ny": "Wed 04 Nov 11:00",
+    "title": "Atlanta Fed GDPNow",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": "Q4"
+   },
+   {
+    "time_utc": "2026-11-04T16:30:00.000Z",
+    "time_ny": "Wed 04 Nov 11:30",
+    "title": "17-Week Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.14,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T10:30:00.000Z",
+    "time_ny": "Thu 05 Nov 05:30",
+    "title": "Challenger Job Cuts",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 43.281,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-05T13:30:00.000Z",
+    "time_ny": "Thu 05 Nov 08:30",
+    "title": "Continuing Jobless Claims",
+    "impact": "LOW",
+    "forecast": 1710,
+    "previous": 1701,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/24"
+   },
+   {
+    "time_utc": "2026-11-05T13:30:00.000Z",
+    "time_ny": "Thu 05 Nov 08:30",
+    "title": "Unit Labour Costs QoQ Prel",
+    "impact": "LOW",
+    "forecast": 0.6,
+    "previous": 1.2,
+    "actual": null,
+    "unit": "%",
+    "period": "Q3"
+   },
+   {
+    "time_utc": "2026-11-05T13:30:00.000Z",
+    "time_ny": "Thu 05 Nov 08:30",
+    "title": "Jobless Claims 4-week Average",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 196.75,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/31"
+   },
+   {
+    "time_utc": "2026-11-05T13:30:00.000Z",
+    "time_ny": "Thu 05 Nov 08:30",
+    "title": "Initial Jobless Claims",
+    "impact": "MEDIUM",
+    "forecast": 195,
+    "previous": 194,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/31"
+   },
+   {
+    "time_utc": "2026-11-05T13:30:00.000Z",
+    "time_ny": "Thu 05 Nov 08:30",
+    "title": "Nonfarm Productivity QoQ Prel",
+    "impact": "MEDIUM",
+    "forecast": 2.5,
+    "previous": 1.4,
+    "actual": null,
+    "unit": "%",
+    "period": "Q3"
+   },
+   {
+    "time_utc": "2026-11-05T13:50:00.000Z",
+    "time_ny": "Thu 05 Nov 08:50",
+    "title": "Fed Hammack Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T14:10:00.000Z",
+    "time_ny": "Thu 05 Nov 09:10",
+    "title": "Fed Barkin Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T15:20:00.000Z",
+    "time_ny": "Thu 05 Nov 10:20",
+    "title": "NY Fed Bill Purchases 1 to 4 months",
+    "impact": "LOW",
+    "forecast": 3.652,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T15:30:00.000Z",
+    "time_ny": "Thu 05 Nov 10:30",
+    "title": "EIA Natural Gas Stocks Change",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 80,
+    "actual": null,
+    "unit": null,
+    "period": "Oct/30"
+   },
+   {
+    "time_utc": "2026-11-05T16:30:00.000Z",
+    "time_ny": "Thu 05 Nov 11:30",
+    "title": "8-Week Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.02,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T16:30:00.000Z",
+    "time_ny": "Thu 05 Nov 11:30",
+    "title": "4-Week Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.91,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-05T17:00:00.000Z",
+    "time_ny": "Thu 05 Nov 12:00",
+    "title": "15-Year Mortgage Rate",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 6.6,
+    "actual": null,
+    "unit": null,
+    "period": "Nov/05"
+   },
+   {
+    "time_utc": "2026-11-05T17:00:00.000Z",
+    "time_ny": "Thu 05 Nov 12:00",
+    "title": "30-Year Mortgage Rate",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 7.24,
+    "actual": null,
+    "unit": null,
+    "period": "Nov/05"
+   },
+   {
+    "time_utc": "2026-11-05T21:30:00.000Z",
+    "time_ny": "Thu 05 Nov 16:30",
+    "title": "Fed Balance Sheet",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 6.746,
+    "actual": null,
+    "unit": "$",
+    "period": "Nov/04"
+   },
+   {
+    "time_utc": "2026-11-05T21:30:00.000Z",
+    "time_ny": "Thu 05 Nov 16:30",
+    "title": "Reserve Balances with Fed Banks",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 2.895,
+    "actual": null,
+    "unit": null,
+    "period": "20261104"
+   },
+   {
+    "time_utc": "2026-11-06T00:00:00.000Z",
+    "time_ny": "Thu 05 Nov 19:00",
+    "title": "Fed Logan Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-06T09:30:00.000Z",
+    "time_ny": "Fri 06 Nov 04:30",
+    "title": "Fed Williams Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "U-6 Unemployment Rate",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 7.6,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Nonfarm Payrolls Private",
+    "impact": "LOW",
+    "forecast": 58,
+    "previous": 46,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Manufacturing Payrolls",
+    "impact": "LOW",
+    "forecast": 4,
+    "previous": 9,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Average Weekly Hours",
+    "impact": "LOW",
+    "forecast": 34.4,
+    "previous": 34.4,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Government Payrolls",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -17,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Average Hourly Earnings MoM",
+    "impact": "MEDIUM",
+    "forecast": 0.3,
+    "previous": 0.1,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Average Hourly Earnings YoY",
+    "impact": "MEDIUM",
+    "forecast": 2.9,
+    "previous": 3,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Participation Rate",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": 61.8,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Non Farm Payrolls",
+    "impact": "HIGH",
+    "forecast": 65,
+    "previous": 29,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T13:30:00.000Z",
+    "time_ny": "Fri 06 Nov 08:30",
+    "title": "Unemployment Rate",
+    "impact": "HIGH",
+    "forecast": 4.2,
+    "previous": 4.2,
+    "actual": null,
+    "unit": "%",
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T14:00:00.000Z",
+    "time_ny": "Fri 06 Nov 09:00",
+    "title": "Used Car Prices YoY",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -0.6,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T14:00:00.000Z",
+    "time_ny": "Fri 06 Nov 09:00",
+    "title": "Used Car Prices MoM",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": -1.1,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-06T14:10:00.000Z",
+    "time_ny": "Fri 06 Nov 09:10",
+    "title": "Fed Musalem Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-06T15:00:00.000Z",
+    "time_ny": "Fri 06 Nov 10:00",
+    "title": "Michigan Inflation Expectations Prel",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.7,
+    "actual": null,
+    "unit": "%",
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-06T15:00:00.000Z",
+    "time_ny": "Fri 06 Nov 10:00",
+    "title": "Michigan 5 Year Inflation Expectations Prel",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.5,
+    "actual": null,
+    "unit": "%",
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-06T15:00:00.000Z",
+    "time_ny": "Fri 06 Nov 10:00",
+    "title": "Michigan Current Conditions Prel",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 46.7,
+    "actual": null,
+    "unit": null,
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-06T15:00:00.000Z",
+    "time_ny": "Fri 06 Nov 10:00",
+    "title": "Michigan Consumer Expectations Prel",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 48.8,
+    "actual": null,
+    "unit": null,
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-06T15:00:00.000Z",
+    "time_ny": "Fri 06 Nov 10:00",
+    "title": "Michigan Consumer Sentiment Prel",
+    "impact": "HIGH",
+    "forecast": 48.2,
+    "previous": 48,
+    "actual": null,
+    "unit": null,
+    "period": "Nov"
+   },
+   {
+    "time_utc": "2026-11-06T17:15:00.000Z",
+    "time_ny": "Fri 06 Nov 12:15",
+    "title": "Fed Bowman Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-06T18:00:00.000Z",
+    "time_ny": "Fri 06 Nov 13:00",
+    "title": "Baker Hughes Total Rigs Count",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 603,
+    "actual": null,
+    "unit": null,
+    "period": "Nov/06"
+   },
+   {
+    "time_utc": "2026-11-06T18:00:00.000Z",
+    "time_ny": "Fri 06 Nov 13:00",
+    "title": "Baker Hughes Oil Rig Count",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 462,
+    "actual": null,
+    "unit": null,
+    "period": "Nov/06"
+   },
+   {
+    "time_utc": "2026-11-06T20:00:00.000Z",
+    "time_ny": "Fri 06 Nov 15:00",
+    "title": "Consumer Credit Change",
+    "impact": "LOW",
+    "forecast": 11.8,
+    "previous": 8.28,
+    "actual": null,
+    "unit": "$",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-09T15:00:00.000Z",
+    "time_ny": "Mon 09 Nov 10:00",
+    "title": "Wholesale Inventories MoM",
+    "impact": "LOW",
+    "forecast": 0.6,
+    "previous": 0.5,
+    "actual": null,
+    "unit": "%",
+    "period": "Sep"
+   },
+   {
+    "time_utc": "2026-11-09T15:00:00.000Z",
+    "time_ny": "Mon 09 Nov 10:00",
+    "title": "Fed Goolsbee Speech",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-09T15:20:00.000Z",
+    "time_ny": "Mon 09 Nov 10:20",
+    "title": "NY Fed Bill Purchases 1 to 4 months",
+    "impact": "LOW",
+    "forecast": 3.653,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-09T16:00:00.000Z",
+    "time_ny": "Mon 09 Nov 11:00",
+    "title": "Consumer Inflation Expectations",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 3.9,
+    "actual": null,
+    "unit": null,
+    "period": "Oct"
+   },
+   {
+    "time_utc": "2026-11-09T16:00:00.000Z",
+    "time_ny": "Mon 09 Nov 11:00",
+    "title": "Atlanta Fed GDPNow",
+    "impact": "MEDIUM",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": "Q4"
+   },
+   {
+    "time_utc": "2026-11-09T16:30:00.000Z",
+    "time_ny": "Mon 09 Nov 11:30",
+    "title": "6-Month Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.15,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-09T16:30:00.000Z",
+    "time_ny": "Mon 09 Nov 11:30",
+    "title": "3-Month Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.04,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-09T16:30:00.000Z",
+    "time_ny": "Mon 09 Nov 11:30",
+    "title": "6-Week Bill Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": null,
+    "actual": null,
+    "unit": null,
+    "period": ""
+   },
+   {
+    "time_utc": "2026-11-09T18:00:00.000Z",
+    "time_ny": "Mon 09 Nov 13:00",
+    "title": "3-Year Note Auction",
+    "impact": "LOW",
+    "forecast": null,
+    "previous": 4.932,
+    "actual": null,
+    "unit": "%",
+    "period": ""
+   }
+  ],
+  "errors": {},
+  "source": "TradingView economic calendar"
+ },
+ "earnings": {
+  "source": "Nasdaq earnings calendar API (api.nasdaq.com)",
+  "fetched": "2026-11-02T20:00:10-05:00",
+  "days": {
+   "2026-11-02": {
+    "all": 147,
+    "in_universe": [
+     {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.98",
+      "market_cap": "$5,029,592,300,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.32",
+      "market_cap": "$442,242,073,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "time": "after close",
+      "eps_forecast": "$4.36",
+      "market_cap": "$141,654,245,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "time": "before open",
+      "eps_forecast": "$2.86",
+      "market_cap": "$104,123,982,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "WMB",
+      "name": "Williams Companies, Inc. (The)",
+      "time": "after close",
+      "eps_forecast": "$0.55",
+      "market_cap": "$90,942,505,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "FANG",
+      "name": "Diamondback Energy, Inc.",
+      "time": "after close",
+      "eps_forecast": "$4.92",
+      "market_cap": "$59,387,564,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "time": "after close",
+      "eps_forecast": "$1.11",
+      "market_cap": "$53,868,192,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ETR",
+      "name": "Entergy Corporation",
+      "time": "before open",
+      "eps_forecast": "$1.71",
+      "market_cap": "$51,380,793,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "EL",
+      "name": "Estee Lauder Companies, Inc. (The)",
+      "time": "before open",
+      "eps_forecast": "$0.52",
+      "market_cap": "$39,576,519,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PEG",
+      "name": "Public Service Enterprise Group Incorporated",
+      "time": "before open",
+      "eps_forecast": "$1.21",
+      "market_cap": "$37,027,623,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "RYAAY",
+      "name": "Ryanair Holdings plc",
+      "time": "before open",
+      "eps_forecast": "$3.49",
+      "market_cap": "$28,127,217,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ON",
+      "name": "ON Semiconductor Corporation",
+      "time": "after close",
+      "eps_forecast": "$0.88",
+      "market_cap": "$27,902,464,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "FOXA",
+      "name": "Fox Corporation",
+      "time": "before open",
+      "eps_forecast": "$1.99",
+      "market_cap": "$23,698,057,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ROKU",
+      "name": "Roku, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.55",
+      "market_cap": "$23,022,749,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SBAC",
+      "name": "SBA Communications Corporation",
+      "time": "after close",
+      "eps_forecast": "$2.89",
+      "market_cap": "$19,854,389,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "TSEM",
+      "name": "Tower Semiconductor Ltd.",
+      "time": "before open",
+      "eps_forecast": "$0.98",
+      "market_cap": "$18,817,400,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "VNOM",
+      "name": "Viper Energy, Inc. ",
+      "time": "after close",
+      "eps_forecast": "$0.59",
+      "market_cap": "$17,126,412,300",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "CHKP",
+      "name": "Check Point Software Technologies Ltd.",
+      "time": "before open",
+      "eps_forecast": "$1.99",
+      "market_cap": "$15,530,527,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "CRBG",
+      "name": "Corebridge Financial Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.22",
+      "market_cap": "$15,517,341,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "NBIX",
+      "name": "Neurocrine Biosciences, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.99",
+      "market_cap": "$14,850,945,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "EQH",
+      "name": "Equitable Holdings, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.87",
+      "market_cap": "$14,702,943,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "LSCC",
+      "name": "Lattice Semiconductor Corporation",
+      "time": "after close",
+      "eps_forecast": "$0.27",
+      "market_cap": "$13,204,554,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "TEM",
+      "name": "Tempus AI, Inc.",
+      "time": "before open",
+      "eps_forecast": "($0.32)",
+      "market_cap": "$13,111,985,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "BWXT",
+      "name": "BWX Technologies, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.19",
+      "market_cap": "$11,974,992,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "UDR",
+      "name": "UDR, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.64",
+      "market_cap": "$11,411,305,500",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "BMRN",
+      "name": "BioMarin Pharmaceutical Inc.",
+      "time": "after close",
+      "eps_forecast": "($0.30)",
+      "market_cap": "$11,326,000,100",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "CLX",
+      "name": "Clorox Company (The)",
+      "time": "after close",
+      "eps_forecast": "$0.97",
+      "market_cap": "$10,642,500,600",
+      "fiscal_quarter": "Sep/2026"
+     }
+    ]
+   },
+   "2026-11-03": {
+    "all": 279,
+    "in_universe": [
+     {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.68",
+      "market_cap": "$824,073,390,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "AMGN",
+      "name": "Amgen Inc.",
+      "time": "after close",
+      "eps_forecast": "$5.74",
+      "market_cap": "$251,939,914,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ANET",
+      "name": "Arista Networks, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.99",
+      "market_cap": "$212,970,390,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SHOP",
+      "name": "Shopify Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.33",
+      "market_cap": "$204,320,178,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PFE",
+      "name": "Pfizer, Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.72",
+      "market_cap": "$173,954,040,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ETN",
+      "name": "Eaton Corporation, PLC",
+      "time": "before open",
+      "eps_forecast": "$3.54",
+      "market_cap": "$143,696,347,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "time": "before open",
+      "eps_forecast": "$25.74",
+      "market_cap": "$124,891,193,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "time": "after close",
+      "eps_forecast": "$4.48",
+      "market_cap": "$111,301,992,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SU",
+      "name": "Suncor Energy  Inc.",
+      "time": "after close",
+      "eps_forecast": "$2.35",
+      "market_cap": "$92,986,221,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "APO",
+      "name": "Apollo Global Management, Inc.",
+      "time": "before open",
+      "eps_forecast": "$2.04",
+      "market_cap": "$68,408,521,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "MPLX",
+      "name": "MPLX LP",
+      "time": "before open",
+      "eps_forecast": "$1.11",
+      "market_cap": "$60,993,712,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "AME",
+      "name": "AMTEK, Inc.",
+      "time": "before open",
+      "eps_forecast": "$2.12",
+      "market_cap": "$55,279,473,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "TRI",
+      "name": "Thomson Reuters Corp",
+      "time": "before open",
+      "eps_forecast": "$0.89",
+      "market_cap": "$51,254,972,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "TEVA",
+      "name": "Teva Pharmaceutical Industries Limited",
+      "time": "before open",
+      "eps_forecast": "$0.70",
+      "market_cap": "$49,047,310,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.63",
+      "market_cap": "$48,772,006,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.68",
+      "market_cap": "$45,792,596,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "WAT",
+      "name": "Waters Corporation",
+      "time": "before open",
+      "eps_forecast": "$3.99",
+      "market_cap": "$45,461,365,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.83",
+      "market_cap": "$44,880,597,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "AIG",
+      "name": "American International Group, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.85",
+      "market_cap": "$42,824,950,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "YUM",
+      "name": "Yum! Brands, Inc.",
+      "time": "before open",
+      "eps_forecast": "$1.47",
+      "market_cap": "$42,408,829,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SYY",
+      "name": "Sysco Corporation",
+      "time": "before open",
+      "eps_forecast": "$1.17",
+      "market_cap": "$40,780,784,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PRU",
+      "name": "Prudential Financial, Inc.",
+      "time": "after close",
+      "eps_forecast": "$3.31",
+      "market_cap": "$40,175,251,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "ADM",
+      "name": "Archer-Daniels-Midland Company",
+      "time": "before open",
+      "eps_forecast": "$1.63",
+      "market_cap": "$37,067,510,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "FTS",
+      "name": "Fortis Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.63",
+      "market_cap": "$29,964,562,400",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "FISV",
+      "name": "Fiserv, Inc.",
+      "time": "before open",
+      "eps_forecast": "$1.72",
+      "market_cap": "$26,598,971,400",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PHG",
+      "name": "Koninklijke Philips N.V.",
+      "time": "before open",
+      "eps_forecast": "$0.37",
+      "market_cap": "$26,459,258,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "EXPD",
+      "name": "Expeditors International of Washington, Inc.",
+      "time": "before open",
+      "eps_forecast": "$2.24",
+      "market_cap": "$25,848,635,400",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "IFF",
+      "name": "International Flavors & Fragrances, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.81",
+      "market_cap": "$23,734,048,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "BNTX",
+      "name": "BioNTech SE",
+      "time": "before open",
+      "eps_forecast": "$0.85",
+      "market_cap": "$22,148,689,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.04",
+      "market_cap": "$21,647,009,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "OVV",
+      "name": "Ovintiv Inc.",
+      "time": "after close",
+      "eps_forecast": "$1.96",
+      "market_cap": "$20,522,854,400",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "TOST",
+      "name": "Toast, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.26",
+      "market_cap": "$18,311,041,000",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "BALL",
+      "name": "Ball Corporation",
+      "time": "before open",
+      "eps_forecast": "$1.06",
+      "market_cap": "$17,594,832,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "RVTY",
+      "name": "Revvity, Inc.",
+      "time": "before open",
+      "eps_forecast": "$1.29",
+      "market_cap": "$17,519,065,100",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "DT",
+      "name": "Dynatrace, Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.28",
+      "market_cap": "$16,672,532,500",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "YUMC",
+      "name": "Yum China Holdings, Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.91",
+      "market_cap": "$15,677,733,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "IT",
+      "name": "Gartner, Inc.",
+      "time": "before open",
+      "eps_forecast": "$2.86",
+      "market_cap": "$14,447,854,600",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "UNM",
+      "name": "Unum Group",
+      "time": "after close",
+      "eps_forecast": "$2.18",
+      "market_cap": "$14,428,081,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "OHI",
+      "name": "Omega Healthcare Investors, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.78",
+      "market_cap": "$14,235,550,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "EMBJ",
+      "name": "Embraer S.A.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.87",
+      "market_cap": "$13,262,758,900",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.89",
+      "market_cap": "$13,021,374,500",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "PNW",
+      "name": "Pinnacle West Capital Corporation",
+      "time": "before open",
+      "eps_forecast": "$3.40",
+      "market_cap": "$12,880,841,700",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "FMS",
+      "name": "Fresenius Medical Care AG",
+      "time": "before open",
+      "eps_forecast": "",
+      "market_cap": "$12,551,242,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "WTRG",
+      "name": "Essential Utilities, Inc.",
+      "time": "after close",
+      "eps_forecast": "$0.34",
+      "market_cap": "$12,350,045,200",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "DOCN",
+      "name": "DigitalOcean Holdings, Inc.",
+      "time": "before open",
+      "eps_forecast": "$0.11",
+      "market_cap": "$10,541,006,800",
+      "fiscal_quarter": "Sep/2026"
+     },
+     {
+      "symbol": "RRX",
+      "name": "Regal Rexnord Corporation",
+      "time": "before open",
+      "eps_forecast": "$2.69",
+      "market_cap": "$10,470,904,800",
+      "fiscal_quarter": "Sep/2026"
+     }
+    ]
+   }
+  },
+  "errors": {},
+  "universe_size": 675
+ },
+ "news": {
+  "source": "Alpaca news API (Benzinga)",
+  "fetched": "2026-11-02T20:00:16-05:00",
+  "market": [
+   {
+    "time_ny": "Mon 02 Nov 19:50",
+    "headline": "Trading Halt: Halted at 7:50:00 p.m. ET - Trading Halt: Halt News Pending",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Webmaster",
+    "symbols": [
+     "BJDX"
+    ],
+    "url": "https://www.benzinga.com/quote/BJDX"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:02",
+    "headline": "SBC Medical Group Invests $3.8 Million in Atomic Software",
+    "summary": "SBC Medical Group Holdings Incorporated has invested \u00a5600 million (approximately $3.8 million) into Atomic Software Co., Ltd. as part of a Series C funding round.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "SBC"
+    ],
+    "url": "https://www.marketscreener.com/news/sbc-medical-invests-3-8-million-in-atomicsoftware-ce785fd9d981f323"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Ribbon Acquisition Corp. Receives Nasdaq Noncompliance Notice",
+    "summary": "Ribbon Acquisition Corp. has been notified by Nasdaq that it is not in compliance with the exchange's minimum market value requirements.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RIBB"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:ce8fb11f7441b:0-ribbon-acquisition-received-notice-of-noncompliance/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "TOYO to Exhibit at RE+ 2026 and Participate in ROTH Solar & Storage Symposium",
+    "summary": "TOYO Co., Ltd. announced its participation in the upcoming RE+ 2026 conference and the 13th Annual ROTH Solar & Storage Symposium in Las Vegas.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TOYO"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/toyo-to-exhibit-at-re-2026-and-participate-in-roth-solar--storage-symposium-302926265.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Micware Expands North American Presence With Relocation of U.S. Office in Dublin, Ohio",
+    "summary": "Micware Co., Ltd. announced that its subsidiary, Micware North America, Inc., has relocated its office in Dublin, Ohio, to a larger facility to support continued growth.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "MWC"
+    ],
+    "url": "https://www.moomoo.com/news/post/1003194795/micware-expands-north-american-presence-with-relocation-of-us-office"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "T-Mobile Unveils Next-Generation Creative Ecosystem and Agency Partnerships",
+    "summary": "T-Mobile has appointed Anomaly as its strategic brand transformation partner and Highdive as its lead creative advertising agency to evolve its brand and creative strategy.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TMUS"
+    ],
+    "url": "https://www.barchart.com/press-releases/8600202/t-mobile-doubles-down-on-the-power-of-brand-unveiling-a-next-generation-creative-ecosystem"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "IBM Announces Quantum Computing Roadmap and Starling Launch",
+    "summary": "IBM unveiled plans to launch its large-scale, fault-tolerant 'Starling' quantum computer by 2029 and reported significant advancements in processor fidelity.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "IBM"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:7d36dfce294c9:0-weekly-recap-software-revenue-up-8-and-quantum-impact-by-2028/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Danaher Announces CEO Participation in Upcoming Healthcare Conferences",
+    "summary": "Danaher Corporation announced that President and CEO Julie Sawyer Montgomery will present at the UBS Global Healthcare Conference and the Jefferies Global Healthcare Conference in November 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "DHR"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/danaher-to-present-at-ubs-global-and-jefferies-global-healthcare-conferences-302926794.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "AbbVie Director Jennifer L. Davis Resigns from Board",
+    "summary": "AbbVie director Jennifer L. Davis resigned from the company's board of directors effective November 2, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "ABBV"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:e128bbe060b01:0-abbvie-director-jennifer-l-davis-to-resign-from-board/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Mastercard-Powered OKX Card Launches in the United States",
+    "summary": "The OKX Card, which enables direct stablecoin spending, is now available to eligible customers in the United States.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "MA"
+    ],
+    "url": "https://www.pymnts.com/cryptocurrency/2026/okx-and-mastercard-bring-stablecoin-card-to-most-us-states/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Morgan Stanley Selected to Support UK's Digitally Native Government Bond Launch",
+    "summary": "Morgan Stanley is among six banks chosen to assist the United Kingdom in the pilot issuance of its first digitally native government bond.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "MS"
+    ],
+    "url": "https://www.marketscreener.com/news/six-banks-including-morgan-stanley-secure-roles-to-support-uk-s-launch-of-digitally-native-governm-ce785fd9d980f124"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
+    "summary": "NVIDIA has officially commenced shipments of its new Vera Rubin platform, which the company anticipates will experience the fastest product ramp in its history.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "NVDA"
+    ],
+    "url": "https://www.barchart.com/story/news/8597937/nvidia-stock-looks-surprisingly-cheap-why-nvda-could-rise-61"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs",
+    "summary": "XMax Inc. has entered into a five-year AI infrastructure services agreement that includes the deployment of 512 NVIDIA Blackwell Ultra B300 GPUs.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "NVDA"
+    ],
+    "url": "https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Roze AI and BKB Energy Sign MOA to Evaluate AI Fire Forecasting System for AI Data Centers",
+    "summary": "Roze AI Inc. announced that its subsidiary, Roze AI Korea Co., Ltd., has signed a Memorandum of Agreement (MOA) with BKB Energy Co., Ltd. to evaluate the integration of its AI-powered fire forecasting technology into planned AI data center projects.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RZAI"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393148/0/en/roze-ai-and-bkb-energy-sign-moa-to-evaluate-ai-fire-forecasting-system-for-ai-data-centers.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "PepsiCo Expands Regenerative Agriculture Initiatives in Europe and Canada",
+    "summary": "PepsiCo is scaling its regenerative agriculture programs across France, Spain, T\u00fcrkiye, and Canada to enhance supply chain resilience and secure long-term ingredient access.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "PEP"
+    ],
+    "url": "https://supplychaindigital.com/news/pepsico-regenerative-agriculture-supply-chain-resilience"
+   },
+   {
+    "time_ny": "Mon 02 Nov 19:01",
+    "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+    "summary": "Apple announced record-breaking revenue of $114.5 billion for its fiscal fourth quarter, marking a 12% increase year-over-year and the company's best fiscal year to date.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "AAPL"
+    ],
+    "url": "https://appleosophy.com/wire/4etili1/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:45",
+    "headline": "$100 Invested In Cummins 5 Years Ago Would Be Worth This Much Today",
+    "summary": "Cummins (NYSE:CMI) has outperformed the market over the past 5 years by 6.2% on an annualized basis producing an average annual return of 16.12%. Currently, Cummins has a market capitalization of $69.10 billion. \nBuying",
+    "source": "benzinga",
+    "author": "Benzinga Insights",
+    "symbols": [
+     "CMI"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62805022/100-invested-cummins-5-years-ago-would-be-worth-much-today"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:34",
+    "headline": "Lattice Semiconductor Q3 2026 Earnings Call Transcript",
+    "summary": "Lattice Semiconductor (NASDAQ:LSCC) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "LSCC"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804943/lattice-semiconductor-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:33",
+    "headline": "BWX Technologies Q3 2026 Earnings Call Transcript",
+    "summary": "BWX Technologies (NYSE:BWXT) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "BWXT"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804934/bwx-technologies-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:31",
+    "headline": "If You Invested $1000 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today",
+    "summary": "GE Aerospace (NYSE:GE) has outperformed the market over the past 5 years by 26.15% on an annualized basis producing an average annual return of 36.08%. Currently, GE Aerospace has a market capitalization of $313.14",
+    "source": "benzinga",
+    "author": "Benzinga Insights",
+    "symbols": [
+     "GE"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804922/if-you-invested-1000-ge-aerospace-stock-5-years-ago-you-would-have-much-today"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:19",
+    "headline": "Realty Income Q3 2026 Earnings Call Transcript",
+    "summary": "Realty Income (NYSE:O) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "O"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804866/realty-income-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:16",
+    "headline": "$1000 Invested In Teck Resources 5 Years Ago Would Be Worth This Much Today",
+    "summary": "Teck Resources (NYSE:TECK) has outperformed the market over the past 5 years by 8.36% on an annualized basis producing an average annual return of 18.29%. Currently, Teck Resources has a market capitalization of $29.76",
+    "source": "benzinga",
+    "author": "Benzinga Insights",
+    "symbols": [
+     "TECK"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804851/1000-invested-teck-resources-5-years-ago-would-be-worth-much-today"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:16",
+    "headline": "Empire State Realty Trust Q3 FFO $0.20 Beats $0.19 Estimate, Sales $161.966M Miss $193.230M Estimate",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "ESRT"
+    ],
+    "url": "https://www.benzinga.com/news/earnings/26/11/62804841/empire-state-realty-trust-q3-ffo-0-20-beats-0-19-estimate-sales-161-966m-miss-193-230m-estimate"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:13",
+    "headline": "Empire State Realty Trust Raises FY2026 FFO Guidance from $0.75-$0.79 to $0.77-$0.80 vs $0.79 Est",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "ESRT"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804828/empire-state-realty-trust-raises-fy2026-ffo-guidance-0-75-0-79-0-77-0-80-vs-0-79-est"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:12",
+    "headline": "Tactile Systems Tech Q3 2026 Earnings Call Transcript",
+    "summary": "Tactile Systems Tech (NASDAQ:TCMD) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "TCMD"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804802/tactile-systems-tech-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:12",
+    "headline": "Inspire Medical Systems Q3 2026 Earnings Call Transcript",
+    "summary": "Inspire Medical Systems (NYSE:INSP) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "INSP"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804801/inspire-medical-systems-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:11",
+    "headline": "Fabrinet Q1 2027 Earnings Call Transcript",
+    "summary": "Fabrinet (NYSE:FN) reported first-quarter financial results on Monday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "FN"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804787/fabrinet-q1-2027-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:10",
+    "headline": "Aehr Test System Q1 2027 Earnings Call Transcript",
+    "summary": "Aehr Test System (NASDAQ:AEHR) reported first-quarter financial results on Monday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "AEHR"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804775/aehr-test-system-q1-2027-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:09",
+    "headline": "Paymentus Holdings Q3 2026 Earnings Call Transcript",
+    "summary": "Paymentus Holdings (NYSE:PAY) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "PAY"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804765/paymentus-holdings-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:09",
+    "headline": "SBA Comms Q3 2026 Earnings Call Transcript",
+    "summary": "SBA Comms (NASDAQ:SBAC) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "SBAC"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804746/sba-comms-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:07",
+    "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "SPY",
+     "USO",
+     "VGK"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804713/us-hold-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-official-reuters"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:07",
+    "headline": "Allison Transmission Q3 2026 Earnings Call Transcript",
+    "summary": "Allison Transmission (NYSE:ALSN) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "ALSN"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804612/allison-transmission-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:06",
+    "headline": "Apple Q4 2026 Earnings Call Transcript",
+    "summary": "Apple (NASDAQ:AAPL) reported fourth-quarter financial results on Monday. The transcript from the company\u2019s fourth-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "AAPL"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:05",
+    "headline": "Douglas Dynamics Q3 Adj. EPS $0.98 Beats $0.92 Estimate, Sales $218.014M Miss $218.601M Estimate",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PLOW"
+    ],
+    "url": "https://www.benzinga.com/quote/PLOW"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:04",
+    "headline": "Douglas Dynamics Raises FY2026 Adj EPS Guidance from $2.90-$3.40 to $3.00-$3.40 vs $3.20 Est; Raises FY2026 Sales Guidance from $765.000M-$805.000M to $770.000M-$805.000M vs $775.628M Est",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PLOW"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804570/douglas-dynamics-raises-fy2026-adj-eps-guidance-2-90-3-40-3-00-3-40-vs-3-20-est-raises-fy2026-sales-"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:04",
+    "headline": "First Capital REIT Q3 FFO $0.37 Beats $0.34 Estimate, Sales $187.171M",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "TSX:FCR",
+     "TSX:FCR/UN"
+    ],
+    "url": "https://www.benzinga.com/news/earnings/26/11/62804565/first-capital-reit-q3-ffo-0-37-beats-0-34-estimate-sales-187-171m"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:04",
+    "headline": "Upwork Q3 2026 Earnings Call Transcript",
+    "summary": "Upwork (NASDAQ:UPWK) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.Benzinga APIs provide real-time access to earnings call",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "UPWK"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804558/upwork-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:04",
+    "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "MSFT"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62804542/openai-hires-former-us-army-secretary-military-seeks-expand-ai-use-financial-times"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Recursion Announces Positive Phase 2 Data for REC-4881 in TUPELO Trial",
+    "summary": "Recursion reported positive Phase 2 data for its investigational MEK1/2 inhibitor, REC-4881, showing significant polyp burden reductions in patients with familial adenomatous polyposis.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RXRX"
+    ],
+    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/new-phase-2-rec-4881-data-presented-at-cga-igc-show-deep-durable-polyp-burden-reductions-in-fap-with-activity-across-the-gi-tract-and-in-larger-higher-risk-polyps/2460053"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Recursion Reports Third Quarter 2026 Financial Results and Business Updates",
+    "summary": "Recursion Pharmaceuticals reported its financial results for the third quarter ended September 30, 2026, alongside updates on its clinical pipeline and platform execution.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RXRX"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393771/0/en/recursion-reports-third-quarter-2026-financial-results-and-extends-cash-runway-highlights-positive-clinical-data-in-rec-4881-and-rec-1245-sanofi-development-candidate-option-and-ap.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Recursion Appoints Fred Hassan as Chair of the Board",
+    "summary": "Recursion Pharmaceuticals announced the appointment of industry veteran Fred Hassan as Chair of the Board, effective October 31, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RXRX"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393720/0/en/recursion-appoints-fred-hassan-as-chair-of-the-board.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Citigroup Maintains Buy Rating on Sonic Automotive, Lowers Price Target to $98",
+    "summary": "Citigroup has maintained its 'Buy' rating on Sonic Automotive while adjusting the price target from $115 to $98.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "SAH"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:a9eb7a6f6b2ef:0-citigroup-maintains-sonic-automotive-at-buy-lowers-price-target-to-98-from-115/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Sonic Automotive Highlights EchoPark Expansion and Used Supply Trends at Symposium",
+    "summary": "Sonic Automotive reported sequential gains in gross profit per unit and strong EchoPark growth during its 50th Annual Automotive Symposium.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "SAH"
+    ],
+    "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4433900:0-sah-echopark-expansion-and-improving-used-supply-anchor-the-growth-outlook/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Analysts Update Price Targets for Olin Corporation",
+    "summary": "Several financial institutions, including Citigroup and RBC Capital, updated their price targets and ratings for Olin Corporation on November 2, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "OLN"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:947c322bb5ccd:0-citigroup-maintains-olin-at-neutral-raises-price-target-to-19-from-17/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Twisted Tea Announces Return of '25 Days of Twistmas' Holiday Calendar",
+    "summary": "The Boston Beer Company's Twisted Tea brand is bringing back its limited-edition holiday calendar featuring 25 tallboy cans of various flavors.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "SAM"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393544/0/en/twisted-tea-is-making-the-holiday-countdown-even-more-twisted-with-its-25-days-of-twistmas-calendar.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Cantor Fitzgerald Maintains Overweight Rating on Trulieve Cannabis Corp.",
+    "summary": "Cantor Fitzgerald has reaffirmed its \"Overweight\" rating and $15 price target for Trulieve Cannabis Corp.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TRLV"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:fb4f3e1e63624:0-cantor-fitzgerald-maintains-trulieve-cannabis-at-overweight-keeps-price-target-at-15/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Travere Therapeutics Reports Third Quarter 2026 Financial Results",
+    "summary": "Travere Therapeutics announced its financial results for the third quarter of 2026, highlighting $200 million in net product sales for FILSPARI.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TVTX"
+    ],
+    "url": "https://www.businesswire.com/newsroom"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Nebraska Public Service Commission Reminds Customers of Cold Weather Rule",
+    "summary": "The Nebraska Public Service Commission has issued a reminder regarding the state's Cold Weather Rule, which impacts utility providers including Black Hills Energy.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BKH"
+    ],
+    "url": "https://world.einnews.com/pr_news/953977699/cold-weather-rule-takes-effect-for-winter-season"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Arcus Biosciences to Participate in the Jefferies Global Healthcare Conference 2026",
+    "summary": "Arcus Biosciences announced that its management team will participate in a fireside chat at the Jefferies Global Healthcare Conference in London on November 16, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RCUS"
+    ],
+    "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
+   },
+   {
+    "time_ny": "Mon 02 Nov 18:03",
+    "headline": "Ultra Clean Holdings, Inc. Reports Q3 2026 Financial Results and Provides Q4 Outlook",
+    "summary": "Ultra Clean Holdings, Inc. reported record third-quarter 2026 revenue of $759 million and issued fourth-quarter revenue guidance of $800 million to $860 million, while disclosing a $600 million capital raise.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "UCTT"
+    ],
+    "url": "https://www.tradingview.com/news/zacks:4f5cca59b094b:0-what-uctt-s-q3-beat-and-strong-q4-guidance-mean-for-investors-now/"
+   }
+  ],
+  "tickers": {
+   "AAPL": [
+    {
+     "time_ny": "Mon 02 Nov 19:01",
+     "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+     "summary": "Apple announced record-breaking revenue of $114.5 billion for its fiscal fourth quarter, marking a 12% increase year-over-year and the company's best fiscal year to date.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://appleosophy.com/wire/4etili1/"
+    },
+    {
+     "time_ny": "Mon 02 Nov 18:06",
+     "headline": "Apple Q4 2026 Earnings Call Transcript",
+     "summary": "Apple (NASDAQ:AAPL) reported fourth-quarter financial results on Monday. The transcript from the company\u2019s fourth-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+     "source": "benzinga",
+     "author": "Earnings Transcripts",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:46",
+     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
+     "source": "benzinga",
+     "author": "Chris Katje",
+     "symbols": [
+      "AAPL",
+      "CRWD",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "PLTR",
+      "TSLA"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:45",
+     "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62804210/apple-cfo-says-co-s-manufacturing-purchase-obligations-increased-33b-between-june-and-september-quar"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:40",
+     "headline": "Apple CFO Says\u00a0We See Pricing For Memory Purchases Continuing To Increase",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62804162/apple-cfo-says-we-see-pricing-memory-purchases-continuing-increase"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:33",
+     "headline": "Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62803924/apple-cfo-says-higher-memory-costs-siri-ai-development-expenses-will-affect-gross-margin"
+    }
+   ],
+   "PLTR": [
+    {
+     "time_ny": "Mon 02 Nov 17:55",
+     "headline": "Palantir Technologies Q3 2026 Earnings Call Transcript",
+     "summary": "Palantir Technologies (NASDAQ:PLTR) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+     "source": "benzinga",
+     "author": "Earnings Transcripts",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62804374/palantir-technologies-q3-2026-earnings-call-transcript"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:46",
+     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
+     "source": "benzinga",
+     "author": "Chris Katje",
+     "symbols": [
+      "AAPL",
+      "CRWD",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "PLTR",
+      "TSLA"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
+    },
+    {
+     "time_ny": "Mon 02 Nov 17:05",
+     "headline": "Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62802896/palantir-exec-says-q3-average-trailing-12-month-revenue-our-top-20-customers-increased-76-yoy-146m-c"
+    },
+    {
+     "time_ny": "Mon 02 Nov 16:31",
+     "headline": "Palantir Technologies Inc. Reports Q3 2026 Financial Results",
+     "summary": "Palantir Technologies Inc. reported third-quarter 2026 revenue of $2.31 billion, surpassing analyst expectations and marking the company's first quarter exceeding $2 billion in revenue.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.marketscreener.com/news/palantir-technologies-q3-us-government-revenue-at-953-million-vs-factset-analyst-consensus-of-854-ce785fd9da8bf423"
+    },
+    {
+     "time_ny": "Mon 02 Nov 16:22",
+     "headline": "Palantir Posts Q3 Double Beat, Lifts Guidance \u2014 'Extraordinary' Is an 'Understatement'",
+     "summary": "Palantir Technologies Inc (NASDAQ:PLTR) reports financial results for the third-quarter after the market close on Monday.",
+     "source": "benzinga",
+     "author": "Adam Eckert",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62799346/palantir-posts-q3-double-beat-lifts-guidance-extraordinary-is-an-understatement"
+    },
+    {
+     "time_ny": "Mon 02 Nov 16:14",
+     "headline": "Palantir Technologies CEO Says Sovereign AI Movement Is Imposing the Most Dramatic Dichotomy Between Haves and Have Nots That I Have Witnessed in 30 Years of Business; Every Institution, Government And Commercial, Is Rapidly Being Forced, Voluntarily or Not, Into One of These Two Categories",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62798466/palantir-technologies-ceo-says-sovereign-ai-movement-imposing-most-dramatic-dichotomy-between-haves-"
+    }
+   ],
+   "AMD": [
+    {
+     "time_ny": "Mon 02 Nov 15:30",
+     "headline": "AMD, Shopify On Deck Tuesday As AI Spending, Merchant Growth Face Test",
+     "summary": "Advanced Micro Devices headlines Tuesday\u2019s reports, with investors looking for evidence that AI demand can withstand a sharp pullback in the stock. Shopify, Pfizer, Eaton, Marathon Petroleum and Ferrari report before",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "ADM",
+      "AIG",
+      "AIZ",
+      "ALAB",
+      "AMD",
+      "AME",
+      "AMGN",
+      "ANET",
+      "APO",
+      "BKNG",
+      "CPNG",
+      "ETN",
+      "FISV",
+      "FTS",
+      "IFF",
+      "ITUB",
+      "KDP",
+      "MPC",
+      "MPLX",
+      "OVV",
+      "PFE",
+      "PRU",
+      "RACE",
+      "SHOP",
+      "SMCI",
+      "SU",
+      "SWKS",
+      "SYY",
+      "TEVA",
+      "TOST",
+      "TRI",
+      "WAT",
+      "XYZ",
+      "YUM"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62795239/amd-shopify-on-deck-tuesday-as-ai-spending-merchant-growth-face-test"
+    },
+    {
+     "time_ny": "Mon 02 Nov 15:30",
+     "headline": "AMD Could Swing $90.7 Billion After Earnings",
+     "summary": "Seven major companies are set to report earnings Tuesday, and options traders are pricing in significant stock moves. From Pfizer\u2019s modest 4.14% implied move to Shopify\u2019s 13.01% swing, here\u2019s a countdown of the stocks with the biggest post-earnings volatility expectations, includ",
+     "source": "benzinga",
+     "author": "Kaustubh Bagalkote",
+     "symbols": [
+      "AMD",
+      "AMGN",
+      "ANET",
+      "BKNG",
+      "ETN",
+      "PFE",
+      "SHOP"
+     ],
+     "url": "https://www.benzinga.com/markets/options/26/11/62795225/amd-could-swing-90-7-billion-after-earnings"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:48",
+     "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
+     "summary": "AMD stock is up over 100% in 2026, but a recent selloff has shares down from highs. Here&#39;s the key items to watch in Q3 earnings that could rally the stock again.",
+     "source": "benzinga",
+     "author": "Chris Katje",
+     "symbols": [
+      "AMD",
+      "INTC"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62789109/amd-q3-preview-expert-says-growth-story-remains-impressive-can-earnings-send-stock-back-to-highs"
+    }
+   ],
+   "TQQQ": [],
+   "GFI": [],
+   "UAL": [
+    {
+     "time_ny": "Mon 02 Nov 18:01",
+     "headline": "United Airlines Faces FTC Probe and Scrutiny Over Pricing Coordination",
+     "summary": "United Airlines is under regulatory scrutiny regarding its use of personal data for tailored pricing and is seeking approval for a pricing coordination agreement with Air Canada.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "UAL"
+     ],
+     "url": "https://www.tradingview.com/news/tradingview:f6a38fae09c1c:0-weekly-recap-fare-rise-warning-on-routes-and-starlink-coverage-growth/"
+    }
+   ],
+   "ASX": [],
+   "BABA": [],
+   "ECHO": [
+    {
+     "time_ny": "Mon 02 Nov 14:02",
+     "headline": "New Street Research Upgrades EchoStar Price Target",
+     "summary": "New Street Research has adjusted its price target for EchoStar Corporation to $207 from $156.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ECHO"
+     ],
+     "url": "https://www.marketscreener.com/news/new-street-research-adjusts-echostar-price-target-to-207-from-156-ce785fd9d88ff725"
+    }
+   ],
+   "SKHY": [],
+   "DAL": [
+    {
+     "time_ny": "Mon 02 Nov 17:31",
+     "headline": "If You Invested $100 In Delta Air Lines Stock 15 Years Ago, You Would Have This Much Today",
+     "summary": "Delta Air Lines (NYSE:DAL) has outperformed the market over the past 15 years by 4.19% on an annualized basis producing an average annual return of 16.72%. Currently, Delta Air Lines has a market capitalization of",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "DAL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62803871/if-you-invested-100-delta-air-lines-stock-15-years-ago-you-would-have-much-today"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:32",
+     "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+     "summary": "Oil tumbles on renewed U.S.-Iran diplomacy, pulling Treasury yields lower and lifting the Dow, airlines and Amazon while energy stocks lag.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "AAPL",
+      "AMZN",
+      "AXSM",
+      "BTCUSD",
+      "DAL",
+      "DIA",
+      "ENPH",
+      "FANG",
+      "FRMI",
+      "GDX",
+      "HD",
+      "IDXX",
+      "IWM",
+      "JETS",
+      "LITE",
+      "MRVL",
+      "NXT",
+      "O",
+      "ON",
+      "P",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "TEM",
+      "TSLA",
+      "VOO",
+      "VRTX",
+      "WING",
+      "WMB",
+      "XLE",
+      "XLY",
+      "XOM",
+      "XOP"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx"
+    }
+   ],
+   "PDD": [
+    {
+     "time_ny": "Mon 02 Nov 10:05",
+     "headline": "Alibaba, JD.com, PDD Stocks Climb Monday After Brutal October for Chinese Stocks: What\u2019s Going On?",
+     "summary": "Alibaba, JD.com, and PDD Holdings are rising after a report that China\u2019s central bank and regulators will discuss market support measures.",
+     "source": "benzinga",
+     "author": "Dylan Berman",
+     "symbols": [
+      "BABA",
+      "JD",
+      "PDD"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62781477/alibaba-jd-com-pdd-stocks-climb-monday-after-brutal-october-for-chinese-stocks-whats-going-on"
+    }
+   ],
+   "CCL": [],
+   "STM": [
+    {
+     "time_ny": "Mon 02 Nov 12:01",
+     "headline": "STMicroelectronics Announces Share Repurchase Program Status",
+     "summary": "STMicroelectronics disclosed the status of its common share repurchase program for the period of October 26 to October 30, 2026.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "STM"
+     ],
+     "url": "https://www.globenewswire.com/news-release/2026/11/02/3393073/0/en/stmicroelectronics-announces-status-of-common-share-repurchase-program.html"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:31",
+     "headline": "Stabilus SE Reports 41st Interim Update on 2025 Share Buyback Program",
+     "summary": "Stabilus SE announced that it has repurchased a total of 971,611 shares under its 2025 share buyback program as of November 2, 2026.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "STM"
+     ],
+     "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-1036699794"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:01",
+     "headline": "Jefferies Maintains Buy Rating on STMicroelectronics",
+     "summary": "Jefferies analyst Janardan Menon maintained a \"Buy\" rating on STMicroelectronics with a price target of 56 Euro.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "STM"
+     ],
+     "url": "https://www.finanzen.ch/analyse/stmicroelectronics-buy-1116478"
+    }
+   ],
+   "AU": [
+    {
+     "time_ny": "Mon 02 Nov 07:31",
+     "headline": "TD Cowen Initiates Bullish Rating on AngloGold Ashanti",
+     "summary": "Analyst Steven Green of TD Cowen has issued a bullish rating on AngloGold Ashanti (AU) with a price target of $123.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "AU"
+     ],
+     "url": "https://www.moomoo.com/ja/news/post/1003173594/td-cowen-initiates-anglogold-ashanti-auus-with-buy-rating-announces"
+    }
+   ],
+   "TEM": [
+    {
+     "time_ny": "Mon 02 Nov 14:02",
+     "headline": "Tempus AI Receives Regulatory Clearance for Personalis Acquisition",
+     "summary": "Tempus AI announced that its proposed acquisition of Personalis has cleared regulatory review, with a shareholder vote scheduled for late November.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TEM"
+     ],
+     "url": "https://www.moomoo.com/stock/TEM-US/news?chain_id=Name1K9-3FXPhg.1lefkk0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FTSM261106C462500-US%22%7D"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:42",
+     "headline": "Needham Maintains Buy on Tempus AI, Raises Price Target to $89",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TEM"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62788848/needham-maintains-buy-tempus-ai-raises-price-target-89"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:37",
+     "headline": "Tempus AI Says It Is Uniquely Positioned",
+     "summary": "Tempus AI stock rises after beating Q3 earnings estimates and securing $192.5 million in data deals with Bristol Myers Squibb and Pathos.",
+     "source": "benzinga",
+     "author": "Vandana Singh",
+     "symbols": [
+      "BMY",
+      "TEM"
+     ],
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62788681/tempus-ai-says-it-is-uniquely-positioned"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:32",
+     "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+     "summary": "Oil tumbles on renewed U.S.-Iran diplomacy, pulling Treasury yields lower and lifting the Dow, airlines and Amazon while energy stocks lag.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "AAPL",
+      "AMZN",
+      "AXSM",
+      "BTCUSD",
+      "DAL",
+      "DIA",
+      "ENPH",
+      "FANG",
+      "FRMI",
+      "GDX",
+      "HD",
+      "IDXX",
+      "IWM",
+      "JETS",
+      "LITE",
+      "MRVL",
+      "NXT",
+      "O",
+      "ON",
+      "P",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "TEM",
+      "TSLA",
+      "VOO",
+      "VRTX",
+      "WING",
+      "WMB",
+      "XLE",
+      "XLY",
+      "XOM",
+      "XOP"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:32",
+     "headline": "Tempus AI Reports Third Quarter 2026 Financial Results",
+     "summary": "Tempus AI, Inc. announced its financial results for the third quarter ended September 30, 2026, reporting $411.5 million in revenue.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TEM"
+     ],
+     "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:13",
+     "headline": "Tempus AI Q3 Gross Margin 64.8% vs 62.8% Y/Y",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TEM"
+     ],
+     "url": "https://www.benzinga.com/quote/TEM"
+    }
+   ],
+   "EQNR": [
+    {
+     "time_ny": "Mon 02 Nov 05:42",
+     "headline": "Reported November 1, 'U.S. Pushes to Restore Russian Gas Sales to Europe Via Ukraine' - WSJ Exclusive",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga News-desk",
+     "symbols": [
+      "CQP",
+      "EQNR",
+      "EZU",
+      "LNG",
+      "LNGX",
+      "NEXT",
+      "UNG",
+      "VG",
+      "VGK"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62770417/reported-november-1-u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-wsj-exclusive"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:13",
+     "headline": "Equinor CEO Says Shipping Costs Have Rapidly Changed, Efficient Market That We Were Used To Is Not There Anymore.",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga News-desk",
+     "symbols": [
+      "EQNR"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62773577/equinor-ceo-says-shipping-costs-have-rapidly-changed-efficient-market-that-we-were-used-to-is-not-there-anymore"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:02",
+     "headline": "Kosmos Energy Posts Downbeat Q3 Results, Joins Once Upon A Farm And Other Big Stocks Moving Lower In Monday\u2019s Pre-Market Session",
+     "summary": "U.S. futures rose, but Kosmos Energy plunged 13.6% after missing Q3 earnings and sales estimates; other stocks also fell in premarket trading.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "ADUR",
+      "AFYA",
+      "EQNR",
+      "GOTU",
+      "KOS",
+      "NAK",
+      "NBTX",
+      "OFRM",
+      "PGEN",
+      "SVRN"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62775680/kosmos-energy-posts-downbeat-q3-results-joins-once-upon-a-farm-and-other-big-stocks-moving-lower-in-mondays-pre-market-session"
+    }
+   ],
+   "LITE": [
+    {
+     "time_ny": "Mon 02 Nov 12:35",
+     "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+     "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "AAPL",
+      "DELL",
+      "FSLR",
+      "INTC",
+      "LITE",
+      "MRVL",
+      "MSFT",
+      "PLTR",
+      "RIOT",
+      "TER"
+     ],
+     "url": "https://www.benzinga.com/markets/options/26/11/62788450/10-information-technology-stocks-whale-alerts-today-s-session"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:32",
+     "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+     "summary": "Oil tumbles on renewed U.S.-Iran diplomacy, pulling Treasury yields lower and lifting the Dow, airlines and Amazon while energy stocks lag.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "AAPL",
+      "AMZN",
+      "AXSM",
+      "BTCUSD",
+      "DAL",
+      "DIA",
+      "ENPH",
+      "FANG",
+      "FRMI",
+      "GDX",
+      "HD",
+      "IDXX",
+      "IWM",
+      "JETS",
+      "LITE",
+      "MRVL",
+      "NXT",
+      "O",
+      "ON",
+      "P",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "TEM",
+      "TSLA",
+      "VOO",
+      "VRTX",
+      "WING",
+      "WMB",
+      "XLE",
+      "XLY",
+      "XOM",
+      "XOP"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:05",
+     "headline": "12 Information Technology Stocks Moving In Monday's Intraday Session",
+     "summary": "Gainers\n\nGen Digital Inc. - Contingent Value Rights (NASDAQ:GENVR) shares rose 72.5% to $3.23 during Monday&#39;s regular session. \nClearOne (NASDAQ:CLRO) shares rose 71.26% to $5.84. The market value of their",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "CLRO",
+      "DVLT",
+      "ENPH",
+      "GENVR",
+      "HUBC",
+      "LITE",
+      "MF",
+      "NSSC",
+      "PARA",
+      "REKR",
+      "RPGL",
+      "XLAB"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62787054/12-information-technology-stocks-moving-monday-s-intraday-session"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:35",
+     "headline": "QUICK SPARK: Marvell Stock Eyes Worst 3-Day Drop Since September 2001",
+     "summary": "Marvell stock has fallen 27.7% in three sessions after its $115 billion all-stock Lumentum deal, its worst three-day drop since 2001.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "LITE",
+      "MRVL",
+      "SMH"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62785648/marvell-stock-worst-3-day-drop-since-september-2001-lumentum"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:48",
+     "headline": "Marvell Buys Lumentum for $115 Billion: How Could This Deal Affect the Stock?",
+     "summary": "Marvell&#39;s all-stock Lumentum deal is worth far less than $115 billion after a 25% slide in its shares. What analysts say and what it means for the stock.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "LITE",
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/m-a/26/11/62780578/marvell-lumentum-deal-115-billion-stock-analyst-ratings"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:38",
+     "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "LITE",
+      "MRVL",
+      "NVDA"
+     ],
+     "url": "https://www.benzinga.com/quote/NVDA"
+    }
+   ],
+   "CHKP": [
+    {
+     "time_ny": "Mon 02 Nov 10:11",
+     "headline": "Check Point Sees Revenue Recovery Starting in Fourth Quarter",
+     "summary": "Check Point reported adjusted EPS of $2.49, beating estimates, while revenue fell 1% year over year to $669.8 million, missing expectations.",
+     "source": "benzinga",
+     "author": "Lekha Gupta",
+     "symbols": [
+      "CHKP",
+      "GGTL"
+     ],
+     "url": "https://www.benzinga.com/markets/large-cap/26/11/62781849/check-point-sees-revenue-recovery-starting-in-fourth-quarter"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:41",
+     "headline": "Check Point Software Q3 2026 Earnings Call Transcript",
+     "summary": "Check Point Software (NASDAQ:CHKP) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+     "source": "benzinga",
+     "author": "Earnings Transcripts",
+     "symbols": [
+      "CHKP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62780193/check-point-software-q3-2026-earnings-call-transcript"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:16",
+     "headline": "Conference call:\nCheck Point Software Sees Q4 Adj EPS $2.71-$2.83 vs $2.91 Est; Sees Sales $720.000M-$770.000M vs $787.324M Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "CHKP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62779163/conference-call-check-point-software-sees-q4-adj-eps-2-71-2-83-vs-2-91-est-sees-sales-720-000m-770-0"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:16",
+     "headline": "Conference call:\nCheck Point Software Sees Q4 GAAP EPS $2.01-$2.13 vs $2.22 Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "CHKP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62779148/conference-call-check-point-software-sees-q4-gaap-eps-2-01-2-13-vs-2-22-est"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:16",
+     "headline": "Conference call:\nCheck Point Software Tech Narrows FY2026 Adj EPS Guidance from $10.05-$10.85 to $10.25-$10.37 vs $10.44 Est; Lowers FY2026 Sales Guidance from $2.770B-$2.850B to $2.732B-$2.782B vs $2.801B Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "CHKP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62779137/conference-call-check-point-software-tech-narrows-fy2026-adj-eps-guidance-10-05-10-85-10-25-10-37-vs"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:16",
+     "headline": "Conference call:\nCheck Point Software Tech Narrows FY2026 GAAP EPS Guidance from $7.47-$8.27 to $7.51-$7.63 vs $7.78 Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "CHKP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62779110/conference-call-check-point-software-tech-narrows-fy2026-gaap-eps-guidance-7-47-8-27-7-51-7-63-vs-7-"
+    }
+   ],
+   "FRO": [],
+   "ORCL": [
+    {
+     "time_ny": "Mon 02 Nov 14:01",
+     "headline": "Oracle Announces $20 Billion Fundraising Plan for AI Cloud Expansion",
+     "summary": "Oracle Corporation has announced plans to raise $20 billion through a combination of a $10 billion common stock offering and a $10 billion debt offering to support its artificial intelligence cloud infrastructure buildout.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ORCL"
+     ],
+     "url": "https://www.morningstar.com/news/marketwatch/2026110284/oracle-wants-20-billion-to-fund-its-ai-future-and-its-stock-is-paying-the-price"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:15",
+     "headline": "Oracle Shares Dip Monday: What's Happening?",
+     "summary": "Oracle shares are trading lower Monday after Bloomberg reported that the company kicked off a $10 billion sale of U.S. investment-grade bonds.",
+     "source": "benzinga",
+     "author": "Dylan Berman",
+     "symbols": [
+      "ORCL"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62779087/oracle-shares-dip-monday-whats-happening"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:41",
+     "headline": "\u2018Big Short\u2019 Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction \u2014 \u2018...Could Go Into a Recession Immediately\u2019",
+     "summary": "Investor Steve Eisman flags three AI risks that could reverse spending, trigger a stock market correction and spark recession fears.",
+     "source": "benzinga",
+     "author": "Namrata Sen",
+     "symbols": [
+      "NVDA",
+      "ORCL"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62777488/big-short-investor-steve-eisman-warns-ai-price-cuts-and-slowing-usage-could-trigger-a-massive-stock-market-correction-could-go-into-a-recession-immediately"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:29",
+     "headline": "Stephens & Co. Upgrades Oracle to Overweight, Raises Price Target to $213",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "ORCL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62776796/stephens-co-upgrades-oracle-overweight-raises-price-target-213"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:20",
+     "headline": "Oracle Announces $10B Public Offering Of Common Stock; Concurrently With $10B Senior Notes Offering",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "ORCL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62776551/oracle-announces-10b-public-offering-common-stock-concurrently-10b-senior-notes-offering"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:02",
+     "headline": "Oracle Launches Six-Part US Dollar High-Grade Bond Offering",
+     "summary": "Oracle has initiated a six-part, US dollar-denominated high-grade bond offering to support its capital structure.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ORCL"
+     ],
+     "url": "https://www.moomoo.com/news/post/1003190140/oracle-launches-six-part-us-dollar-high-grade-bond-offering"
+    }
+   ],
+   "TSEM": [
+    {
+     "time_ny": "Mon 02 Nov 17:27",
+     "headline": "CORRECTION: Tower Semiconductor Sees Q4 Sales $570.000M-$630.000M vs $574.727M Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62803730/correction-tower-semiconductor-sees-q4-sales-570-000m-630-000m-vs-574-727m-est"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:29",
+     "headline": "Tower Semiconductor Q3 2026 Earnings Call Transcript",
+     "summary": "Tower Semiconductor (NASDAQ:TSEM) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
+     "source": "benzinga",
+     "author": "Earnings Transcripts",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62785363/tower-semiconductor-q3-2026-earnings-call-transcript"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:02",
+     "headline": "Tower Semiconductor Reports Record Third Quarter 2026 Financial Results",
+     "summary": "Tower Semiconductor announced record third-quarter 2026 revenue of $526 million and provided fourth-quarter revenue guidance of $600 million.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.globenewswire.com/news-release/2026/11/02/3392999/0/en/tower-semiconductor-reports-third-quarter-record-results-providing-record-fourth-quarter-guidance-resulting-in-2026-2-billion-annual-revenue.html"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:10",
+     "headline": "Tower Semiconductor CEO Says the Company's Biggest Growth Phase Has Arrived",
+     "summary": "Tower Semiconductor stock rises after record Q3 2026 earnings beat estimates, led by 33% revenue growth and strong Q4 guidance.",
+     "source": "benzinga",
+     "author": "Anusuya Lahiri",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62778839/tower-semiconductor-ceo-says-the-companys-biggest-growth-phase-has-arrived"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:20",
+     "headline": "Tower Semiconductor Q3 Operating Cash Flow $185M; Capex $191M",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.benzinga.com/quote/TSEM"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:20",
+     "headline": "Tower Semiconductor Customer Advances Up $305M In First Nine Months",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TSEM"
+     ],
+     "url": "https://www.benzinga.com/quote/TSEM"
+    }
+   ],
+   "CNQ": [
+    {
+     "time_ny": "Mon 02 Nov 07:30",
+     "headline": "Traders Are Pricing a 12% Swing in Shopify Ahead of Earnings",
+     "summary": "Shopify leads the Q3 2026 earnings volatility watchlist with a 12.08% implied move, followed by Cloudflare at 12.07%, as traders brace for earnings.",
+     "source": "benzinga",
+     "author": "Kaustubh Bagalkote",
+     "symbols": [
+      "BKNG",
+      "CNQ",
+      "COP",
+      "CVS",
+      "MCD",
+      "NET",
+      "QCOM",
+      "SHOP",
+      "UBER"
+     ],
+     "url": "https://www.benzinga.com/markets/options/26/11/62774324/traders-are-pricing-a-12-swing-in-shopify-ahead-of-earnings"
+    }
+   ],
+   "MRVL": [
+    {
+     "time_ny": "Mon 02 Nov 16:32",
+     "headline": "Marvell Technology Narrows Fiscal Third-Quarter Revenue Outlook",
+     "summary": "Marvell Technology, Inc. has updated its fiscal third-quarter revenue guidance, narrowing the range to $3.15 billion, plus or minus 2%.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "MRVL"
+     ],
+     "url": "https://www.moomoo.com/stock/MRVL-US/news?chain_id=Name1K9-3FXPhg.1lefkk0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FAAPL261104P405000-US%22%7D"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:35",
+     "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+     "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "AAPL",
+      "DELL",
+      "FSLR",
+      "INTC",
+      "LITE",
+      "MRVL",
+      "MSFT",
+      "PLTR",
+      "RIOT",
+      "TER"
+     ],
+     "url": "https://www.benzinga.com/markets/options/26/11/62788450/10-information-technology-stocks-whale-alerts-today-s-session"
+    },
+    {
+     "time_ny": "Mon 02 Nov 12:32",
+     "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+     "summary": "Oil tumbles on renewed U.S.-Iran diplomacy, pulling Treasury yields lower and lifting the Dow, airlines and Amazon while energy stocks lag.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "AAPL",
+      "AMZN",
+      "AXSM",
+      "BTCUSD",
+      "DAL",
+      "DIA",
+      "ENPH",
+      "FANG",
+      "FRMI",
+      "GDX",
+      "HD",
+      "IDXX",
+      "IWM",
+      "JETS",
+      "LITE",
+      "MRVL",
+      "NXT",
+      "O",
+      "ON",
+      "P",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "TEM",
+      "TSLA",
+      "VOO",
+      "VRTX",
+      "WING",
+      "WMB",
+      "XLE",
+      "XLY",
+      "XOM",
+      "XOP"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:35",
+     "headline": "QUICK SPARK: Marvell Stock Eyes Worst 3-Day Drop Since September 2001",
+     "summary": "Marvell stock has fallen 27.7% in three sessions after its $115 billion all-stock Lumentum deal, its worst three-day drop since 2001.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "LITE",
+      "MRVL",
+      "SMH"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62785648/marvell-stock-worst-3-day-drop-since-september-2001-lumentum"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:09",
+     "headline": "From Tech Stocks to Staples: October Delivers Wall Street's Biggest Sector Rotation Since Dot-Com Bubble Burst",
+     "summary": "Staples beat tech by 21% in October, the biggest sector rotation since February 2001. XLP had its best month ever as Intel and SanDisk sank.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "ACN",
+      "DLTR",
+      "EL",
+      "INTC",
+      "KDP",
+      "LRCX",
+      "MRVL",
+      "SNDK",
+      "STX",
+      "STZ",
+      "WMT",
+      "XLK",
+      "XLP"
+     ],
+     "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62784556/sector-rotation-staples-tech-october-xlp-xlk-dot-com-2001"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:48",
+     "headline": "Marvell Buys Lumentum for $115 Billion: How Could This Deal Affect the Stock?",
+     "summary": "Marvell&#39;s all-stock Lumentum deal is worth far less than $115 billion after a 25% slide in its shares. What analysts say and what it means for the stock.",
+     "source": "benzinga",
+     "author": "Piero Cingari",
+     "symbols": [
+      "LITE",
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/m-a/26/11/62780578/marvell-lumentum-deal-115-billion-stock-analyst-ratings"
+    }
+   ],
+   "CBRS": [
+    {
+     "time_ny": "Mon 02 Nov 16:37",
+     "headline": "UBS Maintains Buy on Cerebras Systems, Lowers Price Target to $250",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "CBRS"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62800794/ubs-maintains-buy-cerebras-systems-lowers-price-target-250"
+    },
+    {
+     "time_ny": "Mon 02 Nov 15:12",
+     "headline": "Cerebras Stock Hits All-Time Low: What's Happening?",
+     "summary": "Cerebras Systems Inc. (NASDAQ: CBRS) shares are tumbling Monday to a record low, days after a short-seller report sent the stock sliding.",
+     "source": "benzinga",
+     "author": "Evette Mitkov",
+     "symbols": [
+      "CBRS"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62794514/cerebras-stock-hits-all-time-low-whats-happening"
+    },
+    {
+     "time_ny": "Mon 02 Nov 14:02",
+     "headline": "UBS Lowers Price Target on Cerebras Systems to $250",
+     "summary": "UBS adjusted its price target for Cerebras Systems from $330 to $250 while maintaining a Buy rating on the stock.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "CBRS"
+     ],
+     "url": "https://www.marketscreener.com/news/ubs-cuts-price-target-on-cerebras-systems-to-250-from-330-keeps-buy-rating-ce785fd9d98ff224"
+    }
+   ],
+   "COIN": [
+    {
+     "time_ny": "Mon 02 Nov 14:02",
+     "headline": "Keefe Bruyette & Woods and Rothschild & Co Redburn Adjust Coinbase Price Targets",
+     "summary": "Financial firms Keefe Bruyette & Woods and Rothschild & Co Redburn updated their price targets for Coinbase Global, Inc. following the company's recent earnings report.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "COIN"
+     ],
+     "url": "https://www.marketscreener.com/news/coinbase-global-s-softer-revenue-outlook-crypto-uncertainty-challenge-recovery-morgan-stanley-sa-ce785fd9d88bf525"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:30",
+     "headline": "'Big Short' Investor Steve Eisman Faces Viewer Backlash Over Kalshi Ad: 'You're Better Than That'",
+     "summary": "Steve Eisman drew viewer backlash after promoting Kalshi, with some subscribers urging him to drop the sponsor",
+     "source": "benzinga",
+     "author": "Daragh Thomas",
+     "symbols": [
+      "COIN",
+      "HOOD"
+     ],
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62785366/eisman-kalshi-backlash"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:00",
+     "headline": "Bitcoin Bulls Say \u2018Bottom's in\u2019 but Bears Eye $73,000 Ahead of Midterms",
+     "summary": "Bitcoin faces a midterm showdown as bulls call the bottom in, bears target $73,000 and crypto spends $176 million.",
+     "source": "benzinga",
+     "author": "Parshwa Turakhiya",
+     "symbols": [
+      "BTCUSD",
+      "COIN",
+      "SPY",
+      "XRPUSD"
+     ],
+     "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62784007/bitcoin-bulls-say-bottoms-in-but-bears-eye-73000-ahead-of-midterms"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:27",
+     "headline": "This Coinbase Analyst Turns Bearish; Here Are Top 5 Downgrades For Monday",
+     "summary": "Analysts downgraded PFSI, CAMT, BLCO, COIN and FMNB; targets fell for PFSI, CAMT and COIN but rose for BLCO.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "BLCO",
+      "CAMT",
+      "COIN",
+      "FMNB",
+      "PFSI"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/62776725/this-coinbase-analyst-turns-bearish-here-are-top-5-downgrades-for-monday"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:26",
+     "headline": "Regeneron Pharmaceuticals To Rally Around 11%? Here Are 10 Top Analyst Forecasts For Monday",
+     "summary": "Analysts upgraded MHK and CRWD, downgraded PFSI, cut ABOS\u2019s target, and raised targets for NRXP, REGN and NTSK.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "ABOS",
+      "BIIB",
+      "COIN",
+      "CRWD",
+      "H",
+      "MHK",
+      "NRXP",
+      "NTSK",
+      "PFSI",
+      "REGN"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62776677/regeneron-pharmaceuticals-to-rally-around-11-here-are-10-top-analyst-forecasts-for-monday"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:32",
+     "headline": "Rothschild & Co Redburn Lowers Price Target on Coinbase Global",
+     "summary": "Rothschild & Co Redburn has reduced its price target for Coinbase Global, Inc. from $214 to $198.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "COIN"
+     ],
+     "url": "https://www.marketscreener.com/news/rothschild-co-redburn-cuts-price-target-on-coinbase-global-to-198-from-214-ce785fd8d18ef622"
+    }
+   ],
+   "TEVA": [
+    {
+     "time_ny": "Mon 02 Nov 15:30",
+     "headline": "AMD, Shopify On Deck Tuesday As AI Spending, Merchant Growth Face Test",
+     "summary": "Advanced Micro Devices headlines Tuesday\u2019s reports, with investors looking for evidence that AI demand can withstand a sharp pullback in the stock. Shopify, Pfizer, Eaton, Marathon Petroleum and Ferrari report before",
+     "source": "benzinga",
+     "author": "Benzinga Insights",
+     "symbols": [
+      "ADM",
+      "AIG",
+      "AIZ",
+      "ALAB",
+      "AMD",
+      "AME",
+      "AMGN",
+      "ANET",
+      "APO",
+      "BKNG",
+      "CPNG",
+      "ETN",
+      "FISV",
+      "FTS",
+      "IFF",
+      "ITUB",
+      "KDP",
+      "MPC",
+      "MPLX",
+      "OVV",
+      "PFE",
+      "PRU",
+      "RACE",
+      "SHOP",
+      "SMCI",
+      "SU",
+      "SWKS",
+      "SYY",
+      "TEVA",
+      "TOST",
+      "TRI",
+      "WAT",
+      "XYZ",
+      "YUM"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62795239/amd-shopify-on-deck-tuesday-as-ai-spending-merchant-growth-face-test"
+    },
+    {
+     "time_ny": "Mon 02 Nov 11:01",
+     "headline": "Teva Discontinues Phase 2 TOPAS-MSA Study of Emrusolmin",
+     "summary": "Teva Pharmaceutical Industries announced the discontinuation of its Phase 2 TOPAS-MSA clinical trial for emrusolmin (TEV-286) following an interim futility analysis.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TEVA"
+     ],
+     "url": "https://www.globenewswire.com/news-release/2026/11/02/3393074/0/en/teva-to-discontinue-phase-2-topas-msa-study-of-emrusolmin-tev-286-following-interim-futility-analysis.html"
+    },
+    {
+     "time_ny": "Mon 02 Nov 10:01",
+     "headline": "Why Is Teva Stock Trading Lower on Monday?",
+     "summary": "Teva halts its Phase 2 TOPAS-MSA study after an interim futility analysis showed low odds of meeting the primary efficacy endpoint.",
+     "source": "benzinga",
+     "author": "Vandana Singh",
+     "symbols": [
+      "AUPH",
+      "TEVA"
+     ],
+     "url": "https://www.benzinga.com/news/health-care/26/11/62781308/why-is-teva-stock-trading-lower-on-monday"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:40",
+     "headline": "This GameStop Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Monday",
+     "summary": "Analysts initiated bullish coverage on Janus Living, GameStop, SharkNinja, Teva and H2O America, with targets of $33, $33, $245, $52 and $67.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "GME",
+      "HTO",
+      "JAN",
+      "SN",
+      "TEVA"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/11/62777438/this-gamestop-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-monday"
+    },
+    {
+     "time_ny": "Mon 02 Nov 08:03",
+     "headline": "Teva To Discontinue Phase 2 Trial Of Emrusolmin In Multiple System Atrophy After Interim Futility Analysis, No Safety Concerns",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "TEVA"
+     ],
+     "url": "https://www.benzinga.com/quote/TEVA"
+    }
+   ],
+   "OXY": []
+  },
+  "errors": {}
+ }
+}
