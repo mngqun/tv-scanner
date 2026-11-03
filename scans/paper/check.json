@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T20:11:42.937288-05:00",
+ "at": "2026-11-02T20:22:20.545406-05:00",
  "accounts": {
   "A": {
    "http": 200,
@@ -16,7 +16,7 @@
     "is_open": false,
     "next_close": "2026-11-03T16:00:00-05:00",
     "next_open": "2026-11-03T09:30:00-05:00",
-    "timestamp": "2026-11-02T20:11:40.158651145-05:00"
+    "timestamp": "2026-11-02T20:22:17.534037832-05:00"
    },
    "spy_last_iex": 753.17,
    "endpoint": "https://paper-api.alpaca.markets",
@@ -58,7 +58,7 @@
     "is_open": false,
     "next_close": "2026-11-03T16:00:00-05:00",
     "next_open": "2026-11-03T09:30:00-05:00",
-    "timestamp": "2026-11-02T20:11:41.060131451-05:00"
+    "timestamp": "2026-11-02T20:22:18.464370853-05:00"
    },
    "spy_last_iex": 753.17,
    "endpoint": "https://paper-api.alpaca.markets",
@@ -94,6 +94,11 @@
   "alpaca_5m": {
    "bars": 468,
    "last": "(datetime.datetime(2026, 11, 2, 15, 55, tzinfo=zoneinfo.ZoneInfo(key='America/New_York')), 752.97, 752.97, 751.6, 752.12)"
+  },
+  "alpaca_multi_5m": {
+   "AAPL": 79,
+   "SPY": 79,
+   "XOM": 79
   },
   "yahoo_1d": 64
  }
