@@ -1,162 +1,168 @@
 {
- "generated_new_york": "2026-11-03T08:06:58-05:00",
+ "generated_new_york": "2026-11-03T08:42:19-05:00",
  "tickers": [
-  "AMD",
-  "AMGN",
-  "ANET",
-  "SHOP",
-  "PFE",
-  "ETN",
-  "MPC",
-  "APO",
-  "BKNG",
-  "AAPL",
-  "PLTR",
   "TQQQ",
+  "QQQ",
+  "SQQQ",
+  "NVDA",
+  "MSFT",
+  "AAPL",
+  "AMZN",
+  "AVGO",
+  "META",
+  "GOOGL",
+  "TSLA",
   "LSCC",
   "FISV",
   "BE",
   "SNDK",
-  "JD",
-  "MU",
-  "INTC",
-  "WDC",
-  "SKHY",
-  "TEVA",
+  "LRCX",
+  "MRVL",
+  "NBIS",
   "CRDO",
+  "MU",
+  "AMAT",
+  "JD",
+  "INTC",
+  "SHOP",
   "DT",
-  "DOCN",
+  "PLTR",
+  "SYY",
+  "KDP",
+  "FMS",
   "RELX",
-  "NOW",
+  "PBR",
+  "BP",
+  "DOCN",
   "UL"
  ],
  "snapshot": {
   "source": "TradingView scanner (tier per row: streaming = real-time); fallbacks Yahoo chart JSON, FRED",
-  "fetched": "2026-11-03T08:06:58-05:00",
+  "fetched": "2026-11-03T08:42:19-05:00",
   "items": {
    "VIX": {
     "symbol": "CBOE:VIX",
-    "last": 21.36,
-    "chg_pct": 0.99,
-    "chg": 0.21000000000000085,
+    "last": 21.18,
+    "chg_pct": 0.14,
+    "chg": 0.030000000000001137,
     "high": 21.91,
     "low": 21.18,
     "tier": "delayed_streaming_900"
    },
    "US10Y": {
     "symbol": "TVC:US10Y",
-    "last": 4.937,
-    "chg_pct": 0.51,
-    "chg": 0.025000000000000355,
+    "last": 4.906,
+    "chg_pct": -0.12,
+    "chg": -0.006000000000000227,
     "high": 5.037,
-    "low": 4.9,
+    "low": 4.894,
     "tier": "streaming"
    },
    "US02Y": {
     "symbol": "TVC:US02Y",
-    "last": 4.61,
-    "chg_pct": 0.26,
-    "chg": 0.012000000000000455,
+    "last": 4.573,
+    "chg_pct": -0.54,
+    "chg": -0.024999999999999467,
     "high": 5.026,
-    "low": 4.583,
+    "low": 4.564,
     "tier": "streaming"
    },
    "US30Y": {
     "symbol": "TVC:US30Y",
-    "last": 5.307,
-    "chg_pct": 0.38,
-    "chg": 0.020000000000000462,
+    "last": 5.285,
+    "chg_pct": -0.04,
+    "chg": -0.0019999999999997797,
     "high": 5.372,
     "low": 5.273,
     "tier": "streaming"
    },
    "DXY": {
     "symbol": "TVC:DXY",
-    "last": 101.862,
-    "chg_pct": 0.06,
-    "chg": 0.06199999999999761,
+    "last": 101.759,
+    "chg_pct": -0.04,
+    "chg": -0.04099999999999682,
     "high": 101.899,
     "low": 101.624,
     "tier": "streaming"
    },
    "WTI": {
     "symbol": "NYMEX:CL1!",
-    "last": 97.01,
-    "chg_pct": 0.57,
-    "chg": 0.5500000000000114,
+    "last": 94.07,
+    "chg_pct": -2.48,
+    "chg": -2.3900000000000006,
     "high": 98.82,
-    "low": 96.12,
+    "low": 94.06,
     "tier": "delayed_streaming_600"
    },
    "Brent": {
     "symbol": "ICEEUR:BRN1!",
-    "last": 104.79,
-    "chg_pct": 0.02,
-    "chg": 0.020000000000010232,
+    "last": 101.59,
+    "chg_pct": -3.04,
+    "chg": -3.1799999999999926,
     "high": 107.24,
-    "low": 104.27,
+    "low": 101.41,
     "tier": "delayed_streaming_600"
    },
    "Gold": {
     "symbol": "COMEX:GC1!",
-    "last": 3937.5,
-    "chg_pct": -0.81,
-    "chg": -32.09999999999991,
-    "high": 3974.5,
+    "last": 3977.5,
+    "chg_pct": 0.2,
+    "chg": 7.900000000000091,
+    "high": 3978.2,
     "low": 3904.1,
     "tier": "delayed_streaming_600"
    },
    "NatGas": {
     "symbol": "NYMEX:NG1!",
-    "last": 2.894,
-    "chg_pct": 1.33,
-    "chg": 0.038000000000000256,
-    "high": 2.91,
+    "last": 2.889,
+    "chg_pct": 1.16,
+    "chg": 0.03299999999999992,
+    "high": 2.929,
     "low": 2.853,
     "tier": "delayed_streaming_600"
    },
    "ES_fut": {
     "symbol": "CME_MINI:ES1!",
-    "last": 7568.75,
-    "chg_pct": -0.08,
-    "chg": -5.75,
-    "high": 7591.5,
+    "last": 7603.25,
+    "chg_pct": 0.38,
+    "chg": 28.75,
+    "high": 7604.75,
     "low": 7546,
     "tier": "delayed_streaming_600"
    },
    "NQ_fut": {
     "symbol": "CME_MINI:NQ1!",
-    "last": 28226.5,
-    "chg_pct": 0.35,
-    "chg": 99,
-    "high": 28284.5,
+    "last": 28411.25,
+    "chg_pct": 1.01,
+    "chg": 283.75,
+    "high": 28415.25,
     "low": 28038.25,
     "tier": "delayed_streaming_600"
    },
    "YM_fut": {
     "symbol": "CBOT_MINI:YM1!",
-    "last": 51811,
-    "chg_pct": -0.62,
-    "chg": -322,
+    "last": 52075,
+    "chg_pct": -0.11,
+    "chg": -58,
     "high": 52186,
     "low": 51631,
     "tier": "delayed_streaming_600"
    },
    "RTY_fut": {
     "symbol": "CME_MINI:RTY1!",
-    "last": 2818.8,
-    "chg_pct": 0.04,
-    "chg": 1,
-    "high": 2823.6,
+    "last": 2840.4,
+    "chg_pct": 0.8,
+    "chg": 22.59999999999991,
+    "high": 2841.6,
     "low": 2805.8,
     "tier": "delayed_streaming_600"
    },
    "BTC": {
     "symbol": "BITSTAMP:BTCUSD",
-    "last": 77236.29,
-    "chg_pct": 0.74,
-    "chg": 563.8699999999953,
-    "high": 77366,
+    "last": 77512.51,
+    "chg_pct": 1.1,
+    "chg": 840.0899999999965,
+    "high": 77735.73,
     "low": 76268,
     "tier": "streaming"
    }
@@ -164,7 +170,7 @@
   "errors": {}
  },
  "economic": {
-  "fetched": "2026-11-03T08:06:58-05:00",
+  "fetched": "2026-11-03T08:42:20-05:00",
   "events": [
    {
     "time_utc": "2026-11-03T13:55:00.000Z",
@@ -1580,7 +1586,7 @@
  },
  "earnings": {
   "source": "Nasdaq earnings calendar API (api.nasdaq.com)",
-  "fetched": "2026-11-03T08:06:59-05:00",
+  "fetched": "2026-11-03T08:42:20-05:00",
   "days": {
    "2026-11-03": {
     "all": 274,
@@ -2422,841 +2428,839 @@
  },
  "news": {
   "source": "Alpaca news API (Benzinga)",
-  "fetched": "2026-11-03T08:07:03-05:00",
+  "fetched": "2026-11-03T08:42:27-05:00",
   "market": [
    {
-    "time_ny": "Tue 03 Nov 08:04",
-    "headline": "Sysco Appoints Interim CFO Brandon Sewell Permanent CFO, Effective Nov. 1",
+    "time_ny": "Tue 03 Nov 08:39",
+    "headline": "Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn-In Demand",
+    "summary": "Aehr AI demand accelerates as chip complexity drives burn-in needs, hyperscale shipments ramp and fiscal 2027 guidance rises.",
+    "source": "benzinga",
+    "author": "Akanksha Bakshi",
+    "symbols": [
+     "AEHR"
+    ],
+    "url": "https://www.benzinga.com/markets/earnings/26/11/62818603/aehr-stock-surges-as-ceo-says-ai-chip-complexity-is-accelerating-burn-in-demand"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:39",
+    "headline": "Top 3 Industrials Stocks That Are Ticking Portfolio Bombs",
+    "summary": "Union Pacific, Lockheed Martin and General Dynamics show overbought RSI readings of 74.2, 79.9 and 73.3, warning momentum-focused investors.",
+    "source": "benzinga",
+    "author": "Avi Kapoor",
+    "symbols": [
+     "GD",
+     "LMT",
+     "UNP"
+    ],
+    "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/62818557/top-3-industrials-stocks-that-are-ticking-portfolio-bombs-3"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:39",
+    "headline": "AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+    "summary": "AMD reports Q3 results Nov. 3; analysts expect $1.94 EPS and $13.09B revenue. Analysts remain bullish.",
+    "source": "benzinga",
+    "author": "Avi Kapoor",
+    "symbols": [
+     "AMD",
+     "META"
+    ],
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818555/amd-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:38",
+    "headline": "Fusemachines Q3 Net Loss $4.6M Vs $1.2M YoY, Includes $2.2M Forward Purchase Derivative Charge",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "SYY"
+     "FUSE"
     ],
-    "url": "https://www.benzinga.com/news/26/11/62816600/sysco-appoints-interim-cfo-brandon-sewell-permanent-cfo-effective-nov-1"
+    "url": "https://www.benzinga.com/quote/FUSE"
    },
    {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Sysco Now Sees FY27 Sales Growth At Lower End Of 6%-7% Range, Citing Lower Industry Inflation",
+    "time_ny": "Tue 03 Nov 08:38",
+    "headline": "Fusemachines Q3 Operating Loss Widens To $2.3M From $1.1M YoY",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "SYY"
+     "FUSE"
     ],
-    "url": "https://www.benzinga.com/quote/SYY"
+    "url": "https://www.benzinga.com/quote/FUSE"
    },
    {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Verizon And Ericsson Announce Nationwide Rollout Of Ericsson Intelligent Controller For AI-Driven Network Automation This Year",
+    "time_ny": "Tue 03 Nov 08:38",
+    "headline": "Fusemachines Discloses Substantial Doubt About Ability To Continue As Going Concern",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "ERIC",
-     "VZ"
+     "FUSE"
     ],
-    "url": "https://www.benzinga.com/quote/ERIC"
+    "url": "https://www.benzinga.com/quote/FUSE"
    },
    {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Sysco Reaffirms FY27 Adj. EPS Growth Guidance Of 9%-11%",
+    "time_ny": "Tue 03 Nov 08:38",
+    "headline": "Conference call:\nSequans Communications Sees Q4 Sales $9.500M-$11.000M vs $12.880M Est",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "SYY"
+     "SQNS"
     ],
-    "url": "https://www.benzinga.com/quote/SYY"
+    "url": "https://www.benzinga.com/news/26/11/62818487/conference-call-sequans-communications-sees-q4-sales-9-500m-11-000m-vs-12-880m-est"
    },
    {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Sysco Q1 Adj. EPS $1.19, Inline, Sales $21.744B Miss $22.019B Estimate",
+    "time_ny": "Tue 03 Nov 08:36",
+    "headline": "Amentum Signs MOU With Kyoto Fusioneering To Establish Strategic Framework To Advance Fusion Energy In The UK, U.S. And Japan",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "SYY"
+     "AMTM"
     ],
-    "url": "https://www.benzinga.com/news/earnings/26/11/62816543/sysco-q1-adj-eps-1-19-inline-sales-21-744b-miss-22-019b-estimate"
+    "url": "https://www.benzinga.com/news/26/11/62818347/amentum-signs-mou-kyoto-fusioneering-establish-strategic-framework-advance-fusion-energy-uk-u-s-and-"
    },
    {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "OQ Technology Selects Momentus To Fly Its 5G Narrowband Internet Of Things Payload",
-    "summary": "",
+    "time_ny": "Tue 03 Nov 08:36",
+    "headline": "These Analysts Increase Their Forecasts On Hinge Health After Better-Than-Expected Q3 Results",
+    "summary": "Hinge Health beat Q3 estimates, raised FY2026 sales guidance to $879M-$881M, and analysts lifted price targets; shares rose 1.3%.",
     "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "MNTS"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62816538/oq-technology-selects-momentus-fly-its-5g-narrowband-internet-things-payload"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Humacyte Announces Three Presentations At American Heart Association Scientific Sessions, November 6\u20139; Two Additional Presentations To Cover First-In-Human Phase 2a Study Design And Preclinical Results For Its Investigational Coronary Tissue Engineered Vessel",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "HUMA"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62816536/humacyte-announces-three-presentations-american-heart-association-scientific-sessions-november-6-9-t"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Liberty Global Q3 Sales $1.920B Beat $1.584B Estimate",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "LBTYA"
-    ],
-    "url": "https://www.benzinga.com/news/earnings/26/11/62816515/liberty-global-q3-sales-1-920b-beat-1-584b-estimate"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Our Bond Announces ~$15M Debt And Preferred Stock Conversion To Equity; Ascent Partners Commits Up To $10M At $2.75/Share",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "OBAI"
-    ],
-    "url": "https://www.benzinga.com/quote/OBAI"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Stevanato Group Reports Q3 2026 Financial Results",
-    "summary": "Stevanato Group announced its third-quarter 2026 financial results, reporting revenue of 326.1 million Euro and adjusted EPS of 0.16 Euro.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "STVN"
-    ],
-    "url": "https://www.marketscreener.com/news/stvn-stevanato-expects-2026-adjusted-eps-range-0-60-euro-0-62-euro-vs-factset-est-of-0-61-euro-ce785fd9d081f721"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:03",
-    "headline": "Sandvik Completes Acquisition of ThoroughTec Simulation",
-    "summary": "Sandvik has finalized the acquisition of the South African-based simulation technology provider, ThoroughTec Simulation.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SAND"
-    ],
-    "url": "https://ch.marketscreener.com/boerse-nachrichten/sandvik-schliesst-uebernahme-des-suedafrikanischen-simulationsanbieters-thoroughtec-ab-ce785fd9d18cf227"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Sunrun Announces Its Puerto Rico Distributed Power Plant Participation Doubles To Over 60K Clients",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "RUN"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62816478/sunrun-announces-its-puerto-rico-distributed-power-plant-participation-doubles-over-60k-clients"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Stifel Maintains Buy on Hinge Health, Raises Price Target to $135",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
+    "author": "Avi Kapoor",
     "symbols": [
      "HNGE"
     ],
-    "url": "https://www.benzinga.com/news/26/11/62816477/stifel-maintains-buy-hinge-health-raises-price-target-135"
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818331/these-analysts-increase-their-forecasts-on-hinge-health-after-better-than-expected-q3-results"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Core Molding Technologies Narrows FY2026 Sales Guidance of $273.798M-$287.488M vs $275.390M Est",
+    "time_ny": "Tue 03 Nov 08:36",
+    "headline": "Shopify Files Shelf Prospectus To Offer Class A Shares, Preferred Shares, Debt Securities, Warrants, Subscription Receipts And Units In Future Offerings; No Terms Disclosed",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "CMT"
+     "SHOP"
     ],
-    "url": "https://www.benzinga.com/news/26/11/62816468/core-molding-technologies-narrows-fy2026-sales-guidance-273-798m-287-488m-vs-275-390m-est"
+    "url": "https://www.benzinga.com/news/26/11/62818320/shopify-files-shelf-prospectus-offer-class-shares-preferred-shares-debt-securities-warrants-subscrip"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "SunocoCorp Q3 EPS $1.55 and Sales $18.029B",
+    "time_ny": "Tue 03 Nov 08:35",
+    "headline": "Fusemachines Q3 EPS $(0.15), Sales $1.845M",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "SUNC"
+     "FUSE"
     ],
-    "url": "https://www.benzinga.com/news/earnings/26/11/62816455/sunococorp-q3-eps-1-55-and-sales-18-029b"
+    "url": "https://www.benzinga.com/news/earnings/26/11/62818295/fusemachines-q3-eps-0-15-sales-1-845m"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Clariant Reports Q3 2026 Financial Results",
-    "summary": "Clariant announced its third-quarter 2026 financial results, reporting revenue growth alongside a decline in operating profit and margins due to challenging market conditions.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "CLN"
-    ],
-    "url": "https://www.finanzen.ch/nachrichten/aktien/clariant-aktie-tiefer-umsatzplus-kann-gewinnrueckgang-nicht-verhindern-ziele-stehen-1036705554"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "BMO Capital Upgrades Marsh & McLennan to Outperform",
-    "summary": "BMO Capital has upgraded Marsh & McLennan Companies, Inc. from Market Perform to Outperform, setting a price target of $230.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "MRSH"
-    ],
-    "url": "https://www.marketscreener.com/news/bmo-capital-upgrades-marsh-mclennan-to-outperform-from-market-perform-price-target-is-230-ce785fd9d088f527"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "RENK Aims to Expand Market Position in Naval Gearboxes to Unmanned Vessels",
-    "summary": "RENK Group AG is targeting an expansion of its market-leading position in combat ship gearboxes to include the growing sector of unmanned naval vessels.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "R3NK"
-    ],
-    "url": "https://www.finanznachrichten.de/nachrichten-medien/hartpunkt.htm"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Coloplast Reports Q4 2025/26 Financial Results and US Reimbursement Update",
-    "summary": "Coloplast announced its fourth-quarter financial results for 2025/26 and reported the introduction of three new US reimbursement codes for hydrophilic catheters.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "COLO.B"
-    ],
-    "url": "https://www.tradingview.com/news/tradingview:822a60dcb1333:0-key-facts-coloplast-q4-margin-23-us-adds-catheter-codes/"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Coloplast Launches 'Funding Journey' Strategic Initiative",
-    "summary": "Coloplast has introduced a new 'Funding Journey' program aimed at releasing approximately 500 million DKK in capital.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "COLO.B"
-    ],
-    "url": "https://www.moomoo.com/hans/news/post/1003321402"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Nordic Semiconductor Launches nRF71 Series for Battery-Powered IoT",
-    "summary": "Nordic Semiconductor has introduced the nRF71 Series, a new line of SoCs designed to integrate Wi-Fi, Bluetooth LE, Thread, and edge AI capabilities into a single chip for battery-powered IoT devices.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "NOD"
-    ],
-    "url": "https://www.prnewswire.com/news-releases/nordic-brings-edge-ai-to-battery-powered-wi-fi-devices-achieving-twenty-times-lower-standby-power-with-new-nrf71-series-302926830.html"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Schaeffler Reports Q3 2026 Financial Results and Reaffirms Full-Year Outlook",
-    "summary": "Schaeffler AG reported a slight decline in third-quarter revenue and EBIT, while maintaining its financial guidance for the full year 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SHA0"
-    ],
-    "url": "https://www.finanzen.ch/nachrichten/aktien/schaffler-q3-revenue-falls-reiterates-fy26-outlook;-shares-down-1036706181"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Vicore Pharma Announces Nomination Committee for 2027 Annual General Meeting",
-    "summary": "Vicore Pharma Holding AB has announced the composition of its Nomination Committee for the 2027 Annual General Meeting, based on the holdings of its three largest shareholders as of August 31, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "VCRE"
-    ],
-    "url": "https://www.biospace.com/press-releases/vicore-announces-the-nomination-committee-for-the-2027-annual-general-meeting"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Exor Divests Stake in Iveco Group to Tata Motors",
-    "summary": "Exor has sold its entire shareholding in Iveco Group to Tata Motors, marking a significant change in the ownership structure of the commercial vehicle manufacturer.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "EXO"
-    ],
-    "url": "https://www.milanofinanza.it/news/iveco-passa-a-tata-motors-nasce-un-gruppo-da-21-miliardi-di-ricavi-il-ceo-persson-giornata-storica-nuove-202611031130073785"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "365squared Launches AI-Powered Voice Fraud Protection Platform",
-    "summary": "365squared, a subsidiary of Proximus Global, has introduced 365callguard, an AI-driven platform designed to detect and prevent voice-based fraud for telecom operators.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "PROX"
-    ],
-    "url": "https://www.varindia.com/news/365squared-unveils-ai-powered-voice-fraud-protection"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Proximus Global Joins Bridge Alliance API Exchange Partner Programme",
-    "summary": "Proximus Global has joined the Bridge Alliance API Exchange (BAEx) Partner Programme to contribute its international expertise to regional network API development.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "PROX"
-    ],
-    "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=index&category=prnewswire&newsid=5086410_AE86410_0"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Exor Commits to Juventus Capital Increase",
-    "summary": "Exor has guaranteed its portion of the Juventus capital increase, amounting to approximately 163.5 million euros, and has already provided an advance payment of 60 million euros.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "EXO"
-    ],
-    "url": "https://www.milanofinanza.it/news/juventus-al-via-l-assemblea-dei-soci-sul-tavolo-l-aumento-di-capitale-da-250-milioni-di-euro-202611030957162402"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Zalando Reports Q3 2026 Financial Results",
-    "summary": "Zalando announced its third-quarter 2026 financial results, showing growth in revenue, gross merchandise value, and adjusted EBIT.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "ZAL"
-    ],
-    "url": "https://ground.news/article/retailer-zalando-launches-ai-shopping-agent-as-margins-squeezed_10d941"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "TUI AG Announces Share Repurchase Program Activity",
-    "summary": "TUI AG reported the purchase of ordinary shares as part of its ongoing capital management activities.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "TUI1"
-    ],
-    "url": "https://www.finanznachrichten.de/nachrichten-aktien/tui-ag.htm"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Aptiv Reports Third Quarter 2026 Financial Results and Updates Full-Year Guidance",
-    "summary": "Aptiv PLC announced its third-quarter 2026 financial results, reporting $3.2 billion in sales and $1.42 in adjusted earnings per share, while providing updated guidance for the remainder of the year.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "APTV"
-    ],
-    "url": "https://www.marketscreener.com/news/aptv-aptiv-expects-2026-sales-range-12-65b-12-75b-vs-factset-est-of-12-7b-ce785fded989f024"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Cellnex Telecom Secures EUR 375 Million EIB Loan for 5G Rollouts",
-    "summary": "Cellnex Telecom has obtained a EUR 375 million loan from the European Investment Bank (EIB) to support the expansion of its 5G infrastructure across Europe.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "CLNX"
-    ],
-    "url": "https://www.marketscreener.com/news/cellnex-telecom-secures-eur375-million-eib-loan-for-5g-rollouts-in-europe-ce785fd9de8ef722"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Deutsche Bank Research Adjusts Price Target for LEG Immobilien",
-    "summary": "Deutsche Bank Research has lowered its price target for LEG Immobilien from 67 to 56 Euro while maintaining a 'Buy' rating.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "LEG"
-    ],
-    "url": "https://www.finanzen.ch/analyse/leg-immobilien-buy-1116946"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Himalaya Shipping Ltd. Issues Shareholder Disclosure Notification",
-    "summary": "Himalaya Shipping Ltd. released a shareholder disclosure notification on November 2, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "HSHP"
-    ],
-    "url": "https://live.euronext.com/en/listview/company-press-releases/1061"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Goldman Sachs Adjusts Price Target on Exelon Corporation",
-    "summary": "Goldman Sachs updated its price target for Exelon Corporation to $45 from the previous $44.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "GS"
-    ],
-    "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-exelon-to-45-from-44-ce785fded98bff2d"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Barclays Upgrades Bloom Energy to Overweight",
-    "summary": "Barclays has upgraded Bloom Energy Corporation from Equal-Weight to Overweight, while adjusting its price target to $289.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "BE"
-    ],
-    "url": "https://www.marketscreener.com/news/barclays-upgrades-bloom-energy-to-overweight-from-equalweight-289-price-target-ce785fded98bfe27"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "SalMar Reports Strong Q3 2026 Results and Updates Harvest Outlook",
-    "summary": "SalMar ASA reported a significant increase in third-quarter profit driven by record-high harvest volumes and strong operational performance, while also updating its full-year 2026 and 2027 harvest volume guidance.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SALM"
-    ],
-    "url": "https://www.finanzen.ch/nachrichten/aktien/salmar-q3-profit-jumps-raises-fy26-harvest-volume-outlook;-shares-up-1036706080"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Intesa Sanpaolo Reports Q3 Results and Raises 2026 Profit Guidance",
-    "summary": "Intesa Sanpaolo reported a net income of 2.65 billion euros for the third quarter of 2026, exceeding market expectations, and raised its full-year net profit guidance to 'well above' 10 billion euros.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "ISP"
-    ],
-    "url": "https://it.marketscreener.com/notizie/intesa-utile-9-mesi-sopra-attese-a-8-2-mld-8-1-alza-guidance-2026-rco-ce785fd9d080f22d"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Intesa Sanpaolo Board Approves Interim Dividend",
-    "summary": "The Board of Directors of Intesa Sanpaolo has approved an interim dividend of 0.22 euros per share, totaling approximately 3.8 billion euros.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "ISP"
-    ],
-    "url": "https://it.marketscreener.com/notizie/intesa-cda-delibera-acconto-cedola-da-3-8-mld-0-22-euro-azione-rco-ce785fded989f32d"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Bruton Limited Completes Merger with International Seaways",
-    "summary": "Bruton Limited has finalized its merger with International Seaways, Inc., effective as of 5:30 p.m. Bermuda time on November 2, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "BRUT"
-    ],
-    "url": "https://www.tradingview.com/news/modular_finance:052a9745cdfe7:0-bruton-limited-brut-completion-of-the-merger-with-international-seaways-inc/"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Bruton Limited Discloses PDMR Transactions Following Merger Completion",
-    "summary": "Several Persons Discharging Managerial Responsibilities (PDMRs) at Bruton Limited, including the interim CEO and contracted CFO, have disclosed share and option exchange transactions linked to the company's merger with International Seaways.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "BRUT"
-    ],
-    "url": "https://www.tradingview.com/news/tradingview:77b97b62b584e:0-bruton-limited-pdmrs-exchange-shares-and-options-at-merger-close/"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "London BTC Company Announces Assay Results from Black Star Gold-Silver Project",
-    "summary": "London BTC Company Limited reported positive gold and silver assay results from its Black Star Project in Nevada, including surface gold grades reaching 43.38 g/t.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "BTC"
-    ],
-    "url": "https://www.voxmarkets.com/articles/rns-hotlist-november-3-edx-focusrite-fulcrum-metals-gattaca-jangada-london-btc-tap-global-zoo-digital-801b8df"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Virtune Launches AI Crypto Index ETP on Xetra",
-    "summary": "Virtune AB has listed its new AI Crypto Index ETP on the Deutsche B\u00f6rse Xetra exchange.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "DB1"
-    ],
-    "url": "https://www.globenewswire.com/news-release/2026/11/03/3393963/0/en/virtune-launches-virtune-ai-crypto-index-etp-on-nasdaq-stockholm-and-deutsche-b%C3%B6rse-xetra.html"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Berenberg Revises Estimates for Sandoz Following Q3 Sales Report",
-    "summary": "Berenberg has updated its financial estimates for Sandoz Group AG in response to the company's third-quarter sales results and updated full-year 2026 outlook.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SDZ"
-    ],
-    "url": "https://ch.marketscreener.com/boerse-nachrichten/berenberg-ueberarbeitet-schaetzungen-fuer-sandoz-nach-umsatzbericht-zum-dritten-quartal-und-aktualisier-ce785fd9d18ef526"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Sportradar Reports Third Quarter 2026 Financial Results",
-    "summary": "Sportradar Group AG announced its financial results for the third quarter ended September 30, 2026, reporting double-digit growth.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SRAD"
-    ],
-    "url": "https://www.globenewswire.com/news-release/2026/11/03/3394042/0/en/sportradar-reports-third-quarter-2026-financial-results.html"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "MPCM Adjusts Knorr-Bremse Price Target",
-    "summary": "Analyst firm MPCM has lowered its price target for Knorr-Bremse from 131 Euro to 126 Euro while maintaining a \"Buy\" rating.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "KBX"
-    ],
-    "url": "https://www.finanzen.ch/analyse/knorr-bremse-buy-1116928"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Fresenius Medical Care Reports Third Quarter 2026 Results and Narrows Full-Year Outlook",
-    "summary": "Fresenius Medical Care reported its third quarter 2026 financial results, showing a decline in net income and operating profit, and narrowed its full-year operating income guidance.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "FMS"
-    ],
-    "url": "https://www.prnewswire.com/news-releases/fresenius-medical-care-reports-third-quarter-2026-performance-partially-offsetting-headwinds-and-narrowing-full-year-outlook-302927537.html"
-   },
-   {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Ardmore Shipping Q3 Adj. EPS $0.40 Misses $0.70 Estimate, Sales $87.711M Beat $64.453M Estimate",
+    "time_ny": "Tue 03 Nov 08:35",
+    "headline": "Waters Exec Says Sees High-Single-digit Growth Potential For Combined Company In 2027; Low-Teens Adjusted EPS Growth In 2027 As Starting Point, With Mid-Teens As Upside Case",
     "summary": "",
     "source": "benzinga",
     "author": "Benzinga Newsdesk",
     "symbols": [
-     "ASC"
+     "WAT"
     ],
-    "url": "https://www.benzinga.com/news/earnings/26/11/62816428/ardmore-shipping-q3-adj-eps-0-40-misses-0-70-estimate-sales-87-711m-beat-64-453m-estimate"
+    "url": "https://www.benzinga.com/news/26/11/62818271/waters-exec-says-sees-high-single-digit-growth-potential-combined-company-2027-low-teens-adjusted-ep"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Renault Unveils Details for New Niagara Pickup Truck",
-    "summary": "Renault has released technical specifications and equipment details for its upcoming Niagara pickup truck, which is set to replace the Oroch model.",
+    "time_ny": "Tue 03 Nov 08:35",
+    "headline": "Pinnacle West\u2019s APS Providing $33M In Customer Bill Credits From November",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:35",
+    "headline": "Giftify Q3 EPS $(0.04), Inline, Sales $22.323M Beat $22.014M Estimate",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "GIFT"
+    ],
+    "url": "https://www.benzinga.com/news/earnings/26/11/62818227/giftify-q3-eps-0-04-inline-sales-22-323m-beat-22-014m-estimate"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:35",
+    "headline": "BETA Technologies Reports Strongest Revenue Since Inception",
+    "summary": "BETA Technologies reported a third-quarter loss of 51 cents per share, while revenue surged 98% year over year to $17.67 million.",
+    "source": "benzinga",
+    "author": "Lekha Gupta",
+    "symbols": [
+     "BETA"
+    ],
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62818209/beta-technologies-reports-strongest-revenue-since-inception"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West Expects Final Decision In APS Rate Case In December 2026",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West\u2019s APS Integrated Resource Plan Sees Need For ~15 GW Of New Resources By 2041",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West Committed Large Load Rises To 5.8 GW, Over 84% Not Yet Served",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West\u2019s APS Set All-Time Peak Demand Record Of 9,166 MW On 2 Aug",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Eco Wave Power Global Q3 EPS $(0.01) Beats $(0.24) Estimate",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "WAVE"
+    ],
+    "url": "https://www.benzinga.com/news/earnings/26/11/62818149/eco-wave-power-global-q3-eps-0-01-beats-0-24-estimate"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West Q3 Weather-Normalised Retail Sales Up 9.5%; Commercial & Industrial Up 14.5%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "TOP Financial Says It Is Not Aware Of Any Material Undisclosed Developments Behind Recent Stock Price Volatility",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "TOP"
+    ],
+    "url": "https://www.benzinga.com/quote/TOP"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "First Breach Enters Procurement Agreement With Strategic Supplier For Up To 20M Primers Per Month",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "FBDT"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62818125/first-breach-enters-procurement-agreement-strategic-supplier-20m-primers-month"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Pinnacle West Sees 2025-2028 APS Capex Of $10.35B",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:34",
+    "headline": "Ichor Analysts Slash Their Forecasts After Q3 Results",
+    "summary": "Ichor beats Q3 EPS estimates but misses sales; guides higher Q4 revenue and EPS. Shares rise 1.7% as analysts cut price targets.",
+    "source": "benzinga",
+    "author": "Avi Kapoor",
+    "symbols": [
+     "ICHR"
+    ],
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818104/ichor-analysts-slash-their-forecasts-after-q3-results"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Pinnacle West Reaffirms Long-Term EPS Growth Target Of 5%-7%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Pinnacle West Raises Long-Term Sales Growth Outlook To 8%-10%, Extends It Through 2030",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Pinnacle West Sees FY26 Weather-Normalised Retail Sales Growth 8%-10%; Retail Customer Growth 1.5%-2.5%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Pinnacle West Raises FY26 EPS Guidance To $5.05-$5.25",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PNW"
+    ],
+    "url": "https://www.benzinga.com/quote/PNW"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "NexPoint Residential Tr Lowers FY2026 FFO Guidance from $2.35-$2.54 to $2.17-$2.27 vs $2.27 Est",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "NXRT"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62818040/nexpoint-residential-tr-lowers-fy2026-ffo-guidance-2-35-2-54-2-17-2-27-vs-2-27-est"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Shell Agrees to Sell Australian LNG Project Stake for $1.45 Billion",
+    "summary": "Shell will sell its 16.67% non-operated North West Shelf stake to XRG for $1.45 billion, plus milestone-linked payments and customary adjustments.",
+    "source": "benzinga",
+    "author": "Lekha Gupta",
+    "symbols": [
+     "SHEL"
+    ],
+    "url": "https://www.benzinga.com/markets/large-cap/26/11/62818039/shell-agrees-to-sell-australian-lng-project-stake-for-1-45-billion"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:33",
+    "headline": "Alnylam Pharmaceuticals To Present New Helios-B Clinical Data At American Heart Association Scientific Sessions 2026",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "ALNY"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62818007/alnylam-pharmaceuticals-present-new-helios-b-clinical-data-american-heart-association-scientific-ses"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Laser Photonics Announces Name Change To LASE Corp., Effective November 4, To Prioritize Defense Growth",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "LASE"
+    ],
+    "url": "https://www.benzinga.com/quote/LASE"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Revvity Q3 2026 Earnings Call Transcript",
+    "summary": "Revvity (NYSE:RVTY) reported third-quarter financial results on Tuesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+    "source": "benzinga",
+    "author": "Earnings Transcripts",
+    "symbols": [
+     "RVTY"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62817999/revvity-q3-2026-earnings-call-transcript"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Parsons JV Riyadh Metro Transit Consultants Selected To Provide Project And Construction Management On The Riyadh Metro Red Line Extension; Terms Not Disclosed",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "PSN"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62817987/parsons-jv-riyadh-metro-transit-consultants-selected-provide-project-and-construction-management-riy"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Canaccord Genuity Maintains Buy on Waystar Holding, Raises Price Target to $34",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "WAY"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62817977/canaccord-genuity-maintains-buy-waystar-holding-raises-price-target-34"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Star Equity\u2019s Hudson Talent Solutions Announces Acquisition Of Recruitment Outsourcing Firm Cornerstone RPO; Terms Not Disclosed",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "STRR"
+    ],
+    "url": "https://www.benzinga.com/quote/STRR"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:32",
+    "headline": "Expeditors Repurchased 1.1M Shares At Avg $178.36 In Q3; $946M Returned To Shareholders Year-To-Date",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Expeditors Says China-U.S. E-Commerce Air Tonnage Has Nearly Recovered To Pre-De Minimis Levels",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Expeditors Says AI Hyperscaler Demand A Significant Driver Of Airfreight Volume Growth",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "TRAI Releases Draft Guidelines on AI Component Disclosure for Telecom Operators",
+    "summary": "The Telecom Regulatory Authority of India (TRAI) has issued draft guidelines requiring telecom operators to disclose the use of artificial intelligence components in their network equipment.",
     "source": "fiscal.ai",
     "author": "",
     "symbols": [
-     "RNO"
+     "BHARTIARTL"
     ],
-    "url": "https://carros.ig.com.br/colunas/bene-gomes/2026-11-03/renault-niagara-aposenta-oroch-e-mira-fiat-toro.html"
+    "url": "https://af.net/realtime/indias-trai-proposes-ai-disclosure-rules-for-telecom-network-vendors/"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Netcompany Signs Three-Year Partnership with the University of Patras",
-    "summary": "Netcompany has entered into a three-year memorandum of understanding with the University of Patras to foster academic-industry collaboration and student professional development.",
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Itau BBA Downgrades Coca-Cola FEMSA to Market Perform",
+    "summary": "Analyst firm Itau BBA has downgraded Coca-Cola FEMSA from Outperform to Market Perform, setting a new price target of $116 per share.",
     "source": "fiscal.ai",
     "author": "",
     "symbols": [
-     "NETC"
+     "KOF"
     ],
-    "url": "https://www.euro2day.gr/amp/news/enterprises/article/2376423/netcompany-trieths-synergasia-me-to-panepisthmio-p.html"
+    "url": "https://www.tradingview.com/news/tradingview:b2113ab731856:0-itau-bba-downgrades-coca-cola-femsa-sab-de-to-market-perform-from-outperform-sets-price-target-at-116/"
    },
    {
-    "time_ny": "Tue 03 Nov 08:02",
-    "headline": "Freedom24 Plans to Open New Office in Geneva",
-    "summary": "Freedom24, the European investment platform of Freedom Holding Corp., has announced plans to establish a new office in Geneva, Switzerland, in the first quarter of 2027.",
-    "source": "fiscal.ai",
-    "author": "",
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Expeditors Q3 Airfreight Revenue Up 51%, Ocean Up 48%, Customs Brokerage Up 29%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
     "symbols": [
-     "FRHC"
+     "EXPD"
     ],
-    "url": "https://www.prnewswire.com/fr/communiques-de-presse/freedom24-prevoit-douvrir-un-bureau-a-geneve-au-premier-trimestre-2027-renforcant-ainsi-ses-liens-avec-les-secteurs-financiers-et-de-la-recherche-en-suisse-302927748.html"
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "EZGO Technologies Announces 1-For-3 Reverse Stock Split, Effective Nov. 5",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EZGO"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62817904/ezgo-technologies-announces-1-3-reverse-stock-split-effective-nov-5"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Expeditors Q3 Operating Efficiency 36.7%, Above Historical 30% Target; Headcount Up 1%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Sysco Affirms FY2027 Adj EPS Guidance of $5.02-$5.12 vs $5.05 Est; Narrows FY2027 Sales Guidance from $89.626B-$90.472B to $89.626B vs $89.879B Est",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "SYY"
+    ],
+    "url": "https://www.benzinga.com/news/26/11/62817870/sysco-affirms-fy2027-adj-eps-guidance-5-02-5-12-vs-5-05-est-narrows-fy2027-sales-guidance-89-626b-90"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:31",
+    "headline": "Expeditors Q3 Operating Income Up 55% To $445M",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:30",
+    "headline": "Expeditors Q3 Airfreight Tonnage Up 13% To Record; Ocean Container Volume Up 7%",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:30",
+    "headline": "Expeditors To Hold Investor Day On 18 Nov In New York",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
+   },
+   {
+    "time_ny": "Tue 03 Nov 08:30",
+    "headline": "Expeditors Expects Ocean Congestion & Supply Chain Challenges To Persist Through Rest Of 2026",
+    "summary": "",
+    "source": "benzinga",
+    "author": "Benzinga Newsdesk",
+    "symbols": [
+     "EXPD"
+    ],
+    "url": "https://www.benzinga.com/quote/EXPD"
    }
   ],
   "tickers": {
-   "AMD": [],
-   "AMGN": [],
-   "ANET": [],
-   "SHOP": [
+   "TQQQ": [],
+   "QQQ": [
     {
-     "time_ny": "Tue 03 Nov 07:31",
-     "headline": "Shopify Reports Financial Results for Third Quarter 2026",
-     "summary": "Shopify announced its financial results for the quarter ended September 30, 2026, reporting 32% revenue growth and a 22% free cash flow margin.",
-     "source": "fiscal.ai",
-     "author": "",
+     "time_ny": "Tue 03 Nov 08:23",
+     "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus (UPDATED)",
+     "summary": "U.S. stocks were mixed on Tuesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
      "symbols": [
-      "SHOP"
+      "AAPL",
+      "AMD",
+      "BTCUSD",
+      "DIA",
+      "GRAB",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "VRTX"
      ],
-     "url": "https://www.globenewswire.com/news-release/2026/11/03/3394077/0/en/shopify-sustains-rapid-growth-with-revenue-up-32-and-free-cash-flow-margin-of-22.html"
+     "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus"
     },
     {
-     "time_ny": "Tue 03 Nov 07:05",
-     "headline": "12 Information Technology Stocks Moving In Tuesday's Pre-Market Session",
-     "summary": "Gainers\n\nBackblaze (NASDAQ:BLZE) shares moved upwards by 33.2% to $9.86 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $444.1 million. As per the news, the Q3 earnings report",
+     "time_ny": "Tue 03 Nov 05:54",
+     "headline": "'Marking Their Calendar': Tom Lee Says Investors Don't Have 'Conviction' to Buy the Dip Until After Midterms",
+     "summary": "Tech stocks have taken a beating, and Fundstrat\u2019s Tom Lee says investors who want to buy the dip are waiting until after the midterms.",
      "source": "benzinga",
-     "author": "Benzinga Insights",
+     "author": "Radhika Anilkumar Nadig",
      "symbols": [
-      "ADEA",
-      "AEHR",
-      "AEIS",
-      "BLZE",
-      "CLRO",
-      "DT",
-      "HLIT",
-      "HUBC",
-      "ICG",
-      "PARA",
+      "QQQ",
+      "SPY"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62809295/tom-lee-investors-wait-until-after-midterms-buy-dip"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:47",
+     "headline": "Howard Marks Questions Anthropic's $1.5 Trillion-Plus Valuation: 'Can We Really Fool Ourselves Into Thinking We Know...'",
+     "summary": "Howard Marks says AI firms like Anthropic defy traditional valuation due to unpredictable growth, urging skepticism as tech stocks retreat.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
+     "symbols": [
+      "MRVL",
+      "ORCL",
+      "QQQ",
+      "SMH",
+      "SOXX"
+     ],
+     "url": "https://www.benzinga.com/markets/ipos/26/11/62809097/howard-marks-questions-anthropics-1-5-trillion-plus-valuation-can-we-really-fool-ourselves-into-thinking-we-know"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:19",
+     "headline": "$80 Billion Hedge Fund Braces for Bear Market",
+     "summary": "Paul Singer&#39;s Elliott warns a massive bear market looms. See how the $80B fund is hedging against AI hype and market excess.",
+     "source": "benzinga",
+     "author": "Stjepan Kalinic",
+     "symbols": [
+      "GLD",
+      "HPE",
+      "HYG",
+      "IGV",
+      "LUV",
+      "PEP",
+      "PSX",
+      "QQQ",
+      "SNPS",
+      "SPY",
+      "SU",
+      "TFPM",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLY"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62808278/80-billion-hedge-fund-braces-for-bear-market"
+    },
+    {
+     "time_ny": "Tue 03 Nov 04:02",
+     "headline": "Tom Lee Says 'We Are at the Bottom' as Tech Sell-Off Rocks Markets \u2014 But He Still Sees S&P 500 Above 8,200 By Year-End",
+     "summary": "Fundstrat&#39;s Tom Lee calls a market bottom, maintaining his S&amp;P 500 year-end target above 8,200 as the AI market remains very tight.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "DIA",
+      "QQQ",
+      "SPY"
+     ],
+     "url": "https://www.benzinga.com/markets/market-summary/26/11/62807521/tom-lee-says-we-are-at-the-bottom-as-tech-sell-off-rocks-markets-but-he-still-sees-sp-500-above-8200-by-year-end"
+    },
+    {
+     "time_ny": "Tue 03 Nov 01:16",
+     "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+     "summary": "Will the S&amp;P 500 open higher? Polymarket odds dip to 45% as Wall Street navigates Election Day, AMD earnings, and a volatile oil market.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AMD",
+      "AMGN",
+      "ANET",
+      "DIA",
+      "PFE",
+      "POLUSD",
+      "QQQ",
       "SHOP",
-      "SMTK"
+      "SPY"
      ],
-     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62813712/12-information-technology-stocks-moving-tuesday-s-pre-market-session"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:04",
-     "headline": "Shopify Sees Q4 Sales $4.810B-$4.884B vs $4.758B Est. Revenue to grow at a low-thirties percentage rate on a year-over-year basis.",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "SHOP"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62813633/shopify-sees-q4-sales-4-810b-4-884b-vs-4-758b-est-revenue-grow-low-thirties-percentage-rate-year-ove"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:01",
-     "headline": "Shopify Q3 Adj. EPS $0.49 Beats $0.46 Estimate, Sales $3.742B Miss $3.747B Estimate",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "SHOP",
-      "TSX:SHOP"
-     ],
-     "url": "https://www.benzinga.com/news/earnings/26/11/62813101/shopify-q3-adj-eps-0-49-beats-0-46-estimate-sales-3-742b-miss-3-747b-estimate"
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62806278/stock-market-will-sp-500-open-up-or-down-today-71"
     }
    ],
-   "PFE": [
-    {
-     "time_ny": "Tue 03 Nov 07:32",
-     "headline": "Pfizer Reports Third-Quarter 2026 Financial Results and Raises Full-Year Guidance",
-     "summary": "Pfizer Inc. announced its financial results for the third quarter of 2026 and increased its full-year 2026 revenue and adjusted diluted EPS guidance.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.businesswire.com/newsroom/subject/earnings"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:32",
-     "headline": "Pfizer Appoints Cecile Guegan as Chief Financial Officer",
-     "summary": "Pfizer Inc. has appointed Cecile Guegan as its permanent Chief Financial Officer and Executive Vice President, effective November 1, 2026.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:22",
-     "headline": "Pfizer Q3 Prevnar Family Revenue Down 10% Operationally On Lower Vaccination Rates",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.benzinga.com/quote/PFE"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:22",
-     "headline": "Pfizer Q3 Eliquis Revenue Up 25% Operationally; Padcev Up 55%",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.benzinga.com/quote/PFE"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:21",
-     "headline": "Pfizer Q3 Paxlovid Revenue Down 63% Operationally; Comirnaty Down 29%",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.benzinga.com/quote/PFE"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:21",
-     "headline": "Pfizer Q3 Launched & Acquired Products Revenue Up 32% Operationally",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PFE"
-     ],
-     "url": "https://www.benzinga.com/quote/PFE"
-    }
-   ],
-   "ETN": [
-    {
-     "time_ny": "Tue 03 Nov 07:32",
-     "headline": "Eaton Reports Record Third Quarter 2026 Results and Raises Organic Growth Guidance",
-     "summary": "Eaton Corporation plc reported record third-quarter 2026 financial results, featuring record adjusted earnings per share and record sales, while raising its organic growth guidance.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "ETN"
-     ],
-     "url": "https://www.businesswire.com/newsroom/subject/earnings"
-    }
-   ],
-   "MPC": [
+   "SQQQ": [],
+   "NVDA": [
     {
      "time_ny": "Tue 03 Nov 08:02",
-     "headline": "Marathon Petroleum Reports Q3 2026 Financial Results and Announces $5 Billion Share Repurchase Authorization",
-     "summary": "Marathon Petroleum Corporation reported significant year-over-year growth in Q3 2026 net income and announced that its board of directors approved an additional $5 billion share repurchase authorization.",
+     "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
+     "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AAPL",
+      "CRM",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "ORCL",
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:20",
+     "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
+     "summary": "Cramer recommends Howmet and J&amp;J, prefers Micron over Western Digital, criticizes Nebius, and favors Lam Research over KLA.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "HWM",
+      "JNJ",
+      "KLAC",
+      "LRCX",
+      "MU",
+      "NBIS",
+      "NVDA",
+      "WDC"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:31",
+     "headline": "NVIDIA Requires Cloud Clients to Limit Business With Chinese Customers",
+     "summary": "NVIDIA has instructed its cloud computing clients to ensure that at least 51% of their services are sold to companies outside of China, impacting future contracts.",
      "source": "fiscal.ai",
      "author": "",
      "symbols": [
-      "MPC"
+      "NVDA"
      ],
-     "url": "https://www.tradingview.com/news/tradingview:85a98d4936c60:0-marathon-petroleum-corporation-mpc-reports-q3-net-income-of-7-4b/"
+     "url": "https://www.marketscreener.com/news/nvidia-requires-cloud-clients-to-limit-business-with-chinese-customers-ce785fd9de81ff21"
     },
     {
-     "time_ny": "Tue 03 Nov 07:32",
-     "headline": "Marathon Petroleum and MPLX LP to Divest Refineries and Midstream Assets to CVR Energy",
-     "summary": "Marathon Petroleum Corporation and its subsidiary MPLX LP have agreed to sell two refineries and related midstream assets to CVR Energy for $4.2 billion.",
-     "source": "fiscal.ai",
-     "author": "",
+     "time_ny": "Tue 03 Nov 05:41",
+     "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report",
+     "summary": "Nvidia reportedly requires cloud partners to earn 51% of revenue from non-Chinese customers, tightening access to overseas AI infrastructure.",
+     "source": "benzinga",
+     "author": "Namrata Sen",
      "symbols": [
-      "MPC"
+      "NVDA"
      ],
-     "url": "https://www.prnewswire.com/news-releases/marathon-petroleum-corp-to-divest-minnesota-and-north-dakota-refineries--mplx-lp-to-divest-related-midstream-assets-302927304.html"
+     "url": "https://www.benzinga.com/markets/tech/26/11/62808888/nvidia-tightens-the-screws-on-chinas-ai-access-cloud-partners-worldwide-must-restrict-chinese-customers-under-new-revenue-rule-report"
     },
     {
-     "time_ny": "Tue 03 Nov 07:32",
-     "headline": "Marathon Petroleum Reports Third-Quarter 2026 Financial Results",
-     "summary": "Marathon Petroleum Corporation reported third-quarter 2026 financial results, exceeding analyst expectations for both revenue and adjusted earnings per share.",
-     "source": "fiscal.ai",
-     "author": "",
+     "time_ny": "Tue 03 Nov 05:16",
+     "headline": "SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' \u2014 Here's How His Plan Could Work",
+     "summary": "Elon Musk says space-based AI data centers could cool more easily with aluminum radiators, but launch costs and scaling challenges remain.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
      "symbols": [
-      "MPC"
+      "NVDA",
+      "SPCX"
      ],
-     "url": "https://www.prnewswire.com/news-releases/marathon-petroleum-corp-reports-third-quarter-2026-results-302927643.html"
+     "url": "https://www.benzinga.com/markets/tech/26/11/62808265/spcx-ceo-elon-musk-says-cooling-ai-data-centers-in-space-is-much-easier-heres-how-his-plan-could-work"
     },
     {
-     "time_ny": "Tue 03 Nov 07:19",
-     "headline": "Marathon Petroleum Expects Refinery Divestiture To Close At End Of 2026",
+     "time_ny": "Tue 03 Nov 03:52",
+     "headline": "'Nvidia Orders Data Centre Clients to Reduce China Exposure' - FT",
      "summary": "",
      "source": "benzinga",
      "author": "Benzinga Newsdesk",
      "symbols": [
-      "MPC"
+      "FXI",
+      "NVDA"
      ],
-     "url": "https://www.benzinga.com/quote/MPC"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:19",
-     "headline": "MPLX To Receive $750M For Related Logistics Assets, A 9x Multiple On Forecast 2027 Adj. EBITDA",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "MPC"
-     ],
-     "url": "https://www.benzinga.com/quote/MPC"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:19",
-     "headline": "Marathon Petroleum To Receive $3.45B From St. Paul Park & Mandan Refinery Sale, Will Reinvest Mainly In Gulf Coast",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "MPC"
-     ],
-     "url": "https://www.benzinga.com/quote/MPC"
+     "url": "https://www.benzinga.com/news/26/11/62807428/nvidia-orders-data-centre-clients-reduce-china-exposure-ft"
     }
    ],
-   "APO": [
+   "MSFT": [
     {
      "time_ny": "Tue 03 Nov 08:02",
-     "headline": "Apollo Global Management Reports Third Quarter 2026 Financial Results",
-     "summary": "Apollo Global Management, Inc. announced its financial results for the third quarter ended September 30, 2026, highlighting record origination activity.",
-     "source": "fiscal.ai",
-     "author": "",
+     "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
+     "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
      "symbols": [
-      "APO"
+      "AAPL",
+      "CRM",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "ORCL",
+      "PLTR"
      ],
-     "url": "https://ir.apollo.com/news-events/press-releases/detail/658/apollo-reports-third-quarter-2026-results"
+     "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
     },
     {
-     "time_ny": "Tue 03 Nov 06:52",
-     "headline": "Apollo Global Repurchased $143M Of Stock In Q3, ~$1.4B Over Last 12 Months",
+     "time_ny": "Tue 03 Nov 02:43",
+     "headline": "Bill Ackman on MSFT, AMZN and META: Why Big Tech's Trillion-Dollar AI Spend Is 'Offensive Rather Than Defensive'",
+     "summary": "Bill Ackman calls the trillion-dollar AI spend by Microsoft, Amazon, and Meta &#39;offensive rather than defensive.&#39; Inside his Q3 letter.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AMZN",
+      "META",
+      "MSFT",
+      "NFLX",
+      "PS",
+      "UBER"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62806716/bill-ackman-on-msft-amzn-and-meta-why-big-techs-trillion-dollar-ai-spend-is-offensive-rather-than-defensive"
+    },
+    {
+     "time_ny": "Mon 02 Nov 18:04",
+     "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
      "summary": "",
      "source": "benzinga",
      "author": "Benzinga Newsdesk",
      "symbols": [
-      "APO"
+      "MSFT"
      ],
-     "url": "https://www.benzinga.com/quote/APO"
+     "url": "https://www.benzinga.com/news/26/11/62804542/openai-hires-former-us-army-secretary-military-seeks-expand-ai-use-financial-times"
     },
     {
-     "time_ny": "Tue 03 Nov 06:52",
-     "headline": "Apollo Global Q3 GAAP Net Loss $1.06B On Unrealised Mark-To-Market Losses In Retirement Services From Higher Rates",
-     "summary": "",
+     "time_ny": "Mon 02 Nov 17:46",
+     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
      "source": "benzinga",
-     "author": "Benzinga Newsdesk",
+     "author": "Chris Katje",
      "symbols": [
-      "APO"
+      "AAPL",
+      "CRWD",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "PLTR",
+      "TSLA"
      ],
-     "url": "https://www.benzinga.com/quote/APO"
-    },
-    {
-     "time_ny": "Tue 03 Nov 06:51",
-     "headline": "Apollo Global Q3 Inflows $53B; Origination At Record $114B",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "APO"
-     ],
-     "url": "https://www.benzinga.com/quote/APO"
-    },
-    {
-     "time_ny": "Tue 03 Nov 06:51",
-     "headline": "Apollo Global Q3 Total AUM $1.074 Trillion, Up 18% Y/Y; Fee-Generating AUM $880B",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "APO"
-     ],
-     "url": "https://www.benzinga.com/quote/APO"
-    },
-    {
-     "time_ny": "Tue 03 Nov 06:51",
-     "headline": "Apollo Global Q3 FRE Margin 58.4% Vs 56.8% Y/Y; Fee-Related Revenue $1.374B, Up 19.7%",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "APO"
-     ],
-     "url": "https://www.benzinga.com/quote/APO"
+     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
     }
    ],
-   "BKNG": [],
    "AAPL": [
+    {
+     "time_ny": "Tue 03 Nov 08:23",
+     "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus (UPDATED)",
+     "summary": "U.S. stocks were mixed on Tuesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AAPL",
+      "AMD",
+      "BTCUSD",
+      "DIA",
+      "GRAB",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "VRTX"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus"
+    },
     {
      "time_ny": "Tue 03 Nov 08:02",
      "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
@@ -3319,97 +3323,279 @@
       "AAPL"
      ],
      "url": "https://www.benzinga.com/news/26/11/62812726/baird-maintains-outperform-apple-raises-price-target-340"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:48",
+     "headline": "Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation",
+     "summary": "Apple stock falls 4% despite beating Q4 expectations as rising memory costs and high valuation worry investors.",
+     "source": "benzinga",
+     "author": "Anusuya Lahiri",
+     "symbols": [
+      "AAPL"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62809108/apple-is-the-mack-daddy-of-tech-says-longtime-bull-who-defends-its-steep-valuation"
     }
    ],
-   "PLTR": [
+   "AMZN": [
     {
-     "time_ny": "Tue 03 Nov 08:02",
-     "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
-     "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
+     "time_ny": "Tue 03 Nov 08:11",
+     "headline": "Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom \u2014 Here's What's at Stake",
+     "summary": "Amazon&#39;s $6.2 billion in Anthropic convertible notes is now valued far higher. Here&#39;s what the AI startup&#39;s IPO could mean for AMZN.",
+     "source": "benzinga",
+     "author": "Surbhi Jain",
+     "symbols": [
+      "AMZN",
+      "ANT"
+     ],
+     "url": "https://www.benzinga.com/markets/ipos/26/11/62817121/amazon-anthropic-investment-ipo"
+    },
+    {
+     "time_ny": "Tue 03 Nov 02:43",
+     "headline": "Bill Ackman on MSFT, AMZN and META: Why Big Tech's Trillion-Dollar AI Spend Is 'Offensive Rather Than Defensive'",
+     "summary": "Bill Ackman calls the trillion-dollar AI spend by Microsoft, Amazon, and Meta &#39;offensive rather than defensive.&#39; Inside his Q3 letter.",
      "source": "benzinga",
      "author": "Rishabh Mishra",
      "symbols": [
-      "AAPL",
-      "CRM",
+      "AMZN",
+      "META",
       "MSFT",
-      "NOW",
-      "NVDA",
-      "ORCL",
-      "PLTR"
+      "NFLX",
+      "PS",
+      "UBER"
      ],
-     "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
-    },
+     "url": "https://www.benzinga.com/markets/equities/26/11/62806716/bill-ackman-on-msft-amzn-and-meta-why-big-techs-trillion-dollar-ai-spend-is-offensive-rather-than-defensive"
+    }
+   ],
+   "AVGO": [],
+   "META": [
     {
-     "time_ny": "Tue 03 Nov 08:02",
-     "headline": "Adeia Posts Downbeat Q3 Earnings, Joins Bioventus, Apple And Other Big Stocks Moving Lower In Tuesday\u2019s Pre-Market Session",
-     "summary": "U.S. futures mixed as Adeia plunges 23% after missing Q3 estimates and cutting FY26 guidance; Bioventus, Emergent and others also fall premarket.",
+     "time_ny": "Tue 03 Nov 08:39",
+     "headline": "AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+     "summary": "AMD reports Q3 results Nov. 3; analysts expect $1.94 EPS and $13.09B revenue. Analysts remain bullish.",
      "source": "benzinga",
      "author": "Avi Kapoor",
+     "symbols": [
+      "AMD",
+      "META"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818555/amd-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:31",
+     "headline": "Meta Pauses Proposed Business Terms Following Publisher Backlash",
+     "summary": "Meta has suspended updates to its business terms after facing opposition from publishers and internet advocates concerned about automated content collection.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "META"
+     ],
+     "url": "https://www.varindia.com/news/meta-pauses-business-terms-amid-publisher-backlash-over-content-access"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:25",
+     "headline": "'Throwback to 1984:' Apple's Mac Business Just Surged 24% \u2014 Top Analyst Says the Real Boom Is Only Getting Started",
+     "summary": "Gene Munster predicts an AI-driven Mac super cycle, forecasting 15%+ growth fueled by education deals and Apple\u2019s affordable MacBook Neo.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
      "symbols": [
       "AAPL",
-      "ADEA",
-      "BVS",
-      "CERS",
-      "CLVT",
-      "EBS",
-      "NNBR",
-      "PGR",
-      "PLTR",
-      "SNDL",
-      "TGB",
-      "TSCO",
-      "VYX",
-      "WAY"
+      "META"
      ],
-     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62816416/adeia-posts-downbeat-q3-earnings-joins-bioventus-apple-and-other-big-stocks-moving-lower-in-tuesdays-pre-market-session"
+     "url": "https://www.benzinga.com/markets/tech/26/11/62808316/throwback-to-1984-apples-mac-business-just-surged-24-top-analyst-says-the-real-boom-is-only-getting-started"
     },
     {
-     "time_ny": "Tue 03 Nov 07:20",
-     "headline": "These Analysts Revise Their Forecasts On Palantir After Q3 Results",
-     "summary": "Palantir beat Q3 revenue and EPS estimates, raised 2026 guidance, but shares fell 8.1%; analysts lifted some price targets.",
+     "time_ny": "Tue 03 Nov 03:18",
+     "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+     "summary": "Shopify reports Q3 earnings Tuesday, with EPS forecast at 46 cents and revenue at $3.74B. Meta partnership expands AI-powered shopping via Shop Pay.",
      "source": "benzinga",
      "author": "Avi Kapoor",
      "symbols": [
-      "PLTR"
+      "META",
+      "SHOP"
      ],
-     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62814908/these-analysts-revise-their-forecasts-on-palantir-after-q3-results"
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
     },
     {
-     "time_ny": "Tue 03 Nov 06:43",
-     "headline": "Cantor Fitzgerald Reiterates Neutral on Palantir Technologies, Maintains $207 Price Target",
+     "time_ny": "Tue 03 Nov 02:52",
+     "headline": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to \u2018Extreme Fear\u2019 Zone",
+     "summary": "CNN Fear &amp; Greed fell to 23, signaling Extreme Fear, as tech stocks dragged Nasdaq down 1.07%; Dow rose 214 points amid U.S.-Iran diplomacy hopes.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "AMD",
+      "KDP",
+      "META",
+      "NVDA",
+      "PFE"
+     ],
+     "url": "https://www.benzinga.com/markets/market-summary/26/11/62806764/nasdaq-dips-over-1-as-tech-stocks-fall-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone"
+    },
+    {
+     "time_ny": "Tue 03 Nov 02:43",
+     "headline": "Bill Ackman on MSFT, AMZN and META: Why Big Tech's Trillion-Dollar AI Spend Is 'Offensive Rather Than Defensive'",
+     "summary": "Bill Ackman calls the trillion-dollar AI spend by Microsoft, Amazon, and Meta &#39;offensive rather than defensive.&#39; Inside his Q3 letter.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AMZN",
+      "META",
+      "MSFT",
+      "NFLX",
+      "PS",
+      "UBER"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62806716/bill-ackman-on-msft-amzn-and-meta-why-big-techs-trillion-dollar-ai-spend-is-offensive-rather-than-defensive"
+    }
+   ],
+   "GOOGL": [
+    {
+     "time_ny": "Tue 03 Nov 05:38",
+     "headline": "California Could Raise $100 Billion From Billionaires \u2014 But There's a $38.9 Billion Problem",
+     "summary": "California voters decide Proposition 40 as Affirm CEO Max Levchin warns he may leave.",
+     "source": "benzinga",
+     "author": "Tanya Rawat",
+     "symbols": [
+      "AFRM",
+      "GOOG",
+      "GOOGL",
+      "ORCL",
+      "PYPL"
+     ],
+     "url": "https://www.benzinga.com/news/politics/26/11/62808847/california-could-raise-100-billion-from-billionaires-but-theres-a-38-9-billion-problem"
+    },
+    {
+     "time_ny": "Tue 03 Nov 04:23",
+     "headline": "'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software",
+     "summary": "Palihapitiya warns AI giants like OpenAI and Google could disrupt AI-native startups by expanding into software applications and workplace tools.",
+     "source": "benzinga",
+     "author": "Snigdha Gairola",
+     "symbols": [
+      "GOOG",
+      "GOOGL",
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62807654/the-first-victim-chamath-palihapitiya-warns-ai-startups-are-in-the-crosshairs-as-openai-google-move-into-software"
+    },
+    {
+     "time_ny": "Mon 02 Nov 22:25",
+     "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
+     "summary": "CNBC\u2019s Jim Cramer is not buying Monday\u2019s selloff in Apple, Palantir and Marvell as the tech slump stretches into a new week.",
+     "source": "benzinga",
+     "author": "Radhika Anilkumar Nadig",
+     "symbols": [
+      "AAPL",
+      "GOOGL",
+      "INTC",
+      "LITE",
+      "MRVL",
+      "MU",
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick"
+    }
+   ],
+   "TSLA": [
+    {
+     "time_ny": "Tue 03 Nov 06:31",
+     "headline": "Tesla Reports October 2026 China Wholesale Sales",
+     "summary": "Tesla's wholesale vehicle sales in China declined sequentially in October 2026, reaching their second-lowest monthly level for the year.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TSLA"
+     ],
+     "url": "https://www.moomoo.com/news/post/1003323705/tesla-s-china-wholesale-sales-sink-sequentially-in-october-to"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:32",
+     "headline": "'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan",
+     "summary": "Elon Musk says his Texas taxes exceeded Tesla\u2019s repaid DOE loan, clashing with Senate candidate James Talarico over taxpayer support.",
+     "source": "benzinga",
+     "author": "Badar Shaikh",
+     "symbols": [
+      "SPCX",
+      "TSLA"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62808513/elon-musk-fires-back-democrat-nominee-james-talarico-over-tesla-465-million-loan"
+    },
+    {
+     "time_ny": "Tue 03 Nov 04:30",
+     "headline": "Tesla Bulls Are Betting on a SpaceX Merger \u2014 Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows What Could Go Wrong",
+     "summary": "Gary Black warns a stock-funded Tesla-SpaceX merger could hurt investors, citing Marvell\u2019s Lumentum deal, where both stocks plunged.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
+     "symbols": [
+      "LITE",
+      "MRVL",
+      "SPCX",
+      "TSLA"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62807684/tesla-bulls-are-betting-on-a-spacex-merger-top-analyst-says-marvells-115-billion-lumentum-deal-shows-what-could-go-wrong"
+    },
+    {
+     "time_ny": "Tue 03 Nov 03:08",
+     "headline": "Tesla Registrations Explode Across Europe as Iran War Sends Fuel Prices Soaring \u2014 But BYD and Chinese EV Rivals Are Gaining Fast",
+     "summary": "Tesla registrations surged across Europe, but faces growing competition from Chinese automakers BYD, Geely and others.",
+     "source": "benzinga",
+     "author": "Badar Shaikh",
+     "symbols": [
+      "BYDDF",
+      "BYDDY",
+      "GELHY",
+      "GELYF",
+      "STLA",
+      "TSLA",
+      "XPEV"
+     ],
+     "url": "https://www.benzinga.com/markets/eurozone/26/11/62806894/tesla-registrations-explode-across-europe-as-iran-war-sends-fuel-prices-soaring-but-byd-and-chinese-ev-rivals-are-gaining-fast"
+    },
+    {
+     "time_ny": "Tue 03 Nov 00:44",
+     "headline": "Trump Vows to Protect Elon Musk Amid Talk of Arrest\u2014Adam Schiff Warns 'Cronies' Will Be Held Accountable",
+     "summary": "Trump vows to protect Elon Musk from arrest, suggesting pardons amid Democratic criticism over Starlink disruptions.",
+     "source": "benzinga",
+     "author": "Badar Shaikh",
+     "symbols": [
+      "SPCX",
+      "TSLA"
+     ],
+     "url": "https://www.benzinga.com/news/politics/26/11/62806095/trump-vows-to-protect-elon-musk-amid-talk-of-arrest-adam-schiff-warns-cronies-will-be-held-accountable"
+    },
+    {
+     "time_ny": "Mon 02 Nov 20:01",
+     "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
+     "summary": "Tesla has introduced a new capability for the Powerwall 3, allowing it to boost heat pumps to store solar energy as thermal heat.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TSLA"
+     ],
+     "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla"
+    }
+   ],
+   "LSCC": [
+    {
+     "time_ny": "Tue 03 Nov 08:24",
+     "headline": "These Analysts Boost Their Forecasts On Lattice Semiconductor After Upbeat Q3 Results",
+     "summary": "Lattice Semiconductor beat Q3 estimates and raised Q4 guidance, citing AI-driven FPGA demand; shares jumped 10.7% premarket.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "LSCC"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62817561/these-analysts-boost-their-forecasts-on-lattice-semiconductor-after-upbeat-q3-results"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:05",
+     "headline": "Stifel Maintains Buy on Lattice Semiconductor, Raises Price Target to $175",
      "summary": "",
      "source": "benzinga",
      "author": "Benzinga Newsdesk",
      "symbols": [
-      "PLTR"
+      "LSCC"
      ],
-     "url": "https://www.benzinga.com/news/26/11/62811779/cantor-fitzgerald-reiterates-neutral-palantir-technologies-maintains-207-price-target"
+     "url": "https://www.benzinga.com/news/26/11/62816746/stifel-maintains-buy-lattice-semiconductor-raises-price-target-175"
     },
-    {
-     "time_ny": "Tue 03 Nov 06:31",
-     "headline": "Piper Sandler Maintains Palantir Technologies at Overweight, Raises Price Target to $235",
-     "summary": "Piper Sandler has reaffirmed its Overweight rating on Palantir Technologies Inc. while increasing its price target from $231 to $235.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.tradingview.com/news/tradingview:bc2fd2cf082e0:0-piper-sandler-maintains-palantir-technologies-at-overweight-raises-price-target-to-235-from-231/"
-    },
-    {
-     "time_ny": "Tue 03 Nov 06:24",
-     "headline": "Why Is Palantir Technologies Stock Falling Tuesday?",
-     "summary": "Palantir drops 8% despite beating Q3 earnings and raising its outlook, as slowing contract growth and steep valuation worry investors.",
-     "source": "benzinga",
-     "author": "Anusuya Lahiri",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/markets/tech/26/11/62810911/why-is-palantir-technologies-stock-falling-tuesday"
-    }
-   ],
-   "TQQQ": [],
-   "LSCC": [
     {
      "time_ny": "Tue 03 Nov 07:32",
      "headline": "Lattice Semiconductor Corporation Analyst Price Target Increased to $160.77",
@@ -3605,33 +3791,133 @@
       "SNDK"
      ],
      "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62798862/stock-of-the-day-is-this-the-bottom-for-sandisk"
-    }
-   ],
-   "JD": [
+    },
     {
-     "time_ny": "Tue 03 Nov 07:43",
-     "headline": "Reported Earlier, European Commission Conditionally Approves JD.com's Acquisition Of Ceconomy",
+     "time_ny": "Mon 02 Nov 15:22",
+     "headline": "Watching Sandisk; Zacks Technical Analysis & Zacks Rank Newsletter Mentions Stock As A Buy",
      "summary": "",
      "source": "benzinga",
      "author": "Benzinga Newsdesk",
      "symbols": [
-      "JD",
-      "MTTRY"
+      "SNDK"
      ],
-     "url": "https://www.benzinga.com/m/26/11/62815843/reported-earlier-european-commission-conditionally-approves-jd-com-s-acquisition-ceconomy"
+     "url": "https://www.benzinga.com/quote/SNDK"
+    }
+   ],
+   "LRCX": [
+    {
+     "time_ny": "Tue 03 Nov 07:20",
+     "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
+     "summary": "Cramer recommends Howmet and J&amp;J, prefers Micron over Western Digital, criticizes Nebius, and favors Lam Research over KLA.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "HWM",
+      "JNJ",
+      "KLAC",
+      "LRCX",
+      "MU",
+      "NBIS",
+      "NVDA",
+      "WDC"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal"
+    }
+   ],
+   "MRVL": [
+    {
+     "time_ny": "Tue 03 Nov 07:05",
+     "headline": "MRVL Stock Hits Nearly 6-Month Low \u2014 Top Analyst Says Selloff Is \u2018Aimed at the Wrong Thing\u2019",
+     "summary": "Marvell hits a nearly six-month low after its $115B Lumentum deal, but Nicholas Mugalli says investors are focused on the wrong risks.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "LITE",
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62813659/mrvl-stock-hits-nearly-6-month-low-top-analyst-says-selloff-is-aimed-at-the-wrong-thing"
     },
     {
-     "time_ny": "Tue 03 Nov 05:01",
-     "headline": "JD.com and Asyad Group Announce Logistics Partnership in Oman",
-     "summary": "JD.com has entered into a logistics cooperation with Asyad Group to explore the development of three distribution warehouses in Oman.",
+     "time_ny": "Tue 03 Nov 06:51",
+     "headline": "Cantor Fitzgerald Maintains Neutral on Marvell Technology, Lowers Price Target to $225",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62812279/cantor-fitzgerald-maintains-neutral-marvell-technology-lowers-price-target-225"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:31",
+     "headline": "Analysts Adjust Ratings and Price Targets for Marvell Technology Following Acquisition News",
+     "summary": "Multiple financial institutions, including Needham and TD Cowen, updated their ratings and price targets for Marvell Technology on November 3, 2026.",
      "source": "fiscal.ai",
      "author": "",
      "symbols": [
-      "JD"
+      "MRVL"
      ],
-     "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_Zaw1Njq6v:0-zawya-oman-china-sign-23-investment-partnerships-worth-billions-of-dollars/"
+     "url": "https://www.tradingview.com/news/tradingview:ea37189d0ce6e:0-needham-maintains-marvell-technology-at-buy-lowers-price-target-to-300-from-400/"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:47",
+     "headline": "Howard Marks Questions Anthropic's $1.5 Trillion-Plus Valuation: 'Can We Really Fool Ourselves Into Thinking We Know...'",
+     "summary": "Howard Marks says AI firms like Anthropic defy traditional valuation due to unpredictable growth, urging skepticism as tech stocks retreat.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
+     "symbols": [
+      "MRVL",
+      "ORCL",
+      "QQQ",
+      "SMH",
+      "SOXX"
+     ],
+     "url": "https://www.benzinga.com/markets/ipos/26/11/62809097/howard-marks-questions-anthropics-1-5-trillion-plus-valuation-can-we-really-fool-ourselves-into-thinking-we-know"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:44",
+     "headline": "Needham Maintains Buy on Marvell Technology, Lowers Price Target to $300",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62808979/needham-maintains-buy-marvell-technology-lowers-price-target-300"
+    },
+    {
+     "time_ny": "Tue 03 Nov 04:31",
+     "headline": "B of A Securities Downgrades Marvell Technology to Neutral, Lowers Price Target to $225",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "MRVL"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62807699/b-securities-downgrades-marvell-technology-neutral-lowers-price-target-225"
     }
    ],
+   "NBIS": [
+    {
+     "time_ny": "Tue 03 Nov 07:20",
+     "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
+     "summary": "Cramer recommends Howmet and J&amp;J, prefers Micron over Western Digital, criticizes Nebius, and favors Lam Research over KLA.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "HWM",
+      "JNJ",
+      "KLAC",
+      "LRCX",
+      "MU",
+      "NBIS",
+      "NVDA",
+      "WDC"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal"
+    }
+   ],
+   "CRDO": [],
    "MU": [
     {
      "time_ny": "Tue 03 Nov 07:20",
@@ -3680,6 +3966,32 @@
      "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick"
     }
    ],
+   "AMAT": [],
+   "JD": [
+    {
+     "time_ny": "Tue 03 Nov 07:43",
+     "headline": "Reported Earlier, European Commission Conditionally Approves JD.com's Acquisition Of Ceconomy",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "JD",
+      "MTTRY"
+     ],
+     "url": "https://www.benzinga.com/m/26/11/62815843/reported-earlier-european-commission-conditionally-approves-jd-com-s-acquisition-ceconomy"
+    },
+    {
+     "time_ny": "Tue 03 Nov 05:01",
+     "headline": "JD.com and Asyad Group Announce Logistics Partnership in Oman",
+     "summary": "JD.com has entered into a logistics cooperation with Asyad Group to explore the development of three distribution warehouses in Oman.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "JD"
+     ],
+     "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_Zaw1Njq6v:0-zawya-oman-china-sign-23-investment-partnerships-worth-billions-of-dollars/"
+    }
+   ],
    "INTC": [
     {
      "time_ny": "Tue 03 Nov 04:48",
@@ -3692,159 +4004,89 @@
       "INTC"
      ],
      "url": "https://www.benzinga.com/markets/earnings/26/11/62807873/amd-q3-earnings-preview-jean-hu-data-center-sales-accelerate"
-    },
-    {
-     "time_ny": "Mon 02 Nov 22:25",
-     "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
-     "summary": "CNBC\u2019s Jim Cramer is not buying Monday\u2019s selloff in Apple, Palantir and Marvell as the tech slump stretches into a new week.",
-     "source": "benzinga",
-     "author": "Radhika Anilkumar Nadig",
-     "symbols": [
-      "AAPL",
-      "GOOGL",
-      "INTC",
-      "LITE",
-      "MRVL",
-      "MU",
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick"
-    },
-    {
-     "time_ny": "Mon 02 Nov 16:31",
-     "headline": "GF Securities Downgrades Intel Price Target Following Q4 Outlook",
-     "summary": "GF Securities lowered its price target for Intel to $120 from $150, citing a weaker-than-expected fourth-quarter revenue forecast.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "INTC"
-     ],
-     "url": "https://www.tradingview.com/news/gurufocus:2ce5ef5c9094b:0-intel-gets-price-target-revamp-but-keeps-one-major-catalyst/"
     }
    ],
-   "WDC": [
+   "SHOP": [
     {
-     "time_ny": "Tue 03 Nov 07:20",
-     "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
-     "summary": "Cramer recommends Howmet and J&amp;J, prefers Micron over Western Digital, criticizes Nebius, and favors Lam Research over KLA.",
+     "time_ny": "Tue 03 Nov 08:36",
+     "headline": "Shopify Files Shelf Prospectus To Offer Class A Shares, Preferred Shares, Debt Securities, Warrants, Subscription Receipts And Units In Future Offerings; No Terms Disclosed",
+     "summary": "",
      "source": "benzinga",
-     "author": "Avi Kapoor",
+     "author": "Benzinga Newsdesk",
      "symbols": [
-      "HWM",
-      "JNJ",
-      "KLAC",
-      "LRCX",
-      "MU",
-      "NBIS",
-      "NVDA",
-      "WDC"
+      "SHOP"
      ],
-     "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal"
+     "url": "https://www.benzinga.com/news/26/11/62818320/shopify-files-shelf-prospectus-offer-class-shares-preferred-shares-debt-securities-warrants-subscrip"
     },
     {
-     "time_ny": "Mon 02 Nov 20:01",
-     "headline": "Western Digital Provides Update on HAMR Product Qualifications",
-     "summary": "Western Digital confirmed it is on track to complete qualifications for its first-generation HAMR product with two hyperscale customers in early 2027.",
+     "time_ny": "Tue 03 Nov 07:31",
+     "headline": "Shopify Reports Financial Results for Third Quarter 2026",
+     "summary": "Shopify announced its financial results for the quarter ended September 30, 2026, reporting 32% revenue growth and a 22% free cash flow margin.",
      "source": "fiscal.ai",
      "author": "",
      "symbols": [
-      "WDC"
+      "SHOP"
      ],
-     "url": "https://www.tradingview.com/news/zacks:a0d2201e1094b:0-western-digital-s-88-cloud-revenue-share-strength-or-weakness/"
-    }
-   ],
-   "SKHY": [],
-   "TEVA": [
-    {
-     "time_ny": "Tue 03 Nov 07:08",
-     "headline": "Teva Pharmaceutical Indus Raises FY2026 Adj EPS Guidance from $1.91-$2.11 to $1.92-$2.11 vs $1.98 Est; Raises FY2026 Sales Guidance from $16.500B-$16.850B to $16.700B-$17.000B vs $16.651B Est",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "TEVA"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62814083/teva-pharmaceutical-indus-raises-fy2026-adj-eps-guidance-1-91-2-11-1-92-2-11-vs-1-98-est-raises-fy20"
+     "url": "https://www.globenewswire.com/news-release/2026/11/03/3394077/0/en/shopify-sustains-rapid-growth-with-revenue-up-32-and-free-cash-flow-margin-of-22.html"
     },
     {
-     "time_ny": "Tue 03 Nov 07:02",
-     "headline": "Teva Pharmaceutical Indus Q3 Adj. EPS $0.86 Beats $0.73 Estimate, Sales $4.395B Beat $4.291B Estimate",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "TEVA"
-     ],
-     "url": "https://www.benzinga.com/news/earnings/26/11/62813243/teva-pharmaceutical-indus-q3-adj-eps-0-86-beats-0-73-estimate-sales-4-395b-beat-4-291b-estimate"
-    },
-    {
-     "time_ny": "Tue 03 Nov 07:01",
-     "headline": "Teva and Samsung Bioepis Announce Agreement to Commercialize Two FDA-Approved Biosimilars in the U.S.",
-     "summary": "Teva Pharmaceutical Industries Ltd. has entered into a license and commercialization agreement with Samsung Bioepis for two FDA-approved immunology biosimilars.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "TEVA"
-     ],
-     "url": "https://www.globenewswire.com/news-release/2026/11/03/3393969/0/en/teva-and-samsung-bioepis-announce-agreement-to-commercialize-two-fda-approved-biosimilars-in-the-u-s.html"
-    },
-    {
-     "time_ny": "Tue 03 Nov 05:04",
-     "headline": "Teva Expands Samsung Bioepis Collaboration With ETICOVO, Infliximab-Abda Deal; Upfront Payment Over 3 Years, Launch And Sales Milestones Possible, Profits Shared",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "TEVA"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62808066/teva-expands-samsung-bioepis-collaboration-eticovo-infliximab-abda-deal-upfront-payment-over-3-years"
-    },
-    {
-     "time_ny": "Mon 02 Nov 15:30",
-     "headline": "AMD, Shopify On Deck Tuesday As AI Spending, Merchant Growth Face Test",
-     "summary": "Advanced Micro Devices headlines Tuesday\u2019s reports, with investors looking for evidence that AI demand can withstand a sharp pullback in the stock. Shopify, Pfizer, Eaton, Marathon Petroleum and Ferrari report before",
+     "time_ny": "Tue 03 Nov 07:05",
+     "headline": "12 Information Technology Stocks Moving In Tuesday's Pre-Market Session",
+     "summary": "Gainers\n\nBackblaze (NASDAQ:BLZE) shares moved upwards by 33.2% to $9.86 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $444.1 million. As per the news, the Q3 earnings report",
      "source": "benzinga",
      "author": "Benzinga Insights",
      "symbols": [
-      "ADM",
-      "AIG",
-      "AIZ",
-      "ALAB",
-      "AMD",
-      "AME",
-      "AMGN",
-      "ANET",
-      "APO",
-      "BKNG",
-      "CPNG",
-      "ETN",
-      "FISV",
-      "FTS",
-      "IFF",
-      "ITUB",
-      "KDP",
-      "MPC",
-      "MPLX",
-      "OVV",
-      "PFE",
-      "PRU",
-      "RACE",
+      "ADEA",
+      "AEHR",
+      "AEIS",
+      "BLZE",
+      "CLRO",
+      "DT",
+      "HLIT",
+      "HUBC",
+      "ICG",
+      "PARA",
       "SHOP",
-      "SMCI",
-      "SU",
-      "SWKS",
-      "SYY",
-      "TEVA",
-      "TOST",
-      "TRI",
-      "WAT",
-      "XYZ",
-      "YUM"
+      "SMTK"
      ],
-     "url": "https://www.benzinga.com/news/26/11/62795239/amd-shopify-on-deck-tuesday-as-ai-spending-merchant-growth-face-test"
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62813712/12-information-technology-stocks-moving-tuesday-s-pre-market-session"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:04",
+     "headline": "Shopify Sees Q4 Sales $4.810B-$4.884B vs $4.758B Est. Revenue to grow at a low-thirties percentage rate on a year-over-year basis.",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SHOP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62813633/shopify-sees-q4-sales-4-810b-4-884b-vs-4-758b-est-revenue-grow-low-thirties-percentage-rate-year-ove"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:01",
+     "headline": "Shopify Q3 Adj. EPS $0.49 Beats $0.46 Estimate, Sales $3.742B Miss $3.747B Estimate",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SHOP",
+      "TSX:SHOP"
+     ],
+     "url": "https://www.benzinga.com/news/earnings/26/11/62813101/shopify-q3-adj-eps-0-49-beats-0-46-estimate-sales-3-742b-miss-3-747b-estimate"
+    },
+    {
+     "time_ny": "Tue 03 Nov 03:18",
+     "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+     "summary": "Shopify reports Q3 earnings Tuesday, with EPS forecast at 46 cents and revenue at $3.74B. Meta partnership expands AI-powered shopping via Shop Pay.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "META",
+      "SHOP"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
     }
    ],
-   "CRDO": [],
    "DT": [
     {
      "time_ny": "Tue 03 Nov 07:32",
@@ -3913,7 +4155,321 @@
      "url": "https://www.benzinga.com/news/26/11/62811193/dynatrace-lowers-fy2027-adj-eps-guidance-1-97-1-99-1-88-1-90-vs-1-96-est-raises-fy2027-sales-guidanc"
     }
    ],
+   "PLTR": [
+    {
+     "time_ny": "Tue 03 Nov 08:23",
+     "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus (UPDATED)",
+     "summary": "U.S. stocks were mixed on Tuesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AAPL",
+      "AMD",
+      "BTCUSD",
+      "DIA",
+      "GRAB",
+      "PLTR",
+      "QQQ",
+      "SPY",
+      "VRTX"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:02",
+     "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
+     "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
+     "source": "benzinga",
+     "author": "Rishabh Mishra",
+     "symbols": [
+      "AAPL",
+      "CRM",
+      "MSFT",
+      "NOW",
+      "NVDA",
+      "ORCL",
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:02",
+     "headline": "Adeia Posts Downbeat Q3 Earnings, Joins Bioventus, Apple And Other Big Stocks Moving Lower In Tuesday\u2019s Pre-Market Session",
+     "summary": "U.S. futures mixed as Adeia plunges 23% after missing Q3 estimates and cutting FY26 guidance; Bioventus, Emergent and others also fall premarket.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "AAPL",
+      "ADEA",
+      "BVS",
+      "CERS",
+      "CLVT",
+      "EBS",
+      "NNBR",
+      "PGR",
+      "PLTR",
+      "SNDL",
+      "TGB",
+      "TSCO",
+      "VYX",
+      "WAY"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62816416/adeia-posts-downbeat-q3-earnings-joins-bioventus-apple-and-other-big-stocks-moving-lower-in-tuesdays-pre-market-session"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:20",
+     "headline": "These Analysts Revise Their Forecasts On Palantir After Q3 Results",
+     "summary": "Palantir beat Q3 revenue and EPS estimates, raised 2026 guidance, but shares fell 8.1%; analysts lifted some price targets.",
+     "source": "benzinga",
+     "author": "Avi Kapoor",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62814908/these-analysts-revise-their-forecasts-on-palantir-after-q3-results"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:43",
+     "headline": "Cantor Fitzgerald Reiterates Neutral on Palantir Technologies, Maintains $207 Price Target",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62811779/cantor-fitzgerald-reiterates-neutral-palantir-technologies-maintains-207-price-target"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:31",
+     "headline": "Piper Sandler Maintains Palantir Technologies at Overweight, Raises Price Target to $235",
+     "summary": "Piper Sandler has reaffirmed its Overweight rating on Palantir Technologies Inc. while increasing its price target from $231 to $235.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "PLTR"
+     ],
+     "url": "https://www.tradingview.com/news/tradingview:bc2fd2cf082e0:0-piper-sandler-maintains-palantir-technologies-at-overweight-raises-price-target-to-235-from-231/"
+    }
+   ],
+   "SYY": [
+    {
+     "time_ny": "Tue 03 Nov 08:31",
+     "headline": "Sysco Affirms FY2027 Adj EPS Guidance of $5.02-$5.12 vs $5.05 Est; Narrows FY2027 Sales Guidance from $89.626B-$90.472B to $89.626B vs $89.879B Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62817870/sysco-affirms-fy2027-adj-eps-guidance-5-02-5-12-vs-5-05-est-narrows-fy2027-sales-guidance-89-626b-90"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:05",
+     "headline": "Sysco Q1 Includes $234M Gain On Rate Locks Tied To Jetro Restaurant Depot Acquisition Financing",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/quote/SYY"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:05",
+     "headline": "Sysco Returned $264M To Shareholders Via Dividends In Q1",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/quote/SYY"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:05",
+     "headline": "Sysco Q1 Free Cash Flow $230M Vs $(50)M YoY",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/quote/SYY"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:05",
+     "headline": "Sysco Q1 International Adj. Operating Income Up 12.2% To $165M",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/quote/SYY"
+    },
+    {
+     "time_ny": "Tue 03 Nov 08:04",
+     "headline": "Sysco Q1 Adj. Operating Income Up 3.2% To $927M",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "SYY"
+     ],
+     "url": "https://www.benzinga.com/quote/SYY"
+    }
+   ],
+   "KDP": [
+    {
+     "time_ny": "Tue 03 Nov 08:29",
+     "headline": "Keurig Dr Pepper CEO Says We Reduced Prices In Certain Regions And Products To Reflect Lower Coffee Costs During Q3; U.S. Coffee Navigated A Challenging Category Environment In Q3; U.S. Single Serve Subcategory In Coffee Has Been Softer Than We Anticipated In Q3; We Reduced Prices In Certain Regions And Products To Reflect Lower Coffee Costs During Q3",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62817713/keurig-dr-pepper-ceo-says-we-reduced-prices-certain-regions-and-products-reflect-lower-coffee-costs-"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:12",
+     "headline": "Keurig Dr Pepper Q3 Includes $99M Benefit From Tariff Refunds",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/quote/KDP"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:12",
+     "headline": "Keurig Dr Pepper Q3 JDE Peet\u2019s Net Sales $2.6B, Adj. Operating Income $480M",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/quote/KDP"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:12",
+     "headline": "Keurig Dr Pepper Q3 Legacy Net Sales Up 8.6%; U.S. Refreshment Beverages Up 10.9%",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/quote/KDP"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:12",
+     "headline": "Keurig Dr Pepper Sees Legacy KDP FY26 EPS Growth 3%-5% On Revised U.S. Coffee Expectations",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/quote/KDP"
+    },
+    {
+     "time_ny": "Tue 03 Nov 07:11",
+     "headline": "Keurig Dr Pepper Reaffirms FY26 Net Sales Guidance $25.9B-$26.4B; Adj. EPS Growth Low-Double Digits Constant Currency",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "KDP"
+     ],
+     "url": "https://www.benzinga.com/quote/KDP"
+    }
+   ],
+   "FMS": [
+    {
+     "time_ny": "Tue 03 Nov 08:02",
+     "headline": "Fresenius Medical Care Reports Third Quarter 2026 Results and Narrows Full-Year Outlook",
+     "summary": "Fresenius Medical Care reported its third quarter 2026 financial results, showing a decline in net income and operating profit, and narrowed its full-year operating income guidance.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "FMS"
+     ],
+     "url": "https://www.prnewswire.com/news-releases/fresenius-medical-care-reports-third-quarter-2026-performance-partially-offsetting-headwinds-and-narrowing-full-year-outlook-302927537.html"
+    },
+    {
+     "time_ny": "Tue 03 Nov 06:26",
+     "headline": "Fresenius Medical Care Affirms FY2026 Sales Guidance of $23.764B vs $22.490B Est",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "FMS"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62810925/fresenius-medical-care-affirms-fy2026-sales-guidance-23-764b-vs-22-490b-est"
+    },
+    {
+     "time_ny": "Tue 03 Nov 03:31",
+     "headline": "Fresenius Medical Care Narrows 2026 Earnings Outlook",
+     "summary": "Fresenius Medical Care has narrowed its full-year 2026 operating income guidance, citing performance in the first nine months and anticipated fourth-quarter pressures.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "FMS"
+     ],
+     "url": "https://www.finanzen.net/nachricht/aktien/fmc-grenzt-ergebnis-ausblick-fuer-gesamtjahr-2026-ein-16031292"
+    },
+    {
+     "time_ny": "Tue 03 Nov 03:14",
+     "headline": "Fresenius Medical Care CEO Says Many Parts Of Business \u201cStill At An Early Stage,\u201d Sees Room For \u201cTransformational\u201d Gains",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "FMS"
+     ],
+     "url": "https://www.benzinga.com/quote/FMS"
+    },
+    {
+     "time_ny": "Tue 03 Nov 03:14",
+     "headline": "Fresenius Medical Care New CEO Korangy: \u201cWe Are Muted In Our Assessment Of Performance\u201d",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "FMS"
+     ],
+     "url": "https://www.benzinga.com/quote/FMS"
+    }
+   ],
+   "RELX": [],
+   "PBR": [],
+   "BP": [
+    {
+     "time_ny": "Tue 03 Nov 04:31",
+     "headline": "Evercore ISI Adjusts Price Target for BP PLC",
+     "summary": "Evercore ISI has maintained its 'In-Line' rating on BP PLC and increased its price target for the company's sponsored ADR.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "BP"
+     ],
+     "url": "https://www.tradingview.com/news/tradingview:039ef4020579d:0-key-facts-bp-sells-castrol-to-stonepeak-evercore-isi-raises-target/"
+    }
+   ],
    "DOCN": [
+    {
+     "time_ny": "Tue 03 Nov 08:23",
+     "headline": "DigitalOcean Announces ATM Equity Offering Program Worth Up To $1B",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "DOCN"
+     ],
+     "url": "https://www.benzinga.com/news/26/11/62817524/digitalocean-announces-atm-equity-offering-program-worth-1b"
+    },
     {
      "time_ny": "Tue 03 Nov 07:02",
      "headline": "DigitalOcean Q3 Adj. EPS $0.45 Beats $0.32 Estimate, Sales $321.192M Beat $306.653M Estimate",
@@ -3946,54 +4502,6 @@
       "DOCN"
      ],
      "url": "https://www.benzinga.com/news/26/11/62813124/digitalocean-holdings-sees-q4-adj-eps-0-30-0-32-vs-0-27-est-sees-sales-348-000m-351-000m-vs-333-125m"
-    }
-   ],
-   "RELX": [],
-   "NOW": [
-    {
-     "time_ny": "Tue 03 Nov 08:02",
-     "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
-     "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
-     "source": "benzinga",
-     "author": "Rishabh Mishra",
-     "symbols": [
-      "AAPL",
-      "CRM",
-      "MSFT",
-      "NOW",
-      "NVDA",
-      "ORCL",
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
-    },
-    {
-     "time_ny": "Mon 02 Nov 22:02",
-     "headline": "ServiceNow Acquires Cybersecurity Firm Armis for $7.75 Billion",
-     "summary": "ServiceNow has acquired cybersecurity company Armis in a transaction valued at $7.75 billion.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "NOW"
-     ],
-     "url": "https://fr.tradingview.com/news/tradingview:a560acd77b716:0-weekly-recap-q3-outlook-miss-and-7-75-billion-armis-acquisition/"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:46",
-     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
-     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
-     "source": "benzinga",
-     "author": "Chris Katje",
-     "symbols": [
-      "AAPL",
-      "CRWD",
-      "MSFT",
-      "NOW",
-      "NVDA",
-      "PLTR",
-      "TSLA"
-     ],
-     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
     }
    ],
    "UL": [
