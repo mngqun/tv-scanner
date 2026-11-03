@@ -40,6 +40,14 @@ jobs:
           TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
           TICKERS: ${{ github.event.inputs.tickers }}
         run: python tv_scan.py
+      - name: Market context (free sources; replaces Bigdata.com)
+        continue-on-error: true
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+          TICKERS: ${{ github.event.inputs.tickers }}
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+        run: timeout 300 python market_context.py
       - name: Commit results
         run: |
           git config user.name "tv-scanner-bot"
