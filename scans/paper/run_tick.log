@@ -1,10 +1,1 @@
-ledger 2026-11-02: 0 legs closed, 0 unfilled, 0 still open
-| Arm | Trades | Win % | Avg R | Pess. avg R (95% CI) | Max DD R | Worst day $ | Slip R | Go-live |
-|---|---|---|---|---|---|---|---|---|
-| B:orb | 6 | 17 | -0.63 | -0.627 (-1.158, 0.36) | 5.58 | -183.26 | 0.148 | no |
-| B:orb:spy_above | 6 | 17 | -0.63 | -0.627 (-1.158, 0.36) | 5.58 | -183.26 | 0.148 | no |
-| B:rulec | 2 | 100 | +0.06 | 0.064 (0.03, 0.097) | 0.0 | 12.46 | -0.056 | no |
-| B:scan | 3 | 33 | -0.44 | -0.439 (-1.201, 1.026) | 2.34 | -46.6 | 0.117 | no |
-| B:scan:level:breakout_20d | 1 | 100 | +1.03 | 1.026 (None, None) | 0.0 | 48.74 | 0.03 | no |
-| B:scan:level:oversold | 2 | 0 | -1.17 | -1.171 (-1.201, -1.141) | 2.34 | -95.34 | 0.16 | no |
-| A:sleeve(user overlay) | 0 | | | | | | | |
+[B] placed rulec short JD x92 market stop 28.49 tgt None -> 200 

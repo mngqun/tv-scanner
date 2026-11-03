@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "id": "rulec-B-2026-11-03-JD",
+  "base": "rulec-B-2026-11-03-JD",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "JD",
+  "side": "short",
+  "qty": 92,
+  "entry_type": "market",
+  "plan_entry": 27.41,
+  "limit_price": null,
+  "stop": 28.49,
+  "target": null,
+  "placed_day": "2026-11-03",
+  "placed_at": "09:39",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Retail Trade",
+  "planned_risk": 99.36,
+  "features": {
+   "symbol": "JD",
+   "open": 27.41,
+   "prev_close": 26.299999237060547,
+   "atr": 0.5414,
+   "gap_pct": 4.22,
+   "gap_atr": 2.05,
+   "sector": "Retail Trade"
+  },
+  "last_at_placement": 27.21,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "9d6009e3-fb68-4296-a66b-1f7d68054ed6",
+  "message": null,
+  "sessions": [
+   "2026-11-03"
+  ],
+  "entry_status": "new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "e9250834-1e2b-4251-8c4e-b49860a29a0f",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 92.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "28.49",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
+ }
+]

@@ -1,0 +1,160 @@
+{
+ "date": "2026-11-03",
+ "close": "16:00",
+ "ticks": [
+  "09:39"
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-03-JD",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "JD",
+   "side": "short",
+   "qty": 92,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:39"
+  }
+ ],
+ "rulec": {
+  "at": "09:39",
+  "candidates": [
+   {
+    "symbol": "JD",
+    "open": 27.41,
+    "prev_close": 26.299999237060547,
+    "atr": 0.5414,
+    "gap_pct": 4.22,
+    "gap_atr": 2.05,
+    "sector": "Retail Trade"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "LSCC",
+    "why": "earnings"
+   },
+   {
+    "symbol": "NBIX",
+    "why": "earnings"
+   },
+   {
+    "symbol": "RVTY",
+    "why": "earnings"
+   },
+   {
+    "symbol": "FISV",
+    "why": "earnings"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 6.87% / 0.68 ATR"
+   },
+   {
+    "symbol": "PHG",
+    "why": "earnings"
+   },
+   {
+    "symbol": "MTSI",
+    "why": "gap 3.76% / 0.43 ATR"
+   },
+   {
+    "symbol": "AME",
+    "why": "earnings"
+   },
+   {
+    "symbol": "MCHP",
+    "why": "gap 3.53% / 0.77 ATR"
+   },
+   {
+    "symbol": "MKSI",
+    "why": "gap 4.48% / 0.69 ATR"
+   },
+   {
+    "symbol": "ETN",
+    "why": "earnings"
+   },
+   {
+    "symbol": "SMTC",
+    "why": "gap 3.57% / 0.36 ATR"
+   },
+   {
+    "symbol": "CRDO",
+    "why": "gap 3.16% / 0.29 ATR"
+   },
+   {
+    "symbol": "NVT",
+    "why": "gap 1.68% / 0.23 ATR"
+   },
+   {
+    "symbol": "ENTG",
+    "why": "gap 3.85% / 0.56 ATR"
+   },
+   {
+    "symbol": "ADI",
+    "why": "gap 2.82% / 0.71 ATR"
+   },
+   {
+    "symbol": "KLAC",
+    "why": "gap 3.33% / 0.61 ATR"
+   },
+   {
+    "symbol": "AMAT",
+    "why": "gap 3.30% / 0.59 ATR"
+   },
+   {
+    "symbol": "LRCX",
+    "why": "gap 3.28% / 0.48 ATR"
+   },
+   {
+    "symbol": "WDC",
+    "why": "gap 3.39% / 0.46 ATR"
+   },
+   {
+    "symbol": "GH",
+    "why": "gap 1.31% / 0.25 ATR"
+   },
+   {
+    "symbol": "ON",
+    "why": "earnings"
+   },
+   {
+    "symbol": "RGEN",
+    "why": "gap 1.50% / 0.29 ATR"
+   },
+   {
+    "symbol": "JCI",
+    "why": "gap 1.13% / 0.28 ATR"
+   },
+   {
+    "symbol": "TEVA",
+    "why": "earnings"
+   },
+   {
+    "symbol": "GNRC",
+    "why": "gap 2.23% / 0.40 ATR"
+   },
+   {
+    "symbol": "STX",
+    "why": "gap 3.14% / 0.36 ATR"
+   },
+   {
+    "symbol": "MU",
+    "why": "gap 3.15% / 0.51 ATR"
+   },
+   {
+    "symbol": "JBL",
+    "why": "gap 2.40% / 0.47 ATR"
+   }
+  ],
+  "placed": [
+   "JD"
+  ]
+ },
+ "queue_done": [],
+ "log": [
+  "[B] placed rulec short JD x92 market stop 28.49 tgt None -> 200 "
+ ]
+}
