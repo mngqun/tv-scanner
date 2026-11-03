@@ -1,10 +1,6 @@
 {
- "generated_new_york": "2026-11-02T19:59:09-05:00",
+ "generated_new_york": "2026-11-02T20:10:27-05:00",
  "tickers": [
-  "AAPL",
-  "PLTR",
-  "AMD",
-  "TQQQ",
   "GFI",
   "UAL",
   "ASX",
@@ -31,30 +27,140 @@
   "OXY"
  ],
  "snapshot": {
-  "source": "Yahoo Finance chart JSON (free, unofficial, may lag); FRED (official, end of day)",
-  "fetched": "2026-11-02T19:59:09-05:00",
-  "items": {},
-  "errors": {
-   "VIX": "HTTP Error 429: Too Many Requests",
-   "US10Y_yahoo": "HTTP Error 429: Too Many Requests",
-   "US5Y_yahoo": "HTTP Error 429: Too Many Requests",
-   "US13W": "HTTP Error 429: Too Many Requests",
-   "DXY": "HTTP Error 429: Too Many Requests",
-   "WTI": "HTTP Error 429: Too Many Requests",
-   "Brent": "HTTP Error 429: Too Many Requests",
-   "Gold": "HTTP Error 429: Too Many Requests",
-   "NatGas": "HTTP Error 429: Too Many Requests",
-   "ES_fut": "HTTP Error 429: Too Many Requests",
-   "NQ_fut": "HTTP Error 429: Too Many Requests",
-   "YM_fut": "HTTP Error 429: Too Many Requests",
-   "RTY_fut": "HTTP Error 429: Too Many Requests",
-   "BTC": "HTTP Error 429: Too Many Requests",
-   "FRED_DGS2": "The read operation timed out",
-   "FRED_DGS10": "The read operation timed out"
-  }
+  "source": "TradingView scanner (tier per row: streaming = real-time); fallbacks Yahoo chart JSON, FRED",
+  "fetched": "2026-11-02T20:10:27-05:00",
+  "items": {
+   "VIX": {
+    "symbol": "CBOE:VIX",
+    "last": 21.15,
+    "chg_pct": 8.91,
+    "chg": 1.7299999999999969,
+    "high": 21.77,
+    "low": 18.03,
+    "tier": "delayed_streaming_900"
+   },
+   "US10Y": {
+    "symbol": "TVC:US10Y",
+    "last": 4.912,
+    "chg_pct": -0.43,
+    "chg": -0.020999999999999908,
+    "high": 4.954,
+    "low": 4.869,
+    "tier": "streaming"
+   },
+   "US02Y": {
+    "symbol": "TVC:US02Y",
+    "last": 4.598,
+    "chg_pct": 0.09,
+    "chg": 0.0039999999999995595,
+    "high": 4.614,
+    "low": 4.565,
+    "tier": "streaming"
+   },
+   "US30Y": {
+    "symbol": "TVC:US30Y",
+    "last": 5.287,
+    "chg_pct": -0.41,
+    "chg": -0.02200000000000024,
+    "high": 5.332,
+    "low": 5.241,
+    "tier": "streaming"
+   },
+   "DXY": {
+    "symbol": "TVC:DXY",
+    "last": 101.818,
+    "chg_pct": 0.02,
+    "chg": 0.018000000000000682,
+    "high": 101.818,
+    "low": 101.731,
+    "tier": "streaming"
+   },
+   "WTI": {
+    "symbol": "NYMEX:CL1!",
+    "last": 96.3,
+    "chg_pct": -0.17,
+    "chg": -0.1599999999999966,
+    "high": 97.17,
+    "low": 96.21,
+    "tier": "delayed_streaming_600"
+   },
+   "Brent": {
+    "symbol": "ICEEUR:BRN1!",
+    "last": 104.45,
+    "chg_pct": -0.31,
+    "chg": -0.3199999999999932,
+    "high": 104.45,
+    "low": 104.45,
+    "tier": "delayed_streaming_600"
+   },
+   "Gold": {
+    "symbol": "COMEX:GC1!",
+    "last": 3967.7,
+    "chg_pct": -0.05,
+    "chg": -1.900000000000091,
+    "high": 3974.5,
+    "low": 3952.8,
+    "tier": "delayed_streaming_600"
+   },
+   "NatGas": {
+    "symbol": "NYMEX:NG1!",
+    "last": 2.869,
+    "chg_pct": 0.46,
+    "chg": 0.013000000000000345,
+    "high": 2.874,
+    "low": 2.853,
+    "tier": "delayed_streaming_600"
+   },
+   "ES_fut": {
+    "symbol": "CME_MINI:ES1!",
+    "last": 7582.25,
+    "chg_pct": 0.1,
+    "chg": 7.75,
+    "high": 7591.5,
+    "low": 7571.5,
+    "tier": "delayed_streaming_600"
+   },
+   "NQ_fut": {
+    "symbol": "CME_MINI:NQ1!",
+    "last": 28170.25,
+    "chg_pct": 0.15,
+    "chg": 42.75,
+    "high": 28284.5,
+    "low": 28132,
+    "tier": "delayed_streaming_600"
+   },
+   "YM_fut": {
+    "symbol": "CBOT_MINI:YM1!",
+    "last": 52125,
+    "chg_pct": -0.02,
+    "chg": -8,
+    "high": 52186,
+    "low": 52097,
+    "tier": "delayed_streaming_600"
+   },
+   "RTY_fut": {
+    "symbol": "CME_MINI:RTY1!",
+    "last": 2820.6,
+    "chg_pct": 0.1,
+    "chg": 2.799999999999727,
+    "high": 2823.6,
+    "low": 2817.1,
+    "tier": "delayed_streaming_600"
+   },
+   "BTC": {
+    "symbol": "BITSTAMP:BTCUSD",
+    "last": 77100.73,
+    "chg_pct": 0.56,
+    "chg": 428.3099999999977,
+    "high": 77123.13,
+    "low": 76540.01,
+    "tier": "streaming"
+   }
+  },
+  "errors": {}
  },
  "economic": {
-  "fetched": "2026-11-02T20:00:10-05:00",
+  "fetched": "2026-11-02T20:10:28-05:00",
   "events": [
    {
     "time_utc": "2026-11-03T00:00:00.000Z",
@@ -1052,7 +1158,7 @@
  },
  "earnings": {
   "source": "Nasdaq earnings calendar API (api.nasdaq.com)",
-  "fetched": "2026-11-02T20:00:10-05:00",
+  "fetched": "2026-11-02T20:10:28-05:00",
   "days": {
    "2026-11-02": {
     "all": 147,
@@ -1654,8 +1760,305 @@
  },
  "news": {
   "source": "Alpaca news API (Benzinga)",
-  "fetched": "2026-11-02T20:00:16-05:00",
+  "fetched": "2026-11-02T20:10:32-05:00",
   "market": [
+   {
+    "time_ny": "Mon 02 Nov 20:03",
+    "headline": "Prenetics Global Chief Financial Officer to Resign",
+    "summary": "Prenetics Global Limited announced that its Chief Financial Officer, Stephen Hoi Chun Lo, has tendered his resignation, effective December 30, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "PRE"
+    ],
+    "url": "https://www.marketscreener.com/news/prenetics-global-chief-financial-officer-to-resign-ce785fd9db8ef12d"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "J-Star Holding Co., Ltd. Receives Shareholder Approval for Capital Restructuring",
+    "summary": "J-Star Holding announced that shareholders approved key capital restructuring initiatives during an extraordinary general meeting held on October 29, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "YMAT"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393835/0/en/j-star-holding-co-ltd-receives-shareholder-approval-for-capital-restructuring-and-reinforces-strategic-focus-on-u-s-growth.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Haoxin Holdings Limited Provides Shareholder Update Regarding Broker-Assisted Trading for HXHX Shares",
+    "summary": "Haoxin Holdings Limited issued an update to shareholders regarding potential brokerage-specific requirements for trading the company's Class A ordinary shares.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "HXHX"
+    ],
+    "url": "https://www.newsfilecorp.com/release/322074/Haoxin-Holdings-Limited-Provides-Shareholder-Update-Regarding-BrokerAssisted-Trading-for-HXHX-Shares"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Pomdoctor Limited Receives Nasdaq Deficiency Notifications",
+    "summary": "Pomdoctor Limited announced it received two letters from Nasdaq regarding deficiencies in meeting continued listing requirements for the Nasdaq Global Market.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "POM"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/pomdoctor-limited-announces-receipt-of-nasdaq-notifications-regarding-continued-listing-requirements-302925899.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Baird Medical Enters Strategic Distribution Agreement with China Resources Medical Devices",
+    "summary": "Baird Medical has signed an exclusive distribution agreement with China Resources Pharmaceutical Commercial Group Medical Devices to expand the reach of its microwave ablation products in China.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BDMD"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393118/0/en/baird-medical-and-china-resources-pharmaceutical-commercial-group-medical-devices-sign-strategic-distribution-agreement-to-expand-access-to-microwave-ablation-in-china.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Luda Technology Enters Mongolia-China Coal Trading Market",
+    "summary": "Luda Technology Group Limited has launched a new coal trading business, securing agreements to supply 440,000 metric tons of Mongolian thermal coal to two Chinese customers over the next year.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "LUD"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:720b8cc48b053:0-luda-technology-group-limited-lud-enters-coal-trading-with-440-000-ton-commitments/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "BNY to Waive Issuance Fees for Foresight Autonomous Holdings ADS Conversion",
+    "summary": "As the depositary for Foresight Autonomous Holdings' ADS program, BNY will waive issuance fees for converting Ordinary Shares into ADSs through January 7, 2027, in connection with Foresight's voluntary delisting from the Tel Aviv Stock Exchange.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BNY"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393711/0/en/foresight-reminds-shareholders-of-upcoming-tase-delisting-and-encourages-conversion-of-ordinary-shares-into-nasdaq-traded-adss-bny-to-waive-issuance-fees-through-january-7-2027.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Luda Technology Acquires 55% Stake in AI Data Centre Firm",
+    "summary": "Luda Technology Group Limited has acquired a 55% controlling interest in Asia AI Data Centre & Quantum Technology for a total consideration of $935,000.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "LUD"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:d790e6aae37d2:0-luda-technology-group-limited-lud-buys-55-of-ai-data-quant-tech-for-935k/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "Rectitude Holdings Ltd Announces Acquisition of Mr. Butler Pte. Ltd.",
+    "summary": "Rectitude Holdings Ltd has entered into a definitive share purchase agreement to acquire 100% of the Singapore-based service company Mr. Butler.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "RECT"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393086/0/en/rectitude-holdings-ltd-announces-acquisition-of-mr-butler-pte-ltd-and-executes-business-migration-agreements-with-inos-and-g-l.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "HashKey Exchange Advances Collaboration with Baillie Gifford",
+    "summary": "HashKey Exchange is expanding its partnership with asset manager Baillie Gifford to explore tokenized investment product opportunities for professional investors in Hong Kong.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "3887"
+    ],
+    "url": "https://www.einpresswire.com/article/953874094/hashkey-exchange-collaborates-with-baillie-gifford-to-explore-potential-opportunities-in-tokenised-investment-products"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:02",
+    "headline": "HashKey Group Joins HKMA's EnsembleTX Initiative as Industry Pioneer",
+    "summary": "HashKey Group has become an Industry Pioneer of the Hong Kong Monetary Authority's (HKMA) EnsembleTX initiative to explore the commercial application of tokenized deposits.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "3887"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/hashkey-group-joined-the-hkmas-ensembletx-as-an-industry-pioneer-302926509.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "VNET Group, Inc. Stock 12-Month Price Target Adjusted by Analysts",
+    "summary": "Analysts have updated their 12-month price target for VNET Group, Inc. to $11.83, down from the previous average of $12.29.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "VNET"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:707dbf62f238d:0-vnet-group-inc-stock-12-month-price-target-cut-to-11-83-implies-267-upside/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "The GrowHub Enters African Market Through Strategic Agreement in Guinea-Bissau",
+    "summary": "The GrowHub Limited has entered into a strategic cooperation agreement with Strategic Management Consortium LLC to explore sustainability and carbon-related opportunities in Guinea-Bissau.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TGHL"
+    ],
+    "url": "https://www.prlog.org/13180455-the-growhub-enters-african-market-through-strategic-agreement-in-guinea-bissau.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Valeura Energy Inc. to Present at Oil & Gas Virtual Investor Conference",
+    "summary": "Valeura Energy Inc. is scheduled to participate in the upcoming Oil & Gas Virtual Investor Conference on November 5, 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "VLE"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393177/0/en/oil-gas-virtual-investor-conference-agenda-announced-for-november-5th.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Skyline Builders Group Terminates Business Combination Agreement with Cove Kaz Capital",
+    "summary": "Skyline Builders Group Holding Limited and Cove Kaz Capital Group LLC have mutually agreed to terminate their previously announced business combination agreement.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "KAZR"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393234/0/en/skyline-builders-group-holding-provides-update-on-previously-announced-business-combination-agreement-with-cove-kaz-capital.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Black Spade Acquisition III Co Secures $200,000 Promissory Note from Sponsor",
+    "summary": "Black Spade Acquisition III Co has entered into an unsecured promissory note agreement with its sponsor to fund expenses related to its proposed business combination.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BIII.U"
+    ],
+    "url": "https://fr.tradingview.com/news/tradingview:e9fb2cdc41fd5:0-black-spade-acquisition-iii-secures-up-to-200-000-from-sponsor-for-business-combination-costs/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Lotus Technology Receives Nasdaq Minimum Bid Price Deficiency Notice",
+    "summary": "Lotus Technology Inc. has been notified by Nasdaq that it is not in compliance with the exchange's minimum bid price requirement.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "LOT"
+    ],
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393832/0/en/lotus-tech-announces-receipt-of-nasdaq-notification-regarding-minimum-bid-price.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Gamehaus Holdings Inc. Announces Agreement to Acquire 56% Stake in Techforge Co., Ltd.",
+    "summary": "Gamehaus Holdings Inc. has entered into a definitive agreement to acquire a 56% stake in Techforge Co., Ltd., the holding company of AI-powered content platform Anamana, for $19.6 million in shares and a $7 million cash investment.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "GMHS"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/gamehaus-signs-definitive-agreement-to-acquire-majority-stake-in-anamana-302926152.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "ZKH Group Limited Launches LingLong Insight 1.0 Industrial AI Model with Intel",
+    "summary": "ZKH Group Limited, through its subsidiary LingLong Intelligence, has introduced a 4-billion-parameter multimodal AI model designed to automate industrial supply verification.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "ZKH"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/zkh-and-intel-bring-industrial-multimodal-ai-to-the-edge-with-linglong-insight-1-0--302925961.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Hans Ku Departs The Walt Disney Company for Utopai Studios",
+    "summary": "Hans Ku, formerly the Vice President of AI & Engineering in Disney's Office of Technology Enablement, has joined Utopai Studios as Chief Product Officer.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "DIS"
+    ],
+    "url": "https://natlawreview.com/press-releases/utopai-studios-names-disney-ai-strategy-leader-hans-ku-chief-product-officer"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
+    "summary": "Tesla has introduced a new capability for the Powerwall 3, allowing it to boost heat pumps to store solar energy as thermal heat.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "TSLA"
+    ],
+    "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Jadestone Energy plc Announces Total Voting Rights",
+    "summary": "Jadestone Energy plc has released its monthly statement confirming its total voting rights and issued share capital as of 30 October 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "JSE"
+    ],
+    "url": "https://uk.advfn.com/stock-market/london/jadestone-energy-JSE/share-news/Jadestone-Energy-PLC-Total-Voting-Rights/99602863"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Bitdeer Technologies Group Reports Zero Bitcoin Holdings Following Weekly Production Sale",
+    "summary": "Bitdeer Technologies Group sold its entire weekly production of 265.5 BTC, resulting in zero bitcoin holdings as of October 30, 2026, excluding customer deposits.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BTDR"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:7e7c62c9523f4:0-weekly-recap-sold-all-weekly-btc-production-and-b-riley-cuts-target-to-19/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "KBW Maintains Hold Rating on Bitdeer Technologies Group",
+    "summary": "KBW analyst Stephen Glagola maintained a Hold rating on Bitdeer Technologies Group (BTDR) and set a price target of $8.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "BTDR"
+    ],
+    "url": "https://www.moomoo.com/news/post/1003200189/kbw-maintains-bitdeer-technologies-group-btdrus-with-hold-rating-announces"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Jin Medical International Participates in Four Global Rehabilitation Expos",
+    "summary": "Jin Medical International Ltd. showcased its lightweight rehabilitation assistive products at four major industry expos in China and Germany between August and September 2026.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "ZJYL"
+    ],
+    "url": "https://www.prnewswire.com/news-releases/jin-medical-showcases-innovation-across-four-global-industry-expos-lightweight-rehabilitation-assistive-line-draws-broad-market-attention-302926510.html"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Western Digital Provides Update on HAMR Product Qualifications",
+    "summary": "Western Digital confirmed it is on track to complete qualifications for its first-generation HAMR product with two hyperscale customers in early 2027.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "WDC"
+    ],
+    "url": "https://www.tradingview.com/news/zacks:a0d2201e1094b:0-western-digital-s-88-cloud-revenue-share-strength-or-weakness/"
+   },
+   {
+    "time_ny": "Mon 02 Nov 20:01",
+    "headline": "Cisco Announces AI-Driven Networking and Security Enhancements at Partner Summit",
+    "summary": "Cisco introduced several new AI-focused tools, security features, and updates to its 360 Partner Program during its recent Partner Summit.",
+    "source": "fiscal.ai",
+    "author": "",
+    "symbols": [
+     "CSCO"
+    ],
+    "url": "https://www.tradingview.com/news/tradingview:755a820e6e1d0:0-weekly-recap-agenticops-tools-and-partner-program-upgrades/"
+   },
    {
     "time_ny": "Mon 02 Nov 19:50",
     "headline": "Trading Halt: Halted at 7:50:00 p.m. ET - Trading Halt: Halt News Pending",
@@ -1908,534 +2311,22 @@
      "ESRT"
     ],
     "url": "https://www.benzinga.com/news/earnings/26/11/62804841/empire-state-realty-trust-q3-ffo-0-20-beats-0-19-estimate-sales-161-966m-miss-193-230m-estimate"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:13",
-    "headline": "Empire State Realty Trust Raises FY2026 FFO Guidance from $0.75-$0.79 to $0.77-$0.80 vs $0.79 Est",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "ESRT"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804828/empire-state-realty-trust-raises-fy2026-ffo-guidance-0-75-0-79-0-77-0-80-vs-0-79-est"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:12",
-    "headline": "Tactile Systems Tech Q3 2026 Earnings Call Transcript",
-    "summary": "Tactile Systems Tech (NASDAQ:TCMD) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "TCMD"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804802/tactile-systems-tech-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:12",
-    "headline": "Inspire Medical Systems Q3 2026 Earnings Call Transcript",
-    "summary": "Inspire Medical Systems (NYSE:INSP) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "INSP"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804801/inspire-medical-systems-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:11",
-    "headline": "Fabrinet Q1 2027 Earnings Call Transcript",
-    "summary": "Fabrinet (NYSE:FN) reported first-quarter financial results on Monday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "FN"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804787/fabrinet-q1-2027-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:10",
-    "headline": "Aehr Test System Q1 2027 Earnings Call Transcript",
-    "summary": "Aehr Test System (NASDAQ:AEHR) reported first-quarter financial results on Monday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "AEHR"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804775/aehr-test-system-q1-2027-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:09",
-    "headline": "Paymentus Holdings Q3 2026 Earnings Call Transcript",
-    "summary": "Paymentus Holdings (NYSE:PAY) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "PAY"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804765/paymentus-holdings-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:09",
-    "headline": "SBA Comms Q3 2026 Earnings Call Transcript",
-    "summary": "SBA Comms (NASDAQ:SBAC) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "SBAC"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804746/sba-comms-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:07",
-    "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "SPY",
-     "USO",
-     "VGK"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804713/us-hold-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-official-reuters"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:07",
-    "headline": "Allison Transmission Q3 2026 Earnings Call Transcript",
-    "summary": "Allison Transmission (NYSE:ALSN) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "ALSN"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804612/allison-transmission-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:06",
-    "headline": "Apple Q4 2026 Earnings Call Transcript",
-    "summary": "Apple (NASDAQ:AAPL) reported fourth-quarter financial results on Monday. The transcript from the company\u2019s fourth-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "AAPL"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:05",
-    "headline": "Douglas Dynamics Q3 Adj. EPS $0.98 Beats $0.92 Estimate, Sales $218.014M Miss $218.601M Estimate",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "PLOW"
-    ],
-    "url": "https://www.benzinga.com/quote/PLOW"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:04",
-    "headline": "Douglas Dynamics Raises FY2026 Adj EPS Guidance from $2.90-$3.40 to $3.00-$3.40 vs $3.20 Est; Raises FY2026 Sales Guidance from $765.000M-$805.000M to $770.000M-$805.000M vs $775.628M Est",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "PLOW"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804570/douglas-dynamics-raises-fy2026-adj-eps-guidance-2-90-3-40-3-00-3-40-vs-3-20-est-raises-fy2026-sales-"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:04",
-    "headline": "First Capital REIT Q3 FFO $0.37 Beats $0.34 Estimate, Sales $187.171M",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "TSX:FCR",
-     "TSX:FCR/UN"
-    ],
-    "url": "https://www.benzinga.com/news/earnings/26/11/62804565/first-capital-reit-q3-ffo-0-37-beats-0-34-estimate-sales-187-171m"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:04",
-    "headline": "Upwork Q3 2026 Earnings Call Transcript",
-    "summary": "Upwork (NASDAQ:UPWK) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.Benzinga APIs provide real-time access to earnings call",
-    "source": "benzinga",
-    "author": "Earnings Transcripts",
-    "symbols": [
-     "UPWK"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804558/upwork-q3-2026-earnings-call-transcript"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:04",
-    "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
-    "summary": "",
-    "source": "benzinga",
-    "author": "Benzinga Newsdesk",
-    "symbols": [
-     "MSFT"
-    ],
-    "url": "https://www.benzinga.com/news/26/11/62804542/openai-hires-former-us-army-secretary-military-seeks-expand-ai-use-financial-times"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Recursion Announces Positive Phase 2 Data for REC-4881 in TUPELO Trial",
-    "summary": "Recursion reported positive Phase 2 data for its investigational MEK1/2 inhibitor, REC-4881, showing significant polyp burden reductions in patients with familial adenomatous polyposis.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "RXRX"
-    ],
-    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/new-phase-2-rec-4881-data-presented-at-cga-igc-show-deep-durable-polyp-burden-reductions-in-fap-with-activity-across-the-gi-tract-and-in-larger-higher-risk-polyps/2460053"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Recursion Reports Third Quarter 2026 Financial Results and Business Updates",
-    "summary": "Recursion Pharmaceuticals reported its financial results for the third quarter ended September 30, 2026, alongside updates on its clinical pipeline and platform execution.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "RXRX"
-    ],
-    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393771/0/en/recursion-reports-third-quarter-2026-financial-results-and-extends-cash-runway-highlights-positive-clinical-data-in-rec-4881-and-rec-1245-sanofi-development-candidate-option-and-ap.html"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Recursion Appoints Fred Hassan as Chair of the Board",
-    "summary": "Recursion Pharmaceuticals announced the appointment of industry veteran Fred Hassan as Chair of the Board, effective October 31, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "RXRX"
-    ],
-    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393720/0/en/recursion-appoints-fred-hassan-as-chair-of-the-board.html"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Citigroup Maintains Buy Rating on Sonic Automotive, Lowers Price Target to $98",
-    "summary": "Citigroup has maintained its 'Buy' rating on Sonic Automotive while adjusting the price target from $115 to $98.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SAH"
-    ],
-    "url": "https://www.tradingview.com/news/tradingview:a9eb7a6f6b2ef:0-citigroup-maintains-sonic-automotive-at-buy-lowers-price-target-to-98-from-115/"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Sonic Automotive Highlights EchoPark Expansion and Used Supply Trends at Symposium",
-    "summary": "Sonic Automotive reported sequential gains in gross profit per unit and strong EchoPark growth during its 50th Annual Automotive Symposium.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SAH"
-    ],
-    "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4433900:0-sah-echopark-expansion-and-improving-used-supply-anchor-the-growth-outlook/"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Analysts Update Price Targets for Olin Corporation",
-    "summary": "Several financial institutions, including Citigroup and RBC Capital, updated their price targets and ratings for Olin Corporation on November 2, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "OLN"
-    ],
-    "url": "https://www.tradingview.com/news/tradingview:947c322bb5ccd:0-citigroup-maintains-olin-at-neutral-raises-price-target-to-19-from-17/"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Twisted Tea Announces Return of '25 Days of Twistmas' Holiday Calendar",
-    "summary": "The Boston Beer Company's Twisted Tea brand is bringing back its limited-edition holiday calendar featuring 25 tallboy cans of various flavors.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "SAM"
-    ],
-    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393544/0/en/twisted-tea-is-making-the-holiday-countdown-even-more-twisted-with-its-25-days-of-twistmas-calendar.html"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Cantor Fitzgerald Maintains Overweight Rating on Trulieve Cannabis Corp.",
-    "summary": "Cantor Fitzgerald has reaffirmed its \"Overweight\" rating and $15 price target for Trulieve Cannabis Corp.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "TRLV"
-    ],
-    "url": "https://www.tradingview.com/news/tradingview:fb4f3e1e63624:0-cantor-fitzgerald-maintains-trulieve-cannabis-at-overweight-keeps-price-target-at-15/"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Travere Therapeutics Reports Third Quarter 2026 Financial Results",
-    "summary": "Travere Therapeutics announced its financial results for the third quarter of 2026, highlighting $200 million in net product sales for FILSPARI.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "TVTX"
-    ],
-    "url": "https://www.businesswire.com/newsroom"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Nebraska Public Service Commission Reminds Customers of Cold Weather Rule",
-    "summary": "The Nebraska Public Service Commission has issued a reminder regarding the state's Cold Weather Rule, which impacts utility providers including Black Hills Energy.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "BKH"
-    ],
-    "url": "https://world.einnews.com/pr_news/953977699/cold-weather-rule-takes-effect-for-winter-season"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Arcus Biosciences to Participate in the Jefferies Global Healthcare Conference 2026",
-    "summary": "Arcus Biosciences announced that its management team will participate in a fireside chat at the Jefferies Global Healthcare Conference in London on November 16, 2026.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "RCUS"
-    ],
-    "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
-   },
-   {
-    "time_ny": "Mon 02 Nov 18:03",
-    "headline": "Ultra Clean Holdings, Inc. Reports Q3 2026 Financial Results and Provides Q4 Outlook",
-    "summary": "Ultra Clean Holdings, Inc. reported record third-quarter 2026 revenue of $759 million and issued fourth-quarter revenue guidance of $800 million to $860 million, while disclosing a $600 million capital raise.",
-    "source": "fiscal.ai",
-    "author": "",
-    "symbols": [
-     "UCTT"
-    ],
-    "url": "https://www.tradingview.com/news/zacks:4f5cca59b094b:0-what-uctt-s-q3-beat-and-strong-q4-guidance-mean-for-investors-now/"
    }
   ],
   "tickers": {
-   "AAPL": [
+   "GFI": [
     {
-     "time_ny": "Mon 02 Nov 19:01",
-     "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
-     "summary": "Apple announced record-breaking revenue of $114.5 billion for its fiscal fourth quarter, marking a 12% increase year-over-year and the company's best fiscal year to date.",
+     "time_ny": "Mon 02 Nov 07:01",
+     "headline": "Gold Fields Receives Construction Authorization for Windfall Mining Project",
+     "summary": "Gold Fields Limited and its subsidiary, Windfall Mining Group Inc., have received the required certificate of authorization from the Quebec government to begin construction on the Windfall mining project.",
      "source": "fiscal.ai",
      "author": "",
      "symbols": [
-      "AAPL"
+      "GFI"
      ],
-     "url": "https://appleosophy.com/wire/4etili1/"
-    },
-    {
-     "time_ny": "Mon 02 Nov 18:06",
-     "headline": "Apple Q4 2026 Earnings Call Transcript",
-     "summary": "Apple (NASDAQ:AAPL) reported fourth-quarter financial results on Monday. The transcript from the company\u2019s fourth-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
-     "source": "benzinga",
-     "author": "Earnings Transcripts",
-     "symbols": [
-      "AAPL"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:46",
-     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
-     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
-     "source": "benzinga",
-     "author": "Chris Katje",
-     "symbols": [
-      "AAPL",
-      "CRWD",
-      "MSFT",
-      "NOW",
-      "NVDA",
-      "PLTR",
-      "TSLA"
-     ],
-     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:45",
-     "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "AAPL"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62804210/apple-cfo-says-co-s-manufacturing-purchase-obligations-increased-33b-between-june-and-september-quar"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:40",
-     "headline": "Apple CFO Says\u00a0We See Pricing For Memory Purchases Continuing To Increase",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "AAPL"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62804162/apple-cfo-says-we-see-pricing-memory-purchases-continuing-increase"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:33",
-     "headline": "Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "AAPL"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62803924/apple-cfo-says-higher-memory-costs-siri-ai-development-expenses-will-affect-gross-margin"
+     "url": "https://www.newswire.ca/news-releases/gold-fields-secures-quebec-environmental-approval-for-windfall-807144554.html"
     }
    ],
-   "PLTR": [
-    {
-     "time_ny": "Mon 02 Nov 17:55",
-     "headline": "Palantir Technologies Q3 2026 Earnings Call Transcript",
-     "summary": "Palantir Technologies (NASDAQ:PLTR) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-     "source": "benzinga",
-     "author": "Earnings Transcripts",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62804374/palantir-technologies-q3-2026-earnings-call-transcript"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:46",
-     "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
-     "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
-     "source": "benzinga",
-     "author": "Chris Katje",
-     "symbols": [
-      "AAPL",
-      "CRWD",
-      "MSFT",
-      "NOW",
-      "NVDA",
-      "PLTR",
-      "TSLA"
-     ],
-     "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
-    },
-    {
-     "time_ny": "Mon 02 Nov 17:05",
-     "headline": "Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62802896/palantir-exec-says-q3-average-trailing-12-month-revenue-our-top-20-customers-increased-76-yoy-146m-c"
-    },
-    {
-     "time_ny": "Mon 02 Nov 16:31",
-     "headline": "Palantir Technologies Inc. Reports Q3 2026 Financial Results",
-     "summary": "Palantir Technologies Inc. reported third-quarter 2026 revenue of $2.31 billion, surpassing analyst expectations and marking the company's first quarter exceeding $2 billion in revenue.",
-     "source": "fiscal.ai",
-     "author": "",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.marketscreener.com/news/palantir-technologies-q3-us-government-revenue-at-953-million-vs-factset-analyst-consensus-of-854-ce785fd9da8bf423"
-    },
-    {
-     "time_ny": "Mon 02 Nov 16:22",
-     "headline": "Palantir Posts Q3 Double Beat, Lifts Guidance \u2014 'Extraordinary' Is an 'Understatement'",
-     "summary": "Palantir Technologies Inc (NASDAQ:PLTR) reports financial results for the third-quarter after the market close on Monday.",
-     "source": "benzinga",
-     "author": "Adam Eckert",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/markets/earnings/26/11/62799346/palantir-posts-q3-double-beat-lifts-guidance-extraordinary-is-an-understatement"
-    },
-    {
-     "time_ny": "Mon 02 Nov 16:14",
-     "headline": "Palantir Technologies CEO Says Sovereign AI Movement Is Imposing the Most Dramatic Dichotomy Between Haves and Have Nots That I Have Witnessed in 30 Years of Business; Every Institution, Government And Commercial, Is Rapidly Being Forced, Voluntarily or Not, Into One of These Two Categories",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "PLTR"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62798466/palantir-technologies-ceo-says-sovereign-ai-movement-imposing-most-dramatic-dichotomy-between-haves-"
-    }
-   ],
-   "AMD": [
-    {
-     "time_ny": "Mon 02 Nov 15:30",
-     "headline": "AMD, Shopify On Deck Tuesday As AI Spending, Merchant Growth Face Test",
-     "summary": "Advanced Micro Devices headlines Tuesday\u2019s reports, with investors looking for evidence that AI demand can withstand a sharp pullback in the stock. Shopify, Pfizer, Eaton, Marathon Petroleum and Ferrari report before",
-     "source": "benzinga",
-     "author": "Benzinga Insights",
-     "symbols": [
-      "ADM",
-      "AIG",
-      "AIZ",
-      "ALAB",
-      "AMD",
-      "AME",
-      "AMGN",
-      "ANET",
-      "APO",
-      "BKNG",
-      "CPNG",
-      "ETN",
-      "FISV",
-      "FTS",
-      "IFF",
-      "ITUB",
-      "KDP",
-      "MPC",
-      "MPLX",
-      "OVV",
-      "PFE",
-      "PRU",
-      "RACE",
-      "SHOP",
-      "SMCI",
-      "SU",
-      "SWKS",
-      "SYY",
-      "TEVA",
-      "TOST",
-      "TRI",
-      "WAT",
-      "XYZ",
-      "YUM"
-     ],
-     "url": "https://www.benzinga.com/news/26/11/62795239/amd-shopify-on-deck-tuesday-as-ai-spending-merchant-growth-face-test"
-    },
-    {
-     "time_ny": "Mon 02 Nov 15:30",
-     "headline": "AMD Could Swing $90.7 Billion After Earnings",
-     "summary": "Seven major companies are set to report earnings Tuesday, and options traders are pricing in significant stock moves. From Pfizer\u2019s modest 4.14% implied move to Shopify\u2019s 13.01% swing, here\u2019s a countdown of the stocks with the biggest post-earnings volatility expectations, includ",
-     "source": "benzinga",
-     "author": "Kaustubh Bagalkote",
-     "symbols": [
-      "AMD",
-      "AMGN",
-      "ANET",
-      "BKNG",
-      "ETN",
-      "PFE",
-      "SHOP"
-     ],
-     "url": "https://www.benzinga.com/markets/options/26/11/62795225/amd-could-swing-90-7-billion-after-earnings"
-    },
-    {
-     "time_ny": "Mon 02 Nov 12:48",
-     "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
-     "summary": "AMD stock is up over 100% in 2026, but a recent selloff has shares down from highs. Here&#39;s the key items to watch in Q3 earnings that could rally the stock again.",
-     "source": "benzinga",
-     "author": "Chris Katje",
-     "symbols": [
-      "AMD",
-      "INTC"
-     ],
-     "url": "https://www.benzinga.com/markets/tech/26/11/62789109/amd-q3-preview-expert-says-growth-story-remains-impressive-can-earnings-send-stock-back-to-highs"
-    }
-   ],
-   "TQQQ": [],
-   "GFI": [],
    "UAL": [
     {
      "time_ny": "Mon 02 Nov 18:01",
@@ -2449,8 +2340,56 @@
      "url": "https://www.tradingview.com/news/tradingview:f6a38fae09c1c:0-weekly-recap-fare-rise-warning-on-routes-and-starlink-coverage-growth/"
     }
    ],
-   "ASX": [],
-   "BABA": [],
+   "ASX": [
+    {
+     "time_ny": "Mon 02 Nov 09:02",
+     "headline": "ASE Technology Unit Signs NT$2.2 Billion Facility Engineering Contracts",
+     "summary": "A subsidiary of ASE Technology has entered into facility engineering agreements valued at NT$2.2 billion.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ASX"
+     ],
+     "url": "https://www.marketscreener.com/news/ase-technology-unit-signs-nt-2-2-billion-facility-engineering-deals-ce785fd8d18bf123"
+    },
+    {
+     "time_ny": "Mon 02 Nov 04:32",
+     "headline": "ASE Technology Unit to Take Over Milpitas Plant Lease for $9 Million",
+     "summary": "A subsidiary of ASE Technology Holding Co., Ltd. has agreed to assume a lease for a manufacturing facility in Milpitas, California, for a total consideration of $9 million.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ASX"
+     ],
+     "url": "https://www.marketscreener.com/news/ase-technology-unit-to-take-over-milpitas-plant-lease-for-9-million-ce785fd8de89f326"
+    }
+   ],
+   "BABA": [
+    {
+     "time_ny": "Mon 02 Nov 10:05",
+     "headline": "Alibaba, JD.com, PDD Stocks Climb Monday After Brutal October for Chinese Stocks: What\u2019s Going On?",
+     "summary": "Alibaba, JD.com, and PDD Holdings are rising after a report that China\u2019s central bank and regulators will discuss market support measures.",
+     "source": "benzinga",
+     "author": "Dylan Berman",
+     "symbols": [
+      "BABA",
+      "JD",
+      "PDD"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62781477/alibaba-jd-com-pdd-stocks-climb-monday-after-brutal-october-for-chinese-stocks-whats-going-on"
+    },
+    {
+     "time_ny": "Mon 02 Nov 04:31",
+     "headline": "Alibaba to Power Dakar 2026 Youth Olympic Games with Cloud and AI Technology",
+     "summary": "Alibaba Group has announced a partnership with the International Olympic Committee and the Dakar 2026 Organizing Committee to provide cloud and AI technology for the upcoming Summer Youth Olympic Games in Senegal.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "BABA"
+     ],
+     "url": "https://www.taiwannews.com.tw/en/news/6470221"
+    }
+   ],
    "ECHO": [
     {
      "time_ny": "Mon 02 Nov 14:02",
@@ -2462,9 +2401,67 @@
       "ECHO"
      ],
      "url": "https://www.marketscreener.com/news/new-street-research-adjusts-echostar-price-target-to-207-from-156-ce785fd9d88ff725"
+    },
+    {
+     "time_ny": "Mon 02 Nov 09:11",
+     "headline": "SpaceX Pursues Wireless Back Door After Verizon, T-Mobile, AT&T Reportedly Said No",
+     "summary": "SpaceX shares are edging higher Monday after a report said the company is pursuing an alternative path into the U.S. wireless market.",
+     "source": "benzinga",
+     "author": "Dylan Berman",
+     "symbols": [
+      "ECHO",
+      "SPCX",
+      "T",
+      "TMUS",
+      "VZ"
+     ],
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62778904/spacex-pursues-wireless-back-door-after-verizon-t-mobile-atandt-reportedly-said-no"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:31",
+     "headline": "EchoStar Shares Rise on Reports of SpaceX Wireless Talks",
+     "summary": "EchoStar Corporation shares increased following reports that the company is in discussions with SpaceX regarding a potential deal for its Boost Mobile unit.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "ECHO"
+     ],
+     "url": "https://www.tradingview.com/news/seekingalpha:f2055bad0094b:0-echostar-gains-on-report-of-spacex-wireless-service-talks/"
+    },
+    {
+     "time_ny": "Mon 02 Nov 05:58",
+     "headline": "'SpaceX is in talks to buy Boost Mobile or use its network, giving Musk a potential backdoor into the $235 billion cellphone market' - Washington Post Exclusive",
+     "summary": "",
+     "source": "benzinga",
+     "author": "Benzinga Newsdesk",
+     "symbols": [
+      "AMT",
+      "ASTS",
+      "CCI",
+      "ECHO",
+      "SBAC",
+      "SPCX",
+      "T",
+      "TMUS",
+      "VZ"
+     ],
+     "url": "https://www.benzinga.com/m/26/11/62770500/spacex-talks-buy-boost-mobile-or-use-its-network-giving-musk-potential-backdoor-235-billion-cellphon"
     }
    ],
-   "SKHY": [],
+   "SKHY": [
+    {
+     "time_ny": "Mon 02 Nov 04:36",
+     "headline": "Elon Musk Pushes Back Against Sam Altman\u2019s View That Personal Computers Waste DRAM: \u2018The People Deserve to Have Their RAM Too!\u2019",
+     "summary": "Musk challenged Altman\u2019s claim that scarce RAM belongs in cloud data centers, as AI demand drives memory shortages and higher PC costs.",
+     "source": "benzinga",
+     "author": "Shomik Sen Bhattacharjee",
+     "symbols": [
+      "SKHY",
+      "SSNLF"
+     ],
+     "url": "https://www.benzinga.com/markets/tech/26/11/62769831/elon-musk-pushes-back-against-sam-altmans-view-that-personal-computers-waste-dram-the-people-deserve-to-have-their-ram-too"
+    }
+   ],
    "DAL": [
     {
      "time_ny": "Mon 02 Nov 17:31",
@@ -2534,6 +2531,17 @@
       "PDD"
      ],
      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62781477/alibaba-jd-com-pdd-stocks-climb-monday-after-brutal-october-for-chinese-stocks-whats-going-on"
+    },
+    {
+     "time_ny": "Mon 02 Nov 04:31",
+     "headline": "Temu Joins Global Alliance of Geographical Indications Network (oriGIn)",
+     "summary": "Temu, the global e-commerce platform operated by PDD Holdings, has joined the global alliance of Geographical Indications Network (oriGIn) as an associate member to enhance its intellectual property protection efforts.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "PDD"
+     ],
+     "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70002446-temu-joins-origin-to-advance-online-protection-of-geographical-indications-008.htm"
     }
    ],
    "CCL": [],
@@ -2673,17 +2681,6 @@
       "TEM"
      ],
      "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
-    },
-    {
-     "time_ny": "Mon 02 Nov 07:13",
-     "headline": "Tempus AI Q3 Gross Margin 64.8% vs 62.8% Y/Y",
-     "summary": "",
-     "source": "benzinga",
-     "author": "Benzinga Newsdesk",
-     "symbols": [
-      "TEM"
-     ],
-     "url": "https://www.benzinga.com/quote/TEM"
     }
    ],
    "EQNR": [
@@ -3428,9 +3425,32 @@
       "TEVA"
      ],
      "url": "https://www.benzinga.com/quote/TEVA"
+    },
+    {
+     "time_ny": "Mon 02 Nov 07:02",
+     "headline": "HC Wainwright & Co. Initiates Coverage on Teva Pharmaceutical Industries",
+     "summary": "HC Wainwright & Co. has initiated coverage on Teva Pharmaceutical Industries with a 'Buy' rating and a price target of $52.00 per share.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "TEVA"
+     ],
+     "url": "https://www.moomoo.com/hans/news/post/1003185142"
     }
    ],
-   "OXY": []
+   "OXY": [
+    {
+     "time_ny": "Mon 02 Nov 06:31",
+     "headline": "Occidental Petroleum CEO Richard Jackson Participates in ADIPEC 2026",
+     "summary": "Occidental Petroleum President and CEO Richard Jackson is attending the ADIPEC 2026 energy conference in Abu Dhabi to engage in high-level discussions on global energy security.",
+     "source": "fiscal.ai",
+     "author": "",
+     "symbols": [
+      "OXY"
+     ],
+     "url": "https://www.tradingview.com/news/reuters.com,2026-11-02:newsml_Zaw6XjLd9:0-zawya-adipec-2026-opens-in-abu-dhabi-with-over-40-policymakers-2-260-exhibitors/"
+    }
+   ]
   },
   "errors": {}
  }
