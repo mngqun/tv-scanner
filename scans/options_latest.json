@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-11-03T02:38:37+00:00",
- "generated_new_york": "2026-11-02T21:38:37-05:00",
+ "generated_utc": "2026-11-03T03:04:35+00:00",
+ "generated_new_york": "2026-11-02T22:04:35-05:00",
  "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
  "criteria": {
   "min_dte": 2,
@@ -560,7 +560,7 @@
   },
   {
    "ticker": "AAPL",
-   "cboe_timestamp": "2026-11-03 01:36:29",
+   "cboe_timestamp": "2026-11-03 02:44:52",
    "call_premium_usd": 377755089,
    "put_premium_usd": 364531483,
    "call_put_volume_ratio": 0.57,
@@ -2051,7 +2051,7 @@
   },
   {
    "ticker": "CBRS",
-   "cboe_timestamp": "2026-11-03 00:10:59",
+   "cboe_timestamp": "2026-11-03 02:51:37",
    "call_premium_usd": 19111109,
    "put_premium_usd": 76678975,
    "call_put_volume_ratio": 0.44,
@@ -3384,7 +3384,7 @@
   },
   {
    "ticker": "APP",
-   "cboe_timestamp": "2026-11-02 21:36:25",
+   "cboe_timestamp": "2026-11-03 02:45:27",
    "call_premium_usd": 26052685,
    "put_premium_usd": 78972629,
    "call_put_volume_ratio": 0.92,
@@ -4430,7 +4430,7 @@
   },
   {
    "ticker": "ANET",
-   "cboe_timestamp": "2026-11-02 22:26:48",
+   "cboe_timestamp": "2026-11-03 02:48:47",
    "call_premium_usd": 11785444,
    "put_premium_usd": 10655606,
    "call_put_volume_ratio": 0.96,
@@ -4555,7 +4555,7 @@
   },
   {
    "ticker": "XOM",
-   "cboe_timestamp": "2026-11-03 01:04:32",
+   "cboe_timestamp": "2026-11-03 03:04:42",
    "call_premium_usd": 17447429,
    "put_premium_usd": 10550147,
    "call_put_volume_ratio": 0.9,
@@ -4573,8 +4573,8 @@
      "bid": 1.02,
      "ask": 1.35,
      "premium_usd": 287280,
-     "iv": 0.3737,
-     "delta": -0.1916
+     "iv": 0.3725,
+     "delta": -0.1915
     }
    ]
   },
