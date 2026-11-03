@@ -63,18 +63,18 @@
     "id": "b27e5857-5f5b-4267-affa-af993a106561",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 92.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 92.0,
+    "avg": 27.07,
+    "filled_at": "2026-11-03T19:54:21.077267563Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 92.0,
+  "exit_filled": 92.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "b27e5857-5f5b-4267-affa-af993a106561"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-03-t1",
@@ -255,18 +256,18 @@
     "id": "1d5d59a5-acea-45a5-8ec9-5c0a488af773",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 34.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 34.0,
+    "avg": 42.97,
+    "filled_at": "2026-11-03T19:54:23.612478001Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 34.0,
+  "exit_filled": 34.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "1d5d59a5-acea-45a5-8ec9-5c0a488af773"
   ],
@@ -279,7 +280,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-03-AAPL",
@@ -1063,18 +1065,18 @@
     "id": "898228ca-894a-4b95-918a-b95fe44dd900",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 28.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 28.0,
+    "avg": 178.0,
+    "filled_at": "2026-11-03T19:54:24.663410474Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 28.0,
+  "exit_filled": 28.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "898228ca-894a-4b95-918a-b95fe44dd900"
   ],
@@ -1087,6 +1089,7 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  }
 ]
