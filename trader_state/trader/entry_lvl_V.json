@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "V",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-03",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 426.78,
+  "interval": "5m",
+  "opening_range": {
+    "high": 423.36,
+    "low": 418.27,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-03T15:27:19Z",
+  "reason": "last close $420.32 (10:20 bar), $6.46 under the level $426.78 (-1.51%)"
+}

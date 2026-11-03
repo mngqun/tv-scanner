@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MSFT",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-03",
+  "status": "triggered",
+  "time": "10:10 AM",
+  "bar_start": "10:05",
+  "bar_index": 7,
+  "price": 512.63,
+  "level": 512.6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 512.6,
+    "low": 507.85,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-03T15:26:56Z",
+  "reason": "the 10:05 bar closed above the range high"
+}

@@ -1,1 +1,12 @@
-[B] placed rulec short JD x92 market stop 28.49 tgt None -> 200 
+[A] placed tqqq long SQQQ x33 limit stop 40.74 tgt 44.86 -> 200 
+[A] placed tqqq long SQQQ x34 limit stop 40.74 tgt 45.68 -> 200 
+[B] placed orb long AAPL x10 stop_limit stop 329.0 tgt 343.46 -> 200 
+[B] placed orb long INTC x55 stop_limit stop 61.68 tgt 64.38 -> 200 
+[B] placed orb long BE x8 limit stop 213.05 tgt 230.18 -> 200 
+[B] placed orb long STX x4 stop_limit stop 615.05 tgt 647.0 -> 200 
+[B] placed orb_short short GOOGL x17 stop_limit stop 279.71 tgt 274.49 -> 200 
+[B] placed orb_short short AMZN x20 stop_limit stop 248.03 tgt 242.61 -> 200 
+[B] placed orb_short short GOOG x18 limit stop 278.69 tgt 273.72 -> 200 
+[B] placed orb_short short NFLX x80 stop_limit stop 62.53 tgt 60.8 -> 200 
+[B] placed orb_short short LRCX x21 stop_limit stop 234.62 tgt 227.48 -> 200 
+[B] placed orb_short short XOM x28 stop_limit stop 179.1 tgt 175.44 -> 200 

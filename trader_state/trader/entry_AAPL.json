@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AAPL",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-03",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 333.82,
+  "level": 332.67,
+  "interval": "5m",
+  "opening_range": {
+    "high": 332.67,
+    "low": 325.33,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-03T15:26:54Z",
+  "reason": "the 9:45 bar closed above the range high"
+}

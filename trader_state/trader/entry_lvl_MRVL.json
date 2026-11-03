@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MRVL",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-03",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 192.31,
+  "interval": "5m",
+  "opening_range": {
+    "high": 176.3,
+    "low": 169.8,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-03T15:27:19Z",
+  "reason": "last close $170.07 (10:20 bar), $22.24 under the level $192.31 (-11.57%)"
+}

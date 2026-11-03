@@ -3,20 +3,20 @@
   "symbol": "STX",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-30",
+  "date": "2026-11-03",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 675.95,
-  "level": 674.0,
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 625.7,
+  "level": 625.54,
   "interval": "5m",
   "opening_range": {
-    "high": 674.0,
-    "low": 645.08,
+    "high": 625.54,
+    "low": 604.56,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-30T14:24:02Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-03T15:27:00Z",
+  "reason": "the 9:45 bar closed above the range high"
 }
