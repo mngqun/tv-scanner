@@ -1,4 +1,4 @@
-ledger 2026-11-04: 4 legs closed, 2 unfilled, 2 still open
+ledger 2026-11-04: 0 legs closed, 0 unfilled, 2 still open
 | Arm | Trades | Win % | Avg R | Pess. avg R (95% CI) | Max DD R | Worst day $ | Slip R | Go-live |
 |---|---|---|---|---|---|---|---|---|
 | A:tqqq | 2 | 50 | +0.23 | 0.234 (-0.025, 0.494) | 0.03 | -2.49 | -0.487 | no |
