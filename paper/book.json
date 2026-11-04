@@ -493,18 +493,18 @@
     "id": "46071d2a-baaa-4242-90b3-7f017ca360c8",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 7.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 7.0,
+    "avg": 555.0,
+    "filled_at": "2026-11-04T20:52:25.262968192Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 7.0,
+  "exit_filled": 7.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "46071d2a-baaa-4242-90b3-7f017ca360c8"
   ],
@@ -517,7 +517,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-04-AMZN",
