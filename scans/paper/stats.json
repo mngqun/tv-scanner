@@ -1,28 +1,29 @@
 {
- "legs": 20,
- "trades": 19,
+ "legs": 24,
+ "trades": 22,
  "arms": {
   "A:tqqq": {
-   "trades": 1,
-   "win_rate": 1.0,
-   "avg_R": 0.494,
-   "total_R": 0.49,
-   "pess_trades": 1,
-   "pess_avg_R": 0.494,
+   "trades": 2,
+   "win_rate": 0.5,
+   "avg_R": 0.234,
+   "total_R": 0.47,
+   "pess_trades": 2,
+   "pess_avg_R": 0.234,
    "pess_ci95": [
-    null,
-    null
+    -0.025,
+    0.494
    ],
-   "max_dd_R": 0.0,
-   "worst_day_usd": 48.94,
-   "avg_slippage_R": -0.004,
-   "median_mfe_R": 0.57,
-   "median_mae_R": 0.07,
+   "max_dd_R": 0.03,
+   "worst_day_usd": -2.49,
+   "avg_slippage_R": -0.487,
+   "median_mfe_R": 0.35,
+   "median_mae_R": 0.09,
    "exit_mix": {
-    "flat-by": 2
+    "flat-by": 2,
+    "stop": 2
    },
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": true,
@@ -34,28 +35,28 @@
    "go_live": false
   },
   "B:orb": {
-   "trades": 7,
-   "win_rate": 0.143,
-   "avg_R": -0.69,
-   "total_R": -4.83,
-   "pess_trades": 7,
-   "pess_avg_R": -0.69,
+   "trades": 9,
+   "win_rate": 0.222,
+   "avg_R": -0.624,
+   "total_R": -5.62,
+   "pess_trades": 9,
+   "pess_avg_R": -0.624,
    "pess_ci95": [
-    -1.146,
-    0.158
+    -1.11,
+    0.04
    ],
-   "max_dd_R": 6.65,
+   "max_dd_R": 7.67,
    "worst_day_usd": -183.26,
-   "avg_slippage_R": 0.136,
-   "median_mfe_R": 0.36,
-   "median_mae_R": 1.1,
+   "avg_slippage_R": 0.115,
+   "median_mfe_R": 0.4,
+   "median_mae_R": 1.07,
    "exit_mix": {
     "target": 1,
-    "stop": 5,
-    "flat-by": 1
+    "stop": 6,
+    "flat-by": 2
    },
    "first": "2026-11-02",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
@@ -66,28 +67,28 @@
    "go_live": false
   },
   "B:orb:spy_above": {
-   "trades": 6,
-   "win_rate": 0.167,
-   "avg_R": -0.627,
-   "total_R": -3.76,
-   "pess_trades": 6,
-   "pess_avg_R": -0.627,
+   "trades": 8,
+   "win_rate": 0.25,
+   "avg_R": -0.568,
+   "total_R": -4.55,
+   "pess_trades": 8,
+   "pess_avg_R": -0.568,
    "pess_ci95": [
-    -1.158,
-    0.36
+    -1.114,
+    0.174
    ],
-   "max_dd_R": 5.58,
+   "max_dd_R": 6.61,
    "worst_day_usd": -183.26,
-   "avg_slippage_R": 0.148,
-   "median_mfe_R": 0.55,
-   "median_mae_R": 1.13,
+   "avg_slippage_R": 0.122,
+   "median_mfe_R": 0.57,
+   "median_mae_R": 1.08,
    "exit_mix": {
     "target": 1,
-    "stop": 4,
-    "flat-by": 1
+    "stop": 5,
+    "flat-by": 2
    },
    "first": "2026-11-02",
-   "last": "2026-11-02",
+   "last": "2026-11-04",
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
@@ -282,26 +283,27 @@
    "go_live": false
   },
   "A:sleeve(user overlay)": {
-   "trades": 1,
-   "win_rate": 1.0,
-   "avg_R": 0.494,
-   "total_R": 0.49,
-   "pess_trades": 1,
-   "pess_avg_R": 0.494,
+   "trades": 2,
+   "win_rate": 0.5,
+   "avg_R": 0.234,
+   "total_R": 0.47,
+   "pess_trades": 2,
+   "pess_avg_R": 0.234,
    "pess_ci95": [
-    null,
-    null
+    -0.025,
+    0.494
    ],
-   "max_dd_R": 0.0,
-   "worst_day_usd": 48.94,
-   "avg_slippage_R": -0.004,
-   "median_mfe_R": 0.57,
-   "median_mae_R": 0.07,
+   "max_dd_R": 0.03,
+   "worst_day_usd": -2.49,
+   "avg_slippage_R": -0.487,
+   "median_mfe_R": 0.35,
+   "median_mae_R": 0.09,
    "exit_mix": {
-    "flat-by": 2
+    "flat-by": 2,
+    "stop": 2
    },
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": true,
