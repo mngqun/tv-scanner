@@ -39,16 +39,16 @@
   "sessions": [
    "2026-11-04"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 53.0,
+  "entry_avg": 36.35,
+  "filled_at": "2026-11-04T14:37:25.853279812Z",
   "legs": [
    {
     "id": "7b30ad70-38a4-4ef4-8795-8f4df5420a60",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 53.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -60,7 +60,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 53.0
  },
  {
   "id": "rulec-B-2026-11-04-RYAAY",
@@ -102,16 +102,16 @@
   "sessions": [
    "2026-11-04"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 33.0,
+  "entry_avg": 58.62,
+  "filled_at": "2026-11-04T14:37:28.581308541Z",
   "legs": [
    {
     "id": "9fb91def-ea81-42e0-92da-d9ede69fb737",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 33.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -123,6 +123,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 33.0
  }
 ]
