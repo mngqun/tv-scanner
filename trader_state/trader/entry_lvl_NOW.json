@@ -3,20 +3,20 @@
   "symbol": "NOW",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-03",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 109.44,
+  "date": "2026-11-04",
+  "status": "triggered",
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 110.61,
+  "level": 109.26,
   "interval": "5m",
   "opening_range": {
-    "high": 105.53,
-    "low": 103.72,
+    "high": 112.17,
+    "low": 110.1,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-03T15:27:19Z",
-  "reason": "last close $107.58 (10:20 bar), $1.86 under the level $109.44 (-1.70%)"
+  "checked_at": "2026-11-04T15:24:16Z",
+  "reason": "the 9:40 bar closed above the level"
 }

@@ -1,0 +1,6 @@
+[A] placed tqqq long SQQQ x37 limit stop 40.35 tgt 43.7 -> 200 
+[A] placed tqqq long SQQQ x37 limit stop 40.35 tgt 44.68 -> 200 
+[B] placed orb long SPCX x19 stop_limit stop 135.43 tgt 143.08 -> 200 
+[B] placed orb long MSFT x7 limit stop 547.07 tgt 565.37 -> 200 
+[B] placed orb long AMZN x14 stop_limit stop 266.91 tgt 277.29 -> 200 
+[B] placed orb_short short GS x4 stop_limit stop 922.83 tgt 859.26 -> 200 

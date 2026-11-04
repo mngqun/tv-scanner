@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "GEV",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-04",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 929.77,
+  "interval": "5m",
+  "opening_range": {
+    "high": 879.04,
+    "low": 839.5,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-04T15:24:16Z",
+  "reason": "last close $824.72 (10:15 bar), $105.05 under the level $929.77 (-11.30%)"
+}

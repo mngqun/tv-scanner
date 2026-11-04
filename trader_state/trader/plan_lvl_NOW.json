@@ -1,0 +1,30 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "NOW",
+  "side": "buy",
+  "date": "2026-11-04",
+  "setup": "level",
+  "entry": 110.61,
+  "entry_time": "9:45 AM",
+  "entry_bar": 2,
+  "interval": "5m",
+  "opening_range": {
+    "high": 112.17,
+    "low": 110.1,
+    "minutes": 15
+  },
+  "stop": 107.94,
+  "stop_rule": "atr",
+  "stop_label": "2 x ATR(3) under the entry",
+  "target": 115.95,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 2.67,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "ATR $1.3333 over the 3 bars to the entry (fewer than 14 so far), rounded down",
+  "created_at": "2026-11-04T15:24:16Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it.",
+  "atr": 1.3333,
+  "atr_bars": 3
+}

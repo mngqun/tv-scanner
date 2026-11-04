@@ -3,20 +3,20 @@
   "symbol": "AAPL",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "status": "triggered",
-  "time": "9:50 AM",
-  "bar_start": "09:45",
-  "bar_index": 3,
-  "price": 333.82,
-  "level": 332.67,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 350.9,
+  "level": 350.48,
   "interval": "5m",
   "opening_range": {
-    "high": 332.67,
-    "low": 325.33,
+    "high": 350.48,
+    "low": 340.99,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-03T15:26:54Z",
-  "reason": "the 9:45 bar closed above the range high"
+  "checked_at": "2026-11-04T15:23:46Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

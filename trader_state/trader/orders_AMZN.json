@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-02T15:20:53Z",
+  "created_at": "2026-11-04T15:23:55Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (AMZN orb 2026-11-02)",
+  "source": "trader/plan.json (AMZN orb 2026-11-04)",
   "orders": [
     {
       "symbol": "AMZN",
       "side": "buy",
-      "qty": "11",
+      "qty": "14",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "250.51",
+      "limit_price": "270.37",
       "order_class": "bracket",
-      "take_profit_limit_price": "258.87",
-      "stop_loss_stop_price": "246.33",
-      "why": "opening-range breakout on AMZN: 11 shares, bound by your $50 max loss per trade (11 x 4.18 = $45.98 at the stop)",
+      "take_profit_limit_price": "277.29",
+      "stop_loss_stop_price": "266.91",
+      "why": "opening-range breakout on AMZN: 14 shares, bound by your $50 max loss per trade (14 x 3.46 = $48.44 at the stop)",
       "plan": {
-        "entry": 250.51,
-        "stop": 246.33,
-        "target": 258.87,
-        "risk_per_share": 4.18,
-        "max_loss": 45.98,
+        "entry": 270.37,
+        "stop": 266.91,
+        "target": 277.29,
+        "risk_per_share": 3.46,
+        "max_loss": 48.44,
         "setup": "orb",
-        "entry_time": "9:50 AM",
+        "entry_time": "10:00 AM",
         "flat_by": "15:40"
       }
     }

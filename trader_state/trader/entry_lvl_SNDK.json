@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "SNDK",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-04",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 1153.19,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1114.82,
+    "low": 1059.0,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-04T15:24:15Z",
+  "reason": "last close $1089.15 (10:15 bar), $64.04 under the level $1153.19 (-5.55%)"
+}
