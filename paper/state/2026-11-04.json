@@ -28,7 +28,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:52"
  ],
  "queue_done": [
   "tqqq-2026-11-04"
@@ -43,7 +44,10 @@
   "[B] placed orb long AMZN x14 stop_limit stop 266.91 tgt 277.29 -> 200 ",
   "[B] placed orb_short short GS x4 stop_limit stop 922.83 tgt 859.26 -> 200 ",
   "[B] cancel unfilled entry orb-B-2026-11-04-AMZN (filled 0.0)",
-  "[B] cancel unfilled entry orbs-B-2026-11-04-GS (filled 0.0)"
+  "[B] cancel unfilled entry orbs-B-2026-11-04-GS (filled 0.0)",
+  "[B] close rulec-B-2026-11-04-DB 53 (moc, cls) -> 200",
+  "[B] close rulec-B-2026-11-04-RYAAY 33 (moc, cls) -> 200",
+  "[B] close orb-B-2026-11-04-MSFT 7 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -947,5 +951,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
