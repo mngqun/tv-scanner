@@ -590,6 +590,14 @@ def run_queue(day: str, st: dict, t: datetime, book: list):
         if (va is not None and px > va) or (vb is not None and px < vb):
             skip(f"void: last {px} outside [{vb}, {va}]")
             continue
+        pe, sl = item.get("plan_entry") or item.get("limit_price"), item.get("stop_loss")
+        if pe and sl and item.get("entry_type") == "limit":
+            s = 1 if item["side"] == "long" else -1
+            R = abs(pe - sl)
+            if R > 0 and s * (pe - px) > 0 and s * (px - sl) < MIN_CUSHION_R * R:
+                # marketable limit would fill next to the stop (4 Nov SQQQ: filled 0.04 above the stop, out in 1 min)
+                skip(f"last {px} within {MIN_CUSHION_R}R of the stop {sl} (entry {pe}); not taken")
+                continue
         if item.get("qty") in (None, "", 0):
             item["qty"] = size(item.get("plan_entry") or item["limit_price"] or item["stop_price"],
                                item["stop_loss"], float(item.get("risk_usd") or 100))
@@ -745,6 +753,7 @@ def prepare_scan(day: str, st: dict, t: datetime):
                   "hits": len(hits), "picks": picks}
 
 
+MIN_CUSHION_R = 0.5   # queue limit entries: skip when the last price is already within 0.5R of the stop
 CHASE_R = 0.2   # S3 (3 Nov): never enter more than 0.2R past the trigger (was 0.5R; 2 Nov slippage 0.15R avg)
 
 
