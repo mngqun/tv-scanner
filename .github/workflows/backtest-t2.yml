@@ -1,0 +1,96 @@
+name: Backtest T2 high-vol day trades (protocol 2026-11-06)
+
+on:
+  workflow_dispatch:
+    inputs:
+      parts:
+        description: "build parts to run (of 0,1,2,3)"
+        required: false
+        default: "0,1,2,3"
+      reuse_run:
+        description: "run id whose t2-* artifacts fill in parts not run here"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {part: 0, key: A}
+          - {part: 1, key: B}
+          - {part: 2, key: A}
+          - {part: 3, key: B}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas pyarrow numpy
+      - name: Build
+        env:
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+          ALPACA_PAPER_KEY_ID_B: ${{ secrets.ALPACA_PAPER_KEY_ID_B }}
+          ALPACA_PAPER_SECRET_KEY_B: ${{ secrets.ALPACA_PAPER_SECRET_KEY_B }}
+        run: |
+          case ",${{ github.event.inputs.parts }}," in *",${{ matrix.part }},"*) ;; *) echo "part skipped"; exit 0;; esac
+          cd backtest/intraday
+          python build_t2.py --part ${{ matrix.part }} --parts 4 --key ${{ matrix.key }} --out out_t2 --save-bars
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: t2-${{ matrix.part }}
+          path: |
+            backtest/intraday/out_t2/*.parquet
+            backtest/intraday/out_t2/*.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: bars5m-${{ matrix.part }}
+          path: backtest/intraday/out_t2/bars/
+          if-no-files-found: ignore
+          retention-days: 90
+          compression-level: 0
+
+  evaluate:
+    needs: [build]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas pyarrow numpy
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: t2-*
+          path: backtest/intraday/out_t2
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        if: ${{ github.event.inputs.reuse_run != '' }}
+        with:
+          pattern: t2-*
+          run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: backtest/intraday/out_t2
+          merge-multiple: true
+      - run: cd backtest/intraday && python evaluate_t2.py --inp out_t2 --res results_t2
+      - name: Commit results
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          git add backtest/intraday/results_t2/ || true
+          git commit -q -m "backtest T2 results $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done

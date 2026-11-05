@@ -32,7 +32,7 @@ def pit_filter(df: pd.DataFrame) -> pd.DataFrame:
     return df[keep["_in"].fillna(False).values].drop(columns="snap")
 
 
-def judge(name: str, variants: dict, min_n: int) -> tuple[dict, list]:
+def judge(name: str, variants: dict, min_n: int, t_min: float = 2.0, sleeve_fn=None) -> tuple[dict, list]:
     """variants: {var: trades DataFrame with date, R, R2, fill_slot, entry, risk_ps, side}."""
     res = {"hypothesis": name, "design": {}, "min_n": min_n}
     md = [f"## {name}", "", "**Design 2017–2021 (all variants)**", "",
@@ -59,15 +59,15 @@ def judge(name: str, variants: dict, min_n: int) -> tuple[dict, list]:
     b = cand[best]
     res["best"] = best
     md += ["", f"Best design variant: **{best}** (avg {b['avg_R']:+.3f}R, t {b['t_day']})."]
-    if not (b["avg_R"] > 0 and (b["t_day"] or 0) >= 2):
-        res["verdict"] = "FAIL (design: best variant avg R <= 0 or t < 2)"
+    if not (b["avg_R"] > 0 and (b["t_day"] or 0) >= t_min):
+        res["verdict"] = f"FAIL (design: best variant avg R <= 0 or t < {t_min:g})"
         md += [f"**Verdict: {res['verdict']}.** Validation not run.", ""]
         return res, md
     df = variants[best]
     v = df[C.in_window(df["date"], "validation")]
     sv = C.day_stats(v)
     sv["R2"] = C.day_stats(v, "R2").get("avg_R")
-    sv["sleeve"] = C.sleeve(v)
+    sv["sleeve"] = (sleeve_fn or C.sleeve)(v)
     res["validation"] = sv
     checks = {"avg>=+0.10R": sv.get("avg_R", -9) >= 0.10, "ci_low_by_day>0": (sv.get("ci_day") or [-1])[0] > 0,
               f"n>={min_n}": sv["n"] >= min_n, "2x_cost>0": (sv["R2"] or -1) > 0,
@@ -82,7 +82,7 @@ def judge(name: str, variants: dict, min_n: int) -> tuple[dict, list]:
     hdf = df[C.in_window(df["date"], "holdout")]
     sh = C.day_stats(hdf)
     sh["R2"] = C.day_stats(hdf, "R2").get("avg_R")
-    sh["sleeve"] = C.sleeve(hdf)
+    sh["sleeve"] = (sleeve_fn or C.sleeve)(hdf)
     res["holdout"] = sh
     ok = sh.get("avg_R", -1) > 0
     res["verdict"] = "PASS (to forward paper on B)" if ok else "FAIL (holdout)"
