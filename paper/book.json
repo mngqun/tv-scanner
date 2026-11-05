@@ -37,12 +37,13 @@
   "broker_id": "c38531b9-58fa-4b07-9b45-da810ef17e65",
   "message": null,
   "sessions": [
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "entry_status": "filled",
   "entry_filled": 53.0,
   "entry_avg": 36.35,
-  "filled_at": "2026-11-04T14:37:25.853279812Z",
+  "filled_at": "2026-11-04T14:37:25.85328Z",
   "legs": [
    {
     "id": "7b30ad70-38a4-4ef4-8795-8f4df5420a60",
@@ -128,12 +129,13 @@
   "broker_id": "74e3cf7a-221a-4fc9-8de3-b90f2ecac269",
   "message": null,
   "sessions": [
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "entry_status": "filled",
   "entry_filled": 33.0,
   "entry_avg": 58.62,
-  "filled_at": "2026-11-04T14:37:28.581308541Z",
+  "filled_at": "2026-11-04T14:37:28.581309Z",
   "legs": [
    {
     "id": "9fb91def-ea81-42e0-92da-d9ede69fb737",
