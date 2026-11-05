@@ -44,11 +44,13 @@ def trades_from(rows: list) -> list:
             else:
                 pnl_alt += x["pnl"]
         slip = [x["slippage_R"] for x in legs if x.get("slippage_R") is not None]
+        fill_risk = sum(abs((x.get("avg_entry") or 0) - (x.get("stop") or 0)) * (x.get("qty") or 0) for x in legs)
         f = legs[0]
         out.append({"account": acct, "arm": f["arm"], "setup": f.get("setup"), "base": base, "date": f["date"],
                     "closed_day": f.get("closed_day"), "symbol": f["symbol"], "side": f["side"],
                     "filled_at": min((x.get("filled_at") or "") for x in legs), "pnl": round(pnl, 2),
-                    "risk": risk, "R": pnl / risk, "R_pess": None if doubtful else pnl_alt / risk,
+                    "risk": risk, "R": pnl / risk,
+                    "R_fill": pnl / fill_risk if fill_risk > 0.01 * risk else None, "R_pess": None if doubtful else pnl_alt / risk,
                     "slippage_R": statistics.mean(slip) if slip else None,
                     "mfe_R": max((x["mfe_R"] for x in legs if x.get("mfe_R") is not None), default=None),
                     "mae_R": max((x["mae_R"] for x in legs if x.get("mae_R") is not None), default=None),
@@ -64,6 +66,25 @@ def boot_ci(xs: list, n: int = 10000, seed: int = 7):
     rnd = random.Random(seed)
     k = len(xs)
     means = sorted(sum(rnd.choice(xs) for _ in range(k)) / k for _ in range(n))
+    return round(means[int(0.025 * n)], 3), round(means[int(0.975 * n) - 1], 3)
+
+
+def boot_ci_days(ts: list, key: str = "R_pess", n: int = 10000, seed: int = 7):
+    """Day-clustered bootstrap: resample whole days, since trades on one day move together."""
+    days = defaultdict(list)
+    for t in ts:
+        if t.get(key) is not None:
+            days[t["closed_day"] or t["date"]].append(t[key])
+    groups = list(days.values())
+    if len(groups) < 2:
+        return None, None
+    rnd = random.Random(seed)
+    means = []
+    for _ in range(n):
+        pick = [rnd.choice(groups) for _ in groups]
+        xs = [x for g in pick for x in g]
+        means.append(sum(xs) / len(xs))
+    means.sort()
     return round(means[int(0.025 * n)], 3), round(means[int(0.975 * n) - 1], 3)
 
 
@@ -100,6 +121,10 @@ def summarize(ts: list, a_arm: bool) -> dict:
          "median_mfe_R": round(statistics.median(mfe), 2) if mfe else None,
          "median_mae_R": round(statistics.median(mae), 2) if mae else None,
          "exit_mix": dict(exits), "first": ts[0]["date"], "last": ts[-1]["date"]}
+    rf = [t["R_fill"] for t in ts if t.get("R_fill") is not None]
+    s["avg_R_fill"] = round(statistics.mean(rf), 3) if rf else None     # R on the actual fill-to-stop distance
+    s["days"] = len(days)
+    s["pess_ci95_days"] = list(boot_ci_days(ts))                     # informational; go-live still uses pess_ci95
     rule = [t["rule_R"] for t in ts if t.get("rule_R") is not None]
     if rule:
         s["rule_avg_R"] = round(statistics.mean(rule), 3)
@@ -147,15 +172,17 @@ def main() -> dict:
     stats["A:sleeve(user overlay)"] = summarize(overlay(ts), True)
     doc = {"legs": len(rows), "trades": len(ts), "arms": stats}
     (LEDGER / "stats.json").write_text(json.dumps(doc, indent=1))
-    lines = ["| Arm | Trades | Win % | Avg R | Pess. avg R (95% CI) | Max DD R | Worst day $ | Slip R | Go-live |",
-             "|---|---|---|---|---|---|---|---|---|"]
+    lines = ["| Arm | Trades | Days | Win % | Avg R | Avg R (fill) | Pess. avg R (95% CI) | CI by day | Max DD R | Worst day $ | Slip R | Go-live |",
+             "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for k, s in stats.items():
         if not s.get("trades"):
-            lines.append(f"| {k} | 0 | | | | | | | |")
+            lines.append(f"| {k} | 0 | | | | | | | | | | |")
             continue
         ci = s["pess_ci95"]
-        lines.append(f"| {k} | {s['trades']} | {100 * s['win_rate']:.0f} | {s['avg_R']:+.2f} | "
-                     f"{s['pess_avg_R'] if s['pess_avg_R'] is not None else '-'} ({ci[0]}, {ci[1]}) | "
+        cd = s["pess_ci95_days"]
+        lines.append(f"| {k} | {s['trades']} | {s['days']} | {100 * s['win_rate']:.0f} | {s['avg_R']:+.2f} | "
+                     f"{s['avg_R_fill'] if s['avg_R_fill'] is not None else '-'} | "
+                     f"{s['pess_avg_R'] if s['pess_avg_R'] is not None else '-'} ({ci[0]}, {ci[1]}) | ({cd[0]}, {cd[1]}) | "
                      f"{s['max_dd_R']} | {s['worst_day_usd']} | {s['avg_slippage_R']} | "
                      f"{'YES' if s['go_live'] else 'no'} |")
     (LEDGER / "stats.md").write_text("\n".join(lines) + "\n")
