@@ -656,7 +656,7 @@
     "id": "195710da-0ca8-4fa8-844f-39383f7358fc",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 51.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -669,19 +669,20 @@
     "id": "1da95928-824e-4f3b-a78f-9b39e5fdf91c",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "filled",
     "qty": 51.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 51.0,
+    "avg": 96.28,
+    "filled_at": "2026-11-05T16:18:44.019329624Z",
     "stop_price": "96.29",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 51.0
+  "exit_filled": 51.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-05-PG",
@@ -738,7 +739,7 @@
     "id": "45154cd2-7d2a-4b49-84a7-3e13815161df",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 29.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -751,19 +752,20 @@
     "id": "2d22b2dc-869b-40e0-992a-7d8a8736acb1",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "filled",
     "qty": 29.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 29.0,
+    "avg": 169.046552,
+    "filled_at": "2026-11-05T16:15:04.521214997Z",
     "stop_price": "169.11",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 29.0
+  "exit_filled": 29.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-05-AAPL",
