@@ -21,6 +21,10 @@ on:
         description: "run id whose build-* / h3 artifacts fill in parts not run here"
         required: false
         default: ""
+      reuse_run2:
+        description: "a second run id to take artifacts from"
+        required: false
+        default: ""
       h3:
         description: "run H3 (yfinance earnings): yes | no"
         required: false
@@ -28,6 +32,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   build:
@@ -109,6 +114,13 @@ jobs:
         if: ${{ github.event.inputs.reuse_run != '' }}
         with:
           run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: backtest/intraday/out
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        if: ${{ github.event.inputs.reuse_run2 != '' }}
+        with:
+          run-id: ${{ github.event.inputs.reuse_run2 }}
           github-token: ${{ github.token }}
           path: backtest/intraday/out
           merge-multiple: true
