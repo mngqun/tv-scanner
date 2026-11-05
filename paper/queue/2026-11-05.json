@@ -1,0 +1,25 @@
+[
+ {
+  "id": "tqqq-2026-11-05",
+  "account": "A",
+  "source": "tqqq",
+  "setup": "bounce_fade",
+  "symbol": "SQQQ",
+  "side": "long",
+  "qty": 38,
+  "entry_type": "limit",
+  "limit_price": 42.05,
+  "stop_price": null,
+  "plan_entry": 42.05,
+  "stop_loss": 40.75,
+  "take_profit": 44.0,
+  "take_profit_2": 44.59,
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "not_before": "09:45",
+  "cancel_at": "11:30",
+  "flat_by": "15:40",
+  "void_below": 41.42,
+  "void_above": 43.58
+ }
+]
