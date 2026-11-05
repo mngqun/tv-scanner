@@ -13,6 +13,14 @@ on:
         description: "e.g. 2017-2026 or 2026"
         required: false
         default: "2016-2026"
+      parts:
+        description: "build parts to run (of 0,1,2,3)"
+        required: false
+        default: "0,1,2,3"
+      reuse_run:
+        description: "run id whose build-* / h3 artifacts fill in parts not run here"
+        required: false
+        default: ""
       h3:
         description: "run H3 (yfinance earnings): yes | no"
         required: false
@@ -48,6 +56,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -q pandas pyarrow numpy
       - name: Build
+        if: ${{ always() }}
         env:
           ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
           ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
@@ -56,9 +65,11 @@ jobs:
         run: |
           cd backtest/intraday
           if [ -n "${{ github.event.inputs.symbols }}" ] && [ "${{ matrix.part }}" != "0" ]; then exit 0; fi
+          case ",${{ github.event.inputs.parts }}," in *",${{ matrix.part }},"*) ;; *) echo "part skipped"; exit 0;; esac
           python build.py --part ${{ matrix.part }} --parts 4 --key ${{ matrix.key }} --out out \
             --symbols "${{ github.event.inputs.symbols }}" --years "${{ github.event.inputs.years }}"
       - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
         with:
           name: build-${{ matrix.part }}
           path: backtest/intraday/out/
@@ -98,6 +109,13 @@ jobs:
         with:
           path: backtest/intraday/out
           merge-multiple: true
+      - uses: actions/download-artifact@v4
+        if: ${{ github.event.inputs.reuse_run != '' }}
+        with:
+          run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: backtest/intraday/out
+          merge-multiple: true
       - name: H4 + evaluate
         env:
           ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
@@ -107,6 +125,7 @@ jobs:
           ls -la out || true
           python h4.py --key A --out out || echo "h4 failed"
           python evaluate.py --inp out --res results
+          if [ -n "${{ github.event.inputs.symbols }}" ]; then echo smoke; fi
       - uses: actions/upload-artifact@v4
         with:
           name: h4

@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import glob
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -141,6 +142,10 @@ def main():
     inp, res = Path(a.inp), Path(a.res)
     res.mkdir(parents=True, exist_ok=True)
     out, md = {}, ["# Intraday / earnings research results (protocol 2026-11-05)", ""]
+    covs = glob.glob(str(inp / "coverage_*.json"))
+    if 0 < len(covs) < int(os.environ.get("EXPECT_PARTS", "4")):
+        print(f"incomplete: {len(covs)} build parts; nothing evaluated or committed")
+        return
     if (inp / "regime.parquet").exists():
         o, m = h1_h2(inp)
         out.update(o)
@@ -148,9 +153,13 @@ def main():
         cov = [json.loads(Path(f).read_text()) for f in glob.glob(str(inp / "coverage_*.json"))]
         out["coverage"] = {"requested": sum(c["requested"] for c in cov), "no_data": sum(len(c["no_data"]) for c in cov),
                            "no_data_symbols": sorted(s for c in cov for s in c["no_data"]),
-                           "stock_days": sum(c["rows"] for c in cov)}
+                           "stock_days": sum(c["rows"] for c in cov),
+                           "failed_chunks": sum(len(c.get("failed_chunks", [])) for c in cov),
+                           "failed_symbol_years": sum(len(c.get("failed_symbol_years", [])) for c in cov)}
         md += ["## Coverage", "", f"Symbols requested {out['coverage']['requested']}, without Alpaca data "
-               f"{out['coverage']['no_data']}, stock-days {out['coverage']['stock_days']}.", ""]
+               f"{out['coverage']['no_data']}, stock-days {out['coverage']['stock_days']}, failed fetch chunks "
+               f"{out['coverage']['failed_chunks']} (10 symbols x 1 year each), failed symbol-years "
+               f"{out['coverage']['failed_symbol_years']}.", ""]
     for name, stem, mn, title in (("H3", "h3", 200, "H3: post-earnings drift on the surprise (daily)"),
                                   ("H4", "h4", 100, "H4: mechanised TQQQ plan")):
         f = inp / f"{stem}.parquet"

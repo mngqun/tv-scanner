@@ -136,7 +136,12 @@ def main():
     t0 = time.time()
     for bi in range(0, len(syms), a.batch):
         batch = syms[bi:bi + a.batch]
-        daily = C.fetch(batch, "1Day", f"{y0 - 1}-06-01T00:00:00Z", END, key)
+        try:
+            daily = C.fetch(batch, "1Day", f"{y0 - 1}-06-01T00:00:00Z", END, key)
+        except Exception as e:  # noqa: BLE001
+            cov.setdefault("failed_chunks", []).append({"symbols": batch, "year": "daily", "error": str(e)[:200]})
+            cov["no_data"] += batch
+            continue
         got = set()
 
         def chunk(y):
@@ -145,12 +150,22 @@ def main():
             return y, C.fetch(batch, "5Min", start, end, key)
 
         with ThreadPoolExecutor(max_workers=4) as ex:
-            for fut in as_completed([ex.submit(chunk, y) for y in range(y0, y1 + 1)]):
-                y, b5 = fut.result()
+            futs = {ex.submit(chunk, y): y for y in range(y0, y1 + 1)}
+            for fut in as_completed(futs):
+                try:
+                    y, b5 = fut.result()
+                except Exception as e:  # noqa: BLE001
+                    cov.setdefault("failed_chunks", []).append({"symbols": batch, "year": futs[fut], "error": str(e)[:200]})
+                    print("chunk failed", batch[:3], futs[fut], str(e)[:120], flush=True)
+                    continue
                 for s, df in b5.items():
                     if s not in daily:
                         continue
-                    d, h1, h2 = process(s, df, daily[s])
+                    try:
+                        d, h1, h2 = process(s, df, daily[s])
+                    except Exception as e:  # noqa: BLE001
+                        cov.setdefault("failed_symbol_years", []).append({"symbol": s, "year": y, "error": str(e)[:200]})
+                        continue
                     lo = date(y, 1, 1)
                     D += [r for r in d if r["date"] >= lo]
                     H1 += [r for r in h1 if r["date"] >= lo]

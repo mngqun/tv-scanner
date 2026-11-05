@@ -62,7 +62,7 @@ def fetch(symbols: list, timeframe: str, start: str, end: str, key) -> dict:
         if tok:
             q["page_token"] = tok
         url = DATA + "?" + urllib.parse.urlencode(q)
-        for attempt in range(8):
+        for attempt in range(12):
             _throttle()
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60) as r:
@@ -101,13 +101,15 @@ def session_arrays(df: pd.DataFrame):
     m = (mins >= 570) & (mins < 960)
     df = df[m.values].copy()
     t = t[m.values]
+    if df.empty:
+        return [], {}, np.array([], dtype=bool)
     df["d"] = t.dt.date.values
     df["k"] = ((t.dt.hour * 60 + t.dt.minute - 570) // 5).values
     days = sorted(df["d"].unique())
     di = {d: i for i, d in enumerate(days)}
     n = len(days)
     A = {f: np.full((n, NBARS), np.nan) for f in "ohlcv"}
-    r = df["d"].map(di).values
+    r = df["d"].map(di).values.astype(int)
     k = df["k"].values
     for f in "ohlcv":
         A[f][r, k] = df[f].values
