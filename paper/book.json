@@ -903,18 +903,18 @@
     "id": "8a0c23dc-dc94-465a-9e60-ff6fd17104a6",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 13.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 13.0,
+    "avg": 345.32,
+    "filled_at": "2026-11-05T20:41:18.457416497Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 13.0,
+  "exit_filled": 13.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "8a0c23dc-dc94-465a-9e60-ff6fd17104a6"
   ],
@@ -927,7 +927,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-05-TSLA",
@@ -1003,18 +1004,18 @@
     "id": "9fff0231-c121-4eb0-bbd3-d9a22bdc8145",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 3.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 3.0,
+    "avg": 343.33,
+    "filled_at": "2026-11-05T20:41:19.148560753Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 3.0,
+  "exit_filled": 3.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "9fff0231-c121-4eb0-bbd3-d9a22bdc8145"
   ],
@@ -1027,6 +1028,7 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  }
 ]
