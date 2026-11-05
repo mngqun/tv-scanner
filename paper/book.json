@@ -875,7 +875,7 @@
     "id": "29e7c59b-587c-4ff3-a02c-d71091d359f6",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -888,7 +888,7 @@
     "id": "b0752eb6-6e97-4861-a4c6-3f8356a512b1",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -898,9 +898,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "8a0c23dc-dc94-465a-9e60-ff6fd17104a6",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 13.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 13.0
+  "remaining": 13.0,
+  "exit_order_ids": [
+   "8a0c23dc-dc94-465a-9e60-ff6fd17104a6"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-05 15:41",
+    "what": "close (flat-by) day",
+    "qty": 13,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-05-TSLA",
@@ -948,7 +975,7 @@
     "id": "8c2f5847-4f05-43cb-b8bb-f2528195df82",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 3.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -961,7 +988,7 @@
     "id": "99adf8e7-374a-48d3-99fb-881853dac393",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 3.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -971,8 +998,35 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "9fff0231-c121-4eb0-bbd3-d9a22bdc8145",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 3.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 3.0
+  "remaining": 3.0,
+  "exit_order_ids": [
+   "9fff0231-c121-4eb0-bbd3-d9a22bdc8145"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-05 15:41",
+    "what": "close (flat-by) day",
+    "qty": 3,
+    "http": 200,
+    "msg": null
+   }
+  ]
  }
 ]

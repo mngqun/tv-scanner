@@ -30,7 +30,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-05"
@@ -52,7 +53,9 @@
   "[B] cancel unfilled entry orb-B-2026-11-05-APP (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-05-QCOM (filled 0.0)",
   "[B] close rulec-B-2026-11-05-JD 81 (moc, cls) -> 200",
-  "[B] close rulec-B-2026-11-05-TCOM 47 (moc, cls) -> 200"
+  "[B] close rulec-B-2026-11-05-TCOM 47 (moc, cls) -> 200",
+  "[B] close orbs-B-2026-11-05-AAPL 13 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-05-TSLA 3 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -902,5 +905,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
