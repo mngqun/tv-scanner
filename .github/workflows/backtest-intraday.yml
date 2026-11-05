@@ -29,10 +29,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: backtest-intraday
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
