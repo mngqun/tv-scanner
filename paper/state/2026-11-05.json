@@ -35,7 +35,8 @@
   "15:47",
   "15:52",
   "16:10",
-  "16:11"
+  "16:11",
+  "16:26"
  ],
  "queue_done": [
   "tqqq-2026-11-05"
@@ -61,6 +62,7 @@
   "[B] close orbs-B-2026-11-05-AAPL 13 (flat-by, day) -> 200",
   "[B] close orbs-B-2026-11-05-TSLA 3 (flat-by, day) -> 200",
   "ledger 2026-11-05: 6 legs closed, 3 unfilled, 2 still open",
+  "ledger 2026-11-05: 0 legs closed, 0 unfilled, 2 still open",
   "ledger 2026-11-05: 0 legs closed, 0 unfilled, 2 still open"
  ],
  "placed": [
