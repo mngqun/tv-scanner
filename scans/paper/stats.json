@@ -24,10 +24,16 @@
    },
    "first": "2026-11-03",
    "last": "2026-11-04",
+   "avg_R_fill": -0.185,
+   "days": 2,
+   "pess_ci95_days": [
+    -0.025,
+    0.494
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": true,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": true,
     "no_day<-200": true
@@ -57,10 +63,16 @@
    },
    "first": "2026-11-02",
    "last": "2026-11-04",
+   "avg_R_fill": -0.583,
+   "days": 3,
+   "pess_ci95_days": [
+    -1.069,
+    -0.394
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
    },
@@ -89,10 +101,16 @@
    },
    "first": "2026-11-02",
    "last": "2026-11-04",
+   "avg_R_fill": -0.53,
+   "days": 2,
+   "pess_ci95_days": [
+    -0.627,
+    -0.394
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
    },
@@ -119,10 +137,16 @@
    },
    "first": "2026-11-03",
    "last": "2026-11-03",
+   "avg_R_fill": -1.008,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
    },
@@ -150,10 +174,16 @@
    },
    "first": "2026-11-03",
    "last": "2026-11-03",
+   "avg_R_fill": -0.842,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": true
    },
@@ -182,10 +212,16 @@
    "first": "2026-11-02",
    "last": "2026-11-03",
    "rule_avg_R": 0.11,
+   "avg_R_fill": 0.081,
+   "days": 2,
+   "pess_ci95_days": [
+    0.064,
+    0.12
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": true,
+    "ci_low_by_day>0": true,
     "max_dd<=8R": true,
     "slippage<=0.05R": true
    },
@@ -213,10 +249,16 @@
    },
    "first": "2026-11-02",
    "last": "2026-11-02",
+   "avg_R_fill": -0.341,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
    },
@@ -243,10 +285,16 @@
    },
    "first": "2026-11-02",
    "last": "2026-11-02",
+   "avg_R_fill": 0.996,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": true,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": true
    },
@@ -273,10 +321,16 @@
    },
    "first": "2026-11-02",
    "last": "2026-11-02",
+   "avg_R_fill": -1.009,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
    },
@@ -304,10 +358,16 @@
    },
    "first": "2026-11-03",
    "last": "2026-11-04",
+   "avg_R_fill": -0.185,
+   "days": 2,
+   "pess_ci95_days": [
+    -0.025,
+    0.494
+   ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": true,
-    "ci_low>0": false,
+    "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": true,
     "no_day<-200": true
