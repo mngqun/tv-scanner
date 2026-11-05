@@ -1,0 +1,117 @@
+name: Backtest intraday (protocol 2026-11-05)
+
+# H1/H2 from Alpaca 5-min SIP bars (two jobs, one per paper key = two rate limits), H3 from yfinance
+# earnings surprises, H4 TQQQ; then evaluate.py applies the frozen protocol and commits results/.
+on:
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: "smoke test: comma list (empty = full PIT S&P 500 universe)"
+        required: false
+        default: ""
+      years:
+        description: "e.g. 2017-2026 or 2026"
+        required: false
+        default: "2016-2026"
+      h3:
+        description: "run H3 (yfinance earnings): yes | no"
+        required: false
+        default: "yes"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest-intraday
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - part: 0
+            key: A
+          - part: 1
+            key: B
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas pyarrow numpy
+      - name: Build
+        env:
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+          ALPACA_PAPER_KEY_ID_B: ${{ secrets.ALPACA_PAPER_KEY_ID_B }}
+          ALPACA_PAPER_SECRET_KEY_B: ${{ secrets.ALPACA_PAPER_SECRET_KEY_B }}
+        run: |
+          cd backtest/intraday
+          if [ -n "${{ github.event.inputs.symbols }}" ] && [ "${{ matrix.part }}" = "1" ]; then exit 0; fi
+          python build.py --part ${{ matrix.part }} --parts 2 --key ${{ matrix.key }} --out out \
+            --symbols "${{ github.event.inputs.symbols }}" --years "${{ github.event.inputs.years }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ matrix.part }}
+          path: backtest/intraday/out/
+          if-no-files-found: ignore
+          retention-days: 30
+
+  h3:
+    if: ${{ github.event.inputs.h3 != 'no' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas pyarrow numpy yfinance lxml
+      - run: cd backtest/intraday && python h3.py --out out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h3
+          path: backtest/intraday/out/
+          if-no-files-found: ignore
+          retention-days: 30
+
+  evaluate:
+    needs: [build, h3]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas pyarrow numpy
+      - uses: actions/download-artifact@v4
+        with:
+          path: backtest/intraday/out
+          merge-multiple: true
+      - name: H4 + evaluate
+        env:
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+        run: |
+          cd backtest/intraday
+          ls -la out || true
+          python h4.py --key A --out out || echo "h4 failed"
+          python evaluate.py --inp out --res results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h4
+          path: backtest/intraday/out/h4.parquet
+          if-no-files-found: ignore
+      - name: Commit results
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          git add backtest/intraday/results/
+          git commit -q -m "backtest intraday results $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
