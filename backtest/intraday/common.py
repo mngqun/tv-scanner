@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import json
 import math
+import threading
 import os
 import random
 import time
@@ -37,6 +38,19 @@ def keys(which: str):
     return os.environ[f"ALPACA_PAPER_KEY_ID{sfx}"], os.environ[f"ALPACA_PAPER_SECRET_KEY{sfx}"]
 
 
+_LOCK = threading.Lock()
+_LAST = [0.0]
+MIN_INTERVAL = float(os.environ.get("ALPACA_MIN_INTERVAL", "0.65"))   # 2 jobs per key -> ~92 requests/min each
+
+
+def _throttle():
+    with _LOCK:
+        wait = _LAST[0] + MIN_INTERVAL - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        _LAST[0] = time.time()
+
+
 def fetch(symbols: list, timeframe: str, start: str, end: str, key) -> dict:
     """{symbol: DataFrame[t(UTC), o, h, l, c, v]}; pages through, backs off on 429."""
     out = defaultdict(list)
@@ -49,6 +63,7 @@ def fetch(symbols: list, timeframe: str, start: str, end: str, key) -> dict:
             q["page_token"] = tok
         url = DATA + "?" + urllib.parse.urlencode(q)
         for attempt in range(8):
+            _throttle()
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60) as r:
                     d = json.loads(r.read())
@@ -67,7 +82,6 @@ def fetch(symbols: list, timeframe: str, start: str, end: str, key) -> dict:
         tok = d.get("next_page_token")
         if not tok:
             break
-        time.sleep(0.3)                                  # stay under 200 requests/min
     res = {}
     for s, bars in out.items():
         df = pd.DataFrame(bars)

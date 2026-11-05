@@ -9,6 +9,7 @@ import argparse
 import json
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 
@@ -124,7 +125,7 @@ def main():
     ap.add_argument("--out", default="out")
     ap.add_argument("--symbols", default="")
     ap.add_argument("--years", default="2016-2026")
-    ap.add_argument("--batch", type=int, default=10)
+    ap.add_argument("--batch", type=int, default=8)
     a = ap.parse_args()
     key = C.keys(a.key)
     out = Path(a.out)
@@ -137,19 +138,25 @@ def main():
         batch = syms[bi:bi + a.batch]
         daily = C.fetch(batch, "1Day", f"{y0 - 1}-06-01T00:00:00Z", END, key)
         got = set()
-        for y in range(y0, y1 + 1):
+
+        def chunk(y):
             start = f"{y - 1}-12-01T00:00:00Z" if y > 2016 else "2016-11-01T00:00:00Z"
             end = f"{y}-12-31T23:59:59Z" if y < 2026 else END
-            b5 = C.fetch(batch, "5Min", start, end, key)
-            for s, df in b5.items():
-                if s not in daily:
-                    continue
-                d, h1, h2 = process(s, df, daily[s])
-                lo = date(y, 1, 1)
-                D += [r for r in d if r["date"] >= lo]
-                H1 += [r for r in h1 if r["date"] >= lo]
-                H2 += [r for r in h2 if r["date"] >= lo]
-                got.add(s)
+            return y, C.fetch(batch, "5Min", start, end, key)
+
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for fut in as_completed([ex.submit(chunk, y) for y in range(y0, y1 + 1)]):
+                y, b5 = fut.result()
+                for s, df in b5.items():
+                    if s not in daily:
+                        continue
+                    d, h1, h2 = process(s, df, daily[s])
+                    lo = date(y, 1, 1)
+                    D += [r for r in d if r["date"] >= lo]
+                    H1 += [r for r in h1 if r["date"] >= lo]
+                    H2 += [r for r in h2 if r["date"] >= lo]
+                    got.add(s)
+                del b5
         cov["no_data"] += [s for s in batch if s not in got]
         print(f"{bi + len(batch)}/{len(syms)} symbols, {len(D)} stock-days, {time.time() - t0:.0f}s", flush=True)
     cov["rows"] = len(D)
