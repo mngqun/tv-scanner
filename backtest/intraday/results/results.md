@@ -6,12 +6,12 @@
 
 | Variant | n | days | avg R | t (by day) | CI by day | win | longs avg R (n) | shorts avg R (n) | 2× cost avg R |
 |---|---|---|---|---|---|---|---|---|---|
-| a | 7784 | 1254 | -0.071 | -4.91 | [-0.099, -0.0426] | 0.417 | -0.0559 (3922) | -0.0868 (3862) | -0.17 |
-| b | 20144 | 1259 | -0.148 | -14.8 | [-0.167, -0.1285] | 0.37 | -0.1289 (10072) | -0.1668 (10072) | -0.2435 |
-| c | 9088 | 1136 | -0.145 | -7.9 | [-0.1798, -0.108] | 0.371 | -0.1253 (6992) | -0.2096 (2096) | -0.2398 |
-| d | 20144 | 1259 | -0.151 | -18.39 | [-0.167, -0.1351] | 0.205 | -0.1329 (10072) | -0.1688 (10072) | -0.2529 |
+| a | 7931 | 1255 | -0.067 | -4.38 | [-0.0974, -0.0366] | 0.415 | -0.0682 (3909) | -0.0666 (4022) | -0.1598 |
+| b | 20144 | 1259 | -0.145 | -13.18 | [-0.1663, -0.1238] | 0.367 | -0.1252 (10072) | -0.165 (10072) | -0.233 |
+| c | 9088 | 1136 | -0.151 | -7.41 | [-0.1908, -0.111] | 0.366 | -0.1368 (6992) | -0.1996 (2096) | -0.2396 |
+| d | 20144 | 1259 | -0.144 | -16.06 | [-0.1614, -0.1262] | 0.206 | -0.1266 (10072) | -0.161 (10072) | -0.2374 |
 
-Best design variant: **a** (avg -0.071R, t -4.91).
+Best design variant: **a** (avg -0.067R, t -4.38).
 **Verdict: FAIL (design: best variant avg R <= 0 or t < 2).** Validation not run.
 
 Calibration (variant a, 2–4 Nov; compare with the paper ledger):
@@ -25,6 +25,22 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 "filled": false,
 "R": NaN,
 "exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "META",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-02",
+"sym": "META",
+"side": 1,
+"filled": true,
+"R": -1.0743554216867484,
+"exit": "stop"
 },
 {
 "date": "2026-11-04",
@@ -43,11 +59,75 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 "exit": NaN
 },
 {
+"date": "2026-11-04",
+"sym": "TSLA",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-02",
+"sym": "TSLA",
+"side": -1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
 "date": "2026-11-02",
 "sym": "AAPL",
 "side": -1,
 "filled": true,
 "R": -1.1126316606140627,
+"exit": "stop"
+},
+{
+"date": "2026-11-04",
+"sym": "AMD",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "MSFT",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-04",
+"sym": "MSFT",
+"side": 1,
+"filled": true,
+"R": 0.6609196811120304,
+"exit": "flat"
+},
+{
+"date": "2026-11-02",
+"sym": "AMD",
+"side": -1,
+"filled": true,
+"R": 1.959419858156029,
+"exit": "target"
+},
+{
+"date": "2026-11-04",
+"sym": "GOOGL",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "GOOGL",
+"side": -1,
+"filled": true,
+"R": -1.0961517241379304,
 "exit": "stop"
 },
 {
@@ -76,7 +156,23 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 },
 {
 "date": "2026-11-02",
+"sym": "GOOGL",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-02",
 "sym": "AMZN",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-02",
+"sym": "AVGO",
 "side": 1,
 "filled": false,
 "R": NaN,
@@ -107,16 +203,16 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 "exit": NaN
 },
 {
-"date": "2026-11-03",
-"sym": "LRCX",
-"side": -1,
-"filled": true,
-"R": -1.0588478991596642,
-"exit": "stop"
+"date": "2026-11-04",
+"sym": "PLTR",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
 },
 {
-"date": "2026-11-04",
-"sym": "LRCX",
+"date": "2026-11-03",
+"sym": "ORCL",
 "side": 1,
 "filled": false,
 "R": NaN,
@@ -124,11 +220,91 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 },
 {
 "date": "2026-11-02",
-"sym": "LRCX",
+"sym": "ORCL",
+"side": -1,
+"filled": true,
+"R": 1.965167264748558,
+"exit": "target"
+},
+{
+"date": "2026-11-02",
+"sym": "STX",
+"side": -1,
+"filled": true,
+"R": 0.8218004574755658,
+"exit": "flat"
+},
+{
+"date": "2026-11-03",
+"sym": "STX",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "BE",
+"side": 1,
+"filled": true,
+"R": -1.0227071866783526,
+"exit": "stop"
+},
+{
+"date": "2026-11-02",
+"sym": "WDC",
+"side": -1,
+"filled": true,
+"R": 1.484122807017535,
+"exit": "flat"
+},
+{
+"date": "2026-11-02",
+"sym": "BE",
 "side": -1,
 "filled": false,
 "R": NaN,
 "exit": NaN
+},
+{
+"date": "2026-11-04",
+"sym": "LLY",
+"side": -1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "WDC",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-02",
+"sym": "AMAT",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "NFLX",
+"side": -1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-03",
+"sym": "LRCX",
+"side": -1,
+"filled": true,
+"R": -1.0588478991596642,
+"exit": "stop"
 },
 {
 "date": "2026-11-04",
@@ -139,40 +315,32 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 "exit": NaN
 },
 {
-"date": "2026-11-04",
-"sym": "NOW",
-"side": -1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-03",
-"sym": "NOW",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
 "date": "2026-11-02",
-"sym": "NOW",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-04",
-"sym": "COST",
+"sym": "MDT",
 "side": 1,
 "filled": true,
-"R": 1.9322135152696551,
+"R": 1.8547125433526017,
 "exit": "target"
 },
 {
+"date": "2026-11-02",
+"sym": "V",
+"side": 1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
 "date": "2026-11-03",
-"sym": "COST",
+"sym": "UNH",
+"side": -1,
+"filled": false,
+"R": NaN,
+"exit": NaN
+},
+{
+"date": "2026-11-04",
+"sym": "NOW",
 "side": -1,
 "filled": false,
 "R": NaN,
@@ -180,39 +348,31 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 },
 {
 "date": "2026-11-03",
-"sym": "XOM",
+"sym": "WMT",
 "side": -1,
 "filled": true,
-"R": 0.16485081967212095,
-"exit": "flat"
-},
-{
-"date": "2026-11-02",
-"sym": "COST",
-"side": 1,
-"filled": true,
-"R": 1.459772465060968,
+"R": 0.9033112987013253,
 "exit": "flat"
 },
 {
 "date": "2026-11-04",
-"sym": "PANW",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-02",
-"sym": "PANW",
+"sym": "CAT",
 "side": -1,
 "filled": false,
 "R": NaN,
 "exit": NaN
 },
 {
-"date": "2026-11-02",
-"sym": "JNJ",
+"date": "2026-11-03",
+"sym": "JPM",
+"side": -1,
+"filled": true,
+"R": 1.0612416107382485,
+"exit": "flat"
+},
+{
+"date": "2026-11-04",
+"sym": "GS",
 "side": -1,
 "filled": false,
 "R": NaN,
@@ -227,96 +387,8 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 "exit": NaN
 },
 {
-"date": "2026-11-03",
-"sym": "BA",
-"side": 1,
-"filled": true,
-"R": -1.0782616005354935,
-"exit": "stop"
-},
-{
-"date": "2026-11-02",
-"sym": "BA",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-02",
-"sym": "TMO",
-"side": -1,
-"filled": true,
-"R": -0.07597087912088142,
-"exit": "flat"
-},
-{
-"date": "2026-11-03",
-"sym": "VRT",
-"side": 1,
-"filled": true,
-"R": -1.0258892040256176,
-"exit": "stop"
-},
-{
-"date": "2026-11-03",
-"sym": "TMO",
-"side": 1,
-"filled": true,
-"R": 0.08630800619998502,
-"exit": "flat"
-},
-{
-"date": "2026-11-02",
-"sym": "VRT",
-"side": -1,
-"filled": true,
-"R": 1.9748858695652172,
-"exit": "target"
-},
-{
 "date": "2026-11-04",
-"sym": "TMO",
-"side": -1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-03",
-"sym": "MRK",
-"side": -1,
-"filled": true,
-"R": 1.9441730769230783,
-"exit": "target"
-},
-{
-"date": "2026-11-02",
-"sym": "MRK",
-"side": -1,
-"filled": true,
-"R": -1.0587885950413227,
-"exit": "stop"
-},
-{
-"date": "2026-11-04",
-"sym": "HD",
-"side": -1,
-"filled": true,
-"R": -1.0561218623481783,
-"exit": "stop"
-},
-{
-"date": "2026-11-02",
-"sym": "HD",
-"side": 1,
-"filled": true,
-"R": 0.7761136738055875,
-"exit": "flat"
-},
-{
-"date": "2026-11-03",
-"sym": "PEP",
+"sym": "GE",
 "side": -1,
 "filled": false,
 "R": NaN,
@@ -324,79 +396,7 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 },
 {
 "date": "2026-11-04",
-"sym": "PEP",
-"side": 1,
-"filled": true,
-"R": 0.9592055310348984,
-"exit": "flat"
-},
-{
-"date": "2026-11-02",
-"sym": "PEP",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-04",
-"sym": "MCD",
-"side": 1,
-"filled": true,
-"R": 0.7123776444929213,
-"exit": "flat"
-},
-{
-"date": "2026-11-04",
-"sym": "WFC",
-"side": -1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-02",
-"sym": "IBM",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-03",
-"sym": "T",
-"side": -1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-04",
-"sym": "AMGN",
-"side": -1,
-"filled": true,
-"R": -1.0378270903010032,
-"exit": "stop"
-},
-{
-"date": "2026-11-03",
-"sym": "HPE",
-"side": 1,
-"filled": false,
-"R": NaN,
-"exit": NaN
-},
-{
-"date": "2026-11-03",
-"sym": "DHR",
-"side": 1,
-"filled": true,
-"R": -0.892296466093598,
-"exit": "flat"
-},
-{
-"date": "2026-11-04",
-"sym": "DHR",
+"sym": "TMO",
 "side": -1,
 "filled": false,
 "R": NaN,
@@ -411,16 +411,16 @@ Calibration (variant a, 2–4 Nov; compare with the paper ledger):
 
 | Variant | n | days | avg R | t (by day) | CI by day | win | longs avg R (n) | shorts avg R (n) | 2× cost avg R |
 |---|---|---|---|---|---|---|---|---|---|
-| k0.10 | 18178 | 1251 | -0.627 | -29.99 | [-0.668, -0.5856] | 0.099 | -0.6168 (9135) | -0.6378 (9043) | -0.9054 |
-| k0.25 | 18178 | 1251 | -0.120 | -7.23 | [-0.151, -0.0863] | 0.306 | -0.1172 (9135) | -0.122 (9043) | -0.2259 |
-| k0.50 | 18178 | 1251 | -0.040 | -3.82 | [-0.0603, -0.0192] | 0.431 | -0.0302 (9135) | -0.0497 (9043) | -0.0904 |
+| k0.10 | 20260 | 1259 | -0.704 | -37.69 | [-0.7397, -0.6673] | 0.08 | -0.6904 (10399) | -0.719 (9861) | -0.9698 |
+| k0.25 | 20260 | 1259 | -0.201 | -13.31 | [-0.2305, -0.1715] | 0.265 | -0.21 (10399) | -0.1918 (9861) | -0.3033 |
+| k0.50 | 20260 | 1259 | -0.058 | -5.73 | [-0.0773, -0.0382] | 0.413 | -0.063 (10399) | -0.052 (9861) | -0.1062 |
 
-Best design variant: **k0.50** (avg -0.040R, t -3.82).
+Best design variant: **k0.50** (avg -0.058R, t -5.73).
 **Verdict: FAIL (design: best variant avg R <= 0 or t < 2).** Validation not run.
 
 ## Coverage
 
-Symbols requested 182, without Alpaca data 0, stock-days 401982.
+Symbols requested 726, without Alpaca data 1, stock-days 1602197, failed fetch chunks 0 (10 symbols x 1 year each), failed symbol-years 0.
 
 ## H3: post-earnings drift on the surprise (daily)
 Data: {"tickers": 634, "failed": 10, "events": 52571, "events_in_range": 24267, "with_surprise": 24146, "share_with_surprise": 0.995, "trades_per_variant": {"N1": 6699, "N2": 6699, "N4": 6698}, "status": "run"}
