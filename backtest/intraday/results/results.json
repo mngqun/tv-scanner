@@ -1,0 +1,226 @@
+{
+ "H1": {
+  "hypothesis": "H1: current ORB arms (15-min range, OR-mid stop, 2R)",
+  "design": {
+   "a": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "b": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "c": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "d": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   }
+  },
+  "min_n": 200,
+  "verdict": "no trades",
+  "calibration_2_4_nov": [
+   {
+    "date": "2026-11-04",
+    "sym": "AAPL",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "AAPL",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "AAPL",
+    "side": -1,
+    "filled": true,
+    "R": -1.1126316606140627,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "MSFT",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "MSFT",
+    "side": 1,
+    "filled": true,
+    "R": 0.6609196811120304,
+    "exit": "flat"
+   }
+  ]
+ },
+ "H2": {
+  "hypothesis": "H2: Stocks-in-Play 5-min ORB (top 20 RVOL, k x ATR stop, exit 15:40)",
+  "design": {
+   "k0.10": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "k0.25": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "k0.50": {
+    "n": 0,
+    "R2": null,
+    "long": {
+     "n": 0
+    },
+    "short": {
+     "n": 0
+    }
+   }
+  },
+  "min_n": 200,
+  "verdict": "no trades"
+ },
+ "coverage": {
+  "requested": 3,
+  "no_data": 0,
+  "no_data_symbols": [],
+  "stock_days": 636
+ },
+ "H4": {
+  "hypothesis": "H4: mechanised TQQQ plan",
+  "design": {
+   "j0.00": {
+    "n": 1104,
+    "days": 1104,
+    "avg_R": -0.0164,
+    "t_day": -0.86,
+    "ci_day": [
+     -0.0537,
+     0.0204
+    ],
+    "win": 0.524,
+    "total_R": -18.1,
+    "R2": -0.0317,
+    "long": {
+     "n": 1104,
+     "days": 1104,
+     "avg_R": -0.0164,
+     "t_day": -0.86,
+     "ci_day": [
+      -0.0537,
+      0.0204
+     ],
+     "win": 0.524,
+     "total_R": -18.1
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "j0.25": {
+    "n": 451,
+    "days": 451,
+    "avg_R": -0.0145,
+    "t_day": -0.46,
+    "ci_day": [
+     -0.0772,
+     0.0467
+    ],
+    "win": 0.51,
+    "total_R": -6.5,
+    "R2": -0.0261,
+    "long": {
+     "n": 451,
+     "days": 451,
+     "avg_R": -0.0145,
+     "t_day": -0.46,
+     "ci_day": [
+      -0.0772,
+      0.0467
+     ],
+     "win": 0.51,
+     "total_R": -6.5
+    },
+    "short": {
+     "n": 0
+    }
+   },
+   "j0.50": {
+    "n": 168,
+    "days": 168,
+    "avg_R": -0.0088,
+    "t_day": -0.15,
+    "ci_day": [
+     -0.1256,
+     0.1073
+    ],
+    "win": 0.554,
+    "total_R": -1.5,
+    "R2": -0.0204,
+    "long": {
+     "n": 168,
+     "days": 168,
+     "avg_R": -0.0088,
+     "t_day": -0.15,
+     "ci_day": [
+      -0.1256,
+      0.1073
+     ],
+     "win": 0.554,
+     "total_R": -1.5
+    },
+    "short": {
+     "n": 0
+    }
+   }
+  },
+  "min_n": 100,
+  "best": "j0.50",
+  "verdict": "FAIL (design: best variant avg R <= 0 or t < 2)"
+ }
+}
