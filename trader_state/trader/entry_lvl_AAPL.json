@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AAPL",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 354.5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 355.38,
+    "low": 350.95,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:24:00Z",
+  "reason": "last close $349.73 (10:15 bar), $4.77 under the level $354.50 (-1.35%)"
+}

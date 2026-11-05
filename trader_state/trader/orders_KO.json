@@ -1,0 +1,32 @@
+{
+  "created_by": "trader-budget",
+  "created_at": "2026-11-05T15:23:57Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
+  "source": "trader/plan.json (KO orb 2026-11-05)",
+  "orders": [
+    {
+      "symbol": "KO",
+      "side": "buy",
+      "qty": "51",
+      "type": "limit",
+      "time_in_force": "day",
+      "limit_price": "97.19",
+      "order_class": "bracket",
+      "take_profit_limit_price": "98.99",
+      "stop_loss_stop_price": "96.29",
+      "why": "opening-range breakout on KO: 51 shares, bound by your position cap (51 x 0.90 = $45.90 at the stop)",
+      "plan": {
+        "entry": 97.19,
+        "stop": 96.29,
+        "target": 98.99,
+        "risk_per_share": 0.9,
+        "max_loss": 45.9,
+        "setup": "orb",
+        "entry_time": "10:10 AM",
+        "flat_by": "15:40"
+      }
+    }
+  ]
+}

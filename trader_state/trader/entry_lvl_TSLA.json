@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "TSLA",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 392.04,
+  "interval": "5m",
+  "opening_range": {
+    "high": 371.85,
+    "low": 353.82,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:24:00Z",
+  "reason": "last close $349.38 (10:15 bar), $42.66 under the level $392.04 (-10.88%)"
+}

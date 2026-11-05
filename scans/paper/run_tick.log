@@ -1,0 +1,7 @@
+[B] placed orb long LLY x3 stop_limit stop 1427.86 tgt 1476.01 -> 200 
+[B] placed orb long APP x3 stop_limit stop 349.69 tgt 387.94 -> 200 
+[B] placed orb long QCOM x11 stop_limit stop 153.29 tgt 166.73 -> 200 
+[B] placed orb long KO x51 stop_limit stop 96.29 tgt 98.99 -> 200 
+[B] placed orb long PG x29 stop_limit stop 169.11 tgt 170.49 -> 200 
+[B] placed orb_short short AAPL x13 stop_limit stop 353.16 tgt 341.72 -> 200 
+[B] placed orb_short short TSLA x3 limit stop 364.06 tgt 324.63 -> 200 

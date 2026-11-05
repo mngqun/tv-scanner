@@ -3,20 +3,20 @@
   "symbol": "ABBV",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-28",
+  "date": "2026-11-05",
   "status": "triggered",
-  "time": "9:50 AM",
-  "bar_start": "09:45",
-  "bar_index": 3,
-  "price": 286.22,
-  "level": 285.48,
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 299.92,
+  "level": 299.39,
   "interval": "5m",
   "opening_range": {
-    "high": 285.48,
-    "low": 281.23,
+    "high": 299.39,
+    "low": 295.2,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-28T14:26:59Z",
-  "reason": "the 9:45 bar closed above the range high"
+  "checked_at": "2026-11-05T15:23:57Z",
+  "reason": "the 9:55 bar closed above the range high"
 }

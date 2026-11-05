@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MSFT",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 559.15,
+  "interval": "5m",
+  "opening_range": {
+    "high": 557.62,
+    "low": 547.57,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:24:00Z",
+  "reason": "last close $540.52 (10:15 bar), $18.63 under the level $559.15 (-3.33%)"
+}

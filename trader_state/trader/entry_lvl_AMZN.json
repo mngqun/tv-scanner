@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "AMZN",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 271.49,
+  "interval": "5m",
+  "opening_range": {
+    "high": 273.23,
+    "low": 266.23,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:24:00Z",
+  "reason": "last close $257.50 (10:15 bar), $13.99 under the level $271.49 (-5.15%)"
+}

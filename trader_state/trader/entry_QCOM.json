@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "QCOM",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 157.77,
+  "level": 157.5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 157.5,
+    "low": 149.09,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:23:53Z",
+  "reason": "the 9:45 bar closed above the range high"
+}

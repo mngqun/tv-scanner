@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "COST",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "triggered",
+  "time": "10:10 AM",
+  "bar_start": "10:05",
+  "bar_index": 7,
+  "price": 1073.4,
+  "level": 1072.07,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1072.07,
+    "low": 1061.33,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:23:49Z",
+  "reason": "the 10:05 bar closed above the range high"
+}

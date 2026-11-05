@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "APP",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-05",
+  "status": "triggered",
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 362.44,
+  "level": 360.5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 360.5,
+    "low": 338.88,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-05T15:23:51Z",
+  "reason": "the 9:50 bar closed above the range high"
+}

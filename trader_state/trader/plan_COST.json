@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "COST",
+  "side": "buy",
+  "date": "2026-11-05",
+  "setup": "orb",
+  "entry": 1073.4,
+  "entry_time": "10:10 AM",
+  "entry_bar": 7,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1072.07,
+    "low": 1061.33,
+    "minutes": 15
+  },
+  "stop": 1066.7,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 1086.8,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 6.7,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($1,072.07 + $1,061.33) / 2 = $1066.7",
+  "created_at": "2026-11-05T15:23:49Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}
