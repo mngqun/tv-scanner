@@ -29,7 +29,8 @@
   "14:37",
   "14:52",
   "15:07",
-  "15:22"
+  "15:22",
+  "15:37"
  ],
  "queue_done": [
   "tqqq-2026-11-05"
@@ -49,7 +50,9 @@
   "[B] placed orb_short short TSLA x3 limit stop 364.06 tgt 324.63 -> 200 ",
   "[B] cancel unfilled entry orb-B-2026-11-05-LLY (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-05-APP (filled 0.0)",
-  "[B] cancel unfilled entry orb-B-2026-11-05-QCOM (filled 0.0)"
+  "[B] cancel unfilled entry orb-B-2026-11-05-QCOM (filled 0.0)",
+  "[B] close rulec-B-2026-11-05-JD 81 (moc, cls) -> 200",
+  "[B] close rulec-B-2026-11-05-TCOM 47 (moc, cls) -> 200"
  ],
  "placed": [
   {

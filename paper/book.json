@@ -276,7 +276,7 @@
     "id": "f07463f1-25bc-46e4-a8d7-6ce92bc50719",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 81.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -286,9 +286,37 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "2210aa00-916a-4b48-9829-c335814dc9a2",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 81.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "cls"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 81.0
+  "remaining": 81.0,
+  "exit_order_ids": [
+   "2210aa00-916a-4b48-9829-c335814dc9a2"
+  ],
+  "exit_reason": "moc",
+  "events": [
+   {
+    "at": "2026-11-05 15:37",
+    "what": "close (moc) cls",
+    "qty": 81,
+    "http": 200,
+    "msg": null
+   }
+  ],
+  "moc_sent": true
  },
  {
   "id": "rulec-B-2026-11-05-TCOM",
@@ -339,7 +367,7 @@
     "id": "358706d6-93bf-4392-9264-f454f89b74fe",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 47.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -349,9 +377,37 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "8722a688-2187-4316-8866-37b1b9f50eb8",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 47.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "cls"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 47.0
+  "remaining": 47.0,
+  "exit_order_ids": [
+   "8722a688-2187-4316-8866-37b1b9f50eb8"
+  ],
+  "exit_reason": "moc",
+  "events": [
+   {
+    "at": "2026-11-05 15:37",
+    "what": "close (moc) cls",
+    "qty": 47,
+    "http": 200,
+    "msg": null
+   }
+  ],
+  "moc_sent": true
  },
  {
   "id": "orb-B-2026-11-05-LLY",
