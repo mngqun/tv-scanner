@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-05"
@@ -219,5 +220,77 @@
    "id": "tqqq-2026-11-05",
    "why": "void: last 45.8 outside [41.42, 43.58]"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 670,
+   "fetched": 670,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 669,
+   "hits": 400
+  },
+  "hits": 400,
+  "picks": [
+   {
+    "symbol": "AAPL",
+    "setups": [
+     "breakout_20d",
+     "reclaim_ma20"
+    ],
+    "level": 354.5,
+    "prev_close": 349.510009765625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MSFT",
+    "setups": [
+     "breakout_20d",
+     "reclaim_ma20"
+    ],
+    "level": 559.15,
+    "prev_close": 555.7999877929688,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 296.49,
+    "prev_close": 288.92999267578125,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "AMZN",
+    "setups": [
+     "breakout_20d",
+     "reclaim_ma20"
+    ],
+    "level": 271.49,
+    "prev_close": 266.0299987792969,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "TSLA",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 392.04,
+    "prev_close": 385.19000244140625,
+    "sector": "Consumer Durables"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 60.2,
+    "prev_close": 58.27000045776367,
+    "sector": "Electronic Technology"
+   }
+  ]
+ }
 }
