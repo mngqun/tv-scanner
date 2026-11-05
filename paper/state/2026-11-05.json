@@ -3,8 +3,211 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short JD x81 market stop 30.2 tgt None -> 200 ",
+  "[B] placed rulec short TCOM x47 market stop 46.82 tgt None -> 200 ",
+  "[B] close rulec-B-2026-11-04-DB 53 (stale intraday (missed close-out), day) -> 200",
+  "[B] close rulec-B-2026-11-04-RYAAY 33 (stale intraday (missed close-out), day) -> 200"
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-05-JD",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "JD",
+   "side": "short",
+   "qty": 81,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-05-TCOM",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "TCOM",
+   "side": "short",
+   "qty": 47,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "JD",
+    "open": 28.9675,
+    "prev_close": 27.729999542236328,
+    "atr": 0.6154,
+    "gap_pct": 4.46,
+    "gap_atr": 2.011,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "TCOM",
+    "open": 44.74,
+    "prev_close": 42.689998626708984,
+    "atr": 1.0421,
+    "gap_pct": 4.8,
+    "gap_atr": 1.967,
+    "sector": "Consumer Services"
+   },
+   {
+    "symbol": "BABA",
+    "open": 110.96,
+    "prev_close": 105.29000091552734,
+    "atr": 3.0573,
+    "gap_pct": 5.39,
+    "gap_atr": 1.855,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "IBN",
+    "open": 32.35,
+    "prev_close": 31.260000228881836,
+    "atr": 0.6829,
+    "gap_pct": 3.49,
+    "gap_atr": 1.596,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "FSLR",
+    "open": 207.45,
+    "prev_close": 194.50999450683594,
+    "atr": 8.97,
+    "gap_pct": 6.65,
+    "gap_atr": 1.443,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "PDD",
+    "open": 85.385,
+    "prev_close": 82.1500015258789,
+    "atr": 2.3343,
+    "gap_pct": 3.94,
+    "gap_atr": 1.386,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "GFI",
+    "open": 38.43,
+    "prev_close": 36.75,
+    "atr": 1.5079,
+    "gap_pct": 4.57,
+    "gap_atr": 1.114,
+    "sector": "Non-Energy Minerals"
+   },
+   {
+    "symbol": "TAK",
+    "open": 21.5,
+    "prev_close": 21.059999465942383,
+    "atr": 0.4286,
+    "gap_pct": 2.09,
+    "gap_atr": 1.027,
+    "sector": "Health Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "APP",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TPR",
+    "why": "earnings"
+   },
+   {
+    "symbol": "U",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TS",
+    "why": "earnings"
+   },
+   {
+    "symbol": "CHYM",
+    "why": "earnings"
+   },
+   {
+    "symbol": "FWONK",
+    "why": "earnings"
+   },
+   {
+    "symbol": "MAIR",
+    "why": "earnings"
+   },
+   {
+    "symbol": "SONY",
+    "why": "earnings"
+   },
+   {
+    "symbol": "RVMD",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TRP",
+    "why": "earnings"
+   },
+   {
+    "symbol": "ALB",
+    "why": "earnings"
+   },
+   {
+    "symbol": "CF",
+    "why": "earnings"
+   },
+   {
+    "symbol": "ALNY",
+    "why": "gap 3.92% / 0.52 ATR"
+   },
+   {
+    "symbol": "FTI",
+    "why": "gap 0.59% / 0.14 ATR"
+   },
+   {
+    "symbol": "BSY",
+    "why": "earnings"
+   },
+   {
+    "symbol": "PR",
+    "why": "earnings"
+   },
+   {
+    "symbol": "CAH",
+    "why": "earnings"
+   },
+   {
+    "symbol": "LTH",
+    "why": "gap 0.61% / 0.15 ATR"
+   },
+   {
+    "symbol": "CSGP",
+    "why": "gap 1.29% / 0.22 ATR"
+   },
+   {
+    "symbol": "HUBS",
+    "why": "earnings"
+   },
+   {
+    "symbol": "VMRK",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TKO",
+    "why": "earnings"
+   }
+  ],
+  "placed": [
+   "JD",
+   "TCOM"
+  ]
+ }
 }
