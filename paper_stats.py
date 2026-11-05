@@ -13,7 +13,7 @@ Per arm (account + arm; the scan arm also per setup):
 Overlay "A sleeve (user)": what the user's real $10k sleeve would have done: account A trades from
 all arms in order of fill time, at most 2 per day, no new trade after the day reaches -$200.
 
-Go-live (all on the pessimistic numbers): >= 40 trades; avg R >= +0.10 and CI low > 0;
+Go-live (all on the pessimistic numbers): >= 40 trades; avg R >= +0.10 and the DAY-CLUSTERED CI low > 0 (5 Nov);
 max drawdown <= 8R; no day below -$200 (A arms); avg slippage <= 0.05R.
 """
 import json
@@ -121,16 +121,17 @@ def summarize(ts: list, a_arm: bool) -> dict:
          "median_mfe_R": round(statistics.median(mfe), 2) if mfe else None,
          "median_mae_R": round(statistics.median(mae), 2) if mae else None,
          "exit_mix": dict(exits), "first": ts[0]["date"], "last": ts[-1]["date"]}
-    rf = [t["R_fill"] for t in ts if t.get("R_fill") is not None]
-    s["avg_R_fill"] = round(statistics.mean(rf), 3) if rf else None     # R on the actual fill-to-stop distance
-    s["days"] = len(days)
-    s["pess_ci95_days"] = list(boot_ci_days(ts))                     # informational; go-live still uses pess_ci95
     rule = [t["rule_R"] for t in ts if t.get("rule_R") is not None]
     if rule:
         s["rule_avg_R"] = round(statistics.mean(rule), 3)
+    rf = [t["R_fill"] for t in ts if t.get("R_fill") is not None]
+    s["avg_R_fill"] = round(statistics.mean(rf), 3) if rf else None     # R on the actual fill-to-stop distance
+    s["days"] = len(days)
+    s["pess_ci95_days"] = list(boot_ci_days(ts))                     # go-live test (5 Nov)
+    dlo = s["pess_ci95_days"][0]
     checks = {"n>=40": len(pess) >= 40,
               "avg>=+0.10R": s["pess_avg_R"] is not None and s["pess_avg_R"] >= 0.10,
-              "ci_low>0": lo is not None and lo > 0,
+              "ci_low_by_day>0": dlo is not None and dlo > 0,      # user decision 5 Nov: day-clustered CI
               "max_dd<=8R": s["max_dd_R"] <= 8,
               "slippage<=0.05R": s["avg_slippage_R"] is None or s["avg_slippage_R"] <= 0.05}
     if a_arm:
