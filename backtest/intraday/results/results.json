@@ -3,49 +3,166 @@
   "hypothesis": "H1: current ORB arms (15-min range, OR-mid stop, 2R)",
   "design": {
    "a": {
-    "n": 0,
-    "R2": null,
+    "n": 7784,
+    "days": 1254,
+    "avg_R": -0.0713,
+    "t_day": -4.91,
+    "ci_day": [
+     -0.099,
+     -0.0426
+    ],
+    "win": 0.417,
+    "total_R": -554.6,
+    "R2": -0.17,
     "long": {
-     "n": 0
+     "n": 3922,
+     "days": 1211,
+     "avg_R": -0.0559,
+     "t_day": -2.43,
+     "ci_day": [
+      -0.1003,
+      -0.0119
+     ],
+     "win": 0.429,
+     "total_R": -219.4
     },
     "short": {
-     "n": 0
+     "n": 3862,
+     "days": 1211,
+     "avg_R": -0.0868,
+     "t_day": -3.37,
+     "ci_day": [
+      -0.1368,
+      -0.0375
+     ],
+     "win": 0.405,
+     "total_R": -335.2
     }
    },
    "b": {
-    "n": 0,
-    "R2": null,
+    "n": 20144,
+    "days": 1259,
+    "avg_R": -0.1479,
+    "t_day": -14.8,
+    "ci_day": [
+     -0.167,
+     -0.1285
+    ],
+    "win": 0.37,
+    "total_R": -2978.4,
+    "R2": -0.2435,
     "long": {
-     "n": 0
+     "n": 10072,
+     "days": 1259,
+     "avg_R": -0.1289,
+     "t_day": -7.37,
+     "ci_day": [
+      -0.1635,
+      -0.0949
+     ],
+     "win": 0.38,
+     "total_R": -1298.4
     },
     "short": {
-     "n": 0
+     "n": 10072,
+     "days": 1259,
+     "avg_R": -0.1668,
+     "t_day": -9.29,
+     "ci_day": [
+      -0.2005,
+      -0.1321
+     ],
+     "win": 0.359,
+     "total_R": -1680.0
     }
    },
    "c": {
-    "n": 0,
-    "R2": null,
+    "n": 9088,
+    "days": 1136,
+    "avg_R": -0.1448,
+    "t_day": -7.9,
+    "ci_day": [
+     -0.1798,
+     -0.108
+    ],
+    "win": 0.371,
+    "total_R": -1315.7,
+    "R2": -0.2398,
     "long": {
-     "n": 0
+     "n": 6992,
+     "days": 874,
+     "avg_R": -0.1253,
+     "t_day": -6.44,
+     "ci_day": [
+      -0.1631,
+      -0.0866
+     ],
+     "win": 0.384,
+     "total_R": -876.3
     },
     "short": {
-     "n": 0
+     "n": 2096,
+     "days": 262,
+     "avg_R": -0.2096,
+     "t_day": -4.6,
+     "ci_day": [
+      -0.2976,
+      -0.1186
+     ],
+     "win": 0.325,
+     "total_R": -439.3
     }
    },
    "d": {
-    "n": 0,
-    "R2": null,
+    "n": 20144,
+    "days": 1259,
+    "avg_R": -0.1508,
+    "t_day": -18.39,
+    "ci_day": [
+     -0.167,
+     -0.1351
+    ],
+    "win": 0.205,
+    "total_R": -3038.5,
+    "R2": -0.2529,
     "long": {
-     "n": 0
+     "n": 10072,
+     "days": 1259,
+     "avg_R": -0.1329,
+     "t_day": -10.0,
+     "ci_day": [
+      -0.1591,
+      -0.1067
+     ],
+     "win": 0.213,
+     "total_R": -1338.7
     },
     "short": {
-     "n": 0
+     "n": 10072,
+     "days": 1259,
+     "avg_R": -0.1688,
+     "t_day": -12.35,
+     "ci_day": [
+      -0.1949,
+      -0.1418
+     ],
+     "win": 0.197,
+     "total_R": -1699.8
     }
    }
   },
   "min_n": 200,
-  "verdict": "no trades",
+  "best": "a",
+  "verdict": "FAIL (design: best variant avg R <= 0 or t < 2)",
   "calibration_2_4_nov": [
+   {
+    "date": "2026-11-02",
+    "sym": "MU",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
    {
     "date": "2026-11-04",
     "sym": "AAPL",
@@ -72,7 +189,7 @@
    },
    {
     "date": "2026-11-03",
-    "sym": "MSFT",
+    "sym": "INTC",
     "side": 1,
     "filled": false,
     "R": NaN,
@@ -80,11 +197,347 @@
    },
    {
     "date": "2026-11-04",
-    "sym": "MSFT",
+    "sym": "AMZN",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "AMZN",
+    "side": -1,
+    "filled": true,
+    "R": -1.0821459833795024,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "AMZN",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "GOOG",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "GOOG",
+    "side": -1,
+    "filled": true,
+    "R": -1.1007338368580042,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "GOOG",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "LRCX",
+    "side": -1,
+    "filled": true,
+    "R": -1.0588478991596642,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "LRCX",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "LRCX",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "GEV",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "NOW",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "NOW",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "NOW",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "COST",
     "side": 1,
     "filled": true,
-    "R": 0.6609196811120304,
+    "R": 1.9322135152696551,
+    "exit": "target"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "COST",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "XOM",
+    "side": -1,
+    "filled": true,
+    "R": 0.16485081967212095,
     "exit": "flat"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "COST",
+    "side": 1,
+    "filled": true,
+    "R": 1.459772465060968,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "PANW",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "PANW",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "JNJ",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "JNJ",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "BA",
+    "side": 1,
+    "filled": true,
+    "R": -1.0782616005354935,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "BA",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "TMO",
+    "side": -1,
+    "filled": true,
+    "R": -0.07597087912088142,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "VRT",
+    "side": 1,
+    "filled": true,
+    "R": -1.0258892040256176,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "TMO",
+    "side": 1,
+    "filled": true,
+    "R": 0.08630800619998502,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "VRT",
+    "side": -1,
+    "filled": true,
+    "R": 1.9748858695652172,
+    "exit": "target"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "TMO",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "MRK",
+    "side": -1,
+    "filled": true,
+    "R": 1.9441730769230783,
+    "exit": "target"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "MRK",
+    "side": -1,
+    "filled": true,
+    "R": -1.0587885950413227,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "HD",
+    "side": -1,
+    "filled": true,
+    "R": -1.0561218623481783,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "HD",
+    "side": 1,
+    "filled": true,
+    "R": 0.7761136738055875,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "PEP",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "PEP",
+    "side": 1,
+    "filled": true,
+    "R": 0.9592055310348984,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "PEP",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "MCD",
+    "side": 1,
+    "filled": true,
+    "R": 0.7123776444929213,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "WFC",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-02",
+    "sym": "IBM",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "T",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "AMGN",
+    "side": -1,
+    "filled": true,
+    "R": -1.0378270903010032,
+    "exit": "stop"
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "HPE",
+    "side": 1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
+   },
+   {
+    "date": "2026-11-03",
+    "sym": "DHR",
+    "side": 1,
+    "filled": true,
+    "R": -0.892296466093598,
+    "exit": "flat"
+   },
+   {
+    "date": "2026-11-04",
+    "sym": "DHR",
+    "side": -1,
+    "filled": false,
+    "R": NaN,
+    "exit": NaN
    }
   ]
  },
@@ -92,44 +545,259 @@
   "hypothesis": "H2: Stocks-in-Play 5-min ORB (top 20 RVOL, k x ATR stop, exit 15:40)",
   "design": {
    "k0.10": {
-    "n": 0,
-    "R2": null,
+    "n": 18178,
+    "days": 1251,
+    "avg_R": -0.6273,
+    "t_day": -29.99,
+    "ci_day": [
+     -0.668,
+     -0.5856
+    ],
+    "win": 0.099,
+    "total_R": -11402.6,
+    "R2": -0.9054,
     "long": {
-     "n": 0
+     "n": 9135,
+     "days": 1237,
+     "avg_R": -0.6168,
+     "t_day": -20.89,
+     "ci_day": [
+      -0.6734,
+      -0.558
+     ],
+     "win": 0.104,
+     "total_R": -5634.5
     },
     "short": {
-     "n": 0
+     "n": 9043,
+     "days": 1241,
+     "avg_R": -0.6378,
+     "t_day": -20.44,
+     "ci_day": [
+      -0.6982,
+      -0.5758
+     ],
+     "win": 0.094,
+     "total_R": -5768.1
     }
    },
    "k0.25": {
-    "n": 0,
-    "R2": null,
+    "n": 18178,
+    "days": 1251,
+    "avg_R": -0.1196,
+    "t_day": -7.23,
+    "ci_day": [
+     -0.151,
+     -0.0863
+    ],
+    "win": 0.306,
+    "total_R": -2173.6,
+    "R2": -0.2259,
     "long": {
-     "n": 0
+     "n": 9135,
+     "days": 1237,
+     "avg_R": -0.1172,
+     "t_day": -4.78,
+     "ci_day": [
+      -0.1654,
+      -0.0693
+     ],
+     "win": 0.314,
+     "total_R": -1070.5
     },
     "short": {
-     "n": 0
+     "n": 9043,
+     "days": 1241,
+     "avg_R": -0.122,
+     "t_day": -4.46,
+     "ci_day": [
+      -0.1753,
+      -0.0682
+     ],
+     "win": 0.297,
+     "total_R": -1103.0
     }
    },
    "k0.50": {
-    "n": 0,
-    "R2": null,
+    "n": 18178,
+    "days": 1251,
+    "avg_R": -0.0399,
+    "t_day": -3.82,
+    "ci_day": [
+     -0.0603,
+     -0.0192
+    ],
+    "win": 0.431,
+    "total_R": -725.1,
+    "R2": -0.0904,
     "long": {
-     "n": 0
+     "n": 9135,
+     "days": 1237,
+     "avg_R": -0.0302,
+     "t_day": -1.8,
+     "ci_day": [
+      -0.063,
+      0.0025
+     ],
+     "win": 0.445,
+     "total_R": -275.9
     },
     "short": {
-     "n": 0
+     "n": 9043,
+     "days": 1241,
+     "avg_R": -0.0497,
+     "t_day": -2.7,
+     "ci_day": [
+      -0.0865,
+      -0.0127
+     ],
+     "win": 0.417,
+     "total_R": -449.2
     }
    }
   },
   "min_n": 200,
-  "verdict": "no trades"
+  "best": "k0.50",
+  "verdict": "FAIL (design: best variant avg R <= 0 or t < 2)"
  },
  "coverage": {
-  "requested": 3,
+  "requested": 182,
   "no_data": 0,
   "no_data_symbols": [],
-  "stock_days": 636
+  "stock_days": 401982
+ },
+ "H3": {
+  "hypothesis": "H3: post-earnings drift on the surprise (daily)",
+  "design": {
+   "N1": {
+    "n": 3161,
+    "days": 679,
+    "avg_R": -0.0216,
+    "t_day": -2.09,
+    "ci_day": [
+     -0.0414,
+     -0.0016
+    ],
+    "win": 0.481,
+    "total_R": -68.3,
+    "R2": -0.0461,
+    "long": {
+     "n": 2506,
+     "days": 632,
+     "avg_R": -0.0192,
+     "t_day": -1.45,
+     "ci_day": [
+      -0.0457,
+      0.0071
+     ],
+     "win": 0.484,
+     "total_R": -48.0
+    },
+    "short": {
+     "n": 655,
+     "days": 331,
+     "avg_R": -0.0309,
+     "t_day": -1.3,
+     "ci_day": [
+      -0.077,
+      0.0175
+     ],
+     "win": 0.47,
+     "total_R": -20.3
+    }
+   },
+   "N2": {
+    "n": 3161,
+    "days": 679,
+    "avg_R": -0.0006,
+    "t_day": -0.04,
+    "ci_day": [
+     -0.0281,
+     0.0263
+    ],
+    "win": 0.504,
+    "total_R": -1.8,
+    "R2": -0.025,
+    "long": {
+     "n": 2506,
+     "days": 632,
+     "avg_R": 0.0148,
+     "t_day": 0.8,
+     "ci_day": [
+      -0.0221,
+      0.0509
+     ],
+     "win": 0.521,
+     "total_R": 37.0
+    },
+    "short": {
+     "n": 655,
+     "days": 331,
+     "avg_R": -0.0593,
+     "t_day": -2.04,
+     "ci_day": [
+      -0.1159,
+      -0.0013
+     ],
+     "win": 0.438,
+     "total_R": -38.8
+    }
+   },
+   "N4": {
+    "n": 3161,
+    "days": 679,
+    "avg_R": 0.0097,
+    "t_day": 0.49,
+    "ci_day": [
+     -0.0288,
+     0.0489
+    ],
+    "win": 0.502,
+    "total_R": 30.7,
+    "R2": -0.0147,
+    "long": {
+     "n": 2506,
+     "days": 632,
+     "avg_R": 0.0283,
+     "t_day": 1.08,
+     "ci_day": [
+      -0.0234,
+      0.0798
+     ],
+     "win": 0.515,
+     "total_R": 71.0
+    },
+    "short": {
+     "n": 655,
+     "days": 331,
+     "avg_R": -0.0615,
+     "t_day": -1.61,
+     "ci_day": [
+      -0.1357,
+      0.0145
+     ],
+     "win": 0.452,
+     "total_R": -40.3
+    }
+   }
+  },
+  "min_n": 200,
+  "best": "N4",
+  "verdict": "FAIL (design: best variant avg R <= 0 or t < 2)",
+  "meta": {
+   "tickers": 634,
+   "failed": 10,
+   "events": 52571,
+   "events_in_range": 24267,
+   "with_surprise": 24146,
+   "share_with_surprise": 0.995,
+   "trades_per_variant": {
+    "N1": 6699,
+    "N2": 6699,
+    "N4": 6698
+   },
+   "status": "run"
+  }
  },
  "H4": {
   "hypothesis": "H4: mechanised TQQQ plan",
