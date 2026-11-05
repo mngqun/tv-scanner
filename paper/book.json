@@ -77,18 +77,18 @@
     "id": "8a9f9ff6-5cb1-43f7-be3f-0170343e9537",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 53.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 53.0,
+    "avg": 37.822453,
+    "filled_at": "2026-11-05T14:37:43.311517219Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 53.0,
+  "exit_filled": 53.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "9ff09056-2032-49d9-944e-c20afeac048f",
    "8a9f9ff6-5cb1-43f7-be3f-0170343e9537"
@@ -110,7 +110,8 @@
     "msg": null
    }
   ],
-  "moc_sent": true
+  "moc_sent": true,
+  "closed": true
  },
  {
   "id": "rulec-B-2026-11-04-RYAAY",
@@ -190,18 +191,18 @@
     "id": "bf188950-7b11-49ca-bb02-090426f83e35",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 33.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 33.0,
+    "avg": 59.006364,
+    "filled_at": "2026-11-05T14:37:43.000053028Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 33.0,
+  "exit_filled": 33.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "7c664c29-6374-4ca0-9160-6b961e14007b",
    "bf188950-7b11-49ca-bb02-090426f83e35"
@@ -223,7 +224,8 @@
     "msg": null
    }
   ],
-  "moc_sent": true
+  "moc_sent": true,
+  "closed": true
  },
  {
   "id": "rulec-B-2026-11-05-JD",
@@ -265,16 +267,16 @@
   "sessions": [
    "2026-11-05"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 81.0,
+  "entry_avg": 28.625308,
+  "filled_at": "2026-11-05T14:37:51.079344769Z",
   "legs": [
    {
     "id": "f07463f1-25bc-46e4-a8d7-6ce92bc50719",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 81.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -286,7 +288,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 81.0
  },
  {
   "id": "rulec-B-2026-11-05-TCOM",
@@ -328,16 +330,16 @@
   "sessions": [
    "2026-11-05"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 47.0,
+  "entry_avg": 43.99,
+  "filled_at": "2026-11-05T14:37:54.910976674Z",
   "legs": [
    {
     "id": "358706d6-93bf-4392-9264-f454f89b74fe",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 47.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -349,6 +351,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 47.0
  }
 ]

@@ -1,4 +1,1 @@
-[B] placed rulec short JD x81 market stop 30.2 tgt None -> 200 
-[B] placed rulec short TCOM x47 market stop 46.82 tgt None -> 200 
-[B] close rulec-B-2026-11-04-DB 53 (stale intraday (missed close-out), day) -> 200
-[B] close rulec-B-2026-11-04-RYAAY 33 (stale intraday (missed close-out), day) -> 200
+queue tqqq-2026-11-05: void: last 45.8 outside [41.42, 43.58]
