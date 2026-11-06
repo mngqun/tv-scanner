@@ -1,0 +1,173 @@
+{
+ "H5": {
+  "hypothesis": "H5: Stocks-in-Play 5-min ORB, all US stocks >= $5 (top 20 RVOL)",
+  "design": {
+   "k0.10": {
+    "n": 20243,
+    "days": 1259,
+    "avg_R": -0.643,
+    "t_day": -33.72,
+    "ci_day": [
+     -0.6807,
+     -0.6051
+    ],
+    "win": 0.094,
+    "total_R": -13016.0,
+    "R2": -0.8966,
+    "long": {
+     "n": 10292,
+     "days": 1258,
+     "avg_R": -0.6376,
+     "t_day": -24.4,
+     "ci_day": [
+      -0.6882,
+      -0.5858
+     ],
+     "win": 0.098,
+     "total_R": -6561.7
+    },
+    "short": {
+     "n": 9951,
+     "days": 1258,
+     "avg_R": -0.6486,
+     "t_day": -22.29,
+     "ci_day": [
+      -0.7044,
+      -0.5895
+     ],
+     "win": 0.091,
+     "total_R": -6454.3
+    }
+   },
+   "k0.25": {
+    "n": 20243,
+    "days": 1259,
+    "avg_R": -0.1675,
+    "t_day": -12.1,
+    "ci_day": [
+     -0.1947,
+     -0.1404
+    ],
+    "win": 0.289,
+    "total_R": -3390.0,
+    "R2": -0.2642,
+    "long": {
+     "n": 10292,
+     "days": 1258,
+     "avg_R": -0.1723,
+     "t_day": -8.59,
+     "ci_day": [
+      -0.2109,
+      -0.1327
+     ],
+     "win": 0.292,
+     "total_R": -1773.0
+    },
+    "short": {
+     "n": 9951,
+     "days": 1258,
+     "avg_R": -0.1625,
+     "t_day": -7.06,
+     "ci_day": [
+      -0.2066,
+      -0.1166
+     ],
+     "win": 0.287,
+     "total_R": -1616.9
+    }
+   },
+   "k0.50": {
+    "n": 20243,
+    "days": 1259,
+    "avg_R": -0.0558,
+    "t_day": -6.28,
+    "ci_day": [
+     -0.073,
+     -0.0386
+    ],
+    "win": 0.424,
+    "total_R": -1129.8,
+    "R2": -0.1015,
+    "long": {
+     "n": 10292,
+     "days": 1258,
+     "avg_R": -0.0427,
+     "t_day": -2.99,
+     "ci_day": [
+      -0.0704,
+      -0.0145
+     ],
+     "win": 0.434,
+     "total_R": -439.1
+    },
+    "short": {
+     "n": 9951,
+     "days": 1258,
+     "avg_R": -0.0694,
+     "t_day": -4.46,
+     "ci_day": [
+      -0.0996,
+      -0.0387
+     ],
+     "win": 0.413,
+     "total_R": -690.8
+    }
+   }
+  },
+  "min_n": 200,
+  "best": "k0.50",
+  "verdict": "FAIL (design: best variant avg R <= 0 or t < 3)"
+ },
+ "diag_25k": {
+  "k0.10": {
+   "trades": 2513,
+   "total_usd": -120624.0,
+   "worst_day": -367.0,
+   "max_dd_usd": 121814.0
+  },
+  "k0.25": {
+   "trades": 2518,
+   "total_usd": -58760.0,
+   "worst_day": -292.0,
+   "max_dd_usd": 60433.0
+  },
+  "k0.50": {
+   "trades": 2518,
+   "total_usd": -21443.0,
+   "worst_day": -245.0,
+   "max_dd_usd": 22598.0
+  }
+ },
+ "coverage": {
+  "universe": 5750,
+  "with_preeligible_days": 920,
+  "rows": 839118,
+  "session_fetch_failures": 0,
+  "parts": [
+   {
+    "dates": 623,
+    "first_bar_days": 623,
+    "selected": 11961,
+    "trades": 35370
+   },
+   {
+    "dates": 624,
+    "first_bar_days": 644,
+    "selected": 12369,
+    "trades": 36648
+   },
+   {
+    "dates": 624,
+    "first_bar_days": 644,
+    "selected": 12318,
+    "trades": 36597
+   },
+   {
+    "dates": 624,
+    "first_bar_days": 644,
+    "selected": 12427,
+    "trades": 37017
+   }
+  ]
+ }
+}
