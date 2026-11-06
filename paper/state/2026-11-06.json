@@ -32,7 +32,8 @@
   "15:22",
   "15:30",
   "15:37",
-  "15:41"
+  "15:41",
+  "15:47"
  ],
  "queue_done": [
   "tqqq-2026-11-06"
@@ -59,7 +60,9 @@
   "[A] close tqqq-2026-11-06-t2 9 (flat-by, day) -> 200",
   "[B] close orb-B-2026-11-06-AAPL 14 (flat-by, day) -> 200",
   "[B] close orb-B-2026-11-06-MSFT 9 (flat-by, day) -> 200",
-  "[B] close orbs-B-2026-11-06-CRWD 11 (flat-by, day) -> 200"
+  "[B] close orbs-B-2026-11-06-CRWD 11 (flat-by, day) -> 200",
+  "[B] close rulec-B-2026-11-06-NET 2 (close (market near the close; paper MOC unsupported), day) -> 200",
+  "[B] close rulec-B-2026-11-06-TSM 3 (close (market near the close; paper MOC unsupported), day) -> 200"
  ],
  "placed": [
   {
@@ -953,5 +956,5 @@
   ],
   "news_status": 0
  },
- "close_pass": 1
+ "close_pass": 2
 }
