@@ -149,6 +149,13 @@ def process(sym, bars5, daily, bars_out=None):
     return drows, trades
 
 
+def save(out, part, D, T, cov):
+    cov = dict(cov, rows=len(D))
+    pd.DataFrame(D).to_parquet(out / f"t2days_{part}.parquet")
+    pd.DataFrame(T).to_parquet(out / f"t2trades_{part}.parquet")
+    (out / f"t2coverage_{part}.json").write_text(json.dumps(cov, indent=1))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--part", type=int, default=0)
@@ -210,10 +217,9 @@ def main():
                 del b5
         cov["no_data"] += [s for s in batch if s not in got]
         print(f"{bi + len(batch)}/{len(syms)} symbols, {len(D)} stock-days, {len(T)} trades, {time.time() - t0:.0f}s", flush=True)
-    cov["rows"] = len(D)
-    pd.DataFrame(D).to_parquet(out / f"t2days_{a.part}.parquet")
-    pd.DataFrame(T).to_parquet(out / f"t2trades_{a.part}.parquet")
-    (out / f"t2coverage_{a.part}.json").write_text(json.dumps(cov, indent=1))
+        if (bi // a.batch) % 4 == 3:
+            save(out, a.part, D, T, dict(cov, partial=True, done=bi + len(batch)))   # checkpoint
+    save(out, a.part, D, T, cov)
     print(json.dumps({k: (v if not isinstance(v, list) else len(v)) for k, v in cov.items()}))
 
 

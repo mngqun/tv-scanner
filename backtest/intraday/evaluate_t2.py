@@ -26,7 +26,7 @@ def main():
     inp, res = Path(a.inp), Path(a.res)
     res.mkdir(parents=True, exist_ok=True)
     covs = [json.loads(Path(f).read_text()) for f in glob.glob(str(inp / "t2coverage_*.json"))]
-    if len(covs) < a.parts:
+    if len(covs) < a.parts or any(c.get("partial") for c in covs):
         print(f"incomplete: {len(covs)} parts")
         return
     days = pd.concat([pd.read_parquet(f) for f in glob.glob(str(inp / "t2days_*.parquet"))], ignore_index=True)
