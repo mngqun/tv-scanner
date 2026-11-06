@@ -74,6 +74,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -q pandas pyarrow numpy
       - uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           pattern: t2-*
           path: backtest/intraday/out_t2
