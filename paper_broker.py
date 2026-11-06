@@ -616,6 +616,25 @@ def run_queue(day: str, st: dict, t: datetime, book: list):
 
 
 # ---------------------------------------------------------------- Rule C (account B)
+def nasdaq_earnings(day: str, prev: list, st: dict) -> set:
+    """Symbols reporting before today's open, any time today, or after the previous session's close (Nasdaq)."""
+    out = set()
+    for dd in [day] + prev:
+        try:
+            req = urllib.request.Request(f"https://api.nasdaq.com/api/calendar/earnings?date={dd}",
+                                         headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json",
+                                                  "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                rows = ((json.loads(r.read()).get("data") or {}).get("rows")) or []
+            for row in rows:
+                tm = row.get("time")
+                if dd == day or tm == "time-after-hours" or tm not in ("time-pre-market",):
+                    out.add(row.get("symbol"))
+        except Exception as e:  # noqa: BLE001
+            st.setdefault("errors", []).append({"phase": "nasdaq earnings", "error": str(e)[:150]})
+    return out
+
+
 def run_rulec(day: str, st: dict, t: datetime, book: list):
     """Frozen rule C (research-protocol 14 Oct): short non-earnings gap-ups >= +1.5% and 1.0-2.5 ATR,
     stop open + 2 ATR, cover at the close; max 2 a day by largest gap in ATR; $100 = 2 ATR x shares."""
@@ -625,13 +644,17 @@ def run_rulec(day: str, st: dict, t: datetime, book: list):
     d = t.date()
     tv = tv_map(day, refresh=True)
     prev_days = {b[0].date() for b in daily_before("SPY", d)[-1:]}
+    # second earnings source: TradingView's last-earnings date can lag a day (6 Nov: NET reported after the
+    # 5 Nov close, TV still showed the prior quarter, Rule C shorted the earnings gap)
+    nq_earn = nasdaq_earnings(day, sorted(p.isoformat() for p in prev_days), st)
     cands = sorted([(v.get("premarket_change") or v.get("change") or 0, k) for k, v in tv.items()
                     if (v.get("premarket_change") or v.get("change") or 0) >= 1.0], reverse=True)[:30]
     found, rejected = [], []
     for _, sym in cands:
         info = tv[sym]
-        if info.get("earn_next") == day or info.get("earn_last") in ({day} | {p.isoformat() for p in prev_days}):
-            rejected.append({"symbol": sym, "why": "earnings"})
+        if info.get("earn_next") == day or info.get("earn_last") in ({day} | {p.isoformat() for p in prev_days}) \
+                or sym in nq_earn:
+            rejected.append({"symbol": sym, "why": "earnings" if sym not in nq_earn else "earnings (Nasdaq calendar)"})
             continue
         try:
             daily = daily_before(sym, d)
