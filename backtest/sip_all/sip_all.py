@@ -50,10 +50,22 @@ def assets(key) -> list:
         s, n = a.get("symbol", ""), a.get("name") or ""
         if a.get("exchange") not in ("NYSE", "NASDAQ", "AMEX", "ARCA", "BATS"):
             continue
-        if "." in s or "/" in s or FUND.search(n) or WRU.search(n):
+        if not re.fullmatch(r"[A-Z]{1,5}", s) or FUND.search(n) or WRU.search(n):
             continue
         keep.append(s)
     return sorted(set(keep))
+
+
+def fetch_split(syms, tf, a, b, key) -> dict:
+    """Multi-symbol fetch; on an error (one bad symbol makes Alpaca answer 400 for the batch) split and retry."""
+    try:
+        return C.fetch(syms, tf, a, b, key)
+    except Exception as e:  # noqa: BLE001
+        if len(syms) == 1:
+            print("symbol skipped", syms[0], str(e)[:60], flush=True)
+            return {}
+        h = len(syms) // 2
+        return {**fetch_split(syms[:h], tf, a, b, key), **fetch_split(syms[h:], tf, a, b, key)}
 
 
 def stage_daily(key, out: Path):
@@ -62,11 +74,7 @@ def stage_daily(key, out: Path):
     feats, have = [], 0
     for i in range(0, len(syms), 100):
         b = syms[i:i + 100]
-        try:
-            d = C.fetch(b, "1Day", "2016-05-01T00:00:00Z", END, key)
-        except Exception as e:  # noqa: BLE001
-            print("daily batch failed", b[0], e, flush=True)
-            continue
+        d = fetch_split(b, "1Day", "2016-05-01T00:00:00Z", END, key)
         for s, df in d.items():
             f = C.daily_features(df)
             f["open"] = df.assign(date=df["t"].dt.tz_convert("America/New_York").dt.date).set_index("date")["o"]
@@ -95,7 +103,7 @@ def first_bars(day, syms, key) -> dict:
     a, b = ny_window(day)
     out = {}
     for i in range(0, len(syms), 200):
-        res = C.fetch(syms[i:i + 200], "5Min", a, b, key)
+        res = fetch_split(syms[i:i + 200], "5Min", a, b, key)
         for s, df in res.items():
             r = df.iloc[0]
             out[s] = (float(r.o), float(r.h), float(r.l), float(r.c), float(r.v))
