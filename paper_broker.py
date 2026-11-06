@@ -170,7 +170,7 @@ def save_json(p: Path, obj):
     p.write_text(json.dumps(obj, indent=1, default=str))
 
 
-MOC_SEND = 25   # send the Rule C MOC from 15:35 ET, so the reliable :37 tick sends it
+MOC_SEND = 15   # Rule C cover at market from 15:45 ET (15:47 / 15:52 ticks)
 MOC_LEAD = 10   # Alpaca rejects / expires MOC orders sent after 15:50 ET
 FLAT_LEAD = 20   # minutes before the close: GitHub cron can lag, and a market order after 16:00 waits for tomorrow
 
@@ -1068,16 +1068,13 @@ def manage(day: str, st: dict, t: datetime, book: list):
                     # scheduler-outage day: events.json flat_by also moves the Rule C cover earlier (market)
                     close_record(rec, "event flat_by (instead of MOC)")
                 elif rec["exit_mode"] == "moc":
-                    if m >= min(cut, CLOSE_MIN - MOC_SEND) and not rec.get("moc_sent"):
-                        if m >= CLOSE_MIN - MOC_LEAD:
-                            # Alpaca takes no MOC orders in the last 10 min (4 Nov: sent 15:53, expired, the
-                            # Rule C shorts stayed open overnight). A late first tick covers at market instead.
-                            close_record(rec, "close (MOC cut-off passed)")
-                        else:
-                            ok = close_record(rec, "moc", tif="cls")
-                            if not ok:
-                                close_record(rec, "close (MOC rejected)")
-                        rec["moc_sent"] = True
+                    # Alpaca PAPER does not fill MOC (tif=cls) orders: on 4 Nov (sent 15:53) and 5 Nov (sent 15:37)
+                    # every one expired and the shorts stayed open overnight. Cover at market from 15:45 instead
+                    # (the 15:47 / 15:52 ticks), the nearest we get to the close.
+                    pending = any(x["type"] == "market" and x["status"] in OPEN_ST and x.get("tif") == "day"
+                                  for x in rec["exits"])
+                    if m >= CLOSE_MIN - MOC_SEND and not pending:
+                        close_record(rec, "close (market near the close; paper MOC unsupported)")
                 elif rec["hold_days"] <= 0:
                     pending = any(x["type"] == "market" and x["status"] in OPEN_ST for x in rec["exits"])
                     if m >= hm(eff_flat(rec["flat_by"])) and not pending:
