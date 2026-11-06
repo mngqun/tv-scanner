@@ -1,0 +1,103 @@
+name: Backtest H5 Stocks-in-Play all US >= $5 (protocol 2026-11-07 part A)
+on:
+  workflow_dispatch:
+    inputs:
+      reuse_run:
+        description: "run id whose daily / intraday artifacts to reuse (skips those stages)"
+        required: false
+        default: ""
+      stages:
+        description: "daily,intraday,evaluate"
+        required: false
+        default: "daily,intraday,evaluate"
+permissions:
+  contents: write
+  actions: read
+env:
+  ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+  ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+  ALPACA_PAPER_KEY_ID_B: ${{ secrets.ALPACA_PAPER_KEY_ID_B }}
+  ALPACA_PAPER_SECRET_KEY_B: ${{ secrets.ALPACA_PAPER_SECRET_KEY_B }}
+jobs:
+  daily:
+    if: ${{ contains(github.event.inputs.stages, 'daily') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pandas pyarrow numpy
+      - run: cd backtest/sip_all && python sip_all.py daily --key A --out out
+      - uses: actions/upload-artifact@v4
+        with: {name: sip-daily, path: backtest/sip_all/out/, retention-days: 30}
+  intraday:
+    needs: [daily]
+    if: ${{ always() && contains(github.event.inputs.stages, 'intraday') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {part: 0, key: A}
+          - {part: 1, key: B}
+          - {part: 2, key: A}
+          - {part: 3, key: B}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pandas pyarrow numpy
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with: {name: sip-daily, path: backtest/sip_all/out}
+      - uses: actions/download-artifact@v4
+        if: ${{ github.event.inputs.reuse_run != '' }}
+        continue-on-error: true
+        with:
+          name: sip-daily
+          run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: backtest/sip_all/out
+      - run: cd backtest/sip_all && python sip_all.py intraday --key ${{ matrix.key }} --part ${{ matrix.part }} --parts 4 --inp out --out out
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: sip-intraday-${{ matrix.part }}
+          path: |
+            backtest/sip_all/out/trades_*.parquet
+            backtest/sip_all/out/first_*.parquet
+            backtest/sip_all/out/meta_*.json
+          if-no-files-found: ignore
+          retention-days: 30
+  evaluate:
+    needs: [intraday]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pandas pyarrow numpy
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with: {pattern: "sip-*", path: backtest/sip_all/out, merge-multiple: true}
+      - uses: actions/download-artifact@v4
+        if: ${{ github.event.inputs.reuse_run != '' }}
+        continue-on-error: true
+        with:
+          pattern: "sip-*"
+          run-id: ${{ github.event.inputs.reuse_run }}
+          github-token: ${{ github.token }}
+          path: backtest/sip_all/out
+          merge-multiple: true
+      - run: cd backtest/sip_all && python sip_all.py evaluate --inp out --parts 4
+      - name: Commit results
+        run: |
+          git config user.name "tv-scanner-bot"
+          git config user.email "tv-scanner-bot@users.noreply.github.com"
+          git add backtest/sip_all/results/ || true
+          git commit -q -m "H5 results $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
