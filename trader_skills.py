@@ -17,7 +17,7 @@ Modes
 
 Tools live in vendor/day-trader-skill (cloned at a pinned commit by the workflow). They are read-only:
 nothing here can place an order. The SEC User-Agent comes from the SEC_USER_AGENT secret, else
-trader_state/sec_user_agent.txt (this repo is private); trader/config.json is never committed.
+the SEC_USER_AGENT repo secret (never committed; the repo is public); trader/config.json is never committed.
 """
 import json
 import os
@@ -52,7 +52,8 @@ def tool(rel: str, *args: str, timeout: int = 900) -> dict:
 
 
 def sec_user_agent() -> str:
-    """SEC_USER_AGENT secret if set, else trader_state/sec_user_agent.txt (private repo)."""
+    """SEC_USER_AGENT repo secret (the contact SEC EDGAR asks for). A local trader_state/sec_user_agent.txt
+    still works for local runs but is git-ignored."""
     ua = os.environ.get("SEC_USER_AGENT", "").strip()
     f = WORK / "sec_user_agent.txt"
     return ua or (f.read_text().strip() if f.exists() else "")

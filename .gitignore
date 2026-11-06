@@ -1,1 +1,6 @@
 __pycache__/
+
+# never commit
+trader_state/sec_user_agent.txt
+__pycache__/
+*.pyc
