@@ -31,7 +31,8 @@
   "15:07",
   "15:22",
   "15:30",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-06"
@@ -53,7 +54,12 @@
   "[B] cancel unfilled entry orb-B-2026-11-06-AMD (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-06-PLTR (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-06-LLY (filled 0.0)",
-  "[B] cancel unfilled entry scan-B-2026-11-06-AMD (filled 0.0)"
+  "[B] cancel unfilled entry scan-B-2026-11-06-AMD (filled 0.0)",
+  "[A] close tqqq-2026-11-06-t1 9 (flat-by, day) -> 200",
+  "[A] close tqqq-2026-11-06-t2 9 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-06-AAPL 14 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-06-MSFT 9 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-06-CRWD 11 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -946,5 +952,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
