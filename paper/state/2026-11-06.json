@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-06"
@@ -29,7 +30,11 @@
   "[B] placed orb long PLTR x12 stop_limit stop 159.27 tgt 171.75 -> 200 ",
   "[B] placed orb long LLY x2 stop_limit stop 1350.58 tgt 1409.32 -> 200 ",
   "[B] placed scan long AMD x2 stop_limit stop 436.91 tgt 496.25 -> 200 ",
-  "[B] placed orb_short short CRWD x11 limit stop 226.68 tgt 214.17 -> 200 "
+  "[B] placed orb_short short CRWD x11 limit stop 226.68 tgt 214.17 -> 200 ",
+  "[B] cancel unfilled entry orb-B-2026-11-06-AMD (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-06-PLTR (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-06-LLY (filled 0.0)",
+  "[B] cancel unfilled entry scan-B-2026-11-06-AMD (filled 0.0)"
  ],
  "placed": [
   {
