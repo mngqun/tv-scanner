@@ -3,8 +3,216 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short NET x2 market stop 323.54 tgt None -> 200 ",
+  "[B] placed rulec short TSM x3 market stop 413.02 tgt None -> 200 ",
+  "[B] close rulec-B-2026-11-05-JD 81 (stale intraday (missed close-out), day) -> 200",
+  "[B] close rulec-B-2026-11-05-TCOM 47 (stale intraday (missed close-out), day) -> 200"
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-06-NET",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "NET",
+   "side": "short",
+   "qty": 2,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-06-TSM",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "TSM",
+   "side": "short",
+   "qty": 3,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "NET",
+    "open": 283.1,
+    "prev_close": 244.50999450683594,
+    "atr": 20.2214,
+    "gap_pct": 15.78,
+    "gap_atr": 1.908,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "TSM",
+    "open": 379.9,
+    "prev_close": 353.1000061035156,
+    "atr": 16.5593,
+    "gap_pct": 7.59,
+    "gap_atr": 1.618,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MKSI",
+    "open": 196.25,
+    "prev_close": 176.82000732421875,
+    "atr": 12.9414,
+    "gap_pct": 10.99,
+    "gap_atr": 1.501,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "LRCX",
+    "open": 208.99,
+    "prev_close": 185.1999969482422,
+    "atr": 16.25,
+    "gap_pct": 12.85,
+    "gap_atr": 1.464,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "ANET",
+    "open": 172.68,
+    "prev_close": 159.16000366210938,
+    "atr": 10.4746,
+    "gap_pct": 8.49,
+    "gap_atr": 1.291,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "KLAC",
+    "open": 140.525,
+    "prev_close": 129.8000030517578,
+    "atr": 9.0779,
+    "gap_pct": 8.26,
+    "gap_atr": 1.181,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMAT",
+    "open": 343.9101,
+    "prev_close": 319.25,
+    "atr": 22.3221,
+    "gap_pct": 7.72,
+    "gap_atr": 1.105,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "AMD",
+    "open": 443.963,
+    "prev_close": 404.3999938964844,
+    "atr": 35.8971,
+    "gap_pct": 9.78,
+    "gap_atr": 1.102,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "COHR",
+    "open": 189.82,
+    "prev_close": 169.75999450683594,
+    "atr": 19.3379,
+    "gap_pct": 11.82,
+    "gap_atr": 1.037,
+    "sector": "Electronic Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "FROG",
+    "why": "gap 27.30% / 2.99 ATR"
+   },
+   {
+    "symbol": "ABNB",
+    "why": "earnings"
+   },
+   {
+    "symbol": "SNDK",
+    "why": "gap 11.25% / 0.84 ATR"
+   },
+   {
+    "symbol": "CRDO",
+    "why": "gap 10.98% / 0.74 ATR"
+   },
+   {
+    "symbol": "CIEN",
+    "why": "gap 9.48% / 0.81 ATR"
+   },
+   {
+    "symbol": "MTSI",
+    "why": "gap 8.83% / 0.79 ATR"
+   },
+   {
+    "symbol": "TER",
+    "why": "gap 9.86% / 0.91 ATR"
+   },
+   {
+    "symbol": "TSEM",
+    "why": "gap 9.45% / 0.81 ATR"
+   },
+   {
+    "symbol": "P",
+    "why": "gap 9.37% / 0.92 ATR"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 9.17% / 0.93 ATR"
+   },
+   {
+    "symbol": "DELL",
+    "why": "gap 9.37% / 0.88 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 9.08% / 0.71 ATR"
+   },
+   {
+    "symbol": "STX",
+    "why": "gap 5.75% / 0.51 ATR"
+   },
+   {
+    "symbol": "MRVL",
+    "why": "gap 8.64% / 0.60 ATR"
+   },
+   {
+    "symbol": "FLEX",
+    "why": "gap 8.65% / 0.78 ATR"
+   },
+   {
+    "symbol": "NBIS",
+    "why": "gap 8.53% / 0.67 ATR"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 8.77% / 0.64 ATR"
+   },
+   {
+    "symbol": "MU",
+    "why": "gap 7.90% / 0.90 ATR"
+   },
+   {
+    "symbol": "LITE",
+    "why": "gap 8.04% / 0.50 ATR"
+   },
+   {
+    "symbol": "FN",
+    "why": "gap 7.43% / 0.74 ATR"
+   },
+   {
+    "symbol": "VRT",
+    "why": "gap 7.73% / 0.74 ATR"
+   }
+  ],
+  "placed": [
+   "NET",
+   "TSM"
+  ]
+ }
 }

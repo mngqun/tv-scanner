@@ -72,18 +72,39 @@
     "stop_price": null,
     "limit_price": null,
     "tif": "cls"
+   },
+   {
+    "id": "713e396c-90f3-4aca-a4dd-c0b14e51c651",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 81.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
    }
   ],
   "exit_filled": 0.0,
   "remaining": 81.0,
   "exit_order_ids": [
-   "2210aa00-916a-4b48-9829-c335814dc9a2"
+   "2210aa00-916a-4b48-9829-c335814dc9a2",
+   "713e396c-90f3-4aca-a4dd-c0b14e51c651"
   ],
-  "exit_reason": "moc",
+  "exit_reason": "stale intraday (missed close-out)",
   "events": [
    {
     "at": "2026-11-05 15:37",
     "what": "close (moc) cls",
+    "qty": 81,
+    "http": 200,
+    "msg": null
+   },
+   {
+    "at": "2026-11-06 09:37",
+    "what": "close (stale intraday (missed close-out)) day",
     "qty": 81,
     "http": 200,
     "msg": null
@@ -164,14 +185,28 @@
     "stop_price": null,
     "limit_price": null,
     "tif": "cls"
+   },
+   {
+    "id": "89133208-766d-49a0-8954-cc5207b36f59",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 47.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
    }
   ],
   "exit_filled": 0.0,
   "remaining": 47.0,
   "exit_order_ids": [
-   "8722a688-2187-4316-8866-37b1b9f50eb8"
+   "8722a688-2187-4316-8866-37b1b9f50eb8",
+   "89133208-766d-49a0-8954-cc5207b36f59"
   ],
-  "exit_reason": "moc",
+  "exit_reason": "stale intraday (missed close-out)",
   "events": [
    {
     "at": "2026-11-05 15:37",
@@ -179,8 +214,141 @@
     "qty": 47,
     "http": 200,
     "msg": null
+   },
+   {
+    "at": "2026-11-06 09:37",
+    "what": "close (stale intraday (missed close-out)) day",
+    "qty": 47,
+    "http": 200,
+    "msg": null
    }
   ],
   "moc_sent": true
+ },
+ {
+  "id": "rulec-B-2026-11-06-NET",
+  "base": "rulec-B-2026-11-06-NET",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "NET",
+  "side": "short",
+  "qty": 2,
+  "entry_type": "market",
+  "plan_entry": 283.1,
+  "limit_price": null,
+  "stop": 323.54,
+  "target": null,
+  "placed_day": "2026-11-06",
+  "placed_at": "09:37",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Technology Services",
+  "planned_risk": 80.88,
+  "features": {
+   "symbol": "NET",
+   "open": 283.1,
+   "prev_close": 244.50999450683594,
+   "atr": 20.2214,
+   "gap_pct": 15.78,
+   "gap_atr": 1.908,
+   "sector": "Technology Services"
+  },
+  "last_at_placement": 269.15,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "c179cbc6-735c-4321-a03e-21e3837a25d0",
+  "message": null,
+  "sessions": [
+   "2026-11-06"
+  ],
+  "entry_status": "new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "d361cd14-9bd7-4368-9ed0-745a633271f6",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 2.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "323.54",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
+ },
+ {
+  "id": "rulec-B-2026-11-06-TSM",
+  "base": "rulec-B-2026-11-06-TSM",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "TSM",
+  "side": "short",
+  "qty": 3,
+  "entry_type": "market",
+  "plan_entry": 379.9,
+  "limit_price": null,
+  "stop": 413.02,
+  "target": null,
+  "placed_day": "2026-11-06",
+  "placed_at": "09:37",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Electronic Technology",
+  "planned_risk": 99.36,
+  "features": {
+   "symbol": "TSM",
+   "open": 379.9,
+   "prev_close": 353.1000061035156,
+   "atr": 16.5593,
+   "gap_pct": 7.59,
+   "gap_atr": 1.618,
+   "sector": "Electronic Technology"
+  },
+  "last_at_placement": 376.62,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "ea7dab94-a106-427a-9a1e-8dad91cbb950",
+  "message": null,
+  "sessions": [
+   "2026-11-06"
+  ],
+  "entry_status": "new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "a6bb20b9-2a78-4d35-9b66-eaeb973c89d8",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 3.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "413.02",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
  }
 ]
