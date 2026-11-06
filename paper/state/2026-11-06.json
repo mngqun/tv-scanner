@@ -5,14 +5,19 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-06"
+ ],
  "log": [
   "[B] placed rulec short NET x2 market stop 323.54 tgt None -> 200 ",
   "[B] placed rulec short TSM x3 market stop 413.02 tgt None -> 200 ",
   "[B] close rulec-B-2026-11-05-JD 81 (stale intraday (missed close-out), day) -> 200",
-  "[B] close rulec-B-2026-11-05-TCOM 47 (stale intraday (missed close-out), day) -> 200"
+  "[B] close rulec-B-2026-11-05-TCOM 47 (stale intraday (missed close-out), day) -> 200",
+  "[A] placed tqqq long SQQQ x9 limit stop 44.16 tgt 50.92 -> 200 ",
+  "[A] placed tqqq long SQQQ x9 limit stop 44.16 tgt 52.31 -> 200 "
  ],
  "placed": [
   {
@@ -38,6 +43,30 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-06-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 9,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:07"
+  },
+  {
+   "id": "tqqq-2026-11-06-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 9,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:07"
   }
  ],
  "rulec": {
@@ -214,6 +243,74 @@
   "placed": [
    "NET",
    "TSM"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 679,
+   "fetched": 679,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 678,
+   "hits": 167
+  },
+  "hits": 167,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 196.25,
+    "prev_close": 181.60000610351562,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MU",
+    "setups": [
+     "oversold"
+    ],
+    "level": 761.81,
+    "prev_close": 656.3900146484375,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold"
+    ],
+    "level": 295.6,
+    "prev_close": 282.57000732421875,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "AMD",
+    "setups": [
+     "oversold"
+    ],
+    "level": 456.2,
+    "prev_close": 404.3999938964844,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 967.99,
+    "prev_close": 806.4299926757812,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 56.73,
+    "prev_close": 52.25,
+    "sector": "Electronic Technology"
+   }
   ]
  }
 }
