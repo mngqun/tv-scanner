@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MU",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-06",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 761.81,
+  "interval": "5m",
+  "opening_range": {
+    "high": 717.7,
+    "low": 688.67,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-06T15:23:53Z",
+  "reason": "last close $703.78 (10:15 bar), $58.03 under the level $761.81 (-7.62%)"
+}

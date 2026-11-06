@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "SNDK",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-06",
+  "status": "triggered",
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 899.84,
+  "level": 898.64,
+  "interval": "5m",
+  "opening_range": {
+    "high": 898.64,
+    "low": 847.58,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-06T15:23:49Z",
+  "reason": "the 9:45 bar closed above the range high"
+}
