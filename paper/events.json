@@ -1,13 +1,21 @@
 {
- "_doc": "Per-day overrides for the paper ORB arm. Keys: YYYY-MM-DD -> {flat_by: 'HH:MM', risk_usd: 50, no_orb: true, note: '...'}. Written by the daily brief.",
- "2026-11-03": {
-  "risk_usd": 50,
-  "note": "US midterm elections (HIGH); results overnight: no swing holds into Wed; GitHub scheduler unreliable -> exits 14:50",
-  "flat_swing": true,
-  "flat_by": "14:50"
- },
- "2026-11-05": {
-  "flat_swing": true,
-  "note": "eve of NFP (Fri 6 Nov 08:30 ET): no swing holds overnight"
- }
+    "_doc": "Per-day overrides for the paper ORB arm. Keys: YYYY-MM-DD -> {flat_by: 'HH:MM', risk_usd: 50, no_orb: true, note: '...'}. Written by the daily brief.",
+    "2026-11-03": {
+        "risk_usd": 50,
+        "note": "US midterm elections (HIGH); results overnight: no swing holds into Wed; GitHub scheduler unreliable -> exits 14:50",
+        "flat_swing": true,
+        "flat_by": "14:50"
+    },
+    "2026-11-05": {
+        "flat_swing": true,
+        "note": "eve of NFP (Fri 6 Nov 08:30 ET): no swing holds overnight"
+    },
+    "2026-11-06": {
+        "risk_usd": 50,
+        "note": "NFP 08:30 ET (HIGH): $50 risk; no queued brief orders before 10:00"
+    },
+    "2026-11-09": {
+        "flat_swing": true,
+        "note": "eve of CPI (Tue 10 Nov 08:30 ET): no swing holds overnight"
+    }
 }
