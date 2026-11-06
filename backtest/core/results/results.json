@@ -1,0 +1,161 @@
+{
+ "tracking_syn_vs_real_TQQQ": {
+  "corr": 0.999,
+  "annual_diff_%": -1.02,
+  "from": "2010-02-12"
+ },
+ "windows": {
+  "design": {
+   "B0 SPY buy&hold": {
+    "CAGR_%": 2.6,
+    "vol_%": 21.35,
+    "sharpe": 0.12,
+    "maxDD_%": -55.2,
+    "worst_year_%": -36.8,
+    "growth_of_10k": 14245.0,
+    "years": 13.8
+   },
+   "B0 QQQ buy&hold": {
+    "CAGR_%": 2.22,
+    "vol_%": 31.79,
+    "sharpe": 0.16,
+    "maxDD_%": -83.0,
+    "worst_year_%": -41.7,
+    "growth_of_10k": 13537.0,
+    "years": 13.8
+   },
+   "B0 TQQQ(syn) buy&hold": {
+    "CAGR_%": -25.27,
+    "vol_%": 95.36,
+    "sharpe": 0.15,
+    "maxDD_%": -100.0,
+    "worst_year_%": -91.6,
+    "growth_of_10k": 180.0,
+    "years": 13.8
+   },
+   "B1 QQQ / SMA200": {
+    "CAGR_%": 0.42,
+    "vol_%": 18.09,
+    "sharpe": -0.0,
+    "maxDD_%": -55.8,
+    "worst_year_%": -19.6,
+    "growth_of_10k": 10562.0,
+    "years": 13.0,
+    "switches_per_year": 9.8,
+    "time_invested_%": 62.0
+   },
+   "B2 TQQQ(syn) / QQQ SMA200": {
+    "CAGR_%": -11.69,
+    "vol_%": 54.28,
+    "sharpe": 0.01,
+    "maxDD_%": -95.1,
+    "worst_year_%": -73.1,
+    "growth_of_10k": 1987.0,
+    "years": 13.0,
+    "switches_per_year": 9.8,
+    "time_invested_%": 62.0
+   },
+   "B3 TQQQ(syn) / QQQ SMA200 2% band": {
+    "CAGR_%": -6.92,
+    "vol_%": 54.94,
+    "sharpe": 0.11,
+    "maxDD_%": -91.7,
+    "worst_year_%": -72.7,
+    "growth_of_10k": 3937.0,
+    "years": 13.0,
+    "switches_per_year": 2.8,
+    "time_invested_%": 62.1
+   },
+   "B4 SPY / SMA200": {
+    "CAGR_%": 2.15,
+    "vol_%": 11.68,
+    "sharpe": 0.05,
+    "maxDD_%": -24.1,
+    "worst_year_%": -15.5,
+    "growth_of_10k": 13413.0,
+    "years": 13.8,
+    "switches_per_year": 9.0,
+    "time_invested_%": 64.4
+   }
+  },
+  "validation": {
+   "B0 SPY buy&hold": {
+    "CAGR_%": 14.77,
+    "vol_%": 16.72,
+    "sharpe": 0.8,
+    "maxDD_%": -33.7,
+    "worst_year_%": -18.2,
+    "growth_of_10k": 66988.0,
+    "years": 13.8
+   },
+   "B0 QQQ buy&hold": {
+    "CAGR_%": 19.62,
+    "vol_%": 20.85,
+    "sharpe": 0.88,
+    "maxDD_%": -35.1,
+    "worst_year_%": -32.6,
+    "growth_of_10k": 118675.0,
+    "years": 13.8
+   },
+   "B0 TQQQ(syn) buy&hold": {
+    "CAGR_%": 43.3,
+    "vol_%": 62.55,
+    "sharpe": 0.86,
+    "maxDD_%": -81.3,
+    "worst_year_%": -78.7,
+    "growth_of_10k": 1435164.0,
+    "years": 13.8
+   },
+   "B1 QQQ / SMA200": {
+    "CAGR_%": 16.02,
+    "vol_%": 15.93,
+    "sharpe": 0.9,
+    "maxDD_%": -22.3,
+    "worst_year_%": -15.6,
+    "growth_of_10k": 77782.0,
+    "years": 13.8,
+    "switches_per_year": 4.2,
+    "time_invested_%": 85.3
+   },
+   "B2 TQQQ(syn) / QQQ SMA200": {
+    "CAGR_%": 38.91,
+    "vol_%": 47.78,
+    "sharpe": 0.89,
+    "maxDD_%": -56.5,
+    "worst_year_%": -42.9,
+    "growth_of_10k": 933940.0,
+    "years": 13.8,
+    "switches_per_year": 4.2,
+    "time_invested_%": 85.3
+   },
+   "B3 TQQQ(syn) / QQQ SMA200 2% band": {
+    "CAGR_%": 33.58,
+    "vol_%": 48.08,
+    "sharpe": 0.81,
+    "maxDD_%": -70.9,
+    "worst_year_%": -30.5,
+    "growth_of_10k": 544366.0,
+    "years": 13.8,
+    "switches_per_year": 1.8,
+    "time_invested_%": 84.2
+   },
+   "B4 SPY / SMA200": {
+    "CAGR_%": 11.7,
+    "vol_%": 11.67,
+    "sharpe": 0.85,
+    "maxDD_%": -19.0,
+    "worst_year_%": -13.9,
+    "growth_of_10k": 46073.0,
+    "years": 13.8,
+    "switches_per_year": 4.6,
+    "time_invested_%": 85.4
+   }
+  }
+ },
+ "verdicts": {
+  "B1 QQQ / SMA200": "FAIL",
+  "B2 TQQQ(syn) / QQQ SMA200": "FAIL",
+  "B3 TQQQ(syn) / QQQ SMA200 2% band": "FAIL",
+  "B4 SPY / SMA200": "FAIL"
+ }
+}
