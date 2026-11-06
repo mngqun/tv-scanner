@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-11-06T01:07:05+00:00",
- "generated_new_york": "2026-11-05T20:07:05-05:00",
+ "generated_utc": "2026-11-06T01:48:56+00:00",
+ "generated_new_york": "2026-11-05T20:48:56-05:00",
  "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
  "criteria": {
   "min_dte": 2,
@@ -149,7 +149,7 @@
   },
   {
    "ticker": "MRVL",
-   "cboe_timestamp": "2026-11-06 01:04:30",
+   "cboe_timestamp": "2026-11-06 01:19:07",
    "call_premium_usd": 112047994,
    "put_premium_usd": 1246944044,
    "call_put_volume_ratio": 0.73,
@@ -167,8 +167,8 @@
      "bid": 96.3,
      "ask": 96.8,
      "premium_usd": 114663700,
-     "iv": 0.0,
-     "delta": -0.9998
+     "iv": 1.219,
+     "delta": -0.9987
     },
     {
      "contract": "MRVL261218P00260000",
@@ -184,7 +184,7 @@
      "ask": 126.85,
      "premium_usd": 56169090,
      "iv": 0.0,
-     "delta": -0.9998
+     "delta": -0.9986
     },
     {
      "contract": "MRVL261218P00270000",
@@ -199,7 +199,7 @@
      "bid": 136.2,
      "ask": 137.1,
      "premium_usd": 45502350,
-     "iv": 1.0054,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -215,8 +215,8 @@
      "bid": 106.25,
      "ask": 106.75,
      "premium_usd": 37657680,
-     "iv": 0.0,
-     "delta": -1.0
+     "iv": 1.2714,
+     "delta": -0.9996
     },
     {
      "contract": "MRVL261120P00250000",
@@ -231,7 +231,7 @@
      "bid": 116.25,
      "ask": 116.75,
      "premium_usd": 17104780,
-     "iv": 0.0,
+     "iv": 1.3496,
      "delta": -1.0
     },
     {
@@ -247,7 +247,7 @@
      "bid": 136.25,
      "ask": 136.85,
      "premium_usd": 8794220,
-     "iv": 0.0,
+     "iv": 1.4961,
      "delta": -1.0
     },
     {
@@ -263,8 +263,8 @@
      "bid": 3.0,
      "ask": 3.25,
      "premium_usd": 3967070,
-     "iv": 1.08,
-     "delta": 0.2597
+     "iv": 1.0761,
+     "delta": 0.2667
     },
     {
      "contract": "MRVL261113C00110000",
@@ -279,8 +279,8 @@
      "bid": 25.2,
      "ask": 26.25,
      "premium_usd": 3925530,
-     "iv": 1.2752,
-     "delta": 0.8613
+     "iv": 1.3273,
+     "delta": 0.8629
     }
    ]
   },
@@ -480,7 +480,7 @@
   },
   {
    "ticker": "ORCL",
-   "cboe_timestamp": "2026-11-06 01:04:38",
+   "cboe_timestamp": "2026-11-06 01:44:44",
    "call_premium_usd": 189727853,
    "put_premium_usd": 509161552,
    "call_put_volume_ratio": 1.23,
@@ -498,7 +498,7 @@
      "bid": 124.65,
      "ask": 125.05,
      "premium_usd": 60980500,
-     "iv": 1.0333,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -514,7 +514,7 @@
      "bid": 74.7,
      "ask": 74.95,
      "premium_usd": 11919445,
-     "iv": 1.0787,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -530,7 +530,7 @@
      "bid": 64.7,
      "ask": 65.05,
      "premium_usd": 9835070,
-     "iv": 0.9766,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -546,7 +546,7 @@
      "bid": 114.65,
      "ask": 115.05,
      "premium_usd": 9785475,
-     "iv": 0.9804,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -562,8 +562,8 @@
      "bid": 59.7,
      "ask": 60.1,
      "premium_usd": 8199100,
-     "iv": 0.9231,
-     "delta": -0.9993
+     "iv": 0.0,
+     "delta": -0.9992
     },
     {
      "contract": "ORCL261120P00185000",
@@ -578,7 +578,7 @@
      "bid": 69.7,
      "ask": 69.95,
      "premium_usd": 6303650,
-     "iv": 1.0285,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -594,7 +594,7 @@
      "bid": 94.65,
      "ask": 95.1,
      "premium_usd": 5428000,
-     "iv": 0.8668,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -610,8 +610,8 @@
      "bid": 3.0,
      "ask": 3.3,
      "premium_usd": 879704,
-     "iv": 0.7415,
-     "delta": 0.384
+     "iv": 0.7472,
+     "delta": 0.3812
     }
    ]
   },
@@ -996,7 +996,7 @@
   },
   {
    "ticker": "META",
-   "cboe_timestamp": "2026-11-06 01:04:28",
+   "cboe_timestamp": "2026-11-06 01:23:12",
    "call_premium_usd": 555185614,
    "put_premium_usd": 448411666,
    "call_put_volume_ratio": 1.75,
@@ -1015,7 +1015,7 @@
      "ask": 162.85,
      "premium_usd": 40468994,
      "iv": 0.0,
-     "delta": -0.9977
+     "delta": -0.998
     },
     {
      "contract": "META261120P00760000",
@@ -1031,7 +1031,7 @@
      "ask": 157.0,
      "premium_usd": 15678990,
      "iv": 0.0,
-     "delta": -0.9969
+     "delta": -0.9972
     },
     {
      "contract": "META261111C00600000",
@@ -1046,7 +1046,7 @@
      "bid": 19.2,
      "ask": 20.2,
      "premium_usd": 4480000,
-     "iv": 0.5364,
+     "iv": 0.5363,
      "delta": 0.5711
     },
     {
@@ -1062,8 +1062,8 @@
      "bid": 10.25,
      "ask": 10.75,
      "premium_usd": 2576420,
-     "iv": 0.5202,
-     "delta": -0.4203
+     "iv": 0.5224,
+     "delta": -0.4197
     },
     {
      "contract": "META261116P00635000",
@@ -1078,8 +1078,8 @@
      "bid": 35.0,
      "ask": 38.55,
      "premium_usd": 2569668,
-     "iv": 0.4424,
-     "delta": -0.7104
+     "iv": 0.4431,
+     "delta": -0.7102
     },
     {
      "contract": "META261109C00600000",
@@ -1094,8 +1094,8 @@
      "bid": 15.8,
      "ask": 16.95,
      "premium_usd": 2297550,
-     "iv": 0.5266,
-     "delta": 0.5803
+     "iv": 0.5263,
+     "delta": 0.5808
     },
     {
      "contract": "META261118P00635000",
@@ -1110,8 +1110,8 @@
      "bid": 35.7,
      "ask": 41.5,
      "premium_usd": 2000604,
-     "iv": 0.4518,
-     "delta": -0.6919
+     "iv": 0.4567,
+     "delta": -0.69
     },
     {
      "contract": "META261113C00600000",
@@ -1270,7 +1270,7 @@
   },
   {
    "ticker": "NFLX",
-   "cboe_timestamp": "2026-11-06 01:04:27",
+   "cboe_timestamp": "2026-11-06 01:33:39",
    "call_premium_usd": 31372016,
    "put_premium_usd": 244851940,
    "call_put_volume_ratio": 1.05,
@@ -1288,7 +1288,7 @@
      "bid": 28.2,
      "ask": 31.2,
      "premium_usd": 33336480,
-     "iv": 0.7009,
+     "iv": 0.7011,
      "delta": -1.0
     },
     {
@@ -1304,7 +1304,7 @@
      "bid": 23.5,
      "ask": 26.0,
      "premium_usd": 21838320,
-     "iv": 0.6372,
+     "iv": 0.6374,
      "delta": -1.0
     },
     {
@@ -1320,7 +1320,7 @@
      "bid": 31.5,
      "ask": 34.15,
      "premium_usd": 11650560,
-     "iv": 0.7878,
+     "iv": 0.788,
      "delta": -1.0
     },
     {
@@ -1336,7 +1336,7 @@
      "bid": 49.7,
      "ask": 52.3,
      "premium_usd": 8483600,
-     "iv": 1.0872,
+     "iv": 1.0874,
      "delta": -1.0
     },
     {
@@ -1353,7 +1353,7 @@
      "ask": 21.45,
      "premium_usd": 6822445,
      "iv": 0.9649,
-     "delta": -0.9988
+     "delta": -0.9984
     },
     {
      "contract": "NFLX261218P00089000",
@@ -1384,7 +1384,7 @@
      "bid": 18.85,
      "ask": 22.5,
      "premium_usd": 4317940,
-     "iv": 0.5446,
+     "iv": 0.5448,
      "delta": -1.0
     },
     {
@@ -1400,7 +1400,7 @@
      "bid": 43.1,
      "ask": 46.45,
      "premium_usd": 4005080,
-     "iv": 0.9376,
+     "iv": 0.9378,
      "delta": -1.0
     }
    ]
@@ -1649,8 +1649,8 @@
   },
   {
    "ticker": "TSLA",
-   "cboe_timestamp": "2026-11-06 01:04:29",
-   "call_premium_usd": 710258402,
+   "cboe_timestamp": "2026-11-06 01:32:43",
+   "call_premium_usd": 711009945,
    "put_premium_usd": 1552351513,
    "call_put_volume_ratio": 1.11,
    "flagged_contracts": [
@@ -1683,7 +1683,7 @@
      "bid": 162.95,
      "ask": 169.75,
      "premium_usd": 13536650,
-     "iv": 0.5975,
+     "iv": 0.0,
      "delta": -1.0
     },
     {
@@ -1708,15 +1708,15 @@
      "strike": 340.0,
      "expiry": "2026-11-20",
      "dte": 15,
-     "volume": 4424,
+     "volume": 4425,
      "open_interest": 1094,
      "vol_oi": 4.0,
      "last": 20.15,
      "bid": 19.9,
      "ask": 20.7,
-     "premium_usd": 8914360,
-     "iv": 0.6531,
-     "delta": 0.5646
+     "premium_usd": 8916375,
+     "iv": 0.6559,
+     "delta": 0.5634
     },
     {
      "contract": "TSLA261113C00350000",
@@ -1724,15 +1724,15 @@
      "strike": 350.0,
      "expiry": "2026-11-13",
      "dte": 8,
-     "volume": 7103,
+     "volume": 7109,
      "open_interest": 176,
      "vol_oi": 40.4,
      "last": 11.1,
      "bid": 10.5,
      "ask": 11.4,
-     "premium_usd": 7884330,
-     "iv": 0.6808,
-     "delta": 0.4546
+     "premium_usd": 7890990,
+     "iv": 0.6847,
+     "delta": 0.4539
     },
     {
      "contract": "TSLA261127P00330000",
@@ -1747,8 +1747,8 @@
      "bid": 13.9,
      "ask": 14.35,
      "premium_usd": 6475040,
-     "iv": 0.6275,
-     "delta": -0.3608
+     "iv": 0.6262,
+     "delta": -0.3617
     },
     {
      "contract": "TSLA261109P00350000",
@@ -1763,8 +1763,8 @@
      "bid": 12.45,
      "ask": 13.7,
      "premium_usd": 5315880,
-     "iv": 0.665,
-     "delta": -0.5861
+     "iv": 0.66,
+     "delta": -0.5876
     },
     {
      "contract": "TSLA261211P00365000",
@@ -1779,16 +1779,16 @@
      "bid": 34.15,
      "ask": 36.05,
      "premium_usd": 4402200,
-     "iv": 0.5375,
-     "delta": -0.602
+     "iv": 0.5359,
+     "delta": -0.603
     }
    ]
   },
   {
    "ticker": "MU",
-   "cboe_timestamp": "2026-11-06 01:04:40",
+   "cboe_timestamp": "2026-11-06 01:24:52",
    "call_premium_usd": 1508424797,
-   "put_premium_usd": 5588924345,
+   "put_premium_usd": 5588958333,
    "call_put_volume_ratio": 0.93,
    "flagged_contracts": [
     {
@@ -1804,8 +1804,8 @@
      "bid": 55.2,
      "ask": 56.5,
      "premium_usd": 27825600,
-     "iv": 1.0746,
-     "delta": -0.6808
+     "iv": 1.0891,
+     "delta": -0.6797
     },
     {
      "contract": "MU261109P00670000",
@@ -1820,8 +1820,8 @@
      "bid": 36.45,
      "ask": 37.8,
      "premium_usd": 21653787,
-     "iv": 1.14,
-     "delta": -0.5345
+     "iv": 1.1318,
+     "delta": -0.5335
     },
     {
      "contract": "MU261109P00690000",
@@ -1836,8 +1836,8 @@
      "bid": 47.9,
      "ask": 50.2,
      "premium_usd": 20301538,
-     "iv": 1.0826,
-     "delta": -0.634
+     "iv": 1.1153,
+     "delta": -0.6329
     },
     {
      "contract": "MU261109P00680000",
@@ -1852,8 +1852,8 @@
      "bid": 42.25,
      "ask": 42.95,
      "premium_usd": 16721400,
-     "iv": 1.0814,
-     "delta": -0.5849
+     "iv": 1.1088,
+     "delta": -0.5839
     },
     {
      "contract": "MU261120C00700000",
@@ -1868,8 +1868,8 @@
      "bid": 32.65,
      "ask": 33.05,
      "premium_usd": 16272750,
-     "iv": 0.9128,
-     "delta": 0.4131
+     "iv": 0.9188,
+     "delta": 0.4122
     },
     {
      "contract": "MU261113P00600000",
@@ -1884,8 +1884,8 @@
      "bid": 20.0,
      "ask": 22.0,
      "premium_usd": 14388440,
-     "iv": 1.1953,
-     "delta": -0.2697
+     "iv": 1.1975,
+     "delta": -0.2695
     },
     {
      "contract": "MU261109P00707500",
@@ -1900,8 +1900,8 @@
      "bid": 59.6,
      "ask": 61.85,
      "premium_usd": 12260640,
-     "iv": 1.1043,
-     "delta": -0.7139
+     "iv": 1.0867,
+     "delta": -0.7129
     },
     {
      "contract": "MU261109P00750000",
@@ -1916,14 +1916,14 @@
      "bid": 92.6,
      "ask": 100.5,
      "premium_usd": 11936336,
-     "iv": 1.1993,
-     "delta": -0.8612
+     "iv": 1.1985,
+     "delta": -0.8606
     }
    ]
   },
   {
    "ticker": "NBIS",
-   "cboe_timestamp": "2026-11-06 01:04:34",
+   "cboe_timestamp": "2026-11-06 01:31:59",
    "call_premium_usd": 128591488,
    "put_premium_usd": 543510111,
    "call_put_volume_ratio": 0.83,
@@ -1941,8 +1941,8 @@
      "bid": 103.4,
      "ask": 106.4,
      "premium_usd": 25013052,
-     "iv": 1.3188,
-     "delta": -0.9696
+     "iv": 1.3147,
+     "delta": -0.9695
     },
     {
      "contract": "NBIS261127P00230000",
@@ -1957,8 +1957,8 @@
      "bid": 109.2,
      "ask": 111.4,
      "premium_usd": 14840000,
-     "iv": 1.5114,
-     "delta": -0.975
+     "iv": 1.5089,
+     "delta": -0.9749
     },
     {
      "contract": "NBIS261127P00220000",
@@ -1973,8 +1973,8 @@
      "bid": 98.75,
      "ask": 101.6,
      "premium_usd": 12476690,
-     "iv": 1.3894,
-     "delta": -0.964
+     "iv": 1.3867,
+     "delta": -0.9639
     },
     {
      "contract": "NBIS261120P00110000",
@@ -1989,8 +1989,8 @@
      "bid": 10.7,
      "ask": 10.85,
      "premium_usd": 6478720,
-     "iv": 1.6655,
-     "delta": -0.3295
+     "iv": 1.6721,
+     "delta": -0.3298
     },
     {
      "contract": "NBIS261218P00110000",
@@ -2005,8 +2005,8 @@
      "bid": 14.45,
      "ask": 14.95,
      "premium_usd": 5536580,
-     "iv": 1.258,
-     "delta": -0.3318
+     "iv": 1.2585,
+     "delta": -0.3317
     },
     {
      "contract": "NBIS261120C00120000",
@@ -2021,8 +2021,8 @@
      "bid": 15.65,
      "ask": 15.95,
      "premium_usd": 3903935,
-     "iv": 1.6115,
-     "delta": 0.5716
+     "iv": 1.6123,
+     "delta": 0.5709
     },
     {
      "contract": "NBIS261218P00105000",
@@ -2037,8 +2037,8 @@
      "bid": 12.25,
      "ask": 12.75,
      "premium_usd": 2562672,
-     "iv": 1.2707,
-     "delta": -0.2943
+     "iv": 1.2712,
+     "delta": -0.2942
     },
     {
      "contract": "NBIS261113C00150000",
@@ -2053,8 +2053,8 @@
      "bid": 3.85,
      "ask": 4.3,
      "premium_usd": 1235028,
-     "iv": 1.7923,
-     "delta": 0.2457
+     "iv": 1.7918,
+     "delta": 0.2458
     }
    ]
   },
@@ -2471,7 +2471,7 @@
   },
   {
    "ticker": "MSFT",
-   "cboe_timestamp": "2026-11-06 01:04:36",
+   "cboe_timestamp": "2026-11-06 01:24:57",
    "call_premium_usd": 363039115,
    "put_premium_usd": 188346522,
    "call_put_volume_ratio": 1.4,
@@ -2489,8 +2489,8 @@
      "bid": 5.9,
      "ask": 6.45,
      "premium_usd": 22157055,
-     "iv": 0.2756,
-     "delta": 0.2258
+     "iv": 0.272,
+     "delta": 0.2292
     },
     {
      "contract": "MSFT261113P00547500",
@@ -2505,8 +2505,8 @@
      "bid": 16.1,
      "ask": 18.05,
      "premium_usd": 1380060,
-     "iv": 0.3158,
-     "delta": -0.6552
+     "iv": 0.3311,
+     "delta": -0.6509
     },
     {
      "contract": "MSFT261218C00650000",
@@ -2521,8 +2521,8 @@
      "bid": 0.15,
      "ask": 0.47,
      "premium_usd": 1274835,
-     "iv": 0.2602,
-     "delta": 0.0234
+     "iv": 0.2594,
+     "delta": 0.0243
     },
     {
      "contract": "MSFT261111P00540000",
@@ -2537,8 +2537,8 @@
      "bid": 10.8,
      "ask": 11.95,
      "premium_usd": 1150000,
-     "iv": 0.3248,
-     "delta": -0.5646
+     "iv": 0.3421,
+     "delta": -0.553
     },
     {
      "contract": "MSFT261113C00537500",
@@ -2553,8 +2553,8 @@
      "bid": 10.35,
      "ask": 11.45,
      "premium_usd": 1043535,
-     "iv": 0.371,
-     "delta": 0.4859
+     "iv": 0.3582,
+     "delta": 0.4975
     },
     {
      "contract": "MSFT261109P00535000",
@@ -2569,8 +2569,8 @@
      "bid": 7.0,
      "ask": 7.9,
      "premium_usd": 790125,
-     "iv": 0.3445,
-     "delta": -0.4814
+     "iv": 0.3568,
+     "delta": -0.4703
     },
     {
      "contract": "MSFT261111P00535000",
@@ -2585,8 +2585,8 @@
      "bid": 8.75,
      "ask": 10.0,
      "premium_usd": 766090,
-     "iv": 0.3501,
-     "delta": -0.4823
+     "iv": 0.3565,
+     "delta": -0.4697
     },
     {
      "contract": "MSFT261113P00537500",
@@ -2601,8 +2601,8 @@
      "bid": 11.35,
      "ask": 12.8,
      "premium_usd": 721500,
-     "iv": 0.3519,
-     "delta": -0.514
+     "iv": 0.3632,
+     "delta": -0.5061
     }
    ]
   },
@@ -2665,9 +2665,9 @@
   },
   {
    "ticker": "NVDA",
-   "cboe_timestamp": "2026-11-06 01:04:28",
-   "call_premium_usd": 1309776773,
-   "put_premium_usd": 2480169257,
+   "cboe_timestamp": "2026-11-06 01:40:28",
+   "call_premium_usd": 1309778085,
+   "put_premium_usd": 2480169797,
    "call_put_volume_ratio": 1.13,
    "flagged_contracts": [
     {
@@ -2681,10 +2681,10 @@
      "vol_oi": 34.5,
      "last": 4.2,
      "bid": 4.2,
-     "ask": 4.3,
+     "ask": 4.25,
      "premium_usd": 10315620,
-     "iv": 0.6824,
-     "delta": 0.3604
+     "iv": 0.6825,
+     "delta": 0.3611
     },
     {
      "contract": "NVDA261120C00185000",
@@ -2699,8 +2699,8 @@
      "bid": 9.85,
      "ask": 10.05,
      "premium_usd": 9643725,
-     "iv": 0.7542,
-     "delta": 0.4945
+     "iv": 0.7541,
+     "delta": 0.4941
     },
     {
      "contract": "NVDA261218P00285000",
@@ -2715,7 +2715,7 @@
      "bid": 102.4,
      "ask": 105.9,
      "premium_usd": 7124180,
-     "iv": 0.8602,
+     "iv": 0.861,
      "delta": -1.0
     },
     {
@@ -2731,8 +2731,8 @@
      "bid": 6.75,
      "ask": 7.15,
      "premium_usd": 6821100,
-     "iv": 0.7087,
-     "delta": -0.5721
+     "iv": 0.7055,
+     "delta": -0.5717
     },
     {
      "contract": "NVDA261109P00180000",
@@ -2748,7 +2748,7 @@
      "ask": 4.55,
      "premium_usd": 6791440,
      "iv": 0.7199,
-     "delta": -0.4249
+     "delta": -0.4251
     },
     {
      "contract": "NVDA261113P00182500",
@@ -2763,8 +2763,8 @@
      "bid": 7.9,
      "ask": 8.05,
      "premium_usd": 6773465,
-     "iv": 0.7235,
-     "delta": -0.4855
+     "iv": 0.7258,
+     "delta": -0.4853
     },
     {
      "contract": "NVDA261111P00180000",
@@ -2779,7 +2779,7 @@
      "bid": 5.85,
      "ask": 6.0,
      "premium_usd": 6760080,
-     "iv": 0.7482,
+     "iv": 0.7509,
      "delta": -0.4328
     },
     {
@@ -2795,7 +2795,7 @@
      "bid": 97.4,
      "ask": 100.95,
      "premium_usd": 6488700,
-     "iv": 0.8369,
+     "iv": 0.8377,
      "delta": -1.0
     }
    ]
@@ -3199,8 +3199,8 @@
   },
   {
    "ticker": "PLTR",
-   "cboe_timestamp": "2026-11-06 01:04:30",
-   "call_premium_usd": 179073995,
+   "cboe_timestamp": "2026-11-06 01:48:59",
+   "call_premium_usd": 179076270,
    "put_premium_usd": 355943472,
    "call_put_volume_ratio": 0.76,
    "flagged_contracts": [
@@ -3217,8 +3217,8 @@
      "bid": 4.25,
      "ask": 4.55,
      "premium_usd": 4048460,
-     "iv": 0.707,
-     "delta": 0.4046
+     "iv": 0.7047,
+     "delta": 0.4051
     },
     {
      "contract": "PLTR261113C00165000",
@@ -3233,8 +3233,8 @@
      "bid": 2.54,
      "ask": 2.78,
      "premium_usd": 3602727,
-     "iv": 0.6817,
-     "delta": 0.29
+     "iv": 0.6798,
+     "delta": 0.2911
     },
     {
      "contract": "PLTR261113P00152500",
@@ -3249,8 +3249,8 @@
      "bid": 5.5,
      "ask": 5.85,
      "premium_usd": 1422900,
-     "iv": 0.7554,
-     "delta": -0.4205
+     "iv": 0.7578,
+     "delta": -0.4192
     },
     {
      "contract": "PLTR261113C00162500",
@@ -3265,8 +3265,8 @@
      "bid": 3.35,
      "ask": 3.65,
      "premium_usd": 804228,
-     "iv": 0.6996,
-     "delta": 0.3459
+     "iv": 0.6975,
+     "delta": 0.3466
     },
     {
      "contract": "PLTR261113C00157500",
@@ -3281,8 +3281,8 @@
      "bid": 5.35,
      "ask": 5.6,
      "premium_usd": 799344,
-     "iv": 0.7178,
-     "delta": 0.4644
+     "iv": 0.7152,
+     "delta": 0.4651
     },
     {
      "contract": "PLTR261113C00152500",
@@ -3297,8 +3297,8 @@
      "bid": 7.85,
      "ask": 8.4,
      "premium_usd": 749331,
-     "iv": 0.7458,
-     "delta": 0.5809
+     "iv": 0.7425,
+     "delta": 0.5823
     },
     {
      "contract": "PLTR261113C00155000",
@@ -3313,8 +3313,8 @@
      "bid": 6.6,
      "ask": 6.9,
      "premium_usd": 675500,
-     "iv": 0.7343,
-     "delta": 0.5236
+     "iv": 0.7314,
+     "delta": 0.5246
     },
     {
      "contract": "PLTR261113P00142000",
@@ -3329,8 +3329,8 @@
      "bid": 2.35,
      "ask": 2.63,
      "premium_usd": 594480,
-     "iv": 0.8222,
-     "delta": -0.2188
+     "iv": 0.8238,
+     "delta": -0.2187
     }
    ]
   },
@@ -4482,7 +4482,7 @@
   },
   {
    "ticker": "LITE",
-   "cboe_timestamp": "2026-11-05 21:33:20",
+   "cboe_timestamp": "2026-11-06 01:14:47",
    "call_premium_usd": 53352569,
    "put_premium_usd": 318591989,
    "call_put_volume_ratio": 1.17,
@@ -4660,7 +4660,7 @@
   },
   {
    "ticker": "PANW",
-   "cboe_timestamp": "2026-11-05 23:59:33",
+   "cboe_timestamp": "2026-11-06 01:49:04",
    "call_premium_usd": 82384242,
    "put_premium_usd": 79402474,
    "call_put_volume_ratio": 0.87,
@@ -4865,7 +4865,7 @@
   },
   {
    "ticker": "MRNA",
-   "cboe_timestamp": "2026-11-05 21:27:34",
+   "cboe_timestamp": "2026-11-06 01:27:12",
    "call_premium_usd": 55392928,
    "put_premium_usd": 47155313,
    "call_put_volume_ratio": 0.39,
@@ -5795,7 +5795,7 @@
   },
   {
    "ticker": "MCHP",
-   "cboe_timestamp": "2026-11-05 21:31:34",
+   "cboe_timestamp": "2026-11-06 01:24:42",
    "call_premium_usd": 3113969,
    "put_premium_usd": 6096361,
    "call_put_volume_ratio": 0.87,
@@ -5927,7 +5927,7 @@
   },
   {
    "ticker": "ON",
-   "cboe_timestamp": "2026-11-05 21:34:25",
+   "cboe_timestamp": "2026-11-06 01:42:44",
    "call_premium_usd": 2412988,
    "put_premium_usd": 6181127,
    "call_put_volume_ratio": 1.03,
