@@ -12,6 +12,45 @@ Best design variant: **k0.50** (avg -0.055R, t -5.35).
 **Verdict: FAIL (design: best variant avg R <= 0 or t < 3).** Validation not run.
 
 
+Sample (k0.50 trades; diagnostic):
+```
+{
+ "symbols": 2485,
+ "median_price": 40.37,
+ "median_adv20_musd": 96.2,
+ "share_price_lt_20": 0.205,
+ "top_symbols": {
+  "DKS": 96,
+  "W": 88,
+  "KNX": 85,
+  "NTNX": 84,
+  "ROKU": 84,
+  "TRU": 82,
+  "FSLR": 81,
+  "Z": 80,
+  "URBN": 79,
+  "ANF": 77,
+  "WDAY": 77,
+  "HLF": 76,
+  "AXTA": 76,
+  "CIEN": 75,
+  "HUN": 75
+ },
+ "by_tier_design": {
+  "normal": {
+   "n": 16547,
+   "avg_R": -0.063,
+   "avg_R_gross": -0.02
+  },
+  "small (<$20 or <$20M/day)": {
+   "n": 3650,
+   "avg_R": -0.021,
+   "avg_R_gross": 0.042
+  }
+ }
+}
+```
+
 Diagnostic only (design window, $25k notional cap):
 ```
 {
