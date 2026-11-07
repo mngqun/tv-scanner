@@ -4,11 +4,11 @@
 
 | Variant | n | days | avg R | t (by day) | CI by day | win | longs avg R (n) | shorts avg R (n) | 2× cost avg R |
 |---|---|---|---|---|---|---|---|---|---|
-| k0.10 | 20243 | 1259 | -0.643 | -33.72 | [-0.6807, -0.6051] | 0.094 | -0.6376 (10292) | -0.6486 (9951) | -0.8966 |
-| k0.25 | 20243 | 1259 | -0.168 | -12.1 | [-0.1947, -0.1404] | 0.289 | -0.1723 (10292) | -0.1625 (9951) | -0.2642 |
-| k0.50 | 20243 | 1259 | -0.056 | -6.28 | [-0.073, -0.0386] | 0.424 | -0.0427 (10292) | -0.0694 (9951) | -0.1015 |
+| k0.10 | 20197 | 1259 | -0.722 | -38.33 | [-0.7583, -0.6848] | 0.073 | -0.7112 (10223) | -0.7329 (9974) | -0.9773 |
+| k0.25 | 20197 | 1259 | -0.232 | -16.05 | [-0.26, -0.203] | 0.241 | -0.23 (10223) | -0.2334 (9974) | -0.3299 |
+| k0.50 | 20197 | 1259 | -0.055 | -5.35 | [-0.0755, -0.0348] | 0.394 | -0.0429 (10223) | -0.0678 (9974) | -0.1016 |
 
-Best design variant: **k0.50** (avg -0.056R, t -6.28).
+Best design variant: **k0.50** (avg -0.055R, t -5.35).
 **Verdict: FAIL (design: best variant avg R <= 0 or t < 3).** Validation not run.
 
 
@@ -16,22 +16,22 @@ Diagnostic only (design window, $25k notional cap):
 ```
 {
  "k0.10": {
-  "trades": 2513,
-  "total_usd": -120624.0,
-  "worst_day": -367.0,
-  "max_dd_usd": 121814.0
+  "trades": 2514,
+  "total_usd": -140965.0,
+  "worst_day": -690.0,
+  "max_dd_usd": 140965.0
  },
  "k0.25": {
   "trades": 2518,
-  "total_usd": -58760.0,
-  "worst_day": -292.0,
-  "max_dd_usd": 60433.0
+  "total_usd": -79331.0,
+  "worst_day": -335.0,
+  "max_dd_usd": 79373.0
  },
  "k0.50": {
   "trades": 2518,
-  "total_usd": -21443.0,
-  "worst_day": -245.0,
-  "max_dd_usd": 22598.0
+  "total_usd": -19868.0,
+  "worst_day": -239.0,
+  "max_dd_usd": 20548.0
  }
 }
 ```
@@ -39,34 +39,34 @@ Diagnostic only (design window, $25k notional cap):
 Coverage:
 ```
 {
- "universe": 5750,
- "with_preeligible_days": 920,
- "rows": 839118,
+ "universe": 5441,
+ "with_preeligible_days": 4033,
+ "rows": 3720635,
  "session_fetch_failures": 0,
  "parts": [
   {
    "dates": 623,
    "first_bar_days": 623,
-   "selected": 11961,
-   "trades": 35370
+   "selected": 12260,
+   "trades": 36210
   },
   {
    "dates": 624,
    "first_bar_days": 644,
-   "selected": 12369,
-   "trades": 36648
+   "selected": 12480,
+   "trades": 36999
   },
   {
    "dates": 624,
    "first_bar_days": 644,
-   "selected": 12318,
-   "trades": 36597
+   "selected": 12480,
+   "trades": 37062
   },
   {
    "dates": 624,
    "first_bar_days": 644,
-   "selected": 12427,
-   "trades": 37017
+   "selected": 12480,
+   "trades": 37224
   }
  ]
 }
