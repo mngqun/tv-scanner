@@ -225,6 +225,18 @@ def evaluate(inp: Path, parts: int):
     r, md = judge("H5: Stocks-in-Play 5-min ORB, all US stocks >= $5 (top 20 RVOL)", vs, 200, t_min=3.0)
     # labelled diagnostic: $25k notional cap (the paper's leverage), never a pass criterion
     d = {v: C.sleeve(g[C.in_window(g.date, "design")], cap=25000) for v, g in vs.items()}
+    # sample description (diagnostic): who was traded, and results by size tier and gross of costs
+    k = tr[tr["var"] == "k0.50"].copy()
+    k["tier"] = np.where((k.price < 20) | (k.adv20 < 2e7), "small (<$20 or <$20M/day)", "normal")
+    k["gross"] = k["R"] + (k["R2"] - k["R"]) * -1          # R2 = R - costs, so costs = R - R2
+    sample = {"symbols": int(k.sym.nunique()), "median_price": round(float(k.price.median()), 2),
+              "median_adv20_musd": round(float(k.adv20.median()) / 1e6, 1),
+              "share_price_lt_20": round(float((k.price < 20).mean()), 3),
+              "top_symbols": k.sym.value_counts().head(15).to_dict(),
+              "by_tier_design": {t: {"n": int(len(g)), "avg_R": round(float(g.R.mean()), 3),
+                                     "avg_R_gross": round(float(g.gross.mean()), 3)}
+                                 for t, g in k[C.in_window(k.date, "design")].groupby("tier")}}
+    md += ["", "Sample (k0.50 trades; diagnostic):", "```", json.dumps(sample, indent=1), "```"]
     meta = json.loads((inp / "daily_meta.json").read_text()) if (inp / "daily_meta.json").exists() else {}
     meta["session_fetch_failures"] = fails
     meta["parts"] = [json.loads(Path(f).read_text()) for f in sorted(metas)]
@@ -232,7 +244,7 @@ def evaluate(inp: Path, parts: int):
            "", "Coverage:", "```", json.dumps(meta, indent=1), "```"]
     res = HERE / "results"
     res.mkdir(exist_ok=True)
-    (res / "results.json").write_text(json.dumps({"H5": r, "diag_25k": d, "coverage": meta}, indent=1, default=str))
+    (res / "results.json").write_text(json.dumps({"H5": r, "diag_25k": d, "sample": sample, "coverage": meta}, indent=1, default=str))
     (res / "results.md").write_text("\n".join(md) + "\n")
     print("\n".join(md))
 
