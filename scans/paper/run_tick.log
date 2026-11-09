@@ -1,4 +1,2 @@
-[B] close orb-B-2026-11-09-AMD 3 (flat-by, day) -> 200
-[B] close orb-B-2026-11-09-TSLA 5 (flat-by, day) -> 200
-[B] close orb-B-2026-11-09-SNDK 1 (flat-by, day) -> 200
-[B] close scan-B-2026-11-09-MU 2 (flat-by, day) -> 200
+[B] close rulec-B-2026-11-09-PUK 88 (close (market near the close; paper MOC unsupported), day) -> 200
+[B] close rulec-B-2026-11-09-BBVA 71 (close (market near the close; paper MOC unsupported), day) -> 200
