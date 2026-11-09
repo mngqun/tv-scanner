@@ -63,18 +63,18 @@
     "id": "4d94ffba-77eb-49c6-9d70-be0d15691186",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 88.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 88.0,
+    "avg": 26.046818,
+    "filled_at": "2026-11-09T20:47:22.789334013Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 88.0,
+  "exit_filled": 88.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "4d94ffba-77eb-49c6-9d70-be0d15691186"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "rulec-B-2026-11-09-BBVA",
@@ -153,18 +154,18 @@
     "id": "3e8e080f-c7c3-4599-a60f-8d446f2c6a48",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 71.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 71.0,
+    "avg": 26.38,
+    "filled_at": "2026-11-09T20:47:21.760924483Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 71.0,
+  "exit_filled": 71.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "3e8e080f-c7c3-4599-a60f-8d446f2c6a48"
   ],
@@ -177,7 +178,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-09-AMD",
