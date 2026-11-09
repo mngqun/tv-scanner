@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-09"
@@ -227,5 +228,76 @@
    "id": "tqqq-2026-11-09",
    "why": "void: last 45.1 outside [45.12, 48.21]"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 683,
+   "fetched": 683,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 682,
+   "hits": 160
+  },
+  "hits": 160,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 194.9,
+    "prev_close": 186.63999938964844,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MU",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 724.8,
+    "prev_close": 690.0,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 459.8,
+    "prev_close": 449.0400085449219,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 290.49,
+    "prev_close": 284.7799987792969,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 912.09,
+    "prev_close": 835.0599975585938,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 57.32,
+    "prev_close": 56.279998779296875,
+    "sector": "Electronic Technology"
+   }
+  ]
+ }
 }
