@@ -3,8 +3,228 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
- "queue_done": [],
- "log": []
+ "queue_done": [
+  "tqqq-2026-11-09"
+ ],
+ "log": [
+  "[B] placed rulec short PUK x88 market stop 26.97 tgt None -> 200 ",
+  "[B] placed rulec short BBVA x71 market stop 27.51 tgt None -> 200 ",
+  "queue tqqq-2026-11-09: void: last 45.1 outside [45.12, 48.21]"
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-09-PUK",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "PUK",
+   "side": "short",
+   "qty": 88,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-09-BBVA",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "BBVA",
+   "side": "short",
+   "qty": 71,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "PUK",
+    "open": 25.84,
+    "prev_close": 24.760000228881836,
+    "atr": 0.5664,
+    "gap_pct": 4.36,
+    "gap_atr": 1.907,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "BBVA",
+    "open": 26.11,
+    "prev_close": 25.049999237060547,
+    "atr": 0.6986,
+    "gap_pct": 4.23,
+    "gap_atr": 1.517,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "ING",
+    "open": 33.0,
+    "prev_close": 31.81999969482422,
+    "atr": 0.845,
+    "gap_pct": 3.71,
+    "gap_atr": 1.396,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "DB",
+    "open": 36.4,
+    "prev_close": 34.84000015258789,
+    "atr": 1.2386,
+    "gap_pct": 4.48,
+    "gap_atr": 1.26,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "TECK",
+    "open": 63.55,
+    "prev_close": 60.459999084472656,
+    "atr": 2.5293,
+    "gap_pct": 5.11,
+    "gap_atr": 1.222,
+    "sector": "Non-Energy Minerals"
+   },
+   {
+    "symbol": "JHX",
+    "open": 29.13,
+    "prev_close": 27.850000381469727,
+    "atr": 1.0571,
+    "gap_pct": 4.6,
+    "gap_atr": 1.211,
+    "sector": "Non-Energy Minerals"
+   },
+   {
+    "symbol": "MT",
+    "open": 63.54,
+    "prev_close": 60.97999954223633,
+    "atr": 2.1807,
+    "gap_pct": 4.2,
+    "gap_atr": 1.174,
+    "sector": "Non-Energy Minerals"
+   },
+   {
+    "symbol": "AA",
+    "open": 41.1,
+    "prev_close": 39.540000915527344,
+    "atr": 1.4496,
+    "gap_pct": 3.95,
+    "gap_atr": 1.076,
+    "sector": "Non-Energy Minerals"
+   },
+   {
+    "symbol": "AMZN",
+    "open": 269.32,
+    "prev_close": 259.29998779296875,
+    "atr": 9.7629,
+    "gap_pct": 3.86,
+    "gap_atr": 1.026,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "AU",
+    "open": 97.1,
+    "prev_close": 92.98999786376953,
+    "atr": 4.025,
+    "gap_pct": 4.42,
+    "gap_atr": 1.021,
+    "sector": "Non-Energy Minerals"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "NRG",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 4.68% / 0.50 ATR"
+   },
+   {
+    "symbol": "AMD",
+    "why": "gap 5.42% / 0.64 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 5.03% / 0.40 ATR"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 4.35% / 0.34 ATR"
+   },
+   {
+    "symbol": "RBA",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "UAL",
+    "why": "gap 4.59% / 0.89 ATR"
+   },
+   {
+    "symbol": "CIEN",
+    "why": "gap 4.62% / 0.41 ATR"
+   },
+   {
+    "symbol": "FCX",
+    "why": "gap 4.12% / 0.85 ATR"
+   },
+   {
+    "symbol": "B",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "CEG",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "AVGO",
+    "why": "gap 3.90% / 0.76 ATR"
+   },
+   {
+    "symbol": "SCCO",
+    "why": "gap 4.38% / 0.81 ATR"
+   },
+   {
+    "symbol": "LUV",
+    "why": "gap 3.49% / 0.78 ATR"
+   },
+   {
+    "symbol": "GEV",
+    "why": "gap 3.95% / 0.50 ATR"
+   },
+   {
+    "symbol": "VRT",
+    "why": "gap 3.25% / 0.32 ATR"
+   },
+   {
+    "symbol": "NVT",
+    "why": "gap 4.24% / 0.43 ATR"
+   },
+   {
+    "symbol": "ASML",
+    "why": "gap 3.44% / 0.69 ATR"
+   },
+   {
+    "symbol": "FLEX",
+    "why": "gap 4.55% / 0.43 ATR"
+   },
+   {
+    "symbol": "HPE",
+    "why": "gap 4.24% / 0.52 ATR"
+   }
+  ],
+  "placed": [
+   "PUK",
+   "BBVA"
+  ]
+ },
+ "skipped": [
+  {
+   "id": "tqqq-2026-11-09",
+   "why": "void: last 45.1 outside [45.12, 48.21]"
+  }
+ ]
 }
