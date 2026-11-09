@@ -510,7 +510,7 @@
   "sessions": [
    "2026-11-09"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -519,7 +519,7 @@
     "id": "91547785-85ff-4b10-b6bc-43835fe17e2e",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 10.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -532,7 +532,7 @@
     "id": "bc71e0b3-0d34-426d-a618-3ad4a0990a26",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 10.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -544,7 +544,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-09-MSFT",
@@ -656,7 +658,7 @@
   "sessions": [
    "2026-11-09"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -665,7 +667,7 @@
     "id": "65e22087-c6ce-4f59-b898-4ba603cd7b46",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 11.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -678,7 +680,7 @@
     "id": "d28bba75-467c-4447-a1eb-7cdd07908282",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 11.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -690,7 +692,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-09-MA",
@@ -729,7 +733,7 @@
   "sessions": [
    "2026-11-09"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -738,7 +742,7 @@
     "id": "a8ec75ec-6477-4d80-9906-d105165fd9d4",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 7.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -751,7 +755,7 @@
     "id": "32032002-3a7c-4cb0-a16c-c3b4d044ab27",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 7.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -763,7 +767,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-09-JNJ",
@@ -876,7 +882,7 @@
   "sessions": [
    "2026-11-09"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -885,7 +891,7 @@
     "id": "7ab42977-bf3c-4738-b511-2ba40e1d80ed",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 52.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -898,7 +904,7 @@
     "id": "22314f76-0845-4009-8733-566f74106f79",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 52.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -910,7 +916,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-09-BKNG",

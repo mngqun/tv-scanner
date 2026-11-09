@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-09"
@@ -30,7 +31,11 @@
   "[B] placed orb_short short MA x7 stop_limit stop 655.9 tgt 637.25 -> 200 ",
   "[B] placed orb_short short JNJ x18 stop_limit stop 277.99 tgt 274.46 -> 200 ",
   "[B] placed orb_short short KO x52 stop_limit stop 95.47 tgt 93.41 -> 200 ",
-  "[B] placed orb_short short BKNG x30 limit stop 163.35 tgt 159.04 -> 200 "
+  "[B] placed orb_short short BKNG x30 limit stop 163.35 tgt 159.04 -> 200 ",
+  "[B] cancel unfilled entry scan-B-2026-11-09-GOOGL (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-09-V (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-09-MA (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-09-KO (filled 0.0)"
  ],
  "placed": [
   {
