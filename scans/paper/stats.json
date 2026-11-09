@@ -1,6 +1,6 @@
 {
- "legs": 39,
- "trades": 36,
+ "legs": 48,
+ "trades": 45,
  "arms": {
   "A:tqqq": {
    "trades": 3,
@@ -41,33 +41,33 @@
    "go_live": false
   },
   "B:orb": {
-   "trades": 13,
-   "win_rate": 0.154,
-   "avg_R": -0.633,
-   "total_R": -8.23,
-   "pess_trades": 13,
-   "pess_avg_R": -0.633,
+   "trades": 16,
+   "win_rate": 0.312,
+   "avg_R": -0.376,
+   "total_R": -6.01,
+   "pess_trades": 16,
+   "pess_avg_R": -0.376,
    "pess_ci95": [
-    -1.014,
-    -0.122
+    -0.822,
+    0.133
    ],
    "max_dd_R": 10.05,
    "worst_day_usd": -183.26,
-   "avg_slippage_R": 0.087,
-   "median_mfe_R": 0.7,
-   "median_mae_R": 1.07,
+   "avg_slippage_R": 0.081,
+   "median_mfe_R": 0.65,
+   "median_mae_R": 1.04,
    "exit_mix": {
     "target": 1,
     "stop": 8,
-    "flat-by": 4
+    "flat-by": 7
    },
    "first": "2026-11-02",
-   "last": "2026-11-06",
-   "avg_R_fill": -0.602,
-   "days": 5,
+   "last": "2026-11-09",
+   "avg_R_fill": -0.361,
+   "days": 6,
    "pess_ci95_days": [
-    -0.908,
-    -0.392
+    -0.801,
+    0.212
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -79,33 +79,33 @@
    "go_live": false
   },
   "B:orb:spy_above": {
-   "trades": 10,
-   "win_rate": 0.2,
-   "avg_R": -0.499,
-   "total_R": -4.99,
-   "pess_trades": 10,
-   "pess_avg_R": -0.499,
+   "trades": 13,
+   "win_rate": 0.385,
+   "avg_R": -0.213,
+   "total_R": -2.77,
+   "pess_trades": 13,
+   "pess_avg_R": -0.213,
    "pess_ci95": [
-    -0.989,
-    0.122
+    -0.715,
+    0.365
    ],
    "max_dd_R": 6.81,
    "worst_day_usd": -183.26,
-   "avg_slippage_R": 0.104,
-   "median_mfe_R": 0.72,
-   "median_mae_R": 1.06,
+   "avg_slippage_R": 0.094,
+   "median_mfe_R": 0.7,
+   "median_mae_R": 0.46,
    "exit_mix": {
     "target": 1,
     "stop": 5,
-    "flat-by": 4
+    "flat-by": 7
    },
    "first": "2026-11-02",
-   "last": "2026-11-06",
-   "avg_R_fill": -0.468,
-   "days": 3,
+   "last": "2026-11-09",
+   "avg_R_fill": -0.202,
+   "days": 4,
    "pess_ci95_days": [
-    -0.627,
-    -0.221
+    -0.586,
+    0.533
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -189,32 +189,32 @@
    "go_live": false
   },
   "B:orb_short": {
-   "trades": 8,
-   "win_rate": 0.375,
-   "avg_R": -0.211,
-   "total_R": -1.69,
-   "pess_trades": 8,
-   "pess_avg_R": -0.211,
+   "trades": 11,
+   "win_rate": 0.273,
+   "avg_R": -0.457,
+   "total_R": -5.02,
+   "pess_trades": 11,
+   "pess_avg_R": -0.457,
    "pess_ci95": [
-    -0.822,
-    0.439
+    -0.936,
+    0.09
    ],
-   "max_dd_R": 4.36,
+   "max_dd_R": 5.02,
    "worst_day_usd": -159.36,
-   "avg_slippage_R": 0.057,
-   "median_mfe_R": 0.46,
-   "median_mae_R": 0.8,
+   "avg_slippage_R": 0.055,
+   "median_mfe_R": 0.43,
+   "median_mae_R": 1.06,
    "exit_mix": {
-    "stop": 4,
+    "stop": 7,
     "flat-by": 4
    },
    "first": "2026-11-03",
-   "last": "2026-11-06",
-   "avg_R_fill": -0.218,
-   "days": 3,
+   "last": "2026-11-09",
+   "avg_R_fill": -0.448,
+   "days": 4,
    "pess_ci95_days": [
-    -0.873,
-    1.201
+    -0.962,
+    0.891
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -226,35 +226,35 @@
    "go_live": false
   },
   "B:rulec": {
-   "trades": 9,
-   "win_rate": 0.444,
-   "avg_R": -0.122,
-   "total_R": -1.1,
-   "pess_trades": 9,
-   "pess_avg_R": -0.122,
+   "trades": 11,
+   "win_rate": 0.364,
+   "avg_R": -0.153,
+   "total_R": -1.69,
+   "pess_trades": 11,
+   "pess_avg_R": -0.153,
    "pess_ci95": [
-    -0.313,
-    0.025
+    -0.312,
+    -0.021
    ],
-   "max_dd_R": 1.38,
+   "max_dd_R": 1.94,
    "worst_day_usd": -90.79,
-   "avg_slippage_R": 0.097,
-   "median_mfe_R": 0.12,
-   "median_mae_R": 0.19,
+   "avg_slippage_R": 0.099,
+   "median_mfe_R": 0.07,
+   "median_mae_R": 0.21,
    "exit_mix": {
     "flat-by": 2,
     "event flat_by (instead of MOC)": 1,
     "stale intraday (missed close-out)": 4,
-    "close (market near the close; paper MOC unsupported)": 2
+    "close (market near the close; paper MOC unsupported)": 4
    },
    "first": "2026-11-02",
-   "last": "2026-11-06",
-   "rule_avg_R": -0.025,
-   "avg_R_fill": -0.118,
-   "days": 4,
+   "last": "2026-11-09",
+   "rule_avg_R": -0.055,
+   "avg_R_fill": -0.145,
+   "days": 5,
    "pess_ci95_days": [
-    -0.327,
-    0.083
+    -0.321,
+    0.006
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -266,32 +266,32 @@
    "go_live": false
   },
   "B:scan": {
-   "trades": 3,
-   "win_rate": 0.333,
-   "avg_R": -0.439,
-   "total_R": -1.32,
-   "pess_trades": 3,
-   "pess_avg_R": -0.439,
+   "trades": 4,
+   "win_rate": 0.5,
+   "avg_R": -0.246,
+   "total_R": -0.98,
+   "pess_trades": 4,
+   "pess_avg_R": -0.246,
    "pess_ci95": [
-    -1.201,
-    1.026
+    -1.171,
+    0.68
    ],
    "max_dd_R": 2.34,
    "worst_day_usd": -46.6,
-   "avg_slippage_R": 0.117,
-   "median_mfe_R": 0.02,
-   "median_mae_R": 1.14,
+   "avg_slippage_R": 0.091,
+   "median_mfe_R": 0.37,
+   "median_mae_R": 0.63,
    "exit_mix": {
     "stop": 2,
-    "flat-by": 1
+    "flat-by": 2
    },
    "first": "2026-11-02",
-   "last": "2026-11-02",
-   "avg_R_fill": -0.341,
-   "days": 1,
+   "last": "2026-11-09",
+   "avg_R_fill": -0.174,
+   "days": 2,
    "pess_ci95_days": [
-    null,
-    null
+    -0.439,
+    0.334
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -371,6 +371,42 @@
     "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": false
+   },
+   "go_live": false
+  },
+  "B:scan:level:oversold_bounce": {
+   "trades": 1,
+   "win_rate": 1.0,
+   "avg_R": 0.334,
+   "total_R": 0.33,
+   "pess_trades": 1,
+   "pess_avg_R": 0.334,
+   "pess_ci95": [
+    null,
+    null
+   ],
+   "max_dd_R": 0.0,
+   "worst_day_usd": 15.64,
+   "avg_slippage_R": 0.016,
+   "median_mfe_R": 0.72,
+   "median_mae_R": 0.12,
+   "exit_mix": {
+    "flat-by": 1
+   },
+   "first": "2026-11-09",
+   "last": "2026-11-09",
+   "avg_R_fill": 0.328,
+   "days": 1,
+   "pess_ci95_days": [
+    null,
+    null
+   ],
+   "go_live_checks": {
+    "n>=40": false,
+    "avg>=+0.10R": true,
+    "ci_low_by_day>0": false,
+    "max_dd<=8R": true,
+    "slippage<=0.05R": true
    },
    "go_live": false
   },
