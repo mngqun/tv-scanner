@@ -3,8 +3,146 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [],
+ "errors": [
+  {
+   "phase": "nasdaq earnings",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "phase": "nasdaq earnings",
+   "error": "HTTP Error 403: Forbidden"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [],
+  "rejected": [
+   {
+    "symbol": "FLS",
+    "why": "gap -1.11% / -0.26 ATR"
+   },
+   {
+    "symbol": "MAIR",
+    "why": "gap -3.42% / -0.54 ATR"
+   },
+   {
+    "symbol": "ITT",
+    "why": "gap 0.02% / 0.00 ATR"
+   },
+   {
+    "symbol": "TTWO",
+    "why": "earnings"
+   },
+   {
+    "symbol": "CRBG",
+    "why": "gap 0.67% / 0.18 ATR"
+   },
+   {
+    "symbol": "EQH",
+    "why": "gap 0.67% / 0.18 ATR"
+   },
+   {
+    "symbol": "J",
+    "why": "gap -0.12% / -0.04 ATR"
+   },
+   {
+    "symbol": "WMG",
+    "why": "gap 0.16% / 0.06 ATR"
+   },
+   {
+    "symbol": "IR",
+    "why": "gap -0.22% / -0.06 ATR"
+   },
+   {
+    "symbol": "TKO",
+    "why": "gap -1.70% / -0.57 ATR"
+   },
+   {
+    "symbol": "DOV",
+    "why": "gap -0.32% / -0.11 ATR"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 5.03% / 0.56 ATR"
+   },
+   {
+    "symbol": "BURL",
+    "why": "gap -2.06% / -0.51 ATR"
+   },
+   {
+    "symbol": "ARES",
+    "why": "gap -0.62% / -0.17 ATR"
+   },
+   {
+    "symbol": "EMBJ",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TRGP",
+    "why": "gap -0.96% / -0.23 ATR"
+   },
+   {
+    "symbol": "AER",
+    "why": "gap -0.72% / -0.27 ATR"
+   },
+   {
+    "symbol": "VYLR",
+    "why": "gap -1.01% / -0.26 ATR"
+   },
+   {
+    "symbol": "PCOR",
+    "why": "gap -0.95% / -0.23 ATR"
+   },
+   {
+    "symbol": "RJF",
+    "why": "gap -0.58% / -0.21 ATR"
+   },
+   {
+    "symbol": "SKM",
+    "why": "gap 3.10% / 0.80 ATR"
+   },
+   {
+    "symbol": "RPM",
+    "why": "gap -0.59% / -0.18 ATR"
+   },
+   {
+    "symbol": "SWK",
+    "why": "gap -1.30% / -0.33 ATR"
+   },
+   {
+    "symbol": "ALLE",
+    "why": "gap -0.42% / -0.14 ATR"
+   },
+   {
+    "symbol": "FNF",
+    "why": "gap 0.61% / 0.19 ATR"
+   },
+   {
+    "symbol": "PNC",
+    "why": "gap 0.48% / 0.21 ATR"
+   },
+   {
+    "symbol": "SF",
+    "why": "gap 1.13% / 0.39 ATR"
+   },
+   {
+    "symbol": "CNI",
+    "why": "gap -0.57% / -0.23 ATR"
+   },
+   {
+    "symbol": "FITB",
+    "why": "gap 0.60% / 0.24 ATR"
+   },
+   {
+    "symbol": "DTM",
+    "why": "gap -0.66% / -0.17 ATR"
+   }
+  ],
+  "placed": []
+ }
 }
