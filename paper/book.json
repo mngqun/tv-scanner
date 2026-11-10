@@ -45,16 +45,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 2.0,
+  "entry_avg": 729.45,
+  "filled_at": "2026-11-10T15:32:13.821045218Z",
   "legs": [
    {
     "id": "f915083c-9596-4a73-8555-6d2dd0efe13c",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 2.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -79,7 +79,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 2.0
  },
  {
   "id": "orb-B-2026-11-10-AMZN",
@@ -127,16 +127,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 14.0,
+  "entry_avg": 272.415714,
+  "filled_at": "2026-11-10T15:32:18.432350827Z",
   "legs": [
    {
     "id": "653da842-0ddb-4a8e-9f2b-de3a910ffbc4",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 14.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -161,7 +161,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 14.0
  },
  {
   "id": "orb-B-2026-11-10-GOOGL",
@@ -293,16 +293,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 13.0,
+  "entry_avg": 143.146154,
+  "filled_at": "2026-11-10T15:25:14.112668353Z",
   "legs": [
    {
     "id": "e02b0009-ff2d-4c7e-94be-0f812637a7e4",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -327,7 +327,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 13.0
  },
  {
   "id": "orb-B-2026-11-10-META",
@@ -377,16 +377,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 7.0,
+  "entry_avg": 643.712857,
+  "filled_at": "2026-11-10T15:25:47.838143254Z",
   "legs": [
    {
     "id": "ed411096-8c6d-45b7-8123-fd58cdf8fa1d",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 7.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -411,7 +411,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 7.0
  },
  {
   "id": "orb-B-2026-11-10-SNDK",
@@ -541,16 +541,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 40.0,
+  "entry_avg": 59.469,
+  "filled_at": "2026-11-10T15:32:18.018396504Z",
   "legs": [
    {
     "id": "f76202fd-6ac4-4489-b59b-0b7569e1892c",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 40.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -575,7 +575,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 40.0
  },
  {
   "id": "orbs-B-2026-11-10-WMT",
@@ -687,16 +687,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 6.0,
+  "entry_avg": 259.0,
+  "filled_at": "2026-11-10T15:31:44.011865351Z",
   "legs": [
    {
     "id": "670191d4-5100-4322-b626-3fa3cbbd8583",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 6.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -721,7 +721,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 6.0
  },
  {
   "id": "orbs-B-2026-11-10-JPM",
@@ -760,16 +760,16 @@
   "sessions": [
    "2026-11-10"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 14.0,
+  "entry_avg": 342.24,
+  "filled_at": "2026-11-10T15:24:38.077829461Z",
   "legs": [
    {
     "id": "124bbab8-852f-436b-a2b7-82e662cc404a",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 14.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -794,7 +794,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 14.0
  },
  {
   "id": "orbs-B-2026-11-10-COST",
