@@ -1,1 +1,11 @@
-queue tqqq-2026-11-10: void: last 42.64 outside [42.77, 45.31]
+[B] placed orb long MU x2 stop_limit stop 711.93 tgt 762.66 -> 200 
+[B] placed orb long AMZN x14 stop_limit stop 269.05 tgt 279.07 -> 200 
+[B] placed orb long GOOGL x17 stop_limit stop 288.94 tgt 295.3 -> 200 
+[B] placed orb long SPCX x13 limit stop 139.56 tgt 149.55 -> 200 
+[B] placed orb long META x7 stop_limit stop 639.3 tgt 652.29 -> 200 
+[B] placed orb long SNDK x1 stop_limit stop 852.59 tgt 945.71 -> 200 
+[B] placed orb long INTC x40 stop_limit stop 58.22 tgt 61.94 -> 200 
+[B] placed orb_short short WMT x40 stop_limit stop 125.66 tgt 122.63 -> 200 
+[B] placed orb_short short MRNA x6 stop_limit stop 266.65 tgt 244.6 -> 200 
+[B] placed orb_short short JPM x14 limit stop 343.63 tgt 339.82 -> 200 
+[B] placed orb_short short COST x4 stop_limit stop 1063.73 tgt 1048.47 -> 200 

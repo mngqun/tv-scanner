@@ -3,20 +3,20 @@
   "symbol": "MSFT",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-05",
+  "date": "2026-11-10",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 559.15,
+  "level": 548.28,
   "interval": "5m",
   "opening_range": {
-    "high": 557.62,
-    "low": 547.57,
+    "high": 544.15,
+    "low": 538.84,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-05T15:24:00Z",
-  "reason": "last close $540.52 (10:15 bar), $18.63 under the level $559.15 (-3.33%)"
+  "checked_at": "2026-11-10T15:24:05Z",
+  "reason": "last close $542.21 (10:15 bar), $6.07 under the level $548.28 (-1.11%)"
 }

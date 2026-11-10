@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-09T15:24:13Z",
+  "created_at": "2026-11-10T15:24:00Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (SPCX orb 2026-11-09)",
+  "source": "trader/plan.json (SPCX orb 2026-11-10)",
   "orders": [
     {
       "symbol": "SPCX",
       "side": "buy",
-      "qty": "16",
+      "qty": "15",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "141.42",
+      "limit_price": "142.89",
       "order_class": "bracket",
-      "take_profit_limit_price": "147.50",
-      "stop_loss_stop_price": "138.38",
-      "why": "opening-range breakout on SPCX: 16 shares, bound by your $50 max loss per trade (16 x 3.04 = $48.64 at the stop)",
+      "take_profit_limit_price": "149.55",
+      "stop_loss_stop_price": "139.56",
+      "why": "opening-range breakout on SPCX: 15 shares, bound by your $50 max loss per trade (15 x 3.33 = $49.95 at the stop)",
       "plan": {
-        "entry": 141.42,
-        "stop": 138.38,
-        "target": 147.5,
-        "risk_per_share": 3.04,
-        "max_loss": 48.64,
+        "entry": 142.89,
+        "stop": 139.56,
+        "target": 149.55,
+        "risk_per_share": 3.33,
+        "max_loss": 49.95,
         "setup": "orb",
-        "entry_time": "9:50 AM",
+        "entry_time": "9:55 AM",
         "flat_by": "15:40"
       }
     }
