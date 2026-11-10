@@ -17,5 +17,9 @@
     "2026-11-09": {
         "flat_swing": true,
         "note": "eve of CPI (Tue 10 Nov 08:30 ET): no swing holds overnight"
+    },
+    "2026-11-10": {
+        "risk_usd": 50,
+        "note": "CPI 08:30 ET (HIGH): $50 risk"
     }
 }
