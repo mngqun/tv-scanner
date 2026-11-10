@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-10"
@@ -28,7 +29,11 @@
   "[B] placed orb_short short WMT x40 stop_limit stop 125.66 tgt 122.63 -> 200 ",
   "[B] placed orb_short short MRNA x6 stop_limit stop 266.65 tgt 244.6 -> 200 ",
   "[B] placed orb_short short JPM x14 limit stop 343.63 tgt 339.82 -> 200 ",
-  "[B] placed orb_short short COST x4 stop_limit stop 1063.73 tgt 1048.47 -> 200 "
+  "[B] placed orb_short short COST x4 stop_limit stop 1063.73 tgt 1048.47 -> 200 ",
+  "[B] cancel unfilled entry orb-B-2026-11-10-GOOGL (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-10-SNDK (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-10-WMT (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-10-COST (filled 0.0)"
  ],
  "errors": [
   {
