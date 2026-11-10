@@ -5,10 +5,15 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
- "queue_done": [],
- "log": [],
+ "queue_done": [
+  "tqqq-2026-11-10"
+ ],
+ "log": [
+  "queue tqqq-2026-11-10: void: last 42.64 outside [42.77, 45.31]"
+ ],
  "errors": [
   {
    "phase": "nasdaq earnings",
@@ -145,5 +150,80 @@
    }
   ],
   "placed": []
+ },
+ "skipped": [
+  {
+   "id": "tqqq-2026-11-10",
+   "why": "void: last 42.64 outside [42.77, 45.31]"
+  }
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 704,
+   "fetched": 704,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 703,
+   "hits": 280
+  },
+  "hits": 280,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 179.92,
+    "prev_close": 178.6699981689453,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "setups": [
+     "breakout_20d",
+     "reclaim_ma20"
+    ],
+    "level": 352.33,
+    "prev_close": 350.69000244140625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MSFT",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 548.28,
+    "prev_close": 545.1799926757812,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "AMZN",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 275.34,
+    "prev_close": 266.92999267578125,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 296.33,
+    "prev_close": 288.1499938964844,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 904.0,
+    "prev_close": 886.510009765625,
+    "sector": "Electronic Technology"
+   }
+  ]
  }
 }
