@@ -137,7 +137,7 @@
     "id": "653da842-0ddb-4a8e-9f2b-de3a910ffbc4",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 14.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -150,19 +150,20 @@
     "id": "4563f419-9c91-4b02-a0a3-6d97a33ed386",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "filled",
     "qty": 14.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 14.0,
+    "avg": 269.082143,
+    "filled_at": "2026-11-10T16:18:12.109929394Z",
     "stop_price": "269.05",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 14.0
+  "exit_filled": 14.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-10-GOOGL",
