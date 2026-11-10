@@ -617,8 +617,10 @@ def run_queue(day: str, st: dict, t: datetime, book: list):
 
 # ---------------------------------------------------------------- Rule C (account B)
 def nasdaq_earnings(day: str, prev: list, st: dict) -> set:
-    """Symbols reporting before today's open, any time today, or after the previous session's close (Nasdaq)."""
-    out = set()
+    """Symbols reporting before today's open, any time today, or after the previous session's close (Nasdaq).
+    If the API refuses the runner (403 on 10 Nov), use the brief's own pull in scans/context_latest.json
+    instead and record a warning, not an error."""
+    out, failed = set(), []
     for dd in [day] + prev:
         try:
             req = urllib.request.Request(f"https://api.nasdaq.com/api/calendar/earnings?date={dd}",
@@ -627,11 +629,18 @@ def nasdaq_earnings(day: str, prev: list, st: dict) -> set:
             with urllib.request.urlopen(req, timeout=20) as r:
                 rows = ((json.loads(r.read()).get("data") or {}).get("rows")) or []
             for row in rows:
-                tm = row.get("time")
-                if dd == day or tm == "time-after-hours" or tm not in ("time-pre-market",):
+                if dd == day or row.get("time") != "time-pre-market":
                     out.add(row.get("symbol"))
         except Exception as e:  # noqa: BLE001
-            st.setdefault("errors", []).append({"phase": "nasdaq earnings", "error": str(e)[:150]})
+            failed.append(f"{dd}: {str(e)[:80]}")
+    if failed:
+        ctx = load_json(ROOT / "scans" / "context_latest.json", {})
+        days = ((ctx.get("earnings") or {}).get("days")) or {}
+        for dd, v in days.items():
+            if dd == day:
+                out.update(x.get("symbol") for x in v.get("in_universe", []))
+        st.setdefault("warnings", []).append({"phase": "nasdaq earnings", "error": "; ".join(failed),
+                                              "fallback": f"context_latest.json today's list ({len(out)} symbols)"})
     return out
 
 
