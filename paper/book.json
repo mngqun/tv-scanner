@@ -306,7 +306,7 @@
     "id": "e02b0009-ff2d-4c7e-94be-0f812637a7e4",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -319,7 +319,7 @@
     "id": "4eea437d-683c-4156-993f-227589ab1c51",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -329,9 +329,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "386da26a-240a-4033-8d51-3d1f25b3d8ef",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 13.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 13.0
+  "remaining": 13.0,
+  "exit_order_ids": [
+   "386da26a-240a-4033-8d51-3d1f25b3d8ef"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-10 15:41",
+    "what": "close (flat-by) day",
+    "qty": 13,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orb-B-2026-11-10-META",
@@ -706,7 +733,7 @@
     "id": "670191d4-5100-4322-b626-3fa3cbbd8583",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 6.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -719,7 +746,7 @@
     "id": "602f512a-e769-4fa5-b0bd-9a9232237feb",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 6.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -729,9 +756,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "1f37418e-b1bc-4eb3-85cd-7a2eb19c4eb0",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 6.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 6.0
+  "remaining": 6.0,
+  "exit_order_ids": [
+   "1f37418e-b1bc-4eb3-85cd-7a2eb19c4eb0"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-10 15:41",
+    "what": "close (flat-by) day",
+    "qty": 6,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-10-JPM",

@@ -30,7 +30,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-10"
@@ -51,7 +52,9 @@
   "[B] cancel unfilled entry orb-B-2026-11-10-GOOGL (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-10-SNDK (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-10-WMT (filled 0.0)",
-  "[B] cancel unfilled entry orbs-B-2026-11-10-COST (filled 0.0)"
+  "[B] cancel unfilled entry orbs-B-2026-11-10-COST (filled 0.0)",
+  "[B] close orb-B-2026-11-10-SPCX 13 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-10-MRNA 6 (flat-by, day) -> 200"
  ],
  "errors": [
   {
@@ -896,5 +899,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
