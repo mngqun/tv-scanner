@@ -31,7 +31,8 @@
   "15:07",
   "15:56",
   "16:10",
-  "16:30"
+  "16:30",
+  "16:51"
  ],
  "queue_done": [
   "tqqq-2026-11-11"
@@ -61,6 +62,7 @@
   "[B] close scan-B-2026-11-11-AVGO 5 (flat-by, day) -> 200",
   "[B] close orbs-B-2026-11-11-PLTR 29 (flat-by, day) -> 200",
   "ledger 2026-11-11: 10 legs closed, 2 unfilled, 0 still open",
+  "ledger 2026-11-11: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-11: 0 legs closed, 0 unfilled, 0 still open"
  ],
  "warnings": [
