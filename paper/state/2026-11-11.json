@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-11"
@@ -193,6 +194,74 @@
   ],
   "placed": [
    "SITM"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 694,
+   "fetched": 694,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 693,
+   "hits": 141
+  },
+  "hits": 141,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 174.69,
+    "prev_close": 168.88999938964844,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMZN",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 272.88,
+    "prev_close": 270.8699951171875,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 914.82,
+    "prev_close": 859.989990234375,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 60.65,
+    "prev_close": 58.130001068115234,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AVGO",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 334.67,
+    "prev_close": 331.9800109863281,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 1438.88,
+    "prev_close": 1432.2900390625,
+    "sector": "Health Technology"
+   }
   ]
  }
 }
