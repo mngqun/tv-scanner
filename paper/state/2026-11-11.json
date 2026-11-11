@@ -4,11 +4,16 @@
  "ticks": [
   "09:07",
   "09:22",
-  "09:37"
+  "09:37",
+  "09:52"
  ],
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-11"
+ ],
  "log": [
-  "[B] placed rulec short SITM x1 market stop 576.1 tgt None -> 200 "
+  "[B] placed rulec short SITM x1 market stop 576.1 tgt None -> 200 ",
+  "[A] placed tqqq long SQQQ x27 limit stop 39.14 tgt 43.67 -> 200 ",
+  "[A] placed tqqq long SQQQ x28 limit stop 39.14 tgt 44.95 -> 200 "
  ],
  "warnings": [
   {
@@ -29,6 +34,30 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-11-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 27,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  },
+  {
+   "id": "tqqq-2026-11-11-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 28,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
   }
  ],
  "rulec": {
