@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "id": "rulec-B-2026-11-11-SITM",
+  "base": "rulec-B-2026-11-11-SITM",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "SITM",
+  "side": "short",
+  "qty": 1,
+  "entry_type": "market",
+  "plan_entry": 489.24,
+  "limit_price": null,
+  "stop": 576.1,
+  "target": null,
+  "placed_day": "2026-11-11",
+  "placed_at": "09:37",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Electronic Technology",
+  "planned_risk": 86.86,
+  "features": {
+   "symbol": "SITM",
+   "open": 489.24,
+   "prev_close": 444.45001220703125,
+   "atr": 43.4301,
+   "gap_pct": 10.08,
+   "gap_atr": 1.031,
+   "sector": "Electronic Technology"
+  },
+  "last_at_placement": 465.79,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "d72e019f-f72c-44f1-b38c-4fb704775932",
+  "message": null,
+  "sessions": [
+   "2026-11-11"
+  ],
+  "entry_status": "new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "d841eaf1-306d-40ff-a366-3d7c1a6b632c",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 1.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "576.1",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
+ }
+]

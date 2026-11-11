@@ -3,8 +3,167 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short SITM x1 market stop 576.1 tgt None -> 200 "
+ ],
+ "warnings": [
+  {
+   "phase": "nasdaq earnings",
+   "error": "2026-11-11: HTTP Error 403: Forbidden; 2026-11-10: HTTP Error 403: Forbidden",
+   "fallback": "context_latest.json today's list (0 symbols)"
+  }
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-11-SITM",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "SITM",
+   "side": "short",
+   "qty": 1,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "SITM",
+    "open": 489.24,
+    "prev_close": 444.45001220703125,
+    "atr": 43.4301,
+    "gap_pct": 10.08,
+    "gap_atr": 1.031,
+    "sector": "Electronic Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "CRWV",
+    "why": "earnings"
+   },
+   {
+    "symbol": "NBIS",
+    "why": "gap 11.73% / 1.00 ATR"
+   },
+   {
+    "symbol": "LITE",
+    "why": "gap 9.74% / 0.69 ATR"
+   },
+   {
+    "symbol": "COHR",
+    "why": "gap 9.43% / 0.91 ATR"
+   },
+   {
+    "symbol": "CIEN",
+    "why": "gap 7.45% / 0.72 ATR"
+   },
+   {
+    "symbol": "NVT",
+    "why": "gap 6.92% / 0.75 ATR"
+   },
+   {
+    "symbol": "DELL",
+    "why": "gap 7.84% / 0.79 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 7.58% / 0.63 ATR"
+   },
+   {
+    "symbol": "MRVL",
+    "why": "gap 8.09% / 0.67 ATR"
+   },
+   {
+    "symbol": "DOCN",
+    "why": "gap 8.11% / 0.72 ATR"
+   },
+   {
+    "symbol": "STX",
+    "why": "gap 7.99% / 0.74 ATR"
+   },
+   {
+    "symbol": "SNDK",
+    "why": "gap 7.94% / 0.63 ATR"
+   },
+   {
+    "symbol": "CRDO",
+    "why": "gap 7.77% / 0.62 ATR"
+   },
+   {
+    "symbol": "FLEX",
+    "why": "gap 5.81% / 0.57 ATR"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 7.29% / 0.62 ATR"
+   },
+   {
+    "symbol": "SMTC",
+    "why": "gap 7.67% / 0.68 ATR"
+   },
+   {
+    "symbol": "SKHY",
+    "why": "gap 7.69% / 0.94 ATR"
+   },
+   {
+    "symbol": "TER",
+    "why": "gap 7.97% / 0.82 ATR"
+   },
+   {
+    "symbol": "CLS",
+    "why": "gap 6.78% / 0.60 ATR"
+   },
+   {
+    "symbol": "MTZ",
+    "why": "gap 5.26% / 0.66 ATR"
+   },
+   {
+    "symbol": "MU",
+    "why": "gap 7.19% / 0.86 ATR"
+   },
+   {
+    "symbol": "FN",
+    "why": "gap 6.87% / 0.70 ATR"
+   },
+   {
+    "symbol": "PWR",
+    "why": "gap 5.46% / 0.76 ATR"
+   },
+   {
+    "symbol": "MTSI",
+    "why": "gap 6.19% / 0.63 ATR"
+   },
+   {
+    "symbol": "GLW",
+    "why": "gap 7.06% / 0.97 ATR"
+   },
+   {
+    "symbol": "TSEM",
+    "why": "gap 6.38% / 0.61 ATR"
+   },
+   {
+    "symbol": "LRCX",
+    "why": "gap 5.96% / 0.76 ATR"
+   },
+   {
+    "symbol": "WDC",
+    "why": "gap 6.67% / 0.68 ATR"
+   },
+   {
+    "symbol": "SMCI",
+    "why": "gap 6.59% / 0.78 ATR"
+   }
+  ],
+  "placed": [
+   "SITM"
+  ]
+ }
 }
