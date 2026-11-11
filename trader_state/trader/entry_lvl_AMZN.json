@@ -3,20 +3,20 @@
   "symbol": "AMZN",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 275.34,
+  "level": 272.88,
   "interval": "5m",
   "opening_range": {
-    "high": 271.96,
-    "low": 266.14,
+    "high": 274.87,
+    "low": 268.65,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-10T15:24:05Z",
-  "reason": "last close $272.35 (10:15 bar), $2.99 under the level $275.34 (-1.09%)"
+  "checked_at": "2026-11-11T15:23:55Z",
+  "reason": "last close $268.47 (10:15 bar), $4.41 under the level $272.88 (-1.62%)"
 }

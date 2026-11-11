@@ -3,20 +3,20 @@
   "symbol": "BE",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-03",
+  "date": "2026-11-11",
   "status": "triggered",
-  "time": "10:15 AM",
-  "bar_start": "10:10",
-  "bar_index": 8,
-  "price": 218.76,
-  "level": 218.08,
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 208.16,
+  "level": 206.5,
   "interval": "5m",
   "opening_range": {
-    "high": 218.08,
-    "low": 208.03,
+    "high": 206.5,
+    "low": 199.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-03T15:26:59Z",
-  "reason": "the 10:10 bar closed above the range high"
+  "checked_at": "2026-11-11T15:23:50Z",
+  "reason": "the 10:00 bar closed above the range high"
 }

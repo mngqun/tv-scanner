@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "LLY",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-11",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 1438.88,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1427.75,
+    "low": 1414.37,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-11T15:23:59Z",
+  "reason": "last close $1421.94 (10:15 bar), $16.94 under the level $1438.88 (-1.18%)"
+}

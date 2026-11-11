@@ -1,31 +1,31 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-03T15:27:00Z",
+  "created_at": "2026-11-11T15:23:52Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (BE orb 2026-11-03)",
+  "source": "trader/plan.json (BE orb 2026-11-11)",
   "orders": [
     {
       "symbol": "BE",
       "side": "buy",
-      "qty": "8",
+      "qty": "9",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "218.76",
+      "limit_price": "208.16",
       "order_class": "bracket",
-      "take_profit_limit_price": "230.18",
-      "stop_loss_stop_price": "213.05",
-      "why": "opening-range breakout on BE: 8 shares, bound by your $50 max loss per trade (8 x 5.71 = $45.68 at the stop)",
+      "take_profit_limit_price": "218.98",
+      "stop_loss_stop_price": "202.75",
+      "why": "opening-range breakout on BE: 9 shares, bound by your $50 max loss per trade (9 x 5.41 = $48.69 at the stop)",
       "plan": {
-        "entry": 218.76,
-        "stop": 213.05,
-        "target": 230.18,
-        "risk_per_share": 5.71,
-        "max_loss": 45.68,
+        "entry": 208.16,
+        "stop": 202.75,
+        "target": 218.98,
+        "risk_per_share": 5.41,
+        "max_loss": 48.69,
         "setup": "orb",
-        "entry_time": "10:15 AM",
-        "flat_by": "14:50"
+        "entry_time": "10:05 AM",
+        "flat_by": "15:40"
       }
     }
   ]

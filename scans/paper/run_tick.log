@@ -1,0 +1,9 @@
+[B] placed orb long AAPL x14 stop_limit stop 351.38 tgt 358.28 -> 200 
+[B] placed orb long INTC x56 stop_limit stop 61.6 tgt 64.24 -> 200 
+[B] placed orb long NBIS x11 stop_limit stop 151.11 tgt 164.25 -> 200 
+[B] placed orb long CRWV x15 stop_limit stop 55.6 tgt 65.26 -> 200 
+[B] placed scan long AVGO x5 stop_limit stop 340.3 tgt 366.88 -> 200 
+[B] placed orb_short short SPCX x28 stop_limit stop 142.9 tgt 132.52 -> 200 
+[B] placed orb_short short TSM x12 stop_limit stop 412.44 tgt 401.29 -> 200 
+[B] placed orb_short short PLTR x29 stop_limit stop 174.14 tgt 166.38 -> 200 
+[B] placed orb_short short GEV x4 stop_limit stop 825.99 tgt 759.61 -> 200 

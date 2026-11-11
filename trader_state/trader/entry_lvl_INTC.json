@@ -3,20 +3,20 @@
   "symbol": "INTC",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "status": "triggered",
-  "time": "9:50 AM",
-  "bar_start": "09:45",
-  "bar_index": 3,
-  "price": 57.59,
-  "level": 57.32,
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 61.19,
+  "level": 60.65,
   "interval": "5m",
   "opening_range": {
-    "high": 57.54,
-    "low": 55.83,
+    "high": 62.24,
+    "low": 60.96,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-09T15:24:24Z",
-  "reason": "the 9:45 bar closed above the level"
+  "checked_at": "2026-11-11T15:23:56Z",
+  "reason": "the 9:40 bar closed above the level"
 }

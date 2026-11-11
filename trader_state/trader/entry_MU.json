@@ -3,20 +3,20 @@
   "symbol": "MU",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "status": "triggered",
   "time": "9:55 AM",
   "bar_start": "09:50",
   "bar_index": 4,
-  "price": 728.84,
-  "level": 721.5,
+  "price": 779.98,
+  "level": 779.49,
   "interval": "5m",
   "opening_range": {
-    "high": 721.5,
-    "low": 702.36,
+    "high": 779.49,
+    "low": 763.05,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-10T15:23:53Z",
+  "checked_at": "2026-11-11T15:23:44Z",
   "reason": "the 9:50 bar closed above the range high"
 }
