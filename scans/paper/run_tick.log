@@ -1,0 +1,9 @@
+[B] close rulec-B-2026-11-11-SITM 1 (close (market near the close; paper MOC unsupported), day) -> 200
+[A] close tqqq-2026-11-11-t1 27 (flat-by, day) -> 200
+[A] close tqqq-2026-11-11-t2 28 (flat-by, day) -> 200
+[B] close orb-B-2026-11-11-AAPL 14 (flat-by, day) -> 200
+[B] close orb-B-2026-11-11-INTC 56 (flat-by, day) -> 200
+[B] close orb-B-2026-11-11-NBIS 11 (flat-by, day) -> 200
+[B] close orb-B-2026-11-11-CRWV 15 (flat-by, day) -> 200
+[B] close scan-B-2026-11-11-AVGO 5 (flat-by, day) -> 200
+[B] close orbs-B-2026-11-11-PLTR 29 (flat-by, day) -> 200
