@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:38"
  ],
  "queue_done": [
   "tqqq-2026-11-11"
@@ -28,7 +29,9 @@
   "[B] placed orb_short short SPCX x28 stop_limit stop 142.9 tgt 132.52 -> 200 ",
   "[B] placed orb_short short TSM x12 stop_limit stop 412.44 tgt 401.29 -> 200 ",
   "[B] placed orb_short short PLTR x29 stop_limit stop 174.14 tgt 166.38 -> 200 ",
-  "[B] placed orb_short short GEV x4 stop_limit stop 825.99 tgt 759.61 -> 200 "
+  "[B] placed orb_short short GEV x4 stop_limit stop 825.99 tgt 759.61 -> 200 ",
+  "[B] cancel unfilled entry orbs-B-2026-11-11-SPCX (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-11-GEV (filled 0.0)"
  ],
  "warnings": [
   {
