@@ -3,8 +3,136 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [],
+  "rejected": [
+   {
+    "symbol": "TTEK",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "HUBS",
+    "why": "gap 2.07% / 0.30 ATR"
+   },
+   {
+    "symbol": "AVGO",
+    "why": "gap 3.35% / 0.65 ATR"
+   },
+   {
+    "symbol": "AMD",
+    "why": "gap 2.96% / 0.38 ATR"
+   },
+   {
+    "symbol": "TRI",
+    "why": "gap 0.97% / 0.20 ATR"
+   },
+   {
+    "symbol": "AFL",
+    "why": "gap 1.20% / 0.62 ATR"
+   },
+   {
+    "symbol": "CME",
+    "why": "gap 1.33% / 0.59 ATR"
+   },
+   {
+    "symbol": "TAK",
+    "why": "gap 1.73% / 0.77 ATR"
+   },
+   {
+    "symbol": "SONY",
+    "why": "gap 1.85% / 0.74 ATR"
+   },
+   {
+    "symbol": "HIG",
+    "why": "gap 1.57% / 0.65 ATR"
+   },
+   {
+    "symbol": "OVV",
+    "why": "gap 0.66% / 0.16 ATR"
+   },
+   {
+    "symbol": "BMY",
+    "why": "gap 1.93% / 0.74 ATR"
+   },
+   {
+    "symbol": "TMUS",
+    "why": "gap 1.23% / 0.32 ATR"
+   },
+   {
+    "symbol": "MNST",
+    "why": "gap 1.08% / 0.37 ATR"
+   },
+   {
+    "symbol": "RSG",
+    "why": "gap 1.08% / 0.47 ATR"
+   },
+   {
+    "symbol": "ABBV",
+    "why": "gap 1.39% / 0.56 ATR"
+   },
+   {
+    "symbol": "EQNR",
+    "why": "gap 1.45% / 0.37 ATR"
+   },
+   {
+    "symbol": "ICE",
+    "why": "gap 0.43% / 0.17 ATR"
+   },
+   {
+    "symbol": "CHTR",
+    "why": "gap 1.34% / 0.26 ATR"
+   },
+   {
+    "symbol": "BJ",
+    "why": "gap 1.66% / 0.72 ATR"
+   },
+   {
+    "symbol": "PPG",
+    "why": "gap -0.02% / -0.00 ATR"
+   },
+   {
+    "symbol": "CMCSA",
+    "why": "gap 1.00% / 0.33 ATR"
+   },
+   {
+    "symbol": "ADP",
+    "why": "gap 1.43% / 0.53 ATR"
+   },
+   {
+    "symbol": "BURL",
+    "why": "gap -1.78% / -0.46 ATR"
+   },
+   {
+    "symbol": "TGT",
+    "why": "gap 1.44% / 0.40 ATR"
+   },
+   {
+    "symbol": "PAYX",
+    "why": "gap 1.34% / 0.43 ATR"
+   },
+   {
+    "symbol": "ACGL",
+    "why": "gap 1.55% / 0.62 ATR"
+   },
+   {
+    "symbol": "PODD",
+    "why": "gap 0.26% / 0.06 ATR"
+   },
+   {
+    "symbol": "KHC",
+    "why": "gap 1.36% / 0.47 ATR"
+   },
+   {
+    "symbol": "ORLY",
+    "why": "gap 1.01% / 0.37 ATR"
+   }
+  ],
+  "placed": []
+ }
 }
