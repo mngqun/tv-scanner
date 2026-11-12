@@ -448,7 +448,7 @@
     "id": "6445380e-9c3d-4fe0-94ec-65ad17958af5",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 21.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -461,19 +461,20 @@
     "id": "22e55f8b-f28b-44ad-8a94-92e3407051a9",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "filled",
     "qty": 21.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 21.0,
+    "avg": 177.214762,
+    "filled_at": "2026-11-12T18:53:10.346285632Z",
     "stop_price": "177.24",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 21.0
+  "exit_filled": 21.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-12-AMD",
