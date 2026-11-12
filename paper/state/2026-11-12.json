@@ -4,10 +4,16 @@
  "ticks": [
   "09:07",
   "09:22",
-  "09:37"
+  "09:37",
+  "09:52"
  ],
- "queue_done": [],
- "log": [],
+ "queue_done": [
+  "tqqq-2026-11-12"
+ ],
+ "log": [
+  "[A] placed tqqq long SQQQ x31 limit stop 40.04 tgt 44.07 -> 200 ",
+  "[A] placed tqqq long SQQQ x31 limit stop 40.04 tgt 44.43 -> 200 "
+ ],
  "rulec": {
   "at": "09:37",
   "candidates": [],
@@ -134,5 +140,31 @@
    }
   ],
   "placed": []
- }
+ },
+ "placed": [
+  {
+   "id": "tqqq-2026-11-12-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 31,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  },
+  {
+   "id": "tqqq-2026-11-12-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 31,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  }
+ ]
 }
