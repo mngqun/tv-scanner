@@ -32,16 +32,16 @@
    "2026-11-12"
   ],
   "be_target": "tqqq-2026-11-12-t2",
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 31.0,
+  "entry_avg": 41.100968,
+  "filled_at": "2026-11-12T14:52:20.801423413Z",
   "legs": [
    {
     "id": "f0d3e7d3-44c9-4d5d-8c69-64eeabcff374",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 31.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -66,7 +66,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 31.0
  },
  {
   "id": "tqqq-2026-11-12-t2",
@@ -100,16 +100,16 @@
   "sessions": [
    "2026-11-12"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 31.0,
+  "entry_avg": 41.111613,
+  "filled_at": "2026-11-12T14:52:23.182600265Z",
   "legs": [
    {
     "id": "484c9b8b-5dad-4597-a666-33423331717c",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 31.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -134,6 +134,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 31.0
  }
 ]

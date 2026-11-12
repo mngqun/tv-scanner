@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-12"
@@ -166,5 +167,74 @@
    "message": null,
    "placed_at": "09:52"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 691,
+   "fetched": 691,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 691,
+   "hits": 223
+  },
+  "hits": 223,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 177.54,
+    "prev_close": 173.72999572753906,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 567.65,
+    "prev_close": 552.9000244140625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 355.91,
+    "prev_close": 355.6300048828125,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "TSLA",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 395.43,
+    "prev_close": 390.8399963378906,
+    "sector": "Consumer Durables"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 1011.05,
+    "prev_close": 977.6900024414062,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 64.06,
+    "prev_close": 62.5,
+    "sector": "Electronic Technology"
+   }
+  ]
+ }
 }
