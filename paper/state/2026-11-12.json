@@ -6,14 +6,30 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-12"
  ],
  "log": [
   "[A] placed tqqq long SQQQ x31 limit stop 40.04 tgt 44.07 -> 200 ",
-  "[A] placed tqqq long SQQQ x31 limit stop 40.04 tgt 44.43 -> 200 "
+  "[A] placed tqqq long SQQQ x31 limit stop 40.04 tgt 44.43 -> 200 ",
+  "[B] placed orb long MSFT x9 stop_limit stop 523.17 tgt 531.3 -> 200 ",
+  "[B] placed orb long GOOG x17 stop_limit stop 291.96 tgt 296.97 -> 200 ",
+  "[B] placed orb long MRVL x12 stop_limit stop 160.03 tgt 172.33 -> 200 ",
+  "[B] placed orb long QCOM x21 stop_limit stop 177.24 tgt 184.26 -> 200 ",
+  "[B] placed scan long AMD x1 stop_limit stop 543.03 tgt 621.9 -> 200 ",
+  "[B] placed scan long AAPL x12 stop_limit stop 352.95 tgt 364.71 -> 200 ",
+  "[B] placed scan long TSLA x6 stop_limit stop 387.28 tgt 411.94 -> 200 ",
+  "[B] placed orb_short short META x7 stop_limit stop 625.91 tgt 605.9 -> 200 ",
+  "[B] placed orb_short short V x11 stop_limit stop 427.67 tgt 418.37 -> 200 ",
+  "[B] placed orb_short short COST x4 stop_limit stop 1096.58 tgt 1075.2 -> 200 ",
+  "[B] placed orb_short short MA x7 stop_limit stop 663.84 tgt 650.83 -> 200 ",
+  "[B] placed orb_short short JNJ x17 stop_limit stop 283.74 tgt 277.46 -> 200 ",
+  "[B] placed orb_short short MPWR x1 stop_limit stop 1438.11 tgt 1356.27 -> 200 ",
+  "[B] placed orb_short short NXPI x11 stop_limit stop 269.67 tgt 256.12 -> 200 ",
+  "[B] placed orb_short short PG x29 stop_limit stop 169.4 tgt 167.12 -> 200 "
  ],
  "rulec": {
   "at": "09:37",
@@ -166,6 +182,186 @@
    "http": 200,
    "message": null,
    "placed_at": "09:52"
+  },
+  {
+   "id": "orb-B-2026-11-12-MSFT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MSFT",
+   "side": "long",
+   "qty": 9,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-12-GOOG",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 17,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-12-MRVL",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MRVL",
+   "side": "long",
+   "qty": 12,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-12-QCOM",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "QCOM",
+   "side": "long",
+   "qty": 21,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-12-AMD",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "AMD",
+   "side": "long",
+   "qty": 1,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-12-AAPL",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "AAPL",
+   "side": "long",
+   "qty": 12,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-12-TSLA",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "TSLA",
+   "side": "long",
+   "qty": 6,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-META",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "META",
+   "side": "short",
+   "qty": 7,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-V",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "V",
+   "side": "short",
+   "qty": 11,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-COST",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "COST",
+   "side": "short",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-MA",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "MA",
+   "side": "short",
+   "qty": 7,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-JNJ",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "JNJ",
+   "side": "short",
+   "qty": 17,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-MPWR",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "MPWR",
+   "side": "short",
+   "qty": 1,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-NXPI",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "NXPI",
+   "side": "short",
+   "qty": 11,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-12-PG",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "PG",
+   "side": "short",
+   "qty": 29,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "scan": {
@@ -236,5 +432,502 @@
     "sector": "Electronic Technology"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 24,
+  "risk_usd": 50.0,
+  "plans": [
+   {
+    "symbol": "META",
+    "trigger": "10:05",
+    "or_high": 630.32,
+    "or_low": 621.5,
+    "entry": 619.24,
+    "stop": 625.91,
+    "target": 605.9,
+    "dollar_vol": 11572652095.010002,
+    "earnings_today": false
+   },
+   {
+    "symbol": "V",
+    "trigger": "09:55",
+    "or_high": 430.18,
+    "or_low": 425.16,
+    "entry": 424.57,
+    "stop": 427.67,
+    "target": 418.37,
+    "dollar_vol": 3040809376.259,
+    "earnings_today": false
+   },
+   {
+    "symbol": "COST",
+    "trigger": "09:55",
+    "or_high": 1102.84,
+    "or_low": 1090.31,
+    "entry": 1089.45,
+    "stop": 1096.58,
+    "target": 1075.2,
+    "dollar_vol": 2696507596.887,
+    "earnings_today": false
+   },
+   {
+    "symbol": "MA",
+    "trigger": "09:55",
+    "or_high": 667.505,
+    "or_low": 660.17,
+    "entry": 659.5,
+    "stop": 663.84,
+    "target": 650.83,
+    "dollar_vol": 2123136044.457,
+    "earnings_today": false
+   },
+   {
+    "symbol": "JNJ",
+    "trigger": "09:55",
+    "or_high": 285.48,
+    "or_low": 282.0,
+    "entry": 281.65,
+    "stop": 283.74,
+    "target": 277.46,
+    "dollar_vol": 2039409134.1000001,
+    "earnings_today": false
+   },
+   {
+    "symbol": "MPWR",
+    "trigger": "10:05",
+    "or_high": 1464.6308,
+    "or_low": 1411.59,
+    "entry": 1410.83,
+    "stop": 1438.11,
+    "target": 1356.27,
+    "dollar_vol": 1988010090.1515,
+    "earnings_today": false
+   },
+   {
+    "symbol": "NXPI",
+    "trigger": "10:05",
+    "or_high": 273.44,
+    "or_low": 265.895,
+    "entry": 265.15,
+    "stop": 269.67,
+    "target": 256.12,
+    "dollar_vol": 1645511872.9439998,
+    "earnings_today": false
+   },
+   {
+    "symbol": "PG",
+    "trigger": "09:50",
+    "or_high": 169.95,
+    "or_low": 168.851,
+    "entry": 168.64,
+    "stop": 169.4,
+    "target": 167.12,
+    "dollar_vol": 1628193759.808,
+    "earnings_today": false
+   },
+   {
+    "symbol": "HD",
+    "trigger": "09:55",
+    "or_high": 356.46,
+    "or_low": 351.845,
+    "entry": 351.76,
+    "stop": 354.15,
+    "target": 346.98,
+    "dollar_vol": 1619156436.836,
+    "earnings_today": false
+   },
+   {
+    "symbol": "GE",
+    "trigger": "09:55",
+    "or_high": 343.59,
+    "or_low": 337.5,
+    "entry": 336.5,
+    "stop": 340.55,
+    "target": 328.41,
+    "dollar_vol": 1530716216.1795,
+    "earnings_today": false
+   },
+   {
+    "symbol": "UBER",
+    "trigger": "10:05",
+    "or_high": 70.8,
+    "or_low": 69.39,
+    "entry": 69.26,
+    "stop": 70.1,
+    "target": 67.59,
+    "dollar_vol": 1325314492.9,
+    "earnings_today": false
+   },
+   {
+    "symbol": "NEE",
+    "trigger": "09:55",
+    "or_high": 87.08,
+    "or_low": 86.6,
+    "entry": 86.29,
+    "stop": 86.84,
+    "target": 85.19,
+    "dollar_vol": 1234328473.2,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "mixed",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 757.8800048828125,
+   "or_low": 753.6699829101562,
+   "last": 757.0700073242188,
+   "state": "inside"
+  },
+  "counts": {
+   "requested": 689,
+   "fetched": 689,
+   "unusable": 18,
+   "illiquid": 0,
+   "scanned": 671,
+   "candidates": 343,
+   "confirmed": 200,
+   "unconfirmed": 143,
+   "hits": 72
+  },
+  "plans": [
+   {
+    "symbol": "NVDA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 162.66,
+    "stop": 155.56,
+    "target": 176.86,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.0 % vs stop first 0.4 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 2,
+     "stop": 14,
+     "avg_R": -0.199
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history"
+    ],
+    "B_skip": "last 164.86 outside entry window (155.56..164.08)"
+   },
+   {
+    "symbol": "MSFT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 525.88,
+    "stop": 523.17,
+    "target": 531.3,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 33 % (target first 28.0 % vs stop first 57.9 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 2,
+     "stop": 10,
+     "avg_R": -0.004
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history"
+    ]
+   },
+   {
+    "symbol": "AMZN",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 273.26,
+    "stop": 270.15,
+    "target": 279.48,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 14 % (target first 4.8 % vs stop first 30.4 %).",
+    "hist": {
+     "triggered": 35,
+     "target": 5,
+     "stop": 19,
+     "avg_R": -0.194
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "history"
+    ],
+    "B_skip": "last 269.145 outside entry window (270.15..273.88)"
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 293.63,
+    "stop": 291.96,
+    "target": 296.97,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 24 % (target first 20.3 % vs stop first 63.5 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 3,
+     "stop": 17,
+     "avg_R": -0.214
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history"
+    ]
+   },
+   {
+    "symbol": "MRVL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 164.13,
+    "stop": 160.03,
+    "target": 172.33,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 15 % (target first 6.6 % vs stop first 36.4 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 2,
+     "stop": 13,
+     "avg_R": -0.049
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Lumentum Trades Below Marvell\u2019s Buyout Offer. Is the Gap a Bargain?",
+     "deal: Weak SpaceX Stock Is Complicating Elon Musk\u2019s Merger Math"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "news: deal: Lumentum Trades Below Marvell\u2019s Buyout Offer. Is the Gap a Bargain?; deal: Weak SpaceX Stock Is Complicating Elon "
+    ]
+   },
+   {
+    "symbol": "GEV",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 815.2,
+    "stop": 797.08,
+    "target": 851.44,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 11 % (target first 3.7 % vs stop first 28.4 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 5,
+     "stop": 12,
+     "avg_R": -0.058
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Data Center Power Suppliers Post Backlog and Guidance Updates Alongside a Fuel C"
+    ],
+    "sector": "Producer Manufacturing",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "news: deal: Data Center Power Suppliers Post Backlog and Guidance Updates Alongside a Fuel C"
+    ],
+    "B_skip": "last 820.0 outside entry window (797.08..818.82)"
+   },
+   {
+    "symbol": "STX",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 536.97,
+    "stop": 526.44,
+    "target": 558.03,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 29 % (target first 18.9 % vs stop first 47.1 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 4,
+     "stop": 15,
+     "avg_R": -0.032
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history"
+    ],
+    "B_skip": "last 544.22 outside entry window (526.44..539.08)"
+   },
+   {
+    "symbol": "QCOM",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 179.58,
+    "stop": 177.24,
+    "target": 184.26,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 32 % (target first 23.6 % vs stop first 50.6 %).",
+    "hist": {
+     "triggered": 36,
+     "target": 3,
+     "stop": 18,
+     "avg_R": -0.204
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Qualcomm CEO: Elon Musk is serious about SpaceX's cellular network ambitions",
+     "deal: Qualcomm CEO on SpaceX deal: 'It's a great partnership' that will drive 'innovat"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "news: deal: Qualcomm CEO: Elon Musk is serious about SpaceX's cellular network ambitions; deal: Qualcomm CEO on SpaceX deal: '"
+    ]
+   },
+   {
+    "symbol": "NVDA",
+    "arm": "scan",
+    "setup": "level:oversold+oversold_bounce",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": "9:45 AM",
+    "entry": 569.32,
+    "stop": 543.03,
+    "target": 621.9,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.1 % vs stop first 4.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Fermi\u2019s New AI Deal Softens the Blow of a $6.5 Billion Setback"
+    ],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:45 AM",
+    "entry": 356.87,
+    "stop": 352.95,
+    "target": 364.71,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 16 % (target first 5.0 % vs stop first 26.2 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "TSLA",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": "9:55 AM",
+    "entry": 395.5,
+    "stop": 387.28,
+    "target": 411.94,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 7 % (target first 1.1 % vs stop first 14.9 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: How the SpaceX Stock Slump Complicates Elon Musk\u2019s Tesla Merger"
+    ],
+    "sector": "Consumer Durables"
+   },
+   {
+    "symbol": "SNDK",
+    "arm": "scan",
+    "setup": "level:oversold_bounce",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold_bounce",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   }
+  ],
+  "news_status": 0
  }
 }

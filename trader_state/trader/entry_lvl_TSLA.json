@@ -3,20 +3,20 @@
   "symbol": "TSLA",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-05",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 392.04,
+  "date": "2026-11-12",
+  "status": "triggered",
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 395.5,
+  "level": 395.43,
   "interval": "5m",
   "opening_range": {
-    "high": 371.85,
-    "low": 353.82,
+    "high": 396.2,
+    "low": 385.2,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-05T15:24:00Z",
-  "reason": "last close $349.38 (10:15 bar), $42.66 under the level $392.04 (-10.88%)"
+  "checked_at": "2026-11-12T15:24:20Z",
+  "reason": "the 9:50 bar closed above the level"
 }

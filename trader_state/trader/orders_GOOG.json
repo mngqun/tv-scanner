@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-04T15:23:58Z",
+  "created_at": "2026-11-12T15:24:09Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (GOOG orb 2026-11-04)",
+  "source": "trader/plan.json (GOOG orb 2026-11-12)",
   "orders": [
     {
       "symbol": "GOOG",
       "side": "buy",
-      "qty": "13",
+      "qty": "17",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "288.57",
+      "limit_price": "293.63",
       "order_class": "bracket",
-      "take_profit_limit_price": "296.23",
-      "stop_loss_stop_price": "284.74",
-      "why": "opening-range breakout on GOOG: 13 shares, bound by your $50 max loss per trade (13 x 3.83 = $49.79 at the stop)",
+      "take_profit_limit_price": "296.97",
+      "stop_loss_stop_price": "291.96",
+      "why": "opening-range breakout on GOOG: 17 shares, bound by your position cap (17 x 1.67 = $28.39 at the stop)",
       "plan": {
-        "entry": 288.57,
-        "stop": 284.74,
-        "target": 296.23,
-        "risk_per_share": 3.83,
-        "max_loss": 49.79,
+        "entry": 293.63,
+        "stop": 291.96,
+        "target": 296.97,
+        "risk_per_share": 1.67,
+        "max_loss": 28.39,
         "setup": "orb",
-        "entry_time": "9:55 AM",
+        "entry_time": "10:00 AM",
         "flat_by": "15:40"
       }
     }

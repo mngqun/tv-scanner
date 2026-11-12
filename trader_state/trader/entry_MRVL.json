@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MRVL",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-12",
+  "status": "triggered",
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 164.13,
+  "level": 164.1,
+  "interval": "5m",
+  "opening_range": {
+    "high": 164.1,
+    "low": 155.97,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-12T15:24:10Z",
+  "reason": "the 9:55 bar closed above the range high"
+}

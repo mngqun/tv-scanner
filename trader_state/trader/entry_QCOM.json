@@ -3,20 +3,20 @@
   "symbol": "QCOM",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-05",
+  "date": "2026-11-12",
   "status": "triggered",
   "time": "9:50 AM",
   "bar_start": "09:45",
   "bar_index": 3,
-  "price": 157.77,
-  "level": 157.5,
+  "price": 179.58,
+  "level": 179.49,
   "interval": "5m",
   "opening_range": {
-    "high": 157.5,
-    "low": 149.09,
+    "high": 179.49,
+    "low": 175.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-05T15:23:53Z",
+  "checked_at": "2026-11-12T15:24:14Z",
   "reason": "the 9:45 bar closed above the range high"
 }

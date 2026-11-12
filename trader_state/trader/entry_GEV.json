@@ -3,20 +3,20 @@
   "symbol": "GEV",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-29",
+  "date": "2026-11-12",
   "status": "triggered",
-  "time": "10:10 AM",
-  "bar_start": "10:05",
-  "bar_index": 7,
-  "price": 900.31,
-  "level": 897.76,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 815.2,
+  "level": 810.54,
   "interval": "5m",
   "opening_range": {
-    "high": 897.76,
-    "low": 860.0,
+    "high": 810.54,
+    "low": 783.62,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-29T14:55:57Z",
-  "reason": "the 10:05 bar closed above the range high"
+  "checked_at": "2026-11-12T15:24:11Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

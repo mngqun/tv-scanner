@@ -3,20 +3,20 @@
   "symbol": "AAPL",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-10",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 352.33,
+  "date": "2026-11-12",
+  "status": "triggered",
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 356.87,
+  "level": 355.91,
   "interval": "5m",
   "opening_range": {
-    "high": 353.87,
-    "low": 350.11,
+    "high": 359.02,
+    "low": 355.92,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-10T15:24:04Z",
-  "reason": "last close $346.89 (10:15 bar), $5.44 under the level $352.33 (-1.54%)"
+  "checked_at": "2026-11-12T15:24:18Z",
+  "reason": "the 9:40 bar closed above the level"
 }
