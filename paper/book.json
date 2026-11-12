@@ -264,16 +264,16 @@
   "sessions": [
    "2026-11-12"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 17.0,
+  "entry_avg": 293.684706,
+  "filled_at": "2026-11-12T15:55:29.045675148Z",
   "legs": [
    {
     "id": "4bee8008-781d-45bc-880b-6a9d4b6914f2",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 17.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -298,7 +298,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 17.0
  },
  {
   "id": "orb-B-2026-11-12-MRVL",
