@@ -38,7 +38,8 @@
   "16:33",
   "16:49",
   "17:51",
-  "20:27"
+  "20:27",
+  "20:46"
  ],
  "queue_done": [
   "tqqq-2026-11-12"
@@ -72,6 +73,7 @@
   "[B] close scan-B-2026-11-12-AAPL 12 (flat-by, day) -> 200",
   "[B] close orbs-B-2026-11-12-PG 29 (flat-by, day) -> 200",
   "ledger 2026-11-12: 11 legs closed, 6 unfilled, 0 still open",
+  "ledger 2026-11-12: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-12: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-12: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-12: 0 legs closed, 0 unfilled, 0 still open",
