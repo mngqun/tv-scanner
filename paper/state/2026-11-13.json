@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-13"
@@ -29,7 +30,12 @@
   "[B] placed orb long MA x7 stop_limit stop 657.74 tgt 666.23 -> 200 ",
   "[B] placed scan long APP x4 stop_limit stop 400.04 tgt 436.97 -> 200 ",
   "[B] placed scan long COST x4 stop_limit stop 1093.31 tgt 1128.29 -> 200 ",
-  "[B] placed orb_short short TSLA x10 limit stop 396.21 tgt 370.69 -> 200 "
+  "[B] placed orb_short short TSLA x10 limit stop 396.21 tgt 370.69 -> 200 ",
+  "[A] cancel unfilled entry tqqq-2026-11-13-t1 (filled 0.0)",
+  "[A] cancel unfilled entry tqqq-2026-11-13-t2 (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-13-APP (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-13-MRNA (filled 0.0)",
+  "[B] cancel unfilled entry scan-B-2026-11-13-APP (filled 0.0)"
  ],
  "rulec": {
   "at": "09:37",

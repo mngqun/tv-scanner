@@ -32,7 +32,7 @@
    "2026-11-13"
   ],
   "be_target": "tqqq-2026-11-13-t2",
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -41,7 +41,7 @@
     "id": "8d69ace3-0357-400e-ab15-c7e5e9b69dae",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 30.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -54,7 +54,7 @@
     "id": "13f76e6a-2252-4b25-94d3-9093e90a0884",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 30.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -66,7 +66,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-13-t2",
@@ -100,7 +102,7 @@
   "sessions": [
    "2026-11-13"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -109,7 +111,7 @@
     "id": "8d0790bc-fd00-4a01-9ec4-96eadd7a51de",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 30.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -122,7 +124,7 @@
     "id": "a11814cd-0217-452e-b086-95b7ba97af70",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 30.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -134,7 +136,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-13-MSFT",
@@ -268,7 +272,7 @@
   "sessions": [
    "2026-11-13"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -277,7 +281,7 @@
     "id": "d3361a6b-b51d-44dc-9965-c54343c1184f",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -290,7 +294,7 @@
     "id": "e2cfec6c-03ce-44c6-8bd4-6c9267721c54",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -302,7 +306,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-13-V",
@@ -600,7 +606,7 @@
   "sessions": [
    "2026-11-13"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -609,7 +615,7 @@
     "id": "825a2616-4126-402c-acfc-6891ce33bcef",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -622,7 +628,7 @@
     "id": "27f38125-c345-487a-9a1b-2811c1b92bee",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -634,7 +640,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-13-MA",
@@ -766,7 +774,7 @@
   "sessions": [
    "2026-11-13"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -775,7 +783,7 @@
     "id": "47f31eb4-b347-4c8c-861f-996946508a84",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -788,7 +796,7 @@
     "id": "7a9b3815-b7b1-4963-bed9-ad4d9f834124",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -800,7 +808,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-13-COST",
