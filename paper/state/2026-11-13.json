@@ -36,7 +36,8 @@
   "15:52",
   "15:57",
   "16:10",
-  "16:22"
+  "16:22",
+  "17:50"
  ],
  "queue_done": [
   "tqqq-2026-11-13"
@@ -68,6 +69,7 @@
   "[B] close scan-B-2026-11-13-COST 4 (flat-by, day) -> 200",
   "[B] close orbs-B-2026-11-13-TSLA 10 (flat-by, day) -> 200",
   "ledger 2026-11-13: 7 legs closed, 5 unfilled, 0 still open",
+  "ledger 2026-11-13: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-13: 0 legs closed, 0 unfilled, 0 still open"
  ],
  "rulec": {
