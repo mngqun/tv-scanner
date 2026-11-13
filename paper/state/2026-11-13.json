@@ -3,8 +3,136 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [],
+  "rejected": [
+   {
+    "symbol": "CBRS",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "SAIL",
+    "why": "gap 2.48% / 0.41 ATR"
+   },
+   {
+    "symbol": "RBRK",
+    "why": "gap 2.02% / 0.26 ATR"
+   },
+   {
+    "symbol": "SKM",
+    "why": "gap 2.30% / 0.57 ATR"
+   },
+   {
+    "symbol": "PANW",
+    "why": "gap 2.82% / 0.46 ATR"
+   },
+   {
+    "symbol": "ZTO",
+    "why": "gap 1.27% / 0.67 ATR"
+   },
+   {
+    "symbol": "CLS",
+    "why": "gap 1.70% / 0.17 ATR"
+   },
+   {
+    "symbol": "CRWD",
+    "why": "gap 2.45% / 0.39 ATR"
+   },
+   {
+    "symbol": "NVT",
+    "why": "gap 2.43% / 0.30 ATR"
+   },
+   {
+    "symbol": "ADSK",
+    "why": "gap 2.50% / 0.71 ATR"
+   },
+   {
+    "symbol": "WDAY",
+    "why": "gap 1.59% / 0.41 ATR"
+   },
+   {
+    "symbol": "FMS",
+    "why": "gap 2.36% / 0.81 ATR"
+   },
+   {
+    "symbol": "NVDA",
+    "why": "gap 2.23% / 0.35 ATR"
+   },
+   {
+    "symbol": "DDOG",
+    "why": "gap 2.05% / 0.24 ATR"
+   },
+   {
+    "symbol": "FROG",
+    "why": "gap 1.27% / 0.15 ATR"
+   },
+   {
+    "symbol": "OKTA",
+    "why": "gap 1.75% / 0.22 ATR"
+   },
+   {
+    "symbol": "CG",
+    "why": "gap 0.74% / 0.19 ATR"
+   },
+   {
+    "symbol": "ZS",
+    "why": "gap 2.15% / 0.32 ATR"
+   },
+   {
+    "symbol": "SOLS",
+    "why": "gap 0.56% / 0.12 ATR"
+   },
+   {
+    "symbol": "ECL",
+    "why": "gap 1.70% / 0.68 ATR"
+   },
+   {
+    "symbol": "BALL",
+    "why": "gap 0.57% / 0.17 ATR"
+   },
+   {
+    "symbol": "IOT",
+    "why": "gap 1.68% / 0.39 ATR"
+   },
+   {
+    "symbol": "TAK",
+    "why": "gap 1.70% / 0.74 ATR"
+   },
+   {
+    "symbol": "TWLO",
+    "why": "gap 0.49% / 0.07 ATR"
+   },
+   {
+    "symbol": "RVTY",
+    "why": "gap 1.90% / 0.36 ATR"
+   },
+   {
+    "symbol": "DOCN",
+    "why": "gap 0.52% / 0.05 ATR"
+   },
+   {
+    "symbol": "CCJ",
+    "why": "gap 0.49% / 0.09 ATR"
+   },
+   {
+    "symbol": "DTM",
+    "why": "gap 1.12% / 0.29 ATR"
+   },
+   {
+    "symbol": "IQV",
+    "why": "gap 0.33% / 0.09 ATR"
+   },
+   {
+    "symbol": "FRO",
+    "why": "gap 1.88% / 0.33 ATR"
+   }
+  ],
+  "placed": []
+ }
 }
