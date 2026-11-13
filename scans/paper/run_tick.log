@@ -1,3 +1,10 @@
-[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.13 -> 200 
-[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.5 -> 200 
-Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars
+[B] placed orb long MSFT x8 stop_limit stop 517.36 tgt 535.15 -> 200 
+[B] placed orb long APP x4 stop_limit stop 400.09 tgt 436.87 -> 200 
+[B] placed orb long V x11 stop_limit stop 424.01 tgt 428.48 -> 200 
+[B] placed orb long WMT x39 stop_limit stop 126.96 tgt 130.5 -> 200 
+[B] placed orb long COST x4 stop_limit stop 1098.93 tgt 1119.51 -> 200 
+[B] placed orb long MRNA x13 stop_limit stop 224.8 tgt 235.57 -> 200 
+[B] placed orb long MA x7 stop_limit stop 657.74 tgt 666.23 -> 200 
+[B] placed scan long APP x4 stop_limit stop 400.04 tgt 436.97 -> 200 
+[B] placed scan long COST x4 stop_limit stop 1093.31 tgt 1128.29 -> 200 
+[B] placed orb_short short TSLA x10 limit stop 396.21 tgt 370.69 -> 200 

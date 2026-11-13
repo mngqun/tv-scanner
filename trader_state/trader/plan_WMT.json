@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "WMT",
+  "side": "buy",
+  "date": "2026-11-13",
+  "setup": "orb",
+  "entry": 128.14,
+  "entry_time": "9:50 AM",
+  "entry_bar": 3,
+  "interval": "5m",
+  "opening_range": {
+    "high": 127.68,
+    "low": 126.24,
+    "minutes": 15
+  },
+  "stop": 126.96,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 130.5,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 1.18,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($127.68 + $126.24) / 2 = $126.96",
+  "created_at": "2026-11-13T15:23:51Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

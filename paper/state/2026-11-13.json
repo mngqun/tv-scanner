@@ -6,7 +6,8 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-13"
@@ -14,7 +15,17 @@
  "log": [
   "[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.13 -> 200 ",
   "[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.5 -> 200 ",
-  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars"
+  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars",
+  "[B] placed orb long MSFT x8 stop_limit stop 517.36 tgt 535.15 -> 200 ",
+  "[B] placed orb long APP x4 stop_limit stop 400.09 tgt 436.87 -> 200 ",
+  "[B] placed orb long V x11 stop_limit stop 424.01 tgt 428.48 -> 200 ",
+  "[B] placed orb long WMT x39 stop_limit stop 126.96 tgt 130.5 -> 200 ",
+  "[B] placed orb long COST x4 stop_limit stop 1098.93 tgt 1119.51 -> 200 ",
+  "[B] placed orb long MRNA x13 stop_limit stop 224.8 tgt 235.57 -> 200 ",
+  "[B] placed orb long MA x7 stop_limit stop 657.74 tgt 666.23 -> 200 ",
+  "[B] placed scan long APP x4 stop_limit stop 400.04 tgt 436.97 -> 200 ",
+  "[B] placed scan long COST x4 stop_limit stop 1093.31 tgt 1128.29 -> 200 ",
+  "[B] placed orb_short short TSLA x10 limit stop 396.21 tgt 370.69 -> 200 "
  ],
  "rulec": {
   "at": "09:37",
@@ -167,6 +178,126 @@
    "http": 200,
    "message": null,
    "placed_at": "10:07"
+  },
+  {
+   "id": "orb-B-2026-11-13-MSFT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MSFT",
+   "side": "long",
+   "qty": 8,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-APP",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "APP",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-V",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "V",
+   "side": "long",
+   "qty": 11,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-WMT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "WMT",
+   "side": "long",
+   "qty": 39,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-COST",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "COST",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-MRNA",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MRNA",
+   "side": "long",
+   "qty": 13,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-13-MA",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MA",
+   "side": "long",
+   "qty": 7,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-13-APP",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "APP",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-13-COST",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "COST",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-13-TSLA",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "TSLA",
+   "side": "short",
+   "qty": 10,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "scan": {
@@ -236,5 +367,505 @@
     "sector": "Retail Trade"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 71,
+  "risk_usd": 100.0,
+  "plans": [
+   {
+    "symbol": "NVDA",
+    "trigger": "10:00",
+    "or_high": 170.0,
+    "or_low": 162.19,
+    "entry": 162.1,
+    "stop": 166.1,
+    "target": 154.11,
+    "dollar_vol": 47269150224.5325,
+    "earnings_today": false,
+    "skip": "last 160.15 outside entry window (161.30..166.1)"
+   },
+   {
+    "symbol": "MU",
+    "trigger": "09:55",
+    "or_high": 796.18,
+    "or_low": 778.02,
+    "entry": 772.96,
+    "stop": 787.1,
+    "target": 744.67,
+    "dollar_vol": 26465967242.88,
+    "earnings_today": false,
+    "skip": "last 762.4 outside entry window (770.13..787.1)"
+   },
+   {
+    "symbol": "AMD",
+    "trigger": "09:45",
+    "or_high": 571.14,
+    "or_low": 551.2,
+    "entry": 548.33,
+    "stop": 561.17,
+    "target": 522.64,
+    "dollar_vol": 24522458609.625,
+    "earnings_today": false,
+    "skip": "last 528.16 outside entry window (545.76..561.17)"
+   },
+   {
+    "symbol": "TSLA",
+    "trigger": "10:05",
+    "or_high": 404.4,
+    "or_low": 388.01,
+    "entry": 387.7,
+    "stop": 396.21,
+    "target": 370.69,
+    "dollar_vol": 14014191661.296001,
+    "earnings_today": false
+   },
+   {
+    "symbol": "SPCX",
+    "trigger": "09:45",
+    "or_high": 142.24,
+    "or_low": 139.64,
+    "entry": 139.17,
+    "stop": 140.94,
+    "target": 135.63,
+    "dollar_vol": 13884209587.943998,
+    "earnings_today": false,
+    "skip": "last 138.03 outside entry window (138.82..140.94)"
+   },
+   {
+    "symbol": "SNDK",
+    "trigger": "09:45",
+    "or_high": 939.53,
+    "or_low": 888.2193,
+    "entry": 886.96,
+    "stop": 913.87,
+    "target": 833.13,
+    "dollar_vol": 12592303485.03219,
+    "earnings_today": false,
+    "skip": "last 861.86 outside entry window (881.58..913.87)"
+   },
+   {
+    "symbol": "GOOGL",
+    "trigger": "09:45",
+    "or_high": 304.9699,
+    "or_low": 301.91,
+    "entry": 301.83,
+    "stop": 303.44,
+    "target": 298.6,
+    "dollar_vol": 10731424964.921999,
+    "earnings_today": false,
+    "skip": "last 295.24 outside entry window (301.51..303.44)"
+   },
+   {
+    "symbol": "AVGO",
+    "trigger": "09:45",
+    "or_high": 358.47,
+    "or_low": 348.37,
+    "entry": 345.85,
+    "stop": 353.42,
+    "target": 330.71,
+    "dollar_vol": 10351262080.965,
+    "earnings_today": false,
+    "skip": "last 341.845 outside entry window (344.34..353.42)"
+   },
+   {
+    "symbol": "INTC",
+    "trigger": "09:45",
+    "or_high": 61.3422,
+    "or_low": 59.83,
+    "entry": 59.48,
+    "stop": 60.59,
+    "target": 57.25,
+    "dollar_vol": 8955061713.98,
+    "earnings_today": false
+   },
+   {
+    "symbol": "TSM",
+    "trigger": "09:45",
+    "or_high": 408.085,
+    "or_low": 402.19,
+    "entry": 400.5,
+    "stop": 405.14,
+    "target": 391.21,
+    "dollar_vol": 6504146180.1305,
+    "earnings_today": false
+   },
+   {
+    "symbol": "ORCL",
+    "trigger": "09:45",
+    "or_high": 128.0,
+    "or_low": 124.6,
+    "entry": 123.94,
+    "stop": 126.3,
+    "target": 119.22,
+    "dollar_vol": 5901180158.712,
+    "earnings_today": false
+   },
+   {
+    "symbol": "MRVL",
+    "trigger": "09:45",
+    "or_high": 163.89,
+    "or_low": 158.3,
+    "entry": 157.31,
+    "stop": 161.1,
+    "target": 149.73,
+    "dollar_vol": 5825366065.031499,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 760.1199951171875,
+   "or_low": 755.8800048828125,
+   "last": 748.9862060546875,
+   "state": "below"
+  },
+  "counts": {
+   "requested": 675,
+   "fetched": 675,
+   "unusable": 21,
+   "illiquid": 0,
+   "scanned": 654,
+   "candidates": 268,
+   "confirmed": 200,
+   "unconfirmed": 68,
+   "hits": 92
+  },
+  "plans": [
+   {
+    "symbol": "MSFT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 523.29,
+    "stop": 517.36,
+    "target": 535.15,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 15 % (target first 4.9 % vs stop first 28.7 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 2,
+     "stop": 10,
+     "avg_R": -0.004
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Nvidia market value sinks, Microsoft races to fix outlook after outage, PPI data",
+     "deal: Cerebras shares jump 16% as earnings beat and Microsoft deal fuel raised outlook",
+     "deal: Cerebras Soars 15% on Raised Outlook and Microsoft Deal, Expects to \u201cTriple Reve"
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Nvidia market value sinks, Microsoft races to fix outlook after outage, PPI data; deal: Cerebras shares jump 16% a"
+    ]
+   },
+   {
+    "symbol": "META",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 635.67,
+    "stop": 629.97,
+    "target": 647.07,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 33 % (target first 25.8 % vs stop first 53.3 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 4,
+     "stop": 15,
+     "avg_R": -0.172
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 627.13 outside entry window (629.97..636.81)"
+   },
+   {
+    "symbol": "APP",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 412.35,
+    "stop": 400.09,
+    "target": 436.87,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 10 % (target first 1.6 % vs stop first 13.7 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 7,
+     "stop": 17,
+     "avg_R": 0.072
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "V",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 425.5,
+    "stop": 424.01,
+    "target": 428.48,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 35 % (target first 31.8 % vs stop first 59.6 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 3,
+     "stop": 8,
+     "avg_R": 0.155
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Visa CEO: Trust Is \u201cthe Next Growth Vector.\u201d A $2.4 Billion BioCatch Deal Shows "
+    ],
+    "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Visa CEO: Trust Is \u201cthe Next Growth Vector.\u201d A $2.4 Billion BioCatch Deal Shows "
+    ]
+   },
+   {
+    "symbol": "WMT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 128.14,
+    "stop": 126.96,
+    "target": 130.5,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 20 % (target first 6.0 % vs stop first 24.2 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 6,
+     "stop": 10,
+     "avg_R": 0.292
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Patmos Announces Plans to Transform Former Fairfield Walmart Into New Technology"
+    ],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Patmos Announces Plans to Transform Former Fairfield Walmart Into New Technology"
+    ]
+   },
+   {
+    "symbol": "COST",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 1105.79,
+    "stop": 1098.93,
+    "target": 1119.51,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 27 % (target first 14.5 % vs stop first 38.9 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 5,
+     "stop": 9,
+     "avg_R": 0.279
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "MRNA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 228.39,
+    "stop": 224.8,
+    "target": 235.57,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 37 % (target first 36.5 % vs stop first 61.1 %).",
+    "hist": {
+     "triggered": 35,
+     "target": 8,
+     "stop": 13,
+     "avg_R": 0.145
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "MA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 660.57,
+    "stop": 657.74,
+    "target": 666.23,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 31 % (target first 25.2 % vs stop first 56.9 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 1,
+     "stop": 9,
+     "avg_R": -0.085
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "NVDA",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AVGO",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "BRK.B",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Finance"
+   },
+   {
+    "symbol": "APP",
+    "arm": "scan",
+    "setup": "level:bull_flag",
+    "trigger": "9:55 AM",
+    "entry": 412.35,
+    "stop": 400.04,
+    "target": 436.97,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 10 % (target first 1.6 % vs stop first 13.6 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "COST",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:45 AM",
+    "entry": 1104.97,
+    "stop": 1093.31,
+    "target": 1128.29,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 9 % (target first 1.7 % vs stop first 17.4 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   }
+  ],
+  "news_status": 0
  }
 }

@@ -3,20 +3,20 @@
   "symbol": "MRNA",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-29",
+  "date": "2026-11-13",
   "status": "triggered",
   "time": "9:55 AM",
   "bar_start": "09:50",
   "bar_index": 4,
-  "price": 223.94,
-  "level": 222.48,
+  "price": 228.39,
+  "level": 227.9,
   "interval": "5m",
   "opening_range": {
-    "high": 222.48,
-    "low": 215.38,
+    "high": 227.9,
+    "low": 221.7,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-29T14:55:52Z",
+  "checked_at": "2026-11-13T15:23:54Z",
   "reason": "the 9:50 bar closed above the range high"
 }

@@ -3,20 +3,20 @@
   "symbol": "META",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-10",
+  "date": "2026-11-13",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 643.63,
-  "level": 643.1,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 635.67,
+  "level": 634.94,
   "interval": "5m",
   "opening_range": {
-    "high": 643.1,
-    "low": 635.5,
+    "high": 634.94,
+    "low": 625.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-10T15:24:00Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-13T15:23:46Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

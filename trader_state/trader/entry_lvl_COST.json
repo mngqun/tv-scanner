@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "COST",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-13",
+  "status": "triggered",
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 1104.97,
+  "level": 1102.84,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1105.22,
+    "low": 1092.64,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-13T15:24:00Z",
+  "reason": "the 9:40 bar closed above the level"
+}

@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "BRK-B",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-13",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 596.92,
+  "interval": "5m",
+  "opening_range": {
+    "high": 595.0,
+    "low": 591.83,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-13T15:23:58Z",
+  "reason": "last close $590.91 (10:15 bar), $6.01 under the level $596.92 (-1.01%)"
+}

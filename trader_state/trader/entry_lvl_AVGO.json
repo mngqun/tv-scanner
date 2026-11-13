@@ -3,20 +3,20 @@
   "symbol": "AVGO",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-11",
-  "status": "triggered",
-  "time": "9:45 AM",
-  "bar_start": "09:40",
-  "bar_index": 2,
-  "price": 349.16,
-  "level": 334.67,
+  "date": "2026-11-13",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 369.82,
   "interval": "5m",
   "opening_range": {
-    "high": 354.5,
-    "low": 348.3,
+    "high": 358.47,
+    "low": 348.38,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-11T15:23:57Z",
-  "reason": "the 9:40 bar closed above the level"
+  "checked_at": "2026-11-13T15:23:58Z",
+  "reason": "last close $341.94 (10:15 bar), $27.88 under the level $369.82 (-7.54%)"
 }

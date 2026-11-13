@@ -3,20 +3,20 @@
   "symbol": "MSFT",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 525.88,
-  "level": 525.83,
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 523.29,
+  "level": 520.9,
   "interval": "5m",
   "opening_range": {
-    "high": 525.83,
-    "low": 520.51,
+    "high": 520.9,
+    "low": 513.82,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-12T15:24:05Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-13T15:23:44Z",
+  "reason": "the 9:45 bar closed above the range high"
 }
