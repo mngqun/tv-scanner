@@ -30,7 +30,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-13"
@@ -53,7 +54,14 @@
   "[A] cancel unfilled entry tqqq-2026-11-13-t2 (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-13-APP (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-13-MRNA (filled 0.0)",
-  "[B] cancel unfilled entry scan-B-2026-11-13-APP (filled 0.0)"
+  "[B] cancel unfilled entry scan-B-2026-11-13-APP (filled 0.0)",
+  "[B] close orb-B-2026-11-13-MSFT 8 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-13-V 11 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-13-WMT 39 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-13-COST 4 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-13-MA 7 (flat-by, day) -> 200",
+  "[B] close scan-B-2026-11-13-COST 4 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-13-TSLA 10 (flat-by, day) -> 200"
  ],
  "rulec": {
   "at": "09:37",
@@ -895,5 +903,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
