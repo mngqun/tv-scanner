@@ -5,10 +5,17 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
- "queue_done": [],
- "log": [],
+ "queue_done": [
+  "tqqq-2026-11-13"
+ ],
+ "log": [
+  "[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.13 -> 200 ",
+  "[A] placed tqqq long SQQQ x30 limit stop 40.03 tgt 44.5 -> 200 ",
+  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars"
+ ],
  "rulec": {
   "at": "09:37",
   "candidates": [],
@@ -135,5 +142,99 @@
    }
   ],
   "placed": []
+ },
+ "placed": [
+  {
+   "id": "tqqq-2026-11-13-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 30,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:07"
+  },
+  {
+   "id": "tqqq-2026-11-13-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 30,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:07"
+  }
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 677,
+   "fetched": 677,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 677,
+   "hits": 89
+  },
+  "hits": 89,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 167.14,
+    "prev_close": 166.19000244140625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 594.0,
+    "prev_close": 585.2999877929688,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AVGO",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 369.82,
+    "prev_close": 364.3599853515625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "BRK.B",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 596.92,
+    "prev_close": 589.83,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "APP",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 408.99,
+    "prev_close": 393.67999267578125,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "COST",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 1102.84,
+    "prev_close": 1092.2099609375,
+    "sector": "Retail Trade"
+   }
+  ]
  }
 }
