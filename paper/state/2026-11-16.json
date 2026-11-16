@@ -31,7 +31,8 @@
   "15:22",
   "15:37",
   "15:41",
-  "15:47"
+  "15:47",
+  "15:52"
  ],
  "rulec": {
   "at": "09:53",
@@ -866,5 +867,5 @@
  "notes": [
   "09:07 run hung 47 min and overwrote state at 09:54; book/state restored from 67d43c6 by hand (16 Nov 10:50 ET)"
  ],
- "close_pass": 2
+ "close_pass": 3
 }
