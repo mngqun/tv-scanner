@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "ABNB",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-16",
+  "status": "triggered",
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 185.09,
+  "level": 184.5,
+  "interval": "5m",
+  "opening_range": {
+    "high": 184.5,
+    "low": 180.56,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-16T15:24:01Z",
+  "reason": "the 10:00 bar closed above the range high"
+}

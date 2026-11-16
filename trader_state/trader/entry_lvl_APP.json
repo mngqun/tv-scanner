@@ -3,20 +3,20 @@
   "symbol": "APP",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "status": "triggered",
-  "time": "9:55 AM",
-  "bar_start": "09:50",
-  "bar_index": 4,
-  "price": 412.35,
-  "level": 408.99,
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 414.16,
+  "level": 413.88,
   "interval": "5m",
   "opening_range": {
-    "high": 408.7,
-    "low": 391.49,
+    "high": 416.64,
+    "low": 404.78,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:23:58Z",
-  "reason": "the 9:50 bar closed above the level"
+  "checked_at": "2026-11-16T15:24:06Z",
+  "reason": "the 9:55 bar closed above the level"
 }

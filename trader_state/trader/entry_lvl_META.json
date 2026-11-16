@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "META",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-16",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 643.91,
+  "interval": "5m",
+  "opening_range": {
+    "high": 640.7,
+    "low": 628.77,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-16T15:24:04Z",
+  "reason": "last close $624.68 (10:15 bar), $19.23 under the level $643.91 (-2.99%)"
+}

@@ -1,0 +1,30 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "LLY",
+  "side": "buy",
+  "date": "2026-11-16",
+  "setup": "level",
+  "entry": 1466.53,
+  "entry_time": "9:45 AM",
+  "entry_bar": 2,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1475.25,
+    "low": 1453.01,
+    "minutes": 15
+  },
+  "stop": 1431.7,
+  "stop_rule": "atr",
+  "stop_label": "2 x ATR(3) under the entry",
+  "target": 1536.19,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 34.83,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "ATR $17.4119 over the 3 bars to the entry (fewer than 14 so far), rounded down",
+  "created_at": "2026-11-16T15:24:05Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it.",
+  "atr": 17.4119,
+  "atr_bars": 3
+}

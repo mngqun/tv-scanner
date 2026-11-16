@@ -3,20 +3,20 @@
   "symbol": "NVDA",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 167.14,
+  "level": 170.0,
   "interval": "5m",
   "opening_range": {
-    "high": 170.0,
-    "low": 162.19,
+    "high": 162.55,
+    "low": 158.11,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:23:57Z",
-  "reason": "last close $160.41 (10:15 bar), $6.73 under the level $167.14 (-4.03%)"
+  "checked_at": "2026-11-16T15:24:04Z",
+  "reason": "last close $159.82 (10:15 bar), $10.18 under the level $170.00 (-5.99%)"
 }

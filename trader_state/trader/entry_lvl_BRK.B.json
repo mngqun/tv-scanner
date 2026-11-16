@@ -3,20 +3,20 @@
   "symbol": "BRK-B",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 596.92,
+  "level": 595.15,
   "interval": "5m",
   "opening_range": {
-    "high": 595.0,
-    "low": 591.83,
+    "high": 594.99,
+    "low": 588.55,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:23:58Z",
-  "reason": "last close $590.91 (10:15 bar), $6.01 under the level $596.92 (-1.01%)"
+  "checked_at": "2026-11-16T15:24:07Z",
+  "reason": "last close $593.37 (10:15 bar), $1.78 under the level $595.15 (-0.30%)"
 }

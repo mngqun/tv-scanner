@@ -3,7 +3,8 @@
  "close": "16:00",
  "ticks": [
   "09:53",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "rulec": {
   "at": "09:53",
@@ -159,12 +160,90 @@
    "http": 422,
    "message": "client_order_id must be unique",
    "placed_at": "09:54"
+  },
+  {
+   "id": "orb-B-2026-11-16-UBER",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "UBER",
+   "side": "long",
+   "qty": 71,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
+  },
+  {
+   "id": "orb-B-2026-11-16-APH",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "APH",
+   "side": "long",
+   "qty": 46,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
+  },
+  {
+   "id": "orb-B-2026-11-16-PWR",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "PWR",
+   "side": "long",
+   "qty": 5,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
+  },
+  {
+   "id": "scan-B-2026-11-16-LLY",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "LLY",
+   "side": "long",
+   "qty": 1,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
+  },
+  {
+   "id": "scan-B-2026-11-16-APP",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "APP",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
+  },
+  {
+   "id": "orbs-B-2026-11-16-AAPL",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "AAPL",
+   "side": "short",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:25"
   }
  ],
  "log": [
   "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique",
   "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique",
-  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars"
+  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars",
+  "[B] placed orb long UBER x71 stop_limit stop 69.77 tgt 71.06 -> 200 ",
+  "[B] placed orb long APH x46 stop_limit stop 75.6 tgt 78.84 -> 200 ",
+  "[B] placed orb long PWR x5 stop_limit stop 589.73 tgt 616.94 -> 200 ",
+  "[B] placed scan long LLY x1 stop_limit stop 1431.7 tgt 1536.19 -> 200 ",
+  "[B] placed scan long APP x4 stop_limit stop 401.95 tgt 438.58 -> 200 ",
+  "[B] placed orb_short short AAPL x14 stop_limit stop 355.47 tgt 349.98 -> 200 "
  ],
  "scan": {
   "at": "10:07",
@@ -233,5 +312,496 @@
     "sector": "Finance"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 31,
+  "risk_usd": 100.0,
+  "plans": [
+   {
+    "symbol": "AAPL",
+    "trigger": "10:00",
+    "or_high": 357.14,
+    "or_low": 353.79,
+    "entry": 353.64,
+    "stop": 355.47,
+    "target": 349.98,
+    "dollar_vol": 16488556334.347,
+    "earnings_today": false
+   },
+   {
+    "symbol": "SPCX",
+    "trigger": "10:05",
+    "or_high": 139.85,
+    "or_low": 136.91,
+    "entry": 136.48,
+    "stop": 138.38,
+    "target": 132.68,
+    "dollar_vol": 13744491127.696,
+    "earnings_today": false,
+    "skip": "last 135.96 outside entry window (136.10..138.38)"
+   },
+   {
+    "symbol": "TSLA",
+    "trigger": "09:45",
+    "or_high": 389.7983,
+    "or_low": 382.12,
+    "entry": 382.05,
+    "stop": 385.96,
+    "target": 374.22,
+    "dollar_vol": 13171884731.069998,
+    "earnings_today": false,
+    "skip": "last 377.765 outside entry window (381.27..385.96)"
+   },
+   {
+    "symbol": "AMZN",
+    "trigger": "10:05",
+    "or_high": 262.92,
+    "or_low": 260.17,
+    "entry": 259.87,
+    "stop": 261.55,
+    "target": 256.51,
+    "dollar_vol": 12052757881.805,
+    "earnings_today": false,
+    "skip": "last 259.27 outside entry window (259.53..261.55)"
+   },
+   {
+    "symbol": "META",
+    "trigger": "10:00",
+    "or_high": 640.88,
+    "or_low": 628.77,
+    "entry": 627.91,
+    "stop": 634.83,
+    "target": 614.08,
+    "dollar_vol": 10450148002.133999,
+    "earnings_today": false,
+    "skip": "last 620.52 outside entry window (626.53..634.83)"
+   },
+   {
+    "symbol": "GOOGL",
+    "trigger": "10:00",
+    "or_high": 294.14,
+    "or_low": 287.73,
+    "entry": 287.36,
+    "stop": 290.94,
+    "target": 280.21,
+    "dollar_vol": 9760339131.431002,
+    "earnings_today": false,
+    "skip": "last 285.77 outside entry window (286.64..290.94)"
+   },
+   {
+    "symbol": "TSM",
+    "trigger": "09:55",
+    "or_high": 385.469,
+    "or_low": 378.26,
+    "entry": 377.68,
+    "stop": 381.86,
+    "target": 369.31,
+    "dollar_vol": 6117215355.138,
+    "earnings_today": false,
+    "skip": "last 373.0 outside entry window (376.84..381.86)"
+   },
+   {
+    "symbol": "ORCL",
+    "trigger": "10:05",
+    "or_high": 122.9799,
+    "or_low": 120.25,
+    "entry": 120.13,
+    "stop": 121.61,
+    "target": 117.16,
+    "dollar_vol": 5360214538.2565,
+    "earnings_today": false,
+    "skip": "last 119.13 outside entry window (119.83..121.61)"
+   },
+   {
+    "symbol": "WMT",
+    "trigger": "09:45",
+    "or_high": 129.85,
+    "or_low": 128.92,
+    "entry": 128.79,
+    "stop": 129.39,
+    "target": 127.6,
+    "dollar_vol": 2773232747.3,
+    "earnings_today": false
+   },
+   {
+    "symbol": "ASML",
+    "trigger": "10:00",
+    "or_high": 1446.36,
+    "or_low": 1424.75,
+    "entry": 1421.57,
+    "stop": 1435.56,
+    "target": 1393.6,
+    "dollar_vol": 2548005046.338,
+    "earnings_today": false
+   },
+   {
+    "symbol": "COST",
+    "trigger": "09:45",
+    "or_high": 1117.0,
+    "or_low": 1109.7407,
+    "entry": 1107.52,
+    "stop": 1113.37,
+    "target": 1095.82,
+    "dollar_vol": 2447037129.384,
+    "earnings_today": false
+   },
+   {
+    "symbol": "CAT",
+    "trigger": "10:05",
+    "or_high": 592.0,
+    "or_low": 582.5,
+    "entry": 582.14,
+    "stop": 587.25,
+    "target": 571.92,
+    "dollar_vol": 2194314253.4775004,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 749.8200073242188,
+   "or_low": 746.6506958007812,
+   "last": 744.976318359375,
+   "state": "below"
+  },
+  "counts": {
+   "requested": 665,
+   "fetched": 665,
+   "unusable": 23,
+   "illiquid": 0,
+   "scanned": 642,
+   "candidates": 213,
+   "confirmed": 200,
+   "unconfirmed": 13,
+   "hits": 86
+  },
+  "plans": [
+   {
+    "symbol": "VRT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 192.94,
+    "stop": 190.7,
+    "target": 197.42,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 30 % (target first 27.4 % vs stop first 63.4 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 5,
+     "stop": 11,
+     "avg_R": 0.053
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 188.985 outside entry window (190.7..193.39)"
+   },
+   {
+    "symbol": "SMCI",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 25.77,
+    "stop": 25.37,
+    "target": 26.57,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 25 % (target first 20.8 % vs stop first 61.8 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 7,
+     "stop": 17,
+     "avg_R": -0.005
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 25.28 outside entry window (25.37..25.85)"
+   },
+   {
+    "symbol": "PEP",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 147.51,
+    "stop": 146.98,
+    "target": 148.57,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 35 % (target first 32.7 % vs stop first 60.8 %).",
+    "hist": {
+     "triggered": 35,
+     "target": 3,
+     "stop": 15,
+     "avg_R": 0.123
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Consumer Non-Durables",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 147.88 outside entry window (146.98..147.62)"
+   },
+   {
+    "symbol": "UBER",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 70.2,
+    "stop": 69.77,
+    "target": 71.06,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 31 % (target first 28.6 % vs stop first 63.3 %).",
+    "hist": {
+     "triggered": 27,
+     "target": 5,
+     "stop": 14,
+     "avg_R": -0.161
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Transportation",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "APH",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 76.68,
+    "stop": 75.6,
+    "target": 78.84,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 20 % (target first 10.2 % vs stop first 40.7 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 5,
+     "stop": 13,
+     "avg_R": 0.106
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "ABNB",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 185.09,
+    "stop": 182.53,
+    "target": 190.21,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 12 % (target first 4.1 % vs stop first 31.0 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 4,
+     "stop": 8,
+     "avg_R": 0.088
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Consumer Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 186.09 outside entry window (182.53..185.60)"
+   },
+   {
+    "symbol": "NEE",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 85.96,
+    "stop": 85.63,
+    "target": 86.62,
+    "verdict": "Leans toward the target: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 41 % (target first 35.7 % vs stop first 52.2 %).",
+    "hist": {
+     "triggered": 25,
+     "target": 4,
+     "stop": 8,
+     "avg_R": 0.249
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Utilities",
+    "A_skip": [
+     "regime short"
+    ],
+    "B_skip": "last 86.05 outside entry window (85.63..86.03)"
+   },
+   {
+    "symbol": "PWR",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 598.8,
+    "stop": 589.73,
+    "target": 616.94,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 23 % (target first 12.4 % vs stop first 40.8 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 4,
+     "stop": 13,
+     "avg_R": 0.064
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Industrial Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "NVDA",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "META",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "LLY",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:45 AM",
+    "entry": 1466.53,
+    "stop": 1431.7,
+    "target": 1536.19,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 1 % (target first 0.1 % vs stop first 10.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "APP",
+    "arm": "scan",
+    "setup": "level:bull_flag",
+    "trigger": "10:00 AM",
+    "entry": 414.16,
+    "stop": 401.95,
+    "target": 438.58,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 11 % (target first 1.6 % vs stop first 13.1 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "BRK.B",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Finance"
+   }
+  ],
+  "news_status": 1
  }
 }

@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "PWR",
+  "side": "buy",
+  "date": "2026-11-16",
+  "setup": "orb",
+  "entry": 598.8,
+  "entry_time": "9:55 AM",
+  "entry_bar": 4,
+  "interval": "5m",
+  "opening_range": {
+    "high": 598.47,
+    "low": 581.0,
+    "minutes": 15
+  },
+  "stop": 589.73,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 616.94,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 9.07,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($598.47 + $581.00) / 2 = $589.735, rounded down",
+  "created_at": "2026-11-16T15:24:03Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

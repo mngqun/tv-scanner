@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "PEP",
+  "side": "buy",
+  "date": "2026-11-16",
+  "setup": "orb",
+  "entry": 147.51,
+  "entry_time": "10:05 AM",
+  "entry_bar": 6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 147.43,
+    "low": 146.54,
+    "minutes": 15
+  },
+  "stop": 146.98,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 148.57,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 0.53,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "($147.43 + $146.54) / 2 = $146.985, rounded down",
+  "created_at": "2026-11-16T15:23:58Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

@@ -1,0 +1,32 @@
+{
+  "created_by": "trader-budget",
+  "created_at": "2026-11-16T15:23:56Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
+  "source": "trader/plan.json (VRT orb 2026-11-16)",
+  "orders": [
+    {
+      "symbol": "VRT",
+      "side": "buy",
+      "qty": "22",
+      "type": "limit",
+      "time_in_force": "day",
+      "limit_price": "192.94",
+      "order_class": "bracket",
+      "take_profit_limit_price": "197.42",
+      "stop_loss_stop_price": "190.70",
+      "why": "opening-range breakout on VRT: 22 shares, bound by your $50 max loss per trade (22 x 2.24 = $49.28 at the stop)",
+      "plan": {
+        "entry": 192.94,
+        "stop": 190.7,
+        "target": 197.42,
+        "risk_per_share": 2.24,
+        "max_loss": 49.28,
+        "setup": "orb",
+        "entry_time": "9:50 AM",
+        "flat_by": "15:40"
+      }
+    }
+  ]
+}

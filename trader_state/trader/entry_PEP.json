@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "PEP",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-16",
+  "status": "triggered",
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 147.51,
+  "level": 147.43,
+  "interval": "5m",
+  "opening_range": {
+    "high": 147.43,
+    "low": 146.54,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-16T15:23:58Z",
+  "reason": "the 10:00 bar closed above the range high"
+}

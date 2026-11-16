@@ -1,1 +1,6 @@
-Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars
+[B] placed orb long UBER x71 stop_limit stop 69.77 tgt 71.06 -> 200 
+[B] placed orb long APH x46 stop_limit stop 75.6 tgt 78.84 -> 200 
+[B] placed orb long PWR x5 stop_limit stop 589.73 tgt 616.94 -> 200 
+[B] placed scan long LLY x1 stop_limit stop 1431.7 tgt 1536.19 -> 200 
+[B] placed scan long APP x4 stop_limit stop 401.95 tgt 438.58 -> 200 
+[B] placed orb_short short AAPL x14 stop_limit stop 355.47 tgt 349.98 -> 200 
