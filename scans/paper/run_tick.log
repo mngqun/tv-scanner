@@ -1,2 +1,1 @@
-[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique
-[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique
+Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars

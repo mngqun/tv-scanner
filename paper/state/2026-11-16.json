@@ -2,7 +2,8 @@
  "date": "2026-11-16",
  "close": "16:00",
  "ticks": [
-  "09:53"
+  "09:53",
+  "10:07"
  ],
  "rulec": {
   "at": "09:53",
@@ -162,6 +163,75 @@
  ],
  "log": [
   "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique",
-  "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique"
- ]
+  "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique",
+  "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars"
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 663,
+   "fetched": 663,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 663,
+   "hits": 146
+  },
+  "hits": 146,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 170.0,
+    "prev_close": 162.85000610351562,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 360.83,
+    "prev_close": 356.2699890136719,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "META",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 643.91,
+    "prev_close": 641.6900024414062,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 1449.64,
+    "prev_close": 1443.5,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "APP",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 413.88,
+    "prev_close": 409.1000061035156,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "BRK.B",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 595.15,
+    "prev_close": 592.94,
+    "sector": "Finance"
+   }
+  ]
+ }
 }
