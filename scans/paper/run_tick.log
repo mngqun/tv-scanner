@@ -1,2 +1,2 @@
-[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 200 
-[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 200 
+[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique
+[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique

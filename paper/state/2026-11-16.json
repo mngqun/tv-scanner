@@ -2,28 +2,19 @@
  "date": "2026-11-16",
  "close": "16:00",
  "ticks": [
-  "09:22",
-  "09:37",
-  "09:52"
- ],
- "queue_done": [
-  "tqqq-2026-11-16"
- ],
- "log": [
-  "[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 200 ",
-  "[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 200 "
+  "09:53"
  ],
  "rulec": {
-  "at": "09:37",
+  "at": "09:53",
   "candidates": [],
   "rejected": [
    {
     "symbol": "CSGP",
-    "why": "gap 0.84% / 0.14 ATR"
+    "why": "gap 1.74% / 0.30 ATR"
    },
    {
     "symbol": "CNC",
-    "why": "gap 3.73% / 0.70 ATR"
+    "why": "gap 3.89% / 0.73 ATR"
    },
    {
     "symbol": "TSN",
@@ -35,7 +26,7 @@
    },
    {
     "symbol": "RCI",
-    "why": "gap 1.17% / 0.40 ATR"
+    "why": "gap 1.38% / 0.47 ATR"
    },
    {
     "symbol": "CHYM",
@@ -51,11 +42,11 @@
    },
    {
     "symbol": "BMY",
-    "why": "gap 2.04% / 0.75 ATR"
+    "why": "gap 2.38% / 0.88 ATR"
    },
    {
     "symbol": "HUM",
-    "why": "gap 2.26% / 0.59 ATR"
+    "why": "gap 2.22% / 0.57 ATR"
    },
    {
     "symbol": "AS",
@@ -63,11 +54,7 @@
    },
    {
     "symbol": "HUBS",
-    "why": "gap 4.20% / 0.65 ATR"
-   },
-   {
-    "symbol": "FNF",
-    "why": "gap 1.84% / 0.53 ATR"
+    "why": "gap 2.31% / 0.36 ATR"
    },
    {
     "symbol": "TRI",
@@ -91,19 +78,23 @@
    },
    {
     "symbol": "MKC",
-    "why": "gap 1.36% / 0.40 ATR"
+    "why": "gap 1.38% / 0.41 ATR"
+   },
+   {
+    "symbol": "FNF",
+    "why": "gap 1.57% / 0.45 ATR"
    },
    {
     "symbol": "HSY",
-    "why": "gap 1.48% / 0.46 ATR"
+    "why": "gap 1.74% / 0.55 ATR"
    },
    {
     "symbol": "CB",
-    "why": "gap 1.40% / 0.77 ATR"
+    "why": "gap 1.28% / 0.71 ATR"
    },
    {
     "symbol": "SYY",
-    "why": "gap 1.37% / 0.46 ATR"
+    "why": "gap 1.19% / 0.40 ATR"
    },
    {
     "symbol": "DLTR",
@@ -111,11 +102,11 @@
    },
    {
     "symbol": "ALNY",
-    "why": "gap 0.85% / 0.11 ATR"
+    "why": "gap 1.13% / 0.14 ATR"
    },
    {
     "symbol": "QSR",
-    "why": "gap 0.73% / 0.26 ATR"
+    "why": "gap 0.84% / 0.30 ATR"
    },
    {
     "symbol": "AMGN",
@@ -123,15 +114,15 @@
    },
    {
     "symbol": "STZ",
-    "why": "gap 1.28% / 0.42 ATR"
+    "why": "gap 1.64% / 0.54 ATR"
    },
    {
     "symbol": "IT",
-    "why": "gap 2.05% / 0.35 ATR"
+    "why": "gap 0.59% / 0.10 ATR"
    },
    {
     "symbol": "MCD",
-    "why": "gap 1.98% / 0.77 ATR"
+    "why": "gap 1.85% / 0.72 ATR"
    },
    {
     "symbol": "YUMC",
@@ -140,6 +131,9 @@
   ],
   "placed": []
  },
+ "queue_done": [
+  "tqqq-2026-11-16"
+ ],
  "placed": [
   {
    "id": "tqqq-2026-11-16-t1",
@@ -148,10 +142,10 @@
    "symbol": "SQQQ",
    "side": "long",
    "qty": 28,
-   "status": "placed",
-   "http": 200,
-   "message": null,
-   "placed_at": "09:52"
+   "status": "rejected",
+   "http": 422,
+   "message": "client_order_id must be unique",
+   "placed_at": "09:54"
   },
   {
    "id": "tqqq-2026-11-16-t2",
@@ -160,10 +154,14 @@
    "symbol": "SQQQ",
    "side": "long",
    "qty": 28,
-   "status": "placed",
-   "http": 200,
-   "message": null,
-   "placed_at": "09:52"
+   "status": "rejected",
+   "http": 422,
+   "message": "client_order_id must be unique",
+   "placed_at": "09:54"
   }
+ ],
+ "log": [
+  "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique",
+  "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique"
  ]
 }
