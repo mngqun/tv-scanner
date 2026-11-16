@@ -10,7 +10,8 @@
   "10:22",
   "10:37",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "rulec": {
   "at": "09:53",
@@ -275,7 +276,12 @@
   "[B] placed orb long PWR x5 stop_limit stop 589.73 tgt 616.94 -> 200 ",
   "[B] placed scan long LLY x1 stop_limit stop 1431.7 tgt 1536.19 -> 200 ",
   "[B] placed scan long APP x4 stop_limit stop 401.95 tgt 438.58 -> 200 ",
-  "[B] placed orb_short short AAPL x14 stop_limit stop 355.47 tgt 349.98 -> 200 "
+  "[B] placed orb_short short AAPL x14 stop_limit stop 355.47 tgt 349.98 -> 200 ",
+  "[A] cancel unfilled entry tqqq-2026-11-16-t1 (filled 0.0)",
+  "[A] cancel unfilled entry tqqq-2026-11-16-t2 (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-16-APH (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-16-PWR (filled 0.0)",
+  "[B] cancel unfilled entry scan-B-2026-11-16-LLY (filled 0.0)"
  ],
  "scan": {
   "at": "10:07",

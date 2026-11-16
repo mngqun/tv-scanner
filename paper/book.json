@@ -32,7 +32,7 @@
    "2026-11-16"
   ],
   "be_target": "tqqq-2026-11-16-t2",
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -41,7 +41,7 @@
     "id": "70e1638b-3dc0-4c36-9708-b61c59426109",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -54,7 +54,7 @@
     "id": "e7e47c50-db81-4d4e-aec5-a558ee5f552e",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -66,7 +66,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-16-t2",
@@ -100,7 +102,7 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -109,7 +111,7 @@
     "id": "8537d877-5614-44ab-9a8c-bffcefb788fc",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -122,7 +124,7 @@
     "id": "fcb18a7a-18e8-4c62-89c7-4778327cd52f",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 28.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -134,7 +136,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-16-UBER",
@@ -264,7 +268,7 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -273,7 +277,7 @@
     "id": "7acad4b9-4a90-4d09-85fd-f32666fb96ff",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 46.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -286,7 +290,7 @@
     "id": "4bb4bf3c-b4b9-46ea-a0e4-6450b6c7074d",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 46.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -298,7 +302,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-16-PWR",
@@ -346,7 +352,7 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -355,7 +361,7 @@
     "id": "3a14674d-451c-4317-996e-bd34558af0dd",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 5.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -368,7 +374,7 @@
     "id": "de81e2c0-ff4f-4851-a981-b3d5cd3b9fde",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 5.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -380,7 +386,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-16-LLY",
@@ -430,7 +438,7 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -439,7 +447,7 @@
     "id": "5bfb8d1b-1242-403e-9e07-7c0868d50676",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 1.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -452,7 +460,7 @@
     "id": "a6bc81c4-647d-40e4-9797-d1cff5d2afa5",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 1.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -464,7 +472,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-16-APP",
