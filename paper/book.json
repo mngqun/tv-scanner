@@ -182,16 +182,16 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 71.0,
+  "entry_avg": 70.21,
+  "filled_at": "2026-11-16T15:31:35.867981714Z",
   "legs": [
    {
     "id": "6e532834-4d13-4d1a-b161-fdca69b84126",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 71.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -216,7 +216,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 71.0
  },
  {
   "id": "orb-B-2026-11-16-APH",
@@ -587,16 +587,16 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 14.0,
+  "entry_avg": 353.62,
+  "filled_at": "2026-11-16T15:29:31.368824405Z",
   "legs": [
    {
     "id": "1b258a0b-5de0-49a7-b7d9-2f12ee6dde24",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 14.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -621,6 +621,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 14.0
  }
 ]
