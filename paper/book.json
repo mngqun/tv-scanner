@@ -562,18 +562,18 @@
     "id": "43776e3f-da23-465f-baa1-9ee57c475fba",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 4.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 4.0,
+    "avg": 412.8975,
+    "filled_at": "2026-11-16T20:41:23.729341747Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 4.0,
+  "exit_filled": 4.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "43776e3f-da23-465f-baa1-9ee57c475fba"
   ],
@@ -586,7 +586,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-16-AAPL",
