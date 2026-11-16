@@ -514,16 +514,16 @@
   "sessions": [
    "2026-11-16"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 4.0,
+  "entry_avg": 414.62,
+  "filled_at": "2026-11-16T15:42:16.424160615Z",
   "legs": [
    {
     "id": "cb8e92ee-6a05-4a8a-857a-f277cef12a15",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -548,7 +548,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 4.0
  },
  {
   "id": "orbs-B-2026-11-16-AAPL",
@@ -596,7 +596,7 @@
     "id": "1b258a0b-5de0-49a7-b7d9-2f12ee6dde24",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 14.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -609,18 +609,19 @@
     "id": "f7c097b3-619e-45d1-8efd-78302a9c4e67",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "filled",
     "qty": 14.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 14.0,
+    "avg": 355.4,
+    "filled_at": "2026-11-16T15:52:41.098126099Z",
     "stop_price": "355.47",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 14.0
+  "exit_filled": 14.0,
+  "remaining": 0.0,
+  "closed": true
  }
 ]
