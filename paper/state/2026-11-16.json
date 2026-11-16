@@ -2,8 +2,136 @@
  "date": "2026-11-16",
  "close": "16:00",
  "ticks": [
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [],
+  "rejected": [
+   {
+    "symbol": "CSGP",
+    "why": "gap 0.84% / 0.14 ATR"
+   },
+   {
+    "symbol": "CNC",
+    "why": "gap 3.73% / 0.70 ATR"
+   },
+   {
+    "symbol": "TSN",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "HTHT",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "RCI",
+    "why": "gap 1.17% / 0.40 ATR"
+   },
+   {
+    "symbol": "CHYM",
+    "why": "gap 2.76% / 0.65 ATR"
+   },
+   {
+    "symbol": "GMAB",
+    "why": "gap 2.51% / 0.41 ATR"
+   },
+   {
+    "symbol": "TTWO",
+    "why": "gap 2.12% / 0.49 ATR"
+   },
+   {
+    "symbol": "BMY",
+    "why": "gap 2.04% / 0.75 ATR"
+   },
+   {
+    "symbol": "HUM",
+    "why": "gap 2.26% / 0.59 ATR"
+   },
+   {
+    "symbol": "AS",
+    "why": "gap -0.37% / -0.09 ATR"
+   },
+   {
+    "symbol": "HUBS",
+    "why": "gap 4.20% / 0.65 ATR"
+   },
+   {
+    "symbol": "FNF",
+    "why": "gap 1.84% / 0.53 ATR"
+   },
+   {
+    "symbol": "TRI",
+    "why": "gap 1.81% / 0.38 ATR"
+   },
+   {
+    "symbol": "INTU",
+    "why": "gap 1.81% / 0.47 ATR"
+   },
+   {
+    "symbol": "TSCO",
+    "why": "gap 2.11% / 0.58 ATR"
+   },
+   {
+    "symbol": "GILD",
+    "why": "gap 2.02% / 0.64 ATR"
+   },
+   {
+    "symbol": "CMG",
+    "why": "gap 2.30% / 0.63 ATR"
+   },
+   {
+    "symbol": "MKC",
+    "why": "gap 1.36% / 0.40 ATR"
+   },
+   {
+    "symbol": "HSY",
+    "why": "gap 1.48% / 0.46 ATR"
+   },
+   {
+    "symbol": "CB",
+    "why": "gap 1.40% / 0.77 ATR"
+   },
+   {
+    "symbol": "SYY",
+    "why": "gap 1.37% / 0.46 ATR"
+   },
+   {
+    "symbol": "DLTR",
+    "why": "gap 0.14% / 0.03 ATR"
+   },
+   {
+    "symbol": "ALNY",
+    "why": "gap 0.85% / 0.11 ATR"
+   },
+   {
+    "symbol": "QSR",
+    "why": "gap 0.73% / 0.26 ATR"
+   },
+   {
+    "symbol": "AMGN",
+    "why": "gap 1.51% / 0.56 ATR"
+   },
+   {
+    "symbol": "STZ",
+    "why": "gap 1.28% / 0.42 ATR"
+   },
+   {
+    "symbol": "IT",
+    "why": "gap 2.05% / 0.35 ATR"
+   },
+   {
+    "symbol": "MCD",
+    "why": "gap 1.98% / 0.77 ATR"
+   },
+   {
+    "symbol": "YUMC",
+    "why": "gap 1.89% / 0.71 ATR"
+   }
+  ],
+  "placed": []
+ }
 }
