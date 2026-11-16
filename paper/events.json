@@ -21,5 +21,9 @@
     "2026-11-10": {
         "risk_usd": 50,
         "note": "CPI 08:30 ET (HIGH): $50 risk"
+    },
+    "2026-11-17": {
+        "flat_swing": true,
+        "note": "NVDA earnings after the close (mega-cap): no swing holds overnight"
     }
 }
