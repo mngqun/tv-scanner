@@ -2,6 +2,9 @@
  "date": "2026-11-16",
  "close": "16:00",
  "ticks": [
+  "09:22",
+  "09:37",
+  "09:52",
   "09:53",
   "10:07",
   "10:22",
@@ -145,6 +148,30 @@
    "symbol": "SQQQ",
    "side": "long",
    "qty": 28,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  },
+  {
+   "id": "tqqq-2026-11-16-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 28,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  },
+  {
+   "id": "tqqq-2026-11-16-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 28,
    "status": "rejected",
    "http": 422,
    "message": "client_order_id must be unique",
@@ -236,6 +263,8 @@
   }
  ],
  "log": [
+  "[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 200 ",
+  "[A] placed tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 200 ",
   "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.05 -> 422 client_order_id must be unique",
   "[A] rejected tqqq long SQQQ x28 limit stop 41.64 tgt 46.79 -> 422 client_order_id must be unique",
   "Yahoo BRK.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars",
@@ -804,5 +833,8 @@
    }
   ],
   "news_status": 1
- }
+ },
+ "notes": [
+  "09:07 run hung 47 min and overwrote state at 09:54; book/state restored from 67d43c6 by hand (16 Nov 10:50 ET)"
+ ]
 }

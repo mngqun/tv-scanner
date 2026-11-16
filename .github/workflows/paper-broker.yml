@@ -52,6 +52,7 @@ jobs:
           git fetch -q --depth 1 "$TOOLS_REPO" "$TOOLS_SHA"
           git checkout -q FETCH_HEAD
       - name: Run
+        timeout-minutes: 10        # 16 Nov: the 09:07 run hung 47 min, then overwrote newer state
         env:
           ACTION: ${{ github.event.inputs.action || 'tick' }}
           FLAT_BY: ${{ github.event.inputs.flat_by }}
@@ -73,7 +74,16 @@ jobs:
           rm -f trader_state/trader/config.json
           git add scans/paper paper scans/trader trader_state 2>/dev/null || true
           git commit -q -m "paper ${{ github.event.inputs.action || 'tick' }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing to commit"
+          # Never let a slow or stale run overwrite newer state: rebase without "-X theirs"; if our state
+          # conflicts with commits made meanwhile, drop ours (the newer run already saw the broker).
           for i in 1 2 3; do
-            git pull -q --rebase -X theirs && git push -q && break
+            if git pull -q --rebase; then
+              git push -q && break
+            else
+              echo "state conflict with a newer run: dropping this run's commit"
+              git rebase --abort || true
+              git reset -q --hard origin/main
+              break
+            fi
             sleep 5
           done
