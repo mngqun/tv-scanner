@@ -534,7 +534,7 @@
     "id": "cb8e92ee-6a05-4a8a-857a-f277cef12a15",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -547,7 +547,7 @@
     "id": "f02d2a47-61ea-4c91-9045-aad10953d1ae",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -557,9 +557,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "43776e3f-da23-465f-baa1-9ee57c475fba",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 4.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 4.0
+  "remaining": 4.0,
+  "exit_order_ids": [
+   "43776e3f-da23-465f-baa1-9ee57c475fba"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-16 15:41",
+    "what": "close (flat-by) day",
+    "qty": 4,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-16-AAPL",
