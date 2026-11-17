@@ -63,18 +63,18 @@
     "id": "9ea77c62-5164-42a8-81ea-de320eb1067b",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 39.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 39.0,
+    "avg": 35.73,
+    "filled_at": "2026-11-17T20:47:16.10130339Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 39.0,
+  "exit_filled": 39.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "9ea77c62-5164-42a8-81ea-de320eb1067b"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-17-t1",
