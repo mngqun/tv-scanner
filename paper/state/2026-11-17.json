@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-17"
@@ -186,6 +187,74 @@
   ],
   "placed": [
    "NKE"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 651,
+   "fetched": 651,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 650,
+   "hits": 142
+  },
+  "hits": 142,
+  "picks": [
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 57.2,
+    "prev_close": 55.470001220703125,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 1475.25,
+    "prev_close": 1431.6700439453125,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "APP",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 418.77,
+    "prev_close": 415.2200012207031,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "COST",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 1117.0,
+    "prev_close": 1113.739990234375,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "UNH",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 415.19,
+    "prev_close": 412.0199890136719,
+    "sector": "Health Services"
+   },
+   {
+    "symbol": "KO",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 100.56,
+    "prev_close": 99.4800033569336,
+    "sector": "Consumer Non-Durables"
+   }
   ]
  }
 }
