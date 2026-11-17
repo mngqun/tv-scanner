@@ -31,7 +31,8 @@
   "15:07",
   "15:22",
   "15:37",
-  "15:41"
+  "15:41",
+  "15:47"
  ],
  "queue_done": [
   "tqqq-2026-11-17"
@@ -60,7 +61,8 @@
   "[B] cancel unfilled entry orb-B-2026-11-17-COST (filled 0.0)",
   "[B] close scan-B-2026-11-17-COST 4 (flat-by, day) -> 200",
   "[B] close orbs-B-2026-11-17-MU 5 (flat-by, day) -> 200",
-  "[B] close orbs-B-2026-11-17-SNDK 4 (flat-by, day) -> 200"
+  "[B] close orbs-B-2026-11-17-SNDK 4 (flat-by, day) -> 200",
+  "[B] close rulec-B-2026-11-17-NKE 39 (close (market near the close; paper MOC unsupported), day) -> 200"
  ],
  "placed": [
   {
@@ -924,5 +926,5 @@
   ],
   "news_status": 0
  },
- "close_pass": 1
+ "close_pass": 2
 }
