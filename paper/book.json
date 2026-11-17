@@ -39,16 +39,16 @@
   "sessions": [
    "2026-11-17"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 39.0,
+  "entry_avg": 39.82718,
+  "filled_at": "2026-11-17T14:37:33.635743776Z",
   "legs": [
    {
     "id": "ecf18b18-6200-411b-a00d-f49f8f61b638",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 39.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -60,7 +60,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 39.0
  },
  {
   "id": "tqqq-2026-11-17-t1",
