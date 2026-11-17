@@ -3,20 +3,20 @@
   "symbol": "COST",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-13",
+  "date": "2026-11-17",
   "status": "triggered",
-  "time": "9:45 AM",
-  "bar_start": "09:40",
-  "bar_index": 2,
-  "price": 1104.97,
-  "level": 1102.84,
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 1119.1,
+  "level": 1117.0,
   "interval": "5m",
   "opening_range": {
-    "high": 1105.22,
-    "low": 1092.64,
+    "high": 1122.48,
+    "low": 1110.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:24:00Z",
-  "reason": "the 9:40 bar closed above the level"
+  "checked_at": "2026-11-17T15:23:53Z",
+  "reason": "the 9:45 bar closed above the level"
 }

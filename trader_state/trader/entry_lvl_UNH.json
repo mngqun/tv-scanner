@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "UNH",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-17",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 415.19,
+  "interval": "5m",
+  "opening_range": {
+    "high": 399.99,
+    "low": 389.51,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-17T15:23:54Z",
+  "reason": "last close $391.61 (10:15 bar), $23.58 under the level $415.19 (-5.68%)"
+}

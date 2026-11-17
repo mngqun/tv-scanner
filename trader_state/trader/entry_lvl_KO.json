@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "KO",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-17",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 100.56,
+  "interval": "5m",
+  "opening_range": {
+    "high": 99.36,
+    "low": 98.53,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-17T15:23:55Z",
+  "reason": "last close $99.30 (10:15 bar), $1.26 under the level $100.56 (-1.25%)"
+}

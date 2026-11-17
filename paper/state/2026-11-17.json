@@ -6,7 +6,8 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-17"
@@ -14,7 +15,18 @@
  "log": [
   "[B] placed rulec short NKE x39 market stop 42.73 tgt None -> 200 ",
   "[A] placed tqqq long SQQQ x25 limit stop 42.38 tgt 47.35 -> 200 ",
-  "[A] placed tqqq long SQQQ x25 limit stop 42.38 tgt 48.26 -> 200 "
+  "[A] placed tqqq long SQQQ x25 limit stop 42.38 tgt 48.26 -> 200 ",
+  "[B] placed orb long AAPL x14 stop_limit stop 352.68 tgt 358.68 -> 200 ",
+  "[B] placed orb long AMZN x19 stop_limit stop 258.16 tgt 261.46 -> 200 ",
+  "[B] placed orb long CRWV x74 stop_limit stop 49.94 tgt 51.95 -> 200 ",
+  "[B] placed orb long NBIS x27 stop_limit stop 109.43 tgt 114.86 -> 200 ",
+  "[B] placed orb long AMAT x14 stop_limit stop 351.56 tgt 361.88 -> 200 ",
+  "[B] placed orb long COST x4 stop_limit stop 1116.24 tgt 1136.43 -> 200 ",
+  "[B] placed scan long COST x4 stop_limit stop 1107.15 tgt 1143.0 -> 200 ",
+  "[B] placed orb_short short NVDA x32 limit stop 156.11 tgt 151.2 -> 200 ",
+  "[B] placed orb_short short MU x5 stop_limit stop 716.52 tgt 657.96 -> 200 ",
+  "[B] placed orb_short short SNDK x4 stop_limit stop 807.73 tgt 744.81 -> 200 ",
+  "[B] placed orb_short short MRVL x34 limit stop 149.29 tgt 142.01 -> 200 "
  ],
  "placed": [
   {
@@ -52,6 +64,138 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "orb-B-2026-11-17-AAPL",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AAPL",
+   "side": "long",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:23"
+  },
+  {
+   "id": "orb-B-2026-11-17-AMZN",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AMZN",
+   "side": "long",
+   "qty": 19,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-17-CRWV",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "CRWV",
+   "side": "long",
+   "qty": 74,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-17-NBIS",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "NBIS",
+   "side": "long",
+   "qty": 27,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-17-AMAT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AMAT",
+   "side": "long",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-17-COST",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "COST",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-17-COST",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "COST",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-17-NVDA",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "NVDA",
+   "side": "short",
+   "qty": 32,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-17-MU",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "MU",
+   "side": "short",
+   "qty": 5,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-17-SNDK",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "SNDK",
+   "side": "short",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-17-MRVL",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "MRVL",
+   "side": "short",
+   "qty": 34,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "rulec": {
@@ -256,5 +400,494 @@
     "sector": "Consumer Non-Durables"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 42,
+  "risk_usd": 100.0,
+  "plans": [
+   {
+    "symbol": "NVDA",
+    "trigger": "10:05",
+    "or_high": 157.46,
+    "or_low": 154.761,
+    "entry": 154.48,
+    "stop": 156.11,
+    "target": 151.2,
+    "dollar_vol": 51780616881.003006,
+    "earnings_today": true
+   },
+   {
+    "symbol": "MU",
+    "trigger": "10:05",
+    "or_high": 727.04,
+    "or_low": 706.0,
+    "entry": 697.0,
+    "stop": 716.52,
+    "target": 657.96,
+    "dollar_vol": 24095957005.517998,
+    "earnings_today": false
+   },
+   {
+    "symbol": "SNDK",
+    "trigger": "10:05",
+    "or_high": 821.46,
+    "or_low": 794.0,
+    "entry": 786.76,
+    "stop": 807.73,
+    "target": 744.81,
+    "dollar_vol": 11486832661.778502,
+    "earnings_today": false
+   },
+   {
+    "symbol": "TSM",
+    "trigger": "10:00",
+    "or_high": 373.1,
+    "or_low": 367.25,
+    "entry": 366.45,
+    "stop": 370.18,
+    "target": 359.0,
+    "dollar_vol": 6214348718.604,
+    "earnings_today": false,
+    "skip": "last 363.92 outside entry window (365.70..370.18)"
+   },
+   {
+    "symbol": "MRVL",
+    "trigger": "09:50",
+    "or_high": 150.95,
+    "or_low": 147.62,
+    "entry": 146.86,
+    "stop": 149.29,
+    "target": 142.01,
+    "dollar_vol": 4589469478.3575,
+    "earnings_today": false
+   },
+   {
+    "symbol": "ORCL",
+    "trigger": "09:45",
+    "or_high": 120.9,
+    "or_low": 118.5926,
+    "entry": 118.2,
+    "stop": 119.75,
+    "target": 115.11,
+    "dollar_vol": 4423433616.47,
+    "earnings_today": false,
+    "skip": "last 116.64 outside entry window (117.89..119.75)"
+   },
+   {
+    "symbol": "GEV",
+    "trigger": "10:00",
+    "or_high": 797.77,
+    "or_low": 775.33,
+    "entry": 774.85,
+    "stop": 786.55,
+    "target": 751.45,
+    "dollar_vol": 3543329075,
+    "earnings_today": false,
+    "skip": "last 769.035 outside entry window (772.51..786.55)"
+   },
+   {
+    "symbol": "PLTR",
+    "trigger": "09:50",
+    "or_high": 162.59,
+    "or_low": 159.883,
+    "entry": 159.78,
+    "stop": 161.24,
+    "target": 156.87,
+    "dollar_vol": 3454203431.9880004,
+    "earnings_today": false,
+    "skip": "last 158.86 outside entry window (159.49..161.24)"
+   },
+   {
+    "symbol": "APP",
+    "trigger": "09:45",
+    "or_high": 414.79,
+    "or_low": 405.695,
+    "entry": 403.83,
+    "stop": 410.24,
+    "target": 391.01,
+    "dollar_vol": 3164728538.195,
+    "earnings_today": false
+   },
+   {
+    "symbol": "LITE",
+    "trigger": "09:50",
+    "or_high": 575.46,
+    "or_low": 559.17,
+    "entry": 553.91,
+    "stop": 567.32,
+    "target": 527.1,
+    "dollar_vol": 3126015269.2999997,
+    "earnings_today": false
+   },
+   {
+    "symbol": "BE",
+    "trigger": "09:50",
+    "or_high": 181.1568,
+    "or_low": 174.44,
+    "entry": 174.0,
+    "stop": 177.8,
+    "target": 166.4,
+    "dollar_vol": 3117323104.778,
+    "earnings_today": false
+   },
+   {
+    "symbol": "LRCX",
+    "trigger": "10:05",
+    "or_high": 215.5,
+    "or_low": 210.48,
+    "entry": 210.34,
+    "stop": 212.99,
+    "target": 205.04,
+    "dollar_vol": 2861653753.3500004,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 739.6900024414062,
+   "or_low": 737.469970703125,
+   "last": 736.5800170898438,
+   "state": "below"
+  },
+  "counts": {
+   "requested": 651,
+   "fetched": 651,
+   "unusable": 28,
+   "illiquid": 0,
+   "scanned": 623,
+   "candidates": 416,
+   "confirmed": 200,
+   "unconfirmed": 216,
+   "hits": 103
+  },
+  "plans": [
+   {
+    "symbol": "AAPL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 354.68,
+    "stop": 352.68,
+    "target": 358.68,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 34 % (target first 26.8 % vs stop first 51.5 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 5,
+     "stop": 8,
+     "avg_R": 0.359
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "AMZN",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 259.26,
+    "stop": 258.16,
+    "target": 261.46,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 30 % (target first 29.2 % vs stop first 67.8 %).",
+    "hist": {
+     "triggered": 35,
+     "target": 5,
+     "stop": 20,
+     "avg_R": -0.209
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "CRWV",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 50.61,
+    "stop": 49.94,
+    "target": 51.95,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 36 % (target first 34.9 % vs stop first 61.1 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 7,
+     "stop": 14,
+     "avg_R": 0.16
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "NBIS",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 111.24,
+    "stop": 109.43,
+    "target": 114.86,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 29 % (target first 27.3 % vs stop first 66.0 %).",
+    "hist": {
+     "triggered": 28,
+     "target": 5,
+     "stop": 9,
+     "avg_R": 0.231
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "AMAT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 355.0,
+    "stop": 351.56,
+    "target": 361.88,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 28 % (target first 25.2 % vs stop first 63.2 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 4,
+     "stop": 13,
+     "avg_R": -0.03
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Producer Manufacturing",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "V",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 425.02,
+    "stop": 423.76,
+    "target": 427.54,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 37 % (target first 36.5 % vs stop first 61.0 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 3,
+     "stop": 9,
+     "avg_R": 0.081
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Finance",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 422.59 outside entry window (423.76..425.27)"
+   },
+   {
+    "symbol": "WMT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 128.95,
+    "stop": 128.18,
+    "target": 130.49,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 32 % (target first 19.8 % vs stop first 42.9 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 6,
+     "stop": 10,
+     "avg_R": 0.266
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Deal.ai Releases Retail Price Study and Launches Daily Black Friday Price Tracki"
+    ],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Deal.ai Releases Retail Price Study and Launches Daily Black Friday Price Tracki"
+    ],
+    "B_skip": "last 128.14 outside entry window (128.18..129.10)"
+   },
+   {
+    "symbol": "COST",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 1122.97,
+    "stop": 1116.24,
+    "target": 1136.43,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 28 % (target first 15.1 % vs stop first 38.9 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 5,
+     "stop": 9,
+     "avg_R": 0.202
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "arm": "scan",
+    "setup": "level:bull_flag",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "APP",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "COST",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "9:50 AM",
+    "entry": 1119.1,
+    "stop": 1107.15,
+    "target": 1143.0,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 7 % (target first 1.1 % vs stop first 14.8 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "UNH",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Services"
+   },
+   {
+    "symbol": "KO",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Consumer Non-Durables"
+   }
+  ],
+  "news_status": 0
  }
 }

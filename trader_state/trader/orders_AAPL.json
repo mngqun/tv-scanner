@@ -1,10 +1,10 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-11T15:23:46Z",
+  "created_at": "2026-11-17T15:23:44Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (AAPL orb 2026-11-11)",
+  "source": "trader/plan.json (AAPL orb 2026-11-17)",
   "orders": [
     {
       "symbol": "AAPL",
@@ -12,19 +12,19 @@
       "qty": "14",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "353.68",
+      "limit_price": "354.68",
       "order_class": "bracket",
-      "take_profit_limit_price": "358.28",
-      "stop_loss_stop_price": "351.38",
-      "why": "opening-range breakout on AAPL: 14 shares, bound by your position cap (14 x 2.30 = $32.20 at the stop)",
+      "take_profit_limit_price": "358.68",
+      "stop_loss_stop_price": "352.68",
+      "why": "opening-range breakout on AAPL: 14 shares, bound by your position cap (14 x 2.00 = $28 at the stop)",
       "plan": {
-        "entry": 353.68,
-        "stop": 351.38,
-        "target": 358.28,
-        "risk_per_share": 2.3,
-        "max_loss": 32.2,
+        "entry": 354.68,
+        "stop": 352.68,
+        "target": 358.68,
+        "risk_per_share": 2.0,
+        "max_loss": 28.0,
         "setup": "orb",
-        "entry_time": "9:50 AM",
+        "entry_time": "9:55 AM",
         "flat_by": "15:40"
       }
     }

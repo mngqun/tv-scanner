@@ -3,20 +3,20 @@
   "symbol": "AMAT",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-02",
+  "date": "2026-11-17",
   "status": "triggered",
-  "time": "10:15 AM",
-  "bar_start": "10:10",
-  "bar_index": 8,
-  "price": 396.14,
-  "level": 395.27,
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 355.0,
+  "level": 354.29,
   "interval": "5m",
   "opening_range": {
-    "high": 395.27,
-    "low": 389.75,
+    "high": 354.29,
+    "low": 348.84,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-02T15:20:57Z",
-  "reason": "the 10:10 bar closed above the range high"
+  "checked_at": "2026-11-17T15:23:48Z",
+  "reason": "the 9:55 bar closed above the range high"
 }

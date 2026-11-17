@@ -3,20 +3,20 @@
   "symbol": "V",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-13",
+  "date": "2026-11-17",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 425.5,
-  "level": 425.43,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 425.02,
+  "level": 425.0,
   "interval": "5m",
   "opening_range": {
-    "high": 425.43,
-    "low": 422.59,
+    "high": 425.0,
+    "low": 422.52,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:23:49Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-17T15:23:49Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

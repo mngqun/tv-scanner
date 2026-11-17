@@ -3,20 +3,20 @@
   "symbol": "CRWV",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-11",
+  "date": "2026-11-17",
   "status": "triggered",
   "time": "10:05 AM",
   "bar_start": "10:00",
   "bar_index": 6,
-  "price": 58.82,
-  "level": 57.4,
+  "price": 50.61,
+  "level": 50.55,
   "interval": "5m",
   "opening_range": {
-    "high": 57.4,
-    "low": 53.81,
+    "high": 50.55,
+    "low": 49.34,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-11T15:23:53Z",
+  "checked_at": "2026-11-17T15:23:45Z",
   "reason": "the 10:00 bar closed above the range high"
 }
