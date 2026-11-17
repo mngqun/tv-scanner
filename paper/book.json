@@ -822,11 +822,11 @@
     "id": "54f5667e-7afb-4d8c-9c16-74b618e38d42",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 32.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 32.0,
+    "avg": 151.199688,
+    "filled_at": "2026-11-17T15:42:36.752228046Z",
     "stop_price": null,
     "limit_price": "151.2",
     "tif": "day"
@@ -835,7 +835,7 @@
     "id": "d9b8883a-343c-4b4a-947a-1ae18b6bdc35",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 32.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -846,8 +846,10 @@
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 32.0
+  "exit_filled": 32.0,
+  "remaining": 0.0,
+  "t1_reached": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-17-MU",
@@ -1041,11 +1043,11 @@
     "id": "ae09811f-5606-44e7-95df-d1edd8f8ce04",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 34.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 34.0,
+    "avg": 141.980588,
+    "filled_at": "2026-11-17T15:47:35.342319995Z",
     "stop_price": null,
     "limit_price": "142.01",
     "tif": "day"
@@ -1054,7 +1056,7 @@
     "id": "5a1ae4f1-23f6-4bbf-8cbd-b44c335ec81e",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 34.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -1065,7 +1067,9 @@
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 34.0
+  "exit_filled": 34.0,
+  "remaining": 0.0,
+  "t1_reached": true,
+  "closed": true
  }
 ]
