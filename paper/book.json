@@ -763,7 +763,7 @@
     "id": "e9b734b6-d63a-4157-a201-1f5209ae4f63",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -776,7 +776,7 @@
     "id": "2a992b2d-5e6b-43bd-be07-87f044654674",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -786,9 +786,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "8a1e52f9-f3c8-4679-9b00-4df9bdb1ee64",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 4.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 4.0
+  "remaining": 4.0,
+  "exit_order_ids": [
+   "8a1e52f9-f3c8-4679-9b00-4df9bdb1ee64"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-17 15:41",
+    "what": "close (flat-by) day",
+    "qty": 4,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-17-NVDA",
@@ -911,7 +938,7 @@
     "id": "916a7e59-6225-4520-bcd2-e48049511a74",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 5.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -924,7 +951,7 @@
     "id": "3da6252a-e81a-43cd-aebb-f0a099683719",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 5.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -934,9 +961,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "2fbbeb70-867e-4680-a9ff-cc468cd4b8d1",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 5.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 5.0
+  "remaining": 5.0,
+  "exit_order_ids": [
+   "2fbbeb70-867e-4680-a9ff-cc468cd4b8d1"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-17 15:41",
+    "what": "close (flat-by) day",
+    "qty": 5,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-17-SNDK",
@@ -984,7 +1038,7 @@
     "id": "3645a8ac-0e58-47a8-96be-e085f6809b08",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -997,7 +1051,7 @@
     "id": "a296ad9f-8eab-4923-890e-330e72a53e0c",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -1007,9 +1061,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "a7357ca9-67ee-40f8-a0ae-f2e9f36e7e91",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 4.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 4.0
+  "remaining": 4.0,
+  "exit_order_ids": [
+   "a7357ca9-67ee-40f8-a0ae-f2e9f36e7e91"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-17 15:41",
+    "what": "close (flat-by) day",
+    "qty": 4,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orbs-B-2026-11-17-MRVL",
