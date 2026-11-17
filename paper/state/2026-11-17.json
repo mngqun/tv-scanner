@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-17"
@@ -30,7 +31,14 @@
   "[B] placed orb_short short NVDA x32 limit stop 156.11 tgt 151.2 -> 200 ",
   "[B] placed orb_short short MU x5 stop_limit stop 716.52 tgt 657.96 -> 200 ",
   "[B] placed orb_short short SNDK x4 stop_limit stop 807.73 tgt 744.81 -> 200 ",
-  "[B] placed orb_short short MRVL x34 limit stop 149.29 tgt 142.01 -> 200 "
+  "[B] placed orb_short short MRVL x34 limit stop 149.29 tgt 142.01 -> 200 ",
+  "[A] cancel unfilled entry tqqq-2026-11-17-t1 (filled 0.0)",
+  "[A] cancel unfilled entry tqqq-2026-11-17-t2 (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-17-AAPL (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-17-AMZN (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-17-CRWV (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-17-AMAT (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-17-COST (filled 0.0)"
  ],
  "placed": [
   {
