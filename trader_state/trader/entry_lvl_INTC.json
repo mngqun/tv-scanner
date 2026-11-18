@@ -3,20 +3,20 @@
   "symbol": "INTC",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 57.2,
+  "level": 55.24,
   "interval": "5m",
   "opening_range": {
-    "high": 55.21,
-    "low": 53.93,
+    "high": 56.0,
+    "low": 53.53,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-17T15:23:53Z",
-  "reason": "last close $54.71 (10:15 bar), $2.49 under the level $57.20 (-4.35%)"
+  "checked_at": "2026-11-18T15:23:59Z",
+  "reason": "last close $54.83 (10:15 bar), $0.41 under the level $55.24 (-0.74%)"
 }

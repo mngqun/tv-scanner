@@ -3,20 +3,20 @@
   "symbol": "SMCI",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-16",
+  "date": "2026-11-18",
   "status": "triggered",
   "time": "10:00 AM",
   "bar_start": "09:55",
   "bar_index": 5,
-  "price": 25.77,
-  "level": 25.68,
+  "price": 24.72,
+  "level": 24.65,
   "interval": "5m",
   "opening_range": {
-    "high": 25.68,
-    "low": 25.07,
+    "high": 24.65,
+    "low": 23.76,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-16T15:23:57Z",
+  "checked_at": "2026-11-18T15:23:57Z",
   "reason": "the 9:55 bar closed above the range high"
 }

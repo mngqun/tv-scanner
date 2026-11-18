@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "MSTR",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-18",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 103.76,
+  "interval": "5m",
+  "opening_range": {
+    "high": 95.51,
+    "low": 91.2,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-18T15:23:59Z",
+  "reason": "last close $93.56 (10:15 bar), $10.20 under the level $103.76 (-9.83%)"
+}

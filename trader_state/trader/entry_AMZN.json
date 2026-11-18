@@ -3,20 +3,20 @@
   "symbol": "AMZN",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "status": "triggered",
   "time": "10:00 AM",
   "bar_start": "09:55",
   "bar_index": 5,
-  "price": 259.26,
-  "level": 258.98,
+  "price": 263.28,
+  "level": 263.1,
   "interval": "5m",
   "opening_range": {
-    "high": 258.98,
-    "low": 257.35,
+    "high": 263.1,
+    "low": 259.63,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-17T15:23:44Z",
+  "checked_at": "2026-11-18T15:23:49Z",
   "reason": "the 9:55 bar closed above the range high"
 }

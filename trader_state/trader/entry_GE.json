@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "GE",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-18",
+  "status": "triggered",
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 329.52,
+  "level": 327.91,
+  "interval": "5m",
+  "opening_range": {
+    "high": 327.91,
+    "low": 325.24,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-18T15:23:55Z",
+  "reason": "the 9:50 bar closed above the range high"
+}
