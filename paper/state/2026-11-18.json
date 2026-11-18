@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-18"
@@ -186,6 +187,74 @@
   ],
   "placed": [
    "TXT"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 639,
+   "fetched": 639,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 639,
+   "hits": 102
+  },
+  "hits": 102,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 158.19,
+    "prev_close": 155.4600067138672,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SPCX",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 142.11,
+    "prev_close": 141.6999969482422,
+    "sector": "Communications"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 55.24,
+    "prev_close": 55.16999816894531,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 1432.28,
+    "prev_close": 1415.550048828125,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "HD",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 346.9,
+    "prev_close": 339.010009765625,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "MSTR",
+    "setups": [
+     "oversold"
+    ],
+    "level": 103.76,
+    "prev_close": 96.5,
+    "sector": "Finance"
+   }
   ]
  }
 }
