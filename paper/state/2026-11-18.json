@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-18"
@@ -24,7 +25,12 @@
   "[B] placed orb long GE x15 stop_limit stop 326.57 tgt 335.42 -> 200 ",
   "[B] placed orb long SMCI x96 stop_limit stop 24.2 tgt 25.76 -> 200 ",
   "[B] placed orb_short short SNDK x3 stop_limit stop 790.09 tgt 712.9 -> 200 ",
-  "[B] placed orb_short short ASML x3 stop_limit stop 1393.94 tgt 1335.24 -> 200 "
+  "[B] placed orb_short short ASML x3 stop_limit stop 1393.94 tgt 1335.24 -> 200 ",
+  "[A] cancel unfilled entry tqqq-2026-11-18-t1 (filled 0.0)",
+  "[A] cancel unfilled entry tqqq-2026-11-18-t2 (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-18-WMT (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-18-GE (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-18-SMCI (filled 0.0)"
  ],
  "placed": [
   {
