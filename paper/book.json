@@ -555,16 +555,16 @@
   "sessions": [
    "2026-11-18"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 3.0,
+  "entry_avg": 1373.91,
+  "filled_at": "2026-11-18T16:21:21.046044287Z",
   "legs": [
    {
     "id": "d92f7e82-98e3-4b74-a5b9-6c5e0907b0fc",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 3.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -589,6 +589,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 3.0
  }
 ]
