@@ -1,6 +1,6 @@
 {
- "legs": 93,
- "trades": 88,
+ "legs": 96,
+ "trades": 91,
  "arms": {
   "A:tqqq": {
    "trades": 5,
@@ -192,73 +192,73 @@
    "go_live": false
   },
   "B:orb_short": {
-   "trades": 24,
-   "win_rate": 0.292,
-   "avg_R": -0.278,
-   "total_R": -6.68,
-   "pess_trades": 24,
-   "pess_avg_R": -0.278,
+   "trades": 26,
+   "win_rate": 0.269,
+   "avg_R": -0.337,
+   "total_R": -8.76,
+   "pess_trades": 26,
+   "pess_avg_R": -0.337,
    "pess_ci95": [
-    -0.652,
-    0.132
+    -0.681,
+    0.058
    ],
    "max_dd_R": 9.9,
    "worst_day_usd": -159.36,
-   "avg_slippage_R": 0.053,
-   "median_mfe_R": 0.46,
-   "median_mae_R": 1.04,
+   "avg_slippage_R": 0.05,
+   "median_mfe_R": 0.42,
+   "median_mae_R": 1.06,
    "exit_mix": {
-    "stop": 12,
+    "stop": 14,
     "flat-by": 10,
     "target": 2
    },
    "first": "2026-11-03",
-   "last": "2026-11-17",
-   "avg_R_fill": -0.272,
-   "days": 10,
+   "last": "2026-11-18",
+   "avg_R_fill": -0.33,
+   "days": 11,
    "pess_ci95_days": [
-    -0.751,
-    0.275
+    -0.784,
+    0.192
    ],
    "go_live_checks": {
     "n>=40": false,
     "avg>=+0.10R": false,
     "ci_low_by_day>0": false,
     "max_dd<=8R": false,
-    "slippage<=0.05R": false
+    "slippage<=0.05R": true
    },
    "go_live": false
   },
   "B:rulec": {
-   "trades": 13,
-   "win_rate": 0.385,
-   "avg_R": -0.016,
-   "total_R": -0.2,
-   "pess_trades": 13,
-   "pess_avg_R": -0.016,
+   "trades": 14,
+   "win_rate": 0.429,
+   "avg_R": -0.008,
+   "total_R": -0.11,
+   "pess_trades": 14,
+   "pess_avg_R": -0.008,
    "pess_ci95": [
-    -0.254,
-    0.306
+    -0.236,
+    0.292
    ],
    "max_dd_R": 2.07,
    "worst_day_usd": -90.79,
-   "avg_slippage_R": 0.116,
-   "median_mfe_R": 0.07,
-   "median_mae_R": 0.21,
+   "avg_slippage_R": 0.128,
+   "median_mfe_R": 0.1,
+   "median_mae_R": 0.2,
    "exit_mix": {
     "flat-by": 2,
     "event flat_by (instead of MOC)": 1,
     "stale intraday (missed close-out)": 4,
-    "close (market near the close; paper MOC unsupported)": 6
+    "close (market near the close; paper MOC unsupported)": 7
    },
    "first": "2026-11-02",
-   "last": "2026-11-17",
-   "rule_avg_R": 0.101,
-   "avg_R_fill": -0.022,
-   "days": 7,
+   "last": "2026-11-18",
+   "rule_avg_R": 0.12,
+   "avg_R_fill": -0.015,
+   "days": 8,
    "pess_ci95_days": [
-    -0.256,
-    0.413
+    -0.23,
+    0.388
    ],
    "go_live_checks": {
     "n>=40": false,
