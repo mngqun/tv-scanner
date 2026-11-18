@@ -3,8 +3,188 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
- "queue_done": [],
- "log": []
+ "queue_done": [
+  "tqqq-2026-11-18"
+ ],
+ "log": [
+  "[B] placed rulec short TXT x14 market stop 92.47 tgt None -> 200 ",
+  "[A] placed tqqq long SQQQ x24 limit stop 43.15 tgt 48.3 -> 200 ",
+  "[A] placed tqqq long SQQQ x24 limit stop 43.15 tgt 48.86 -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-18-TXT",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "TXT",
+   "side": "short",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-18-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 24,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-18-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 24,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "TXT",
+    "open": 85.605,
+    "prev_close": 81.62999725341797,
+    "atr": 3.4307,
+    "gap_pct": 4.87,
+    "gap_atr": 1.159,
+    "sector": "Electronic Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "TJX",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "COHR",
+    "why": "gap 3.89% / 0.33 ATR"
+   },
+   {
+    "symbol": "TTWO",
+    "why": "gap 4.27% / 0.72 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 4.04% / 0.31 ATR"
+   },
+   {
+    "symbol": "GNRC",
+    "why": "gap 1.03% / 0.16 ATR"
+   },
+   {
+    "symbol": "BURL",
+    "why": "gap 3.45% / 0.78 ATR"
+   },
+   {
+    "symbol": "ZTO",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "LITE",
+    "why": "gap 3.21% / 0.23 ATR"
+   },
+   {
+    "symbol": "NBIS",
+    "why": "gap 3.54% / 0.21 ATR"
+   },
+   {
+    "symbol": "FLUT",
+    "why": "gap -0.60% / -0.09 ATR"
+   },
+   {
+    "symbol": "BSP",
+    "why": "gap 3.35% / 0.49 ATR"
+   },
+   {
+    "symbol": "TIGO",
+    "why": "gap 3.27% / 0.73 ATR"
+   },
+   {
+    "symbol": "CRDO",
+    "why": "gap 2.69% / 0.21 ATR"
+   },
+   {
+    "symbol": "STX",
+    "why": "gap 3.25% / 0.32 ATR"
+   },
+   {
+    "symbol": "CLS",
+    "why": "gap 1.81% / 0.18 ATR"
+   },
+   {
+    "symbol": "ROST",
+    "why": "gap 2.82% / 0.76 ATR"
+   },
+   {
+    "symbol": "ARM",
+    "why": "gap 2.65% / 0.29 ATR"
+   },
+   {
+    "symbol": "JBL",
+    "why": "gap 1.70% / 0.29 ATR"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 3.28% / 0.32 ATR"
+   },
+   {
+    "symbol": "MKSI",
+    "why": "gap 2.32% / 0.31 ATR"
+   },
+   {
+    "symbol": "WDC",
+    "why": "gap 2.95% / 0.31 ATR"
+   },
+   {
+    "symbol": "IONQ",
+    "why": "gap 2.82% / 0.23 ATR"
+   },
+   {
+    "symbol": "TSM",
+    "why": "gap 2.32% / 0.40 ATR"
+   },
+   {
+    "symbol": "NVDA",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 2.14% / 0.18 ATR"
+   },
+   {
+    "symbol": "BIP",
+    "why": "gap -0.44% / -0.17 ATR"
+   },
+   {
+    "symbol": "FN",
+    "why": "gap 2.28% / 0.21 ATR"
+   },
+   {
+    "symbol": "MRVL",
+    "why": "gap 2.20% / 0.18 ATR"
+   },
+   {
+    "symbol": "CRWV",
+    "why": "gap 2.37% / 0.19 ATR"
+   }
+  ],
+  "placed": [
+   "TXT"
+  ]
+ }
 }
