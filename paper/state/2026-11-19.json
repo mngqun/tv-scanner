@@ -3,8 +3,167 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
- "queue_done": [],
- "log": []
+ "queue_done": [
+  "tqqq-2026-11-19"
+ ],
+ "log": [
+  "[A] placed tqqq long SQQQ x25 limit stop 41.17 tgt 46.05 -> 200 ",
+  "[A] placed tqqq long SQQQ x26 limit stop 41.17 tgt 46.47 -> 200 "
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [],
+  "rejected": [
+   {
+    "symbol": "ASTS",
+    "why": "gap 8.69% / 0.54 ATR"
+   },
+   {
+    "symbol": "COHR",
+    "why": "gap 8.34% / 0.72 ATR"
+   },
+   {
+    "symbol": "PDD",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "WDC",
+    "why": "gap 6.70% / 0.71 ATR"
+   },
+   {
+    "symbol": "STX",
+    "why": "gap 6.01% / 0.62 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 5.87% / 0.45 ATR"
+   },
+   {
+    "symbol": "P",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "RBRK",
+    "why": "gap 4.55% / 0.59 ATR"
+   },
+   {
+    "symbol": "HOOD",
+    "why": "gap 5.36% / 0.72 ATR"
+   },
+   {
+    "symbol": "INTC",
+    "why": "gap 5.27% / 0.47 ATR"
+   },
+   {
+    "symbol": "CRDO",
+    "why": "gap 4.45% / 0.36 ATR"
+   },
+   {
+    "symbol": "SMTC",
+    "why": "gap 4.23% / 0.33 ATR"
+   },
+   {
+    "symbol": "TER",
+    "why": "gap 3.37% / 0.35 ATR"
+   },
+   {
+    "symbol": "MU",
+    "why": "gap 4.99% / 0.54 ATR"
+   },
+   {
+    "symbol": "LSCC",
+    "why": "gap 4.45% / 0.54 ATR"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 4.70% / 0.41 ATR"
+   },
+   {
+    "symbol": "LRCX",
+    "why": "gap 4.39% / 0.53 ATR"
+   },
+   {
+    "symbol": "NET",
+    "why": "gap 4.16% / 0.53 ATR"
+   },
+   {
+    "symbol": "DDOG",
+    "why": "gap 4.24% / 0.48 ATR"
+   },
+   {
+    "symbol": "ONTO",
+    "why": "gap 4.95% / 0.52 ATR"
+   },
+   {
+    "symbol": "SKHY",
+    "why": "gap 4.73% / 0.55 ATR"
+   },
+   {
+    "symbol": "SNDK",
+    "why": "atr/price"
+   },
+   {
+    "symbol": "DELL",
+    "why": "gap 4.20% / 0.36 ATR"
+   },
+   {
+    "symbol": "CRWV",
+    "why": "gap 4.66% / 0.35 ATR"
+   },
+   {
+    "symbol": "PANW",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "MTSI",
+    "why": "gap 4.30% / 0.42 ATR"
+   },
+   {
+    "symbol": "ENTG",
+    "why": "gap 4.67% / 0.55 ATR"
+   },
+   {
+    "symbol": "AMAT",
+    "why": "gap 4.26% / 0.55 ATR"
+   },
+   {
+    "symbol": "LITE",
+    "why": "gap 4.08% / 0.30 ATR"
+   },
+   {
+    "symbol": "FLEX",
+    "why": "gap 4.29% / 0.44 ATR"
+   }
+  ],
+  "placed": []
+ },
+ "placed": [
+  {
+   "id": "tqqq-2026-11-19-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 25,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-19-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 26,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ]
 }
