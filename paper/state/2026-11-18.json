@@ -38,7 +38,8 @@
   "17:15",
   "17:33",
   "18:33",
-  "20:59"
+  "20:59",
+  "21:29"
  ],
  "queue_done": [
   "tqqq-2026-11-18"
@@ -59,6 +60,7 @@
   "[B] cancel unfilled entry orb-B-2026-11-18-SMCI (filled 0.0)",
   "[B] close rulec-B-2026-11-18-TXT 14 (close (market near the close; paper MOC unsupported), day) -> 200",
   "ledger 2026-11-18: 3 legs closed, 5 unfilled, 0 still open",
+  "ledger 2026-11-18: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-18: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-18: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-18: 0 legs closed, 0 unfilled, 0 still open",
