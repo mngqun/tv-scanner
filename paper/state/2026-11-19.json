@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-19"
@@ -166,5 +167,73 @@
    "message": null,
    "placed_at": "09:37"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 625,
+   "fetched": 625,
+   "illiquid": 0,
+   "short": 1,
+   "scanned": 624,
+   "hits": 155
+  },
+  "hits": 155,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 159.7,
+    "prev_close": 150.9600067138672,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 532.17,
+    "prev_close": 530.1400146484375,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 56.0,
+    "prev_close": 54.66999816894531,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 1423.11,
+    "prev_close": 1382.75,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "COST",
+    "setups": [
+     "bull_flag"
+    ],
+    "level": 1113.81,
+    "prev_close": 1096.6199951171875,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "UNH",
+    "setups": [
+     "oversold"
+    ],
+    "level": 387.53,
+    "prev_close": 349.9100036621094,
+    "sector": "Health Services"
+   }
+  ]
+ }
 }
