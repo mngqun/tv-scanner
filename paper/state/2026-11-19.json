@@ -36,7 +36,8 @@
   "15:52",
   "16:10",
   "17:23",
-  "17:38"
+  "17:38",
+  "18:46"
  ],
  "queue_done": [
   "tqqq-2026-11-19"
@@ -50,6 +51,7 @@
   "[B] cancel unfilled entry orb-B-2026-11-19-STX (filled 0.0)",
   "[B] cancel unfilled entry scan-B-2026-11-19-INTC (filled 0.0)",
   "ledger 2026-11-19: 3 legs closed, 2 unfilled, 0 still open",
+  "ledger 2026-11-19: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-19: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-19: 0 legs closed, 0 unfilled, 0 still open"
  ],
