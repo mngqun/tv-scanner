@@ -360,7 +360,7 @@
     "id": "28b4cac5-f0db-4c05-9268-90cc0c300ec7",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -373,18 +373,19 @@
     "id": "aff6dc9b-72a4-4aba-b3af-a67bc36b343a",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "filled",
     "qty": 4.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 4.0,
+    "avg": 1091.0,
+    "filled_at": "2026-11-19T18:04:12.672380805Z",
     "stop_price": "1090.93",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 4.0
+  "exit_filled": 4.0,
+  "remaining": 0.0,
+  "closed": true
  }
 ]
