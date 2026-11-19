@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-17T15:23:46Z",
+  "created_at": "2026-11-19T15:23:52Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (CRWV orb 2026-11-17)",
+  "source": "trader/plan.json (CRWV orb 2026-11-19)",
   "orders": [
     {
       "symbol": "CRWV",
       "side": "buy",
-      "qty": "74",
+      "qty": "40",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "50.61",
+      "limit_price": "52.35",
       "order_class": "bracket",
-      "take_profit_limit_price": "51.95",
-      "stop_loss_stop_price": "49.94",
-      "why": "opening-range breakout on CRWV: 74 shares, bound by your $50 max loss per trade (74 x 0.67 = $49.58 at the stop)",
+      "take_profit_limit_price": "54.83",
+      "stop_loss_stop_price": "51.11",
+      "why": "opening-range breakout on CRWV: 40 shares, bound by your $50 max loss per trade (40 x 1.24 = $49.60 at the stop)",
       "plan": {
-        "entry": 50.61,
-        "stop": 49.94,
-        "target": 51.95,
-        "risk_per_share": 0.67,
-        "max_loss": 49.58,
+        "entry": 52.35,
+        "stop": 51.11,
+        "target": 54.83,
+        "risk_per_share": 1.24,
+        "max_loss": 49.6,
         "setup": "orb",
-        "entry_time": "10:05 AM",
+        "entry_time": "9:50 AM",
         "flat_by": "15:40"
       }
     }

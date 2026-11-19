@@ -3,20 +3,20 @@
   "symbol": "LLY",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 1432.28,
+  "level": 1423.11,
   "interval": "5m",
   "opening_range": {
-    "high": 1422.99,
-    "low": 1403.3,
+    "high": 1382.0,
+    "low": 1363.28,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:59Z",
-  "reason": "last close $1394.65 (10:15 bar), $37.63 under the level $1432.28 (-2.63%)"
+  "checked_at": "2026-11-19T15:23:58Z",
+  "reason": "last close $1367.28 (10:15 bar), $55.83 under the level $1423.11 (-3.92%)"
 }

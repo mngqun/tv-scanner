@@ -3,20 +3,20 @@
   "symbol": "TSM",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-10-28",
+  "date": "2026-11-19",
   "status": "triggered",
-  "time": "10:05 AM",
-  "bar_start": "10:00",
-  "bar_index": 6,
-  "price": 440.41,
-  "level": 439.72,
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 374.33,
+  "level": 373.88,
   "interval": "5m",
   "opening_range": {
-    "high": 439.72,
-    "low": 437.37,
+    "high": 373.88,
+    "low": 365.71,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-10-28T14:30:01Z",
-  "reason": "the 10:00 bar closed above the range high"
+  "checked_at": "2026-11-19T15:23:49Z",
+  "reason": "the 9:45 bar closed above the range high"
 }

@@ -3,20 +3,20 @@
   "symbol": "AMD",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-13",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 594.0,
+  "date": "2026-11-19",
+  "status": "triggered",
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 549.71,
+  "level": 532.17,
   "interval": "5m",
   "opening_range": {
-    "high": 571.12,
-    "low": 551.2,
+    "high": 552.0,
+    "low": 537.09,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-13T15:23:58Z",
-  "reason": "last close $529.22 (10:15 bar), $64.78 under the level $594.00 (-10.91%)"
+  "checked_at": "2026-11-19T15:23:55Z",
+  "reason": "the 9:40 bar closed above the level"
 }

@@ -6,14 +6,18 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-19"
  ],
  "log": [
   "[A] placed tqqq long SQQQ x25 limit stop 41.17 tgt 46.05 -> 200 ",
-  "[A] placed tqqq long SQQQ x26 limit stop 41.17 tgt 46.47 -> 200 "
+  "[A] placed tqqq long SQQQ x26 limit stop 41.17 tgt 46.47 -> 200 ",
+  "[B] placed orb long STX x2 stop_limit stop 548.15 tgt 600.23 -> 200 ",
+  "[B] placed scan long INTC x22 stop_limit stop 56.77 tgt 63.34 -> 200 ",
+  "[B] placed orb_short short COST x4 stop_limit stop 1090.93 tgt 1077.67 -> 200 "
  ],
  "rulec": {
   "at": "09:37",
@@ -166,6 +170,42 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "orb-B-2026-11-19-STX",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "STX",
+   "side": "long",
+   "qty": 2,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-19-INTC",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "INTC",
+   "side": "long",
+   "qty": 22,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-19-COST",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "COST",
+   "side": "short",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "scan": {
@@ -235,5 +275,524 @@
     "sector": "Health Services"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 37,
+  "risk_usd": 100.0,
+  "plans": [
+   {
+    "symbol": "SPCX",
+    "trigger": "09:45",
+    "or_high": 147.29,
+    "or_low": 143.85,
+    "entry": 143.84,
+    "stop": 145.57,
+    "target": 140.38,
+    "dollar_vol": 12841921255.9125,
+    "earnings_today": false,
+    "skip": "last 142.765 outside entry window (143.49..145.57)"
+   },
+   {
+    "symbol": "TSLA",
+    "trigger": "09:50",
+    "or_high": 393.598,
+    "or_low": 388.32,
+    "entry": 386.06,
+    "stop": 390.96,
+    "target": 376.26,
+    "dollar_vol": 10508917081.931,
+    "earnings_today": false,
+    "skip": "last 383.62 outside entry window (385.08..390.96)"
+   },
+   {
+    "symbol": "NBIS",
+    "trigger": "09:55",
+    "or_high": 115.18,
+    "or_low": 111.0,
+    "entry": 110.81,
+    "stop": 113.09,
+    "target": 106.25,
+    "dollar_vol": 3595728389.468,
+    "earnings_today": false,
+    "skip": "last 106.365 outside entry window (110.35..113.09)"
+   },
+   {
+    "symbol": "V",
+    "trigger": "09:55",
+    "or_high": 413.51,
+    "or_low": 408.66,
+    "entry": 408.42,
+    "stop": 411.09,
+    "target": 403.08,
+    "dollar_vol": 2343249918,
+    "earnings_today": false,
+    "skip": "last 407.46 outside entry window (407.89..411.09)"
+   },
+   {
+    "symbol": "COST",
+    "trigger": "10:05",
+    "or_high": 1094.56,
+    "or_low": 1087.29,
+    "entry": 1086.51,
+    "stop": 1090.93,
+    "target": 1077.67,
+    "dollar_vol": 2317374733.18,
+    "earnings_today": false
+   },
+   {
+    "symbol": "XOM",
+    "trigger": "09:45",
+    "or_high": 162.0686,
+    "or_low": 160.61,
+    "entry": 160.51,
+    "stop": 161.34,
+    "target": 158.84,
+    "dollar_vol": 2054087049.4847999,
+    "earnings_today": false,
+    "skip": "last 160.11 outside entry window (160.34..161.34)"
+   },
+   {
+    "symbol": "UNH",
+    "trigger": "09:45",
+    "or_high": 353.85,
+    "or_low": 345.22,
+    "entry": 343.9,
+    "stop": 349.54,
+    "target": 332.62,
+    "dollar_vol": 1985965097.1535,
+    "earnings_today": false,
+    "skip": "last 338.21 outside entry window (342.77..349.54)"
+   },
+   {
+    "symbol": "CSCO",
+    "trigger": "09:50",
+    "or_high": 99.26,
+    "or_low": 98.24,
+    "entry": 97.75,
+    "stop": 98.75,
+    "target": 95.74,
+    "dollar_vol": 1950378776.4330003,
+    "earnings_today": false,
+    "skip": "last 97.54 outside entry window (97.55..98.75)"
+   },
+   {
+    "symbol": "APP",
+    "trigger": "09:45",
+    "or_high": 401.94,
+    "or_low": 392.4,
+    "entry": 391.41,
+    "stop": 397.17,
+    "target": 379.89,
+    "dollar_vol": 1924553080.0,
+    "earnings_today": false
+   },
+   {
+    "symbol": "JNJ",
+    "trigger": "09:50",
+    "or_high": 270.6,
+    "or_low": 267.27,
+    "entry": 266.64,
+    "stop": 268.94,
+    "target": 262.05,
+    "dollar_vol": 1857004830.58,
+    "earnings_today": false
+   },
+   {
+    "symbol": "JPM",
+    "trigger": "10:05",
+    "or_high": 327.42,
+    "or_low": 325.87,
+    "entry": 325.27,
+    "stop": 326.65,
+    "target": 322.52,
+    "dollar_vol": 1802235651.084,
+    "earnings_today": false
+   },
+   {
+    "symbol": "MRNA",
+    "trigger": "09:45",
+    "or_high": 204.457,
+    "or_low": 194.64,
+    "entry": 192.24,
+    "stop": 199.55,
+    "target": 177.62,
+    "dollar_vol": 1719028407.1360002,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 739.89990234375,
+   "or_low": 735.4201049804688,
+   "last": 732.6099853515625,
+   "state": "below"
+  },
+  "counts": {
+   "requested": 624,
+   "fetched": 624,
+   "unusable": 17,
+   "illiquid": 0,
+   "scanned": 607,
+   "candidates": 259,
+   "confirmed": 200,
+   "unconfirmed": 59,
+   "hits": 104
+  },
+  "plans": [
+   {
+    "symbol": "AMD",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 554.47,
+    "stop": 544.54,
+    "target": 574.33,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 21 % (target first 12.6 % vs stop first 46.9 %).",
+    "hist": {
+     "triggered": 39,
+     "target": 5,
+     "stop": 15,
+     "avg_R": 0.1
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell",
+     "deal: Advanced Micro Devices (AMD) Closes $8.2 Billion World Labs Acquisition"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell; deal: Advanced Micro Devices (AM"
+    ],
+    "B_skip": "last 532.29 outside entry window (544.54..556.46)"
+   },
+   {
+    "symbol": "MU",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 756.6,
+    "stop": 742.37,
+    "target": 785.06,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 16 % (target first 8.2 % vs stop first 43.7 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 4,
+     "stop": 14,
+     "avg_R": -0.001
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 737.35 outside entry window (742.37..759.45)"
+   },
+   {
+    "symbol": "MSFT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 525.35,
+    "stop": 521.6,
+    "target": 532.85,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 26 % (target first 18.3 % vs stop first 53.5 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 2,
+     "stop": 9,
+     "avg_R": -0.034
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: North Star Carbon Removal Project Selected by Government of Canada for Landmark "
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: North Star Carbon Removal Project Selected by Government of Canada for Landmark "
+    ],
+    "B_skip": "last 518.05 outside entry window (521.6..526.10)"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 59.15,
+    "stop": 58.14,
+    "target": 61.17,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 27 % (target first 19.0 % vs stop first 51.4 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 5,
+     "stop": 13,
+     "avg_R": 0.026
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Does Intel (INTC) Change The AI Server Story With This Foundry Win?",
+     "deal: Intel and Microsoft agree long-term deal on Azure cloud hardware"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Does Intel (INTC) Change The AI Server Story With This Foundry Win?; deal: Intel and Microsoft agree long-term dea"
+    ],
+    "B_skip": "last 57.79 outside entry window (58.14..59.35)"
+   },
+   {
+    "symbol": "TSM",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 374.33,
+    "stop": 369.79,
+    "target": 383.41,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 14 % (target first 7.1 % vs stop first 42.6 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 3,
+     "stop": 9,
+     "avg_R": 0.25
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 368.24 outside entry window (369.79..375.24)"
+   },
+   {
+    "symbol": "CRWV",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 52.35,
+    "stop": 51.11,
+    "target": 54.83,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 28 % (target first 19.9 % vs stop first 51.1 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 7,
+     "stop": 14,
+     "avg_R": 0.16
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "halt: Texas Starts Approving Data Centers Again\u2014Including For SpaceX"
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: halt: Texas Starts Approving Data Centers Again\u2014Including For SpaceX"
+    ],
+    "B_skip": "last 49.56 outside entry window (51.11..52.60)"
+   },
+   {
+    "symbol": "MRVL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 153.45,
+    "stop": 151.64,
+    "target": 157.07,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 31 % (target first 29.5 % vs stop first 64.5 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 2,
+     "stop": 12,
+     "avg_R": -0.023
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal"
+    ],
+    "B_skip": "last 150.34 outside entry window (151.64..153.81)"
+   },
+   {
+    "symbol": "STX",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 565.51,
+    "stop": 548.15,
+    "target": 600.23,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 10 % (target first 2.6 % vs stop first 24.1 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 5,
+     "stop": 15,
+     "avg_R": 0.025
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "NVDA",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AMD",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": "9:45 AM",
+    "entry": 549.71,
+    "stop": 532.78,
+    "target": 583.57,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 8 % (target first 1.9 % vs stop first 21.6 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell",
+     "deal: Advanced Micro Devices (AMD) Closes $8.2 Billion World Labs Acquisition"
+    ],
+    "sector": "Electronic Technology",
+    "B_skip": "last 532.29 outside entry window (532.78..553.10)"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": "9:45 AM",
+    "entry": 58.96,
+    "stop": 56.77,
+    "target": 63.34,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 5 % (target first 0.8 % vs stop first 16.4 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Does Intel (INTC) Change The AI Server Story With This Foundry Win?",
+     "deal: Intel and Microsoft agree long-term deal on Azure cloud hardware"
+    ],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "arm": "scan",
+    "setup": "level:bull_flag",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "COST",
+    "arm": "scan",
+    "setup": "level:bull_flag",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "UNH",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Services"
+   }
+  ],
+  "news_status": 0
  }
 }
