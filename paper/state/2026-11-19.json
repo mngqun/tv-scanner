@@ -33,7 +33,8 @@
   "15:37",
   "15:41",
   "15:47",
-  "15:52"
+  "15:52",
+  "16:10"
  ],
  "queue_done": [
   "tqqq-2026-11-19"
@@ -45,7 +46,8 @@
   "[B] placed scan long INTC x22 stop_limit stop 56.77 tgt 63.34 -> 200 ",
   "[B] placed orb_short short COST x4 stop_limit stop 1090.93 tgt 1077.67 -> 200 ",
   "[B] cancel unfilled entry orb-B-2026-11-19-STX (filled 0.0)",
-  "[B] cancel unfilled entry scan-B-2026-11-19-INTC (filled 0.0)"
+  "[B] cancel unfilled entry scan-B-2026-11-19-INTC (filled 0.0)",
+  "ledger 2026-11-19: 3 legs closed, 2 unfilled, 0 still open"
  ],
  "rulec": {
   "at": "09:37",
@@ -823,5 +825,129 @@
   ],
   "news_status": 0
  },
- "close_pass": 3
+ "close_pass": 3,
+ "ledger": [
+  {
+   "date": "2026-11-19",
+   "closed_day": "2026-11-19",
+   "account": "A",
+   "arm": "tqqq",
+   "setup": "gap_fade",
+   "id": "tqqq-2026-11-19-t1",
+   "base": "tqqq-2026-11-19",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 25.0,
+   "entry_type": "limit",
+   "plan_entry": 43.12,
+   "stop": 41.17,
+   "target": 46.05,
+   "avg_entry": 43.1144,
+   "avg_exit": 46.06,
+   "exit": "target",
+   "pnl": 73.64,
+   "planned_risk": 48.75,
+   "R": 1.511,
+   "slippage_R": -0.003,
+   "filled_at": "2026-11-19T14:51:13.000270705Z",
+   "exited_at": "2026-11-19T15:32:32.929904399Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": null,
+   "features": {},
+   "mfe_R": 1.56,
+   "mae_R": 0.02,
+   "entry_through": true,
+   "target_through": true
+  },
+  {
+   "date": "2026-11-19",
+   "closed_day": "2026-11-19",
+   "account": "A",
+   "arm": "tqqq",
+   "setup": "gap_fade",
+   "id": "tqqq-2026-11-19-t2",
+   "base": "tqqq-2026-11-19",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 26.0,
+   "entry_type": "limit",
+   "plan_entry": 43.12,
+   "stop": 41.17,
+   "target": 46.47,
+   "avg_entry": 43.12,
+   "avg_exit": 46.4985,
+   "exit": "target",
+   "pnl": 87.84,
+   "planned_risk": 50.7,
+   "R": 1.733,
+   "slippage_R": 0.0,
+   "filled_at": "2026-11-19T14:51:11.182288122Z",
+   "exited_at": "2026-11-19T15:36:04.751591379Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": null,
+   "features": {},
+   "mfe_R": 1.76,
+   "mae_R": 0.03,
+   "entry_through": true,
+   "target_through": true
+  },
+  {
+   "date": "2026-11-19",
+   "closed_day": "2026-11-19",
+   "account": "B",
+   "arm": "orb_short",
+   "setup": "orb_breakdown",
+   "id": "orbs-B-2026-11-19-COST",
+   "base": "orbs-B-2026-11-19-COST",
+   "symbol": "COST",
+   "side": "short",
+   "qty": 4.0,
+   "entry_type": "stop_limit",
+   "plan_entry": 1086.51,
+   "stop": 1090.93,
+   "target": 1077.67,
+   "avg_entry": 1086.87,
+   "avg_exit": 1091.0,
+   "exit": "stop",
+   "pnl": -16.52,
+   "planned_risk": 17.68,
+   "R": -0.934,
+   "slippage_R": -0.081,
+   "filled_at": "2026-11-19T15:39:09.426550049Z",
+   "exited_at": "2026-11-19T18:04:12.672380805Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Retail Trade",
+   "features": {
+    "regime": "short",
+    "spy_or": "below",
+    "trigger": "10:05",
+    "earnings_today": false
+   },
+   "mfe_R": 0.84,
+   "mae_R": 0.92,
+   "entry_through": true
+  }
+ ],
+ "unfilled": [
+  {
+   "id": "orb-B-2026-11-19-STX",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "STX",
+   "status": "canceled"
+  },
+  {
+   "id": "scan-B-2026-11-19-INTC",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "INTC",
+   "status": "canceled"
+  }
+ ]
 }
