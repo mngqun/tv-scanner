@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-11-20T01:53:39+00:00",
- "generated_new_york": "2026-11-19T20:53:39-05:00",
+ "generated_utc": "2026-11-20T02:37:15+00:00",
+ "generated_new_york": "2026-11-19T21:37:15-05:00",
  "source": "Cboe delayed quotes (cdn.cboe.com), ~15 min delayed",
  "criteria": {
   "min_dte": 2,
