@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -205,6 +206,74 @@
   "placed": [
    "HDB",
    "IBN"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 610,
+   "fetched": 610,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 610,
+   "hits": 73
+  },
+  "hits": 73,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 158.13,
+    "prev_close": 145.97999572753906,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 105.85,
+    "prev_close": 94.3949966430664,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 59.44,
+    "prev_close": 55.720001220703125,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOG",
+    "setups": [
+     "oversold"
+    ],
+    "level": 292.21,
+    "prev_close": 271.0199890136719,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "PANW",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 370.0,
+    "prev_close": 361.7300109863281,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "UNH",
+    "setups": [
+     "oversold"
+    ],
+    "level": 353.85,
+    "prev_close": 330.4800109863281,
+    "sector": "Health Services"
+   }
   ]
  }
 }
