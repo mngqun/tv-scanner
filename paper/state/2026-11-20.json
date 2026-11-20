@@ -31,7 +31,8 @@
   "15:07",
   "15:22",
   "15:37",
-  "15:41"
+  "15:41",
+  "15:47"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -54,7 +55,9 @@
   "[B] cancel unfilled entry orb-B-2026-11-20-INTC (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-20-GOOG (filled 0.0)",
   "[A] tqqq-2026-11-20-t2 stop 48.62 -> 50.94 (T1 filled) -> 200",
-  "[B] close orbs-B-2026-11-20-PM 26 (flat-by, day) -> 200"
+  "[B] close orbs-B-2026-11-20-PM 26 (flat-by, day) -> 200",
+  "[B] close rulec-B-2026-11-20-HDB 76 (close (market near the close; paper MOC unsupported), day) -> 200",
+  "[B] close rulec-B-2026-11-20-IBN 61 (close (market near the close; paper MOC unsupported), day) -> 200"
  ],
  "placed": [
   {
@@ -835,5 +838,5 @@
   ],
   "news_status": 0
  },
- "close_pass": 1
+ "close_pass": 2
 }

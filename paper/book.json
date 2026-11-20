@@ -48,7 +48,7 @@
     "id": "c0a9b3d4-658e-4d0d-85ef-e028d201db0a",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 76.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -58,9 +58,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "b25b6e68-6c64-42ed-ba4c-b902263108c5",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 76.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 76.0
+  "remaining": 76.0,
+  "exit_order_ids": [
+   "b25b6e68-6c64-42ed-ba4c-b902263108c5"
+  ],
+  "exit_reason": "close (market near the close; paper MOC unsupported)",
+  "events": [
+   {
+    "at": "2026-11-20 15:47",
+    "what": "close (close (market near the close; paper MOC unsupported)) day",
+    "qty": 76,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "rulec-B-2026-11-20-IBN",
@@ -111,7 +138,7 @@
     "id": "c98c3cee-eac0-4f2c-a880-f069edbf480a",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 61.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -121,9 +148,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "fa5135bb-e3a9-4c3b-aae0-008e05d26766",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 61.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 61.0
+  "remaining": 61.0,
+  "exit_order_ids": [
+   "fa5135bb-e3a9-4c3b-aae0-008e05d26766"
+  ],
+  "exit_reason": "close (market near the close; paper MOC unsupported)",
+  "events": [
+   {
+    "at": "2026-11-20 15:47",
+    "what": "close (close (market near the close; paper MOC unsupported)) day",
+    "qty": 61,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "tqqq-2026-11-20-t1",
@@ -847,18 +901,18 @@
     "id": "fcdf9be8-4091-4dbc-8251-b8cb7df4fcb2",
     "type": "market",
     "side": "buy",
-    "status": "partially_filled",
+    "status": "filled",
     "qty": 26.0,
-    "filled_qty": 14.0,
+    "filled_qty": 26.0,
     "avg": 184.48,
-    "filled_at": "2026-11-20T20:41:19.329974392Z",
+    "filled_at": "2026-11-20T20:41:19.772211291Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 14.0,
-  "remaining": 12.0,
+  "exit_filled": 26.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "fcdf9be8-4091-4dbc-8251-b8cb7df4fcb2"
   ],
@@ -871,6 +925,7 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  }
 ]
