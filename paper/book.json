@@ -63,18 +63,18 @@
     "id": "b25b6e68-6c64-42ed-ba4c-b902263108c5",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 76.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 76.0,
+    "avg": 27.57,
+    "filled_at": "2026-11-20T20:47:19.927168934Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 76.0,
+  "exit_filled": 76.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "b25b6e68-6c64-42ed-ba4c-b902263108c5"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "rulec-B-2026-11-20-IBN",
@@ -153,18 +154,18 @@
     "id": "fa5135bb-e3a9-4c3b-aae0-008e05d26766",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 61.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 61.0,
+    "avg": 35.61,
+    "filled_at": "2026-11-20T20:47:20.430635208Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 61.0,
+  "exit_filled": 61.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "fa5135bb-e3a9-4c3b-aae0-008e05d26766"
   ],
@@ -177,7 +178,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "tqqq-2026-11-20-t1",
