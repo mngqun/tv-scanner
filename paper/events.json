@@ -25,5 +25,10 @@
     "2026-11-17": {
         "flat_swing": true,
         "note": "NVDA earnings after the close (mega-cap): no swing holds overnight"
+    },
+    "2026-11-27": {
+        "flat_by": "12:40",
+        "flat_swing": true,
+        "note": "NYSE early close 13:00 ET (day after Thanksgiving): all intraday incl. Rule C flat by 12:40"
     }
 }
