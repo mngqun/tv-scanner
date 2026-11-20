@@ -308,7 +308,7 @@
   "sessions": [
    "2026-11-20"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -317,7 +317,7 @@
     "id": "69377f05-e7ef-4a1c-acde-cb4080157f70",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 10.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -330,7 +330,7 @@
     "id": "5f12831b-a37b-46e0-8351-03830593a57e",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 10.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -342,7 +342,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-20-AMZN",
@@ -390,7 +392,7 @@
   "sessions": [
    "2026-11-20"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -399,7 +401,7 @@
     "id": "608d9059-6a4b-441f-b4da-b5c367ef008d",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 12.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -412,7 +414,7 @@
     "id": "c6184e56-ae66-4639-90e8-ff37cb48a820",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 12.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -424,7 +426,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-20-GOOGL",
@@ -472,7 +476,7 @@
   "sessions": [
    "2026-11-20"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -481,7 +485,7 @@
     "id": "91b4144c-ece6-4a4a-9567-b0867306839b",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 11.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -494,7 +498,7 @@
     "id": "c361b082-b925-4128-bc69-1c14801d8b67",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 11.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -506,7 +510,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-20-INTC",
@@ -556,7 +562,7 @@
   "sessions": [
    "2026-11-20"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -565,7 +571,7 @@
     "id": "419f276c-b68a-4866-b455-ea5e9e82f61e",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 62.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -578,7 +584,7 @@
     "id": "4fab3a5f-777a-444d-bba6-f2401f7a0cd7",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 62.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -590,7 +596,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-20-GOOG",
@@ -638,7 +646,7 @@
   "sessions": [
    "2026-11-20"
   ],
-  "entry_status": "new",
+  "entry_status": "canceled",
   "entry_filled": 0.0,
   "entry_avg": null,
   "filled_at": null,
@@ -647,7 +655,7 @@
     "id": "6c594ecc-0b6c-43bf-94ac-d76fd5040399",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -660,7 +668,7 @@
     "id": "ce9ae077-32b5-4557-8890-1321c12d7c7e",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 13.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -672,7 +680,9 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 0.0,
+  "cancelled_unfilled": true,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-20-AAPL",

@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -27,7 +28,12 @@
   "[B] placed orb long INTC x62 stop_limit stop 53.98 tgt 56.38 -> 200 ",
   "[B] placed orb long GOOG x13 stop_limit stop 274.12 tgt 285.37 -> 200 ",
   "[B] placed orb_short short AAPL x14 limit stop 351.85 tgt 343.64 -> 200 ",
-  "[B] placed orb_short short PM x26 stop_limit stop 189.23 tgt 184.0 -> 200 "
+  "[B] placed orb_short short PM x26 stop_limit stop 189.23 tgt 184.0 -> 200 ",
+  "[B] cancel unfilled entry orb-B-2026-11-20-MSFT (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-20-AMZN (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-20-GOOGL (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-20-INTC (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-20-GOOG (filled 0.0)"
  ],
  "placed": [
   {
