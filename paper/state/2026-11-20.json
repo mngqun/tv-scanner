@@ -6,7 +6,8 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -15,7 +16,14 @@
   "[B] placed rulec short HDB x76 market stop 28.56 tgt None -> 200 ",
   "[B] placed rulec short IBN x61 market stop 37.34 tgt None -> 200 ",
   "[A] placed tqqq long SQQQ x21 limit stop 48.62 tgt 54.45 -> 200 ",
-  "[A] placed tqqq long SQQQ x21 limit stop 48.62 tgt 55.18 -> 200 "
+  "[A] placed tqqq long SQQQ x21 limit stop 48.62 tgt 55.18 -> 200 ",
+  "[B] placed orb long MSFT x10 stop_limit stop 494.62 tgt 508.36 -> 200 ",
+  "[B] placed orb long AMZN x12 stop_limit stop 253.81 tgt 265.45 -> 200 ",
+  "[B] placed orb long GOOGL x11 stop_limit stop 276.17 tgt 288.74 -> 200 ",
+  "[B] placed orb long INTC x62 stop_limit stop 53.98 tgt 56.38 -> 200 ",
+  "[B] placed orb long GOOG x13 stop_limit stop 274.12 tgt 285.37 -> 200 ",
+  "[B] placed orb_short short AAPL x14 limit stop 351.85 tgt 343.64 -> 200 ",
+  "[B] placed orb_short short PM x26 stop_limit stop 189.23 tgt 184.0 -> 200 "
  ],
  "placed": [
   {
@@ -65,6 +73,90 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "orb-B-2026-11-20-MSFT",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "MSFT",
+   "side": "long",
+   "qty": 10,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-20-AMZN",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AMZN",
+   "side": "long",
+   "qty": 12,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-20-GOOGL",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOGL",
+   "side": "long",
+   "qty": 11,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-20-INTC",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "INTC",
+   "side": "long",
+   "qty": 62,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-20-GOOG",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 13,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-20-AAPL",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "AAPL",
+   "side": "short",
+   "qty": 14,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-20-PM",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "PM",
+   "side": "short",
+   "qty": 26,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "rulec": {
@@ -275,5 +367,441 @@
     "sector": "Health Services"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 6,
+  "risk_usd": 100.0,
+  "plans": [
+   {
+    "symbol": "AAPL",
+    "trigger": "09:45",
+    "or_high": 354.34,
+    "or_low": 349.35,
+    "entry": 349.11,
+    "stop": 351.85,
+    "target": 343.64,
+    "dollar_vol": 12469366526.4925,
+    "earnings_today": false
+   },
+   {
+    "symbol": "AVGO",
+    "trigger": "09:55",
+    "or_high": 343.01,
+    "or_low": 335.11,
+    "entry": 332.84,
+    "stop": 339.06,
+    "target": 320.4,
+    "dollar_vol": 9610099057.859272,
+    "earnings_today": false,
+    "skip": "last 320.36 outside entry window (331.60..339.06)"
+   },
+   {
+    "symbol": "MSTR",
+    "trigger": "10:05",
+    "or_high": 87.95,
+    "or_low": 84.85,
+    "entry": 84.14,
+    "stop": 86.4,
+    "target": 79.62,
+    "dollar_vol": 1566556209.018,
+    "earnings_today": false,
+    "skip": "last 82.045 outside entry window (83.69..86.4)"
+   },
+   {
+    "symbol": "APP",
+    "trigger": "10:00",
+    "or_high": 378.54,
+    "or_low": 369.36,
+    "entry": 369.21,
+    "stop": 373.95,
+    "target": 359.73,
+    "dollar_vol": 1499437889.488,
+    "earnings_today": false,
+    "skip": "last 360.71 outside entry window (368.26..373.95)"
+   },
+   {
+    "symbol": "PM",
+    "trigger": "09:45",
+    "or_high": 190.73,
+    "or_low": 187.73,
+    "entry": 187.49,
+    "stop": 189.23,
+    "target": 184.0,
+    "dollar_vol": 982879762.5,
+    "earnings_today": false
+   },
+   {
+    "symbol": "APH",
+    "trigger": "10:05",
+    "or_high": 73.95,
+    "or_low": 72.58,
+    "entry": 72.5,
+    "stop": 73.27,
+    "target": 70.96,
+    "dollar_vol": 887640319.326,
+    "earnings_today": false,
+    "skip": "last 71.41 outside entry window (72.35..73.27)"
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 714.1599731445312,
+   "or_low": 711.719970703125,
+   "last": 711.239990234375,
+   "state": "below"
+  },
+  "counts": {
+   "requested": 614,
+   "fetched": 614,
+   "unusable": 8,
+   "illiquid": 0,
+   "scanned": 606,
+   "candidates": 451,
+   "confirmed": 200,
+   "unconfirmed": 251,
+   "hits": 125
+  },
+  "plans": [
+   {
+    "symbol": "MSFT",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 499.2,
+    "stop": 494.62,
+    "target": 508.36,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 17 % (target first 9.2 % vs stop first 44.5 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 2,
+     "stop": 10,
+     "avg_R": -0.127
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "SPCX",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 133.4,
+    "stop": 131.1,
+    "target": 138.0,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 17 % (target first 9.3 % vs stop first 44.2 %).",
+    "hist": {
+     "triggered": 34,
+     "target": 3,
+     "stop": 15,
+     "avg_R": -0.175
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Communications",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 129.9 outside entry window (131.1..133.86)"
+   },
+   {
+    "symbol": "AMZN",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 257.69,
+    "stop": 253.81,
+    "target": 265.45,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 5 % (target first 1.2 % vs stop first 22.4 %).",
+    "hist": {
+     "triggered": 37,
+     "target": 6,
+     "stop": 21,
+     "avg_R": -0.171
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "TSLA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 371.37,
+    "stop": 367.74,
+    "target": 378.63,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 32 % (target first 23.5 % vs stop first 51.0 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 1,
+     "stop": 15,
+     "avg_R": -0.171
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Don\u2019t Sell Tesla Stock. A Merger Is Coming.",
+     "deal: HSBC upgrades Tesla, more than doubles target on SpaceX merger potential",
+     "deal: Tesla Stock Gets An HSBC Upgrade \u2014 But Analyst Says Strategic Logic Of TSLA-SPCX"
+    ],
+    "sector": "Consumer Durables",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Don\u2019t Sell Tesla Stock. A Merger Is Coming.; deal: HSBC upgrades Tesla, more than doubles target on SpaceX merger "
+    ],
+    "B_skip": "last 362.03 outside entry window (367.74..372.10)"
+   },
+   {
+    "symbol": "GOOGL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 280.36,
+    "stop": 276.17,
+    "target": 288.74,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 2 % (target first 0.6 % vs stop first 29.1 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 6,
+     "stop": 17,
+     "avg_R": -0.124
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "META",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 587.09,
+    "stop": 579.39,
+    "target": 602.49,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 19 % (target first 9.4 % vs stop first 40.4 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 4,
+     "stop": 14,
+     "avg_R": -0.138
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ],
+    "B_skip": "last 577.06 outside entry window (579.39..588.63)"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:50 AM",
+    "entry": 54.78,
+    "stop": 53.98,
+    "target": 56.38,
+    "verdict": "Close to break-even: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 29 % (target first 23.8 % vs stop first 59.5 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 5,
+     "stop": 13,
+     "avg_R": 0.028
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Did Microsoft Azure Deal Just Shift Intel's (INTC) Investment Narrative?"
+    ],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short",
+     "news: deal: Did Microsoft Azure Deal Just Shift Intel's (INTC) Investment Narrative?"
+    ]
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 277.87,
+    "stop": 274.12,
+    "target": 285.37,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 3 % (target first 1.0 % vs stop first 34.2 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 3,
+     "stop": 18,
+     "avg_R": -0.282
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "NVDA",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SNDK",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "arm": "scan",
+    "setup": "level:oversold_bounce",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [
+     "deal: Did Microsoft Azure Deal Just Shift Intel's (INTC) Investment Narrative?"
+    ],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "PANW",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "UNH",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Services"
+   }
+  ],
+  "news_status": 0
  }
 }

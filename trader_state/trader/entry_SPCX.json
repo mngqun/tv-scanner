@@ -3,20 +3,20 @@
   "symbol": "SPCX",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-18",
+  "date": "2026-11-20",
   "status": "triggered",
-  "time": "10:15 AM",
-  "bar_start": "10:10",
-  "bar_index": 8,
-  "price": 144.91,
-  "level": 144.78,
+  "time": "10:00 AM",
+  "bar_start": "09:55",
+  "bar_index": 5,
+  "price": 133.4,
+  "level": 132.69,
   "interval": "5m",
   "opening_range": {
-    "high": 144.78,
-    "low": 141.22,
+    "high": 132.69,
+    "low": 129.52,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:48Z",
-  "reason": "the 10:10 bar closed above the range high"
+  "checked_at": "2026-11-20T15:23:46Z",
+  "reason": "the 9:55 bar closed above the range high"
 }

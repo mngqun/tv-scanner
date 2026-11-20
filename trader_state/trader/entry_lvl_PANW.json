@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "PANW",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-20",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 370.0,
+  "interval": "5m",
+  "opening_range": {
+    "high": 366.79,
+    "low": 347.32,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-20T15:23:58Z",
+  "reason": "last close $350.54 (10:15 bar), $19.46 under the level $370.00 (-5.26%)"
+}

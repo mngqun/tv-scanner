@@ -3,20 +3,20 @@
   "symbol": "TSLA",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-11",
+  "date": "2026-11-20",
   "status": "triggered",
-  "time": "10:15 AM",
-  "bar_start": "10:10",
-  "bar_index": 8,
-  "price": 393.08,
-  "level": 392.67,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 371.37,
+  "level": 370.34,
   "interval": "5m",
   "opening_range": {
-    "high": 392.67,
-    "low": 386.35,
+    "high": 370.34,
+    "low": 365.14,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-11T15:23:46Z",
-  "reason": "the 10:10 bar closed above the range high"
+  "checked_at": "2026-11-20T15:23:49Z",
+  "reason": "the 9:50 bar closed above the range high"
 }
