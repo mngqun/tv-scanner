@@ -35,7 +35,8 @@
   "15:47",
   "15:52",
   "16:10",
-  "16:55"
+  "16:55",
+  "17:13"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -62,6 +63,7 @@
   "[B] close rulec-B-2026-11-20-HDB 76 (close (market near the close; paper MOC unsupported), day) -> 200",
   "[B] close rulec-B-2026-11-20-IBN 61 (close (market near the close; paper MOC unsupported), day) -> 200",
   "ledger 2026-11-20: 6 legs closed, 5 unfilled, 0 still open",
+  "ledger 2026-11-20: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-20: 0 legs closed, 0 unfilled, 0 still open"
  ],
  "placed": [
