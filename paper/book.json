@@ -819,7 +819,7 @@
     "id": "d708c4d2-81dd-49fa-8be7-b4b9570506fd",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 26.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -832,7 +832,7 @@
     "id": "3dd33c92-f5c3-4dd8-b882-5609b13d42f6",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "canceled",
     "qty": 26.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -842,8 +842,35 @@
     "tif": "day"
    }
   ],
-  "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 26.0
+  "exits": [
+   {
+    "id": "fcdf9be8-4091-4dbc-8251-b8cb7df4fcb2",
+    "type": "market",
+    "side": "buy",
+    "status": "partially_filled",
+    "qty": 26.0,
+    "filled_qty": 14.0,
+    "avg": 184.48,
+    "filled_at": "2026-11-20T20:41:19.329974392Z",
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exit_filled": 14.0,
+  "remaining": 12.0,
+  "exit_order_ids": [
+   "fcdf9be8-4091-4dbc-8251-b8cb7df4fcb2"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-20 15:41",
+    "what": "close (flat-by) day",
+    "qty": 26,
+    "http": 200,
+    "msg": null
+   }
+  ]
  }
 ]

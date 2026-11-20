@@ -30,7 +30,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-20"
@@ -52,7 +53,8 @@
   "[B] cancel unfilled entry orb-B-2026-11-20-GOOGL (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-20-INTC (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-20-GOOG (filled 0.0)",
-  "[A] tqqq-2026-11-20-t2 stop 48.62 -> 50.94 (T1 filled) -> 200"
+  "[A] tqqq-2026-11-20-t2 stop 48.62 -> 50.94 (T1 filled) -> 200",
+  "[B] close orbs-B-2026-11-20-PM 26 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -832,5 +834,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
