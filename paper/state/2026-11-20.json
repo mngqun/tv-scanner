@@ -3,8 +3,207 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
- "queue_done": [],
- "log": []
+ "queue_done": [
+  "tqqq-2026-11-20"
+ ],
+ "log": [
+  "[B] placed rulec short HDB x76 market stop 28.56 tgt None -> 200 ",
+  "[B] placed rulec short IBN x61 market stop 37.34 tgt None -> 200 ",
+  "[A] placed tqqq long SQQQ x21 limit stop 48.62 tgt 54.45 -> 200 ",
+  "[A] placed tqqq long SQQQ x21 limit stop 48.62 tgt 55.18 -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-20-HDB",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "HDB",
+   "side": "short",
+   "qty": 76,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-20-IBN",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "IBN",
+   "side": "short",
+   "qty": 61,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-20-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 21,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-20-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 21,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "HDB",
+    "open": 27.25,
+    "prev_close": 26.239999771118164,
+    "atr": 0.6557,
+    "gap_pct": 3.85,
+    "gap_atr": 1.54,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "IBN",
+    "open": 35.72,
+    "prev_close": 34.900001525878906,
+    "atr": 0.8079,
+    "gap_pct": 2.35,
+    "gap_atr": 1.015,
+    "sector": "Finance"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "UNH",
+    "why": "gap 2.85% / 0.59 ATR"
+   },
+   {
+    "symbol": "HUM",
+    "why": "gap 3.39% / 0.55 ATR"
+   },
+   {
+    "symbol": "RYAN",
+    "why": "gap 0.68% / 0.18 ATR"
+   },
+   {
+    "symbol": "LTH",
+    "why": "gap -2.03% / -0.50 ATR"
+   },
+   {
+    "symbol": "VRSK",
+    "why": "gap 2.22% / 0.57 ATR"
+   },
+   {
+    "symbol": "ZBH",
+    "why": "gap 1.20% / 0.30 ATR"
+   },
+   {
+    "symbol": "HSY",
+    "why": "gap 1.17% / 0.37 ATR"
+   },
+   {
+    "symbol": "QSR",
+    "why": "gap 0.84% / 0.31 ATR"
+   },
+   {
+    "symbol": "ALL",
+    "why": "gap 1.75% / 0.67 ATR"
+   },
+   {
+    "symbol": "MRSH",
+    "why": "gap 1.92% / 0.84 ATR"
+   },
+   {
+    "symbol": "STZ",
+    "why": "gap 0.33% / 0.11 ATR"
+   },
+   {
+    "symbol": "CNC",
+    "why": "gap 2.52% / 0.42 ATR"
+   },
+   {
+    "symbol": "ELV",
+    "why": "gap 2.28% / 0.55 ATR"
+   },
+   {
+    "symbol": "WRB",
+    "why": "gap 2.07% / 0.98 ATR"
+   },
+   {
+    "symbol": "WM",
+    "why": "gap 1.74% / 0.85 ATR"
+   },
+   {
+    "symbol": "KHC",
+    "why": "gap 2.01% / 0.64 ATR"
+   },
+   {
+    "symbol": "LOW",
+    "why": "gap 1.49% / 0.43 ATR"
+   },
+   {
+    "symbol": "GIS",
+    "why": "gap 1.39% / 0.42 ATR"
+   },
+   {
+    "symbol": "PG",
+    "why": "gap 1.88% / 0.94 ATR"
+   },
+   {
+    "symbol": "RMD",
+    "why": "gap 0.60% / 0.18 ATR"
+   },
+   {
+    "symbol": "BALL",
+    "why": "gap 1.06% / 0.31 ATR"
+   },
+   {
+    "symbol": "VRTX",
+    "why": "gap 1.78% / 0.57 ATR"
+   },
+   {
+    "symbol": "LEN",
+    "why": "gap 1.75% / 0.36 ATR"
+   },
+   {
+    "symbol": "MAS",
+    "why": "gap 1.04% / 0.31 ATR"
+   },
+   {
+    "symbol": "CTSH",
+    "why": "gap 1.23% / 0.30 ATR"
+   },
+   {
+    "symbol": "CCI",
+    "why": "gap 0.60% / 0.18 ATR"
+   },
+   {
+    "symbol": "FMS",
+    "why": "gap 1.89% / 0.54 ATR"
+   },
+   {
+    "symbol": "KR",
+    "why": "gap 1.66% / 0.57 ATR"
+   }
+  ],
+  "placed": [
+   "HDB",
+   "IBN"
+  ]
+ }
 }
