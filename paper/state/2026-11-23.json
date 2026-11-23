@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-23"
@@ -302,5 +303,73 @@
    "id": "tqqq-2026-11-23",
    "why": "void: last 47.83 outside [50.85, 53.28]"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 607,
+   "fetched": 607,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 607,
+   "hits": 110
+  },
+  "hits": 110,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold"
+    ],
+    "level": 143.73,
+    "prev_close": 125.52999877929688,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MU",
+    "setups": [
+     "oversold"
+    ],
+    "level": 669.0,
+    "prev_close": 594.510009765625,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 105.85,
+    "prev_close": 94.3949966430664,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold"
+    ],
+    "level": 283.15,
+    "prev_close": 265.2900085449219,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "TSM",
+    "setups": [
+     "oversold"
+    ],
+    "level": 343.75,
+    "prev_close": 318.7099914550781,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "INTC",
+    "setups": [
+     "oversold"
+    ],
+    "level": 56.48,
+    "prev_close": 51.279998779296875,
+    "sector": "Electronic Technology"
+   }
+  ]
+ }
 }
