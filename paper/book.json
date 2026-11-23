@@ -337,16 +337,16 @@
   "sessions": [
    "2026-11-23"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 18.0,
+  "entry_avg": 270.57,
+  "filled_at": "2026-11-23T15:24:54.283698381Z",
   "legs": [
    {
     "id": "82ee12d4-0bd4-4f7c-9d62-8836e1dbdf86",
     "type": "limit",
     "side": "sell",
-    "status": "held",
+    "status": "new",
     "qty": 18.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -371,7 +371,7 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 18.0
  },
  {
   "id": "orbs-B-2026-11-23-AMD",
@@ -702,16 +702,16 @@
   "sessions": [
    "2026-11-23"
   ],
-  "entry_status": "new",
-  "entry_filled": 0.0,
-  "entry_avg": null,
-  "filled_at": null,
+  "entry_status": "filled",
+  "entry_filled": 4.0,
+  "entry_avg": 1085.92,
+  "filled_at": "2026-11-23T15:26:30.475874711Z",
   "legs": [
    {
     "id": "271272ea-b764-439e-adea-986c4c4f5d47",
     "type": "limit",
     "side": "buy",
-    "status": "held",
+    "status": "new",
     "qty": 4.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -736,6 +736,6 @@
   ],
   "exits": [],
   "exit_filled": 0.0,
-  "remaining": 0.0
+  "remaining": 4.0
  }
 ]
