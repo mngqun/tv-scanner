@@ -30,7 +30,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-23"
@@ -49,7 +50,11 @@
   "[B] placed orb_short short COST x4 limit stop 1093.31 tgt 1072.88 -> 200 ",
   "[B] cancel unfilled entry orb-B-2026-11-23-UNH (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-23-AMD (filled 0.0)",
-  "[B] cancel unfilled entry orbs-B-2026-11-23-CRWV (filled 0.0)"
+  "[B] cancel unfilled entry orbs-B-2026-11-23-CRWV (filled 0.0)",
+  "[B] close orb-B-2026-11-23-V 12 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-23-JNJ 18 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-23-SNDK 23 (flat-by, day) -> 200",
+  "[B] close orbs-B-2026-11-23-NBIS 19 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -1016,5 +1021,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
