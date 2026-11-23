@@ -3,7 +3,7 @@
   "symbol": "SNDK",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "status": "waiting",
   "time": null,
   "bar_start": null,
@@ -12,11 +12,11 @@
   "level": 105.85,
   "interval": "5m",
   "opening_range": {
-    "high": 90.67,
-    "low": 85.71,
+    "high": 99.0,
+    "low": 93.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-20T15:23:57Z",
-  "reason": "last close $83.57 (10:15 bar), $22.28 under the level $105.85 (-21.04%)"
+  "checked_at": "2026-11-23T15:24:02Z",
+  "reason": "last close $94.01 (10:15 bar), $11.84 under the level $105.85 (-11.19%)"
 }

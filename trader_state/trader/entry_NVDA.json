@@ -3,20 +3,20 @@
   "symbol": "NVDA",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-12",
+  "date": "2026-11-23",
   "status": "triggered",
   "time": "10:00 AM",
   "bar_start": "09:55",
   "bar_index": 5,
-  "price": 162.66,
-  "level": 162.33,
+  "price": 168.55,
+  "level": 167.17,
   "interval": "5m",
   "opening_range": {
-    "high": 162.33,
-    "low": 148.8,
+    "high": 167.17,
+    "low": 156.93,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-12T15:24:03Z",
+  "checked_at": "2026-11-23T15:23:50Z",
   "reason": "the 9:55 bar closed above the range high"
 }

@@ -3,20 +3,20 @@
   "symbol": "LLY",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-06",
+  "date": "2026-11-23",
   "status": "triggered",
-  "time": "9:50 AM",
-  "bar_start": "09:45",
-  "bar_index": 3,
-  "price": 1370.16,
-  "level": 1367.95,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 1371.52,
+  "level": 1363.15,
   "interval": "5m",
   "opening_range": {
-    "high": 1367.95,
-    "low": 1333.22,
+    "high": 1363.15,
+    "low": 1344.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-06T15:23:52Z",
-  "reason": "the 9:45 bar closed above the range high"
+  "checked_at": "2026-11-23T15:23:55Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

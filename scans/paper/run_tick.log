@@ -1,0 +1,8 @@
+[B] placed orb long UNH x6 stop_limit stop 324.81 tgt 349.74 -> 200 
+[B] placed orb long V x12 stop_limit stop 407.01 tgt 416.31 -> 200 
+[B] placed orb long JNJ x18 limit stop 268.82 tgt 273.62 -> 200 
+[B] placed orb_short short AMD x4 stop_limit stop 463.98 tgt 402.47 -> 200 
+[B] placed orb_short short SNDK x23 stop_limit stop 96.04 tgt 83.03 -> 200 
+[B] placed orb_short short CRWV x42 stop_limit stop 50.25 tgt 43.24 -> 200 
+[B] placed orb_short short NBIS x19 stop_limit stop 105.35 tgt 90.03 -> 200 
+[B] placed orb_short short COST x4 limit stop 1093.31 tgt 1072.88 -> 200 

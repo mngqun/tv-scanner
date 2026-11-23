@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-19T15:23:45Z",
+  "created_at": "2026-11-23T15:23:53Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (MU orb 2026-11-19)",
+  "source": "trader/plan.json (MU orb 2026-11-23)",
   "orders": [
     {
       "symbol": "MU",
       "side": "buy",
-      "qty": "3",
+      "qty": "4",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "756.60",
+      "limit_price": "694.85",
       "order_class": "bracket",
-      "take_profit_limit_price": "785.06",
-      "stop_loss_stop_price": "742.37",
-      "why": "opening-range breakout on MU: 3 shares, bound by your $50 max loss per trade (3 x 14.23 = $42.69 at the stop)",
+      "take_profit_limit_price": "718.33",
+      "stop_loss_stop_price": "683.11",
+      "why": "opening-range breakout on MU: 4 shares, bound by your $50 max loss per trade (4 x 11.74 = $46.96 at the stop)",
       "plan": {
-        "entry": 756.6,
-        "stop": 742.37,
-        "target": 785.06,
-        "risk_per_share": 14.23,
-        "max_loss": 42.69,
+        "entry": 694.85,
+        "stop": 683.11,
+        "target": 718.33,
+        "risk_per_share": 11.74,
+        "max_loss": 46.96,
         "setup": "orb",
-        "entry_time": "10:05 AM",
+        "entry_time": "10:00 AM",
         "flat_by": "15:40"
       }
     }

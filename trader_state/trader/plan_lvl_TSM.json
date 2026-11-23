@@ -1,0 +1,30 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "TSM",
+  "side": "buy",
+  "date": "2026-11-23",
+  "setup": "level",
+  "entry": 365.3,
+  "entry_time": "9:45 AM",
+  "entry_bar": 2,
+  "interval": "5m",
+  "opening_range": {
+    "high": 386.9,
+    "low": 362.04,
+    "minutes": 15
+  },
+  "stop": 344.38,
+  "stop_rule": "atr",
+  "stop_label": "2 x ATR(3) under the entry",
+  "target": 407.14,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 20.92,
+  "reward_risk": 2.0,
+  "flat_by": "15:40",
+  "stop_detail": "ATR $10.4574 over the 3 bars to the entry (fewer than 14 so far), rounded down",
+  "created_at": "2026-11-23T15:24:02Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it.",
+  "atr": 10.4574,
+  "atr_bars": 3
+}

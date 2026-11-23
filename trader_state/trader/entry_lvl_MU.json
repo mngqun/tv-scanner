@@ -3,20 +3,20 @@
   "symbol": "MU",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-09",
+  "date": "2026-11-23",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 727.52,
-  "level": 724.8,
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 680.08,
+  "level": 669.0,
   "interval": "5m",
   "opening_range": {
-    "high": 709.75,
-    "low": 689.65,
+    "high": 693.92,
+    "low": 672.31,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-09T15:24:19Z",
-  "reason": "the 9:55 bar closed above the level"
+  "checked_at": "2026-11-23T15:24:00Z",
+  "reason": "the 9:40 bar closed above the level"
 }
