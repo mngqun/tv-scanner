@@ -11,7 +11,8 @@
   "10:37",
   "10:52",
   "11:07",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-23"
@@ -27,7 +28,10 @@
   "[B] placed orb_short short SNDK x23 stop_limit stop 96.04 tgt 83.03 -> 200 ",
   "[B] placed orb_short short CRWV x42 stop_limit stop 50.25 tgt 43.24 -> 200 ",
   "[B] placed orb_short short NBIS x19 stop_limit stop 105.35 tgt 90.03 -> 200 ",
-  "[B] placed orb_short short COST x4 limit stop 1093.31 tgt 1072.88 -> 200 "
+  "[B] placed orb_short short COST x4 limit stop 1093.31 tgt 1072.88 -> 200 ",
+  "[B] cancel unfilled entry orb-B-2026-11-23-UNH (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-23-AMD (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-23-CRWV (filled 0.0)"
  ],
  "placed": [
   {
