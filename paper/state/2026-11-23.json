@@ -4,12 +4,16 @@
  "ticks": [
   "09:07",
   "09:22",
-  "09:37"
+  "09:37",
+  "09:52"
  ],
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-23"
+ ],
  "log": [
   "[B] placed rulec short DELL x1 market stop 429.43 tgt None -> 200 ",
-  "[B] placed rulec short ASX x16 market stop 39.22 tgt None -> 200 "
+  "[B] placed rulec short ASX x16 market stop 39.22 tgt None -> 200 ",
+  "queue tqqq-2026-11-23: void: last 47.83 outside [50.85, 53.28]"
  ],
  "placed": [
   {
@@ -292,5 +296,11 @@
    "DELL",
    "ASX"
   ]
- }
+ },
+ "skipped": [
+  {
+   "id": "tqqq-2026-11-23",
+   "why": "void: last 47.83 outside [50.85, 53.28]"
+  }
+ ]
 }
