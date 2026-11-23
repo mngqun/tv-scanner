@@ -3,8 +3,294 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short DELL x1 market stop 429.43 tgt None -> 200 ",
+  "[B] placed rulec short ASX x16 market stop 39.22 tgt None -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-23-DELL",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "DELL",
+   "side": "short",
+   "qty": 1,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-23-ASX",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "ASX",
+   "side": "short",
+   "qty": 16,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "DELL",
+    "open": 360.05,
+    "prev_close": 278.0199890136719,
+    "atr": 34.69,
+    "gap_pct": 29.51,
+    "gap_atr": 2.365,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "ASX",
+    "open": 33.11,
+    "prev_close": 26.270000457763672,
+    "atr": 3.0571,
+    "gap_pct": 26.04,
+    "gap_atr": 2.237,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SKHY",
+    "open": 127.125,
+    "prev_close": 103.56999969482422,
+    "atr": 10.7643,
+    "gap_pct": 22.74,
+    "gap_atr": 2.188,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "KLAC",
+    "open": 150.01,
+    "prev_close": 126.87000274658203,
+    "atr": 10.67,
+    "gap_pct": 18.24,
+    "gap_atr": 2.169,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "STX",
+    "open": 553.0,
+    "prev_close": 457.010009765625,
+    "atr": 48.8071,
+    "gap_pct": 21.0,
+    "gap_atr": 1.967,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MKSI",
+    "open": 215.75,
+    "prev_close": 184.52000427246094,
+    "atr": 15.9121,
+    "gap_pct": 16.92,
+    "gap_atr": 1.963,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "LRCX",
+    "open": 217.09,
+    "prev_close": 183.27000427246094,
+    "atr": 17.4221,
+    "gap_pct": 18.45,
+    "gap_atr": 1.941,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "P",
+    "open": 110.52,
+    "prev_close": 92.05000305175781,
+    "atr": 10.0051,
+    "gap_pct": 20.07,
+    "gap_atr": 1.846,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "ARM",
+    "open": 183.15,
+    "prev_close": 152.1999969482422,
+    "atr": 16.7671,
+    "gap_pct": 20.34,
+    "gap_atr": 1.846,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "SMCI",
+    "open": 26.235,
+    "prev_close": 21.649999618530273,
+    "atr": 2.4936,
+    "gap_pct": 21.18,
+    "gap_atr": 1.839,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "CRWV",
+    "open": 50.83,
+    "prev_close": 39.5099983215332,
+    "atr": 6.3987,
+    "gap_pct": 28.65,
+    "gap_atr": 1.769,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "CRDO",
+    "open": 126.2,
+    "prev_close": 99.86000061035156,
+    "atr": 15.1232,
+    "gap_pct": 26.38,
+    "gap_atr": 1.742,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "TSEM",
+    "open": 140.46,
+    "prev_close": 115.55999755859375,
+    "atr": 14.3136,
+    "gap_pct": 21.55,
+    "gap_atr": 1.74,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "VRT",
+    "open": 199.055,
+    "prev_close": 166.24000549316406,
+    "atr": 18.9546,
+    "gap_pct": 19.74,
+    "gap_atr": 1.731,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "COHR",
+    "open": 231.22,
+    "prev_close": 187.22000122070312,
+    "atr": 25.5486,
+    "gap_pct": 23.5,
+    "gap_atr": 1.722,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "NBIS",
+    "open": 110.02,
+    "prev_close": 81.30999755859375,
+    "atr": 17.5654,
+    "gap_pct": 35.31,
+    "gap_atr": 1.634,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "LITE",
+    "open": 564.15,
+    "prev_close": 460.5400085449219,
+    "atr": 64.7423,
+    "gap_pct": 22.5,
+    "gap_atr": 1.6,
+    "sector": "Producer Manufacturing"
+   },
+   {
+    "symbol": "MSTR",
+    "open": 91.22,
+    "prev_close": 77.80000305175781,
+    "atr": 8.4614,
+    "gap_pct": 17.25,
+    "gap_atr": 1.586,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "TER",
+    "open": 239.04,
+    "prev_close": 204.77999877929688,
+    "atr": 22.2264,
+    "gap_pct": 16.73,
+    "gap_atr": 1.541,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MRVL",
+    "open": 144.9,
+    "prev_close": 122.27999877929688,
+    "atr": 15.0043,
+    "gap_pct": 18.5,
+    "gap_atr": 1.508,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "ALAB",
+    "open": 216.63,
+    "prev_close": 180.35000610351562,
+    "atr": 24.1708,
+    "gap_pct": 20.12,
+    "gap_atr": 1.501,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MTSI",
+    "open": 228.87,
+    "prev_close": 194.91000366210938,
+    "atr": 22.6221,
+    "gap_pct": 17.42,
+    "gap_atr": 1.501,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "BE",
+    "open": 176.04,
+    "prev_close": 142.38999938964844,
+    "atr": 22.8067,
+    "gap_pct": 23.63,
+    "gap_atr": 1.475,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "CIEN",
+    "open": 268.525,
+    "prev_close": 234.3699951171875,
+    "atr": 26.3671,
+    "gap_pct": 14.57,
+    "gap_atr": 1.295,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "ASTS",
+    "open": 27.27,
+    "prev_close": 23.270000457763672,
+    "atr": 3.8752,
+    "gap_pct": 17.19,
+    "gap_atr": 1.032,
+    "sector": "Communications"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "NVDA",
+    "why": "gap 29.85% / 2.92 ATR"
+   },
+   {
+    "symbol": "HPE",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "SNDK",
+    "why": "gap 4.41% / 0.32 ATR"
+   },
+   {
+    "symbol": "ZS",
+    "why": "earnings"
+   },
+   {
+    "symbol": "TSM",
+    "why": "gap 20.97% / 3.07 ATR"
+   }
+  ],
+  "placed": [
+   "DELL",
+   "ASX"
+  ]
+ }
 }
