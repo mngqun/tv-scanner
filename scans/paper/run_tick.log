@@ -1,8 +1,0 @@
-[B] placed orb long AAPL x13 stop_limit stop 349.19 tgt 360.47 -> 200 
-[B] placed orb long MSFT x10 limit stop 490.76 tgt 499.94 -> 200 
-[B] placed orb long AVGO x7 stop_limit stop 301.01 tgt 321.95 -> 200 
-[B] placed orb long META x8 stop_limit stop 592.78 tgt 610.9 -> 200 
-[B] placed orb long LLY x2 stop_limit stop 1388.63 tgt 1451.54 -> 200 
-[B] placed orb long PLTR x23 stop_limit stop 159.84 tgt 166.29 -> 200 
-[B] placed scan long AAPL x9 stop_limit stop 347.86 tgt 363.13 -> 200 
-[B] placed orb_short short CRWD x23 stop_limit stop 212.51 tgt 202.13 -> 200 
