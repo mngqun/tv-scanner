@@ -5,13 +5,18 @@
   "00:15",
   "09:07",
   "09:22",
-  "09:37"
+  "09:37",
+  "09:52"
  ],
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-24"
+ ],
  "log": [
   "Yahoo BF.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars",
   "Yahoo BF.B 1d/5m failed (HTTP Error 404: Not Found); using Alpaca bars",
-  "[B] placed rulec short KYMR x5 market stop 180.89 tgt None -> 200 "
+  "[B] placed rulec short KYMR x5 market stop 180.89 tgt None -> 200 ",
+  "[A] placed tqqq long SQQQ x21 stop_limit stop 47.15 tgt 52.95 -> 200 ",
+  "[A] placed tqqq long SQQQ x22 stop_limit stop 47.15 tgt 54.35 -> 200 "
  ],
  "placed": [
   {
@@ -25,6 +30,30 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "tqqq-2026-11-24-t1",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 21,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
+  },
+  {
+   "id": "tqqq-2026-11-24-t2",
+   "account": "A",
+   "arm": "tqqq",
+   "symbol": "SQQQ",
+   "side": "long",
+   "qty": 22,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:52"
   }
  ],
  "rulec": {
