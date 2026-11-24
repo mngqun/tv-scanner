@@ -6,7 +6,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-24"
@@ -189,6 +190,74 @@
   ],
   "placed": [
    "KYMR"
+  ]
+ },
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 615,
+   "fetched": 615,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 615,
+   "hits": 187
+  },
+  "hits": 187,
+  "picks": [
+   {
+    "symbol": "NVDA",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 171.5,
+    "prev_close": 165.0500030517578,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "MU",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 720.69,
+    "prev_close": 707.7000122070312,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "AAPL",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 352.6,
+    "prev_close": 349.0799865722656,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "TSLA",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 393.83,
+    "prev_close": 385.4599914550781,
+    "sector": "Consumer Durables"
+   },
+   {
+    "symbol": "GOOGL",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 285.14,
+    "prev_close": 282.1000061035156,
+    "sector": "Technology Services"
+   },
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 105.85,
+    "prev_close": 94.3949966430664,
+    "sector": "Electronic Technology"
+   }
   ]
  }
 }
