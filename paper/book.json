@@ -338,11 +338,11 @@
     "id": "8823137d-7bad-4b00-8165-66d82d1619cb",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 10.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 10.0,
+    "avg": 500.052,
+    "filled_at": "2026-11-24T17:13:24.722278787Z",
     "stop_price": null,
     "limit_price": "499.94",
     "tif": "day"
@@ -351,7 +351,7 @@
     "id": "cd86e6b9-19b5-4763-90ee-2a149809b50f",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 10.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -362,8 +362,10 @@
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 10.0
+  "exit_filled": 10.0,
+  "remaining": 0.0,
+  "t1_reached": true,
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-24-AVGO",
