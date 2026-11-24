@@ -1,30 +1,30 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-09T15:24:18Z",
+  "created_at": "2026-11-24T15:23:48Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (AVGO orb 2026-11-09)",
+  "source": "trader/plan.json (AVGO orb 2026-11-24)",
   "orders": [
     {
       "symbol": "AVGO",
       "side": "buy",
-      "qty": "10",
+      "qty": "7",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "313.61",
+      "limit_price": "307.99",
       "order_class": "bracket",
-      "take_profit_limit_price": "323.01",
-      "stop_loss_stop_price": "308.91",
-      "why": "opening-range breakout on AVGO: 10 shares, bound by your $50 max loss per trade (10 x 4.70 = $47 at the stop)",
+      "take_profit_limit_price": "321.95",
+      "stop_loss_stop_price": "301.01",
+      "why": "opening-range breakout on AVGO: 7 shares, bound by your $50 max loss per trade (7 x 6.98 = $48.86 at the stop)",
       "plan": {
-        "entry": 313.61,
-        "stop": 308.91,
-        "target": 323.01,
-        "risk_per_share": 4.7,
-        "max_loss": 47.0,
+        "entry": 307.99,
+        "stop": 301.01,
+        "target": 321.95,
+        "risk_per_share": 6.98,
+        "max_loss": 48.86,
         "setup": "orb",
-        "entry_time": "9:55 AM",
+        "entry_time": "10:00 AM",
         "flat_by": "15:40"
       }
     }

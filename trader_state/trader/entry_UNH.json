@@ -3,20 +3,20 @@
   "symbol": "UNH",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "status": "triggered",
-  "time": "10:05 AM",
-  "bar_start": "10:00",
-  "bar_index": 6,
-  "price": 333.12,
-  "level": 330.5,
+  "time": "9:50 AM",
+  "bar_start": "09:45",
+  "bar_index": 3,
+  "price": 336.66,
+  "level": 335.5,
   "interval": "5m",
   "opening_range": {
-    "high": 330.5,
-    "low": 319.13,
+    "high": 335.5,
+    "low": 329.5,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-23T15:23:56Z",
-  "reason": "the 10:00 bar closed above the range high"
+  "checked_at": "2026-11-24T15:23:53Z",
+  "reason": "the 9:45 bar closed above the range high"
 }
