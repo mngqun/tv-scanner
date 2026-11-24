@@ -104,7 +104,7 @@
     "id": "235e1fa2-c9d9-483f-bc6d-139eb2aa159f",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 21.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -117,7 +117,7 @@
     "id": "e00c9cce-c643-4eca-a382-fdf46d70ca65",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 21.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -127,9 +127,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "aa03080c-057d-4952-b28b-eb2db82e7234",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 21.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 21.0
+  "remaining": 21.0,
+  "exit_order_ids": [
+   "aa03080c-057d-4952-b28b-eb2db82e7234"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-24 15:41",
+    "what": "close (flat-by) day",
+    "qty": 21,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "tqqq-2026-11-24-t2",
@@ -172,7 +199,7 @@
     "id": "cc4c806b-0c13-4924-9714-633df9b831f5",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 22.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -185,7 +212,7 @@
     "id": "c87a0986-1b47-4ed8-9331-1a4bb7ba2223",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 22.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -195,9 +222,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "72dc995f-547f-4ed6-9f1c-b1ee6661446c",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 22.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 22.0
+  "remaining": 22.0,
+  "exit_order_ids": [
+   "72dc995f-547f-4ed6-9f1c-b1ee6661446c"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-24 15:41",
+    "what": "close (flat-by) day",
+    "qty": 22,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orb-B-2026-11-24-AAPL",
@@ -592,7 +646,7 @@
     "id": "4e5d2a11-7651-4630-bc67-e52fb69a4826",
     "type": "limit",
     "side": "sell",
-    "status": "new",
+    "status": "canceled",
     "qty": 2.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -605,7 +659,7 @@
     "id": "3e906357-dbef-4400-a1cd-0156a3682f97",
     "type": "stop",
     "side": "sell",
-    "status": "held",
+    "status": "canceled",
     "qty": 2.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -615,9 +669,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "99af351e-f73f-4f50-ba9c-18a224c595a1",
+    "type": "market",
+    "side": "sell",
+    "status": "new",
+    "qty": 2.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 2.0
+  "remaining": 2.0,
+  "exit_order_ids": [
+   "99af351e-f73f-4f50-ba9c-18a224c595a1"
+  ],
+  "exit_reason": "flat-by",
+  "events": [
+   {
+    "at": "2026-11-24 15:41",
+    "what": "close (flat-by) day",
+    "qty": 2,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orb-B-2026-11-24-PLTR",

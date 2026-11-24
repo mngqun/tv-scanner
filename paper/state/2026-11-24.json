@@ -31,7 +31,8 @@
   "14:52",
   "15:07",
   "15:22",
-  "15:37"
+  "15:37",
+  "15:41"
  ],
  "queue_done": [
   "tqqq-2026-11-24"
@@ -54,7 +55,10 @@
   "[B] cancel unfilled entry orb-B-2026-11-24-AVGO (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-24-META (filled 0.0)",
   "[B] cancel unfilled entry orb-B-2026-11-24-PLTR (filled 0.0)",
-  "[B] cancel unfilled entry scan-B-2026-11-24-AAPL (filled 0.0)"
+  "[B] cancel unfilled entry scan-B-2026-11-24-AAPL (filled 0.0)",
+  "[A] close tqqq-2026-11-24-t1 21 (flat-by, day) -> 200",
+  "[A] close tqqq-2026-11-24-t2 22 (flat-by, day) -> 200",
+  "[B] close orb-B-2026-11-24-LLY 2 (flat-by, day) -> 200"
  ],
  "placed": [
   {
@@ -889,5 +893,6 @@
    }
   ],
   "news_status": 0
- }
+ },
+ "close_pass": 1
 }
