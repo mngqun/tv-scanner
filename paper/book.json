@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "id": "rulec-B-2026-11-24-KYMR",
+  "base": "rulec-B-2026-11-24-KYMR",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "KYMR",
+  "side": "short",
+  "qty": 5,
+  "entry_type": "market",
+  "plan_entry": 161.0,
+  "limit_price": null,
+  "stop": 180.89,
+  "target": null,
+  "placed_day": "2026-11-24",
+  "placed_at": "09:37",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Health Technology",
+  "planned_risk": 99.45,
+  "features": {
+   "symbol": "KYMR",
+   "open": 161.0,
+   "prev_close": 150.3699951171875,
+   "atr": 9.9471,
+   "gap_pct": 7.07,
+   "gap_atr": 1.069,
+   "sector": "Health Technology"
+  },
+  "last_at_placement": 174.96,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "89559f24-2f5d-4abb-9369-9e05a98d1837",
+  "message": null,
+  "sessions": [
+   "2026-11-24"
+  ],
+  "entry_status": "new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "c64e4f69-f682-4d2d-b0f5-0cd9036c3a67",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 5.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "180.89",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
+ }
+]

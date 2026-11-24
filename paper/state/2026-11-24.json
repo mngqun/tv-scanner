@@ -4,8 +4,162 @@
  "ticks": [
   "00:15",
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "Yahoo BF.B 3mo/1d failed (HTTP Error 404: Not Found); using Alpaca bars",
+  "Yahoo BF.B 1d/5m failed (HTTP Error 404: Not Found); using Alpaca bars",
+  "[B] placed rulec short KYMR x5 market stop 180.89 tgt None -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-24-KYMR",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "KYMR",
+   "side": "short",
+   "qty": 5,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "KYMR",
+    "open": 161.0,
+    "prev_close": 150.3699951171875,
+    "atr": 9.9471,
+    "gap_pct": 7.07,
+    "gap_atr": 1.069,
+    "sector": "Health Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "INSM",
+    "why": "gap 14.36% / 2.93 ATR"
+   },
+   {
+    "symbol": "DKS",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "DLTR",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "SNY",
+    "why": "gap 7.60% / 3.24 ATR"
+   },
+   {
+    "symbol": "ETR",
+    "why": "gap -0.17% / -0.07 ATR"
+   },
+   {
+    "symbol": "AMH",
+    "why": "gap -0.34% / -0.17 ATR"
+   },
+   {
+    "symbol": "A",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "BURL",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "BBY",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "BJ",
+    "why": "gap 0.51% / 0.17 ATR"
+   },
+   {
+    "symbol": "NYT",
+    "why": "gap -0.32% / -0.08 ATR"
+   },
+   {
+    "symbol": "DG",
+    "why": "gap 1.46% / 0.40 ATR"
+   },
+   {
+    "symbol": "BBIO",
+    "why": "gap 2.21% / 0.60 ATR"
+   },
+   {
+    "symbol": "FRO",
+    "why": "gap 1.58% / 0.34 ATR"
+   },
+   {
+    "symbol": "RVMD",
+    "why": "gap 0.22% / 0.03 ATR"
+   },
+   {
+    "symbol": "RELX",
+    "why": "gap 1.90% / 0.90 ATR"
+   },
+   {
+    "symbol": "TRI",
+    "why": "gap 0.11% / 0.03 ATR"
+   },
+   {
+    "symbol": "QSR",
+    "why": "gap 0.00% / 0.00 ATR"
+   },
+   {
+    "symbol": "U",
+    "why": "gap -0.08% / -0.01 ATR"
+   },
+   {
+    "symbol": "VYLR",
+    "why": "gap 0.28% / 0.07 ATR"
+   },
+   {
+    "symbol": "TIGO",
+    "why": "gap 1.62% / 0.31 ATR"
+   },
+   {
+    "symbol": "TGT",
+    "why": "gap 1.67% / 0.44 ATR"
+   },
+   {
+    "symbol": "BF.B",
+    "why": "gap 0.80% / 0.23 ATR"
+   },
+   {
+    "symbol": "NKE",
+    "why": "gap 1.01% / 0.19 ATR"
+   },
+   {
+    "symbol": "ACN",
+    "why": "gap 0.57% / 0.14 ATR"
+   },
+   {
+    "symbol": "VRSK",
+    "why": "gap 1.32% / 0.33 ATR"
+   },
+   {
+    "symbol": "CLX",
+    "why": "gap 0.47% / 0.12 ATR"
+   },
+   {
+    "symbol": "MET",
+    "why": "gap 0.10% / 0.03 ATR"
+   },
+   {
+    "symbol": "AJG",
+    "why": "gap 0.78% / 0.26 ATR"
+   }
+  ],
+  "placed": [
+   "KYMR"
+  ]
+ }
 }
