@@ -63,18 +63,18 @@
     "id": "eb18215f-be18-469e-9267-b5f924a4e8f9",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 38.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 38.0,
+    "avg": 54.51,
+    "filled_at": "2026-11-25T20:47:19.817058368Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 38.0,
+  "exit_filled": 38.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "eb18215f-be18-469e-9267-b5f924a4e8f9"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-25-NVDA",
