@@ -3,20 +3,20 @@
   "symbol": "WMT",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-03",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 127.94,
+  "date": "2026-11-25",
+  "status": "triggered",
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 132.58,
+  "level": 132.42,
   "interval": "5m",
   "opening_range": {
-    "high": 126.85,
-    "low": 125.49,
+    "high": 133.19,
+    "low": 132.28,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-03T15:27:19Z",
-  "reason": "last close $125.26 (10:20 bar), $2.68 under the level $127.94 (-2.09%)"
+  "checked_at": "2026-11-25T15:24:14Z",
+  "reason": "the 10:00 bar closed above the level"
 }

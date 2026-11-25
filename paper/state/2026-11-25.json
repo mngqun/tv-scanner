@@ -6,14 +6,26 @@
   "09:22",
   "09:37",
   "09:52",
-  "10:07"
+  "10:07",
+  "10:22"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
  ],
  "log": [
   "[B] placed rulec short SNY x38 market stop 56.24 tgt None -> 200 ",
-  "queue tqqq-2026-11-25: void: last 55.02 outside [51.4, 53.96]"
+  "queue tqqq-2026-11-25: void: last 55.02 outside [51.4, 53.96]",
+  "[B] placed orb long NVDA x19 stop_limit stop 143.11 tgt 150.64 -> 200 ",
+  "[B] placed orb long GOOGL x18 stop_limit stop 264.23 tgt 269.6 -> 200 ",
+  "[B] placed orb long AVGO x8 stop_limit stop 282.87 tgt 300.72 -> 200 ",
+  "[B] placed orb long META x4 stop_limit stop 573.57 tgt 609.03 -> 200 ",
+  "[B] placed orb long GOOG x18 limit stop 262.26 tgt 267.15 -> 200 ",
+  "[B] placed scan long WMT x37 stop_limit stop 131.56 tgt 134.62 -> 200 ",
+  "[B] placed orb_short short COST x4 stop_limit stop 1093.9 tgt 1075.12 -> 200 ",
+  "[B] placed orb_short short BRK.B x8 stop_limit stop 577.15 tgt 569.03 -> 200 ",
+  "[B] placed orb_short short JNJ x15 stop_limit stop 276.72 tgt 267.1 -> 200 ",
+  "[B] placed orb_short short QCOM x18 stop_limit stop 159.02 tgt 150.75 -> 200 ",
+  "[B] placed orb_short short KO x51 stop_limit stop 98.06 tgt 96.95 -> 200 "
  ],
  "placed": [
   {
@@ -27,6 +39,138 @@
    "http": 200,
    "message": null,
    "placed_at": "09:37"
+  },
+  {
+   "id": "orb-B-2026-11-25-NVDA",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "NVDA",
+   "side": "long",
+   "qty": 19,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-25-GOOGL",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOGL",
+   "side": "long",
+   "qty": 18,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-25-AVGO",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AVGO",
+   "side": "long",
+   "qty": 8,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-25-META",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "META",
+   "side": "long",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orb-B-2026-11-25-GOOG",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 18,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "scan-B-2026-11-25-WMT",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "WMT",
+   "side": "long",
+   "qty": 37,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-25-COST",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "COST",
+   "side": "short",
+   "qty": 4,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-25-BRK.B",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "BRK.B",
+   "side": "short",
+   "qty": 8,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-25-JNJ",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "JNJ",
+   "side": "short",
+   "qty": 15,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-25-QCOM",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "QCOM",
+   "side": "short",
+   "qty": 18,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
+  },
+  {
+   "id": "orbs-B-2026-11-25-KO",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "KO",
+   "side": "short",
+   "qty": 51,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "10:24"
   }
  ],
  "rulec": {
@@ -233,5 +377,500 @@
     "sector": "Health Technology"
    }
   ]
+ },
+ "orb_short": {
+  "at": "10:22",
+  "scanned": 120,
+  "hits": 18,
+  "risk_usd": 50.0,
+  "plans": [
+   {
+    "symbol": "WMT",
+    "trigger": "09:45",
+    "or_high": 133.1899,
+    "or_low": 132.28,
+    "entry": 131.97,
+    "stop": 132.73,
+    "target": 130.44,
+    "dollar_vol": 2979558078.012,
+    "earnings_today": false,
+    "skip": "last 131.79 outside entry window (131.82..132.73)"
+   },
+   {
+    "symbol": "COST",
+    "trigger": "09:45",
+    "or_high": 1098.0,
+    "or_low": 1089.805,
+    "entry": 1087.64,
+    "stop": 1093.9,
+    "target": 1075.12,
+    "dollar_vol": 2713624990.405,
+    "earnings_today": false
+   },
+   {
+    "symbol": "BRK.B",
+    "trigger": "09:45",
+    "or_high": 579.2,
+    "or_low": 575.1001,
+    "entry": 574.45,
+    "stop": 577.15,
+    "target": 569.03,
+    "dollar_vol": 2658570880.101,
+    "earnings_today": false
+   },
+   {
+    "symbol": "CRWD",
+    "trigger": "09:45",
+    "or_high": 206.44,
+    "or_low": 200.77,
+    "entry": 200.45,
+    "stop": 203.61,
+    "target": 194.14,
+    "dollar_vol": 2529100366.7605,
+    "earnings_today": false,
+    "skip": "last 195.805 outside entry window (199.82..203.61)"
+   },
+   {
+    "symbol": "JNJ",
+    "trigger": "09:55",
+    "or_high": 279.88,
+    "or_low": 273.55,
+    "entry": 273.51,
+    "stop": 276.72,
+    "target": 267.1,
+    "dollar_vol": 2178118894.5280004,
+    "earnings_today": false
+   },
+   {
+    "symbol": "QCOM",
+    "trigger": "09:45",
+    "or_high": 160.625,
+    "or_low": 157.41,
+    "entry": 156.26,
+    "stop": 159.02,
+    "target": 150.75,
+    "dollar_vol": 1926341457.435,
+    "earnings_today": false
+   },
+   {
+    "symbol": "KO",
+    "trigger": "09:45",
+    "or_high": 98.36,
+    "or_low": 97.76,
+    "entry": 97.69,
+    "stop": 98.06,
+    "target": 96.95,
+    "dollar_vol": 1847016968.168,
+    "earnings_today": false
+   },
+   {
+    "symbol": "HD",
+    "trigger": "09:45",
+    "or_high": 357.07,
+    "or_low": 352.4801,
+    "entry": 351.87,
+    "stop": 354.78,
+    "target": 346.06,
+    "dollar_vol": 1789720164.77,
+    "earnings_today": false,
+    "skip": "last 355.16 outside entry window (351.29..354.78)"
+   },
+   {
+    "symbol": "COHR",
+    "trigger": "10:05",
+    "or_high": 183.6,
+    "or_low": 176.8,
+    "entry": 176.43,
+    "stop": 180.2,
+    "target": 168.89,
+    "dollar_vol": 1576352647.0359998,
+    "earnings_today": false
+   },
+   {
+    "symbol": "PG",
+    "trigger": "09:45",
+    "or_high": 173.6,
+    "or_low": 172.78,
+    "entry": 172.73,
+    "stop": 173.19,
+    "target": 171.81,
+    "dollar_vol": 1515725362.2339997,
+    "earnings_today": false
+   },
+   {
+    "symbol": "ABBV",
+    "trigger": "09:55",
+    "or_high": 302.98,
+    "or_low": 298.0,
+    "entry": 297.16,
+    "stop": 300.49,
+    "target": 290.5,
+    "dollar_vol": 1470360416.6239998,
+    "earnings_today": false
+   },
+   {
+    "symbol": "GE",
+    "trigger": "09:45",
+    "or_high": 310.98,
+    "or_low": 307.26,
+    "entry": 306.71,
+    "stop": 309.12,
+    "target": 301.88,
+    "dollar_vol": 1182930199.74,
+    "earnings_today": false
+   }
+  ]
+ },
+ "orb": {
+  "at": "10:22",
+  "regime": "short",
+  "risk_usd": 50.0,
+  "flat_by": "15:40",
+  "spy_or": {
+   "or_high": 703.7000122070312,
+   "or_low": 696.0,
+   "last": 699.1199951171875,
+   "state": "inside"
+  },
+  "counts": {
+   "requested": 617,
+   "fetched": 617,
+   "unusable": 22,
+   "illiquid": 0,
+   "scanned": 595,
+   "candidates": 435,
+   "confirmed": 200,
+   "unconfirmed": 235,
+   "hits": 111
+  },
+  "plans": [
+   {
+    "symbol": "NVDA",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 145.62,
+    "stop": 143.11,
+    "target": 150.64,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 8 % (target first 3.9 % vs stop first 45.9 %).",
+    "hist": {
+     "triggered": 29,
+     "target": 2,
+     "stop": 12,
+     "avg_R": -0.149
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "MU",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 580.35,
+    "stop": 568.52,
+    "target": 604.01,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 13 % (target first 7.6 % vs stop first 51.1 %).",
+    "hist": {
+     "triggered": 28,
+     "target": 5,
+     "stop": 12,
+     "avg_R": 0.142
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 563.775 outside entry window (568.52..582.72)"
+   },
+   {
+    "symbol": "AMD",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 387.53,
+    "stop": 378.32,
+    "target": 405.95,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 12 % (target first 5.8 % vs stop first 42.7 %).",
+    "hist": {
+     "triggered": 38,
+     "target": 5,
+     "stop": 14,
+     "avg_R": 0.128
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 374.05 outside entry window (378.32..389.37)"
+   },
+   {
+    "symbol": "GOOGL",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 266.02,
+    "stop": 264.23,
+    "target": 269.6,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 21 % (target first 18.0 % vs stop first 66.9 %).",
+    "hist": {
+     "triggered": 31,
+     "target": 5,
+     "stop": 17,
+     "avg_R": -0.197
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "AVGO",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:05 AM",
+    "entry": 288.82,
+    "stop": 282.87,
+    "target": 300.72,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 4 % (target first 1.3 % vs stop first 30.1 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 4,
+     "stop": 14,
+     "avg_R": -0.129
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short"
+    ]
+   },
+   {
+    "symbol": "META",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 585.39,
+    "stop": 573.57,
+    "target": 609.03,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 5 % (target first 1.1 % vs stop first 21.4 %).",
+    "hist": {
+     "triggered": 30,
+     "target": 3,
+     "stop": 15,
+     "avg_R": -0.211
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Amazon and Meta reportedly in talks to lift blockade on AI agent Muse"
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Amazon and Meta reportedly in talks to lift blockade on AI agent Muse"
+    ]
+   },
+   {
+    "symbol": "GOOG",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "9:55 AM",
+    "entry": 263.89,
+    "stop": 262.26,
+    "target": 267.15,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 22 % (target first 19.3 % vs stop first 69.3 %).",
+    "hist": {
+     "triggered": 32,
+     "target": 2,
+     "stop": 18,
+     "avg_R": -0.356
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [
+     "deal: Google Ends $75 Million News Deal Amid Regulatory Fight"
+    ],
+    "sector": "Technology Services",
+    "A_skip": [
+     "tm verdict",
+     "history",
+     "regime short",
+     "news: deal: Google Ends $75 Million News Deal Amid Regulatory Fight"
+    ]
+   },
+   {
+    "symbol": "TSM",
+    "arm": "orb",
+    "setup": "orb",
+    "trigger": "10:00 AM",
+    "entry": 331.31,
+    "stop": 326.77,
+    "target": 340.39,
+    "verdict": "Strongly toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 12 % (target first 5.6 % vs stop first 42.9 %).",
+    "hist": {
+     "triggered": 33,
+     "target": 3,
+     "stop": 10,
+     "avg_R": 0.219
+    },
+    "risk": "PASS",
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology",
+    "A_skip": [
+     "tm verdict",
+     "regime short"
+    ],
+    "B_skip": "last 324.49 outside entry window (326.77..332.22)"
+   },
+   {
+    "symbol": "SNDK",
+    "arm": "scan",
+    "setup": "level:oversold",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "UNH",
+    "arm": "scan",
+    "setup": "level:oversold_bounce",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Services"
+   },
+   {
+    "symbol": "WMT",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": "10:05 AM",
+    "entry": 132.58,
+    "stop": 131.56,
+    "target": 134.62,
+    "verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 25 % (target first 9.8 % vs stop first 30.0 %).",
+    "hist": {
+     "triggered": 0,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "JNJ",
+    "arm": "scan",
+    "setup": "level:reclaim_ma20",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "INSM",
+    "arm": "scan",
+    "setup": "level:breakout_20d",
+    "trigger": null,
+    "entry": null,
+    "stop": null,
+    "target": null,
+    "verdict": null,
+    "hist": {
+     "triggered": null,
+     "target": null,
+     "stop": null,
+     "avg_R": null
+    },
+    "risk": null,
+    "earnings_today": false,
+    "news": [],
+    "sector": "Health Technology"
+   }
+  ],
+  "news_status": 0
  }
 }

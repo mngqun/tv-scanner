@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "INSM",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-25",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 170.61,
+  "interval": "5m",
+  "opening_range": {
+    "high": 170.35,
+    "low": 170.1,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-25T15:24:16Z",
+  "reason": "last close $170.25 (10:15 bar), $0.36 under the level $170.61 (-0.21%)"
+}

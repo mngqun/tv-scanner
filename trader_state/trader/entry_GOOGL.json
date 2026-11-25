@@ -3,20 +3,20 @@
   "symbol": "GOOGL",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-20",
+  "date": "2026-11-25",
   "status": "triggered",
   "time": "9:55 AM",
   "bar_start": "09:50",
   "bar_index": 4,
-  "price": 280.36,
-  "level": 279.52,
+  "price": 266.02,
+  "level": 265.73,
   "interval": "5m",
   "opening_range": {
-    "high": 279.52,
-    "low": 272.83,
+    "high": 265.73,
+    "low": 262.73,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-20T15:23:51Z",
+  "checked_at": "2026-11-25T15:24:06Z",
   "reason": "the 9:50 bar closed above the range high"
 }

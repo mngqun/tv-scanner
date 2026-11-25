@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "JNJ",
+  "setup": "level",
+  "side": "buy",
+  "date": "2026-11-25",
+  "status": "waiting",
+  "time": null,
+  "bar_start": null,
+  "bar_index": null,
+  "price": null,
+  "level": 276.85,
+  "interval": "5m",
+  "opening_range": {
+    "high": 279.88,
+    "low": 273.55,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-25T15:24:16Z",
+  "reason": "last close $275.12 (10:15 bar), $1.73 under the level $276.85 (-0.62%)"
+}

@@ -3,20 +3,20 @@
   "symbol": "AVGO",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 307.99,
-  "level": 303.62,
+  "time": "10:05 AM",
+  "bar_start": "10:00",
+  "bar_index": 6,
+  "price": 288.82,
+  "level": 287.33,
   "interval": "5m",
   "opening_range": {
-    "high": 303.62,
-    "low": 298.41,
+    "high": 287.33,
+    "low": 278.41,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-24T15:23:47Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-25T15:24:08Z",
+  "reason": "the 10:00 bar closed above the range high"
 }
