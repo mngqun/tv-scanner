@@ -1,6 +1,6 @@
 {
- "legs": 118,
- "trades": 110,
+ "legs": 123,
+ "trades": 115,
  "arms": {
   "A:tqqq": {
    "trades": 8,
@@ -42,33 +42,33 @@
    "go_live": false
   },
   "B:orb": {
-   "trades": 40,
-   "win_rate": 0.3,
-   "avg_R": -0.246,
-   "total_R": -9.84,
-   "pess_trades": 40,
-   "pess_avg_R": -0.246,
+   "trades": 42,
+   "win_rate": 0.286,
+   "avg_R": -0.283,
+   "total_R": -11.89,
+   "pess_trades": 42,
+   "pess_avg_R": -0.283,
    "pess_ci95": [
-    -0.512,
-    0.041
+    -0.54,
+    -0.008
    ],
-   "max_dd_R": 13.64,
+   "max_dd_R": 13.71,
    "worst_day_usd": -183.26,
-   "avg_slippage_R": 0.057,
-   "median_mfe_R": 0.69,
-   "median_mae_R": 0.81,
+   "avg_slippage_R": 0.055,
+   "median_mfe_R": 0.72,
+   "median_mae_R": 0.92,
    "exit_mix": {
     "target": 3,
-    "stop": 16,
+    "stop": 18,
     "flat-by": 21
    },
    "first": "2026-11-02",
-   "last": "2026-11-24",
-   "avg_R_fill": -0.24,
-   "days": 14,
+   "last": "2026-11-25",
+   "avg_R_fill": -0.276,
+   "days": 15,
    "pess_ci95_days": [
-    -0.552,
-    0.087
+    -0.591,
+    0.038
    ],
    "go_live_checks": {
     "n>=40": true,
@@ -155,37 +155,37 @@
    "go_live": false
   },
   "B:orb:spy_inside": {
-   "trades": 13,
-   "win_rate": 0.462,
-   "avg_R": 0.202,
-   "total_R": 2.63,
-   "pess_trades": 13,
-   "pess_avg_R": 0.202,
+   "trades": 15,
+   "win_rate": 0.4,
+   "avg_R": 0.039,
+   "total_R": 0.58,
+   "pess_trades": 15,
+   "pess_avg_R": 0.039,
    "pess_ci95": [
-    -0.261,
-    0.725
+    -0.405,
+    0.553
    ],
-   "max_dd_R": 1.28,
-   "worst_day_usd": -48.82,
-   "avg_slippage_R": 0.044,
+   "max_dd_R": 2.05,
+   "worst_day_usd": -63.06,
+   "avg_slippage_R": 0.04,
    "median_mfe_R": 1.14,
-   "median_mae_R": 0.52,
+   "median_mae_R": 0.59,
    "exit_mix": {
-    "stop": 3,
+    "stop": 5,
     "flat-by": 8,
     "target": 2
    },
    "first": "2026-11-03",
-   "last": "2026-11-24",
-   "avg_R_fill": 0.192,
-   "days": 5,
+   "last": "2026-11-25",
+   "avg_R_fill": 0.032,
+   "days": 6,
    "pess_ci95_days": [
-    -0.254,
-    0.547
+    -0.517,
+    0.445
    ],
    "go_live_checks": {
     "n>=40": false,
-    "avg>=+0.10R": true,
+    "avg>=+0.10R": false,
     "ci_low_by_day>0": false,
     "max_dd<=8R": true,
     "slippage<=0.05R": true
@@ -193,33 +193,33 @@
    "go_live": false
   },
   "B:orb_short": {
-   "trades": 33,
-   "win_rate": 0.333,
-   "avg_R": -0.215,
-   "total_R": -7.1,
-   "pess_trades": 33,
-   "pess_avg_R": -0.215,
+   "trades": 35,
+   "win_rate": 0.314,
+   "avg_R": -0.267,
+   "total_R": -9.35,
+   "pess_trades": 35,
+   "pess_avg_R": -0.267,
    "pess_ci95": [
-    -0.568,
-    0.156
+    -0.596,
+    0.094
    ],
    "max_dd_R": 9.9,
    "worst_day_usd": -159.36,
    "avg_slippage_R": 0.043,
-   "median_mfe_R": 0.5,
-   "median_mae_R": 1.02,
+   "median_mfe_R": 0.43,
+   "median_mae_R": 1.04,
    "exit_mix": {
-    "stop": 17,
+    "stop": 19,
     "flat-by": 13,
     "target": 3
    },
    "first": "2026-11-03",
-   "last": "2026-11-24",
-   "avg_R_fill": -0.214,
-   "days": 15,
+   "last": "2026-11-25",
+   "avg_R_fill": -0.263,
+   "days": 16,
    "pess_ci95_days": [
-    -0.659,
-    0.297
+    -0.704,
+    0.214
    ],
    "go_live_checks": {
     "n>=40": false,
@@ -231,35 +231,35 @@
    "go_live": false
   },
   "B:rulec": {
-   "trades": 19,
-   "win_rate": 0.526,
-   "avg_R": 0.019,
-   "total_R": 0.37,
-   "pess_trades": 19,
-   "pess_avg_R": 0.019,
+   "trades": 20,
+   "win_rate": 0.5,
+   "avg_R": 0.001,
+   "total_R": 0.02,
+   "pess_trades": 20,
+   "pess_avg_R": 0.001,
    "pess_ci95": [
-    -0.156,
-    0.239
+    -0.169,
+    0.213
    ],
    "max_dd_R": 2.07,
    "worst_day_usd": -90.79,
-   "avg_slippage_R": 0.061,
-   "median_mfe_R": 0.25,
-   "median_mae_R": 0.14,
+   "avg_slippage_R": 0.058,
+   "median_mfe_R": 0.18,
+   "median_mae_R": 0.15,
    "exit_mix": {
     "flat-by": 2,
     "event flat_by (instead of MOC)": 1,
     "stale intraday (missed close-out)": 4,
-    "close (market near the close; paper MOC unsupported)": 12
+    "close (market near the close; paper MOC unsupported)": 13
    },
    "first": "2026-11-02",
-   "last": "2026-11-24",
-   "rule_avg_R": 0.08,
-   "avg_R_fill": 0.04,
-   "days": 11,
+   "last": "2026-11-25",
+   "rule_avg_R": 0.059,
+   "avg_R_fill": 0.021,
+   "days": 12,
    "pess_ci95_days": [
-    -0.155,
-    0.29
+    -0.171,
+    0.253
    ],
    "go_live_checks": {
     "n>=40": false,

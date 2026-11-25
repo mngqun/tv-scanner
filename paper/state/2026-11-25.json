@@ -32,7 +32,8 @@
   "15:37",
   "15:41",
   "15:47",
-  "15:52"
+  "15:52",
+  "16:10"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
@@ -58,7 +59,9 @@
   "[B] cancel unfilled entry orbs-B-2026-11-25-COST (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-25-JNJ (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-25-KO (filled 0.0)",
-  "[B] close rulec-B-2026-11-25-SNY 38 (close (market near the close; paper MOC unsupported), day) -> 200"
+  "[B] close rulec-B-2026-11-25-SNY 38 (close (market near the close; paper MOC unsupported), day) -> 200",
+  "Yahoo BRK.B 1d/1m failed (HTTP Error 404: Not Found); using Alpaca bars",
+  "ledger 2026-11-25: 5 legs closed, 7 unfilled, 0 still open"
  ],
  "placed": [
   {
@@ -906,5 +909,272 @@
   ],
   "news_status": 0
  },
- "close_pass": 3
+ "close_pass": 3,
+ "ledger": [
+  {
+   "date": "2026-11-25",
+   "closed_day": "2026-11-25",
+   "account": "B",
+   "arm": "rulec",
+   "setup": "rule_c",
+   "id": "rulec-B-2026-11-25-SNY",
+   "base": "rulec-B-2026-11-25-SNY",
+   "symbol": "SNY",
+   "side": "short",
+   "qty": 38.0,
+   "entry_type": "market",
+   "plan_entry": 53.62,
+   "stop": 56.24,
+   "target": null,
+   "avg_entry": 53.606842,
+   "avg_exit": 54.51,
+   "exit": "close (market near the close; paper MOC unsupported)",
+   "pnl": -34.32,
+   "planned_risk": 99.56,
+   "R": -0.345,
+   "slippage_R": 0.005,
+   "filled_at": "2026-11-25T14:37:38.09907102Z",
+   "exited_at": "2026-11-25T20:47:19.817058368Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Health Technology",
+   "features": {
+    "symbol": "SNY",
+    "open": 53.62,
+    "prev_close": 51.900001525878906,
+    "atr": 1.3121,
+    "gap_pct": 3.31,
+    "gap_atr": 1.311,
+    "sector": "Health Technology"
+   },
+   "rule_R": -0.339,
+   "mfe_R": 0.05,
+   "mae_R": 0.35,
+   "entry_through": true
+  },
+  {
+   "date": "2026-11-25",
+   "closed_day": "2026-11-25",
+   "account": "B",
+   "arm": "orb",
+   "setup": "orb",
+   "id": "orb-B-2026-11-25-GOOGL",
+   "base": "orb-B-2026-11-25-GOOGL",
+   "symbol": "GOOGL",
+   "side": "long",
+   "qty": 18.0,
+   "entry_type": "stop_limit",
+   "plan_entry": 266.02,
+   "stop": 264.23,
+   "target": 269.6,
+   "avg_entry": 266.11,
+   "avg_exit": 264.22,
+   "exit": "stop",
+   "pnl": -34.02,
+   "planned_risk": 32.22,
+   "R": -1.056,
+   "slippage_R": 0.05,
+   "filled_at": "2026-11-25T15:30:57.629007514Z",
+   "exited_at": "2026-11-25T16:02:16.315377228Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Technology Services",
+   "features": {
+    "regime": "short",
+    "spy_or": "inside",
+    "tm_verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 21 % (target first 18.0 % vs stop first 66.9 %).",
+    "tm_hist": {
+     "triggered": 31,
+     "target": 5,
+     "stop": 17,
+     "avg_R": -0.197
+    },
+    "risk": "PASS",
+    "news": [],
+    "trigger": "9:55 AM",
+    "setups": null
+   },
+   "mfe_R": 0.89,
+   "mae_R": 1.11,
+   "entry_through": true
+  },
+  {
+   "date": "2026-11-25",
+   "closed_day": "2026-11-25",
+   "account": "B",
+   "arm": "orb",
+   "setup": "orb",
+   "id": "orb-B-2026-11-25-GOOG",
+   "base": "orb-B-2026-11-25-GOOG",
+   "symbol": "GOOG",
+   "side": "long",
+   "qty": 18.0,
+   "entry_type": "limit",
+   "plan_entry": 263.89,
+   "stop": 262.26,
+   "target": 267.15,
+   "avg_entry": 263.863333,
+   "avg_exit": 262.25,
+   "exit": "stop",
+   "pnl": -29.04,
+   "planned_risk": 29.34,
+   "R": -0.99,
+   "slippage_R": -0.016,
+   "filled_at": "2026-11-25T15:24:47.870206021Z",
+   "exited_at": "2026-11-25T16:09:58.825443949Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Technology Services",
+   "features": {
+    "regime": "short",
+    "spy_or": "inside",
+    "tm_verdict": "Leans toward the stop: at 2R the target has to come first in 33 % of the replays that hit one side; it did in 22 % (target first 19.3 % vs stop first 69.3 %).",
+    "tm_hist": {
+     "triggered": 32,
+     "target": 2,
+     "stop": 18,
+     "avg_R": -0.356
+    },
+    "risk": "PASS",
+    "news": [
+     "deal: Google Ends $75 Million News Deal Amid Regulatory Fight"
+    ],
+    "trigger": "9:55 AM",
+    "setups": null
+   },
+   "mfe_R": 1.22,
+   "mae_R": 1.03,
+   "entry_through": true
+  },
+  {
+   "date": "2026-11-25",
+   "closed_day": "2026-11-25",
+   "account": "B",
+   "arm": "orb_short",
+   "setup": "orb_breakdown",
+   "id": "orbs-B-2026-11-25-BRK.B",
+   "base": "orbs-B-2026-11-25-BRK.B",
+   "symbol": "BRK.B",
+   "side": "short",
+   "qty": 8.0,
+   "entry_type": "stop_limit",
+   "plan_entry": 574.45,
+   "stop": 577.15,
+   "target": 569.03,
+   "avg_entry": 574.37,
+   "avg_exit": 577.44,
+   "exit": "stop",
+   "pnl": -24.56,
+   "planned_risk": 21.6,
+   "R": -1.137,
+   "slippage_R": 0.03,
+   "filled_at": "2026-11-25T15:29:03.797994579Z",
+   "exited_at": "2026-11-25T15:33:42.834852963Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Finance",
+   "features": {
+    "regime": "short",
+    "spy_or": "inside",
+    "trigger": "09:45",
+    "earnings_today": false
+   },
+   "mfe_R": -0.02,
+   "mae_R": 1.04,
+   "entry_through": true
+  },
+  {
+   "date": "2026-11-25",
+   "closed_day": "2026-11-25",
+   "account": "B",
+   "arm": "orb_short",
+   "setup": "orb_breakdown",
+   "id": "orbs-B-2026-11-25-QCOM",
+   "base": "orbs-B-2026-11-25-QCOM",
+   "symbol": "QCOM",
+   "side": "short",
+   "qty": 18.0,
+   "entry_type": "stop_limit",
+   "plan_entry": 156.26,
+   "stop": 159.02,
+   "target": 150.75,
+   "avg_entry": 156.1,
+   "avg_exit": 159.17,
+   "exit": "stop",
+   "pnl": -55.26,
+   "planned_risk": 49.68,
+   "R": -1.112,
+   "slippage_R": 0.058,
+   "filled_at": "2026-11-25T15:32:49.92755Z",
+   "exited_at": "2026-11-25T16:56:56.013863294Z",
+   "hold_days": 0,
+   "sessions": 1,
+   "be_done": null,
+   "sector": "Electronic Technology",
+   "features": {
+    "regime": "short",
+    "spy_or": "inside",
+    "trigger": "09:45",
+    "earnings_today": false
+   },
+   "mfe_R": -0.06,
+   "mae_R": 1.09,
+   "entry_through": true
+  }
+ ],
+ "unfilled": [
+  {
+   "id": "orb-B-2026-11-25-NVDA",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "NVDA",
+   "status": "canceled"
+  },
+  {
+   "id": "orb-B-2026-11-25-AVGO",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "AVGO",
+   "status": "canceled"
+  },
+  {
+   "id": "orb-B-2026-11-25-META",
+   "account": "B",
+   "arm": "orb",
+   "symbol": "META",
+   "status": "canceled"
+  },
+  {
+   "id": "scan-B-2026-11-25-WMT",
+   "account": "B",
+   "arm": "scan",
+   "symbol": "WMT",
+   "status": "canceled"
+  },
+  {
+   "id": "orbs-B-2026-11-25-COST",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "COST",
+   "status": "canceled"
+  },
+  {
+   "id": "orbs-B-2026-11-25-JNJ",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "JNJ",
+   "status": "canceled"
+  },
+  {
+   "id": "orbs-B-2026-11-25-KO",
+   "account": "B",
+   "arm": "orb_short",
+   "symbol": "KO",
+   "status": "canceled"
+  }
+ ]
 }
