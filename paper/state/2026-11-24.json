@@ -38,7 +38,8 @@
   "16:10",
   "18:36",
   "18:50",
-  "20:34"
+  "20:34",
+  "22:43"
  ],
  "queue_done": [
   "tqqq-2026-11-24"
@@ -67,6 +68,7 @@
   "[B] close orb-B-2026-11-24-LLY 2 (flat-by, day) -> 200",
   "[B] close rulec-B-2026-11-24-KYMR 5 (close (market near the close; paper MOC unsupported), day) -> 200",
   "ledger 2026-11-24: 6 legs closed, 5 unfilled, 0 still open",
+  "ledger 2026-11-24: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-24: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-24: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-24: 0 legs closed, 0 unfilled, 0 still open"
