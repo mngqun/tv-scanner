@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
@@ -164,5 +165,73 @@
    "id": "tqqq-2026-11-25",
    "why": "void: last 55.02 outside [51.4, 53.96]"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 611,
+   "fetched": 611,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 611,
+   "hits": 154
+  },
+  "hits": 154,
+  "picks": [
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 105.85,
+    "prev_close": 94.3949966430664,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "LLY",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 1415.0,
+    "prev_close": 1407.5899658203125,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "UNH",
+    "setups": [
+     "oversold_bounce"
+    ],
+    "level": 346.46,
+    "prev_close": 341.8800048828125,
+    "sector": "Health Services"
+   },
+   {
+    "symbol": "WMT",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 132.42,
+    "prev_close": 132.30999755859375,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "JNJ",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 276.85,
+    "prev_close": 276.4599914550781,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "INSM",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 170.61,
+    "prev_close": 170.14999389648438,
+    "sector": "Health Technology"
+   }
+  ]
+ }
 }
