@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "id": "rulec-B-2026-11-25-SNY",
+  "base": "rulec-B-2026-11-25-SNY",
+  "account": "B",
+  "arm": "rulec",
+  "setup": "rule_c",
+  "symbol": "SNY",
+  "side": "short",
+  "qty": 38,
+  "entry_type": "market",
+  "plan_entry": 53.62,
+  "limit_price": null,
+  "stop": 56.24,
+  "target": null,
+  "placed_day": "2026-11-25",
+  "placed_at": "09:37",
+  "cancel_at": "10:00",
+  "flat_by": "15:40",
+  "hold_days": 0,
+  "time_stop_days": 2,
+  "exit_mode": "moc",
+  "sector": "Health Technology",
+  "planned_risk": 99.56,
+  "features": {
+   "symbol": "SNY",
+   "open": 53.62,
+   "prev_close": 51.900001525878906,
+   "atr": 1.3121,
+   "gap_pct": 3.31,
+   "gap_atr": 1.311,
+   "sector": "Health Technology"
+  },
+  "last_at_placement": 53.6,
+  "http": 200,
+  "status": "placed",
+  "broker_id": "cabc1a11-6c65-4f23-9a50-2e0ebc8c6324",
+  "message": null,
+  "sessions": [
+   "2026-11-25"
+  ],
+  "entry_status": "pending_new",
+  "entry_filled": 0.0,
+  "entry_avg": null,
+  "filled_at": null,
+  "legs": [
+   {
+    "id": "8959580f-3a49-43a2-af81-51e8741f08a0",
+    "type": "stop",
+    "side": "buy",
+    "status": "held",
+    "qty": 38.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": "56.24",
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
+  "exits": [],
+  "exit_filled": 0.0,
+  "remaining": 0.0
+ }
+]

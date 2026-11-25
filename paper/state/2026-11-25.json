@@ -3,8 +3,156 @@
  "close": "16:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short SNY x38 market stop 56.24 tgt None -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-25-SNY",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "SNY",
+   "side": "short",
+   "qty": 38,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "SNY",
+    "open": 53.62,
+    "prev_close": 51.900001525878906,
+    "atr": 1.3121,
+    "gap_pct": 3.31,
+    "gap_atr": 1.311,
+    "sector": "Health Technology"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "HPQ",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "ACM",
+    "why": "gap 0.06% / 0.01 ATR"
+   },
+   {
+    "symbol": "WTRG",
+    "why": "gap 1.25% / 0.56 ATR"
+   },
+   {
+    "symbol": "GIS",
+    "why": "gap 1.70% / 0.51 ATR"
+   },
+   {
+    "symbol": "TAK",
+    "why": "gap 1.68% / 0.81 ATR"
+   },
+   {
+    "symbol": "SONY",
+    "why": "gap 1.55% / 0.58 ATR"
+   },
+   {
+    "symbol": "HRL",
+    "why": "gap 1.22% / 0.46 ATR"
+   },
+   {
+    "symbol": "UL",
+    "why": "gap 1.79% / 0.93 ATR"
+   },
+   {
+    "symbol": "HDB",
+    "why": "gap 1.56% / 0.65 ATR"
+   },
+   {
+    "symbol": "KHC",
+    "why": "gap 1.68% / 0.60 ATR"
+   },
+   {
+    "symbol": "CF",
+    "why": "gap 0.39% / 0.10 ATR"
+   },
+   {
+    "symbol": "AMX",
+    "why": "gap -0.97% / -0.42 ATR"
+   },
+   {
+    "symbol": "VRSK",
+    "why": "gap 1.08% / 0.27 ATR"
+   },
+   {
+    "symbol": "BTI",
+    "why": "gap 1.41% / 0.60 ATR"
+   },
+   {
+    "symbol": "CCI",
+    "why": "gap 0.82% / 0.26 ATR"
+   },
+   {
+    "symbol": "PAYX",
+    "why": "gap 1.34% / 0.52 ATR"
+   },
+   {
+    "symbol": "BBY",
+    "why": "earnings (Nasdaq calendar)"
+   },
+   {
+    "symbol": "PHM",
+    "why": "gap 1.35% / 0.42 ATR"
+   },
+   {
+    "symbol": "PEP",
+    "why": "gap 1.03% / 0.42 ATR"
+   },
+   {
+    "symbol": "NBIX",
+    "why": "gap -0.61% / -0.16 ATR"
+   },
+   {
+    "symbol": "DOC",
+    "why": "gap 0.44% / 0.18 ATR"
+   },
+   {
+    "symbol": "BG",
+    "why": "gap -0.55% / -0.15 ATR"
+   },
+   {
+    "symbol": "CSGP",
+    "why": "gap 0.28% / 0.07 ATR"
+   },
+   {
+    "symbol": "KR",
+    "why": "gap 0.80% / 0.28 ATR"
+   },
+   {
+    "symbol": "FTS",
+    "why": "gap 0.49% / 0.32 ATR"
+   },
+   {
+    "symbol": "MDLZ",
+    "why": "gap 1.01% / 0.48 ATR"
+   },
+   {
+    "symbol": "BRO",
+    "why": "gap 1.29% / 0.44 ATR"
+   },
+   {
+    "symbol": "VICI",
+    "why": "gap 0.77% / 0.39 ATR"
+   }
+  ],
+  "placed": [
+   "SNY"
+  ]
+ }
 }
