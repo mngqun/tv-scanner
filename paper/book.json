@@ -840,7 +840,7 @@
     "id": "80c54da6-c15f-4967-8857-dc7620519405",
     "type": "limit",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 18.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -853,19 +853,20 @@
     "id": "88240008-edfa-40f2-9dd5-a1bcabbd9983",
     "type": "stop",
     "side": "buy",
-    "status": "held",
+    "status": "filled",
     "qty": 18.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 18.0,
+    "avg": 159.17,
+    "filled_at": "2026-11-25T16:56:56.013863294Z",
     "stop_price": "159.02",
     "limit_price": null,
     "tif": "day"
    }
   ],
   "exits": [],
-  "exit_filled": 0.0,
-  "remaining": 18.0
+  "exit_filled": 18.0,
+  "remaining": 0.0,
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-25-KO",
