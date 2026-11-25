@@ -10,7 +10,8 @@
   "10:22",
   "10:37",
   "10:52",
-  "11:22"
+  "11:22",
+  "11:37"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
@@ -28,7 +29,14 @@
   "[B] placed orb_short short BRK.B x8 stop_limit stop 577.15 tgt 569.03 -> 200 ",
   "[B] placed orb_short short JNJ x15 stop_limit stop 276.72 tgt 267.1 -> 200 ",
   "[B] placed orb_short short QCOM x18 stop_limit stop 159.02 tgt 150.75 -> 200 ",
-  "[B] placed orb_short short KO x51 stop_limit stop 98.06 tgt 96.95 -> 200 "
+  "[B] placed orb_short short KO x51 stop_limit stop 98.06 tgt 96.95 -> 200 ",
+  "[B] cancel unfilled entry orb-B-2026-11-25-NVDA (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-25-AVGO (filled 0.0)",
+  "[B] cancel unfilled entry orb-B-2026-11-25-META (filled 0.0)",
+  "[B] cancel unfilled entry scan-B-2026-11-25-WMT (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-25-COST (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-25-JNJ (filled 0.0)",
+  "[B] cancel unfilled entry orbs-B-2026-11-25-KO (filled 0.0)"
  ],
  "placed": [
   {
