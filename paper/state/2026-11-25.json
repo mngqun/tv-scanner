@@ -30,7 +30,8 @@
   "15:07",
   "15:22",
   "15:37",
-  "15:41"
+  "15:41",
+  "15:47"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
@@ -55,7 +56,8 @@
   "[B] cancel unfilled entry scan-B-2026-11-25-WMT (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-25-COST (filled 0.0)",
   "[B] cancel unfilled entry orbs-B-2026-11-25-JNJ (filled 0.0)",
-  "[B] cancel unfilled entry orbs-B-2026-11-25-KO (filled 0.0)"
+  "[B] cancel unfilled entry orbs-B-2026-11-25-KO (filled 0.0)",
+  "[B] close rulec-B-2026-11-25-SNY 38 (close (market near the close; paper MOC unsupported), day) -> 200"
  ],
  "placed": [
   {
@@ -903,5 +905,5 @@
   ],
   "news_status": 0
  },
- "close_pass": 1
+ "close_pass": 2
 }
