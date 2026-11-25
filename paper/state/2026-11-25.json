@@ -4,11 +4,15 @@
  "ticks": [
   "09:07",
   "09:22",
-  "09:37"
+  "09:37",
+  "09:52"
  ],
- "queue_done": [],
+ "queue_done": [
+  "tqqq-2026-11-25"
+ ],
  "log": [
-  "[B] placed rulec short SNY x38 market stop 56.24 tgt None -> 200 "
+  "[B] placed rulec short SNY x38 market stop 56.24 tgt None -> 200 ",
+  "queue tqqq-2026-11-25: void: last 55.02 outside [51.4, 53.96]"
  ],
  "placed": [
   {
@@ -154,5 +158,11 @@
   "placed": [
    "SNY"
   ]
- }
+ },
+ "skipped": [
+  {
+   "id": "tqqq-2026-11-25",
+   "why": "void: last 55.02 outside [51.4, 53.96]"
+  }
+ ]
 }
