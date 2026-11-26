@@ -35,7 +35,8 @@
   "15:52",
   "16:10",
   "18:15",
-  "18:34"
+  "18:34",
+  "20:08"
  ],
  "queue_done": [
   "tqqq-2026-11-25"
@@ -64,6 +65,7 @@
   "[B] close rulec-B-2026-11-25-SNY 38 (close (market near the close; paper MOC unsupported), day) -> 200",
   "Yahoo BRK.B 1d/1m failed (HTTP Error 404: Not Found); using Alpaca bars",
   "ledger 2026-11-25: 5 legs closed, 7 unfilled, 0 still open",
+  "ledger 2026-11-25: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-25: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-25: 0 legs closed, 0 unfilled, 0 still open"
  ],
