@@ -5,7 +5,8 @@
   "09:07",
   "09:22",
   "09:37",
-  "09:52"
+  "09:52",
+  "10:07"
  ],
  "queue_done": [
   "tqqq-2026-11-27"
@@ -187,5 +188,74 @@
    "id": "tqqq-2026-11-27",
    "why": "void: last 48.61 outside [43.72, 48.49]"
   }
- ]
+ ],
+ "scan": {
+  "at": "10:07",
+  "counts": {
+   "requested": 630,
+   "fetched": 630,
+   "illiquid": 0,
+   "short": 0,
+   "scanned": 630,
+   "hits": 158
+  },
+  "hits": 158,
+  "picks": [
+   {
+    "symbol": "SNDK",
+    "setups": [
+     "oversold"
+    ],
+    "level": 105.85,
+    "prev_close": 94.3949966430664,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "V",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 426.67,
+    "prev_close": 424.3900146484375,
+    "sector": "Finance"
+   },
+   {
+    "symbol": "INSM",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 170.47,
+    "prev_close": 170.30999755859375,
+    "sector": "Health Technology"
+   },
+   {
+    "symbol": "QCOM",
+    "setups": [
+     "reclaim_ma20"
+    ],
+    "level": 168.95,
+    "prev_close": 168.66000366210938,
+    "sector": "Electronic Technology"
+   },
+   {
+    "symbol": "HD",
+    "setups": [
+     "breakout_20d"
+    ],
+    "level": 363.65,
+    "prev_close": 361.260009765625,
+    "sector": "Retail Trade"
+   },
+   {
+    "symbol": "MSTR",
+    "setups": [
+     "oversold",
+     "oversold_bounce"
+    ],
+    "level": 81.02,
+    "prev_close": 79.95999908447266,
+    "sector": "Finance"
+   }
+  ]
+ }
 }
