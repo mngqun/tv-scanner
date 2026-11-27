@@ -63,18 +63,18 @@
     "id": "67ffee52-8589-45c7-acf2-863f16b57479",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 29.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 29.0,
+    "avg": 32.13,
+    "filled_at": "2026-11-27T17:47:18.829407436Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 29.0,
+  "exit_filled": 29.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "67ffee52-8589-45c7-acf2-863f16b57479"
   ],
@@ -87,7 +87,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "rulec-B-2026-11-27-AEM",
@@ -153,18 +154,18 @@
     "id": "f03635bd-29a7-43f5-ae8e-e724a552c681",
     "type": "market",
     "side": "buy",
-    "status": "new",
+    "status": "filled",
     "qty": 5.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 5.0,
+    "avg": 171.79,
+    "filled_at": "2026-11-27T17:47:19.690948278Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 5.0,
+  "exit_filled": 5.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "f03635bd-29a7-43f5-ae8e-e724a552c681"
   ],
@@ -177,7 +178,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-27-AVGO",
