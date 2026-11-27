@@ -1,7 +1,2 @@
-[B] close orb-B-2026-11-27-AVGO 16 (flat-by, day) -> 200
-[B] close orb-B-2026-11-27-SNDK 18 (flat-by, day) -> 200
-[B] close orb-B-2026-11-27-PANW 5 (flat-by, day) -> 200
-[B] close orb-B-2026-11-27-CRWD 11 (flat-by, day) -> 200
-[B] close orb-B-2026-11-27-COST 4 (flat-by, day) -> 200
-[B] close scan-B-2026-11-27-INSM 29 (flat-by, day) -> 200
-[B] close scan-B-2026-11-27-MSTR 13 (flat-by, day) -> 200
+[B] close rulec-B-2026-11-27-YPF 29 (close (market near the close; paper MOC unsupported), day) -> 200
+[B] close rulec-B-2026-11-27-AEM 5 (close (market near the close; paper MOC unsupported), day) -> 200

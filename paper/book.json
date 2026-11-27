@@ -48,7 +48,7 @@
     "id": "b8dc250d-8e6d-45e9-a126-11dd5579c5d5",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 29.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -58,9 +58,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "67ffee52-8589-45c7-acf2-863f16b57479",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 29.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 29.0
+  "remaining": 29.0,
+  "exit_order_ids": [
+   "67ffee52-8589-45c7-acf2-863f16b57479"
+  ],
+  "exit_reason": "close (market near the close; paper MOC unsupported)",
+  "events": [
+   {
+    "at": "2026-11-27 12:47",
+    "what": "close (close (market near the close; paper MOC unsupported)) day",
+    "qty": 29,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "rulec-B-2026-11-27-AEM",
@@ -111,7 +138,7 @@
     "id": "b3a5234b-5494-4190-9f52-551e6173889e",
     "type": "stop",
     "side": "buy",
-    "status": "new",
+    "status": "canceled",
     "qty": 5.0,
     "filled_qty": 0.0,
     "avg": null,
@@ -121,9 +148,36 @@
     "tif": "day"
    }
   ],
-  "exits": [],
+  "exits": [
+   {
+    "id": "f03635bd-29a7-43f5-ae8e-e724a552c681",
+    "type": "market",
+    "side": "buy",
+    "status": "new",
+    "qty": 5.0,
+    "filled_qty": 0.0,
+    "avg": null,
+    "filled_at": null,
+    "stop_price": null,
+    "limit_price": null,
+    "tif": "day"
+   }
+  ],
   "exit_filled": 0.0,
-  "remaining": 5.0
+  "remaining": 5.0,
+  "exit_order_ids": [
+   "f03635bd-29a7-43f5-ae8e-e724a552c681"
+  ],
+  "exit_reason": "close (market near the close; paper MOC unsupported)",
+  "events": [
+   {
+    "at": "2026-11-27 12:47",
+    "what": "close (close (market near the close; paper MOC unsupported)) day",
+    "qty": 5,
+    "http": 200,
+    "msg": null
+   }
+  ]
  },
  {
   "id": "orb-B-2026-11-27-AVGO",
@@ -208,18 +262,18 @@
     "id": "fd6cfa47-1d46-4056-a4f2-d4b6cc92f7d8",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 16.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 16.0,
+    "avg": 310.1375,
+    "filled_at": "2026-11-27T17:41:23.509522839Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 16.0,
+  "exit_filled": 16.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "fd6cfa47-1d46-4056-a4f2-d4b6cc92f7d8"
   ],
@@ -232,7 +286,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-27-SNDK",
@@ -317,18 +372,18 @@
     "id": "d4ea7a4e-3a99-45e9-b29c-b1e42c40a2c8",
     "type": "market",
     "side": "sell",
-    "status": "pending_new",
+    "status": "filled",
     "qty": 18.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 18.0,
+    "avg": 82.94,
+    "filled_at": "2026-11-27T17:41:23.727040699Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 18.0,
+  "exit_filled": 18.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "d4ea7a4e-3a99-45e9-b29c-b1e42c40a2c8"
   ],
@@ -341,7 +396,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-27-PANW",
@@ -426,18 +482,18 @@
     "id": "59b0c00e-6155-45fb-879a-dccb2f573e5f",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 5.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 5.0,
+    "avg": 361.38,
+    "filled_at": "2026-11-27T17:41:22.938991451Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 5.0,
+  "exit_filled": 5.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "59b0c00e-6155-45fb-879a-dccb2f573e5f"
   ],
@@ -450,7 +506,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-27-CRWD",
@@ -535,18 +592,18 @@
     "id": "c0c505c2-1101-4b2a-976d-7e81563751d8",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 11.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 11.0,
+    "avg": 215.39,
+    "filled_at": "2026-11-27T17:41:21.987891788Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 11.0,
+  "exit_filled": 11.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "c0c505c2-1101-4b2a-976d-7e81563751d8"
   ],
@@ -559,7 +616,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orb-B-2026-11-27-COST",
@@ -644,18 +702,18 @@
     "id": "d6c7beaf-2bec-4a86-9c54-551e094edcbd",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 4.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 4.0,
+    "avg": 1098.57,
+    "filled_at": "2026-11-27T17:41:23.125627544Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 4.0,
+  "exit_filled": 4.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "d6c7beaf-2bec-4a86-9c54-551e094edcbd"
   ],
@@ -668,7 +726,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-27-INSM",
@@ -755,18 +814,18 @@
     "id": "4e174fd3-7f43-43b9-a362-566482cb8b3f",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 29.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 29.0,
+    "avg": 170.58,
+    "filled_at": "2026-11-27T17:41:25.792299461Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 29.0,
+  "exit_filled": 29.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "4e174fd3-7f43-43b9-a362-566482cb8b3f"
   ],
@@ -779,7 +838,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "scan-B-2026-11-27-MSTR",
@@ -867,18 +927,18 @@
     "id": "8dfe3748-dce8-401a-a467-862526bdb764",
     "type": "market",
     "side": "sell",
-    "status": "new",
+    "status": "filled",
     "qty": 13.0,
-    "filled_qty": 0.0,
-    "avg": null,
-    "filled_at": null,
+    "filled_qty": 13.0,
+    "avg": 80.7,
+    "filled_at": "2026-11-27T17:41:22.957401809Z",
     "stop_price": null,
     "limit_price": null,
     "tif": "day"
    }
   ],
-  "exit_filled": 0.0,
-  "remaining": 13.0,
+  "exit_filled": 13.0,
+  "remaining": 0.0,
   "exit_order_ids": [
    "8dfe3748-dce8-401a-a467-862526bdb764"
   ],
@@ -891,7 +951,8 @@
     "http": 200,
     "msg": null
    }
-  ]
+  ],
+  "closed": true
  },
  {
   "id": "orbs-B-2026-11-27-NVDA",
