@@ -27,7 +27,8 @@
   "14:07",
   "14:22",
   "14:37",
-  "14:52"
+  "14:52",
+  "15:07"
  ],
  "queue_done": [
   "tqqq-2026-11-27"
@@ -61,6 +62,7 @@
   "[B] close rulec-B-2026-11-27-YPF 29 (close (market near the close; paper MOC unsupported), day) -> 200",
   "[B] close rulec-B-2026-11-27-AEM 5 (close (market near the close; paper MOC unsupported), day) -> 200",
   "ledger 2026-11-27: 9 legs closed, 4 unfilled, 0 still open",
+  "ledger 2026-11-27: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-27: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-27: 0 legs closed, 0 unfilled, 0 still open",
   "ledger 2026-11-27: 0 legs closed, 0 unfilled, 0 still open",
