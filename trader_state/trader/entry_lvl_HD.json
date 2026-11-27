@@ -3,20 +3,20 @@
   "symbol": "HD",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-18",
+  "date": "2026-11-27",
   "status": "waiting",
   "time": null,
   "bar_start": null,
   "bar_index": null,
   "price": null,
-  "level": 346.9,
+  "level": 363.65,
   "interval": "5m",
   "opening_range": {
-    "high": 338.16,
-    "low": 330.31,
+    "high": 362.5,
+    "low": 358.1,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:59Z",
-  "reason": "last close $337.92 (10:15 bar), $8.98 under the level $346.90 (-2.59%)"
+  "checked_at": "2026-11-27T15:23:55Z",
+  "reason": "last close $360.20 (10:15 bar), $3.45 under the level $363.65 (-0.95%)"
 }

@@ -3,20 +3,20 @@
   "symbol": "PANW",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-18",
+  "date": "2026-11-27",
   "status": "triggered",
   "time": "9:55 AM",
   "bar_start": "09:50",
   "bar_index": 4,
-  "price": 320.21,
-  "level": 316.0,
+  "price": 352.79,
+  "level": 351.81,
   "interval": "5m",
   "opening_range": {
-    "high": 316.0,
-    "low": 311.63,
+    "high": 351.81,
+    "low": 338.57,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:52Z",
+  "checked_at": "2026-11-27T15:23:47Z",
   "reason": "the 9:50 bar closed above the range high"
 }

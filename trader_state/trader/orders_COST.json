@@ -1,10 +1,10 @@
 {
   "created_by": "trader-budget",
-  "created_at": "2026-11-17T15:23:53Z",
+  "created_at": "2026-11-27T15:23:50Z",
   "status": "proposed",
   "paper": true,
   "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
-  "source": "trader/plan.json (COST orb 2026-11-17)",
+  "source": "trader/plan.json (COST orb 2026-11-27)",
   "orders": [
     {
       "symbol": "COST",
@@ -12,20 +12,20 @@
       "qty": "4",
       "type": "limit",
       "time_in_force": "day",
-      "limit_price": "1122.97",
+      "limit_price": "1094.84",
       "order_class": "bracket",
-      "take_profit_limit_price": "1136.43",
-      "stop_loss_stop_price": "1116.24",
-      "why": "opening-range breakout on COST: 4 shares, bound by your position cap (4 x 6.73 = $26.92 at the stop)",
+      "take_profit_limit_price": "1104.02",
+      "stop_loss_stop_price": "1090.25",
+      "why": "opening-range breakout on COST: 4 shares, bound by your position cap (4 x 4.59 = $18.36 at the stop)",
       "plan": {
-        "entry": 1122.97,
-        "stop": 1116.24,
-        "target": 1136.43,
-        "risk_per_share": 6.73,
-        "max_loss": 26.92,
+        "entry": 1094.84,
+        "stop": 1090.25,
+        "target": 1104.02,
+        "risk_per_share": 4.59,
+        "max_loss": 18.36,
         "setup": "orb",
-        "entry_time": "9:55 AM",
-        "flat_by": "15:40"
+        "entry_time": "9:50 AM",
+        "flat_by": "12:40"
       }
     }
   ]

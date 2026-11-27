@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "DELL",
+  "side": "buy",
+  "date": "2026-11-27",
+  "setup": "orb",
+  "entry": 311.3,
+  "entry_time": "10:05 AM",
+  "entry_bar": 6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 308.97,
+    "low": 297.1,
+    "minutes": 15
+  },
+  "stop": 303.03,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 327.84,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 8.27,
+  "reward_risk": 2.0,
+  "flat_by": "12:40",
+  "stop_detail": "($308.97 + $297.10) / 2 = $303.035, rounded down",
+  "created_at": "2026-11-27T15:23:46Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

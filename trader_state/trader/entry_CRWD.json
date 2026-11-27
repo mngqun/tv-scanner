@@ -3,20 +3,20 @@
   "symbol": "CRWD",
   "setup": "orb",
   "side": "buy",
-  "date": "2026-11-18",
+  "date": "2026-11-27",
   "status": "triggered",
-  "time": "10:00 AM",
-  "bar_start": "09:55",
-  "bar_index": 5,
-  "price": 225.4,
-  "level": 225.0,
+  "time": "9:55 AM",
+  "bar_start": "09:50",
+  "bar_index": 4,
+  "price": 212.99,
+  "level": 211.27,
   "interval": "5m",
   "opening_range": {
-    "high": 225.0,
-    "low": 218.51,
+    "high": 211.27,
+    "low": 205.77,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:53Z",
-  "reason": "the 9:55 bar closed above the range high"
+  "checked_at": "2026-11-27T15:23:48Z",
+  "reason": "the 9:50 bar closed above the range high"
 }

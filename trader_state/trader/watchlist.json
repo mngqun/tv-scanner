@@ -1,12 +1,15 @@
 {
   "created_by": "trader-scanner",
-  "created_at": "2026-11-27T15:07:16Z",
-  "mode": "daily",
-  "as_of": "2026-11-25 close",
+  "created_at": "2026-11-27T15:22:17Z",
+  "mode": "orb",
+  "as_of": "2026-11-27 10:15 ET",
   "universe": 630,
-  "scanned": 630,
+  "scanned": 614,
   "failed": 0,
+  "unconfirmed": 79,
   "source": "yahoo",
+  "or_minutes": 15,
+  "interval": "5m",
   "filters": {
     "min_price": 5.0,
     "min_volume": 0
@@ -14,1589 +17,1226 @@
   "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
   "hits": [
     {
-      "symbol": "SNDK",
+      "symbol": "ACN",
       "setups": [
-        "oversold"
+        "orb"
       ],
-      "price": 94.39,
-      "close_date": "2026-11-19",
-      "rsi": 29.4,
-      "volume": 32483371
-    },
-    {
-      "symbol": "MSTR",
-      "setups": [
-        "oversold",
-        "oversold_bounce"
-      ],
-      "price": 79.96,
-      "close_date": "2026-11-25",
-      "rsi": 26.9,
-      "volume": 6159804
-    },
-    {
-      "symbol": "VRTX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 564.12,
-      "close_date": "2026-11-25",
-      "rsi": 62.0,
-      "volume": 800330
-    },
-    {
-      "symbol": "V",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 424.39,
-      "close_date": "2026-11-25",
-      "rsi": 58.9,
-      "volume": 871432
-    },
-    {
-      "symbol": "INSM",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 170.31,
-      "close_date": "2026-11-25",
-      "rsi": 83.0,
-      "volume": 1596092
-    },
-    {
-      "symbol": "DIS",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 125.6,
-      "close_date": "2026-11-25",
-      "rsi": 68.8,
-      "volume": 1504922
-    },
-    {
-      "symbol": "PDD",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 87.42,
-      "close_date": "2026-11-25",
-      "rsi": 63.9,
-      "volume": 2151192
-    },
-    {
-      "symbol": "QCOM",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 168.66,
-      "close_date": "2026-11-25",
-      "rsi": 49.7,
-      "volume": 1021341
-    },
-    {
-      "symbol": "COIN",
-      "setups": [
-        "oversold",
-        "oversold_bounce"
-      ],
-      "price": 103.72,
-      "close_date": "2026-11-25",
-      "rsi": 28.5,
-      "volume": 1369689
-    },
-    {
-      "symbol": "PG",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 173.23,
-      "close_date": "2026-11-25",
-      "rsi": 67.0,
-      "volume": 669721
-    },
-    {
-      "symbol": "MPC",
-      "setups": [
-        "oversold"
-      ],
-      "price": 346.27,
-      "close_date": "2026-11-25",
-      "rsi": 28.8,
-      "volume": 328250
-    },
-    {
-      "symbol": "CRCL",
-      "setups": [
-        "oversold",
-        "oversold_bounce"
-      ],
-      "price": 48.27,
-      "close_date": "2026-11-25",
-      "rsi": 27.2,
-      "volume": 2248647
-    },
-    {
-      "symbol": "INTU",
-      "setups": [
-        "oversold"
-      ],
-      "price": 271.72,
-      "close_date": "2026-11-25",
-      "rsi": 29.8,
-      "volume": 383534
-    },
-    {
-      "symbol": "HD",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 361.26,
-      "close_date": "2026-11-25",
-      "rsi": 68.4,
-      "volume": 277308
-    },
-    {
-      "symbol": "MCD",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 283.5,
-      "close_date": "2026-11-25",
-      "rsi": 69.8,
-      "volume": 346867
-    },
-    {
-      "symbol": "TJX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 146.09,
-      "close_date": "2026-11-25",
-      "rsi": 61.2,
-      "volume": 651489
-    },
-    {
-      "symbol": "RBLX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 55.63,
-      "close_date": "2026-11-25",
-      "rsi": 62.0,
-      "volume": 1694584
-    },
-    {
-      "symbol": "CHTR",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 147.27,
-      "close_date": "2026-11-25",
-      "rsi": 67.4,
-      "volume": 634310
-    },
-    {
-      "symbol": "FCX",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 48.55,
-      "close_date": "2026-11-25",
-      "rsi": 30.9,
-      "volume": 1917553
-    },
-    {
-      "symbol": "IBM",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 243.47,
-      "close_date": "2026-11-25",
-      "rsi": 53.8,
-      "volume": 365530
-    },
-    {
-      "symbol": "HPQ",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 31.15,
-      "close_date": "2026-11-25",
-      "rsi": 57.6,
-      "volume": 2774785
-    },
-    {
-      "symbol": "SBUX",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 107.74,
-      "close_date": "2026-11-25",
-      "rsi": 56.1,
-      "volume": 781975
-    },
-    {
-      "symbol": "SNY",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 54.39,
-      "close_date": "2026-11-25",
-      "rsi": 80.8,
-      "volume": 1385837
-    },
-    {
-      "symbol": "NEE",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 85.41,
-      "close_date": "2026-11-25",
-      "rsi": 58.0,
-      "volume": 879920
-    },
-    {
-      "symbol": "VZ",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 47.28,
-      "close_date": "2026-11-25",
-      "rsi": 61.2,
-      "volume": 1588064
-    },
-    {
-      "symbol": "T",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 22.97,
-      "close_date": "2026-11-25",
-      "rsi": 58.6,
-      "volume": 3197228
-    },
-    {
-      "symbol": "ABT",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 108.0,
-      "close_date": "2026-11-25",
-      "rsi": 54.7,
-      "volume": 641749
-    },
-    {
-      "symbol": "LMT",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 599.24,
-      "close_date": "2026-11-25",
-      "rsi": 55.4,
-      "volume": 105281
-    },
-    {
-      "symbol": "MRSH",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 216.66,
-      "close_date": "2026-11-25",
-      "rsi": 71.4,
-      "volume": 280882
-    },
-    {
-      "symbol": "IBN",
-      "setups": [
-        "breakout_20d",
-        "bull_flag"
-      ],
-      "price": 36.5,
-      "close_date": "2026-11-25",
-      "rsi": 84.0,
-      "volume": 1653269
-    },
-    {
-      "symbol": "AXON",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 343.05,
-      "close_date": "2026-11-25",
-      "rsi": 47.0,
-      "volume": 175441
-    },
-    {
-      "symbol": "DDOG",
-      "setups": [
-        "oversold"
-      ],
-      "price": 158.25,
-      "close_date": "2026-11-25",
-      "rsi": 29.7,
-      "volume": 374274
-    },
-    {
-      "symbol": "BIDU",
-      "setups": [
-        "oversold"
-      ],
-      "price": 63.49,
-      "close_date": "2026-11-25",
-      "rsi": 26.8,
-      "volume": 885462
-    },
-    {
-      "symbol": "HDB",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 28.35,
-      "close_date": "2026-11-25",
-      "rsi": 79.9,
-      "volume": 1971802
-    },
-    {
-      "symbol": "UL",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 66.85,
-      "close_date": "2026-11-25",
-      "rsi": 57.6,
-      "volume": 735654
-    },
-    {
-      "symbol": "LNG",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 301.99,
-      "close_date": "2026-11-25",
-      "rsi": 54.8,
-      "volume": 162478
-    },
-    {
-      "symbol": "CSX",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 51.16,
-      "close_date": "2026-11-25",
-      "rsi": 53.4,
-      "volume": 956986
-    },
-    {
-      "symbol": "CMG",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 37.4,
-      "close_date": "2026-11-25",
-      "rsi": 65.3,
-      "volume": 1300307
-    },
-    {
-      "symbol": "ORLY",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 96.69,
-      "close_date": "2026-11-25",
-      "rsi": 71.1,
-      "volume": 490176
-    },
-    {
-      "symbol": "PAAS",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 32.56,
-      "close_date": "2026-11-25",
-      "rsi": 34.5,
-      "volume": 1416717
-    },
-    {
-      "symbol": "CMCSA",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 25.73,
-      "close_date": "2026-11-25",
-      "rsi": 65.6,
-      "volume": 1735019
+      "price": 243.01,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 242.51,
+      "or_low": 239.2,
+      "pct_over": 0.21
     },
     {
       "symbol": "ADP",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 316.72,
-      "close_date": "2026-11-25",
-      "rsi": 66.2,
-      "volume": 138202
+      "price": 319.16,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 318.4,
+      "or_low": 315.64,
+      "pct_over": 0.24
+    },
+    {
+      "symbol": "BIIB",
+      "setups": [
+        "orb"
+      ],
+      "price": 262.65,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 262.58,
+      "or_low": 259.31,
+      "pct_over": 0.03
     },
     {
       "symbol": "BTI",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 60.43,
-      "close_date": "2026-11-25",
-      "rsi": 54.7,
-      "volume": 713694
+      "price": 60.31,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 60.28,
+      "or_low": 59.59,
+      "pct_over": 0.04
     },
     {
-      "symbol": "HCA",
+      "symbol": "BUD",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 491.01,
-      "close_date": "2026-11-25",
-      "rsi": 54.6,
-      "volume": 85578
-    },
-    {
-      "symbol": "RIO",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 74.58,
-      "close_date": "2026-11-25",
-      "rsi": 32.6,
-      "volume": 561281
-    },
-    {
-      "symbol": "SE",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 66.88,
-      "close_date": "2026-11-25",
-      "rsi": 34.1,
-      "volume": 618922
-    },
-    {
-      "symbol": "NTES",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 104.26,
-      "close_date": "2026-11-25",
-      "rsi": 35.3,
-      "volume": 396108
-    },
-    {
-      "symbol": "O",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 60.25,
-      "close_date": "2026-11-25",
-      "rsi": 65.3,
-      "volume": 668822
-    },
-    {
-      "symbol": "AJG",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 292.39,
-      "close_date": "2026-11-25",
-      "rsi": 64.6,
-      "volume": 133023
-    },
-    {
-      "symbol": "LOW",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 235.65,
-      "close_date": "2026-11-25",
-      "rsi": 68.0,
-      "volume": 163372
-    },
-    {
-      "symbol": "PINS",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 19.71,
-      "close_date": "2026-11-25",
-      "rsi": 53.1,
-      "volume": 1950411
-    },
-    {
-      "symbol": "PGR",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 238.7,
-      "close_date": "2026-11-25",
-      "rsi": 62.3,
-      "volume": 150993
-    },
-    {
-      "symbol": "MDLZ",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 67.81,
-      "close_date": "2026-11-25",
-      "rsi": 62.7,
-      "volume": 520293
-    },
-    {
-      "symbol": "NTNX",
-      "setups": [
-        "oversold"
-      ],
-      "price": 46.3,
-      "close_date": "2026-11-25",
-      "rsi": 22.8,
-      "volume": 757859
-    },
-    {
-      "symbol": "LEN",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 86.79,
-      "close_date": "2026-11-25",
-      "rsi": 55.6,
-      "volume": 386671
-    },
-    {
-      "symbol": "KMI",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 31.69,
-      "close_date": "2026-11-25",
-      "rsi": 49.8,
-      "volume": 1056245
-    },
-    {
-      "symbol": "DKS",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 158.59,
-      "close_date": "2026-11-25",
-      "rsi": 62.1,
-      "volume": 210962
-    },
-    {
-      "symbol": "TSCO",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 40.37,
-      "close_date": "2026-11-25",
-      "rsi": 70.1,
-      "volume": 824487
-    },
-    {
-      "symbol": "WM",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 247.29,
-      "close_date": "2026-11-25",
-      "rsi": 66.2,
-      "volume": 132780
-    },
-    {
-      "symbol": "SN",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 232.5,
-      "close_date": "2026-11-25",
-      "rsi": 62.6,
-      "volume": 139249
-    },
-    {
-      "symbol": "ALL",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 271.39,
-      "close_date": "2026-11-25",
-      "rsi": 63.6,
-      "volume": 118841
-    },
-    {
-      "symbol": "SCCO",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 140.99,
-      "close_date": "2026-11-25",
-      "rsi": 33.0,
-      "volume": 224251
-    },
-    {
-      "symbol": "KHC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 26.51,
-      "close_date": "2026-11-25",
-      "rsi": 66.6,
-      "volume": 1191813
-    },
-    {
-      "symbol": "FISV",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 59.78,
-      "close_date": "2026-11-25",
-      "rsi": 57.8,
-      "volume": 524824
-    },
-    {
-      "symbol": "EXE",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 86.77,
-      "close_date": "2026-11-25",
-      "rsi": 49.9,
-      "volume": 357788
-    },
-    {
-      "symbol": "CPRT",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 33.17,
-      "close_date": "2026-11-25",
-      "rsi": 66.5,
-      "volume": 932447
-    },
-    {
-      "symbol": "PPG",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 124.61,
-      "close_date": "2026-11-25",
-      "rsi": 60.1,
-      "volume": 242935
-    },
-    {
-      "symbol": "BURL",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 250.06,
-      "close_date": "2026-11-25",
-      "rsi": 50.9,
-      "volume": 115951
-    },
-    {
-      "symbol": "SONY",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 28.49,
-      "close_date": "2026-11-25",
-      "rsi": 72.9,
-      "volume": 1004329
-    },
-    {
-      "symbol": "DECK",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 85.56,
-      "close_date": "2026-11-25",
-      "rsi": 53.1,
-      "volume": 331482
-    },
-    {
-      "symbol": "FRO",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 47.65,
-      "close_date": "2026-11-25",
-      "rsi": 48.9,
-      "volume": 585582
+      "price": 79.28,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 79.2,
+      "or_low": 78.47,
+      "pct_over": 0.1
     },
     {
       "symbol": "CDW",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 174.97,
-      "close_date": "2026-11-25",
-      "rsi": 59.3,
-      "volume": 158671
-    },
-    {
-      "symbol": "DUK",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 131.9,
-      "close_date": "2026-11-25",
-      "rsi": 67.3,
-      "volume": 204784
-    },
-    {
-      "symbol": "SO",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 95.0,
-      "close_date": "2026-11-25",
-      "rsi": 61.3,
-      "volume": 275324
+      "price": 180.43,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 180.1,
+      "or_low": 175.82,
+      "pct_over": 0.18
     },
     {
       "symbol": "CHKP",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 163.77,
-      "close_date": "2026-11-25",
-      "rsi": 73.0,
-      "volume": 158283
+      "price": 164.57,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 164.44,
+      "or_low": 160.76,
+      "pct_over": 0.08
     },
     {
-      "symbol": "BBY",
+      "symbol": "CHTR",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 102.58,
-      "close_date": "2026-11-25",
-      "rsi": 57.2,
-      "volume": 251930
+      "price": 152.43,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 150.22,
+      "or_low": 146.87,
+      "pct_over": 1.47
     },
     {
-      "symbol": "CTSH",
+      "symbol": "CL",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 63.32,
-      "close_date": "2026-11-25",
-      "rsi": 52.4,
-      "volume": 347158
-    },
-    {
-      "symbol": "AEE",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 114.88,
-      "close_date": "2026-11-25",
-      "rsi": 65.2,
-      "volume": 189408
-    },
-    {
-      "symbol": "CARR",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 53.9,
-      "close_date": "2026-11-25",
-      "rsi": 51.1,
-      "volume": 396048
-    },
-    {
-      "symbol": "ALC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 77.97,
-      "close_date": "2026-11-25",
-      "rsi": 67.7,
-      "volume": 272849
-    },
-    {
-      "symbol": "BDX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 221.24,
-      "close_date": "2026-11-25",
-      "rsi": 71.8,
-      "volume": 92931
-    },
-    {
-      "symbol": "BSP",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 46.29,
-      "close_date": "2026-11-25",
-      "rsi": 56.3,
-      "volume": 427534
-    },
-    {
-      "symbol": "AWK",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 152.84,
-      "close_date": "2026-11-25",
-      "rsi": 63.1,
-      "volume": 121174
-    },
-    {
-      "symbol": "GLPI",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 39.01,
-      "close_date": "2026-11-25",
-      "rsi": 51.3,
-      "volume": 451945
-    },
-    {
-      "symbol": "BBIO",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 89.79,
-      "close_date": "2026-11-25",
-      "rsi": 76.6,
-      "volume": 196037
+      "price": 99.76,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 99.68,
+      "or_low": 98.7,
+      "pct_over": 0.08
     },
     {
       "symbol": "CLX",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 110.94,
-      "close_date": "2026-11-25",
-      "rsi": 70.5,
-      "volume": 154476
+      "price": 111.71,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 111.36,
+      "or_low": 110.0,
+      "pct_over": 0.31
     },
     {
-      "symbol": "ODFL",
+      "symbol": "CMCSA",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 174.66,
-      "close_date": "2026-11-25",
-      "rsi": 49.6,
-      "volume": 94746
+      "price": 26.07,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 26.02,
+      "or_low": 25.73,
+      "pct_over": 0.19
     },
     {
-      "symbol": "YUM",
+      "symbol": "COST",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 167.12,
-      "close_date": "2026-11-25",
-      "rsi": 69.6,
-      "volume": 95208
+      "price": 1094.84,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 1094.47,
+      "or_low": 1086.04,
+      "pct_over": 0.03
+    },
+    {
+      "symbol": "CVS",
+      "setups": [
+        "orb"
+      ],
+      "price": 82.72,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 82.66,
+      "or_low": 81.35,
+      "pct_over": 0.07
+    },
+    {
+      "symbol": "DIS",
+      "setups": [
+        "orb"
+      ],
+      "price": 126.91,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 126.89,
+      "or_low": 125.45,
+      "pct_over": 0.02
+    },
+    {
+      "symbol": "DKS",
+      "setups": [
+        "orb"
+      ],
+      "price": 160.99,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 159.63,
+      "or_low": 157.0,
+      "pct_over": 0.86
+    },
+    {
+      "symbol": "FER",
+      "setups": [
+        "orb"
+      ],
+      "price": 59.85,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 59.85,
+      "or_low": 59.46,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "FISV",
+      "setups": [
+        "orb"
+      ],
+      "price": 60.91,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 60.87,
+      "or_low": 59.84,
+      "pct_over": 0.07
+    },
+    {
+      "symbol": "HCA",
+      "setups": [
+        "orb"
+      ],
+      "price": 500.22,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 499.71,
+      "or_low": 488.0,
+      "pct_over": 0.1
+    },
+    {
+      "symbol": "HDB",
+      "setups": [
+        "orb"
+      ],
+      "price": 28.57,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 28.49,
+      "or_low": 28.14,
+      "pct_over": 0.26
+    },
+    {
+      "symbol": "HONA",
+      "setups": [
+        "orb"
+      ],
+      "price": 164.21,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 163.07,
+      "or_low": 160.24,
+      "pct_over": 0.7
+    },
+    {
+      "symbol": "HTHT",
+      "setups": [
+        "orb"
+      ],
+      "price": 52.74,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 52.51,
+      "or_low": 51.45,
+      "pct_over": 0.43
+    },
+    {
+      "symbol": "IBN",
+      "setups": [
+        "orb"
+      ],
+      "price": 35.98,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 35.85,
+      "or_low": 35.48,
+      "pct_over": 0.38
+    },
+    {
+      "symbol": "INSM",
+      "setups": [
+        "orb"
+      ],
+      "price": 170.68,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 170.66,
+      "or_low": 170.25,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "KO",
+      "setups": [
+        "orb"
+      ],
+      "price": 97.18,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 97.1,
+      "or_low": 96.5,
+      "pct_over": 0.08
+    },
+    {
+      "symbol": "LYV",
+      "setups": [
+        "orb"
+      ],
+      "price": 183.93,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 183.61,
+      "or_low": 181.52,
+      "pct_over": 0.17
+    },
+    {
+      "symbol": "MRK",
+      "setups": [
+        "orb"
+      ],
+      "price": 141.72,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 141.65,
+      "or_low": 140.4,
+      "pct_over": 0.05
+    },
+    {
+      "symbol": "NTSK",
+      "setups": [
+        "orb"
+      ],
+      "price": 27.1,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 27.05,
+      "or_low": 26.38,
+      "pct_over": 0.18
+    },
+    {
+      "symbol": "PEP",
+      "setups": [
+        "orb"
+      ],
+      "price": 144.49,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 144.43,
+      "or_low": 143.55,
+      "pct_over": 0.05
+    },
+    {
+      "symbol": "PYPL",
+      "setups": [
+        "orb"
+      ],
+      "price": 58.83,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 58.66,
+      "or_low": 58.0,
+      "pct_over": 0.29
+    },
+    {
+      "symbol": "RSG",
+      "setups": [
+        "orb"
+      ],
+      "price": 254.51,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 254.39,
+      "or_low": 249.69,
+      "pct_over": 0.05
+    },
+    {
+      "symbol": "SYY",
+      "setups": [
+        "orb"
+      ],
+      "price": 82.56,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 82.53,
+      "or_low": 81.89,
+      "pct_over": 0.04
+    },
+    {
+      "symbol": "TTWO",
+      "setups": [
+        "orb"
+      ],
+      "price": 230.51,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 230.5,
+      "or_low": 226.61,
+      "pct_over": 0.0
+    },
+    {
+      "symbol": "UL",
+      "setups": [
+        "orb"
+      ],
+      "price": 66.46,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 66.42,
+      "or_low": 65.96,
+      "pct_over": 0.06
+    },
+    {
+      "symbol": "V",
+      "setups": [
+        "orb"
+      ],
+      "price": 427.89,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 427.81,
+      "or_low": 423.02,
+      "pct_over": 0.02
+    },
+    {
+      "symbol": "VTR",
+      "setups": [
+        "orb"
+      ],
+      "price": 88.27,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 88.17,
+      "or_low": 87.23,
+      "pct_over": 0.11
+    },
+    {
+      "symbol": "WELL",
+      "setups": [
+        "orb"
+      ],
+      "price": 249.03,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 248.67,
+      "or_low": 245.16,
+      "pct_over": 0.14
     },
     {
       "symbol": "YUMC",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 52.34,
-      "close_date": "2026-11-25",
-      "rsi": 73.0,
-      "volume": 303460
+      "price": 52.74,
+      "at": "9:50 AM",
+      "bar_start": "09:45",
+      "bar_index": 3,
+      "or_high": 52.61,
+      "or_low": 52.09,
+      "pct_over": 0.25
     },
     {
-      "symbol": "AMRZ",
+      "symbol": "APA",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 43.4,
-      "close_date": "2026-11-25",
-      "rsi": 62.0,
-      "volume": 360057
+      "price": 46.67,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 46.5,
+      "or_low": 46.14,
+      "pct_over": 0.37
     },
     {
-      "symbol": "YPF",
+      "symbol": "AWK",
       "setups": [
-        "oversold"
+        "orb"
       ],
-      "price": 31.45,
-      "close_date": "2026-11-25",
-      "rsi": 21.6,
-      "volume": 486653
+      "price": 153.05,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 152.99,
+      "or_low": 151.07,
+      "pct_over": 0.04
     },
     {
-      "symbol": "DINO",
+      "symbol": "COP",
       "setups": [
-        "oversold"
+        "orb"
       ],
-      "price": 85.76,
-      "close_date": "2026-11-25",
-      "rsi": 24.2,
-      "volume": 178093
+      "price": 138.16,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 137.61,
+      "or_low": 135.73,
+      "pct_over": 0.4
     },
     {
-      "symbol": "DT",
+      "symbol": "CRWD",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 47.37,
-      "close_date": "2026-11-25",
-      "rsi": 43.5,
-      "volume": 319647
+      "price": 212.99,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 211.27,
+      "or_low": 205.77,
+      "pct_over": 0.82
     },
     {
-      "symbol": "ZTS",
+      "symbol": "DE",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 82.6,
-      "close_date": "2026-11-25",
-      "rsi": 53.9,
-      "volume": 182654
+      "price": 656.75,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 653.85,
+      "or_low": 645.26,
+      "pct_over": 0.44
     },
     {
-      "symbol": "BRO",
+      "symbol": "DVN",
       "setups": [
-        "breakout_20d"
-      ],
-      "price": 78.43,
-      "close_date": "2026-11-25",
-      "rsi": 68.1,
-      "volume": 182997
-    },
-    {
-      "symbol": "OMC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 90.7,
-      "close_date": "2026-11-25",
-      "rsi": 65.5,
-      "volume": 151512
-    },
-    {
-      "symbol": "HSY",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 182.57,
-      "close_date": "2026-11-25",
-      "rsi": 63.0,
-      "volume": 74045
-    },
-    {
-      "symbol": "XYL",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 96.42,
-      "close_date": "2026-11-25",
-      "rsi": 47.2,
-      "volume": 138987
-    },
-    {
-      "symbol": "BMRN",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 68.86,
-      "close_date": "2026-11-25",
-      "rsi": 76.6,
-      "volume": 191767
-    },
-    {
-      "symbol": "BAX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 27.26,
-      "close_date": "2026-11-25",
-      "rsi": 62.5,
-      "volume": 452893
-    },
-    {
-      "symbol": "CSGP",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 34.02,
-      "close_date": "2026-11-25",
-      "rsi": 62.0,
-      "volume": 360501
-    },
-    {
-      "symbol": "ACM",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 83.43,
-      "close_date": "2026-11-25",
-      "rsi": 78.4,
-      "volume": 139922
-    },
-    {
-      "symbol": "BG",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 88.15,
-      "close_date": "2026-11-25",
-      "rsi": 34.6,
-      "volume": 131487
-    },
-    {
-      "symbol": "AMCR",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 45.42,
-      "close_date": "2026-11-25",
-      "rsi": 55.3,
-      "volume": 252562
-    },
-    {
-      "symbol": "CHRW",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 144.82,
-      "close_date": "2026-11-25",
-      "rsi": 61.4,
-      "volume": 78294
-    },
-    {
-      "symbol": "RELX",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 40.15,
-      "close_date": "2026-11-25",
-      "rsi": 57.4,
-      "volume": 277016
-    },
-    {
-      "symbol": "CMS",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 71.6,
-      "close_date": "2026-11-25",
-      "rsi": 63.1,
-      "volume": 154442
-    },
-    {
-      "symbol": "AS",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 30.91,
-      "close_date": "2026-11-25",
-      "rsi": 54.8,
-      "volume": 357250
-    },
-    {
-      "symbol": "D",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 67.99,
-      "close_date": "2026-11-25",
-      "rsi": 59.0,
-      "volume": 161369
-    },
-    {
-      "symbol": "MAA",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 117.6,
-      "close_date": "2026-11-25",
-      "rsi": 51.3,
-      "volume": 91841
-    },
-    {
-      "symbol": "COO",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 62.29,
-      "close_date": "2026-11-25",
-      "rsi": 55.0,
-      "volume": 167977
-    },
-    {
-      "symbol": "ADM",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 66.66,
-      "close_date": "2026-11-25",
-      "rsi": 33.3,
-      "volume": 151450
-    },
-    {
-      "symbol": "WEC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 119.09,
-      "close_date": "2026-11-25",
-      "rsi": 66.7,
-      "volume": 82284
-    },
-    {
-      "symbol": "HIG",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 139.78,
-      "close_date": "2026-11-25",
-      "rsi": 62.1,
-      "volume": 67957
-    },
-    {
-      "symbol": "SGI",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 63.56,
-      "close_date": "2026-11-25",
-      "rsi": 52.5,
-      "volume": 145145
-    },
-    {
-      "symbol": "EXR",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 161.39,
-      "close_date": "2026-11-25",
-      "rsi": 70.7,
-      "volume": 56282
-    },
-    {
-      "symbol": "HALO",
-      "setups": [
-        "oversold",
-        "oversold_bounce"
-      ],
-      "price": 95.11,
-      "close_date": "2026-11-25",
-      "rsi": 29.4,
-      "volume": 94426
-    },
-    {
-      "symbol": "ATO",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 173.26,
-      "close_date": "2026-11-25",
-      "rsi": 55.9,
-      "volume": 50539
-    },
-    {
-      "symbol": "MAS",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 86.93,
-      "close_date": "2026-11-25",
-      "rsi": 65.8,
-      "volume": 99919
-    },
-    {
-      "symbol": "ARMK",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 57.8,
-      "close_date": "2026-11-25",
-      "rsi": 59.8,
-      "volume": 142576
-    },
-    {
-      "symbol": "PNR",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 72.88,
-      "close_date": "2026-11-25",
-      "rsi": 72.2,
-      "volume": 112923
-    },
-    {
-      "symbol": "BAM",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 52.12,
-      "close_date": "2026-11-25",
-      "rsi": 59.1,
-      "volume": 155822
-    },
-    {
-      "symbol": "KIM",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 26.05,
-      "close_date": "2026-11-25",
-      "rsi": 69.9,
-      "volume": 309046
-    },
-    {
-      "symbol": "EFX",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 185.68,
-      "close_date": "2026-11-25",
-      "rsi": 57.0,
-      "volume": 41657
-    },
-    {
-      "symbol": "FLUT",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 70.76,
-      "close_date": "2026-11-25",
-      "rsi": 38.5,
-      "volume": 108579
-    },
-    {
-      "symbol": "BCE",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 22.18,
-      "close_date": "2026-11-25",
-      "rsi": 60.5,
-      "volume": 344913
-    },
-    {
-      "symbol": "RBA",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 97.78,
-      "close_date": "2026-11-25",
-      "rsi": 65.5,
-      "volume": 77424
-    },
-    {
-      "symbol": "AMH",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 33.39,
-      "close_date": "2026-11-25",
-      "rsi": 64.9,
-      "volume": 226483
-    },
-    {
-      "symbol": "EIX",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 63.39,
-      "close_date": "2026-11-25",
-      "rsi": 66.2,
-      "volume": 116951
-    },
-    {
-      "symbol": "SAIL",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 22.87,
-      "close_date": "2026-11-25",
-      "rsi": 61.1,
-      "volume": 307546
-    },
-    {
-      "symbol": "INVH",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 27.82,
-      "close_date": "2026-11-25",
-      "rsi": 60.8,
-      "volume": 252069
-    },
-    {
-      "symbol": "SYF",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 68.73,
-      "close_date": "2026-11-25",
-      "rsi": 35.1,
-      "volume": 100276
-    },
-    {
-      "symbol": "TAK",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 23.01,
-      "close_date": "2026-11-25",
-      "rsi": 79.3,
-      "volume": 295072
-    },
-    {
-      "symbol": "WPC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 66.83,
-      "close_date": "2026-11-25",
-      "rsi": 59.6,
-      "volume": 101535
-    },
-    {
-      "symbol": "SSNC",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 78.79,
-      "close_date": "2026-11-25",
-      "rsi": 49.2,
-      "volume": 83494
-    },
-    {
-      "symbol": "SKM",
-      "setups": [
-        "oversold_bounce"
-      ],
-      "price": 26.74,
-      "close_date": "2026-11-25",
-      "rsi": 33.2,
-      "volume": 245529
-    },
-    {
-      "symbol": "RTO",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 24.88,
-      "close_date": "2026-11-25",
-      "rsi": 69.6,
-      "volume": 247759
-    },
-    {
-      "symbol": "AHR",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 60.24,
-      "close_date": "2026-11-25",
-      "rsi": 68.6,
-      "volume": 102309
-    },
-    {
-      "symbol": "REG",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 75.52,
-      "close_date": "2026-11-25",
-      "rsi": 54.2,
-      "volume": 80748
-    },
-    {
-      "symbol": "BALL",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 67.18,
-      "close_date": "2026-11-25",
-      "rsi": 60.5,
-      "volume": 86342
-    },
-    {
-      "symbol": "BAH",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 87.91,
-      "close_date": "2026-11-25",
-      "rsi": 62.3,
-      "volume": 65833
-    },
-    {
-      "symbol": "DOC",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 20.71,
-      "close_date": "2026-11-25",
-      "rsi": 63.3,
-      "volume": 276408
-    },
-    {
-      "symbol": "WRB",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 79.34,
-      "close_date": "2026-11-25",
-      "rsi": 66.5,
-      "volume": 67785
-    },
-    {
-      "symbol": "USFD",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 111.66,
-      "close_date": "2026-11-25",
-      "rsi": 64.4,
-      "volume": 47274
-    },
-    {
-      "symbol": "ELS",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 63.21,
-      "close_date": "2026-11-25",
-      "rsi": 60.0,
-      "volume": 79339
-    },
-    {
-      "symbol": "KNX",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 62.43,
-      "close_date": "2026-11-25",
-      "rsi": 50.5,
-      "volume": 75288
-    },
-    {
-      "symbol": "ALLY",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 38.46,
-      "close_date": "2026-11-25",
-      "rsi": 52.6,
-      "volume": 114303
-    },
-    {
-      "symbol": "OHI",
-      "setups": [
-        "reclaim_ma20"
-      ],
-      "price": 47.35,
-      "close_date": "2026-11-25",
-      "rsi": 53.9,
-      "volume": 89222
-    },
-    {
-      "symbol": "FNF",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 45.19,
-      "close_date": "2026-11-25",
-      "rsi": 63.9,
-      "volume": 88998
-    },
-    {
-      "symbol": "WTRG",
-      "setups": [
-        "breakout_20d"
-      ],
-      "price": 46.23,
-      "close_date": "2026-11-25",
-      "rsi": 64.4,
-      "volume": 81416
-    },
-    {
-      "symbol": "BSY",
-      "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
       "price": 43.31,
-      "close_date": "2026-11-25",
-      "rsi": 58.9,
-      "volume": 85695
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 43.3,
+      "or_low": 42.95,
+      "pct_over": 0.02
     },
     {
-      "symbol": "BWA",
+      "symbol": "EQNR",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 50.39,
-      "close_date": "2026-11-25",
-      "rsi": 44.7,
-      "volume": 64504
+      "price": 39.26,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 39.24,
+      "or_low": 39.04,
+      "pct_over": 0.04
     },
     {
-      "symbol": "MGA",
+      "symbol": "FANG",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 63.14,
-      "close_date": "2026-11-25",
-      "rsi": 51.5,
-      "volume": 51399
+      "price": 184.39,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 184.14,
+      "or_low": 182.5,
+      "pct_over": 0.14
     },
     {
-      "symbol": "RYAN",
+      "symbol": "HAL",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 50.14,
-      "close_date": "2026-11-25",
-      "rsi": 68.3,
-      "volume": 63025
+      "price": 32.58,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 32.43,
+      "or_low": 32.03,
+      "pct_over": 0.46
     },
     {
-      "symbol": "UNM",
+      "symbol": "LNG",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 81.51,
-      "close_date": "2026-11-25",
-      "rsi": 47.7,
-      "volume": 37078
+      "price": 307.26,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 306.99,
+      "or_low": 302.2,
+      "pct_over": 0.09
     },
     {
-      "symbol": "BXP",
+      "symbol": "NTAP",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 64.02,
-      "close_date": "2026-11-25",
-      "rsi": 54.4,
-      "volume": 44874
+      "price": 169.4,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 169.33,
+      "or_low": 167.51,
+      "pct_over": 0.04
     },
     {
-      "symbol": "MAIR",
+      "symbol": "OKE",
       "setups": [
-        "reclaim_ma20"
+        "orb"
       ],
-      "price": 23.4,
-      "close_date": "2026-11-25",
-      "rsi": 49.9,
-      "volume": 97858
+      "price": 88.24,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 87.84,
+      "or_low": 87.0,
+      "pct_over": 0.45
     },
     {
-      "symbol": "JAN",
+      "symbol": "P",
       "setups": [
-        "breakout_20d"
+        "orb"
       ],
-      "price": 33.83,
-      "close_date": "2026-11-25",
-      "rsi": 69.2,
-      "volume": 49204
+      "price": 99.75,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 99.66,
+      "or_low": 96.95,
+      "pct_over": 0.09
+    },
+    {
+      "symbol": "PANW",
+      "setups": [
+        "orb"
+      ],
+      "price": 352.79,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 351.81,
+      "or_low": 338.57,
+      "pct_over": 0.28
+    },
+    {
+      "symbol": "PINS",
+      "setups": [
+        "orb"
+      ],
+      "price": 20.58,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 20.53,
+      "or_low": 19.81,
+      "pct_over": 0.27
+    },
+    {
+      "symbol": "SHEL",
+      "setups": [
+        "orb"
+      ],
+      "price": 95.86,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 95.66,
+      "or_low": 95.42,
+      "pct_over": 0.2
+    },
+    {
+      "symbol": "SLB",
+      "setups": [
+        "orb"
+      ],
+      "price": 49.66,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 49.65,
+      "or_low": 49.38,
+      "pct_over": 0.03
+    },
+    {
+      "symbol": "SWKS",
+      "setups": [
+        "orb"
+      ],
+      "price": 85.81,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 84.97,
+      "or_low": 83.42,
+      "pct_over": 0.99
+    },
+    {
+      "symbol": "VZ",
+      "setups": [
+        "orb"
+      ],
+      "price": 47.58,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 47.56,
+      "or_low": 47.14,
+      "pct_over": 0.04
+    },
+    {
+      "symbol": "ZM",
+      "setups": [
+        "orb"
+      ],
+      "price": 91.84,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 91.83,
+      "or_low": 88.99,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "ZS",
+      "setups": [
+        "orb"
+      ],
+      "price": 235.32,
+      "at": "9:55 AM",
+      "bar_start": "09:50",
+      "bar_index": 4,
+      "or_high": 233.18,
+      "or_low": 227.04,
+      "pct_over": 0.92
+    },
+    {
+      "symbol": "IP",
+      "setups": [
+        "orb"
+      ],
+      "price": 32.83,
+      "at": "10:00 AM",
+      "bar_start": "09:55",
+      "bar_index": 5,
+      "or_high": 32.78,
+      "or_low": 32.1,
+      "pct_over": 0.17
+    },
+    {
+      "symbol": "ADSK",
+      "setups": [
+        "orb"
+      ],
+      "price": 250.0,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 249.99,
+      "or_low": 244.85,
+      "pct_over": 0.0
+    },
+    {
+      "symbol": "DECK",
+      "setups": [
+        "orb"
+      ],
+      "price": 86.9,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 86.67,
+      "or_low": 85.81,
+      "pct_over": 0.27
+    },
+    {
+      "symbol": "DELL",
+      "setups": [
+        "orb"
+      ],
+      "price": 311.3,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 308.97,
+      "or_low": 297.1,
+      "pct_over": 0.75
+    },
+    {
+      "symbol": "GPN",
+      "setups": [
+        "orb"
+      ],
+      "price": 97.35,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 97.19,
+      "or_low": 95.71,
+      "pct_over": 0.16
+    },
+    {
+      "symbol": "MO",
+      "setups": [
+        "orb"
+      ],
+      "price": 76.06,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 75.57,
+      "or_low": 74.3,
+      "pct_over": 0.65
+    },
+    {
+      "symbol": "MRSH",
+      "setups": [
+        "orb"
+      ],
+      "price": 217.58,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 217.57,
+      "or_low": 215.49,
+      "pct_over": 0.0
+    },
+    {
+      "symbol": "TEL",
+      "setups": [
+        "orb"
+      ],
+      "price": 216.45,
+      "at": "10:05 AM",
+      "bar_start": "10:00",
+      "bar_index": 6,
+      "or_high": 216.21,
+      "or_low": 212.96,
+      "pct_over": 0.11
+    },
+    {
+      "symbol": "ALC",
+      "setups": [
+        "orb"
+      ],
+      "price": 78.12,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 78.03,
+      "or_low": 77.36,
+      "pct_over": 0.12
+    },
+    {
+      "symbol": "AMZN",
+      "setups": [
+        "orb"
+      ],
+      "price": 250.98,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 250.96,
+      "or_low": 248.45,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "EQT",
+      "setups": [
+        "orb"
+      ],
+      "price": 52.21,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 52.19,
+      "or_low": 51.65,
+      "pct_over": 0.04
+    },
+    {
+      "symbol": "ETR",
+      "setups": [
+        "orb"
+      ],
+      "price": 108.12,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 108.1,
+      "or_low": 107.49,
+      "pct_over": 0.02
+    },
+    {
+      "symbol": "GILD",
+      "setups": [
+        "orb"
+      ],
+      "price": 176.18,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 176.09,
+      "or_low": 174.01,
+      "pct_over": 0.05
+    },
+    {
+      "symbol": "GNRC",
+      "setups": [
+        "orb"
+      ],
+      "price": 209.74,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 209.5,
+      "or_low": 207.51,
+      "pct_over": 0.11
+    },
+    {
+      "symbol": "LIN",
+      "setups": [
+        "orb"
+      ],
+      "price": 530.04,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 530.0,
+      "or_low": 524.35,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "MDLN",
+      "setups": [
+        "orb"
+      ],
+      "price": 41.08,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 40.99,
+      "or_low": 40.47,
+      "pct_over": 0.22
+    },
+    {
+      "symbol": "NEE",
+      "setups": [
+        "orb"
+      ],
+      "price": 84.96,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 84.95,
+      "or_low": 84.32,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "NVO",
+      "setups": [
+        "orb"
+      ],
+      "price": 41.03,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 40.96,
+      "or_low": 40.58,
+      "pct_over": 0.16
+    },
+    {
+      "symbol": "PTC",
+      "setups": [
+        "orb"
+      ],
+      "price": 196.54,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 196.52,
+      "or_low": 196.25,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "RRC",
+      "setups": [
+        "orb"
+      ],
+      "price": 51.36,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 51.35,
+      "or_low": 50.82,
+      "pct_over": 0.01
+    },
+    {
+      "symbol": "SBUX",
+      "setups": [
+        "orb"
+      ],
+      "price": 108.9,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 108.88,
+      "or_low": 107.75,
+      "pct_over": 0.02
+    },
+    {
+      "symbol": "SNY",
+      "setups": [
+        "orb"
+      ],
+      "price": 53.6,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 53.57,
+      "or_low": 53.04,
+      "pct_over": 0.06
+    },
+    {
+      "symbol": "TOST",
+      "setups": [
+        "orb"
+      ],
+      "price": 34.57,
+      "at": "10:10 AM",
+      "bar_start": "10:05",
+      "bar_index": 7,
+      "or_high": 34.48,
+      "or_low": 33.85,
+      "pct_over": 0.26
+    },
+    {
+      "symbol": "AVGO",
+      "setups": [
+        "orb"
+      ],
+      "price": 309.41,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 309.3,
+      "or_low": 304.75,
+      "pct_over": 0.03
+    },
+    {
+      "symbol": "AXON",
+      "setups": [
+        "orb"
+      ],
+      "price": 362.51,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 361.06,
+      "or_low": 351.05,
+      "pct_over": 0.4
+    },
+    {
+      "symbol": "COHR",
+      "setups": [
+        "orb"
+      ],
+      "price": 215.41,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 214.33,
+      "or_low": 208.19,
+      "pct_over": 0.51
+    },
+    {
+      "symbol": "EOG",
+      "setups": [
+        "orb"
+      ],
+      "price": 151.02,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 150.99,
+      "or_low": 149.89,
+      "pct_over": 0.02
+    },
+    {
+      "symbol": "HPQ",
+      "setups": [
+        "orb"
+      ],
+      "price": 31.56,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 31.43,
+      "or_low": 30.06,
+      "pct_over": 0.41
+    },
+    {
+      "symbol": "IBM",
+      "setups": [
+        "orb"
+      ],
+      "price": 246.95,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 246.78,
+      "or_low": 244.27,
+      "pct_over": 0.07
+    },
+    {
+      "symbol": "IONQ",
+      "setups": [
+        "orb"
+      ],
+      "price": 25.06,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 24.95,
+      "or_low": 24.16,
+      "pct_over": 0.46
+    },
+    {
+      "symbol": "NKE",
+      "setups": [
+        "orb"
+      ],
+      "price": 37.12,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 37.07,
+      "or_low": 36.57,
+      "pct_over": 0.12
+    },
+    {
+      "symbol": "NXPI",
+      "setups": [
+        "orb"
+      ],
+      "price": 250.94,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 249.33,
+      "or_low": 244.91,
+      "pct_over": 0.65
+    },
+    {
+      "symbol": "NXT",
+      "setups": [
+        "orb"
+      ],
+      "price": 73.43,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 73.31,
+      "or_low": 71.12,
+      "pct_over": 0.16
+    },
+    {
+      "symbol": "QCOM",
+      "setups": [
+        "orb"
+      ],
+      "price": 176.28,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 174.34,
+      "or_low": 170.37,
+      "pct_over": 1.11
+    },
+    {
+      "symbol": "SNDK",
+      "setups": [
+        "orb"
+      ],
+      "price": 81.21,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 79.92,
+      "or_low": 77.1,
+      "pct_over": 1.61
+    },
+    {
+      "symbol": "XOM",
+      "setups": [
+        "orb"
+      ],
+      "price": 160.89,
+      "at": "10:15 AM",
+      "bar_start": "10:10",
+      "bar_index": 8,
+      "or_high": 160.79,
+      "or_low": 159.59,
+      "pct_over": 0.06
     }
   ]
 }

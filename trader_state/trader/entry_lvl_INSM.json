@@ -3,20 +3,20 @@
   "symbol": "INSM",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-25",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 170.61,
+  "date": "2026-11-27",
+  "status": "triggered",
+  "time": "9:45 AM",
+  "bar_start": "09:40",
+  "bar_index": 2,
+  "price": 170.64,
+  "level": 170.47,
   "interval": "5m",
   "opening_range": {
-    "high": 170.35,
-    "low": 170.1,
+    "high": 170.66,
+    "low": 170.25,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-25T15:24:16Z",
-  "reason": "last close $170.25 (10:15 bar), $0.36 under the level $170.61 (-0.21%)"
+  "checked_at": "2026-11-27T15:23:53Z",
+  "reason": "the 9:40 bar closed above the level"
 }

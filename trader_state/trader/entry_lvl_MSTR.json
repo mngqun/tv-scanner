@@ -3,20 +3,20 @@
   "symbol": "MSTR",
   "setup": "level",
   "side": "buy",
-  "date": "2026-11-18",
-  "status": "waiting",
-  "time": null,
-  "bar_start": null,
-  "bar_index": null,
-  "price": null,
-  "level": 103.76,
+  "date": "2026-11-27",
+  "status": "triggered",
+  "time": "10:15 AM",
+  "bar_start": "10:10",
+  "bar_index": 8,
+  "price": 81.33,
+  "level": 81.02,
   "interval": "5m",
   "opening_range": {
-    "high": 95.51,
-    "low": 91.2,
+    "high": 84.67,
+    "low": 78.85,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-18T15:23:59Z",
-  "reason": "last close $93.56 (10:15 bar), $10.20 under the level $103.76 (-9.83%)"
+  "checked_at": "2026-11-27T15:23:55Z",
+  "reason": "the 10:10 bar closed above the level"
 }
