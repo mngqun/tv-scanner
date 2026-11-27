@@ -3,8 +3,179 @@
  "close": "13:00",
  "ticks": [
   "09:07",
-  "09:22"
+  "09:22",
+  "09:37"
  ],
  "queue_done": [],
- "log": []
+ "log": [
+  "[B] placed rulec short YPF x29 market stop 37.04 tgt None -> 200 ",
+  "[B] placed rulec short AEM x5 market stop 187.32 tgt None -> 200 "
+ ],
+ "placed": [
+  {
+   "id": "rulec-B-2026-11-27-YPF",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "YPF",
+   "side": "short",
+   "qty": 29,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  },
+  {
+   "id": "rulec-B-2026-11-27-AEM",
+   "account": "B",
+   "arm": "rulec",
+   "symbol": "AEM",
+   "side": "short",
+   "qty": 5,
+   "status": "placed",
+   "http": 200,
+   "message": null,
+   "placed_at": "09:37"
+  }
+ ],
+ "rulec": {
+  "at": "09:37",
+  "candidates": [
+   {
+    "symbol": "YPF",
+    "open": 33.62,
+    "prev_close": 31.450000762939453,
+    "atr": 1.7086,
+    "gap_pct": 6.9,
+    "gap_atr": 1.27,
+    "sector": "Energy Minerals"
+   },
+   {
+    "symbol": "AEM",
+    "open": 170.0,
+    "prev_close": 161.1999969482422,
+    "atr": 8.6593,
+    "gap_pct": 5.46,
+    "gap_atr": 1.016,
+    "sector": "Non-Energy Minerals"
+   }
+  ],
+  "rejected": [
+   {
+    "symbol": "SNDK",
+    "why": "gap -15.33% / -1.12 ATR"
+   },
+   {
+    "symbol": "LITE",
+    "why": "gap 8.02% / 0.60 ATR"
+   },
+   {
+    "symbol": "COHR",
+    "why": "gap 7.64% / 0.54 ATR"
+   },
+   {
+    "symbol": "MRVL",
+    "why": "gap 6.48% / 0.56 ATR"
+   },
+   {
+    "symbol": "ARM",
+    "why": "gap 5.99% / 0.55 ATR"
+   },
+   {
+    "symbol": "LSCC",
+    "why": "gap 4.51% / 0.45 ATR"
+   },
+   {
+    "symbol": "NBIS",
+    "why": "gap 5.51% / 0.26 ATR"
+   },
+   {
+    "symbol": "CBRS",
+    "why": "gap 5.62% / 0.43 ATR"
+   },
+   {
+    "symbol": "MSTR",
+    "why": "gap 5.76% / 0.57 ATR"
+   },
+   {
+    "symbol": "ENTG",
+    "why": "gap 2.96% / 0.29 ATR"
+   },
+   {
+    "symbol": "FTI",
+    "why": "gap 2.01% / 0.54 ATR"
+   },
+   {
+    "symbol": "NVT",
+    "why": "gap 4.66% / 0.61 ATR"
+   },
+   {
+    "symbol": "TSEM",
+    "why": "gap 6.09% / 0.51 ATR"
+   },
+   {
+    "symbol": "BE",
+    "why": "gap 5.52% / 0.40 ATR"
+   },
+   {
+    "symbol": "ASX",
+    "why": "gap 4.95% / 0.46 ATR"
+   },
+   {
+    "symbol": "CCJ",
+    "why": "gap 4.79% / 0.83 ATR"
+   },
+   {
+    "symbol": "APP",
+    "why": "gap 4.86% / 0.72 ATR"
+   },
+   {
+    "symbol": "PAAS",
+    "why": "gap 5.07% / 0.87 ATR"
+   },
+   {
+    "symbol": "RKLB",
+    "why": "gap 5.19% / 0.43 ATR"
+   },
+   {
+    "symbol": "IONQ",
+    "why": "gap 5.18% / 0.40 ATR"
+   },
+   {
+    "symbol": "TER",
+    "why": "gap 4.64% / 0.43 ATR"
+   },
+   {
+    "symbol": "FLEX",
+    "why": "gap 5.35% / 0.51 ATR"
+   },
+   {
+    "symbol": "NXT",
+    "why": "gap 5.42% / 0.55 ATR"
+   },
+   {
+    "symbol": "ALAB",
+    "why": "gap 5.08% / 0.39 ATR"
+   },
+   {
+    "symbol": "HOOD",
+    "why": "gap 4.93% / 0.66 ATR"
+   },
+   {
+    "symbol": "SKHY",
+    "why": "gap 5.11% / 0.49 ATR"
+   },
+   {
+    "symbol": "LRCX",
+    "why": "gap 4.56% / 0.45 ATR"
+   },
+   {
+    "symbol": "MTSI",
+    "why": "gap 4.94% / 0.44 ATR"
+   }
+  ],
+  "placed": [
+   "YPF",
+   "AEM"
+  ]
+ }
 }
